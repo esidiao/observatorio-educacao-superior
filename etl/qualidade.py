@@ -102,13 +102,15 @@ def main():
 
     areas_planilha = {norm(a) for a in df["area"].dropna().unique()}
 
+    fora_do_ciclo = 0
     for curso in catalogo:
-        alvo = norm(curso["nome"])
-        # Match exato da área de avaliação — mesma disciplina do rótulo CINE:
-        # "MEDICINA" por substring capturaria "BIOMEDICINA" e "MEDICINA VETERINARIA".
-        if alvo not in areas_planilha:
-            print(f"[CURSO] {curso['nome']}: fora do ciclo desta planilha — "
-                  f"qualidade fica nula (IAF não será calculado).")
+        # A área de avaliação vem declarada no catálogo (etl/catalogo.py faz a tradução
+        # CINE → CPC uma vez só). Casar aqui pelo nome do curso não serve: a planilha usa
+        # outra nomenclatura ("TECNOLOGIA EM RADIOLOGIA" para o rótulo "Radiologia"), e
+        # match por substring capturaria "BIOMEDICINA" a partir de "MEDICINA".
+        alvo = norm(curso["cpc_area"]) if curso.get("cpc_area") else None
+        if alvo is None or alvo not in areas_planilha:
+            fora_do_ciclo += 1
             continue
 
         # Vagas dos cursos avaliados: join pelo código de curso com o Censo.
@@ -166,7 +168,9 @@ def main():
         print(f"[CURSO] {curso['nome']}: {len(por_uf)} UFs · "
               f"{len(sub)} cursos avaliados.")
 
-    print("\n[OK] Qualidade ingerida.")
+    print(f"\n[OK] Qualidade ingerida. {fora_do_ciclo} cursos fora do ciclo desta "
+          f"planilha — qualidade nula e IAF não calculado, como esperado do rodízio "
+          f"trienal do ENADE.")
 
 
 if __name__ == "__main__":

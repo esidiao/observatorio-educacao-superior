@@ -9,6 +9,22 @@ Lê data/cursos/<slug>/nacional.json e produz site/dist/ com:
     metodologia.html                  fontes, fórmulas e limites de leitura
     curso/<slug>/index.html           panorama do curso
     curso/<slug>/uf/<UF>.html         detalhe por unidade federativa
+    static/js/cursos.js               catálogo de navegação (window.CURSOS)
+    static/js/comparacao.js           matriz curso × recorte (window.COMPARACAO)
+
+Com centenas de cursos no catálogo, duas coisas deixam de caber na forma ingênua:
+
+  · a lista de cursos no cabeçalho. Repetida em cada uma das ~10 mil páginas, ela
+    sozinha pesaria mais que todo o resto do site. Vai para `static/js/cursos.js`,
+    um arquivo só, carregado por <script> (funciona em file://, ao contrário de
+    fetch) e reaproveitado do cache em toda navegação.
+  · a matriz de comparação. Em JSON de objetos, os nomes dos campos se repetiriam
+    uma vez por curso e por UF. Vai colunar: uma lista de campos e, por recorte,
+    um vetor de valores na mesma ordem.
+
+O build também processa um curso por vez: manter todos os `nacional.json` e os
+municípios de 353 cursos em memória ao mesmo tempo custaria centenas de MB sem
+necessidade.
 """
 import json
 import shutil
@@ -85,27 +101,27 @@ def agregar_nacional(ufs):
     return total
 
 
-def carregar_cursos():
-    with open(DATA / "cursos.json", encoding="utf-8") as f:
-        catalogo = json.load(f)["cursos"]
+def carregar_curso(c):
+    """Carrega dados + municípios de um curso. None se o ETL ainda não o produziu."""
+    caminho = DATA / "cursos" / c["slug"] / "nacional.json"
+    if not caminho.exists():
+        return None
+    with open(caminho, encoding="utf-8") as f:
+        dados = json.load(f)
+    municipios = {}
+    dir_mun = DATA / "cursos" / c["slug"] / "municipios"
+    if dir_mun.exists():
+        for arq in dir_mun.glob("*.json"):
+            with open(arq, encoding="utf-8") as f:
+                municipios[arq.stem] = json.load(f)
+    return {**c, "dados": dados, "municipios": municipios,
+            "total": agregar_nacional(dados["ufs"])}
 
-    cursos = []
-    for c in catalogo:
-        caminho = DATA / "cursos" / c["slug"] / "nacional.json"
-        if not caminho.exists():
-            print(f"[PULADO] {c['nome']}: nacional.json ausente.")
-            continue
-        with open(caminho, encoding="utf-8") as f:
-            dados = json.load(f)
-        municipios = {}
-        dir_mun = DATA / "cursos" / c["slug"] / "municipios"
-        if dir_mun.exists():
-            for arq in dir_mun.glob("*.json"):
-                with open(arq, encoding="utf-8") as f:
-                    municipios[arq.stem] = json.load(f)
-        cursos.append({**c, "dados": dados, "municipios": municipios,
-                       "total": agregar_nacional(dados["ufs"])})
-    return cursos
+
+def campos_comparaveis(registro):
+    """Campos escalares de um registro de UF — o que a comparação sabe confrontar."""
+    return [k for k, v in registro.items()
+            if not k.startswith("_") and not isinstance(v, (dict, list))]
 
 
 def _fmt(valor, casas):
@@ -128,26 +144,38 @@ def main():
         pct=lambda v: None if v is None else f"{v * 100:.1f}".replace(".", ",") + "%",
     )
 
-    cursos = carregar_cursos()
-    if not cursos:
-        raise SystemExit("[ERRO] Nenhum curso com dados. Rode o pipeline do ETL antes.")
+    with open(DATA / "cursos.json", encoding="utf-8") as f:
+        catalogo = json.load(f)["cursos"]
 
-    versao_censo = cursos[0]["dados"]["metadados"]["versao_censo"]
     data_extracao = str(date.today())
-    lista_cursos = [{"slug": c["slug"], "nome": c["nome"]} for c in cursos]
-    ctx_base = {"cursos": lista_cursos, "versao_censo": versao_censo,
-                "data_extracao": data_extracao}
+    versao_censo = None
+    # Acumuladores enxutos: só o que as páginas-índice precisam, nunca os dados
+    # completos de todos os cursos ao mesmo tempo.
+    resumo, cursos_meta, comparacao, campos = [], [], {}, None
+    ufs_disponiveis, agregado = set(), {"vagas_total": 0, "matriculas": 0, "n_cursos": 0}
+    pulados = []
+
+    tpl_curso = env.get_template("curso.html.j2")
+    tpl_uf = env.get_template("uf.html.j2")
 
     # ── Páginas por curso ────────────────────────────────────────────────────
-    for c in cursos:
+    for i, entrada in enumerate(catalogo, 1):
+        c = carregar_curso(entrada)
+        if c is None:
+            pulados.append(entrada["slug"])
+            continue
+
         meta = c["dados"]["metadados"]
         ufs = c["dados"]["ufs"]
         tem_qualidade = any(u.get("ENADE") is not None for u in ufs.values())
+        if versao_censo is None:
+            versao_censo = meta["versao_censo"]
+        ctx_base = {"versao_censo": versao_censo, "data_extracao": data_extracao}
 
         destino = DIST / "curso" / c["slug"]
         (destino / "uf").mkdir(parents=True, exist_ok=True)
 
-        html = env.get_template("curso.html.j2").render(
+        html = tpl_curso.render(
             **ctx_base, depth="../../", curso_atual=c["slug"],
             meta=meta, total=c["total"], tem_qualidade=tem_qualidade,
             dados_json=json.dumps(ufs, ensure_ascii=False),
@@ -155,66 +183,99 @@ def main():
         (destino / "index.html").write_text(html, encoding="utf-8")
 
         for sigla, d in ufs.items():
-            html_uf = env.get_template("uf.html.j2").render(
+            html_uf = tpl_uf.render(
                 **ctx_base, depth="../../../", curso_atual=c["slug"],
                 meta=meta, sigla=sigla, nome_uf=NOME_UF[sigla], d=d,
                 municipios=c["municipios"].get(sigla, []),
                 dados_uf_json=json.dumps(d, ensure_ascii=False))
             (destino / "uf" / f"{sigla}.html").write_text(html_uf, encoding="utf-8")
 
-        print(f"[OK] curso/{c['slug']}/ — 1 panorama + {len(ufs)} UFs")
+        # Matriz de comparação, colunar. Os campos vêm do primeiro curso lido e
+        # valem para todos: o consolidador grava o mesmo conjunto em toda UF.
+        if campos is None:
+            campos = campos_comparaveis(c["total"])
+        recortes = {"BR": c["total"], **ufs}
+        comparacao[c["slug"]] = {r: [d.get(k) for k in campos]
+                                 for r, d in recortes.items()}
+        ufs_disponiveis.update(ufs)
+
+        resumo.append({
+            "slug": c["slug"], "nome": c["nome"], "area_cine": c["area_cine"],
+            "area_especifica": c.get("area_especifica"), "graus": c.get("graus") or [],
+            "vagas_total": c["total"]["vagas_total"],
+            "pct_ead": c["total"]["pct_ead"],
+            "municipios_oferta": c["total"]["municipios_oferta"],
+            "n_ufs": len(ufs),
+            "tem_qualidade": tem_qualidade,
+        })
+        cursos_meta.append({"nome": c["nome"], "ciclo_enade": meta.get("ciclo_enade"),
+                            "tem_qualidade": tem_qualidade})
+        agregado["vagas_total"] += c["total"]["vagas_total"] or 0
+        agregado["matriculas"] += c["total"]["matriculas"] or 0
+        agregado["n_cursos"] += 1
+
+        if i % 25 == 0 or i == len(catalogo):
+            print(f"[CURSO] {i}/{len(catalogo)} — última: {c['slug']} ({len(ufs)} UFs)")
+
+    if not resumo:
+        raise SystemExit("[ERRO] Nenhum curso com dados. Rode o pipeline do ETL antes.")
+    if pulados:
+        print(f"[PULADOS] {len(pulados)} cursos sem nacional.json: "
+              f"{', '.join(pulados[:8])}{' …' if len(pulados) > 8 else ''}")
+
+    ctx_base = {"versao_censo": versao_censo, "data_extracao": data_extracao}
+    resumo.sort(key=lambda r: -(r["vagas_total"] or 0))
+    ufs_disponiveis = sorted(ufs_disponiveis)
+
+    # ── Estáticos ────────────────────────────────────────────────────────────
+    shutil.copytree(SITE / "static", DIST / "static")
+
+    # Catálogo de navegação: um arquivo para todo o site, em vez de repetir a
+    # lista de cursos no cabeçalho de cada página.
+    nav = [{"s": r["slug"], "n": r["nome"], "a": r["area_cine"], "v": r["vagas_total"]}
+           for r in resumo]
+    (DIST / "static" / "js" / "cursos.js").write_text(
+        "window.CURSOS=" + json.dumps(nav, ensure_ascii=False, separators=(",", ":")) + ";",
+        encoding="utf-8")
+    print(f"[OK] static/js/cursos.js — {len(nav)} cursos")
 
     # ── Comparação entre cursos ──────────────────────────────────────────────
-    comparacao = {}
-    for c in cursos:
-        comparacao[c["slug"]] = {"BR": c["total"], **c["dados"]["ufs"]}
-    ufs_disponiveis = sorted({uf for c in cursos for uf in c["dados"]["ufs"]})
-
+    (DIST / "static" / "js" / "comparacao.js").write_text(
+        "window.COMPARACAO=" + json.dumps(
+            {"campos": campos, "dados": comparacao},
+            ensure_ascii=False, separators=(",", ":")) + ";",
+        encoding="utf-8")
     html = env.get_template("comparar-cursos.html.j2").render(
         **ctx_base, depth="", curso_atual=None,
-        cursos_json=json.dumps(lista_cursos, ensure_ascii=False),
-        comparacao_json=json.dumps(comparacao, ensure_ascii=False),
         ufs_json=json.dumps(ufs_disponiveis, ensure_ascii=False))
     (DIST / "comparar-cursos.html").write_text(html, encoding="utf-8")
-    print(f"[OK] comparar-cursos.html — {len(cursos)} cursos × {len(ufs_disponiveis) + 1} recortes")
+    tam = (DIST / "static" / "js" / "comparacao.js").stat().st_size / 1024 / 1024
+    print(f"[OK] comparar-cursos.html — {len(comparacao)} cursos × "
+          f"{len(ufs_disponiveis) + 1} recortes × {len(campos)} campos "
+          f"({tam:.1f} MB em static/js/comparacao.js)")
 
     # ── Home ─────────────────────────────────────────────────────────────────
-    resumo = [{
-        "slug": c["slug"], "nome": c["nome"], "area_cine": c["area_cine"],
-        "vagas_total": c["total"]["vagas_total"],
-        "pct_ead": c["total"]["pct_ead"],
-        "municipios_oferta": c["total"]["municipios_oferta"],
-        "tem_qualidade": any(u.get("ENADE") is not None for u in c["dados"]["ufs"].values()),
-    } for c in cursos]
-
-    agregado = {
-        "vagas_total": sum(c["total"]["vagas_total"] or 0 for c in cursos),
-        "matriculas": sum(c["total"]["matriculas"] or 0 for c in cursos),
-        "n_cursos": len(cursos),
-    }
+    por_area = {}
+    for r in resumo:
+        por_area.setdefault(r["area_cine"] or "Sem área declarada", []).append(r)
+    areas = sorted(por_area.items(),
+                   key=lambda kv: -sum(x["vagas_total"] or 0 for x in kv[1]))
 
     html = env.get_template("index.html.j2").render(
         **ctx_base, depth="", curso_atual=None,
-        resumo_cursos=resumo, agregado=agregado)
+        resumo_cursos=resumo, areas=areas, agregado=agregado)
     (DIST / "index.html").write_text(html, encoding="utf-8")
     print("[OK] index.html")
 
     # ── Metodologia ──────────────────────────────────────────────────────────
-    cursos_meta = [{
-        "nome": c["nome"],
-        "ciclo_enade": c["dados"]["metadados"].get("ciclo_enade"),
-        "tem_qualidade": any(u.get("ENADE") is not None for u in c["dados"]["ufs"].values()),
-    } for c in cursos]
     html = env.get_template("metodologia.html.j2").render(
         **ctx_base, depth="", curso_atual=None, cursos_meta=cursos_meta)
     (DIST / "metodologia.html").write_text(html, encoding="utf-8")
     print("[OK] metodologia.html")
 
-    # ── Estáticos ────────────────────────────────────────────────────────────
-    shutil.copytree(SITE / "static", DIST / "static")
-
     paginas = list(DIST.rglob("*.html"))
-    print(f"\n[BUILD] {len(paginas)} páginas em {DIST}")
+    peso = sum(p.stat().st_size for p in DIST.rglob("*") if p.is_file()) / 1024 / 1024
+    print(f"\n[BUILD] {len(paginas)} páginas · {peso:.1f} MB em {DIST}")
 
 
 if __name__ == "__main__":

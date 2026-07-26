@@ -55,17 +55,22 @@
   <span style="font-size:0.78rem;color:var(--text-muted)">Dados: {{ data_extracao }}</span>
 </nav>
 
-{% if cursos|length > 1 %}
+{# O seletor é montado por JS a partir de window.CURSOS (static/js/cursos.js).
+   Listar centenas de cursos no HTML de cada página pesaria mais que o site inteiro. #}
 <div class="seletor-curso" aria-label="Selecionar curso">
   <span class="seletor-curso-rotulo">Curso:</span>
-  {% for c in cursos %}
-  <a href="{{ depth }}curso/{{ c.slug }}/index.html"
-     class="curso-chip{% if curso_atual and c.slug == curso_atual %} ativo{% endif %}">{{ c.nome }}</a>
-  {% endfor %}
+  <div class="curso-busca">
+    <input type="search" id="curso-busca" autocomplete="off" role="combobox"
+           aria-expanded="false" aria-controls="curso-sugestoes"
+           placeholder="Buscar entre os cursos do Censo…" aria-label="Buscar curso">
+    <ul id="curso-sugestoes" class="curso-sugestoes" role="listbox" hidden></ul>
+  </div>
+  <span id="curso-atual-chip" class="curso-chip ativo" hidden></span>
   <span style="flex:1"></span>
+  <a href="{{ depth }}index.html#catalogo" class="curso-chip">Todos os cursos</a>
   <a href="{{ depth }}comparar-cursos.html" class="curso-chip comparar"><svg class="ic"><use href="#i-swap"/></svg> Comparar</a>
 </div>
-{% endif %}
+<script>window.DEPTH = {{ depth | tojson }}; window.CURSO_ATUAL = {{ curso_atual | tojson }};</script>
 
 <main>
   {% block content %}{% endblock %}
@@ -92,8 +97,10 @@
   </p>
 </footer>
 
+<script src="{{ depth }}static/js/cursos.js"></script>
 <script src="{{ depth }}static/js/app.js"></script>
 <script src="{{ depth }}static/js/glossario.js"></script>
+<script src="{{ depth }}static/js/seletor-curso.js"></script>
 {% block scripts %}{% endblock %}
 </body>
 </html>

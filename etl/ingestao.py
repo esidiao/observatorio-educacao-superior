@@ -156,12 +156,11 @@ def agregar_municipios(presencial):
     return sorted(saida, key=lambda m: -m["vagas_total"])
 
 
-def processar_curso(df, curso, uf_da_ies):
-    """Filtra o dataframe para um curso (match exato no rótulo CINE) e agrega por UF."""
-    rotulo = curso["cine_rotulo"]
-    sub = df[df["NO_CINE_ROTULO"] == rotulo]
-    if sub.empty:
-        print(f"  [AVISO] Nenhum registro para rótulo CINE '{rotulo}'. Curso ignorado.")
+def processar_curso(sub, curso, uf_da_ies):
+    """Agrega por UF as linhas já filtradas de um curso (match exato no rótulo CINE)."""
+    if sub is None or sub.empty:
+        print(f"  [AVISO] Nenhum registro para rótulo CINE "
+              f"'{curso['cine_rotulo']}'. Curso ignorado.")
         return None, None
 
     presencial = sub[sub["TP_MODALIDADE_ENSINO"] == MOD_PRESENCIAL].copy()
@@ -232,9 +231,14 @@ def main():
     ano_censo = str(df["NU_ANO_CENSO"].iloc[0])
     print(f"[INFO] {len(df)} linhas · Censo {ano_censo}")
 
-    for curso in catalogo:
-        print(f"\n[CURSO] {curso['nome']} (CINE: {curso['cine_rotulo']})")
-        ufs, municipios = processar_curso(df, curso, uf_da_ies)
+    # Agrupa uma vez só: com centenas de cursos no catálogo, refiltrar o dataframe
+    # inteiro por rótulo a cada volta custaria uma varredura de 720 mil linhas por curso.
+    grupos = dict(list(df.groupby("NO_CINE_ROTULO")))
+
+    for i, curso in enumerate(catalogo, 1):
+        print(f"\n[CURSO {i}/{len(catalogo)}] {curso['nome']} (CINE: {curso['cine_rotulo']})")
+        sub = grupos.get(curso["cine_rotulo"])
+        ufs, municipios = processar_curso(sub, curso, uf_da_ies)
         if ufs is None:
             continue
 
