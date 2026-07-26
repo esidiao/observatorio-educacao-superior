@@ -13,9 +13,21 @@ from pathlib import Path
 
 REPO = Path(__file__).parent.parent
 DATA = REPO / "data"
+sys.path.insert(0, str(REPO / "etl"))
+from referencias import MUN_TOTAL_UF  # noqa: E402
 
 UFS_ESPERADAS = 27
 MUNICIPIOS_BRASIL = 5570
+
+# Âncoras de regressão: valores conferidos à mão na fonte. Se um refactor mexer
+# na modelagem sem querer, é aqui que aparece — um número plausível porém errado
+# passa despercebido em qualquer outro teste.
+ANCORAS = {
+    "farmacia": {"vagas_total": 417010, "ufs": 27},
+    # Medicina não tem EaD: o curso é presencial por exigência regulatória, e um
+    # valor não-nulo aqui denunciaria contaminação entre camadas do Censo.
+    "medicina": {"vagas_ead": 0, "ufs": 27},
+}
 
 falhas = []
 
@@ -56,11 +68,23 @@ def test_curso(curso):
         return
 
     ufs = dados["ufs"]
-    checar(len(ufs) == UFS_ESPERADAS, f"{slug}: {len(ufs)} UFs (esperado {UFS_ESPERADAS})")
+    # Cobertura parcial é legítima: a maioria dos rótulos CINE do Censo existe em
+    # poucas UFs, e alguns numa só. O que não pode é UF inventada ou repetida.
+    checar(1 <= len(ufs) <= UFS_ESPERADAS,
+           f"{slug}: {len(ufs)} UFs (esperado entre 1 e {UFS_ESPERADAS})")
+    desconhecidas = sorted(set(ufs) - set(MUN_TOTAL_UF))
+    checar(not desconhecidas, f"{slug}: UFs fora da malha oficial: {desconhecidas}")
 
+    # O fechamento territorial vale sobre as UFs presentes, não sobre o país
+    # inteiro — só um curso ofertado nas 27 fecha em 5.570.
     soma_mun = sum(u["municipios_total"] for u in ufs.values())
-    checar(soma_mun == MUNICIPIOS_BRASIL,
-           f"{slug}: soma de municípios = {soma_mun} (esperado {MUNICIPIOS_BRASIL})")
+    esperado = sum(MUN_TOTAL_UF[uf] for uf in ufs if uf in MUN_TOTAL_UF)
+    checar(soma_mun == esperado,
+           f"{slug}: soma de municípios = {soma_mun} (esperado {esperado} "
+           f"para as {len(ufs)} UFs presentes)")
+    if len(ufs) == UFS_ESPERADAS:
+        checar(soma_mun == MUNICIPIOS_BRASIL,
+               f"{slug}: curso em 27 UFs deveria somar {MUNICIPIOS_BRASIL} municípios")
 
     for uf, u in ufs.items():
         ctx = f"{slug}/{uf}"
@@ -107,11 +131,42 @@ def test_curso(curso):
            f"{slug}: indicador de cobertura presente sem fonte declarada em cursos.json")
 
 
+def test_ancoras():
+    """Valores conferidos na fonte — detectam regressão silenciosa de modelagem."""
+    for slug, esperado in ANCORAS.items():
+        dados = carregar_curso(slug)
+        if not checar(dados is not None, f"âncora {slug}: nacional.json ausente"):
+            continue
+        ufs = dados["ufs"]
+        if "ufs" in esperado:
+            checar(len(ufs) == esperado["ufs"],
+                   f"âncora {slug}: {len(ufs)} UFs (esperado {esperado['ufs']})")
+        for campo in ("vagas_total", "vagas_ead"):
+            if campo not in esperado:
+                continue
+            obtido = sum(u.get(campo) or 0 for u in ufs.values())
+            checar(obtido == esperado[campo],
+                   f"âncora {slug}: {campo} = {obtido} (esperado {esperado[campo]})")
+
+
+def test_cobertura_nacional(catalogo):
+    """Somados, os cursos precisam alcançar as 27 UFs — senão faltou ingestão."""
+    vistas = set()
+    for curso in catalogo:
+        dados = carregar_curso(curso["slug"])
+        if dados:
+            vistas.update(dados["ufs"])
+    faltando = sorted(set(MUN_TOTAL_UF) - vistas)
+    checar(not faltando, f"nenhum curso tem dados nestas UFs: {faltando}")
+
+
 def main():
     catalogo = carregar_catalogo()
     test_catalogo_bem_formado(catalogo)
     for curso in catalogo:
         test_curso(curso)
+    test_ancoras()
+    test_cobertura_nacional(catalogo)
 
     if falhas:
         print(f"[FALHOU] {len(falhas)} problema(s) de integridade:\n")
@@ -119,8 +174,8 @@ def main():
             print(f"  · {f}")
         sys.exit(1)
 
-    print(f"[PASSOU] Integridade OK em {len(catalogo)} cursos "
-          f"({UFS_ESPERADAS} UFs, {MUNICIPIOS_BRASIL} municípios cada).")
+    print(f"[PASSOU] Integridade OK em {len(catalogo)} cursos · "
+          f"{len(ANCORAS)} âncoras de regressão conferidas.")
 
 
 if __name__ == "__main__":
