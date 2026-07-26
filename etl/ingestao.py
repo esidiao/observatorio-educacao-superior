@@ -247,7 +247,6 @@ def main():
 
         # Vagas por código de curso — permite ao consolidador calcular
         # vagas_avaliadas via join com os cursos que participaram do ENADE.
-        sub = df[df["NO_CINE_ROTULO"] == curso["cine_rotulo"]]
         vagas_por_curso = (sub.groupby("CO_CURSO")["QT_VG_TOTAL"].sum()
                            .astype(int).to_dict())
 
