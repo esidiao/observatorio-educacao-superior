@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "1721000",
+    "vagas_total": 268,
+    "matriculas": 1601,
+    "ingressos": 272,
+    "concluintes": 205,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Porto Nacional",
+    "slug": "PORTO_NACIONAL",
+    "cod_ibge": "1718204",
+    "vagas_total": 235,
+    "matriculas": 1047,
+    "ingressos": 244,
+    "concluintes": 130,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araguaína",
+    "slug": "ARAGUAINA",
+    "cod_ibge": "1702109",
+    "vagas_total": 179,
+    "matriculas": 1024,
+    "ingressos": 177,
+    "concluintes": 144,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Gurupi",
+    "slug": "GURUPI",
+    "cod_ibge": "1709500",
+    "vagas_total": 137,
+    "matriculas": 848,
+    "ingressos": 147,
+    "concluintes": 123,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paraíso do Tocantins",
+    "slug": "PARAISO_DO_TOCANTINS",
+    "cod_ibge": "1716109",
+    "vagas_total": 137,
+    "matriculas": 474,
+    "ingressos": 141,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Augustinópolis",
+    "slug": "AUGUSTINOPOLIS",
+    "cod_ibge": "1702554",
+    "vagas_total": 40,
+    "matriculas": 131,
+    "ingressos": 41,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 3990,
+    "matriculas": 3179,
+    "ingressos": 872,
+    "concluintes": 493,
+    "n_cursos": 14,
+    "n_ies": 11
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 1060,
+    "matriculas": 375,
+    "ingressos": 111,
+    "concluintes": 66,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Maracanaú",
+    "slug": "MARACANAU",
+    "cod_ibge": "2307650",
+    "vagas_total": 419,
+    "matriculas": 166,
+    "ingressos": 62,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iguatu",
+    "slug": "IGUATU",
+    "cod_ibge": "2305506",
+    "vagas_total": 273,
+    "matriculas": 151,
+    "ingressos": 39,
+    "concluintes": 26,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 251,
+    "matriculas": 237,
+    "ingressos": 52,
+    "concluintes": 35,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 180,
+    "matriculas": 339,
+    "ingressos": 79,
+    "concluintes": 46,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aracati",
+    "slug": "ARACATI",
+    "cod_ibge": "2301109",
+    "vagas_total": 100,
+    "matriculas": 110,
+    "ingressos": 32,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipu",
+    "slug": "IPU",
+    "cod_ibge": "2305803",
+    "vagas_total": 100,
+    "matriculas": 21,
+    "ingressos": 22,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Quixeramobim",
+    "slug": "QUIXERAMOBIM",
+    "cod_ibge": "2311405",
+    "vagas_total": 100,
+    "matriculas": 91,
+    "ingressos": 14,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Redenção",
+    "slug": "REDENCAO",
+    "cod_ibge": "2311603",
+    "vagas_total": 77,
+    "matriculas": 248,
+    "ingressos": 51,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,119 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Metodologia — Observatório Nacional da Educação Superior{% endblock %}
+{% block meta_description %}Como os indicadores do Observatório são construídos: fontes oficiais, fórmulas, tratamento da modalidade a distância e o princípio de nunca estimar um dado ausente.{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<span class="active">Metodologia</span>
+{% endblock %}
+
+{% block content %}
+
+<h1 class="section-title">Metodologia</h1>
+
+<h2 class="section-title" style="margin-top:24px">Princípio inegociável</h2>
+<p style="font-size:0.95rem;line-height:1.75;max-width:75ch;margin-bottom:14px">
+  Nenhum indicador é estimado, interpolado ou preenchido por analogia. Quando não há
+  fonte oficial para um recorte, o valor é <code>null</code> e aparece na tela como
+  <span class="sem-dado">sem dados</span>. Um vazio explicado é mais útil — e mais
+  honesto — que um número plausível sem lastro.
+</p>
+
+<h2 class="section-title">Fontes</h2>
+<div class="tabela-wrap">
+  <table>
+    <thead><tr><th>Fonte</th><th>Órgão</th><th>O que fornece</th></tr></thead>
+    <tbody>
+      <tr><td>Microdados do Censo da Educação Superior {{ versao_censo }}</td><td>INEP/MEC</td>
+          <td>Vagas, cursos, IES, municípios, matrículas, ingressantes, concluintes e perfil dos ingressantes</td></tr>
+      <tr><td>Cadastro de IES {{ versao_censo }}</td><td>INEP/MEC</td>
+          <td>UF-sede das mantenedoras, usada para atribuir as vagas EaD</td></tr>
+      <tr><td>Conceito Preliminar de Curso / ENADE</td><td>INEP/MEC</td>
+          <td>ENADE, IDD, CPC, titulação e regime docente, avaliação dos estudantes</td></tr>
+      <tr><td>Estimativas populacionais</td><td>IBGE</td>
+          <td>População por UF, base dos indicadores per capita</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<h2 class="section-title">Seleção dos cursos</h2>
+<p style="font-size:0.95rem;line-height:1.75;max-width:75ch;margin-bottom:14px">
+  Cada curso é identificado pelo rótulo <strong>CINE</strong> do Censo, com
+  correspondência <strong>exata</strong> — nunca por trecho de texto. A distinção
+  importa: buscar "Medicina" por substring capturaria também "Biomedicina" e
+  "Medicina veterinária"; buscar "Direito" capturaria "Programas interdisciplinares
+  abrangendo negócios, administração e direito". Cursos distintos permanecem distintos.
+</p>
+
+<h2 class="section-title">Tratamento da modalidade a distância</h2>
+<p style="font-size:0.95rem;line-height:1.75;max-width:75ch;margin-bottom:14px">
+  No Censo, a EaD aparece em duas camadas que não podem ser somadas ingenuamente:
+  as linhas de <strong>sede</strong> carregam as vagas autorizadas mas não têm UF
+  própria; as linhas de <strong>polo</strong> carregam as matrículas distribuídas por
+  município, com zero vagas. Aqui, as vagas EaD são atribuídas à UF-sede da
+  mantenedora (via cadastro de IES) e o alcance territorial da EaD é medido pelos
+  polos, em indicador separado.
+</p>
+<p style="font-size:0.95rem;line-height:1.75;max-width:75ch;margin-bottom:14px">
+  Por consequência, <strong>"municípios com oferta" conta apenas oferta presencial</strong>.
+  Um polo EaD não equivale a um campus, e somar os dois num único número inflaria a
+  leitura de cobertura territorial. Os municípios alcançados por polo aparecem em
+  "municípios com polo EaD" e "municípios só EaD".
+</p>
+
+<h2 class="section-title">Fórmulas</h2>
+<div class="tabela-wrap">
+  <table>
+    <thead><tr><th>Índice</th><th>Fórmula</th><th>Direção</th></tr></thead>
+    <tbody>
+      <tr><td>ICT — Concentração Territorial</td>
+          <td>½·(vagas na capital / vagas presenciais) + ½·(1 − municípios com oferta / municípios da UF)</td>
+          <td>↓ menor é melhor</td></tr>
+      <tr><td>E — Equidade Territorial</td><td>1 − ICT</td><td>↑ maior é melhor</td></tr>
+      <tr><td>IAF — Adequação Formativa</td>
+          <td>100 · média(Q, V, E), com Q = média dos conceitos normalizados (0–1),
+              V = vagas avaliadas / vagas totais, E = equidade</td>
+          <td>↑ maior é melhor</td></tr>
+      <tr><td>HHI — Herfindahl-Hirschman</td><td>Σ(sᵢ²) das fatias de vagas por IES</td><td>↓ mais disperso</td></tr>
+      <tr><td>CR2 / CR10</td><td>Fatia das 2 / 10 maiores IES</td><td>↓ mais disperso</td></tr>
+    </tbody>
+  </table>
+</div>
+<p style="font-size:0.88rem;color:var(--text-muted);max-width:75ch;margin:12px 0 14px">
+  As médias de qualidade por UF são <strong>ponderadas pelos concluintes participantes</strong>
+  de cada curso: um curso com 300 concluintes não pode pesar igual a um com 8.
+  O denominador de V é a capacidade total (presencial + EaD), o mesmo universo coberto
+  pelas vagas avaliadas.
+</p>
+
+<h2 class="section-title">Ciclo ENADE</h2>
+<p style="font-size:0.95rem;line-height:1.75;max-width:75ch;margin-bottom:14px">
+  O ENADE é trienal e reveza as áreas avaliadas. Um curso fora do ciclo publicado não
+  recebe conceitos aqui, e sem conceitos o IAF não é calculado. Isso é esperado e
+  explícito, não uma falha de coleta.
+</p>
+<div class="tabela-wrap">
+  <table>
+    <thead><tr><th>Curso</th><th>Ciclo de referência</th><th>Qualidade disponível</th></tr></thead>
+    <tbody>
+      {% for c in cursos_meta %}
+      <tr>
+        <td>{{ c.nome }}</td>
+        <td>{{ c.ciclo_enade or '—' }}</td>
+        <td>{% if c.tem_qualidade %}sim{% else %}<span class="sem-dado">sem dados</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<h2 class="section-title" style="margin-top:24px">Limites de leitura</h2>
+<ul style="font-size:0.92rem;line-height:1.8;max-width:75ch;color:var(--text);margin-bottom:28px;padding-left:20px">
+  <li>Comparar cursos revela padrões estruturais, não hierarquia de mérito entre carreiras.</li>
+  <li>A taxa de conclusão é um retrato pontual (concluintes / matriculados no ano), não o acompanhamento de uma coorte.</li>
+  <li>Vagas EaD ficam na UF-sede da mantenedora: elas medem capacidade autorizada, não presença local.</li>
+  <li>Os indicadores de perfil (gênero, cor/raça, financiamento) referem-se aos ingressantes presenciais.</li>
+</ul>
+
+{% endblock %}

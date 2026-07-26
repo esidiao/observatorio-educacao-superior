@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 5398,
+    "matriculas": 6390,
+    "ingressos": 2319,
+    "concluintes": 806,
+    "n_cursos": 11,
+    "n_ies": 9
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 1076,
+    "matriculas": 2369,
+    "ingressos": 737,
+    "concluintes": 328,
+    "n_cursos": 7,
+    "n_ies": 7
+  },
+  {
+    "nome": "Caicó",
+    "slug": "CAICO",
+    "cod_ibge": "2402006",
+    "vagas_total": 289,
+    "matriculas": 538,
+    "ingressos": 159,
+    "concluintes": 74,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Açu",
+    "slug": "ACU",
+    "cod_ibge": "2400208",
+    "vagas_total": 107,
+    "matriculas": 50,
+    "ingressos": 51,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pau dos Ferros",
+    "slug": "PAU_DOS_FERROS",
+    "cod_ibge": "2409407",
+    "vagas_total": 85,
+    "matriculas": 206,
+    "ingressos": 50,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

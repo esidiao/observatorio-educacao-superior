@@ -1,0 +1,42 @@
+{
+  "_nota": "Catálogo de cursos do observatório. 'cine_rotulo' deve bater EXATAMENTE com NO_CINE_ROTULO dos microdados do Censo (match exato, nunca substring — 'Medicina' por substring capturaria 'Biomedicina' e 'Medicina veterinária'). 'enade_ano' é o ciclo ENADE vigente para a área; null quando não há ciclo aplicável/publicado. 'cobertura' declara a proxy territorial de cobertura correlata; null quando não existe fonte oficial adequada para a área — nesse caso o indicador não é exibido, jamais estimado.",
+  "cursos": [
+    {
+      "slug": "farmacia",
+      "nome": "Farmácia",
+      "cine_rotulo": "Farmácia",
+      "area_cine": "Saúde e bem-estar",
+      "enade_ano": 2023,
+      "cobertura": {
+        "indicador": "ICON",
+        "nome": "Índice de Cobertura Assistencial",
+        "descricao": "Municípios com Farmácia Popular / municípios com oferta formativa",
+        "fonte": "Ministério da Saúde — Programa Farmácia Popular"
+      }
+    },
+    {
+      "slug": "medicina",
+      "nome": "Medicina",
+      "cine_rotulo": "Medicina",
+      "area_cine": "Saúde e bem-estar",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "direito",
+      "nome": "Direito",
+      "cine_rotulo": "Direito",
+      "area_cine": "Negócios, administração e direito",
+      "enade_ano": 2024,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-civil",
+      "nome": "Engenharia Civil",
+      "cine_rotulo": "Engenharia civil",
+      "area_cine": "Engenharia, produção e construção",
+      "enade_ano": 2023,
+      "cobertura": null
+    }
+  ]
+}

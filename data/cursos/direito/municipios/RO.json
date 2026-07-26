@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Porto Velho",
+    "slug": "PORTO_VELHO",
+    "cod_ibge": "1100205",
+    "vagas_total": 3296,
+    "matriculas": 4697,
+    "ingressos": 1558,
+    "concluintes": 470,
+    "n_cursos": 9,
+    "n_ies": 9
+  },
+  {
+    "nome": "Ji-Paraná",
+    "slug": "JI_PARANA",
+    "cod_ibge": "1100122",
+    "vagas_total": 1015,
+    "matriculas": 1205,
+    "ingressos": 447,
+    "concluintes": 189,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cacoal",
+    "slug": "CACOAL",
+    "cod_ibge": "1100049",
+    "vagas_total": 760,
+    "matriculas": 1363,
+    "ingressos": 364,
+    "concluintes": 196,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Pimenta Bueno",
+    "slug": "PIMENTA_BUENO",
+    "cod_ibge": "1100189",
+    "vagas_total": 707,
+    "matriculas": 248,
+    "ingressos": 64,
+    "concluintes": 40,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rolim de Moura",
+    "slug": "ROLIM_DE_MOURA",
+    "cod_ibge": "1100288",
+    "vagas_total": 681,
+    "matriculas": 662,
+    "ingressos": 188,
+    "concluintes": 174,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Vilhena",
+    "slug": "VILHENA",
+    "cod_ibge": "1100304",
+    "vagas_total": 654,
+    "matriculas": 807,
+    "ingressos": 258,
+    "concluintes": 81,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Ariquemes",
+    "slug": "ARIQUEMES",
+    "cod_ibge": "1100023",
+    "vagas_total": 374,
+    "matriculas": 942,
+    "ingressos": 316,
+    "concluintes": 154,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Jaru",
+    "slug": "JARU",
+    "cod_ibge": "1100114",
+    "vagas_total": 155,
+    "matriculas": 281,
+    "ingressos": 83,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ouro Preto do Oeste",
+    "slug": "OURO_PRETO_DO_OESTE",
+    "cod_ibge": "1100155",
+    "vagas_total": 85,
+    "matriculas": 79,
+    "ingressos": 0,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

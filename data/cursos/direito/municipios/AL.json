@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Maceió",
+    "slug": "MACEIO",
+    "cod_ibge": "2704302",
+    "vagas_total": 4735,
+    "matriculas": 7030,
+    "ingressos": 2417,
+    "concluintes": 859,
+    "n_cursos": 13,
+    "n_ies": 12
+  },
+  {
+    "nome": "Arapiraca",
+    "slug": "ARAPIRACA",
+    "cod_ibge": "2700300",
+    "vagas_total": 913,
+    "matriculas": 1931,
+    "ingressos": 692,
+    "concluintes": 168,
+    "n_cursos": 7,
+    "n_ies": 6
+  },
+  {
+    "nome": "Palmeira dos Índios",
+    "slug": "PALMEIRA_DOS_INDIOS",
+    "cod_ibge": "2706307",
+    "vagas_total": 123,
+    "matriculas": 369,
+    "ingressos": 76,
+    "concluintes": 56,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Penedo",
+    "slug": "PENEDO",
+    "cod_ibge": "2706703",
+    "vagas_total": 110,
+    "matriculas": 216,
+    "ingressos": 68,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pão de Açúcar",
+    "slug": "PAO_DE_ACUCAR",
+    "cod_ibge": "2706406",
+    "vagas_total": 40,
+    "matriculas": 143,
+    "ingressos": 29,
+    "concluintes": 52,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santana do Ipanema",
+    "slug": "SANTANA_DO_IPANEMA",
+    "cod_ibge": "2708006",
+    "vagas_total": 0,
+    "matriculas": 36,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Miguel dos Campos",
+    "slug": "SAO_MIGUEL_DOS_CAMPOS",
+    "cod_ibge": "2708600",
+    "vagas_total": 0,
+    "matriculas": 15,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "União dos Palmares",
+    "slug": "UNIAO_DOS_PALMARES",
+    "cod_ibge": "2709301",
+    "vagas_total": 0,
+    "matriculas": 32,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

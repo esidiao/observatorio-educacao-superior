@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 1652,
+    "matriculas": 1058,
+    "ingressos": 315,
+    "concluintes": 125,
+    "n_cursos": 8,
+    "n_ies": 8
+  },
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 726,
+    "matriculas": 637,
+    "ingressos": 159,
+    "concluintes": 94,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Cajazeiras",
+    "slug": "CAJAZEIRAS",
+    "cod_ibge": "2503704",
+    "vagas_total": 364,
+    "matriculas": 418,
+    "ingressos": 110,
+    "concluintes": 79,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Araruna",
+    "slug": "ARARUNA",
+    "cod_ibge": "2501005",
+    "vagas_total": 227,
+    "matriculas": 167,
+    "ingressos": 53,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patos",
+    "slug": "PATOS",
+    "cod_ibge": "2510808",
+    "vagas_total": 180,
+    "matriculas": 344,
+    "ingressos": 103,
+    "concluintes": 22,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Pombal",
+    "slug": "POMBAL",
+    "cod_ibge": "2512101",
+    "vagas_total": 136,
+    "matriculas": 199,
+    "ingressos": 37,
+    "concluintes": 50,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarabira",
+    "slug": "GUARABIRA",
+    "cod_ibge": "2506301",
+    "vagas_total": 110,
+    "matriculas": 60,
+    "ingressos": 15,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cabedelo",
+    "slug": "CABEDELO",
+    "cod_ibge": "2503209",
+    "vagas_total": 79,
+    "matriculas": 186,
+    "ingressos": 50,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itaporanga",
+    "slug": "ITAPORANGA",
+    "cod_ibge": "2507002",
+    "vagas_total": 40,
+    "matriculas": 34,
+    "ingressos": 36,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Monteiro",
+    "slug": "MONTEIRO",
+    "cod_ibge": "2509701",
+    "vagas_total": 40,
+    "matriculas": 35,
+    "ingressos": 39,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

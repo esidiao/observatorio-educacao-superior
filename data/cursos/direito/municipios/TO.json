@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "1721000",
+    "vagas_total": 2533,
+    "matriculas": 3115,
+    "ingressos": 1158,
+    "concluintes": 593,
+    "n_cursos": 10,
+    "n_ies": 10
+  },
+  {
+    "nome": "Araguaína",
+    "slug": "ARAGUAINA",
+    "cod_ibge": "1702109",
+    "vagas_total": 867,
+    "matriculas": 1333,
+    "ingressos": 423,
+    "concluintes": 228,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Gurupi",
+    "slug": "GURUPI",
+    "cod_ibge": "1709500",
+    "vagas_total": 460,
+    "matriculas": 790,
+    "ingressos": 216,
+    "concluintes": 148,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Augustinópolis",
+    "slug": "AUGUSTINOPOLIS",
+    "cod_ibge": "1702554",
+    "vagas_total": 169,
+    "matriculas": 371,
+    "ingressos": 92,
+    "concluintes": 59,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Guaraí",
+    "slug": "GUARAI",
+    "cod_ibge": "1709302",
+    "vagas_total": 90,
+    "matriculas": 253,
+    "ingressos": 66,
+    "concluintes": 56,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Colinas do Tocantins",
+    "slug": "COLINAS_DO_TOCANTINS",
+    "cod_ibge": "1705508",
+    "vagas_total": 85,
+    "matriculas": 118,
+    "ingressos": 66,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paraíso do Tocantins",
+    "slug": "PARAISO_DO_TOCANTINS",
+    "cod_ibge": "1716109",
+    "vagas_total": 80,
+    "matriculas": 360,
+    "ingressos": 91,
+    "concluintes": 79,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Arraias",
+    "slug": "ARRAIAS",
+    "cod_ibge": "1702406",
+    "vagas_total": 48,
+    "matriculas": 175,
+    "ingressos": 46,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Dianópolis",
+    "slug": "DIANOPOLIS",
+    "cod_ibge": "1707009",
+    "vagas_total": 46,
+    "matriculas": 187,
+    "ingressos": 42,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tocantinópolis",
+    "slug": "TOCANTINOPOLIS",
+    "cod_ibge": "1721208",
+    "vagas_total": 44,
+    "matriculas": 148,
+    "ingressos": 46,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

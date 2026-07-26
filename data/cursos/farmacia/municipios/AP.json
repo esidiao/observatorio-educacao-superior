@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Macapá",
+    "slug": "MACAPA",
+    "cod_ibge": "1600303",
+    "vagas_total": 679,
+    "matriculas": 574,
+    "ingressos": 227,
+    "concluintes": 78,
+    "n_cursos": 4,
+    "n_ies": 4
+  }
+]

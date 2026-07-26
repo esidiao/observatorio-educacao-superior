@@ -1,0 +1,150 @@
+{% extends "base.html.j2" %}
+
+{% block title %}{{ meta.curso }} — Observatório Nacional da Educação Superior{% endblock %}
+{% block meta_description %}{{ meta.curso }} no Brasil: {{ "{:,}".format(total.vagas_total).replace(',','.') }} vagas anuais, {{ total.n_ies }} instituições, {{ total.municipios_oferta }} municípios com oferta presencial e {{ total.municipios_deserto }} desertos formativos. Indicadores por UF (Censo INEP {{ meta.versao_censo }}).{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<span class="active">{{ meta.curso }}</span>
+{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+  <p class="hero-eyebrow">{{ meta.area_cine }} · 27 estados · Censo INEP {{ meta.versao_censo }}</p>
+  <h1 class="hero-title">{{ meta.curso }} no Brasil</h1>
+  <p class="hero-lead">
+    Como a oferta de {{ meta.curso }} se distribui pelo território, com que qualidade
+    avaliada e sob que grau de concentração institucional.
+  </p>
+  <div class="hero-stats">
+    <div class="lede"><span class="lede-num">{{ "{:,}".format(total.vagas_total).replace(',','.') }}</span><span class="lede-lab">vagas por ano</span></div>
+    <div class="lede"><span class="lede-num">{{ total.pct_ead }}%</span><span class="lede-lab">são a distância</span></div>
+    <div class="lede"><span class="lede-num">{{ "{:,}".format(total.municipios_oferta).replace(',','.') }}</span><span class="lede-lab">municípios com oferta presencial</span></div>
+    <div class="lede"><span class="lede-num accent-neg">{{ "{:,}".format(total.municipios_deserto).replace(',','.') }}</span><span class="lede-lab">desertos formativos</span></div>
+  </div>
+</section>
+
+{% if not tem_qualidade %}
+<div class="update-bar" style="background:#FFF8E6;border-color:#E8D9A8">
+  <strong>Sem ciclo ENADE disponível para {{ meta.curso }}.</strong>&nbsp;
+  Os indicadores de qualidade (ENADE, IDD, CPC, IAF) aparecem como “sem dados”.
+  O ENADE é trienal e reveza as áreas — publicaremos assim que o ciclo
+  {% if meta.ciclo_enade %}{{ meta.ciclo_enade }}{% endif %} for divulgado pelo INEP.
+</div>
+{% endif %}
+
+<h2 class="section-title">Panorama nacional</h2>
+<div class="kpi-grid">
+  <div class="kpi-card">
+    <div class="kpi-valor">{{ "{:,}".format(total.vagas_presencial).replace(',','.') }}</div>
+    <div class="kpi-label">Vagas presenciais</div>
+    <div class="kpi-fonte">{{ total.n_cursos_presencial }} cursos · Censo {{ meta.versao_censo }}</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-valor">{{ "{:,}".format(total.vagas_ead).replace(',','.') }}</div>
+    <div class="kpi-label">Vagas EaD</div>
+    <div class="kpi-fonte">na sede da mantenedora</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-valor">{{ total.n_ies }}</div>
+    <div class="kpi-label">Instituições</div>
+    <div class="kpi-fonte">com oferta do curso</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-valor">{{ "{:,}".format(total.matriculas).replace(',','.') }}</div>
+    <div class="kpi-label">Matrículas presenciais</div>
+    <div class="kpi-fonte">Censo {{ meta.versao_censo }}</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-valor">{{ "{:,}".format(total.ead_polos_municipios).replace(',','.') }}</div>
+    <div class="kpi-label">Municípios c/ polo EaD</div>
+    <div class="kpi-fonte">alcance territorial da EaD</div>
+  </div>
+  <div class="kpi-card">
+    <div class="kpi-valor">{{ total.vagas_por_100k }}</div>
+    <div class="kpi-label">Vagas / 100 mil hab.</div>
+    <div class="kpi-fonte">Censo INEP + IBGE</div>
+  </div>
+</div>
+
+<h2 class="section-title">Indicadores por unidade federativa</h2>
+<div class="toolbar" style="margin-bottom:12px;gap:10px;flex-wrap:wrap;align-items:center">
+  <label style="font-size:0.85rem;font-weight:600;color:var(--navy)">Ordenar por:</label>
+  <select id="sel-ordem" onchange="renderTabela()" style="font-size:0.85rem"></select>
+  <span style="flex:1"></span>
+  <button class="btn outline" onclick="exportarCSV(linhasCSV(), '{{ meta.slug }}_ufs.csv')" style="font-size:0.78rem;padding:5px 10px">↓ CSV</button>
+  <button class="btn outline" onclick="exportarJSON(DADOS, '{{ meta.slug }}_ufs.json')" style="font-size:0.78rem;padding:5px 10px">↓ JSON</button>
+</div>
+
+<div class="tabela-wrap">
+  <table id="tabela-ufs">
+    <thead><tr id="thead-row"></tr></thead>
+    <tbody id="tbody-ufs"></tbody>
+  </table>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+const DADOS = {{ dados_json }};
+const META = {{ meta_json }};
+const COLUNAS = ['vagas_total','vagas_presencial','vagas_ead','pct_ead','municipios_oferta',
+                 'municipios_deserto','ead_polos_municipios','n_ies','ICT','E','IAF','vagas_por_100k'];
+
+let ordem = 'vagas_total', dir = 'desc';
+
+function linhasCSV() {
+  return Object.entries(DADOS).map(([uf, d]) => {
+    const linha = { UF: uf };
+    COLUNAS.forEach(c => { linha[c] = d[c]; });
+    return linha;
+  });
+}
+
+function renderSeletorOrdem() {
+  const sel = document.getElementById('sel-ordem');
+  sel.innerHTML = COLUNAS.map(c => `<option value="${c}">${rotuloIndicador(c)}</option>`).join('');
+  sel.value = ordem;
+}
+
+function renderTabela() {
+  const sel = document.getElementById('sel-ordem');
+  if (sel && sel.value) ordem = sel.value;
+
+  const thead = document.getElementById('thead-row');
+  thead.innerHTML = '<th>UF</th>' + COLUNAS.map(c =>
+    `<th title="${rotuloIndicador(c)}">${rotuloIndicador(c)}</th>`).join('');
+
+  const entradas = Object.entries(DADOS).sort((a, b) => {
+    const va = a[1][ordem], vb = b[1][ordem];
+    if (va === null || va === undefined) return 1;
+    if (vb === null || vb === undefined) return -1;
+    return dir === 'desc' ? vb - va : va - vb;
+  });
+
+  const dominios = {};
+  COLUNAS.forEach(c => {
+    const vs = Object.values(DADOS).map(d => d[c]).filter(v => v !== null && v !== undefined);
+    dominios[c] = vs.length ? { min: Math.min(...vs), max: Math.max(...vs) } : null;
+  });
+
+  const tbody = document.getElementById('tbody-ufs');
+  tbody.innerHTML = entradas.map(([uf, d]) => {
+    const celulas = COLUNAS.map(c => {
+      const v = d[c];
+      if (v === null || v === undefined) return '<td class="sem-dado">sem dados</td>';
+      const cor = getCor(c, v, dominios[c]);
+      return `<td style="border-left:3px solid ${cor}">${fmtIndicador(c, v)}</td>`;
+    }).join('');
+    return `<tr><td><a href="uf/${uf}.html"><span class="uf-tag">${uf}</span></a></td>${celulas}</tr>`;
+  }).join('');
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  renderSeletorOrdem();
+  renderTabela();
+});
+</script>
+{% endblock %}

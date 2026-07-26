@@ -1,0 +1,211 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 4678,
+    "matriculas": 9102,
+    "ingressos": 3024,
+    "concluintes": 1408,
+    "n_cursos": 22,
+    "n_ies": 18
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 1820,
+    "matriculas": 2843,
+    "ingressos": 977,
+    "concluintes": 416,
+    "n_cursos": 7,
+    "n_ies": 7
+  },
+  {
+    "nome": "Timon",
+    "slug": "TIMON",
+    "cod_ibge": "2112209",
+    "vagas_total": 550,
+    "matriculas": 150,
+    "ingressos": 37,
+    "concluintes": 66,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Bacabal",
+    "slug": "BACABAL",
+    "cod_ibge": "2101202",
+    "vagas_total": 534,
+    "matriculas": 1100,
+    "ingressos": 509,
+    "concluintes": 125,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Codó",
+    "slug": "CODO",
+    "cod_ibge": "2103307",
+    "vagas_total": 440,
+    "matriculas": 170,
+    "ingressos": 82,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Balsas",
+    "slug": "BALSAS",
+    "cod_ibge": "2101400",
+    "vagas_total": 402,
+    "matriculas": 390,
+    "ingressos": 37,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Inês",
+    "slug": "SANTA_INES",
+    "cod_ibge": "2109908",
+    "vagas_total": 373,
+    "matriculas": 661,
+    "ingressos": 214,
+    "concluintes": 10,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Pedreiras",
+    "slug": "PEDREIRAS",
+    "cod_ibge": "2108207",
+    "vagas_total": 315,
+    "matriculas": 347,
+    "ingressos": 74,
+    "concluintes": 68,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Paço do Lumiar",
+    "slug": "PACO_DO_LUMIAR",
+    "cod_ibge": "2107506",
+    "vagas_total": 201,
+    "matriculas": 501,
+    "ingressos": 183,
+    "concluintes": 52,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapadinha",
+    "slug": "CHAPADINHA",
+    "cod_ibge": "2103208",
+    "vagas_total": 199,
+    "matriculas": 350,
+    "ingressos": 53,
+    "concluintes": 66,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 169,
+    "matriculas": 548,
+    "ingressos": 155,
+    "concluintes": 112,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Presidente Dutra",
+    "slug": "PRESIDENTE_DUTRA",
+    "cod_ibge": "2109106",
+    "vagas_total": 169,
+    "matriculas": 66,
+    "ingressos": 17,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Açailândia",
+    "slug": "ACAILANDIA",
+    "cod_ibge": "2100055",
+    "vagas_total": 161,
+    "matriculas": 185,
+    "ingressos": 80,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Pinheiro",
+    "slug": "PINHEIRO",
+    "cod_ibge": "2108603",
+    "vagas_total": 112,
+    "matriculas": 369,
+    "ingressos": 111,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra do Corda",
+    "slug": "BARRA_DO_CORDA",
+    "cod_ibge": "2101608",
+    "vagas_total": 104,
+    "matriculas": 290,
+    "ingressos": 70,
+    "concluintes": 44,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bacabeira",
+    "slug": "BACABEIRA",
+    "cod_ibge": "2101251",
+    "vagas_total": 68,
+    "matriculas": 103,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Grajaú",
+    "slug": "GRAJAU",
+    "cod_ibge": "2104800",
+    "vagas_total": 42,
+    "matriculas": 104,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Estreito",
+    "slug": "ESTREITO",
+    "cod_ibge": "2104057",
+    "vagas_total": 40,
+    "matriculas": 34,
+    "ingressos": 34,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Bento",
+    "slug": "SAO_BENTO",
+    "cod_ibge": "2110500",
+    "vagas_total": 40,
+    "matriculas": 122,
+    "ingressos": 80,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

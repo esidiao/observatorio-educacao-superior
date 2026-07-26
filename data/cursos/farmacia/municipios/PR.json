@@ -1,0 +1,211 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 1493,
+    "matriculas": 2007,
+    "ingressos": 661,
+    "concluintes": 306,
+    "n_cursos": 15,
+    "n_ies": 15
+  },
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 509,
+    "matriculas": 213,
+    "ingressos": 83,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 428,
+    "matriculas": 634,
+    "ingressos": 196,
+    "concluintes": 116,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 397,
+    "matriculas": 537,
+    "ingressos": 195,
+    "concluintes": 88,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 285,
+    "matriculas": 297,
+    "ingressos": 100,
+    "concluintes": 44,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 256,
+    "matriculas": 324,
+    "ingressos": 121,
+    "concluintes": 57,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 214,
+    "matriculas": 355,
+    "ingressos": 104,
+    "concluintes": 76,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Umuarama",
+    "slug": "UMUARAMA",
+    "cod_ibge": "4128104",
+    "vagas_total": 200,
+    "matriculas": 142,
+    "ingressos": 34,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Francisco Beltrão",
+    "slug": "FRANCISCO_BELTRAO",
+    "cod_ibge": "4108403",
+    "vagas_total": 194,
+    "matriculas": 181,
+    "ingressos": 49,
+    "concluintes": 33,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 145,
+    "matriculas": 377,
+    "ingressos": 89,
+    "concluintes": 95,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Paranavaí",
+    "slug": "PARANAVAI",
+    "cod_ibge": "4118402",
+    "vagas_total": 124,
+    "matriculas": 133,
+    "ingressos": 64,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Campo Mourão",
+    "slug": "CAMPO_MOURAO",
+    "cod_ibge": "4104303",
+    "vagas_total": 101,
+    "matriculas": 108,
+    "ingressos": 30,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "União da Vitória",
+    "slug": "UNIAO_DA_VITORIA",
+    "cod_ibge": "4128203",
+    "vagas_total": 90,
+    "matriculas": 150,
+    "ingressos": 51,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pato Branco",
+    "slug": "PATO_BRANCO",
+    "cod_ibge": "4118501",
+    "vagas_total": 70,
+    "matriculas": 37,
+    "ingressos": 17,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arapongas",
+    "slug": "ARAPONGAS",
+    "cod_ibge": "4101507",
+    "vagas_total": 57,
+    "matriculas": 121,
+    "ingressos": 57,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cornélio Procópio",
+    "slug": "CORNELIO_PROCOPIO",
+    "cod_ibge": "4106407",
+    "vagas_total": 55,
+    "matriculas": 65,
+    "ingressos": 0,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "4117602",
+    "vagas_total": 51,
+    "matriculas": 116,
+    "ingressos": 38,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Dois Vizinhos",
+    "slug": "DOIS_VIZINHOS",
+    "cod_ibge": "4107207",
+    "vagas_total": 50,
+    "matriculas": 13,
+    "ingressos": 0,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Largo",
+    "slug": "CAMPO_LARGO",
+    "cod_ibge": "4104204",
+    "vagas_total": 11,
+    "matriculas": 32,
+    "ingressos": 11,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

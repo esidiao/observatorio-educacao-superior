@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 937,
+    "matriculas": 2588,
+    "ingressos": 813,
+    "concluintes": 278,
+    "n_cursos": 9,
+    "n_ies": 9
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 242,
+    "matriculas": 1288,
+    "ingressos": 230,
+    "concluintes": 141,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Açailândia",
+    "slug": "ACAILANDIA",
+    "cod_ibge": "2100055",
+    "vagas_total": 216,
+    "matriculas": 273,
+    "ingressos": 131,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Inês",
+    "slug": "SANTA_INES",
+    "cod_ibge": "2109908",
+    "vagas_total": 142,
+    "matriculas": 344,
+    "ingressos": 107,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Codó",
+    "slug": "CODO",
+    "cod_ibge": "2103307",
+    "vagas_total": 140,
+    "matriculas": 299,
+    "ingressos": 140,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bacabal",
+    "slug": "BACABAL",
+    "cod_ibge": "2101202",
+    "vagas_total": 130,
+    "matriculas": 232,
+    "ingressos": 130,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pinheiro",
+    "slug": "PINHEIRO",
+    "cod_ibge": "2108603",
+    "vagas_total": 121,
+    "matriculas": 501,
+    "ingressos": 116,
+    "concluintes": 60,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 98,
+    "matriculas": 244,
+    "ingressos": 95,
+    "concluintes": 23,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

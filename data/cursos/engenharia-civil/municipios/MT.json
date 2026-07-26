@@ -1,0 +1,200 @@
+[
+  {
+    "nome": "Várzea Grande",
+    "slug": "VARZEA_GRANDE",
+    "cod_ibge": "5108402",
+    "vagas_total": 1004,
+    "matriculas": 109,
+    "ingressos": 28,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 528,
+    "matriculas": 592,
+    "ingressos": 288,
+    "concluintes": 63,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Cáceres",
+    "slug": "CACERES",
+    "cod_ibge": "5102504",
+    "vagas_total": 386,
+    "matriculas": 56,
+    "ingressos": 15,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 304,
+    "matriculas": 380,
+    "ingressos": 165,
+    "concluintes": 63,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "São José dos Quatro Marcos",
+    "slug": "SAO_JOSE_DOS_QUATRO_MARCOS",
+    "cod_ibge": "5107107",
+    "vagas_total": 289,
+    "matriculas": 8,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarantã do Norte",
+    "slug": "GUARANTA_DO_NORTE",
+    "cod_ibge": "5104104",
+    "vagas_total": 274,
+    "matriculas": 83,
+    "ingressos": 8,
+    "concluintes": 34,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 244,
+    "matriculas": 100,
+    "ingressos": 14,
+    "concluintes": 16,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Barra do Garças",
+    "slug": "BARRA_DO_GARCAS",
+    "cod_ibge": "5101803",
+    "vagas_total": 210,
+    "matriculas": 236,
+    "ingressos": 62,
+    "concluintes": 38,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Tangará da Serra",
+    "slug": "TANGARA_DA_SERRA",
+    "cod_ibge": "5107958",
+    "vagas_total": 150,
+    "matriculas": 284,
+    "ingressos": 72,
+    "concluintes": 75,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Nova Xavantina",
+    "slug": "NOVA_XAVANTINA",
+    "cod_ibge": "5106257",
+    "vagas_total": 100,
+    "matriculas": 188,
+    "ingressos": 55,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaciara",
+    "slug": "JACIARA",
+    "cod_ibge": "5104807",
+    "vagas_total": 70,
+    "matriculas": 28,
+    "ingressos": 0,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lucas do Rio Verde",
+    "slug": "LUCAS_DO_RIO_VERDE",
+    "cod_ibge": "5105259",
+    "vagas_total": 70,
+    "matriculas": 72,
+    "ingressos": 29,
+    "concluintes": 11,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Primavera do Leste",
+    "slug": "PRIMAVERA_DO_LESTE",
+    "cod_ibge": "5107040",
+    "vagas_total": 64,
+    "matriculas": 74,
+    "ingressos": 31,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorriso",
+    "slug": "SORRISO",
+    "cod_ibge": "5107925",
+    "vagas_total": 51,
+    "matriculas": 73,
+    "ingressos": 37,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aripuanã",
+    "slug": "ARIPUANA",
+    "cod_ibge": "5101407",
+    "vagas_total": 12,
+    "matriculas": 46,
+    "ingressos": 10,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juara",
+    "slug": "JUARA",
+    "cod_ibge": "5105101",
+    "vagas_total": 7,
+    "matriculas": 31,
+    "ingressos": 6,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Canaã do Norte",
+    "slug": "NOVA_CANAA_DO_NORTE",
+    "cod_ibge": "5106216",
+    "vagas_total": 4,
+    "matriculas": 43,
+    "ingressos": 1,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alta Floresta",
+    "slug": "ALTA_FLORESTA",
+    "cod_ibge": "5100250",
+    "vagas_total": 2,
+    "matriculas": 16,
+    "ingressos": 2,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

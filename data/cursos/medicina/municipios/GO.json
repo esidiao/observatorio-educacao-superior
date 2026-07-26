@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Mineiros",
+    "slug": "MINEIROS",
+    "cod_ibge": "5213103",
+    "vagas_total": 441,
+    "matriculas": 1618,
+    "ingressos": 330,
+    "concluintes": 222,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Aparecida de Goiânia",
+    "slug": "APARECIDA_DE_GOIANIA",
+    "cod_ibge": "5201405",
+    "vagas_total": 408,
+    "matriculas": 1975,
+    "ingressos": 401,
+    "concluintes": 311,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Goianésia",
+    "slug": "GOIANESIA",
+    "cod_ibge": "5208608",
+    "vagas_total": 300,
+    "matriculas": 1095,
+    "ingressos": 298,
+    "concluintes": 140,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Verde",
+    "slug": "RIO_VERDE",
+    "cod_ibge": "5218805",
+    "vagas_total": 300,
+    "matriculas": 1131,
+    "ingressos": 295,
+    "concluintes": 153,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Formosa",
+    "slug": "FORMOSA",
+    "cod_ibge": "5208004",
+    "vagas_total": 290,
+    "matriculas": 983,
+    "ingressos": 290,
+    "concluintes": 67,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itumbiara",
+    "slug": "ITUMBIARA",
+    "cod_ibge": "5211503",
+    "vagas_total": 284,
+    "matriculas": 984,
+    "ingressos": 278,
+    "concluintes": 109,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 267,
+    "matriculas": 1594,
+    "ingressos": 269,
+    "concluintes": 252,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Luziânia",
+    "slug": "LUZIANIA",
+    "cod_ibge": "5212501",
+    "vagas_total": 255,
+    "matriculas": 363,
+    "ingressos": 248,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiatuba",
+    "slug": "GOIATUBA",
+    "cod_ibge": "5209101",
+    "vagas_total": 190,
+    "matriculas": 849,
+    "ingressos": 190,
+    "concluintes": 115,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 162,
+    "matriculas": 1290,
+    "ingressos": 182,
+    "concluintes": 194,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Trindade",
+    "slug": "TRINDADE",
+    "cod_ibge": "5221403",
+    "vagas_total": 156,
+    "matriculas": 645,
+    "ingressos": 155,
+    "concluintes": 70,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Inhumas",
+    "slug": "INHUMAS",
+    "cod_ibge": "5210000",
+    "vagas_total": 94,
+    "matriculas": 61,
+    "ingressos": 72,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jataí",
+    "slug": "JATAI",
+    "cod_ibge": "5211909",
+    "vagas_total": 64,
+    "matriculas": 399,
+    "ingressos": 62,
+    "concluintes": 93,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catalão",
+    "slug": "CATALAO",
+    "cod_ibge": "5205109",
+    "vagas_total": 43,
+    "matriculas": 202,
+    "ingressos": 43,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

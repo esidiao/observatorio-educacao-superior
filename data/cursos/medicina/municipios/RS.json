@@ -1,0 +1,167 @@
+[
+  {
+    "nome": "Canoas",
+    "slug": "CANOAS",
+    "cod_ibge": "4304606",
+    "vagas_total": 420,
+    "matriculas": 1197,
+    "ingressos": 420,
+    "concluintes": 111,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 410,
+    "matriculas": 2253,
+    "ingressos": 398,
+    "concluintes": 348,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 348,
+    "matriculas": 1744,
+    "ingressos": 326,
+    "concluintes": 287,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Passo Fundo",
+    "slug": "PASSO_FUNDO",
+    "cod_ibge": "4314100",
+    "vagas_total": 267,
+    "matriculas": 1524,
+    "ingressos": 266,
+    "concluintes": 225,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 263,
+    "matriculas": 1473,
+    "ingressos": 257,
+    "concluintes": 199,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 182,
+    "matriculas": 712,
+    "ingressos": 136,
+    "concluintes": 112,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Lajeado",
+    "slug": "LAJEADO",
+    "cod_ibge": "4311403",
+    "vagas_total": 133,
+    "matriculas": 647,
+    "ingressos": 131,
+    "concluintes": 77,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Grande",
+    "slug": "RIO_GRANDE",
+    "cod_ibge": "4315602",
+    "vagas_total": 126,
+    "matriculas": 438,
+    "ingressos": 109,
+    "concluintes": 61,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Novo Hamburgo",
+    "slug": "NOVO_HAMBURGO",
+    "cod_ibge": "4313409",
+    "vagas_total": 115,
+    "matriculas": 625,
+    "ingressos": 115,
+    "concluintes": 116,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 108,
+    "matriculas": 560,
+    "ingressos": 106,
+    "concluintes": 82,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 107,
+    "matriculas": 570,
+    "ingressos": 111,
+    "concluintes": 57,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ijuí",
+    "slug": "IJUI",
+    "cod_ibge": "4310207",
+    "vagas_total": 100,
+    "matriculas": 386,
+    "ingressos": 115,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Erechim",
+    "slug": "ERECHIM",
+    "cod_ibge": "4307005",
+    "vagas_total": 69,
+    "matriculas": 344,
+    "ingressos": 69,
+    "concluintes": 55,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cachoeirinha",
+    "slug": "CACHOEIRINHA",
+    "cod_ibge": "4303103",
+    "vagas_total": 62,
+    "matriculas": 16,
+    "ingressos": 16,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uruguaiana",
+    "slug": "URUGUAIANA",
+    "cod_ibge": "4322400",
+    "vagas_total": 62,
+    "matriculas": 364,
+    "ingressos": 69,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

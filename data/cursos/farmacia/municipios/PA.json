@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 2698,
+    "matriculas": 2088,
+    "ingressos": 431,
+    "concluintes": 403,
+    "n_cursos": 10,
+    "n_ies": 9
+  },
+  {
+    "nome": "Castanhal",
+    "slug": "CASTANHAL",
+    "cod_ibge": "1502400",
+    "vagas_total": 1200,
+    "matriculas": 366,
+    "ingressos": 114,
+    "concluintes": 64,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ananindeua",
+    "slug": "ANANINDEUA",
+    "cod_ibge": "1500800",
+    "vagas_total": 513,
+    "matriculas": 1036,
+    "ingressos": 251,
+    "concluintes": 178,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 470,
+    "matriculas": 534,
+    "ingressos": 150,
+    "concluintes": 73,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Redenção",
+    "slug": "REDENCAO",
+    "cod_ibge": "1506138",
+    "vagas_total": 240,
+    "matriculas": 126,
+    "ingressos": 36,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itaituba",
+    "slug": "ITAITUBA",
+    "cod_ibge": "1503606",
+    "vagas_total": 168,
+    "matriculas": 121,
+    "ingressos": 32,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Abaetetuba",
+    "slug": "ABAETETUBA",
+    "cod_ibge": "1500107",
+    "vagas_total": 100,
+    "matriculas": 266,
+    "ingressos": 48,
+    "concluintes": 82,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Parauapebas",
+    "slug": "PARAUAPEBAS",
+    "cod_ibge": "1505536",
+    "vagas_total": 95,
+    "matriculas": 86,
+    "ingressos": 4,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

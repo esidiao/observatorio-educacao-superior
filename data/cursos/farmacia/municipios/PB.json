@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 1382,
+    "matriculas": 1530,
+    "ingressos": 437,
+    "concluintes": 238,
+    "n_cursos": 7,
+    "n_ies": 7
+  },
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 809,
+    "matriculas": 1038,
+    "ingressos": 222,
+    "concluintes": 189,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Cajazeiras",
+    "slug": "CAJAZEIRAS",
+    "cod_ibge": "2503704",
+    "vagas_total": 257,
+    "matriculas": 409,
+    "ingressos": 101,
+    "concluintes": 99,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cuité",
+    "slug": "CUITE",
+    "cod_ibge": "2505105",
+    "vagas_total": 170,
+    "matriculas": 358,
+    "ingressos": 90,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarabira",
+    "slug": "GUARABIRA",
+    "cod_ibge": "2506301",
+    "vagas_total": 149,
+    "matriculas": 306,
+    "ingressos": 70,
+    "concluintes": 48,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patos",
+    "slug": "PATOS",
+    "cod_ibge": "2510808",
+    "vagas_total": 98,
+    "matriculas": 266,
+    "ingressos": 52,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cabedelo",
+    "slug": "CABEDELO",
+    "cod_ibge": "2503209",
+    "vagas_total": 50,
+    "matriculas": 161,
+    "ingressos": 33,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

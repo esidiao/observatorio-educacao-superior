@@ -1,0 +1,44 @@
+name: CI — Validação e Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar-e-construir:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: "Portão de qualidade — fórmulas canônicas"
+        run: python etl/indices.py --autoteste
+
+      - name: "Integridade dos dados publicados"
+        run: python tests/test_validacao.py
+
+      - name: "Coerência do catálogo de indicadores"
+        run: python tests/test_catalogo.py
+
+      - name: "Gerar site estático"
+        run: python site/build.py
+
+      - name: "Conferir páginas geradas"
+        run: |
+          echo "Páginas: $(find site/dist -name '*.html' | wc -l)"
+          test -f site/dist/index.html
+          test -f site/dist/comparar-cursos.html
+          test -f site/dist/metodologia.html

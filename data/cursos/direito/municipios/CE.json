@@ -1,0 +1,233 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 15701,
+    "matriculas": 13541,
+    "ingressos": 4427,
+    "concluintes": 1741,
+    "n_cursos": 29,
+    "n_ies": 22
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 1758,
+    "matriculas": 2824,
+    "ingressos": 1000,
+    "concluintes": 293,
+    "n_cursos": 7,
+    "n_ies": 7
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 1635,
+    "matriculas": 2633,
+    "ingressos": 885,
+    "concluintes": 394,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Crato",
+    "slug": "CRATO",
+    "cod_ibge": "2304202",
+    "vagas_total": 820,
+    "matriculas": 1221,
+    "ingressos": 165,
+    "concluintes": 168,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Tianguá",
+    "slug": "TIANGUA",
+    "cod_ibge": "2313401",
+    "vagas_total": 600,
+    "matriculas": 773,
+    "ingressos": 240,
+    "concluintes": 106,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Maracanaú",
+    "slug": "MARACANAU",
+    "cod_ibge": "2307650",
+    "vagas_total": 489,
+    "matriculas": 792,
+    "ingressos": 268,
+    "concluintes": 100,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Iguatu",
+    "slug": "IGUATU",
+    "cod_ibge": "2305506",
+    "vagas_total": 410,
+    "matriculas": 810,
+    "ingressos": 199,
+    "concluintes": 53,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 397,
+    "matriculas": 616,
+    "ingressos": 162,
+    "concluintes": 78,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Caucaia",
+    "slug": "CAUCAIA",
+    "cod_ibge": "2303709",
+    "vagas_total": 315,
+    "matriculas": 245,
+    "ingressos": 61,
+    "concluintes": 17,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Icó",
+    "slug": "ICO",
+    "cod_ibge": "2305407",
+    "vagas_total": 220,
+    "matriculas": 319,
+    "ingressos": 89,
+    "concluintes": 77,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aracati",
+    "slug": "ARACATI",
+    "cod_ibge": "2301109",
+    "vagas_total": 200,
+    "matriculas": 271,
+    "ingressos": 69,
+    "concluintes": 45,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapipoca",
+    "slug": "ITAPIPOCA",
+    "cod_ibge": "2306405",
+    "vagas_total": 180,
+    "matriculas": 579,
+    "ingressos": 172,
+    "concluintes": 75,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Eusébio",
+    "slug": "EUSEBIO",
+    "cod_ibge": "2304285",
+    "vagas_total": 150,
+    "matriculas": 73,
+    "ingressos": 36,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Camocim",
+    "slug": "CAMOCIM",
+    "cod_ibge": "2302602",
+    "vagas_total": 140,
+    "matriculas": 90,
+    "ingressos": 20,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Limoeiro do Norte",
+    "slug": "LIMOEIRO_DO_NORTE",
+    "cod_ibge": "2307601",
+    "vagas_total": 134,
+    "matriculas": 264,
+    "ingressos": 84,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Crateús",
+    "slug": "CRATEUS",
+    "cod_ibge": "2304103",
+    "vagas_total": 120,
+    "matriculas": 362,
+    "ingressos": 99,
+    "concluintes": 63,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Quixeramobim",
+    "slug": "QUIXERAMOBIM",
+    "cod_ibge": "2311405",
+    "vagas_total": 104,
+    "matriculas": 157,
+    "ingressos": 69,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Canindé",
+    "slug": "CANINDE",
+    "cod_ibge": "2302800",
+    "vagas_total": 102,
+    "matriculas": 157,
+    "ingressos": 92,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipu",
+    "slug": "IPU",
+    "cod_ibge": "2305803",
+    "vagas_total": 100,
+    "matriculas": 67,
+    "ingressos": 39,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Milhã",
+    "slug": "MILHA",
+    "cod_ibge": "2308351",
+    "vagas_total": 100,
+    "matriculas": 22,
+    "ingressos": 22,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Baturité",
+    "slug": "BATURITE",
+    "cod_ibge": "2302107",
+    "vagas_total": 95,
+    "matriculas": 322,
+    "ingressos": 63,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

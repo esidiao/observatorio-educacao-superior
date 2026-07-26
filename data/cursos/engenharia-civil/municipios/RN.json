@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 411,
+    "matriculas": 937,
+    "ingressos": 243,
+    "concluintes": 88,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "São Miguel",
+    "slug": "SAO_MIGUEL",
+    "cod_ibge": "2412500",
+    "vagas_total": 100,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 89,
+    "matriculas": 179,
+    "ingressos": 16,
+    "concluintes": 51,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Caraúbas",
+    "slug": "CARAUBAS",
+    "cod_ibge": "2402303",
+    "vagas_total": 68,
+    "matriculas": 69,
+    "ingressos": 0,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pau dos Ferros",
+    "slug": "PAU_DOS_FERROS",
+    "cod_ibge": "2409407",
+    "vagas_total": 66,
+    "matriculas": 66,
+    "ingressos": 0,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Angicos",
+    "slug": "ANGICOS",
+    "cod_ibge": "2400802",
+    "vagas_total": 63,
+    "matriculas": 92,
+    "ingressos": 0,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

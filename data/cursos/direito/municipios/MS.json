@@ -1,0 +1,145 @@
+[
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 4105,
+    "matriculas": 5591,
+    "ingressos": 2320,
+    "concluintes": 752,
+    "n_cursos": 10,
+    "n_ies": 10
+  },
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 743,
+    "matriculas": 1937,
+    "ingressos": 587,
+    "concluintes": 311,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Três Lagoas",
+    "slug": "TRES_LAGOAS",
+    "cod_ibge": "5008305",
+    "vagas_total": 325,
+    "matriculas": 797,
+    "ingressos": 217,
+    "concluintes": 110,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Corumbá",
+    "slug": "CORUMBA",
+    "cod_ibge": "5003207",
+    "vagas_total": 232,
+    "matriculas": 367,
+    "ingressos": 87,
+    "concluintes": 75,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Paranaíba",
+    "slug": "PARANAIBA",
+    "cod_ibge": "5006309",
+    "vagas_total": 206,
+    "matriculas": 555,
+    "ingressos": 145,
+    "concluintes": 96,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ponta Porã",
+    "slug": "PONTA_PORA",
+    "cod_ibge": "5006606",
+    "vagas_total": 134,
+    "matriculas": 353,
+    "ingressos": 97,
+    "concluintes": 50,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Coxim",
+    "slug": "COXIM",
+    "cod_ibge": "5003306",
+    "vagas_total": 80,
+    "matriculas": 199,
+    "ingressos": 80,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Andradina",
+    "slug": "NOVA_ANDRADINA",
+    "cod_ibge": "5006200",
+    "vagas_total": 62,
+    "matriculas": 251,
+    "ingressos": 57,
+    "concluintes": 67,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Naviraí",
+    "slug": "NAVIRAI",
+    "cod_ibge": "5005707",
+    "vagas_total": 59,
+    "matriculas": 246,
+    "ingressos": 59,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jardim",
+    "slug": "JARDIM",
+    "cod_ibge": "5005004",
+    "vagas_total": 54,
+    "matriculas": 88,
+    "ingressos": 54,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aquidauana",
+    "slug": "AQUIDAUANA",
+    "cod_ibge": "5001102",
+    "vagas_total": 51,
+    "matriculas": 97,
+    "ingressos": 48,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bataguassu",
+    "slug": "BATAGUASSU",
+    "cod_ibge": "5001904",
+    "vagas_total": 51,
+    "matriculas": 52,
+    "ingressos": 52,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cassilândia",
+    "slug": "CASSILANDIA",
+    "cod_ibge": "5002902",
+    "vagas_total": 41,
+    "matriculas": 78,
+    "ingressos": 39,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 1077,
+    "matriculas": 6130,
+    "ingressos": 965,
+    "concluintes": 1015,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Olinda",
+    "slug": "OLINDA",
+    "cod_ibge": "2609600",
+    "vagas_total": 705,
+    "matriculas": 1798,
+    "ingressos": 269,
+    "concluintes": 243,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaboatão dos Guararapes",
+    "slug": "JABOATAO_DOS_GUARARAPES",
+    "cod_ibge": "2607901",
+    "vagas_total": 440,
+    "matriculas": 1431,
+    "ingressos": 436,
+    "concluintes": 127,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Garanhuns",
+    "slug": "GARANHUNS",
+    "cod_ibge": "2606002",
+    "vagas_total": 418,
+    "matriculas": 807,
+    "ingressos": 346,
+    "concluintes": 33,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 210,
+    "matriculas": 528,
+    "ingressos": 216,
+    "concluintes": 77,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 193,
+    "matriculas": 277,
+    "ingressos": 152,
+    "concluintes": 88,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Araripina",
+    "slug": "ARARIPINA",
+    "cod_ibge": "2601102",
+    "vagas_total": 166,
+    "matriculas": 278,
+    "ingressos": 83,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Serra Talhada",
+    "slug": "SERRA_TALHADA",
+    "cod_ibge": "2613909",
+    "vagas_total": 90,
+    "matriculas": 190,
+    "ingressos": 74,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Goiana",
+    "slug": "GOIANA",
+    "cod_ibge": "2606200",
+    "vagas_total": 74,
+    "matriculas": 189,
+    "ingressos": 74,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arcoverde",
+    "slug": "ARCOVERDE",
+    "cod_ibge": "2601201",
+    "vagas_total": 72,
+    "matriculas": 225,
+    "ingressos": 56,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória de Santo Antão",
+    "slug": "VITORIA_DE_SANTO_ANTAO",
+    "cod_ibge": "2616407",
+    "vagas_total": 60,
+    "matriculas": 41,
+    "ingressos": 41,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

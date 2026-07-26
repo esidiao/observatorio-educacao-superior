@@ -1,0 +1,115 @@
+{% extends "base.html.j2" %}
+
+{% block title %}{{ meta.curso }} em {{ nome_uf }} ({{ sigla }}) — Observatório Nacional da Educação Superior{% endblock %}
+{% block meta_description %}{{ meta.curso }} em {{ nome_uf }}: {{ "{:,}".format(d.vagas_total).replace(',','.') }} vagas, {{ d.n_ies }} instituições, {{ d.municipios_oferta }} municípios com oferta presencial e {{ d.municipios_deserto }} desertos. Indicadores ICT, IAF e concentração (Censo INEP {{ meta.versao_censo }}).{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<a href="{{ depth }}curso/{{ meta.slug }}/index.html">{{ meta.curso }}</a>
+<span class="sep">›</span>
+<span class="active">{{ nome_uf }} ({{ sigla }})</span>
+{% endblock %}
+
+{% block content %}
+
+<div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;flex-wrap:wrap">
+  <h1 style="font-size:1.5rem;color:var(--navy)">{{ meta.curso }} em {{ nome_uf }}</h1>
+  <span class="uf-tag" style="font-size:1rem;padding:4px 12px">{{ sigla }}</span>
+  <span style="font-size:0.82rem;color:var(--text-muted)">{{ d.regiao }} · capital {{ d.capital }}</span>
+  <span style="flex:1"></span>
+  <button class="btn outline" onclick="exportarJSON(DADOS_UF, '{{ meta.slug }}_{{ sigla }}.json')" style="font-size:0.8rem;padding:6px 12px">↓ JSON</button>
+</div>
+
+<h2 class="section-title">Indicadores principais</h2>
+<div class="kpi-grid">
+
+  {% macro kpi(valor, rotulo, fonte, classe='') %}
+  <div class="kpi-card {{ classe }}{% if valor is none %} nodata{% endif %}">
+    <div class="kpi-valor">{% if valor is not none %}{{ valor }}{% else %}<span class="sem-dado">—</span>{% endif %}</div>
+    <div class="kpi-label">{{ rotulo }}</div>
+    <div class="kpi-fonte">{{ fonte }}</div>
+  </div>
+  {% endmacro %}
+
+  {{ kpi(fmt3(d.ICT), 'ICT ↓ (concentração)', 'Censo ' ~ meta.versao_censo,
+        'bom' if d.ICT is not none and d.ICT < 0.5 else ('critico' if d.ICT is not none and d.ICT >= 0.75 else '')) }}
+  {{ kpi(fmt3(d.E), 'Equidade ↑', 'Calculado') }}
+  {{ kpi(fmt1(d.IAF), 'IAF ↑ (0–100)',
+        ('ENADE ' ~ meta.ciclo_enade) if d.IAF is not none else 'sem ciclo ENADE',
+        'bom' if d.IAF is not none and d.IAF >= 45 else ('critico' if d.IAF is not none and d.IAF < 30 else '')) }}
+  {{ kpi(milhar(d.vagas_total), 'Vagas totais', 'presencial + EaD') }}
+  {{ kpi(milhar(d.vagas_presencial), 'Vagas presenciais', (d.n_cursos_presencial|string) ~ ' cursos') }}
+  {{ kpi(milhar(d.vagas_ead), 'Vagas EaD', 'sede da mantenedora') }}
+  {{ kpi(d.n_ies, 'Instituições', 'Censo ' ~ meta.versao_censo) }}
+  {{ kpi(d.municipios_oferta, 'Municípios c/ oferta', 'só presencial') }}
+  {{ kpi(d.municipios_deserto, 'Desertos (de ' ~ d.municipios_total ~ ')', 'sem curso presencial', 'critico') }}
+  {{ kpi(d.ead_polos_municipios, 'Municípios c/ polo EaD', 'alcance da EaD') }}
+  {{ kpi(d.mun_ead_only, 'Municípios só EaD', 'sem curso presencial') }}
+  {{ kpi(fmt1(d.vagas_por_100k), 'Vagas / 100 mil hab.', 'Censo + IBGE') }}
+
+</div>
+
+<h2 class="section-title">Qualidade avaliada</h2>
+{% if d.ENADE is none %}
+<p style="font-size:0.9rem;color:var(--text-muted);margin-bottom:24px">
+  <strong>Sem dados de qualidade para {{ meta.curso }}.</strong>
+  O ENADE é trienal e reveza as áreas de avaliação; o ciclo aplicável a este curso
+  ainda não foi publicado pelo INEP. Nenhum conceito é estimado.
+</p>
+{% else %}
+<div class="kpi-grid">
+  {{ kpi(fmt2(d.ENADE), 'ENADE (contínuo)', 'INEP ' ~ meta.ciclo_enade) }}
+  {{ kpi(fmt2(d.IDD), 'IDD (valor agregado)', 'INEP ' ~ meta.ciclo_enade) }}
+  {{ kpi(fmt2(d.CPC_cont), 'CPC', 'INEP ' ~ meta.ciclo_enade) }}
+  {{ kpi(fmt1(d.pct_doc_doutores), '% Doutores', 'INEP ' ~ meta.ciclo_enade) }}
+  {{ kpi(fmt1(d.pct_doc_mestres), '% Mestres+', 'INEP ' ~ meta.ciclo_enade) }}
+  {{ kpi(fmt1(d.pct_doc_regime), '% Regime int./parc.', 'INEP ' ~ meta.ciclo_enade) }}
+  {{ kpi(fmt2(d.cpc_org_didatico), 'Org. didático-ped.', 'Questionário do Estudante') }}
+  {{ kpi(fmt2(d.cpc_infraestrutura), 'Infraestrutura', 'Questionário do Estudante') }}
+  {{ kpi(fmt2(d.cpc_oportunidade), 'Oport. de ampliação', 'Questionário do Estudante') }}
+  {{ kpi(d.n_cursos_avaliados, 'Cursos avaliados', 'ciclo ' ~ meta.ciclo_enade) }}
+</div>
+{% endif %}
+
+<h2 class="section-title">Acesso, perfil e concentração</h2>
+<div class="kpi-grid">
+  {{ kpi(fmt1(d.pct_ead), '% EaD na capacidade', 'Censo ' ~ meta.versao_censo) }}
+  {{ kpi(fmt1(d.taxa_conclusao), 'Taxa de conclusão', 'concluintes / matrículas') }}
+  {{ kpi(fmt1(d.pct_mulheres), '% Mulheres (ingressantes)', 'Censo ' ~ meta.versao_censo) }}
+  {{ kpi(fmt1(d.pct_ppi), '% Pretos/pardos/indígenas', 'Censo ' ~ meta.versao_censo) }}
+  {{ kpi(fmt1(d.pct_financiamento), '% FIES/PROUNI', 'Censo ' ~ meta.versao_censo) }}
+  {{ kpi(fmt1(d.pct_noturno), '% Vagas noturnas', 'sobre presenciais') }}
+  {{ kpi(fmt1(d.pct_rede_publica), '% Rede pública', 'Censo ' ~ meta.versao_censo) }}
+  {{ kpi(fmt4(d.HHI), 'HHI ↓', 'concentração entre IES') }}
+  {{ kpi(pct(d.CR2), 'CR2 (2 maiores)', 'Censo ' ~ meta.versao_censo) }}
+  {{ kpi(pct(d.CR10), 'CR10 (10 maiores)', 'Censo ' ~ meta.versao_censo) }}
+</div>
+
+{% if municipios %}
+<h2 class="section-title">Municípios com oferta presencial ({{ municipios|length }})</h2>
+<div class="tabela-wrap">
+  <table>
+    <thead>
+      <tr><th>#</th><th>Município</th><th>Vagas</th><th>Matrículas</th><th>Cursos</th><th>IES</th></tr>
+    </thead>
+    <tbody>
+      {% for m in municipios %}
+      <tr>
+        <td style="color:var(--text-muted);width:40px">{{ loop.index }}</td>
+        <td>{{ m.nome }}</td>
+        <td>{{ "{:,}".format(m.vagas_total).replace(',','.') }}</td>
+        <td>{{ "{:,}".format(m.matriculas).replace(',','.') }}</td>
+        <td>{{ m.n_cursos }}</td>
+        <td>{{ m.n_ies }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+
+{% endblock %}
+
+{% block scripts %}
+<script>const DADOS_UF = {{ dados_uf_json }};</script>
+{% endblock %}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}Observatório Nacional da Educação Superior{% endblock %}</title>
+  <meta name="description" content="{% block meta_description %}Indicadores de acesso territorial, qualidade, capacidade e concentração da educação superior brasileira, por curso e por unidade federativa, a partir de dados oficiais do INEP e do IBGE.{% endblock %}">
+
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#15314F">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Observatório Nacional da Educação Superior">
+  <meta property="og:title" content="{% block og_title %}Observatório Nacional da Educação Superior{% endblock %}">
+  <meta property="og:locale" content="pt_BR">
+
+  <link rel="stylesheet" href="{{ depth }}static/css/style.css">
+  {% block head_extra %}{% endblock %}
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h5v-6h4v6h5V10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM19 3v18M8 7h7M8 11h7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-swap" viewBox="0 0 24 24"><path d="M7 7h13M7 7l3-3M7 7l3 3M17 17H4M17 17l-3-3M17 17l-3 3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<header class="site-header" role="banner">
+  <a href="{{ depth }}index.html" class="brand" aria-label="Página inicial">
+    <span class="brand-text">
+      <span class="brand-name">Observatório Nacional</span>
+      <span class="brand-sub">da Educação Superior</span>
+    </span>
+  </a>
+  <p class="header-tag">Acesso territorial, qualidade, capacidade e concentração · Censo INEP {{ versao_censo }}</p>
+</header>
+
+<nav class="navbar" aria-label="Navegação">
+  <a href="{{ depth }}index.html" class="nav-home" title="Página inicial" aria-label="Início"><svg class="ic"><use href="#i-home"/></svg></a>
+  <span class="breadcrumb-trail">
+    {% block breadcrumb %}{% endblock %}
+  </span>
+  <span class="nav-menu">
+    <a href="{{ depth }}comparar-cursos.html" style="color:var(--text-muted);font-size:0.82rem">Comparar cursos</a>
+    <span class="sep">·</span>
+    <a href="{{ depth }}metodologia.html" style="color:var(--text-muted);font-size:0.82rem">Metodologia</a>
+    <span class="sep">·</span>
+    <a href="#glossario" class="nav-glossario" style="font-size:0.82rem"><svg class="ic"><use href="#i-book"/></svg> Entenda os indicadores</a>
+  </span>
+  <div style="flex:1"></div>
+  <span style="font-size:0.78rem;color:var(--text-muted)">Dados: {{ data_extracao }}</span>
+</nav>
+
+{% if cursos|length > 1 %}
+<div class="seletor-curso" aria-label="Selecionar curso">
+  <span class="seletor-curso-rotulo">Curso:</span>
+  {% for c in cursos %}
+  <a href="{{ depth }}curso/{{ c.slug }}/index.html"
+     class="curso-chip{% if curso_atual and c.slug == curso_atual %} ativo{% endif %}">{{ c.nome }}</a>
+  {% endfor %}
+  <span style="flex:1"></span>
+  <a href="{{ depth }}comparar-cursos.html" class="curso-chip comparar"><svg class="ic"><use href="#i-swap"/></svg> Comparar</a>
+</div>
+{% endif %}
+
+<main>
+  {% block content %}{% endblock %}
+
+  <section id="glossario" class="glossario" aria-label="Glossário de indicadores">
+    <h2 class="section-title"><svg class="ic" style="color:var(--accent)"><use href="#i-book"/></svg> Entenda os indicadores</h2>
+    <p class="glossario-intro">
+      Cada indicador explica <strong>o que mede</strong>, sua <strong>escala</strong>,
+      se <strong>maior ou menor é melhor</strong> e a <strong>fonte oficial</strong>.
+    </p>
+    <div class="glossario-busca">
+      <input type="search" id="glossario-filtro" placeholder="Buscar indicador (ex.: ICT, EaD, desertos, qualidade…)"
+             oninput="filtrarGlossario(this.value)" aria-label="Buscar indicador">
+    </div>
+    <div id="glossario-lista" class="glossario-lista"></div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <p>Observatório Nacional da Educação Superior · Fontes: INEP (Censo da Educação Superior {{ versao_censo }} e ENADE/CPC), IBGE</p>
+  <p style="margin-top:6px;opacity:0.85">
+    Nenhum indicador é estimado. Sem fonte para um recorte, o valor aparece como
+    <strong>sem dados</strong> — nunca como um número inventado.
+  </p>
+</footer>
+
+<script src="{{ depth }}static/js/app.js"></script>
+<script src="{{ depth }}static/js/glossario.js"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 5813,
+    "matriculas": 2529,
+    "ingressos": 665,
+    "concluintes": 409,
+    "n_cursos": 18,
+    "n_ies": 16
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 952,
+    "matriculas": 856,
+    "ingressos": 239,
+    "concluintes": 85,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 594,
+    "matriculas": 653,
+    "ingressos": 143,
+    "concluintes": 89,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Tianguá",
+    "slug": "TIANGUA",
+    "cod_ibge": "2313401",
+    "vagas_total": 203,
+    "matriculas": 10,
+    "ingressos": 7,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 180,
+    "matriculas": 249,
+    "ingressos": 66,
+    "concluintes": 26,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Itapipoca",
+    "slug": "ITAPIPOCA",
+    "cod_ibge": "2306405",
+    "vagas_total": 165,
+    "matriculas": 116,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iguatu",
+    "slug": "IGUATU",
+    "cod_ibge": "2305506",
+    "vagas_total": 162,
+    "matriculas": 51,
+    "ingressos": 13,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caucaia",
+    "slug": "CAUCAIA",
+    "cod_ibge": "2303709",
+    "vagas_total": 130,
+    "matriculas": 37,
+    "ingressos": 16,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Russas",
+    "slug": "RUSSAS",
+    "cod_ibge": "2311801",
+    "vagas_total": 62,
+    "matriculas": 104,
+    "ingressos": 30,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Crateús",
+    "slug": "CRATEUS",
+    "cod_ibge": "2304103",
+    "vagas_total": 61,
+    "matriculas": 179,
+    "ingressos": 36,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Morada Nova",
+    "slug": "MORADA_NOVA",
+    "cod_ibge": "2308708",
+    "vagas_total": 35,
+    "matriculas": 105,
+    "ingressos": 29,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

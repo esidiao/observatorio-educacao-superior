@@ -1,0 +1,178 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 947,
+    "matriculas": 5472,
+    "ingressos": 941,
+    "concluintes": 785,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 561,
+    "matriculas": 2940,
+    "ingressos": 577,
+    "concluintes": 463,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 341,
+    "matriculas": 1816,
+    "ingressos": 366,
+    "concluintes": 338,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Pinhais",
+    "slug": "PINHAIS",
+    "cod_ibge": "4119152",
+    "vagas_total": 239,
+    "matriculas": 307,
+    "ingressos": 238,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 235,
+    "matriculas": 1157,
+    "ingressos": 237,
+    "concluintes": 149,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Campo Mourão",
+    "slug": "CAMPO_MOURAO",
+    "cod_ibge": "4104303",
+    "vagas_total": 201,
+    "matriculas": 903,
+    "ingressos": 180,
+    "concluintes": 60,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 170,
+    "matriculas": 823,
+    "ingressos": 167,
+    "concluintes": 38,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Umuarama",
+    "slug": "UMUARAMA",
+    "cod_ibge": "4128104",
+    "vagas_total": 158,
+    "matriculas": 785,
+    "ingressos": 128,
+    "concluintes": 128,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pato Branco",
+    "slug": "PATO_BRANCO",
+    "cod_ibge": "4118501",
+    "vagas_total": 132,
+    "matriculas": 836,
+    "ingressos": 92,
+    "concluintes": 98,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 68,
+    "matriculas": 412,
+    "ingressos": 66,
+    "concluintes": 50,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 61,
+    "matriculas": 450,
+    "ingressos": 75,
+    "concluintes": 74,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arapongas",
+    "slug": "ARAPONGAS",
+    "cod_ibge": "4101507",
+    "vagas_total": 60,
+    "matriculas": 36,
+    "ingressos": 38,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ivaiporã",
+    "slug": "IVAIPORA",
+    "cod_ibge": "4111506",
+    "vagas_total": 60,
+    "matriculas": 58,
+    "ingressos": 59,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 52,
+    "matriculas": 308,
+    "ingressos": 55,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Francisco Beltrão",
+    "slug": "FRANCISCO_BELTRAO",
+    "cod_ibge": "4108403",
+    "vagas_total": 45,
+    "matriculas": 249,
+    "ingressos": 49,
+    "concluintes": 41,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Telêmaco Borba",
+    "slug": "TELEMACO_BORBA",
+    "cod_ibge": "4127106",
+    "vagas_total": 40,
+    "matriculas": 40,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Aracaju",
+    "slug": "ARACAJU",
+    "cod_ibge": "2800308",
+    "vagas_total": 412,
+    "matriculas": 1892,
+    "ingressos": 416,
+    "concluintes": 269,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Lagarto",
+    "slug": "LAGARTO",
+    "cod_ibge": "2803500",
+    "vagas_total": 70,
+    "matriculas": 380,
+    "ingressos": 69,
+    "concluintes": 59,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Estância",
+    "slug": "ESTANCIA",
+    "cod_ibge": "2802106",
+    "vagas_total": 60,
+    "matriculas": 259,
+    "ingressos": 60,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

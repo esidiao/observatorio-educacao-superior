@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 3637,
+    "matriculas": 4052,
+    "ingressos": 1431,
+    "concluintes": 500,
+    "n_cursos": 9,
+    "n_ies": 9
+  },
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 1298,
+    "matriculas": 2415,
+    "ingressos": 708,
+    "concluintes": 311,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Cajazeiras",
+    "slug": "CAJAZEIRAS",
+    "cod_ibge": "2503704",
+    "vagas_total": 457,
+    "matriculas": 526,
+    "ingressos": 148,
+    "concluintes": 97,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Sousa",
+    "slug": "SOUSA",
+    "cod_ibge": "2516201",
+    "vagas_total": 434,
+    "matriculas": 843,
+    "ingressos": 234,
+    "concluintes": 133,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Guarabira",
+    "slug": "GUARABIRA",
+    "cod_ibge": "2506301",
+    "vagas_total": 323,
+    "matriculas": 773,
+    "ingressos": 243,
+    "concluintes": 57,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cabedelo",
+    "slug": "CABEDELO",
+    "cod_ibge": "2503209",
+    "vagas_total": 294,
+    "matriculas": 863,
+    "ingressos": 201,
+    "concluintes": 180,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patos",
+    "slug": "PATOS",
+    "cod_ibge": "2510808",
+    "vagas_total": 234,
+    "matriculas": 739,
+    "ingressos": 216,
+    "concluintes": 117,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Rita",
+    "slug": "SANTA_RITA",
+    "cod_ibge": "2513703",
+    "vagas_total": 204,
+    "matriculas": 677,
+    "ingressos": 179,
+    "concluintes": 102,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sumé",
+    "slug": "SUME",
+    "cod_ibge": "2516300",
+    "vagas_total": 100,
+    "matriculas": 87,
+    "ingressos": 40,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Bento",
+    "slug": "SAO_BENTO",
+    "cod_ibge": "2513901",
+    "vagas_total": 97,
+    "matriculas": 63,
+    "ingressos": 24,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Conceição",
+    "slug": "CONCEICAO",
+    "cod_ibge": "2504405",
+    "vagas_total": 87,
+    "matriculas": 12,
+    "ingressos": 16,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

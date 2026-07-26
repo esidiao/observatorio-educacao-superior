@@ -1,0 +1,88 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Observatório Nacional da Educação Superior{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+  <p class="hero-eyebrow">{{ cursos|length }} cursos · 27 estados · Censo INEP {{ versao_censo }}</p>
+  <h1 class="hero-title">Quem o Brasil forma, onde e com que qualidade?</h1>
+  <p class="hero-lead">
+    Um retrato da educação superior brasileira a partir de dados oficiais: onde cada
+    curso é ofertado, quanto da capacidade migrou para a modalidade a distância,
+    quão concentrada é a oferta e o que a avaliação do INEP mostra sobre a qualidade.
+    A mesma régua aplicada a cursos diferentes.
+  </p>
+  <div class="hero-stats">
+    <div class="lede"><span class="lede-num">{{ "{:,}".format(agregado.vagas_total).replace(',','.') }}</span><span class="lede-lab">vagas nos cursos analisados</span></div>
+    <div class="lede"><span class="lede-num">{{ agregado.n_cursos }}</span><span class="lede-lab">cursos no observatório</span></div>
+    <div class="lede"><span class="lede-num">{{ "{:,}".format(agregado.matriculas).replace(',','.') }}</span><span class="lede-lab">matrículas presenciais</span></div>
+  </div>
+  <div class="hero-cta">
+    <a class="btn" href="comparar-cursos.html">Comparar cursos</a>
+    <a class="btn outline" href="metodologia.html">Como os dados são construídos</a>
+  </div>
+</section>
+
+<h2 class="section-title">Cursos no observatório</h2>
+<div class="areas-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-bottom:32px">
+  {% for c in resumo_cursos %}
+  <a class="curso-card" href="curso/{{ c.slug }}/index.html">
+    <h3>{{ c.nome }}</h3>
+    <p class="curso-area">{{ c.area_cine }}</p>
+    <div class="curso-nums">
+      <span><strong>{{ "{:,}".format(c.vagas_total).replace(',','.') }}</strong> vagas</span>
+      <span><strong>{{ c.pct_ead }}%</strong> EaD</span>
+      <span><strong>{{ c.municipios_oferta }}</strong> municípios</span>
+    </div>
+    {% if not c.tem_qualidade %}
+    <p class="curso-aviso">Sem ciclo ENADE publicado — qualidade sem dados</p>
+    {% endif %}
+  </a>
+  {% endfor %}
+</div>
+
+<h2 class="section-title">O que este observatório não faz</h2>
+<p style="font-size:0.92rem;line-height:1.7;color:var(--text);max-width:75ch;margin-bottom:14px">
+  Não estima. Quando não existe fonte oficial para um recorte, o indicador aparece
+  como <span class="sem-dado">sem dados</span> — nunca como zero nem como uma média
+  plausível. O ENADE é trienal e reveza as áreas avaliadas, então cursos fora do
+  ciclo vigente simplesmente não têm indicadores de qualidade aqui.
+</p>
+<p style="font-size:0.92rem;line-height:1.7;color:var(--text);max-width:75ch;margin-bottom:28px">
+  Também não trata áreas diferentes como se fossem comparáveis em tudo. A comparação
+  entre cursos serve para revelar padrões estruturais — concentração, migração para
+  EaD, cobertura territorial —, não para ordenar carreiras por mérito.
+</p>
+
+<style>
+.curso-card {
+  display: block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--blue);
+  border-radius: 10px;
+  padding: 18px 20px;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 0.12s, box-shadow 0.12s, border-color 0.12s;
+}
+.curso-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(22,48,79,0.12);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.curso-card h3 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--navy);
+  margin: 0 0 4px;
+}
+.curso-area { font-size: 0.76rem; color: var(--text-muted); margin: 0 0 12px; }
+.curso-nums { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 0.82rem; color: var(--text-muted); }
+.curso-nums strong { color: var(--navy); font-variant-numeric: tabular-nums; }
+.curso-aviso { font-size: 0.74rem; color: var(--gold); margin: 10px 0 0; font-weight: 600; }
+</style>
+
+{% endblock %}
