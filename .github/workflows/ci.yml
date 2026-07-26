@@ -9,6 +9,12 @@ on:
 permissions:
   contents: read
 
+# Um deploy por vez. Sem isto, dois pushes seguidos disputariam o Pages e o
+# segundo poderia publicar antes do primeiro.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
 jobs:
   validar-e-construir:
     runs-on: ubuntu-latest
@@ -41,3 +47,47 @@ jobs:
 
       - name: "Conferir o site gerado"
         run: python tests/test_site_gerado.py
+
+  publicar:
+    # Só publica o que passou por todos os portões, e só a partir da main.
+    needs: validar-e-construir
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - uses: actions/configure-pages@v5
+        id: pages
+
+      # Rebuild com a URL pública: é ela que habilita sitemap.xml e robots.txt e
+      # dá à página 404 caminhos a partir da raiz do site. O 404 é servido para
+      # qualquer endereço inexistente, inclusive /curso/x/uf/ZZ.html — com links
+      # relativos, o CSS e a navegação quebrariam justamente ali.
+      - name: "Gerar site com a URL pública"
+        run: python site/build.py --base-url "${{ steps.pages.outputs.base_url }}"
+
+      - name: "Conferir o site gerado"
+        run: python tests/test_site_gerado.py
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site/dist
+
+      - name: Publicar no GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
