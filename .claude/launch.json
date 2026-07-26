@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "observatorio-educacao",
+      "runtimeExecutable": "C:\\Users\\User\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+      "runtimeArgs": ["-m", "http.server", "7474", "--directory", "site/dist"],
+      "port": 7474,
+      "autoPort": false
+    }
+  ]
+}
