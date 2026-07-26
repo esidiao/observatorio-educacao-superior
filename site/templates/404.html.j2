@@ -19,8 +19,11 @@
     que encontra qualquer um deles pelo nome.
   </p>
   <div class="hero-cta">
-    <a class="btn" href="index.html#catalogo">Ver todos os cursos</a>
-    <a class="btn outline" href="comparar-cursos.html">Comparar cursos</a>
+    {# depth aqui é a raiz pública do site, não um caminho relativo: esta página
+       é servida para QUALQUER endereço inexistente, inclusive profundos como
+       /curso/x/uf/ZZ.html, onde "index.html" apontaria para o lugar errado. #}
+    <a class="btn" href="{{ depth }}index.html#catalogo">Ver todos os cursos</a>
+    <a class="btn outline" href="{{ depth }}comparar-cursos.html">Comparar cursos</a>
   </div>
 </section>
 

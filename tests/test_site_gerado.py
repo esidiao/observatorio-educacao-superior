@@ -99,6 +99,27 @@ def test_dados_embutidos_nao_fecham_script():
                 falhas.append(f"{rel}: JSON embutido inválido ({e})")
 
 
+def test_404_com_caminhos_absolutos():
+    """O 404 é servido para qualquer endereço, inclusive profundo.
+
+    Um href relativo nele resolve contra o caminho inexistente que o usuário
+    digitou — CSS, JS e botões apontam para o vazio. Todo caminho da página
+    precisa partir da raiz pública.
+    """
+    pagina = DIST / "404.html"
+    if not pagina.exists():
+        return
+    texto = pagina.read_text(encoding="utf-8")
+    relativos = []
+    for atributo, valor in re.findall(r'(href|src)="([^"]+)"', texto):
+        if valor.startswith(("/", "#", "http://", "https://", "data:", "mailto:")):
+            continue
+        relativos.append(f"{atributo}=\"{valor}\"")
+    checar(not relativos,
+           f"404.html tem caminhos relativos, que quebram em URLs profundas: "
+           f"{relativos[:5]}")
+
+
 def main():
     if not DIST.exists():
         sys.exit("[ERRO] site/dist não existe — rode python site/build.py antes.")
@@ -107,6 +128,7 @@ def main():
     test_sem_recursos_externos()
     test_csp_publicada()
     test_dados_embutidos_nao_fecham_script()
+    test_404_com_caminhos_absolutos()
 
     if falhas:
         print(f"[FALHOU] {len(falhas)} problema(s) no site gerado:\n")
