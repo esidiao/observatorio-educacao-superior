@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 150,
+    "matriculas": 115,
+    "ingressos": 26,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

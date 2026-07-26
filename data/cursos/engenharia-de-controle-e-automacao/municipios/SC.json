@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Blumenau",
+    "slug": "BLUMENAU",
+    "cod_ibge": "4202404",
+    "vagas_total": 364,
+    "matriculas": 408,
+    "ingressos": 66,
+    "concluintes": 54,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Luzerna",
+    "slug": "LUZERNA",
+    "cod_ibge": "4210035",
+    "vagas_total": 154,
+    "matriculas": 69,
+    "ingressos": 8,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Bento do Sul",
+    "slug": "SAO_BENTO_DO_SUL",
+    "cod_ibge": "4215802",
+    "vagas_total": 134,
+    "matriculas": 69,
+    "ingressos": 31,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 87,
+    "matriculas": 414,
+    "ingressos": 69,
+    "concluintes": 55,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 84,
+    "matriculas": 147,
+    "ingressos": 55,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caçador",
+    "slug": "CACADOR",
+    "cod_ibge": "4203006",
+    "vagas_total": 51,
+    "matriculas": 5,
+    "ingressos": 6,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 12,
+    "matriculas": 56,
+    "ingressos": 12,
+    "concluintes": 3,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Jaraguá do Sul",
+    "slug": "JARAGUA_DO_SUL",
+    "cod_ibge": "4208906",
+    "vagas_total": 6,
+    "matriculas": 41,
+    "ingressos": 6,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tubarão",
+    "slug": "TUBARAO",
+    "cod_ibge": "4218707",
+    "vagas_total": 0,
+    "matriculas": 6,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

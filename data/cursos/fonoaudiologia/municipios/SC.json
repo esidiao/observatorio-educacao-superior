@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Itajaí",
+    "slug": "ITAJAI",
+    "cod_ibge": "4208203",
+    "vagas_total": 216,
+    "matriculas": 130,
+    "ingressos": 68,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 80,
+    "matriculas": 90,
+    "ingressos": 49,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 71,
+    "matriculas": 139,
+    "ingressos": 38,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 60,
+    "matriculas": 74,
+    "ingressos": 35,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joaçaba",
+    "slug": "JOACABA",
+    "cod_ibge": "4209003",
+    "vagas_total": 55,
+    "matriculas": 27,
+    "ingressos": 35,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capivari de Baixo",
+    "slug": "CAPIVARI_DE_BAIXO",
+    "cod_ibge": "4203956",
+    "vagas_total": 50,
+    "matriculas": 20,
+    "ingressos": 21,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tubarão",
+    "slug": "TUBARAO",
+    "cod_ibge": "4218707",
+    "vagas_total": 23,
+    "matriculas": 43,
+    "ingressos": 23,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

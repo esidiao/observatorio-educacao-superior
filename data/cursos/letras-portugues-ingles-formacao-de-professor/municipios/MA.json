@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 275,
+    "matriculas": 499,
+    "ingressos": 79,
+    "concluintes": 57,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Chapadinha",
+    "slug": "CHAPADINHA",
+    "cod_ibge": "2103208",
+    "vagas_total": 233,
+    "matriculas": 58,
+    "ingressos": 34,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Timon",
+    "slug": "TIMON",
+    "cod_ibge": "2112209",
+    "vagas_total": 200,
+    "matriculas": 10,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lago da Pedra",
+    "slug": "LAGO_DA_PEDRA",
+    "cod_ibge": "2105708",
+    "vagas_total": 50,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bacabal",
+    "slug": "BACABAL",
+    "cod_ibge": "2101202",
+    "vagas_total": 35,
+    "matriculas": 65,
+    "ingressos": 30,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Balsas",
+    "slug": "BALSAS",
+    "cod_ibge": "2101400",
+    "vagas_total": 30,
+    "matriculas": 108,
+    "ingressos": 22,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 28,
+    "matriculas": 102,
+    "ingressos": 28,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 0,
+    "matriculas": 61,
+    "ingressos": 0,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

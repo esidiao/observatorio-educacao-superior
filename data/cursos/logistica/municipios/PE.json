@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 1220,
+    "matriculas": 513,
+    "ingressos": 260,
+    "concluintes": 86,
+    "n_cursos": 8,
+    "n_ies": 8
+  },
+  {
+    "nome": "Jaboatão dos Guararapes",
+    "slug": "JABOATAO_DOS_GUARARAPES",
+    "cod_ibge": "2607901",
+    "vagas_total": 414,
+    "matriculas": 91,
+    "ingressos": 36,
+    "concluintes": 33,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cabo de Santo Agostinho",
+    "slug": "CABO_DE_SANTO_AGOSTINHO",
+    "cod_ibge": "2602902",
+    "vagas_total": 388,
+    "matriculas": 160,
+    "ingressos": 96,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória de Santo Antão",
+    "slug": "VITORIA_DE_SANTO_ANTAO",
+    "cod_ibge": "2616407",
+    "vagas_total": 347,
+    "matriculas": 76,
+    "ingressos": 22,
+    "concluintes": 42,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Paulista",
+    "slug": "PAULISTA",
+    "cod_ibge": "2610707",
+    "vagas_total": 240,
+    "matriculas": 7,
+    "ingressos": 0,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Igarassu",
+    "slug": "IGARASSU",
+    "cod_ibge": "2606804",
+    "vagas_total": 200,
+    "matriculas": 95,
+    "ingressos": 46,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipojuca",
+    "slug": "IPOJUCA",
+    "cod_ibge": "2607208",
+    "vagas_total": 160,
+    "matriculas": 14,
+    "ingressos": 6,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Olinda",
+    "slug": "OLINDA",
+    "cod_ibge": "2609600",
+    "vagas_total": 100,
+    "matriculas": 31,
+    "ingressos": 17,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiana",
+    "slug": "GOIANA",
+    "cod_ibge": "2606200",
+    "vagas_total": 70,
+    "matriculas": 56,
+    "ingressos": 15,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nazaré da Mata",
+    "slug": "NAZARE_DA_MATA",
+    "cod_ibge": "2609501",
+    "vagas_total": 40,
+    "matriculas": 90,
+    "ingressos": 27,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

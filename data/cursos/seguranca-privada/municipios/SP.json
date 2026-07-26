@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 420,
+    "matriculas": 55,
+    "ingressos": 10,
+    "concluintes": 40,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Santo André",
+    "slug": "SANTO_ANDRE",
+    "cod_ibge": "3547809",
+    "vagas_total": 240,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 135,
+    "matriculas": 20,
+    "ingressos": 29,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

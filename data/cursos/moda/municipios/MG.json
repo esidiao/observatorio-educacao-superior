@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 757,
+    "matriculas": 703,
+    "ingressos": 184,
+    "concluintes": 111,
+    "n_cursos": 6,
+    "n_ies": 5
+  },
+  {
+    "nome": "Passos",
+    "slug": "PASSOS",
+    "cod_ibge": "3147907",
+    "vagas_total": 168,
+    "matriculas": 134,
+    "ingressos": 50,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 151,
+    "matriculas": 267,
+    "ingressos": 74,
+    "concluintes": 77,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Divinópolis",
+    "slug": "DIVINOPOLIS",
+    "cod_ibge": "3122306",
+    "vagas_total": 59,
+    "matriculas": 196,
+    "ingressos": 45,
+    "concluintes": 39,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Muriaé",
+    "slug": "MURIAE",
+    "cod_ibge": "3143906",
+    "vagas_total": 36,
+    "matriculas": 69,
+    "ingressos": 19,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Santo André",
+    "slug": "SANTO_ANDRE",
+    "cod_ibge": "3547809",
+    "vagas_total": 198,
+    "matriculas": 489,
+    "ingressos": 167,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 68,
+    "matriculas": 136,
+    "ingressos": 63,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Bernardo do Campo",
+    "slug": "SAO_BERNARDO_DO_CAMPO",
+    "cod_ibge": "3548708",
+    "vagas_total": 58,
+    "matriculas": 181,
+    "ingressos": 58,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

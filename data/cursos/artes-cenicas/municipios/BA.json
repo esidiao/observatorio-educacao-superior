@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Porto Seguro",
+    "slug": "PORTO_SEGURO",
+    "cod_ibge": "2925303",
+    "vagas_total": 67,
+    "matriculas": 31,
+    "ingressos": 10,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 45,
+    "matriculas": 133,
+    "ingressos": 31,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

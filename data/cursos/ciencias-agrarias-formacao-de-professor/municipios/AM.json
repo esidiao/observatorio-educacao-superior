@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Benjamin Constant",
+    "slug": "BENJAMIN_CONSTANT",
+    "cod_ibge": "1300607",
+    "vagas_total": 50,
+    "matriculas": 130,
+    "ingressos": 9,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itacoatiara",
+    "slug": "ITACOATIARA",
+    "cod_ibge": "1301902",
+    "vagas_total": 47,
+    "matriculas": 41,
+    "ingressos": 47,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

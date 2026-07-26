@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 117,
+    "matriculas": 471,
+    "ingressos": 102,
+    "concluintes": 57,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Paragominas",
+    "slug": "PARAGOMINAS",
+    "cod_ibge": "1505502",
+    "vagas_total": 117,
+    "matriculas": 152,
+    "ingressos": 60,
+    "concluintes": 14,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Capitão Poço",
+    "slug": "CAPITAO_POCO",
+    "cod_ibge": "1502301",
+    "vagas_total": 87,
+    "matriculas": 115,
+    "ingressos": 25,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Parauapebas",
+    "slug": "PARAUAPEBAS",
+    "cod_ibge": "1505536",
+    "vagas_total": 67,
+    "matriculas": 133,
+    "ingressos": 49,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Altamira",
+    "slug": "ALTAMIRA",
+    "cod_ibge": "1500602",
+    "vagas_total": 50,
+    "matriculas": 111,
+    "ingressos": 29,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Félix do Xingu",
+    "slug": "SAO_FELIX_DO_XINGU",
+    "cod_ibge": "1507300",
+    "vagas_total": 49,
+    "matriculas": 93,
+    "ingressos": 16,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ananindeua",
+    "slug": "ANANINDEUA",
+    "cod_ibge": "1500800",
+    "vagas_total": 40,
+    "matriculas": 87,
+    "ingressos": 34,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Castanhal",
+    "slug": "CASTANHAL",
+    "cod_ibge": "1502400",
+    "vagas_total": 40,
+    "matriculas": 100,
+    "ingressos": 22,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 40,
+    "matriculas": 78,
+    "ingressos": 20,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 34,
+    "matriculas": 180,
+    "ingressos": 34,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

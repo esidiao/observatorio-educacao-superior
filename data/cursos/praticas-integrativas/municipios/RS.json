@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Novo Hamburgo",
+    "slug": "NOVO_HAMBURGO",
+    "cod_ibge": "4313409",
+    "vagas_total": 191,
+    "matriculas": 138,
+    "ingressos": 21,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

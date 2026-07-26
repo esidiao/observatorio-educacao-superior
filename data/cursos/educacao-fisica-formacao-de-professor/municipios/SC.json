@@ -1,0 +1,211 @@
+[
+  {
+    "nome": "Itajaí",
+    "slug": "ITAJAI",
+    "cod_ibge": "4208203",
+    "vagas_total": 320,
+    "matriculas": 0,
+    "ingressos": 2,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 318,
+    "matriculas": 91,
+    "ingressos": 0,
+    "concluintes": 21,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Lages",
+    "slug": "LAGES",
+    "cod_ibge": "4209300",
+    "vagas_total": 300,
+    "matriculas": 318,
+    "ingressos": 300,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 156,
+    "matriculas": 478,
+    "ingressos": 155,
+    "concluintes": 56,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Balneário Camboriú",
+    "slug": "BALNEARIO_CAMBORIU",
+    "cod_ibge": "4202008",
+    "vagas_total": 110,
+    "matriculas": 5,
+    "ingressos": 3,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capivari de Baixo",
+    "slug": "CAPIVARI_DE_BAIXO",
+    "cod_ibge": "4203956",
+    "vagas_total": 100,
+    "matriculas": 61,
+    "ingressos": 64,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Belo",
+    "slug": "PORTO_BELO",
+    "cod_ibge": "4213500",
+    "vagas_total": 100,
+    "matriculas": 14,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Criciúma",
+    "slug": "CRICIUMA",
+    "cod_ibge": "4204608",
+    "vagas_total": 86,
+    "matriculas": 117,
+    "ingressos": 42,
+    "concluintes": 24,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Brusque",
+    "slug": "BRUSQUE",
+    "cod_ibge": "4202909",
+    "vagas_total": 70,
+    "matriculas": 86,
+    "ingressos": 57,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 65,
+    "matriculas": 61,
+    "ingressos": 33,
+    "concluintes": 14,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Pinhalzinho",
+    "slug": "PINHALZINHO",
+    "cod_ibge": "4212908",
+    "vagas_total": 60,
+    "matriculas": 66,
+    "ingressos": 20,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Orleans",
+    "slug": "ORLEANS",
+    "cod_ibge": "4211702",
+    "vagas_total": 50,
+    "matriculas": 38,
+    "ingressos": 15,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Miguel do Oeste",
+    "slug": "SAO_MIGUEL_DO_OESTE",
+    "cod_ibge": "4217204",
+    "vagas_total": 50,
+    "matriculas": 48,
+    "ingressos": 24,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joaçaba",
+    "slug": "JOACABA",
+    "cod_ibge": "4209003",
+    "vagas_total": 48,
+    "matriculas": 70,
+    "ingressos": 30,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Xanxerê",
+    "slug": "XANXERE",
+    "cod_ibge": "4219507",
+    "vagas_total": 45,
+    "matriculas": 35,
+    "ingressos": 20,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Blumenau",
+    "slug": "BLUMENAU",
+    "cod_ibge": "4202404",
+    "vagas_total": 40,
+    "matriculas": 74,
+    "ingressos": 2,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tubarão",
+    "slug": "TUBARAO",
+    "cod_ibge": "4218707",
+    "vagas_total": 13,
+    "matriculas": 50,
+    "ingressos": 13,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaraguá do Sul",
+    "slug": "JARAGUA_DO_SUL",
+    "cod_ibge": "4208906",
+    "vagas_total": 11,
+    "matriculas": 23,
+    "ingressos": 11,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caçador",
+    "slug": "CACADOR",
+    "cod_ibge": "4203006",
+    "vagas_total": 0,
+    "matriculas": 8,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

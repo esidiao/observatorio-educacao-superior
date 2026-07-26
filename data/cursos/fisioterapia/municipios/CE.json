@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 5488,
+    "matriculas": 3203,
+    "ingressos": 917,
+    "concluintes": 421,
+    "n_cursos": 18,
+    "n_ies": 13
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 1834,
+    "matriculas": 999,
+    "ingressos": 338,
+    "concluintes": 120,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 935,
+    "matriculas": 510,
+    "ingressos": 171,
+    "concluintes": 60,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Tianguá",
+    "slug": "TIANGUA",
+    "cod_ibge": "2313401",
+    "vagas_total": 568,
+    "matriculas": 279,
+    "ingressos": 91,
+    "concluintes": 33,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Maracanaú",
+    "slug": "MARACANAU",
+    "cod_ibge": "2307650",
+    "vagas_total": 431,
+    "matriculas": 143,
+    "ingressos": 69,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapipoca",
+    "slug": "ITAPIPOCA",
+    "cod_ibge": "2306405",
+    "vagas_total": 165,
+    "matriculas": 299,
+    "ingressos": 99,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iguatu",
+    "slug": "IGUATU",
+    "cod_ibge": "2305506",
+    "vagas_total": 159,
+    "matriculas": 135,
+    "ingressos": 42,
+    "concluintes": 9,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Aracati",
+    "slug": "ARACATI",
+    "cod_ibge": "2301109",
+    "vagas_total": 150,
+    "matriculas": 59,
+    "ingressos": 38,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 147,
+    "matriculas": 119,
+    "ingressos": 27,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Icó",
+    "slug": "ICO",
+    "cod_ibge": "2305407",
+    "vagas_total": 140,
+    "matriculas": 134,
+    "ingressos": 32,
+    "concluintes": 45,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caucaia",
+    "slug": "CAUCAIA",
+    "cod_ibge": "2303709",
+    "vagas_total": 130,
+    "matriculas": 68,
+    "ingressos": 22,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Crateús",
+    "slug": "CRATEUS",
+    "cod_ibge": "2304103",
+    "vagas_total": 110,
+    "matriculas": 19,
+    "ingressos": 19,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Quixeramobim",
+    "slug": "QUIXERAMOBIM",
+    "cod_ibge": "2311405",
+    "vagas_total": 100,
+    "matriculas": 73,
+    "ingressos": 13,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Limoeiro do Norte",
+    "slug": "LIMOEIRO_DO_NORTE",
+    "cod_ibge": "2307601",
+    "vagas_total": 85,
+    "matriculas": 83,
+    "ingressos": 20,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

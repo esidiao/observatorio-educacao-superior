@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Jacarezinho",
+    "slug": "JACAREZINHO",
+    "cod_ibge": "4111803",
+    "vagas_total": 350,
+    "matriculas": 39,
+    "ingressos": 22,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 95,
+    "matriculas": 68,
+    "ingressos": 48,
+    "concluintes": 4,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 93,
+    "matriculas": 157,
+    "ingressos": 21,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 85,
+    "matriculas": 87,
+    "ingressos": 31,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 67,
+    "matriculas": 55,
+    "ingressos": 29,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "União da Vitória",
+    "slug": "UNIAO_DA_VITORIA",
+    "cod_ibge": "4128203",
+    "vagas_total": 65,
+    "matriculas": 73,
+    "ingressos": 34,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 59,
+    "matriculas": 142,
+    "ingressos": 40,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 50,
+    "matriculas": 55,
+    "ingressos": 18,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

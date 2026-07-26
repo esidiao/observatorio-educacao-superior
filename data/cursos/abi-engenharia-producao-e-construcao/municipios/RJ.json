@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Volta Redonda",
+    "slug": "VOLTA_REDONDA",
+    "cod_ibge": "3306305",
+    "vagas_total": 130,
+    "matriculas": 62,
+    "ingressos": 69,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 99,
+    "matriculas": 195,
+    "ingressos": 99,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Macaé",
+    "slug": "MACAE",
+    "cod_ibge": "3302403",
+    "vagas_total": 40,
+    "matriculas": 14,
+    "ingressos": 4,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  }
+]

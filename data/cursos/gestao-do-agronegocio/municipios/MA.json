@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Açailândia",
+    "slug": "ACAILANDIA",
+    "cod_ibge": "2100055",
+    "vagas_total": 100,
+    "matriculas": 23,
+    "ingressos": 7,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra do Corda",
+    "slug": "BARRA_DO_CORDA",
+    "cod_ibge": "2101608",
+    "vagas_total": 60,
+    "matriculas": 37,
+    "ingressos": 26,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapecuru Mirim",
+    "slug": "ITAPECURU_MIRIM",
+    "cod_ibge": "2105401",
+    "vagas_total": 30,
+    "matriculas": 46,
+    "ingressos": 20,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Balsas",
+    "slug": "BALSAS",
+    "cod_ibge": "2101400",
+    "vagas_total": 0,
+    "matriculas": 36,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "São Cristóvão",
+    "slug": "SAO_CRISTOVAO",
+    "cod_ibge": "2806701",
+    "vagas_total": 94,
+    "matriculas": 30,
+    "ingressos": 17,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tobias Barreto",
+    "slug": "TOBIAS_BARRETO",
+    "cod_ibge": "2807402",
+    "vagas_total": 42,
+    "matriculas": 9,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

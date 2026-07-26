@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Vitória",
+    "slug": "VITORIA",
+    "cod_ibge": "3205309",
+    "vagas_total": 636,
+    "matriculas": 888,
+    "ingressos": 222,
+    "concluintes": 144,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Vila Velha",
+    "slug": "VILA_VELHA",
+    "cod_ibge": "3205200",
+    "vagas_total": 351,
+    "matriculas": 475,
+    "ingressos": 125,
+    "concluintes": 64,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cachoeiro de Itapemirim",
+    "slug": "CACHOEIRO_DE_ITAPEMIRIM",
+    "cod_ibge": "3201209",
+    "vagas_total": 240,
+    "matriculas": 131,
+    "ingressos": 0,
+    "concluintes": 33,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Mateus",
+    "slug": "SAO_MATEUS",
+    "cod_ibge": "3204906",
+    "vagas_total": 120,
+    "matriculas": 49,
+    "ingressos": 11,
+    "concluintes": 8,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Serra",
+    "slug": "SERRA",
+    "cod_ibge": "3205002",
+    "vagas_total": 100,
+    "matriculas": 64,
+    "ingressos": 26,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Colatina",
+    "slug": "COLATINA",
+    "cod_ibge": "3201506",
+    "vagas_total": 94,
+    "matriculas": 204,
+    "ingressos": 55,
+    "concluintes": 39,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Linhares",
+    "slug": "LINHARES",
+    "cod_ibge": "3203205",
+    "vagas_total": 61,
+    "matriculas": 15,
+    "ingressos": 2,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aracruz",
+    "slug": "ARACRUZ",
+    "cod_ibge": "3200607",
+    "vagas_total": 45,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapari",
+    "slug": "GUARAPARI",
+    "cod_ibge": "3202405",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

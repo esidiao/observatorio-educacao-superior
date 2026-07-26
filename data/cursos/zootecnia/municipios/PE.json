@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 140,
+    "matriculas": 318,
+    "ingressos": 84,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Serra Talhada",
+    "slug": "SERRA_TALHADA",
+    "cod_ibge": "2613909",
+    "vagas_total": 140,
+    "matriculas": 170,
+    "ingressos": 47,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Garanhuns",
+    "slug": "GARANHUNS",
+    "cod_ibge": "2606002",
+    "vagas_total": 120,
+    "matriculas": 322,
+    "ingressos": 122,
+    "concluintes": 45,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 50,
+    "matriculas": 8,
+    "ingressos": 42,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

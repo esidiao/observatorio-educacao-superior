@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 2,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

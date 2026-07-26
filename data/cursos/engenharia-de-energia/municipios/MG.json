@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Itajubá",
+    "slug": "ITAJUBA",
+    "cod_ibge": "3132404",
+    "vagas_total": 68,
+    "matriculas": 175,
+    "ingressos": 31,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 1,
+    "matriculas": 33,
+    "ingressos": 1,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

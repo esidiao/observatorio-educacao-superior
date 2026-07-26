@@ -1,0 +1,145 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 1645,
+    "matriculas": 267,
+    "ingressos": 140,
+    "concluintes": 56,
+    "n_cursos": 7,
+    "n_ies": 5
+  },
+  {
+    "nome": "Lins",
+    "slug": "LINS",
+    "cod_ibge": "3527108",
+    "vagas_total": 110,
+    "matriculas": 52,
+    "ingressos": 28,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Taquaritinga",
+    "slug": "TAQUARITINGA",
+    "cod_ibge": "3553708",
+    "vagas_total": 92,
+    "matriculas": 116,
+    "ingressos": 53,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jales",
+    "slug": "JALES",
+    "cod_ibge": "3524808",
+    "vagas_total": 90,
+    "matriculas": 191,
+    "ingressos": 73,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santos",
+    "slug": "SANTOS",
+    "cod_ibge": "3548500",
+    "vagas_total": 84,
+    "matriculas": 253,
+    "ingressos": 84,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mococa",
+    "slug": "MOCOCA",
+    "cod_ibge": "3530508",
+    "vagas_total": 80,
+    "matriculas": 21,
+    "ingressos": 37,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Roque",
+    "slug": "SAO_ROQUE",
+    "cod_ibge": "3550605",
+    "vagas_total": 63,
+    "matriculas": 148,
+    "ingressos": 65,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Presidente Prudente",
+    "slug": "PRESIDENTE_PRUDENTE",
+    "cod_ibge": "3541406",
+    "vagas_total": 50,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araraquara",
+    "slug": "ARARAQUARA",
+    "cod_ibge": "3503208",
+    "vagas_total": 48,
+    "matriculas": 62,
+    "ingressos": 48,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Birigui",
+    "slug": "BIRIGUI",
+    "cod_ibge": "3506508",
+    "vagas_total": 43,
+    "matriculas": 114,
+    "ingressos": 43,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João da Boa Vista",
+    "slug": "SAO_JOAO_DA_BOA_VISTA",
+    "cod_ibge": "3549102",
+    "vagas_total": 42,
+    "matriculas": 92,
+    "ingressos": 42,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araras",
+    "slug": "ARARAS",
+    "cod_ibge": "3503307",
+    "vagas_total": 0,
+    "matriculas": 11,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaú",
+    "slug": "JAU",
+    "cod_ibge": "3525300",
+    "vagas_total": 0,
+    "matriculas": 66,
+    "ingressos": 0,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 351,
+    "matriculas": 448,
+    "ingressos": 38,
+    "concluintes": 83,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Campo Maior",
+    "slug": "CAMPO_MAIOR",
+    "cod_ibge": "2202208",
+    "vagas_total": 80,
+    "matriculas": 148,
+    "ingressos": 51,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Pedro do Piauí",
+    "slug": "SAO_PEDRO_DO_PIAUI",
+    "cod_ibge": "2210508",
+    "vagas_total": 50,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barras",
+    "slug": "BARRAS",
+    "cod_ibge": "2201200",
+    "vagas_total": 40,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Luzilândia",
+    "slug": "LUZILANDIA",
+    "cod_ibge": "2205805",
+    "vagas_total": 40,
+    "matriculas": 7,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Floriano",
+    "slug": "FLORIANO",
+    "cod_ibge": "2203909",
+    "vagas_total": 35,
+    "matriculas": 80,
+    "ingressos": 0,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Picos",
+    "slug": "PICOS",
+    "cod_ibge": "2208007",
+    "vagas_total": 35,
+    "matriculas": 72,
+    "ingressos": 0,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Parnaíba",
+    "slug": "PARNAIBA",
+    "cod_ibge": "2207702",
+    "vagas_total": 20,
+    "matriculas": 3,
+    "ingressos": 2,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

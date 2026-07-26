@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Aracaju",
+    "slug": "ARACAJU",
+    "cod_ibge": "2800308",
+    "vagas_total": 227,
+    "matriculas": 60,
+    "ingressos": 47,
+    "concluintes": 17,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Lagarto",
+    "slug": "LAGARTO",
+    "cod_ibge": "2803500",
+    "vagas_total": 141,
+    "matriculas": 31,
+    "ingressos": 9,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tobias Barreto",
+    "slug": "TOBIAS_BARRETO",
+    "cod_ibge": "2807402",
+    "vagas_total": 52,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

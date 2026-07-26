@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 239,
+    "matriculas": 397,
+    "ingressos": 111,
+    "concluintes": 59,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Montes Claros",
+    "slug": "MONTES_CLAROS",
+    "cod_ibge": "3143302",
+    "vagas_total": 81,
+    "matriculas": 61,
+    "ingressos": 20,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipatinga",
+    "slug": "IPATINGA",
+    "cod_ibge": "3131307",
+    "vagas_total": 80,
+    "matriculas": 14,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mato Verde",
+    "slug": "MATO_VERDE",
+    "cod_ibge": "3141009",
+    "vagas_total": 80,
+    "matriculas": 25,
+    "ingressos": 25,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Conselheiro Lafaiete",
+    "slug": "CONSELHEIRO_LAFAIETE",
+    "cod_ibge": "3118304",
+    "vagas_total": 60,
+    "matriculas": 18,
+    "ingressos": 22,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patrocínio",
+    "slug": "PATROCINIO",
+    "cod_ibge": "3148103",
+    "vagas_total": 52,
+    "matriculas": 42,
+    "ingressos": 22,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Formiga",
+    "slug": "FORMIGA",
+    "cod_ibge": "3126109",
+    "vagas_total": 51,
+    "matriculas": 28,
+    "ingressos": 29,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Governador Valadares",
+    "slug": "GOVERNADOR_VALADARES",
+    "cod_ibge": "3127701",
+    "vagas_total": 50,
+    "matriculas": 122,
+    "ingressos": 37,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

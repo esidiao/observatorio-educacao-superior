@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 64,
+    "matriculas": 114,
+    "ingressos": 47,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

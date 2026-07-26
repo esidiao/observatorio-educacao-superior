@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 875,
+    "matriculas": 92,
+    "ingressos": 39,
+    "concluintes": 22,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 156,
+    "matriculas": 84,
+    "ingressos": 70,
+    "concluintes": 16,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Jataí",
+    "slug": "JATAI",
+    "cod_ibge": "5211909",
+    "vagas_total": 106,
+    "matriculas": 52,
+    "ingressos": 32,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aparecida de Goiânia",
+    "slug": "APARECIDA_DE_GOIANIA",
+    "cod_ibge": "5201405",
+    "vagas_total": 80,
+    "matriculas": 94,
+    "ingressos": 28,
+    "concluintes": 32,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Senador Canedo",
+    "slug": "SENADOR_CANEDO",
+    "cod_ibge": "5220454",
+    "vagas_total": 58,
+    "matriculas": 87,
+    "ingressos": 43,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

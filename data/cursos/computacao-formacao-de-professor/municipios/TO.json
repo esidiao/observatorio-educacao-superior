@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Araguatins",
+    "slug": "ARAGUATINS",
+    "cod_ibge": "1702208",
+    "vagas_total": 78,
+    "matriculas": 117,
+    "ingressos": 38,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Nacional",
+    "slug": "PORTO_NACIONAL",
+    "cod_ibge": "1718204",
+    "vagas_total": 5,
+    "matriculas": 54,
+    "ingressos": 1,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Dianópolis",
+    "slug": "DIANOPOLIS",
+    "cod_ibge": "1707009",
+    "vagas_total": 1,
+    "matriculas": 30,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Colinas do Tocantins",
+    "slug": "COLINAS_DO_TOCANTINS",
+    "cod_ibge": "1705508",
+    "vagas_total": 0,
+    "matriculas": 51,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

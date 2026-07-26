@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 218,
+    "matriculas": 240,
+    "ingressos": 76,
+    "concluintes": 40,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Açu",
+    "slug": "ACU",
+    "cod_ibge": "2400208",
+    "vagas_total": 104,
+    "matriculas": 257,
+    "ingressos": 74,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 0,
+    "matriculas": 76,
+    "ingressos": 0,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pau dos Ferros",
+    "slug": "PAU_DOS_FERROS",
+    "cod_ibge": "2409407",
+    "vagas_total": 0,
+    "matriculas": 95,
+    "ingressos": 0,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

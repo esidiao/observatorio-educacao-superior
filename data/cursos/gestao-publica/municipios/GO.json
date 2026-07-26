@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 920,
+    "matriculas": 401,
+    "ingressos": 100,
+    "concluintes": 301,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Águas Lindas de Goiás",
+    "slug": "AGUAS_LINDAS_DE_GOIAS",
+    "cod_ibge": "5200258",
+    "vagas_total": 203,
+    "matriculas": 57,
+    "ingressos": 27,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Trindade",
+    "slug": "TRINDADE",
+    "cod_ibge": "5221403",
+    "vagas_total": 185,
+    "matriculas": 9,
+    "ingressos": 3,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aparecida de Goiânia",
+    "slug": "APARECIDA_DE_GOIANIA",
+    "cod_ibge": "5201405",
+    "vagas_total": 0,
+    "matriculas": 7,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

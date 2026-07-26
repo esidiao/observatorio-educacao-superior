@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 57,
+    "matriculas": 113,
+    "ingressos": 39,
+    "concluintes": 23,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Jaguariaíva",
+    "slug": "JAGUARIAIVA",
+    "cod_ibge": "4112009",
+    "vagas_total": 40,
+    "matriculas": 82,
+    "ingressos": 28,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

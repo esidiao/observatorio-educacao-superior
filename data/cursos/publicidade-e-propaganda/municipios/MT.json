@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 175,
+    "matriculas": 302,
+    "ingressos": 137,
+    "concluintes": 21,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Várzea Grande",
+    "slug": "VARZEA_GRANDE",
+    "cod_ibge": "5108402",
+    "vagas_total": 101,
+    "matriculas": 35,
+    "ingressos": 32,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

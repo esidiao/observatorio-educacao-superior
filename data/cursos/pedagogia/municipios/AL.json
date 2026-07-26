@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Maceió",
+    "slug": "MACEIO",
+    "cod_ibge": "2704302",
+    "vagas_total": 2119,
+    "matriculas": 1603,
+    "ingressos": 408,
+    "concluintes": 269,
+    "n_cursos": 11,
+    "n_ies": 11
+  },
+  {
+    "nome": "Delmiro Gouveia",
+    "slug": "DELMIRO_GOUVEIA",
+    "cod_ibge": "2702405",
+    "vagas_total": 178,
+    "matriculas": 304,
+    "ingressos": 46,
+    "concluintes": 61,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arapiraca",
+    "slug": "ARAPIRACA",
+    "cod_ibge": "2700300",
+    "vagas_total": 109,
+    "matriculas": 426,
+    "ingressos": 81,
+    "concluintes": 89,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Penedo",
+    "slug": "PENEDO",
+    "cod_ibge": "2706703",
+    "vagas_total": 55,
+    "matriculas": 86,
+    "ingressos": 41,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santana do Ipanema",
+    "slug": "SANTANA_DO_IPANEMA",
+    "cod_ibge": "2708006",
+    "vagas_total": 44,
+    "matriculas": 153,
+    "ingressos": 36,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palmeira dos Índios",
+    "slug": "PALMEIRA_DOS_INDIOS",
+    "cod_ibge": "2706307",
+    "vagas_total": 40,
+    "matriculas": 165,
+    "ingressos": 41,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Miguel dos Campos",
+    "slug": "SAO_MIGUEL_DOS_CAMPOS",
+    "cod_ibge": "2708600",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "União dos Palmares",
+    "slug": "UNIAO_DOS_PALMARES",
+    "cod_ibge": "2709301",
+    "vagas_total": 0,
+    "matriculas": 23,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

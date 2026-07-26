@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Rio Grande",
+    "slug": "RIO_GRANDE",
+    "cod_ibge": "4315602",
+    "vagas_total": 0,
+    "matriculas": 6,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

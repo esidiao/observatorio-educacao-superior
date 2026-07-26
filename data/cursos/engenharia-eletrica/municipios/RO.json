@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Porto Velho",
+    "slug": "PORTO_VELHO",
+    "cod_ibge": "1100205",
+    "vagas_total": 615,
+    "matriculas": 439,
+    "ingressos": 166,
+    "concluintes": 46,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Vilhena",
+    "slug": "VILHENA",
+    "cod_ibge": "1100304",
+    "vagas_total": 105,
+    "matriculas": 26,
+    "ingressos": 26,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cacoal",
+    "slug": "CACOAL",
+    "cod_ibge": "1100049",
+    "vagas_total": 100,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaru",
+    "slug": "JARU",
+    "cod_ibge": "1100114",
+    "vagas_total": 100,
+    "matriculas": 8,
+    "ingressos": 0,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 113,
+    "matriculas": 482,
+    "ingressos": 108,
+    "concluintes": 71,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Macau",
+    "slug": "MACAU",
+    "cod_ibge": "2407203",
+    "vagas_total": 36,
+    "matriculas": 116,
+    "ingressos": 33,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 32,
+    "matriculas": 106,
+    "ingressos": 28,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

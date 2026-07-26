@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Aracaju",
+    "slug": "ARACAJU",
+    "cod_ibge": "2800308",
+    "vagas_total": 886,
+    "matriculas": 1332,
+    "ingressos": 646,
+    "concluintes": 140,
+    "n_cursos": 7,
+    "n_ies": 4
+  },
+  {
+    "nome": "Lagarto",
+    "slug": "LAGARTO",
+    "cod_ibge": "2803500",
+    "vagas_total": 112,
+    "matriculas": 268,
+    "ingressos": 82,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itabaiana",
+    "slug": "ITABAIANA",
+    "cod_ibge": "2802908",
+    "vagas_total": 85,
+    "matriculas": 228,
+    "ingressos": 50,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Cristóvão",
+    "slug": "SAO_CRISTOVAO",
+    "cod_ibge": "2806701",
+    "vagas_total": 50,
+    "matriculas": 287,
+    "ingressos": 49,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tobias Barreto",
+    "slug": "TOBIAS_BARRETO",
+    "cod_ibge": "2807402",
+    "vagas_total": 22,
+    "matriculas": 9,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

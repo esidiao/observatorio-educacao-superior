@@ -1,0 +1,178 @@
+[
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 248,
+    "matriculas": 652,
+    "ingressos": 227,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberaba",
+    "slug": "UBERABA",
+    "cod_ibge": "3170107",
+    "vagas_total": 233,
+    "matriculas": 133,
+    "ingressos": 136,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patos de Minas",
+    "slug": "PATOS_DE_MINAS",
+    "cod_ibge": "3148004",
+    "vagas_total": 143,
+    "matriculas": 96,
+    "ingressos": 80,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 120,
+    "matriculas": 146,
+    "ingressos": 92,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Manhuaçu",
+    "slug": "MANHUACU",
+    "cod_ibge": "3139409",
+    "vagas_total": 120,
+    "matriculas": 42,
+    "ingressos": 23,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Muzambinho",
+    "slug": "MUZAMBINHO",
+    "cod_ibge": "3144102",
+    "vagas_total": 115,
+    "matriculas": 129,
+    "ingressos": 97,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Governador Valadares",
+    "slug": "GOVERNADOR_VALADARES",
+    "cod_ibge": "3127701",
+    "vagas_total": 112,
+    "matriculas": 66,
+    "ingressos": 44,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Formiga",
+    "slug": "FORMIGA",
+    "cod_ibge": "3126109",
+    "vagas_total": 104,
+    "matriculas": 26,
+    "ingressos": 23,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponte Nova",
+    "slug": "PONTE_NOVA",
+    "cod_ibge": "3152105",
+    "vagas_total": 102,
+    "matriculas": 42,
+    "ingressos": 22,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 90,
+    "matriculas": 333,
+    "ingressos": 71,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Três Corações",
+    "slug": "TRES_CORACOES",
+    "cod_ibge": "3169307",
+    "vagas_total": 90,
+    "matriculas": 39,
+    "ingressos": 20,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 70,
+    "matriculas": 60,
+    "ingressos": 70,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Pomba",
+    "slug": "RIO_POMBA",
+    "cod_ibge": "3155801",
+    "vagas_total": 60,
+    "matriculas": 27,
+    "ingressos": 43,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Passos",
+    "slug": "PASSOS",
+    "cod_ibge": "3147907",
+    "vagas_total": 51,
+    "matriculas": 97,
+    "ingressos": 43,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Divinópolis",
+    "slug": "DIVINOPOLIS",
+    "cod_ibge": "3122306",
+    "vagas_total": 40,
+    "matriculas": 17,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ituiutaba",
+    "slug": "ITUIUTABA",
+    "cod_ibge": "3134202",
+    "vagas_total": 40,
+    "matriculas": 22,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  }
+]

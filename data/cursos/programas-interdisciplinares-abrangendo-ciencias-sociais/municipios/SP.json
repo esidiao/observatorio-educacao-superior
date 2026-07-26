@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "São Bernardo do Campo",
+    "slug": "SAO_BERNARDO_DO_CAMPO",
+    "cod_ibge": "3548708",
+    "vagas_total": 504,
+    "matriculas": 2500,
+    "ingressos": 406,
+    "concluintes": 263,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 40,
+    "matriculas": 66,
+    "ingressos": 29,
+    "concluintes": 8,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santos",
+    "slug": "SANTOS",
+    "cod_ibge": "3548500",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

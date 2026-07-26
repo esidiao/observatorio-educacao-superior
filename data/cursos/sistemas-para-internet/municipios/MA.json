@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Timon",
+    "slug": "TIMON",
+    "cod_ibge": "2112209",
+    "vagas_total": 77,
+    "matriculas": 69,
+    "ingressos": 34,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

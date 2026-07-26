@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 795,
+    "matriculas": 756,
+    "ingressos": 278,
+    "concluintes": 213,
+    "n_cursos": 8,
+    "n_ies": 5
+  },
+  {
+    "nome": "Nova Iguaçu",
+    "slug": "NOVA_IGUACU",
+    "cod_ibge": "3303500",
+    "vagas_total": 236,
+    "matriculas": 625,
+    "ingressos": 99,
+    "concluintes": 167,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Duque de Caxias",
+    "slug": "DUQUE_DE_CAXIAS",
+    "cod_ibge": "3301702",
+    "vagas_total": 174,
+    "matriculas": 192,
+    "ingressos": 83,
+    "concluintes": 52,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Niterói",
+    "slug": "NITEROI",
+    "cod_ibge": "3303302",
+    "vagas_total": 120,
+    "matriculas": 19,
+    "ingressos": 5,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra Mansa",
+    "slug": "BARRA_MANSA",
+    "cod_ibge": "3300407",
+    "vagas_total": 8,
+    "matriculas": 8,
+    "ingressos": 0,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

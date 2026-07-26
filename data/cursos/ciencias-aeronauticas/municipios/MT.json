@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 60,
+    "matriculas": 37,
+    "ingressos": 22,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 3,
+    "matriculas": 29,
+    "ingressos": 3,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 40,
+    "matriculas": 196,
+    "ingressos": 37,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 1,
+    "matriculas": 3,
+    "ingressos": 1,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

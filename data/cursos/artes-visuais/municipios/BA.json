@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 79,
+    "matriculas": 259,
+    "ingressos": 63,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cachoeira",
+    "slug": "CACHOEIRA",
+    "cod_ibge": "2904902",
+    "vagas_total": 57,
+    "matriculas": 83,
+    "ingressos": 17,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juazeiro",
+    "slug": "JUAZEIRO",
+    "cod_ibge": "2918407",
+    "vagas_total": 25,
+    "matriculas": 0,
+    "ingressos": 21,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

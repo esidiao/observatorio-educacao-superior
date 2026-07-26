@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Parnamirim",
+    "slug": "PARNAMIRIM",
+    "cod_ibge": "2403251",
+    "vagas_total": 58,
+    "matriculas": 101,
+    "ingressos": 44,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Canguaretama",
+    "slug": "CANGUARETAMA",
+    "cod_ibge": "2402204",
+    "vagas_total": 46,
+    "matriculas": 80,
+    "ingressos": 37,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Currais Novos",
+    "slug": "CURRAIS_NOVOS",
+    "cod_ibge": "2403103",
+    "vagas_total": 40,
+    "matriculas": 118,
+    "ingressos": 35,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 980,
+    "matriculas": 593,
+    "ingressos": 182,
+    "concluintes": 72,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 772,
+    "matriculas": 1379,
+    "ingressos": 398,
+    "concluintes": 115,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Balsas",
+    "slug": "BALSAS",
+    "cod_ibge": "2101400",
+    "vagas_total": 200,
+    "matriculas": 11,
+    "ingressos": 11,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Inês",
+    "slug": "SANTA_INES",
+    "cod_ibge": "2109908",
+    "vagas_total": 129,
+    "matriculas": 70,
+    "ingressos": 70,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Açailândia",
+    "slug": "ACAILANDIA",
+    "cod_ibge": "2100055",
+    "vagas_total": 106,
+    "matriculas": 62,
+    "ingressos": 16,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Raimundo das Mangabeiras",
+    "slug": "SAO_RAIMUNDO_DAS_MANGABEIRAS",
+    "cod_ibge": "2111607",
+    "vagas_total": 40,
+    "matriculas": 30,
+    "ingressos": 34,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

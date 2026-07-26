@@ -1,0 +1,200 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 4070,
+    "matriculas": 1687,
+    "ingressos": 385,
+    "concluintes": 212,
+    "n_cursos": 17,
+    "n_ies": 12
+  },
+  {
+    "nome": "Nova Friburgo",
+    "slug": "NOVA_FRIBURGO",
+    "cod_ibge": "3303401",
+    "vagas_total": 1360,
+    "matriculas": 28,
+    "ingressos": 8,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Iguaçu",
+    "slug": "NOVA_IGUACU",
+    "cod_ibge": "3303500",
+    "vagas_total": 1245,
+    "matriculas": 165,
+    "ingressos": 11,
+    "concluintes": 41,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Petrópolis",
+    "slug": "PETROPOLIS",
+    "cod_ibge": "3303906",
+    "vagas_total": 804,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Macaé",
+    "slug": "MACAE",
+    "cod_ibge": "3302403",
+    "vagas_total": 800,
+    "matriculas": 36,
+    "ingressos": 10,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campos dos Goytacazes",
+    "slug": "CAMPOS_DOS_GOYTACAZES",
+    "cod_ibge": "3301009",
+    "vagas_total": 602,
+    "matriculas": 321,
+    "ingressos": 94,
+    "concluintes": 24,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Cabo Frio",
+    "slug": "CABO_FRIO",
+    "cod_ibge": "3300704",
+    "vagas_total": 490,
+    "matriculas": 76,
+    "ingressos": 26,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Niterói",
+    "slug": "NITEROI",
+    "cod_ibge": "3303302",
+    "vagas_total": 486,
+    "matriculas": 373,
+    "ingressos": 104,
+    "concluintes": 48,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Gonçalo",
+    "slug": "SAO_GONCALO",
+    "cod_ibge": "3304904",
+    "vagas_total": 424,
+    "matriculas": 179,
+    "ingressos": 71,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Antônio de Pádua",
+    "slug": "SANTO_ANTONIO_DE_PADUA",
+    "cod_ibge": "3304706",
+    "vagas_total": 96,
+    "matriculas": 61,
+    "ingressos": 25,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Valença",
+    "slug": "VALENCA",
+    "cod_ibge": "3306107",
+    "vagas_total": 85,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Resende",
+    "slug": "RESENDE",
+    "cod_ibge": "3304201",
+    "vagas_total": 70,
+    "matriculas": 49,
+    "ingressos": 8,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araruama",
+    "slug": "ARARUAMA",
+    "cod_ibge": "3300209",
+    "vagas_total": 50,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itaperuna",
+    "slug": "ITAPERUNA",
+    "cod_ibge": "3302205",
+    "vagas_total": 31,
+    "matriculas": 75,
+    "ingressos": 18,
+    "concluintes": 7,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Volta Redonda",
+    "slug": "VOLTA_REDONDA",
+    "cod_ibge": "3306305",
+    "vagas_total": 29,
+    "matriculas": 32,
+    "ingressos": 28,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Seropédica",
+    "slug": "SEROPEDICA",
+    "cod_ibge": "3305554",
+    "vagas_total": 21,
+    "matriculas": 496,
+    "ingressos": 21,
+    "concluintes": 53,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belford Roxo",
+    "slug": "BELFORD_ROXO",
+    "cod_ibge": "3300456",
+    "vagas_total": 10,
+    "matriculas": 16,
+    "ingressos": 2,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra Mansa",
+    "slug": "BARRA_MANSA",
+    "cod_ibge": "3300407",
+    "vagas_total": 1,
+    "matriculas": 6,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

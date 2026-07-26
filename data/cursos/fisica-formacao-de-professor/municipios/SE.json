@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "São Cristóvão",
+    "slug": "SAO_CRISTOVAO",
+    "cod_ibge": "2806701",
+    "vagas_total": 280,
+    "matriculas": 308,
+    "ingressos": 152,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itabaiana",
+    "slug": "ITABAIANA",
+    "cod_ibge": "2802908",
+    "vagas_total": 90,
+    "matriculas": 90,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lagarto",
+    "slug": "LAGARTO",
+    "cod_ibge": "2803500",
+    "vagas_total": 87,
+    "matriculas": 55,
+    "ingressos": 22,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

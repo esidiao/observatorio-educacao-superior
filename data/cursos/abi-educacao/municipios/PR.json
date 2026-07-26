@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Palotina",
+    "slug": "PALOTINA",
+    "cod_ibge": "4117909",
+    "vagas_total": 116,
+    "matriculas": 5,
+    "ingressos": 15,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pontal do Paraná",
+    "slug": "PONTAL_DO_PARANA",
+    "cod_ibge": "4119954",
+    "vagas_total": 67,
+    "matriculas": 15,
+    "ingressos": 17,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jandaia do Sul",
+    "slug": "JANDAIA_DO_SUL",
+    "cod_ibge": "4112108",
+    "vagas_total": 61,
+    "matriculas": 5,
+    "ingressos": 4,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  }
+]

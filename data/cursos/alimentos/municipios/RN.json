@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Currais Novos",
+    "slug": "CURRAIS_NOVOS",
+    "cod_ibge": "2403103",
+    "vagas_total": 40,
+    "matriculas": 72,
+    "ingressos": 24,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

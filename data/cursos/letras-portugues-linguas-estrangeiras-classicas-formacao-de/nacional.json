@@ -1,0 +1,77 @@
+{
+  "metadados": {
+    "curso": "Letras português línguas estrangeiras clássicas formação de professor",
+    "slug": "letras-portugues-linguas-estrangeiras-classicas-formacao-de",
+    "cine_rotulo": "Letras português línguas estrangeiras clássicas formação de professor",
+    "area_cine": "Educação",
+    "versao_censo": "2024",
+    "ciclo_enade": null,
+    "data_extracao": "2026-07-26",
+    "cobertura": null,
+    "fontes": {
+      "censo": {
+        "nome": "Microdados do Censo da Educação Superior",
+        "orgao": "INEP/MEC",
+        "ano": 2024,
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados"
+      },
+      "cpc": null,
+      "populacao": {
+        "nome": "Estimativas populacionais",
+        "orgao": "IBGE",
+        "ano": 2024
+      }
+    }
+  },
+  "ufs": {
+    "RJ": {
+      "vagas_total": 128,
+      "vagas_presencial": 128,
+      "vagas_ead": 0,
+      "vagas_capital": 128,
+      "pct_ead": 0.0,
+      "n_cursos_presencial": 4,
+      "n_cursos_ead": 0,
+      "n_ies": 2,
+      "municipios_oferta": 1,
+      "ead_polos_municipios": 0,
+      "ead_polos_registros": 0,
+      "mun_ead_only": 0,
+      "ingressos": 59,
+      "matriculas": 231,
+      "matriculas_ead": 0,
+      "concluintes": 21,
+      "taxa_conclusao": 9.1,
+      "pct_mulheres": 52.5,
+      "pct_ppi": 54.2,
+      "pct_financiamento": 0.0,
+      "pct_noturno": 35.2,
+      "pct_rede_publica": 100.0,
+      "HHI": 0.5441,
+      "CR2": 1.0,
+      "CR10": 1.0,
+      "municipios_total": 92,
+      "municipios_deserto": 91,
+      "populacao": 17219679,
+      "regiao": "Sudeste",
+      "capital": "Rio de Janeiro",
+      "vagas_por_100k": 0.7,
+      "CC": null,
+      "ENADE": null,
+      "IDD": null,
+      "CPC_cont": null,
+      "vagas_avaliadas": null,
+      "cpc_org_didatico": null,
+      "cpc_infraestrutura": null,
+      "cpc_oportunidade": null,
+      "pct_doc_mestres": null,
+      "pct_doc_doutores": null,
+      "pct_doc_regime": null,
+      "n_cursos_avaliados": null,
+      "concluintes_avaliados": null,
+      "ICT": 0.9946,
+      "E": 0.0054,
+      "IAF": null
+    }
+  }
+}

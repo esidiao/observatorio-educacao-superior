@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 206,
+    "matriculas": 302,
+    "ingressos": 110,
+    "concluintes": 51,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 60,
+    "matriculas": 6,
+    "ingressos": 6,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 60,
+    "matriculas": 2,
+    "ingressos": 3,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Engenheiro Coelho",
+    "slug": "ENGENHEIRO_COELHO",
+    "cod_ibge": "3515152",
+    "vagas_total": 50,
+    "matriculas": 46,
+    "ingressos": 6,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santos",
+    "slug": "SANTOS",
+    "cod_ibge": "3548500",
+    "vagas_total": 40,
+    "matriculas": 1,
+    "ingressos": 4,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José do Rio Preto",
+    "slug": "SAO_JOSE_DO_RIO_PRETO",
+    "cod_ibge": "3549805",
+    "vagas_total": 33,
+    "matriculas": 127,
+    "ingressos": 33,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bauru",
+    "slug": "BAURU",
+    "cod_ibge": "3506003",
+    "vagas_total": 11,
+    "matriculas": 22,
+    "ingressos": 4,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piracicaba",
+    "slug": "PIRACICABA",
+    "cod_ibge": "3538709",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

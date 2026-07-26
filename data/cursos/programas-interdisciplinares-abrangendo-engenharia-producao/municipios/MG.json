@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "São Sebastião do Paraíso",
+    "slug": "SAO_SEBASTIAO_DO_PARAISO",
+    "cod_ibge": "3164704",
+    "vagas_total": 763,
+    "matriculas": 104,
+    "ingressos": 75,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itabira",
+    "slug": "ITABIRA",
+    "cod_ibge": "3131703",
+    "vagas_total": 125,
+    "matriculas": 124,
+    "ingressos": 40,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ouro Preto",
+    "slug": "OURO_PRETO",
+    "cod_ibge": "3146107",
+    "vagas_total": 90,
+    "matriculas": 286,
+    "ingressos": 81,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

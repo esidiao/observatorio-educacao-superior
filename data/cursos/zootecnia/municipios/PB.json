@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Areia",
+    "slug": "AREIA",
+    "cod_ibge": "2501104",
+    "vagas_total": 70,
+    "matriculas": 174,
+    "ingressos": 52,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

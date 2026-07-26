@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Valença",
+    "slug": "VALENCA",
+    "cod_ibge": "2932903",
+    "vagas_total": 304,
+    "matriculas": 5,
+    "ingressos": 5,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 165,
+    "matriculas": 195,
+    "ingressos": 85,
+    "concluintes": 54,
+    "n_cursos": 4,
+    "n_ies": 2
+  }
+]

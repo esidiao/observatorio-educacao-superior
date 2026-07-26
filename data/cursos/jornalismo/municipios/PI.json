@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 561,
+    "matriculas": 540,
+    "ingressos": 121,
+    "concluintes": 92,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Picos",
+    "slug": "PICOS",
+    "cod_ibge": "2208007",
+    "vagas_total": 110,
+    "matriculas": 79,
+    "ingressos": 21,
+    "concluintes": 16,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

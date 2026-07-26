@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 1541,
+    "matriculas": 472,
+    "ingressos": 294,
+    "concluintes": 126,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Vitória da Conquista",
+    "slug": "VITORIA_DA_CONQUISTA",
+    "cod_ibge": "2933307",
+    "vagas_total": 317,
+    "matriculas": 343,
+    "ingressos": 150,
+    "concluintes": 97,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santo Antônio de Jesus",
+    "slug": "SANTO_ANTONIO_DE_JESUS",
+    "cod_ibge": "2928703",
+    "vagas_total": 200,
+    "matriculas": 5,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ilhéus",
+    "slug": "ILHEUS",
+    "cod_ibge": "2913606",
+    "vagas_total": 138,
+    "matriculas": 38,
+    "ingressos": 18,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Valença",
+    "slug": "VALENCA",
+    "cod_ibge": "2932903",
+    "vagas_total": 130,
+    "matriculas": 22,
+    "ingressos": 17,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 122,
+    "matriculas": 81,
+    "ingressos": 22,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alagoinhas",
+    "slug": "ALAGOINHAS",
+    "cod_ibge": "2900702",
+    "vagas_total": 40,
+    "matriculas": 0,
+    "ingressos": 1,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capim Grosso",
+    "slug": "CAPIM_GROSSO",
+    "cod_ibge": "2906873",
+    "vagas_total": 40,
+    "matriculas": 29,
+    "ingressos": 10,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guanambi",
+    "slug": "GUANAMBI",
+    "cod_ibge": "2911709",
+    "vagas_total": 39,
+    "matriculas": 78,
+    "ingressos": 39,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paripiranga",
+    "slug": "PARIPIRANGA",
+    "cod_ibge": "2923803",
+    "vagas_total": 19,
+    "matriculas": 50,
+    "ingressos": 19,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jacobina",
+    "slug": "JACOBINA",
+    "cod_ibge": "2917508",
+    "vagas_total": 3,
+    "matriculas": 1,
+    "ingressos": 3,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

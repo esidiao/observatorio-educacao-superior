@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 157,
+    "matriculas": 133,
+    "ingressos": 50,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

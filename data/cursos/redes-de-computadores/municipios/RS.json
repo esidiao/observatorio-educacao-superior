@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 191,
+    "matriculas": 131,
+    "ingressos": 59,
+    "concluintes": 22,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 165,
+    "matriculas": 188,
+    "ingressos": 75,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 103,
+    "matriculas": 20,
+    "ingressos": 17,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 0,
+    "matriculas": 6,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Novo Hamburgo",
+    "slug": "NOVO_HAMBURGO",
+    "cod_ibge": "4313409",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

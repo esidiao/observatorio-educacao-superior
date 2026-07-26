@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Novo Gama",
+    "slug": "NOVO_GAMA",
+    "cod_ibge": "5215231",
+    "vagas_total": 420,
+    "matriculas": 64,
+    "ingressos": 40,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 151,
+    "matriculas": 7,
+    "ingressos": 11,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Águas Lindas de Goiás",
+    "slug": "AGUAS_LINDAS_DE_GOIAS",
+    "cod_ibge": "5200258",
+    "vagas_total": 150,
+    "matriculas": 37,
+    "ingressos": 22,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ceres",
+    "slug": "CERES",
+    "cod_ibge": "5205406",
+    "vagas_total": 105,
+    "matriculas": 29,
+    "ingressos": 1,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itumbiara",
+    "slug": "ITUMBIARA",
+    "cod_ibge": "5211503",
+    "vagas_total": 22,
+    "matriculas": 18,
+    "ingressos": 10,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

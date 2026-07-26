@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 214,
+    "matriculas": 407,
+    "ingressos": 98,
+    "concluintes": 41,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Nilópolis",
+    "slug": "NILOPOLIS",
+    "cod_ibge": "3303203",
+    "vagas_total": 120,
+    "matriculas": 253,
+    "ingressos": 58,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Volta Redonda",
+    "slug": "VOLTA_REDONDA",
+    "cod_ibge": "3306305",
+    "vagas_total": 117,
+    "matriculas": 242,
+    "ingressos": 32,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Duque de Caxias",
+    "slug": "DUQUE_DE_CAXIAS",
+    "cod_ibge": "3301702",
+    "vagas_total": 72,
+    "matriculas": 48,
+    "ingressos": 48,
+    "concluintes": 7,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Macaé",
+    "slug": "MACAE",
+    "cod_ibge": "3302403",
+    "vagas_total": 46,
+    "matriculas": 113,
+    "ingressos": 26,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Niterói",
+    "slug": "NITEROI",
+    "cod_ibge": "3303302",
+    "vagas_total": 44,
+    "matriculas": 165,
+    "ingressos": 32,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Seropédica",
+    "slug": "SEROPEDICA",
+    "cod_ibge": "3305554",
+    "vagas_total": 12,
+    "matriculas": 146,
+    "ingressos": 3,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Ananindeua",
+    "slug": "ANANINDEUA",
+    "cod_ibge": "1500800",
+    "vagas_total": 478,
+    "matriculas": 66,
+    "ingressos": 2,
+    "concluintes": 37,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 249,
+    "matriculas": 97,
+    "ingressos": 60,
+    "concluintes": 17,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Tucuruí",
+    "slug": "TUCURUI",
+    "cod_ibge": "1508100",
+    "vagas_total": 0,
+    "matriculas": 47,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 1986,
+    "matriculas": 2713,
+    "ingressos": 828,
+    "concluintes": 314,
+    "n_cursos": 10,
+    "n_ies": 9
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 659,
+    "matriculas": 1040,
+    "ingressos": 289,
+    "concluintes": 108,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Maracanaú",
+    "slug": "MARACANAU",
+    "cod_ibge": "2307650",
+    "vagas_total": 334,
+    "matriculas": 17,
+    "ingressos": 26,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 220,
+    "matriculas": 473,
+    "ingressos": 111,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caucaia",
+    "slug": "CAUCAIA",
+    "cod_ibge": "2303709",
+    "vagas_total": 190,
+    "matriculas": 193,
+    "ingressos": 35,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aracati",
+    "slug": "ARACATI",
+    "cod_ibge": "2301109",
+    "vagas_total": 150,
+    "matriculas": 40,
+    "ingressos": 43,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iguatu",
+    "slug": "IGUATU",
+    "cod_ibge": "2305506",
+    "vagas_total": 150,
+    "matriculas": 75,
+    "ingressos": 29,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Icó",
+    "slug": "ICO",
+    "cod_ibge": "2305407",
+    "vagas_total": 135,
+    "matriculas": 214,
+    "ingressos": 66,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tauá",
+    "slug": "TAUA",
+    "cod_ibge": "2313302",
+    "vagas_total": 80,
+    "matriculas": 100,
+    "ingressos": 71,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Crato",
+    "slug": "CRATO",
+    "cod_ibge": "2304202",
+    "vagas_total": 59,
+    "matriculas": 198,
+    "ingressos": 56,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

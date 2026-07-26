@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 59,
+    "matriculas": 202,
+    "ingressos": 59,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

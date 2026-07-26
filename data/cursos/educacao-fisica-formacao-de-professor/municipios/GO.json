@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Trindade",
+    "slug": "TRINDADE",
+    "cod_ibge": "5221403",
+    "vagas_total": 855,
+    "matriculas": 4,
+    "ingressos": 2,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 650,
+    "matriculas": 533,
+    "ingressos": 44,
+    "concluintes": 84,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "São Luís de Montes Belos",
+    "slug": "SAO_LUIS_DE_MONTES_BELOS",
+    "cod_ibge": "5220108",
+    "vagas_total": 120,
+    "matriculas": 22,
+    "ingressos": 20,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Inhumas",
+    "slug": "INHUMAS",
+    "cod_ibge": "5210000",
+    "vagas_total": 103,
+    "matriculas": 63,
+    "ingressos": 47,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jataí",
+    "slug": "JATAI",
+    "cod_ibge": "5211909",
+    "vagas_total": 52,
+    "matriculas": 48,
+    "ingressos": 26,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Urutaí",
+    "slug": "URUTAI",
+    "cod_ibge": "5221809",
+    "vagas_total": 50,
+    "matriculas": 12,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catalão",
+    "slug": "CATALAO",
+    "cod_ibge": "5205109",
+    "vagas_total": 0,
+    "matriculas": 115,
+    "ingressos": 0,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itumbiara",
+    "slug": "ITUMBIARA",
+    "cod_ibge": "5211503",
+    "vagas_total": 0,
+    "matriculas": 48,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porangatu",
+    "slug": "PORANGATU",
+    "cod_ibge": "5218003",
+    "vagas_total": 0,
+    "matriculas": 37,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Quirinópolis",
+    "slug": "QUIRINOPOLIS",
+    "cod_ibge": "5218508",
+    "vagas_total": 0,
+    "matriculas": 37,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

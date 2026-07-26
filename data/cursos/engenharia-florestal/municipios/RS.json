@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Frederico Westphalen",
+    "slug": "FREDERICO_WESTPHALEN",
+    "cod_ibge": "4308508",
+    "vagas_total": 507,
+    "matriculas": 56,
+    "ingressos": 6,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 391,
+    "matriculas": 153,
+    "ingressos": 50,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Gabriel",
+    "slug": "SAO_GABRIEL",
+    "cod_ibge": "4318309",
+    "vagas_total": 244,
+    "matriculas": 49,
+    "ingressos": 22,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

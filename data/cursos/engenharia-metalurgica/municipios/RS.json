@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 165,
+    "matriculas": 119,
+    "ingressos": 34,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 42,
+    "matriculas": 156,
+    "ingressos": 40,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

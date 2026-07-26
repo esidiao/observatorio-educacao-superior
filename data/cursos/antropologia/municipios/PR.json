@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 61,
+    "matriculas": 95,
+    "ingressos": 34,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

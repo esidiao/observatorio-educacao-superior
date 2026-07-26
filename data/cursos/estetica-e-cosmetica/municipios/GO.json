@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 1907,
+    "matriculas": 788,
+    "ingressos": 460,
+    "concluintes": 162,
+    "n_cursos": 13,
+    "n_ies": 13
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 289,
+    "matriculas": 307,
+    "ingressos": 189,
+    "concluintes": 62,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cristalina",
+    "slug": "CRISTALINA",
+    "cod_ibge": "5206206",
+    "vagas_total": 120,
+    "matriculas": 24,
+    "ingressos": 1,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porangatu",
+    "slug": "PORANGATU",
+    "cod_ibge": "5218003",
+    "vagas_total": 110,
+    "matriculas": 37,
+    "ingressos": 20,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aparecida de Goiânia",
+    "slug": "APARECIDA_DE_GOIANIA",
+    "cod_ibge": "5201405",
+    "vagas_total": 85,
+    "matriculas": 82,
+    "ingressos": 33,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iporá",
+    "slug": "IPORA",
+    "cod_ibge": "5210208",
+    "vagas_total": 75,
+    "matriculas": 22,
+    "ingressos": 7,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ceres",
+    "slug": "CERES",
+    "cod_ibge": "5205406",
+    "vagas_total": 72,
+    "matriculas": 76,
+    "ingressos": 29,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itumbiara",
+    "slug": "ITUMBIARA",
+    "cod_ibge": "5211503",
+    "vagas_total": 21,
+    "matriculas": 17,
+    "ingressos": 2,
+    "concluintes": 3,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

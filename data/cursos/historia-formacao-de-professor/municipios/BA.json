@@ -1,0 +1,211 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 293,
+    "matriculas": 227,
+    "ingressos": 90,
+    "concluintes": 60,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "São Francisco do Conde",
+    "slug": "SAO_FRANCISCO_DO_CONDE",
+    "cod_ibge": "2929206",
+    "vagas_total": 170,
+    "matriculas": 73,
+    "ingressos": 33,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória da Conquista",
+    "slug": "VITORIA_DA_CONQUISTA",
+    "cod_ibge": "2933307",
+    "vagas_total": 138,
+    "matriculas": 316,
+    "ingressos": 80,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ilhéus",
+    "slug": "ILHEUS",
+    "cod_ibge": "2913606",
+    "vagas_total": 122,
+    "matriculas": 342,
+    "ingressos": 91,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 90,
+    "matriculas": 327,
+    "ingressos": 80,
+    "concluintes": 53,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Seguro",
+    "slug": "PORTO_SEGURO",
+    "cod_ibge": "2925303",
+    "vagas_total": 88,
+    "matriculas": 59,
+    "ingressos": 36,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cachoeira",
+    "slug": "CACHOEIRA",
+    "cod_ibge": "2904902",
+    "vagas_total": 80,
+    "matriculas": 163,
+    "ingressos": 30,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itaberaba",
+    "slug": "ITABERABA",
+    "cod_ibge": "2914703",
+    "vagas_total": 50,
+    "matriculas": 94,
+    "ingressos": 27,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Senhor do Bonfim",
+    "slug": "SENHOR_DO_BONFIM",
+    "cod_ibge": "2930105",
+    "vagas_total": 50,
+    "matriculas": 0,
+    "ingressos": 38,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Conceição do Coité",
+    "slug": "CONCEICAO_DO_COITE",
+    "cod_ibge": "2908408",
+    "vagas_total": 41,
+    "matriculas": 140,
+    "ingressos": 17,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alagoinhas",
+    "slug": "ALAGOINHAS",
+    "cod_ibge": "2900702",
+    "vagas_total": 40,
+    "matriculas": 102,
+    "ingressos": 22,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caetité",
+    "slug": "CAETITE",
+    "cod_ibge": "2905206",
+    "vagas_total": 40,
+    "matriculas": 132,
+    "ingressos": 28,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jacobina",
+    "slug": "JACOBINA",
+    "cod_ibge": "2917508",
+    "vagas_total": 40,
+    "matriculas": 135,
+    "ingressos": 31,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Antônio de Jesus",
+    "slug": "SANTO_ANTONIO_DE_JESUS",
+    "cod_ibge": "2928703",
+    "vagas_total": 40,
+    "matriculas": 133,
+    "ingressos": 23,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Teixeira de Freitas",
+    "slug": "TEIXEIRA_DE_FREITAS",
+    "cod_ibge": "2931350",
+    "vagas_total": 40,
+    "matriculas": 68,
+    "ingressos": 19,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barreiras",
+    "slug": "BARREIRAS",
+    "cod_ibge": "2903201",
+    "vagas_total": 36,
+    "matriculas": 71,
+    "ingressos": 22,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Eunápolis",
+    "slug": "EUNAPOLIS",
+    "cod_ibge": "2910727",
+    "vagas_total": 31,
+    "matriculas": 53,
+    "ingressos": 8,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paripiranga",
+    "slug": "PARIPIRANGA",
+    "cod_ibge": "2923803",
+    "vagas_total": 4,
+    "matriculas": 24,
+    "ingressos": 4,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juazeiro",
+    "slug": "JUAZEIRO",
+    "cod_ibge": "2918407",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

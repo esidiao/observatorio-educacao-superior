@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 364,
+    "matriculas": 309,
+    "ingressos": 111,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuité",
+    "slug": "CUITE",
+    "cod_ibge": "2505105",
+    "vagas_total": 227,
+    "matriculas": 134,
+    "ingressos": 36,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cajazeiras",
+    "slug": "CAJAZEIRAS",
+    "cod_ibge": "2503704",
+    "vagas_total": 143,
+    "matriculas": 116,
+    "ingressos": 31,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 118,
+    "matriculas": 234,
+    "ingressos": 78,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Sousa",
+    "slug": "SOUSA",
+    "cod_ibge": "2516201",
+    "vagas_total": 32,
+    "matriculas": 93,
+    "ingressos": 24,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Areia",
+    "slug": "AREIA",
+    "cod_ibge": "2501104",
+    "vagas_total": 30,
+    "matriculas": 79,
+    "ingressos": 11,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 180,
+    "matriculas": 784,
+    "ingressos": 168,
+    "concluintes": 88,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Crato",
+    "slug": "CRATO",
+    "cod_ibge": "2304202",
+    "vagas_total": 160,
+    "matriculas": 656,
+    "ingressos": 123,
+    "concluintes": 70,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Crateús",
+    "slug": "CRATEUS",
+    "cod_ibge": "2304103",
+    "vagas_total": 95,
+    "matriculas": 140,
+    "ingressos": 45,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Limoeiro do Norte",
+    "slug": "LIMOEIRO_DO_NORTE",
+    "cod_ibge": "2307601",
+    "vagas_total": 90,
+    "matriculas": 164,
+    "ingressos": 40,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 90,
+    "matriculas": 448,
+    "ingressos": 90,
+    "concluintes": 41,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 80,
+    "matriculas": 242,
+    "ingressos": 55,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Redenção",
+    "slug": "REDENCAO",
+    "cod_ibge": "2311603",
+    "vagas_total": 70,
+    "matriculas": 113,
+    "ingressos": 14,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

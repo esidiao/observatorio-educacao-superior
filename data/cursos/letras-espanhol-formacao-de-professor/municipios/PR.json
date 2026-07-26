@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 89,
+    "matriculas": 65,
+    "ingressos": 25,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 34,
+    "matriculas": 80,
+    "ingressos": 23,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Apucarana",
+    "slug": "APUCARANA",
+    "cod_ibge": "4101408",
+    "vagas_total": 32,
+    "matriculas": 39,
+    "ingressos": 16,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 21,
+    "matriculas": 36,
+    "ingressos": 9,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marechal Cândido Rondon",
+    "slug": "MARECHAL_CANDIDO_RONDON",
+    "cod_ibge": "4114609",
+    "vagas_total": 20,
+    "matriculas": 32,
+    "ingressos": 8,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Irati",
+    "slug": "IRATI",
+    "cod_ibge": "4110706",
+    "vagas_total": 0,
+    "matriculas": 8,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

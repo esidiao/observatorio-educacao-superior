@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Manaus",
+    "slug": "MANAUS",
+    "cod_ibge": "1302603",
+    "vagas_total": 426,
+    "matriculas": 329,
+    "ingressos": 53,
+    "concluintes": 96,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Tefé",
+    "slug": "TEFE",
+    "cod_ibge": "1304203",
+    "vagas_total": 0,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

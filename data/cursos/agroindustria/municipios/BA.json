@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Itabuna",
+    "slug": "ITABUNA",
+    "cod_ibge": "2914802",
+    "vagas_total": 71,
+    "matriculas": 31,
+    "ingressos": 14,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guanambi",
+    "slug": "GUANAMBI",
+    "cod_ibge": "2911709",
+    "vagas_total": 40,
+    "matriculas": 57,
+    "ingressos": 25,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Seguro",
+    "slug": "PORTO_SEGURO",
+    "cod_ibge": "2925303",
+    "vagas_total": 40,
+    "matriculas": 42,
+    "ingressos": 16,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

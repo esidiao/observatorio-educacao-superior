@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Laranjeiras",
+    "slug": "LARANJEIRAS",
+    "cod_ibge": "2803609",
+    "vagas_total": 90,
+    "matriculas": 60,
+    "ingressos": 13,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

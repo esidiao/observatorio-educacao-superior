@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Manaus",
+    "slug": "MANAUS",
+    "cod_ibge": "1302603",
+    "vagas_total": 45,
+    "matriculas": 121,
+    "ingressos": 44,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tabatinga",
+    "slug": "TABATINGA",
+    "cod_ibge": "1304062",
+    "vagas_total": 41,
+    "matriculas": 35,
+    "ingressos": 39,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Coari",
+    "slug": "COARI",
+    "cod_ibge": "1301209",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Manicoré",
+    "slug": "MANICORE",
+    "cod_ibge": "1302702",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maués",
+    "slug": "MAUES",
+    "cod_ibge": "1302900",
+    "vagas_total": 0,
+    "matriculas": 33,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

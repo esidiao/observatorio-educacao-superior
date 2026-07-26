@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Aracaju",
+    "slug": "ARACAJU",
+    "cod_ibge": "2800308",
+    "vagas_total": 394,
+    "matriculas": 45,
+    "ingressos": 22,
+    "concluintes": 16,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

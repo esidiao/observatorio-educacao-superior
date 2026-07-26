@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Aracaju",
+    "slug": "ARACAJU",
+    "cod_ibge": "2800308",
+    "vagas_total": 2199,
+    "matriculas": 2914,
+    "ingressos": 1025,
+    "concluintes": 340,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "São Cristóvão",
+    "slug": "SAO_CRISTOVAO",
+    "cod_ibge": "2806701",
+    "vagas_total": 48,
+    "matriculas": 236,
+    "ingressos": 47,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itabaiana",
+    "slug": "ITABAIANA",
+    "cod_ibge": "2802908",
+    "vagas_total": 43,
+    "matriculas": 40,
+    "ingressos": 43,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Estância",
+    "slug": "ESTANCIA",
+    "cod_ibge": "2802106",
+    "vagas_total": 10,
+    "matriculas": 0,
+    "ingressos": 10,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 40,
+    "matriculas": 203,
+    "ingressos": 38,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Itajaí",
+    "slug": "ITAJAI",
+    "cod_ibge": "4208203",
+    "vagas_total": 341,
+    "matriculas": 32,
+    "ingressos": 19,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 296,
+    "matriculas": 73,
+    "ingressos": 20,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 149,
+    "matriculas": 166,
+    "ingressos": 59,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 117,
+    "matriculas": 250,
+    "ingressos": 77,
+    "concluintes": 59,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Criciúma",
+    "slug": "CRICIUMA",
+    "cod_ibge": "4204608",
+    "vagas_total": 66,
+    "matriculas": 109,
+    "ingressos": 36,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Blumenau",
+    "slug": "BLUMENAU",
+    "cod_ibge": "4202404",
+    "vagas_total": 30,
+    "matriculas": 62,
+    "ingressos": 22,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lages",
+    "slug": "LAGES",
+    "cod_ibge": "4209300",
+    "vagas_total": 30,
+    "matriculas": 193,
+    "ingressos": 30,
+    "concluintes": 139,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tubarão",
+    "slug": "TUBARAO",
+    "cod_ibge": "4218707",
+    "vagas_total": 3,
+    "matriculas": 19,
+    "ingressos": 3,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

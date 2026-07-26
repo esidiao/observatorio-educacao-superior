@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Rio Verde",
+    "slug": "RIO_VERDE",
+    "cod_ibge": "5218805",
+    "vagas_total": 130,
+    "matriculas": 37,
+    "ingressos": 20,
+    "concluintes": 15,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Pontalina",
+    "slug": "PONTALINA",
+    "cod_ibge": "5217708",
+    "vagas_total": 120,
+    "matriculas": 32,
+    "ingressos": 13,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iporá",
+    "slug": "IPORA",
+    "cod_ibge": "5210208",
+    "vagas_total": 43,
+    "matriculas": 111,
+    "ingressos": 37,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Edéia",
+    "slug": "EDEIA",
+    "cod_ibge": "5207402",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mineiros",
+    "slug": "MINEIROS",
+    "cod_ibge": "5213103",
+    "vagas_total": 0,
+    "matriculas": 10,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

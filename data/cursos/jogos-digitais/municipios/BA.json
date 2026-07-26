@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 125,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lauro de Freitas",
+    "slug": "LAURO_DE_FREITAS",
+    "cod_ibge": "2919207",
+    "vagas_total": 100,
+    "matriculas": 125,
+    "ingressos": 61,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

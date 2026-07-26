@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Caicó",
+    "slug": "CAICO",
+    "cod_ibge": "2402006",
+    "vagas_total": 55,
+    "matriculas": 140,
+    "ingressos": 40,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 49,
+    "matriculas": 138,
+    "ingressos": 42,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

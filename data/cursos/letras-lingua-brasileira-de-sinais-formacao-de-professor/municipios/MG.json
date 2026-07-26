@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 88,
+    "matriculas": 102,
+    "ingressos": 22,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 74,
+    "matriculas": 83,
+    "ingressos": 28,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

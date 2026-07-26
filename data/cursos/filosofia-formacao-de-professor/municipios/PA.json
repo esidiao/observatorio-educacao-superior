@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 54,
+    "matriculas": 210,
+    "ingressos": 25,
+    "concluintes": 32,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Miguel do Guamá",
+    "slug": "SAO_MIGUEL_DO_GUAMA",
+    "cod_ibge": "1507607",
+    "vagas_total": 40,
+    "matriculas": 78,
+    "ingressos": 57,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

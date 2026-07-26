@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "São José",
+    "slug": "SAO_JOSE",
+    "cod_ibge": "4216602",
+    "vagas_total": 372,
+    "matriculas": 52,
+    "ingressos": 19,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Criciúma",
+    "slug": "CRICIUMA",
+    "cod_ibge": "4204608",
+    "vagas_total": 55,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 32,
+    "matriculas": 131,
+    "ingressos": 32,
+    "concluintes": 19,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Palhoça",
+    "slug": "PALHOCA",
+    "cod_ibge": "4211900",
+    "vagas_total": 11,
+    "matriculas": 17,
+    "ingressos": 11,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Blumenau",
+    "slug": "BLUMENAU",
+    "cod_ibge": "4202404",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tubarão",
+    "slug": "TUBARAO",
+    "cod_ibge": "4218707",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

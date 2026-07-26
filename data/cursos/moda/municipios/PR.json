@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 417,
+    "matriculas": 463,
+    "ingressos": 202,
+    "concluintes": 128,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Cianorte",
+    "slug": "CIANORTE",
+    "cod_ibge": "4105508",
+    "vagas_total": 176,
+    "matriculas": 157,
+    "ingressos": 51,
+    "concluintes": 34,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 120,
+    "matriculas": 157,
+    "ingressos": 120,
+    "concluintes": 58,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Apucarana",
+    "slug": "APUCARANA",
+    "cod_ibge": "4101408",
+    "vagas_total": 64,
+    "matriculas": 165,
+    "ingressos": 56,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 33,
+    "matriculas": 41,
+    "ingressos": 9,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

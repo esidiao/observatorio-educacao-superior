@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 60,
+    "matriculas": 221,
+    "ingressos": 46,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barreiras",
+    "slug": "BARREIRAS",
+    "cod_ibge": "2903201",
+    "vagas_total": 50,
+    "matriculas": 82,
+    "ingressos": 18,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Senhor do Bonfim",
+    "slug": "SENHOR_DO_BONFIM",
+    "cod_ibge": "2930105",
+    "vagas_total": 40,
+    "matriculas": 0,
+    "ingressos": 35,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

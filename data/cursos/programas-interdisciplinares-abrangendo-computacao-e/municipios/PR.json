@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Marechal Cândido Rondon",
+    "slug": "MARECHAL_CANDIDO_RONDON",
+    "cod_ibge": "4114609",
+    "vagas_total": 70,
+    "matriculas": 26,
+    "ingressos": 26,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 11,
+    "matriculas": 0,
+    "ingressos": 10,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

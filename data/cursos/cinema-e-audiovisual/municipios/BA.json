@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 107,
+    "matriculas": 179,
+    "ingressos": 74,
+    "concluintes": 29,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Porto Seguro",
+    "slug": "PORTO_SEGURO",
+    "cod_ibge": "2925303",
+    "vagas_total": 104,
+    "matriculas": 35,
+    "ingressos": 23,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cachoeira",
+    "slug": "CACHOEIRA",
+    "cod_ibge": "2904902",
+    "vagas_total": 83,
+    "matriculas": 142,
+    "ingressos": 27,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória da Conquista",
+    "slug": "VITORIA_DA_CONQUISTA",
+    "cod_ibge": "2933307",
+    "vagas_total": 54,
+    "matriculas": 204,
+    "ingressos": 46,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

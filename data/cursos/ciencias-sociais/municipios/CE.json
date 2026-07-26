@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 117,
+    "matriculas": 277,
+    "ingressos": 92,
+    "concluintes": 29,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 18,
+    "matriculas": 119,
+    "ingressos": 14,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Crato",
+    "slug": "CRATO",
+    "cod_ibge": "2304202",
+    "vagas_total": 0,
+    "matriculas": 38,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 1545,
+    "matriculas": 374,
+    "ingressos": 223,
+    "concluintes": 123,
+    "n_cursos": 10,
+    "n_ies": 7
+  },
+  {
+    "nome": "Guarulhos",
+    "slug": "GUARULHOS",
+    "cod_ibge": "3518800",
+    "vagas_total": 470,
+    "matriculas": 5,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 161,
+    "matriculas": 5,
+    "ingressos": 8,
+    "concluintes": 2,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Salto",
+    "slug": "SALTO",
+    "cod_ibge": "3545209",
+    "vagas_total": 160,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santos",
+    "slug": "SANTOS",
+    "cod_ibge": "3548500",
+    "vagas_total": 51,
+    "matriculas": 6,
+    "ingressos": 4,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 40,
+    "matriculas": 12,
+    "ingressos": 4,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

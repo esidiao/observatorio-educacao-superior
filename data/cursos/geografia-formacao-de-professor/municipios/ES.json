@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Nova Venécia",
+    "slug": "NOVA_VENECIA",
+    "cod_ibge": "3203908",
+    "vagas_total": 70,
+    "matriculas": 70,
+    "ingressos": 20,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Serra",
+    "slug": "SERRA",
+    "cod_ibge": "3205002",
+    "vagas_total": 70,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória",
+    "slug": "VITORIA",
+    "cod_ibge": "3205309",
+    "vagas_total": 58,
+    "matriculas": 176,
+    "ingressos": 53,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

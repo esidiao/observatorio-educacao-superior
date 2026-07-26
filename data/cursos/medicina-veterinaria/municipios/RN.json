@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 885,
+    "matriculas": 1584,
+    "ingressos": 587,
+    "concluintes": 122,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 793,
+    "matriculas": 552,
+    "ingressos": 139,
+    "concluintes": 34,
+    "n_cursos": 3,
+    "n_ies": 3
+  }
+]

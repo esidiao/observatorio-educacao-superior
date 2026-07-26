@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Rio Grande",
+    "slug": "RIO_GRANDE",
+    "cod_ibge": "4315602",
+    "vagas_total": 207,
+    "matriculas": 88,
+    "ingressos": 50,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capão do Leão",
+    "slug": "CAPAO_DO_LEAO",
+    "cod_ibge": "4304663",
+    "vagas_total": 146,
+    "matriculas": 169,
+    "ingressos": 51,
+    "concluintes": 16,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 145,
+    "matriculas": 263,
+    "ingressos": 74,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 64,
+    "matriculas": 47,
+    "ingressos": 14,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Passo Fundo",
+    "slug": "PASSO_FUNDO",
+    "cod_ibge": "4314100",
+    "vagas_total": 37,
+    "matriculas": 34,
+    "ingressos": 15,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 5,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 2,
+    "matriculas": 7,
+    "ingressos": 1,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Canoas",
+    "slug": "CANOAS",
+    "cod_ibge": "4304606",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

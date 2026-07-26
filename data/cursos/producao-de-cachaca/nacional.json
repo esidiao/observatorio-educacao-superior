@@ -1,0 +1,77 @@
+{
+  "metadados": {
+    "curso": "Produção de cachaça",
+    "slug": "producao-de-cachaca",
+    "cine_rotulo": "Produção de cachaça",
+    "area_cine": "Engenharia, produção e construção",
+    "versao_censo": "2024",
+    "ciclo_enade": null,
+    "data_extracao": "2026-07-26",
+    "cobertura": null,
+    "fontes": {
+      "censo": {
+        "nome": "Microdados do Censo da Educação Superior",
+        "orgao": "INEP/MEC",
+        "ano": 2024,
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados"
+      },
+      "cpc": null,
+      "populacao": {
+        "nome": "Estimativas populacionais",
+        "orgao": "IBGE",
+        "ano": 2024
+      }
+    }
+  },
+  "ufs": {
+    "MG": {
+      "vagas_total": 36,
+      "vagas_presencial": 36,
+      "vagas_ead": 0,
+      "vagas_capital": 0,
+      "pct_ead": 0.0,
+      "n_cursos_presencial": 1,
+      "n_cursos_ead": 0,
+      "n_ies": 1,
+      "municipios_oferta": 1,
+      "ead_polos_municipios": 0,
+      "ead_polos_registros": 0,
+      "mun_ead_only": 0,
+      "ingressos": 0,
+      "matriculas": 8,
+      "matriculas_ead": 0,
+      "concluintes": 4,
+      "taxa_conclusao": 50.0,
+      "pct_mulheres": null,
+      "pct_ppi": null,
+      "pct_financiamento": null,
+      "pct_noturno": 0.0,
+      "pct_rede_publica": 100.0,
+      "HHI": 1.0,
+      "CR2": 1.0,
+      "CR10": 1.0,
+      "municipios_total": 853,
+      "municipios_deserto": 852,
+      "populacao": 21322691,
+      "regiao": "Sudeste",
+      "capital": "Belo Horizonte",
+      "vagas_por_100k": 0.2,
+      "CC": null,
+      "ENADE": null,
+      "IDD": null,
+      "CPC_cont": null,
+      "vagas_avaliadas": null,
+      "cpc_org_didatico": null,
+      "cpc_infraestrutura": null,
+      "cpc_oportunidade": null,
+      "pct_doc_mestres": null,
+      "pct_doc_doutores": null,
+      "pct_doc_regime": null,
+      "n_cursos_avaliados": null,
+      "concluintes_avaliados": null,
+      "ICT": 0.4994,
+      "E": 0.5006,
+      "IAF": null
+    }
+  }
+}

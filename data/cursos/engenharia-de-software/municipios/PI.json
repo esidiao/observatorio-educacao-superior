@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 330,
+    "matriculas": 337,
+    "ingressos": 184,
+    "concluintes": 7,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

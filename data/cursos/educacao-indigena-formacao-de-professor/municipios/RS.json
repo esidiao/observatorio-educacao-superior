@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Passo Fundo",
+    "slug": "PASSO_FUNDO",
+    "cod_ibge": "4314100",
+    "vagas_total": 34,
+    "matriculas": 34,
+    "ingressos": 34,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

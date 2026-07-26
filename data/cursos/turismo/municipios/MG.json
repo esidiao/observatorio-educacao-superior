@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Diamantina",
+    "slug": "DIAMANTINA",
+    "cod_ibge": "3121605",
+    "vagas_total": 333,
+    "matriculas": 85,
+    "ingressos": 20,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 180,
+    "matriculas": 212,
+    "ingressos": 44,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ouro Preto",
+    "slug": "OURO_PRETO",
+    "cod_ibge": "3146107",
+    "vagas_total": 148,
+    "matriculas": 253,
+    "ingressos": 64,
+    "concluintes": 45,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 143,
+    "matriculas": 219,
+    "ingressos": 62,
+    "concluintes": 43,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barbacena",
+    "slug": "BARBACENA",
+    "cod_ibge": "3105608",
+    "vagas_total": 74,
+    "matriculas": 51,
+    "ingressos": 14,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Carangola",
+    "slug": "CARANGOLA",
+    "cod_ibge": "3113305",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

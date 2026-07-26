@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Indaiatuba",
+    "slug": "INDAIATUBA",
+    "cod_ibge": "3520509",
+    "vagas_total": 84,
+    "matriculas": 135,
+    "ingressos": 79,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 107,
+    "matriculas": 79,
+    "ingressos": 23,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pontal do Araguaia",
+    "slug": "PONTAL_DO_ARAGUAIA",
+    "cod_ibge": "5106653",
+    "vagas_total": 68,
+    "matriculas": 23,
+    "ingressos": 6,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cáceres",
+    "slug": "CACERES",
+    "cod_ibge": "5102504",
+    "vagas_total": 40,
+    "matriculas": 53,
+    "ingressos": 5,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Primavera do Leste",
+    "slug": "PRIMAVERA_DO_LESTE",
+    "cod_ibge": "5107040",
+    "vagas_total": 40,
+    "matriculas": 91,
+    "ingressos": 16,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Confresa",
+    "slug": "CONFRESA",
+    "cod_ibge": "5103353",
+    "vagas_total": 20,
+    "matriculas": 51,
+    "ingressos": 6,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 0,
+    "matriculas": 45,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 0,
+    "matriculas": 24,
+    "ingressos": 0,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Santo André",
+    "slug": "SANTO_ANDRE",
+    "cod_ibge": "3547809",
+    "vagas_total": 187,
+    "matriculas": 158,
+    "ingressos": 0,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rosana",
+    "slug": "ROSANA",
+    "cod_ibge": "3544251",
+    "vagas_total": 70,
+    "matriculas": 138,
+    "ingressos": 28,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Matão",
+    "slug": "MATAO",
+    "cod_ibge": "3529302",
+    "vagas_total": 40,
+    "matriculas": 80,
+    "ingressos": 34,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 1,
+    "matriculas": 1,
+    "ingressos": 1,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Laranjeiras do Sul",
+    "slug": "LARANJEIRAS_DO_SUL",
+    "cod_ibge": "4113304",
+    "vagas_total": 98,
+    "matriculas": 97,
+    "ingressos": 51,
+    "concluintes": 11,
+    "n_cursos": 3,
+    "n_ies": 1
+  },
+  {
+    "nome": "Matinhos",
+    "slug": "MATINHOS",
+    "cod_ibge": "4115705",
+    "vagas_total": 9,
+    "matriculas": 91,
+    "ingressos": 8,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 54,
+    "matriculas": 18,
+    "ingressos": 5,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

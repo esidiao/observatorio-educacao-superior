@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Rio Pomba",
+    "slug": "RIO_POMBA",
+    "cod_ibge": "3155801",
+    "vagas_total": 65,
+    "matriculas": 38,
+    "ingressos": 4,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

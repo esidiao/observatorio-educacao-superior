@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Porto Velho",
+    "slug": "PORTO_VELHO",
+    "cod_ibge": "1100205",
+    "vagas_total": 161,
+    "matriculas": 113,
+    "ingressos": 26,
+    "concluintes": 13,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ji-Paraná",
+    "slug": "JI_PARANA",
+    "cod_ibge": "1100122",
+    "vagas_total": 89,
+    "matriculas": 42,
+    "ingressos": 20,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

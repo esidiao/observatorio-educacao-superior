@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 322,
+    "matriculas": 57,
+    "ingressos": 16,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 68,
+    "matriculas": 147,
+    "ingressos": 45,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

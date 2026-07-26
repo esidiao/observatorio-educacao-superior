@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Vitória",
+    "slug": "VITORIA",
+    "cod_ibge": "3205309",
+    "vagas_total": 511,
+    "matriculas": 677,
+    "ingressos": 131,
+    "concluintes": 79,
+    "n_cursos": 6,
+    "n_ies": 5
+  },
+  {
+    "nome": "Serra",
+    "slug": "SERRA",
+    "cod_ibge": "3205002",
+    "vagas_total": 423,
+    "matriculas": 157,
+    "ingressos": 68,
+    "concluintes": 44,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Cachoeiro de Itapemirim",
+    "slug": "CACHOEIRO_DE_ITAPEMIRIM",
+    "cod_ibge": "3201209",
+    "vagas_total": 242,
+    "matriculas": 14,
+    "ingressos": 8,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Mateus",
+    "slug": "SAO_MATEUS",
+    "cod_ibge": "3204906",
+    "vagas_total": 86,
+    "matriculas": 180,
+    "ingressos": 25,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Vila Velha",
+    "slug": "VILA_VELHA",
+    "cod_ibge": "3205200",
+    "vagas_total": 70,
+    "matriculas": 106,
+    "ingressos": 26,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cariacica",
+    "slug": "CARIACICA",
+    "cod_ibge": "3201308",
+    "vagas_total": 49,
+    "matriculas": 226,
+    "ingressos": 48,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aracruz",
+    "slug": "ARACRUZ",
+    "cod_ibge": "3200607",
+    "vagas_total": 45,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

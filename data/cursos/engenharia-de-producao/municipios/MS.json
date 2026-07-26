@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Três Lagoas",
+    "slug": "TRES_LAGOAS",
+    "cod_ibge": "5008305",
+    "vagas_total": 193,
+    "matriculas": 220,
+    "ingressos": 59,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 92,
+    "matriculas": 161,
+    "ingressos": 40,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 79,
+    "matriculas": 279,
+    "ingressos": 76,
+    "concluintes": 20,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Nova Andradina",
+    "slug": "NOVA_ANDRADINA",
+    "cod_ibge": "5006200",
+    "vagas_total": 72,
+    "matriculas": 112,
+    "ingressos": 37,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

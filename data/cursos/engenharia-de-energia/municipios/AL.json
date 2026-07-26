@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Rio Largo",
+    "slug": "RIO_LARGO",
+    "cod_ibge": "2707701",
+    "vagas_total": 100,
+    "matriculas": 180,
+    "ingressos": 42,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

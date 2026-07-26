@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 177,
+    "matriculas": 47,
+    "ingressos": 24,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 165,
+    "matriculas": 24,
+    "ingressos": 18,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

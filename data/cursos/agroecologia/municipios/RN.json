@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Ipanguaçu",
+    "slug": "IPANGUACU",
+    "cod_ibge": "2404705",
+    "vagas_total": 49,
+    "matriculas": 84,
+    "ingressos": 27,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 0,
+    "matriculas": 83,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

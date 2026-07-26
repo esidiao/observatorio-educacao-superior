@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 146,
+    "matriculas": 374,
+    "ingressos": 146,
+    "concluintes": 88,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

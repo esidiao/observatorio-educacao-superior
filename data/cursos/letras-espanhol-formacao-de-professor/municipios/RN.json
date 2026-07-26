@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 75,
+    "matriculas": 157,
+    "ingressos": 55,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Currais Novos",
+    "slug": "CURRAIS_NOVOS",
+    "cod_ibge": "2403103",
+    "vagas_total": 55,
+    "matriculas": 123,
+    "ingressos": 39,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 54,
+    "matriculas": 188,
+    "ingressos": 49,
+    "concluintes": 26,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Pau dos Ferros",
+    "slug": "PAU_DOS_FERROS",
+    "cod_ibge": "2409407",
+    "vagas_total": 33,
+    "matriculas": 81,
+    "ingressos": 26,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

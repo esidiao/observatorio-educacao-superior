@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 757,
+    "matriculas": 336,
+    "ingressos": 53,
+    "concluintes": 40,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 141,
+    "matriculas": 32,
+    "ingressos": 12,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Bernardo do Campo",
+    "slug": "SAO_BERNARDO_DO_CAMPO",
+    "cod_ibge": "3548708",
+    "vagas_total": 50,
+    "matriculas": 36,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lorena",
+    "slug": "LORENA",
+    "cod_ibge": "3527207",
+    "vagas_total": 41,
+    "matriculas": 28,
+    "ingressos": 3,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Carlos",
+    "slug": "SAO_CARLOS",
+    "cod_ibge": "3548906",
+    "vagas_total": 40,
+    "matriculas": 38,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Votuporanga",
+    "slug": "VOTUPORANGA",
+    "cod_ibge": "3557105",
+    "vagas_total": 40,
+    "matriculas": 168,
+    "ingressos": 40,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 39,
+    "matriculas": 133,
+    "ingressos": 39,
+    "concluintes": 22,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Marília",
+    "slug": "MARILIA",
+    "cod_ibge": "3529005",
+    "vagas_total": 34,
+    "matriculas": 85,
+    "ingressos": 0,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cachoeira Paulista",
+    "slug": "CACHOEIRA_PAULISTA",
+    "cod_ibge": "3508603",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarulhos",
+    "slug": "GUARULHOS",
+    "cod_ibge": "3518800",
+    "vagas_total": 0,
+    "matriculas": 124,
+    "ingressos": 0,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

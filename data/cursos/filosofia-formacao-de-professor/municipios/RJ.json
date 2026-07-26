@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 353,
+    "matriculas": 764,
+    "ingressos": 158,
+    "concluintes": 58,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Petrópolis",
+    "slug": "PETROPOLIS",
+    "cod_ibge": "3303906",
+    "vagas_total": 180,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Seropédica",
+    "slug": "SEROPEDICA",
+    "cod_ibge": "3305554",
+    "vagas_total": 90,
+    "matriculas": 107,
+    "ingressos": 44,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Niterói",
+    "slug": "NITEROI",
+    "cod_ibge": "3303302",
+    "vagas_total": 77,
+    "matriculas": 203,
+    "ingressos": 74,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

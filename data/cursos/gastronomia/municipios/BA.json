@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 1353,
+    "matriculas": 543,
+    "ingressos": 207,
+    "concluintes": 89,
+    "n_cursos": 7,
+    "n_ies": 6
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 147,
+    "matriculas": 65,
+    "ingressos": 21,
+    "concluintes": 27,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ilhéus",
+    "slug": "ILHEUS",
+    "cod_ibge": "2913606",
+    "vagas_total": 141,
+    "matriculas": 63,
+    "ingressos": 25,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itamaraju",
+    "slug": "ITAMARAJU",
+    "cod_ibge": "2915601",
+    "vagas_total": 115,
+    "matriculas": 7,
+    "ingressos": 5,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cachoeira",
+    "slug": "CACHOEIRA",
+    "cod_ibge": "2904902",
+    "vagas_total": 101,
+    "matriculas": 32,
+    "ingressos": 17,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catu",
+    "slug": "CATU",
+    "cod_ibge": "2907509",
+    "vagas_total": 70,
+    "matriculas": 54,
+    "ingressos": 23,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alagoinhas",
+    "slug": "ALAGOINHAS",
+    "cod_ibge": "2900702",
+    "vagas_total": 40,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

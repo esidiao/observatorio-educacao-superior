@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 502,
+    "matriculas": 562,
+    "ingressos": 172,
+    "concluintes": 91,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Jataí",
+    "slug": "JATAI",
+    "cod_ibge": "5211909",
+    "vagas_total": 71,
+    "matriculas": 60,
+    "ingressos": 25,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catalão",
+    "slug": "CATALAO",
+    "cod_ibge": "5205109",
+    "vagas_total": 70,
+    "matriculas": 113,
+    "ingressos": 53,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

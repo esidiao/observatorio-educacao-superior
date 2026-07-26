@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Santos",
+    "slug": "SANTOS",
+    "cod_ibge": "3548500",
+    "vagas_total": 95,
+    "matriculas": 10,
+    "ingressos": 2,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

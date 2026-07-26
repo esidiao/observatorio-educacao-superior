@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Redenção",
+    "slug": "REDENCAO",
+    "cod_ibge": "2311603",
+    "vagas_total": 125,
+    "matriculas": 80,
+    "ingressos": 30,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

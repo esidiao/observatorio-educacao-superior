@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 79,
+    "matriculas": 61,
+    "ingressos": 21,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 73,
+    "matriculas": 63,
+    "ingressos": 16,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Canoas",
+    "slug": "CANOAS",
+    "cod_ibge": "4304606",
+    "vagas_total": 72,
+    "matriculas": 141,
+    "ingressos": 72,
+    "concluintes": 8,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 65,
+    "matriculas": 33,
+    "ingressos": 9,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 58,
+    "matriculas": 113,
+    "ingressos": 32,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 84,
+    "matriculas": 36,
+    "ingressos": 21,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Grande",
+    "slug": "RIO_GRANDE",
+    "cod_ibge": "4315602",
+    "vagas_total": 69,
+    "matriculas": 99,
+    "ingressos": 39,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

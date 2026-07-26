@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 353,
+    "matriculas": 491,
+    "ingressos": 180,
+    "concluintes": 54,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Quirinópolis",
+    "slug": "QUIRINOPOLIS",
+    "cod_ibge": "5218508",
+    "vagas_total": 269,
+    "matriculas": 45,
+    "ingressos": 17,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiás",
+    "slug": "GOIAS",
+    "cod_ibge": "5208905",
+    "vagas_total": 254,
+    "matriculas": 39,
+    "ingressos": 17,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iporá",
+    "slug": "IPORA",
+    "cod_ibge": "5210208",
+    "vagas_total": 225,
+    "matriculas": 63,
+    "ingressos": 30,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Morrinhos",
+    "slug": "MORRINHOS",
+    "cod_ibge": "5213806",
+    "vagas_total": 207,
+    "matriculas": 80,
+    "ingressos": 23,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Formosa",
+    "slug": "FORMOSA",
+    "cod_ibge": "5208004",
+    "vagas_total": 194,
+    "matriculas": 69,
+    "ingressos": 31,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uruaçu",
+    "slug": "URUACU",
+    "cod_ibge": "5221601",
+    "vagas_total": 192,
+    "matriculas": 73,
+    "ingressos": 29,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 163,
+    "matriculas": 93,
+    "ingressos": 43,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goianésia",
+    "slug": "GOIANESIA",
+    "cod_ibge": "5208608",
+    "vagas_total": 104,
+    "matriculas": 60,
+    "ingressos": 29,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jataí",
+    "slug": "JATAI",
+    "cod_ibge": "5211909",
+    "vagas_total": 71,
+    "matriculas": 79,
+    "ingressos": 34,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catalão",
+    "slug": "CATALAO",
+    "cod_ibge": "5205109",
+    "vagas_total": 55,
+    "matriculas": 78,
+    "ingressos": 37,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapuranga",
+    "slug": "ITAPURANGA",
+    "cod_ibge": "5211206",
+    "vagas_total": 0,
+    "matriculas": 5,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pires do Rio",
+    "slug": "PIRES_DO_RIO",
+    "cod_ibge": "5217401",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porangatu",
+    "slug": "PORANGATU",
+    "cod_ibge": "5218003",
+    "vagas_total": 0,
+    "matriculas": 18,
+    "ingressos": 0,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

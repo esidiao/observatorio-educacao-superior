@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 205,
+    "matriculas": 254,
+    "ingressos": 72,
+    "concluintes": 25,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Seropédica",
+    "slug": "SEROPEDICA",
+    "cod_ibge": "3305554",
+    "vagas_total": 158,
+    "matriculas": 197,
+    "ingressos": 57,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Volta Redonda",
+    "slug": "VOLTA_REDONDA",
+    "cod_ibge": "3306305",
+    "vagas_total": 71,
+    "matriculas": 82,
+    "ingressos": 17,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

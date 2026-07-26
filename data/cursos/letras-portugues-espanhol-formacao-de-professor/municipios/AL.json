@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "São Miguel dos Campos",
+    "slug": "SAO_MIGUEL_DOS_CAMPOS",
+    "cod_ibge": "2708600",
+    "vagas_total": 29,
+    "matriculas": 54,
+    "ingressos": 10,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

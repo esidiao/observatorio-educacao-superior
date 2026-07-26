@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Laguna",
+    "slug": "LAGUNA",
+    "cod_ibge": "4209409",
+    "vagas_total": 0,
+    "matriculas": 25,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

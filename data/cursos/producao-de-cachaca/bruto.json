@@ -1,0 +1,41 @@
+{
+  "ano_censo": "2024",
+  "ufs": {
+    "MG": {
+      "vagas_total": 36,
+      "vagas_presencial": 36,
+      "vagas_ead": 0,
+      "vagas_capital": 0,
+      "pct_ead": 0.0,
+      "n_cursos_presencial": 1,
+      "n_cursos_ead": 0,
+      "n_ies": 1,
+      "municipios_oferta": 1,
+      "ead_polos_municipios": 0,
+      "ead_polos_registros": 0,
+      "mun_ead_only": 0,
+      "ingressos": 0,
+      "matriculas": 8,
+      "matriculas_ead": 0,
+      "concluintes": 4,
+      "taxa_conclusao": 50.0,
+      "pct_mulheres": null,
+      "pct_ppi": null,
+      "pct_financiamento": null,
+      "pct_noturno": 0.0,
+      "pct_rede_publica": 100.0,
+      "HHI": 1.0,
+      "CR2": 1.0,
+      "CR10": 1.0,
+      "municipios_total": 853,
+      "municipios_deserto": 852,
+      "populacao": 21322691,
+      "regiao": "Sudeste",
+      "capital": "Belo Horizonte",
+      "vagas_por_100k": 0.2
+    }
+  },
+  "vagas_por_curso": {
+    "80371": 36
+  }
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 884,
+    "matriculas": 12,
+    "ingressos": 0,
+    "concluintes": 7,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Santo Antônio de Jesus",
+    "slug": "SANTO_ANTONIO_DE_JESUS",
+    "cod_ibge": "2928703",
+    "vagas_total": 77,
+    "matriculas": 128,
+    "ingressos": 53,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 50,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 370,
+    "matriculas": 211,
+    "ingressos": 123,
+    "concluintes": 57,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Vitória da Conquista",
+    "slug": "VITORIA_DA_CONQUISTA",
+    "cod_ibge": "2933307",
+    "vagas_total": 98,
+    "matriculas": 243,
+    "ingressos": 67,
+    "concluintes": 33,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cruz das Almas",
+    "slug": "CRUZ_DAS_ALMAS",
+    "cod_ibge": "2909802",
+    "vagas_total": 86,
+    "matriculas": 190,
+    "ingressos": 47,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Seguro",
+    "slug": "PORTO_SEGURO",
+    "cod_ibge": "2925303",
+    "vagas_total": 78,
+    "matriculas": 86,
+    "ingressos": 30,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 50,
+    "matriculas": 176,
+    "ingressos": 50,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapetinga",
+    "slug": "ITAPETINGA",
+    "cod_ibge": "2916401",
+    "vagas_total": 49,
+    "matriculas": 59,
+    "ingressos": 20,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ilhéus",
+    "slug": "ILHEUS",
+    "cod_ibge": "2913606",
+    "vagas_total": 47,
+    "matriculas": 126,
+    "ingressos": 33,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jequié",
+    "slug": "JEQUIE",
+    "cod_ibge": "2918001",
+    "vagas_total": 42,
+    "matriculas": 93,
+    "ingressos": 22,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barreiras",
+    "slug": "BARREIRAS",
+    "cod_ibge": "2903201",
+    "vagas_total": 30,
+    "matriculas": 67,
+    "ingressos": 21,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Senhor do Bonfim",
+    "slug": "SENHOR_DO_BONFIM",
+    "cod_ibge": "2930105",
+    "vagas_total": 30,
+    "matriculas": 19,
+    "ingressos": 19,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lauro de Freitas",
+    "slug": "LAURO_DE_FREITAS",
+    "cod_ibge": "2919207",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

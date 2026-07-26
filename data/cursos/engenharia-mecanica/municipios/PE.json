@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 3804,
+    "matriculas": 1389,
+    "ingressos": 321,
+    "concluintes": 137,
+    "n_cursos": 8,
+    "n_ies": 7
+  },
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 800,
+    "matriculas": 298,
+    "ingressos": 80,
+    "concluintes": 50,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Paulista",
+    "slug": "PAULISTA",
+    "cod_ibge": "2610707",
+    "vagas_total": 556,
+    "matriculas": 49,
+    "ingressos": 1,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 501,
+    "matriculas": 90,
+    "ingressos": 29,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cabo de Santo Agostinho",
+    "slug": "CABO_DE_SANTO_AGOSTINHO",
+    "cod_ibge": "2602902",
+    "vagas_total": 304,
+    "matriculas": 428,
+    "ingressos": 124,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ipojuca",
+    "slug": "IPOJUCA",
+    "cod_ibge": "2607208",
+    "vagas_total": 42,
+    "matriculas": 119,
+    "ingressos": 35,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaboatão dos Guararapes",
+    "slug": "JABOATAO_DOS_GUARARAPES",
+    "cod_ibge": "2607901",
+    "vagas_total": 20,
+    "matriculas": 74,
+    "ingressos": 20,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

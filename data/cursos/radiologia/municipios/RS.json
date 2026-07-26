@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 118,
+    "matriculas": 40,
+    "ingressos": 20,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 74,
+    "matriculas": 48,
+    "ingressos": 23,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 47,
+    "matriculas": 25,
+    "ingressos": 5,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

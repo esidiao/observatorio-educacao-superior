@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 4311,
+    "matriculas": 2129,
+    "ingressos": 788,
+    "concluintes": 335,
+    "n_cursos": 10,
+    "n_ies": 6
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 247,
+    "matriculas": 182,
+    "ingressos": 74,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 230,
+    "matriculas": 273,
+    "ingressos": 54,
+    "concluintes": 26,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 144,
+    "matriculas": 136,
+    "ingressos": 61,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tianguá",
+    "slug": "TIANGUA",
+    "cod_ibge": "2313401",
+    "vagas_total": 120,
+    "matriculas": 80,
+    "ingressos": 32,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maracanaú",
+    "slug": "MARACANAU",
+    "cod_ibge": "2307650",
+    "vagas_total": 101,
+    "matriculas": 25,
+    "ingressos": 17,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aracati",
+    "slug": "ARACATI",
+    "cod_ibge": "2301109",
+    "vagas_total": 100,
+    "matriculas": 4,
+    "ingressos": 1,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iguatu",
+    "slug": "IGUATU",
+    "cod_ibge": "2305506",
+    "vagas_total": 100,
+    "matriculas": 55,
+    "ingressos": 32,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caucaia",
+    "slug": "CAUCAIA",
+    "cod_ibge": "2303709",
+    "vagas_total": 50,
+    "matriculas": 71,
+    "ingressos": 15,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Horizonte",
+    "slug": "HORIZONTE",
+    "cod_ibge": "2305233",
+    "vagas_total": 19,
+    "matriculas": 37,
+    "ingressos": 16,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

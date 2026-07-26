@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Macapá",
+    "slug": "MACAPA",
+    "cod_ibge": "1600303",
+    "vagas_total": 1320,
+    "matriculas": 737,
+    "ingressos": 214,
+    "concluintes": 65,
+    "n_cursos": 7,
+    "n_ies": 7
+  },
+  {
+    "nome": "Santana",
+    "slug": "SANTANA",
+    "cod_ibge": "1600600",
+    "vagas_total": 450,
+    "matriculas": 338,
+    "ingressos": 69,
+    "concluintes": 31,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Oiapoque",
+    "slug": "OIAPOQUE",
+    "cod_ibge": "1600501",
+    "vagas_total": 55,
+    "matriculas": 190,
+    "ingressos": 42,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

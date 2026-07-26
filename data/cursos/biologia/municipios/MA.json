@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 76,
+    "matriculas": 282,
+    "ingressos": 63,
+    "concluintes": 42,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Bacabal",
+    "slug": "BACABAL",
+    "cod_ibge": "2101202",
+    "vagas_total": 35,
+    "matriculas": 127,
+    "ingressos": 33,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

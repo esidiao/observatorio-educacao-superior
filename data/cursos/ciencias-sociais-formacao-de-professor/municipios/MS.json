@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Paranaíba",
+    "slug": "PARANAIBA",
+    "cod_ibge": "5006309",
+    "vagas_total": 31,
+    "matriculas": 54,
+    "ingressos": 20,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Amambai",
+    "slug": "AMAMBAI",
+    "cod_ibge": "5000609",
+    "vagas_total": 0,
+    "matriculas": 50,
+    "ingressos": 0,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 0,
+    "matriculas": 24,
+    "ingressos": 0,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Naviraí",
+    "slug": "NAVIRAI",
+    "cod_ibge": "5005707",
+    "vagas_total": 0,
+    "matriculas": 21,
+    "ingressos": 0,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

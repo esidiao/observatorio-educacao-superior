@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Bom Jesus",
+    "slug": "BOM_JESUS",
+    "cod_ibge": "2201903",
+    "vagas_total": 60,
+    "matriculas": 66,
+    "ingressos": 28,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Floriano",
+    "slug": "FLORIANO",
+    "cod_ibge": "2203909",
+    "vagas_total": 60,
+    "matriculas": 71,
+    "ingressos": 14,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Picos",
+    "slug": "PICOS",
+    "cod_ibge": "2208007",
+    "vagas_total": 60,
+    "matriculas": 73,
+    "ingressos": 15,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 60,
+    "matriculas": 141,
+    "ingressos": 60,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Parnaíba",
+    "slug": "PARNAIBA",
+    "cod_ibge": "2207702",
+    "vagas_total": 30,
+    "matriculas": 29,
+    "ingressos": 29,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

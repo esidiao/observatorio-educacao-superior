@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Pontal do Araguaia",
+    "slug": "PONTAL_DO_ARAGUAIA",
+    "cod_ibge": "5106653",
+    "vagas_total": 146,
+    "matriculas": 12,
+    "ingressos": 4,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 137,
+    "matriculas": 115,
+    "ingressos": 41,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 45,
+    "matriculas": 12,
+    "ingressos": 5,
+    "concluintes": 2,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Confresa",
+    "slug": "CONFRESA",
+    "cod_ibge": "5103353",
+    "vagas_total": 20,
+    "matriculas": 28,
+    "ingressos": 10,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Luciara",
+    "slug": "LUCIARA",
+    "cod_ibge": "5105309",
+    "vagas_total": 0,
+    "matriculas": 5,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pontes e Lacerda",
+    "slug": "PONTES_E_LACERDA",
+    "cod_ibge": "5106752",
+    "vagas_total": 0,
+    "matriculas": 36,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

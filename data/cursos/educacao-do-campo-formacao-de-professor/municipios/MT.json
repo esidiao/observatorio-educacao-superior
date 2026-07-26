@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Nossa Senhora do Livramento",
+    "slug": "NOSSA_SENHORA_DO_LIVRAMENTO",
+    "cod_ibge": "5106109",
+    "vagas_total": 60,
+    "matriculas": 30,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 40,
+    "matriculas": 39,
+    "ingressos": 39,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

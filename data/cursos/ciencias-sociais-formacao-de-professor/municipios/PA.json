@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 54,
+    "matriculas": 260,
+    "ingressos": 30,
+    "concluintes": 23,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Miguel do Guamá",
+    "slug": "SAO_MIGUEL_DO_GUAMA",
+    "cod_ibge": "1507607",
+    "vagas_total": 40,
+    "matriculas": 53,
+    "ingressos": 27,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 29,
+    "matriculas": 53,
+    "ingressos": 19,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Conceição do Araguaia",
+    "slug": "CONCEICAO_DO_ARAGUAIA",
+    "cod_ibge": "1502707",
+    "vagas_total": 0,
+    "matriculas": 25,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Igarapé-Açu",
+    "slug": "IGARAPE_ACU",
+    "cod_ibge": "1503200",
+    "vagas_total": 0,
+    "matriculas": 37,
+    "ingressos": 0,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

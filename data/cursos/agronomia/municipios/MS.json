@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 421,
+    "matriculas": 1046,
+    "ingressos": 407,
+    "concluintes": 154,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 326,
+    "matriculas": 645,
+    "ingressos": 328,
+    "concluintes": 80,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ponta Porã",
+    "slug": "PONTA_PORA",
+    "cod_ibge": "5006606",
+    "vagas_total": 143,
+    "matriculas": 334,
+    "ingressos": 82,
+    "concluintes": 68,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Três Lagoas",
+    "slug": "TRES_LAGOAS",
+    "cod_ibge": "5008305",
+    "vagas_total": 100,
+    "matriculas": 85,
+    "ingressos": 27,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapadão do Sul",
+    "slug": "CHAPADAO_DO_SUL",
+    "cod_ibge": "5002951",
+    "vagas_total": 68,
+    "matriculas": 234,
+    "ingressos": 55,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Andradina",
+    "slug": "NOVA_ANDRADINA",
+    "cod_ibge": "5006200",
+    "vagas_total": 56,
+    "matriculas": 194,
+    "ingressos": 44,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aquidauana",
+    "slug": "AQUIDAUANA",
+    "cod_ibge": "5001102",
+    "vagas_total": 55,
+    "matriculas": 193,
+    "ingressos": 57,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cassilândia",
+    "slug": "CASSILANDIA",
+    "cod_ibge": "5002902",
+    "vagas_total": 51,
+    "matriculas": 208,
+    "ingressos": 53,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maracaju",
+    "slug": "MARACAJU",
+    "cod_ibge": "5005400",
+    "vagas_total": 51,
+    "matriculas": 134,
+    "ingressos": 50,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Naviraí",
+    "slug": "NAVIRAI",
+    "cod_ibge": "5005707",
+    "vagas_total": 43,
+    "matriculas": 188,
+    "ingressos": 45,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mundo Novo",
+    "slug": "MUNDO_NOVO",
+    "cod_ibge": "5005681",
+    "vagas_total": 41,
+    "matriculas": 123,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

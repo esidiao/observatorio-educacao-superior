@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Santo André",
+    "slug": "SANTO_ANDRE",
+    "cod_ibge": "3547809",
+    "vagas_total": 360,
+    "matriculas": 488,
+    "ingressos": 284,
+    "concluintes": 61,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 162,
+    "matriculas": 52,
+    "ingressos": 32,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Taubaté",
+    "slug": "TAUBATE",
+    "cod_ibge": "3554102",
+    "vagas_total": 80,
+    "matriculas": 174,
+    "ingressos": 55,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 40,
+    "matriculas": 85,
+    "ingressos": 36,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 49,
+    "matriculas": 86,
+    "ingressos": 29,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 40,
+    "matriculas": 36,
+    "ingressos": 29,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 30,
+    "matriculas": 155,
+    "ingressos": 18,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

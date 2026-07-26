@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 91,
+    "matriculas": 9,
+    "ingressos": 1,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palhoça",
+    "slug": "PALHOCA",
+    "cod_ibge": "4211900",
+    "vagas_total": 10,
+    "matriculas": 60,
+    "ingressos": 10,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

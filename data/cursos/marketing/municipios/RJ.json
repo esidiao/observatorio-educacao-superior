@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 1778,
+    "matriculas": 571,
+    "ingressos": 336,
+    "concluintes": 197,
+    "n_cursos": 16,
+    "n_ies": 7
+  },
+  {
+    "nome": "Nova Iguaçu",
+    "slug": "NOVA_IGUACU",
+    "cod_ibge": "3303500",
+    "vagas_total": 321,
+    "matriculas": 31,
+    "ingressos": 15,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Niterói",
+    "slug": "NITEROI",
+    "cod_ibge": "3303302",
+    "vagas_total": 109,
+    "matriculas": 82,
+    "ingressos": 37,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Resende",
+    "slug": "RESENDE",
+    "cod_ibge": "3304201",
+    "vagas_total": 60,
+    "matriculas": 6,
+    "ingressos": 3,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

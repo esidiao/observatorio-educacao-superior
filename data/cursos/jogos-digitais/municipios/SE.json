@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Tobias Barreto",
+    "slug": "TOBIAS_BARRETO",
+    "cod_ibge": "2807402",
+    "vagas_total": 42,
+    "matriculas": 10,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aracaju",
+    "slug": "ARACAJU",
+    "cod_ibge": "2800308",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

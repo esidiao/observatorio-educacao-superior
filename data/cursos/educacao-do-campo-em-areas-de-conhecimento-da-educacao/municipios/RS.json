@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Dom Pedrito",
+    "slug": "DOM_PEDRITO",
+    "cod_ibge": "4306601",
+    "vagas_total": 168,
+    "matriculas": 112,
+    "ingressos": 50,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Erechim",
+    "slug": "ERECHIM",
+    "cod_ibge": "4307005",
+    "vagas_total": 125,
+    "matriculas": 81,
+    "ingressos": 24,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 60,
+    "matriculas": 37,
+    "ingressos": 35,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tramandaí",
+    "slug": "TRAMANDAI",
+    "cod_ibge": "4321600",
+    "vagas_total": 30,
+    "matriculas": 19,
+    "ingressos": 6,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

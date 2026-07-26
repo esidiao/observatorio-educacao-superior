@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Pau dos Ferros",
+    "slug": "PAU_DOS_FERROS",
+    "cod_ibge": "2409407",
+    "vagas_total": 40,
+    "matriculas": 36,
+    "ingressos": 35,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

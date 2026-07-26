@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 1783,
+    "matriculas": 1524,
+    "ingressos": 465,
+    "concluintes": 278,
+    "n_cursos": 10,
+    "n_ies": 9
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 1070,
+    "matriculas": 182,
+    "ingressos": 62,
+    "concluintes": 32,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 292,
+    "matriculas": 60,
+    "ingressos": 32,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pedreiras",
+    "slug": "PEDREIRAS",
+    "cod_ibge": "2108207",
+    "vagas_total": 110,
+    "matriculas": 46,
+    "ingressos": 21,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bacabal",
+    "slug": "BACABAL",
+    "cod_ibge": "2101202",
+    "vagas_total": 54,
+    "matriculas": 87,
+    "ingressos": 54,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

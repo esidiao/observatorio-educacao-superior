@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Campo Largo",
+    "slug": "CAMPO_LARGO",
+    "cod_ibge": "4104204",
+    "vagas_total": 40,
+    "matriculas": 52,
+    "ingressos": 36,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

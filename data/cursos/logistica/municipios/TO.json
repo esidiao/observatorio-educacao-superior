@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "1721000",
+    "vagas_total": 310,
+    "matriculas": 17,
+    "ingressos": 4,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araguaína",
+    "slug": "ARAGUAINA",
+    "cod_ibge": "1702109",
+    "vagas_total": 100,
+    "matriculas": 160,
+    "ingressos": 33,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Nacional",
+    "slug": "PORTO_NACIONAL",
+    "cod_ibge": "1718204",
+    "vagas_total": 58,
+    "matriculas": 105,
+    "ingressos": 11,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

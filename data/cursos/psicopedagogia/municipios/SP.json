@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Osasco",
+    "slug": "OSASCO",
+    "cod_ibge": "3534401",
+    "vagas_total": 140,
+    "matriculas": 2,
+    "ingressos": 7,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

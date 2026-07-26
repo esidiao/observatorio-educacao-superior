@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Palotina",
+    "slug": "PALOTINA",
+    "cod_ibge": "4117909",
+    "vagas_total": 73,
+    "matriculas": 75,
+    "ingressos": 12,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 66,
+    "matriculas": 160,
+    "ingressos": 50,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 57,
+    "matriculas": 25,
+    "ingressos": 2,
+    "concluintes": 17,
+    "n_cursos": 3,
+    "n_ies": 3
+  }
+]

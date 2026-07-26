@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Barreiros",
+    "slug": "BARREIROS",
+    "cod_ibge": "2601409",
+    "vagas_total": 60,
+    "matriculas": 51,
+    "ingressos": 13,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 60,
+    "matriculas": 89,
+    "ingressos": 34,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

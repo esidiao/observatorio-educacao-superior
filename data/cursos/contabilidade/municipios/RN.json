@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 2876,
+    "matriculas": 1423,
+    "ingressos": 461,
+    "concluintes": 173,
+    "n_cursos": 9,
+    "n_ies": 7
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 798,
+    "matriculas": 924,
+    "ingressos": 188,
+    "concluintes": 137,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Caicó",
+    "slug": "CAICO",
+    "cod_ibge": "2402006",
+    "vagas_total": 155,
+    "matriculas": 281,
+    "ingressos": 73,
+    "concluintes": 46,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Açu",
+    "slug": "ACU",
+    "cod_ibge": "2400208",
+    "vagas_total": 102,
+    "matriculas": 76,
+    "ingressos": 25,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Currais Novos",
+    "slug": "CURRAIS_NOVOS",
+    "cod_ibge": "2403103",
+    "vagas_total": 60,
+    "matriculas": 58,
+    "ingressos": 29,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patu",
+    "slug": "PATU",
+    "cod_ibge": "2409308",
+    "vagas_total": 44,
+    "matriculas": 148,
+    "ingressos": 36,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

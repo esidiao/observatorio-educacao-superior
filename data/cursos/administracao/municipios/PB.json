@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 1528,
+    "matriculas": 1789,
+    "ingressos": 550,
+    "concluintes": 175,
+    "n_cursos": 10,
+    "n_ies": 9
+  },
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 1420,
+    "matriculas": 1117,
+    "ingressos": 380,
+    "concluintes": 91,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Cajazeiras",
+    "slug": "CAJAZEIRAS",
+    "cod_ibge": "2503704",
+    "vagas_total": 498,
+    "matriculas": 217,
+    "ingressos": 72,
+    "concluintes": 38,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Patos",
+    "slug": "PATOS",
+    "cod_ibge": "2510808",
+    "vagas_total": 267,
+    "matriculas": 448,
+    "ingressos": 133,
+    "concluintes": 89,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sousa",
+    "slug": "SOUSA",
+    "cod_ibge": "2516201",
+    "vagas_total": 165,
+    "matriculas": 162,
+    "ingressos": 51,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bananeiras",
+    "slug": "BANANEIRAS",
+    "cod_ibge": "2501500",
+    "vagas_total": 100,
+    "matriculas": 349,
+    "ingressos": 78,
+    "concluintes": 45,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mamanguape",
+    "slug": "MAMANGUAPE",
+    "cod_ibge": "2508901",
+    "vagas_total": 93,
+    "matriculas": 177,
+    "ingressos": 64,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cabedelo",
+    "slug": "CABEDELO",
+    "cod_ibge": "2503209",
+    "vagas_total": 90,
+    "matriculas": 238,
+    "ingressos": 90,
+    "concluintes": 41,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarabira",
+    "slug": "GUARABIRA",
+    "cod_ibge": "2506301",
+    "vagas_total": 70,
+    "matriculas": 62,
+    "ingressos": 20,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "São Bernardo do Campo",
+    "slug": "SAO_BERNARDO_DO_CAMPO",
+    "cod_ibge": "3548708",
+    "vagas_total": 146,
+    "matriculas": 99,
+    "ingressos": 21,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

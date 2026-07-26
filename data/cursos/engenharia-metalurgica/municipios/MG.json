@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Ouro Preto",
+    "slug": "OURO_PRETO",
+    "cod_ibge": "3146107",
+    "vagas_total": 333,
+    "matriculas": 218,
+    "ingressos": 68,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Timóteo",
+    "slug": "TIMOTEO",
+    "cod_ibge": "3168705",
+    "vagas_total": 167,
+    "matriculas": 149,
+    "ingressos": 42,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Conselheiro Lafaiete",
+    "slug": "CONSELHEIRO_LAFAIETE",
+    "cod_ibge": "3118304",
+    "vagas_total": 150,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 128,
+    "matriculas": 178,
+    "ingressos": 0,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ouro Branco",
+    "slug": "OURO_BRANCO",
+    "cod_ibge": "3145901",
+    "vagas_total": 90,
+    "matriculas": 129,
+    "ingressos": 33,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "João Monlevade",
+    "slug": "JOAO_MONLEVADE",
+    "cod_ibge": "3136207",
+    "vagas_total": 69,
+    "matriculas": 82,
+    "ingressos": 26,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 51,
+    "matriculas": 238,
+    "ingressos": 45,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

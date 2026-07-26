@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Santa Vitória do Palmar",
+    "slug": "SANTA_VITORIA_DO_PALMAR",
+    "cod_ibge": "4317301",
+    "vagas_total": 259,
+    "matriculas": 46,
+    "ingressos": 13,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 237,
+    "matriculas": 218,
+    "ingressos": 76,
+    "concluintes": 26,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Cachoeirinha",
+    "slug": "CACHOEIRINHA",
+    "cod_ibge": "4303103",
+    "vagas_total": 203,
+    "matriculas": 21,
+    "ingressos": 10,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Novo Hamburgo",
+    "slug": "NOVO_HAMBURGO",
+    "cod_ibge": "4313409",
+    "vagas_total": 154,
+    "matriculas": 58,
+    "ingressos": 26,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 145,
+    "matriculas": 47,
+    "ingressos": 22,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bento Gonçalves",
+    "slug": "BENTO_GONCALVES",
+    "cod_ibge": "4302105",
+    "vagas_total": 69,
+    "matriculas": 68,
+    "ingressos": 22,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 62,
+    "matriculas": 60,
+    "ingressos": 53,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Passo Fundo",
+    "slug": "PASSO_FUNDO",
+    "cod_ibge": "4314100",
+    "vagas_total": 0,
+    "matriculas": 10,
+    "ingressos": 0,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

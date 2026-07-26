@@ -1,0 +1,189 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 207,
+    "matriculas": 615,
+    "ingressos": 148,
+    "concluintes": 44,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Redenção",
+    "slug": "REDENCAO",
+    "cod_ibge": "2311603",
+    "vagas_total": 110,
+    "matriculas": 94,
+    "ingressos": 35,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Crateús",
+    "slug": "CRATEUS",
+    "cod_ibge": "2304103",
+    "vagas_total": 80,
+    "matriculas": 82,
+    "ingressos": 27,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Crato",
+    "slug": "CRATO",
+    "cod_ibge": "2304202",
+    "vagas_total": 80,
+    "matriculas": 64,
+    "ingressos": 9,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Limoeiro do Norte",
+    "slug": "LIMOEIRO_DO_NORTE",
+    "cod_ibge": "2307601",
+    "vagas_total": 80,
+    "matriculas": 56,
+    "ingressos": 23,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maracanaú",
+    "slug": "MARACANAU",
+    "cod_ibge": "2307650",
+    "vagas_total": 80,
+    "matriculas": 246,
+    "ingressos": 79,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 80,
+    "matriculas": 137,
+    "ingressos": 51,
+    "concluintes": 21,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ubajara",
+    "slug": "UBAJARA",
+    "cod_ibge": "2313609",
+    "vagas_total": 75,
+    "matriculas": 149,
+    "ingressos": 28,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Boa Viagem",
+    "slug": "BOA_VIAGEM",
+    "cod_ibge": "2302404",
+    "vagas_total": 70,
+    "matriculas": 80,
+    "ingressos": 16,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Camocim",
+    "slug": "CAMOCIM",
+    "cod_ibge": "2302602",
+    "vagas_total": 65,
+    "matriculas": 173,
+    "ingressos": 35,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aracati",
+    "slug": "ARACATI",
+    "cod_ibge": "2301109",
+    "vagas_total": 60,
+    "matriculas": 114,
+    "ingressos": 27,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapipoca",
+    "slug": "ITAPIPOCA",
+    "cod_ibge": "2306405",
+    "vagas_total": 60,
+    "matriculas": 88,
+    "ingressos": 24,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tauá",
+    "slug": "TAUA",
+    "cod_ibge": "2313302",
+    "vagas_total": 36,
+    "matriculas": 31,
+    "ingressos": 25,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caucaia",
+    "slug": "CAUCAIA",
+    "cod_ibge": "2303709",
+    "vagas_total": 35,
+    "matriculas": 92,
+    "ingressos": 35,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iguatu",
+    "slug": "IGUATU",
+    "cod_ibge": "2305506",
+    "vagas_total": 35,
+    "matriculas": 142,
+    "ingressos": 30,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Brejo Santo",
+    "slug": "BREJO_SANTO",
+    "cod_ibge": "2302503",
+    "vagas_total": 32,
+    "matriculas": 11,
+    "ingressos": 6,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 15,
+    "matriculas": 136,
+    "ingressos": 15,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

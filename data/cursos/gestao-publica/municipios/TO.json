@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "1721000",
+    "vagas_total": 390,
+    "matriculas": 293,
+    "ingressos": 75,
+    "concluintes": 28,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Gurupi",
+    "slug": "GURUPI",
+    "cod_ibge": "1709500",
+    "vagas_total": 42,
+    "matriculas": 78,
+    "ingressos": 35,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "nome": "Blumenau",
+    "slug": "BLUMENAU",
+    "cod_ibge": "4202404",
+    "vagas_total": 482,
+    "matriculas": 115,
+    "ingressos": 59,
+    "concluintes": 11,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 380,
+    "matriculas": 146,
+    "ingressos": 60,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 202,
+    "matriculas": 89,
+    "ingressos": 36,
+    "concluintes": 6,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Itajaí",
+    "slug": "ITAJAI",
+    "cod_ibge": "4208203",
+    "vagas_total": 194,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 160,
+    "matriculas": 103,
+    "ingressos": 55,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio do Sul",
+    "slug": "RIO_DO_SUL",
+    "cod_ibge": "4214805",
+    "vagas_total": 124,
+    "matriculas": 41,
+    "ingressos": 15,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Concórdia",
+    "slug": "CONCORDIA",
+    "cod_ibge": "4204301",
+    "vagas_total": 119,
+    "matriculas": 33,
+    "ingressos": 14,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Camboriú",
+    "slug": "CAMBORIU",
+    "cod_ibge": "4203204",
+    "vagas_total": 87,
+    "matriculas": 58,
+    "ingressos": 41,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lages",
+    "slug": "LAGES",
+    "cod_ibge": "4209300",
+    "vagas_total": 73,
+    "matriculas": 79,
+    "ingressos": 40,
+    "concluintes": 3,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Criciúma",
+    "slug": "CRICIUMA",
+    "cod_ibge": "4204608",
+    "vagas_total": 58,
+    "matriculas": 48,
+    "ingressos": 23,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sombrio",
+    "slug": "SOMBRIO",
+    "cod_ibge": "4217709",
+    "vagas_total": 50,
+    "matriculas": 56,
+    "ingressos": 29,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tubarão",
+    "slug": "TUBARAO",
+    "cod_ibge": "4218707",
+    "vagas_total": 5,
+    "matriculas": 18,
+    "ingressos": 5,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

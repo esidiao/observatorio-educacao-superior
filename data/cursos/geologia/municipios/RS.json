@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Caçapava do Sul",
+    "slug": "CACAPAVA_DO_SUL",
+    "cod_ibge": "4302808",
+    "vagas_total": 189,
+    "matriculas": 104,
+    "ingressos": 18,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 150,
+    "matriculas": 80,
+    "ingressos": 22,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 65,
+    "matriculas": 182,
+    "ingressos": 50,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 40,
+    "matriculas": 27,
+    "ingressos": 0,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 550,
+    "matriculas": 69,
+    "ingressos": 8,
+    "concluintes": 11,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Aparecida de Goiânia",
+    "slug": "APARECIDA_DE_GOIANIA",
+    "cod_ibge": "5201405",
+    "vagas_total": 113,
+    "matriculas": 19,
+    "ingressos": 13,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piracanjuba",
+    "slug": "PIRACANJUBA",
+    "cod_ibge": "5217104",
+    "vagas_total": 100,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiás",
+    "slug": "GOIAS",
+    "cod_ibge": "5208905",
+    "vagas_total": 68,
+    "matriculas": 91,
+    "ingressos": 36,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

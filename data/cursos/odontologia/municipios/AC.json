@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Rio Branco",
+    "slug": "RIO_BRANCO",
+    "cod_ibge": "1200401",
+    "vagas_total": 1142,
+    "matriculas": 289,
+    "ingressos": 74,
+    "concluintes": 74,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

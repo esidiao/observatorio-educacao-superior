@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Santos",
+    "slug": "SANTOS",
+    "cod_ibge": "3548500",
+    "vagas_total": 280,
+    "matriculas": 427,
+    "ingressos": 174,
+    "concluintes": 82,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "São Vicente",
+    "slug": "SAO_VICENTE",
+    "cod_ibge": "3551009",
+    "vagas_total": 100,
+    "matriculas": 6,
+    "ingressos": 1,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

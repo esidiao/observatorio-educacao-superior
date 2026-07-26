@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 464,
+    "matriculas": 205,
+    "ingressos": 66,
+    "concluintes": 25,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cajazeiras",
+    "slug": "CAJAZEIRAS",
+    "cod_ibge": "2503704",
+    "vagas_total": 72,
+    "matriculas": 24,
+    "ingressos": 6,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 35,
+    "matriculas": 112,
+    "ingressos": 27,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

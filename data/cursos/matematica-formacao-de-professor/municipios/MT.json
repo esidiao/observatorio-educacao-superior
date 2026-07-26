@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 131,
+    "matriculas": 150,
+    "ingressos": 75,
+    "concluintes": 20,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Pontal do Araguaia",
+    "slug": "PONTAL_DO_ARAGUAIA",
+    "cod_ibge": "5106653",
+    "vagas_total": 117,
+    "matriculas": 18,
+    "ingressos": 10,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra do Bugres",
+    "slug": "BARRA_DO_BUGRES",
+    "cod_ibge": "5101704",
+    "vagas_total": 100,
+    "matriculas": 125,
+    "ingressos": 22,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 100,
+    "matriculas": 119,
+    "ingressos": 51,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cáceres",
+    "slug": "CACERES",
+    "cod_ibge": "5102504",
+    "vagas_total": 95,
+    "matriculas": 224,
+    "ingressos": 83,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 70,
+    "matriculas": 97,
+    "ingressos": 43,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Confresa",
+    "slug": "CONFRESA",
+    "cod_ibge": "5103353",
+    "vagas_total": 40,
+    "matriculas": 30,
+    "ingressos": 13,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Novo do Parecis",
+    "slug": "CAMPO_NOVO_DO_PARECIS",
+    "cod_ibge": "5102637",
+    "vagas_total": 35,
+    "matriculas": 43,
+    "ingressos": 13,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juína",
+    "slug": "JUINA",
+    "cod_ibge": "5105150",
+    "vagas_total": 35,
+    "matriculas": 51,
+    "ingressos": 8,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Luciara",
+    "slug": "LUCIARA",
+    "cod_ibge": "5105309",
+    "vagas_total": 0,
+    "matriculas": 35,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Terra Nova do Norte",
+    "slug": "TERRA_NOVA_DO_NORTE",
+    "cod_ibge": "5108055",
+    "vagas_total": 0,
+    "matriculas": 15,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

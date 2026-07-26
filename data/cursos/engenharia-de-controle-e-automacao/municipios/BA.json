@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 2053,
+    "matriculas": 331,
+    "ingressos": 99,
+    "concluintes": 39,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "Teixeira de Freitas",
+    "slug": "TEIXEIRA_DE_FREITAS",
+    "cod_ibge": "2931350",
+    "vagas_total": 50,
+    "matriculas": 8,
+    "ingressos": 0,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Camaçari",
+    "slug": "CAMACARI",
+    "cod_ibge": "2905701",
+    "vagas_total": 30,
+    "matriculas": 8,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

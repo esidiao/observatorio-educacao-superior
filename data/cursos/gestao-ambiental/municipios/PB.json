@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Princesa Isabel",
+    "slug": "PRINCESA_ISABEL",
+    "cod_ibge": "2512309",
+    "vagas_total": 89,
+    "matriculas": 52,
+    "ingressos": 17,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Picuí",
+    "slug": "PICUI",
+    "cod_ibge": "2511400",
+    "vagas_total": 73,
+    "matriculas": 13,
+    "ingressos": 25,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 68,
+    "matriculas": 101,
+    "ingressos": 59,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

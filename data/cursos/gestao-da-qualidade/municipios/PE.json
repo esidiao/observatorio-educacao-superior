@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Jaboatão dos Guararapes",
+    "slug": "JABOATAO_DOS_GUARARAPES",
+    "cod_ibge": "2607901",
+    "vagas_total": 353,
+    "matriculas": 6,
+    "ingressos": 6,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Igarassu",
+    "slug": "IGARASSU",
+    "cod_ibge": "2606804",
+    "vagas_total": 72,
+    "matriculas": 132,
+    "ingressos": 60,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

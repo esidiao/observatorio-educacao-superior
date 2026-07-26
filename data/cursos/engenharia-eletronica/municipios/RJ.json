@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 164,
+    "matriculas": 753,
+    "ingressos": 152,
+    "concluintes": 66,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Volta Redonda",
+    "slug": "VOLTA_REDONDA",
+    "cod_ibge": "3306305",
+    "vagas_total": 160,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Resende",
+    "slug": "RESENDE",
+    "cod_ibge": "3304201",
+    "vagas_total": 130,
+    "matriculas": 68,
+    "ingressos": 11,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

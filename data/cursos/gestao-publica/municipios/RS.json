@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 77,
+    "matriculas": 81,
+    "ingressos": 60,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Vicente do Sul",
+    "slug": "SAO_VICENTE_DO_SUL",
+    "cod_ibge": "4319802",
+    "vagas_total": 62,
+    "matriculas": 79,
+    "ingressos": 34,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sant'Ana do Livramento",
+    "slug": "SANT_ANA_DO_LIVRAMENTO",
+    "cod_ibge": "4317103",
+    "vagas_total": 59,
+    "matriculas": 130,
+    "ingressos": 55,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

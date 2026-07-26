@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Beruri",
+    "slug": "BERURI",
+    "cod_ibge": "1300631",
+    "vagas_total": 56,
+    "matriculas": 55,
+    "ingressos": 55,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Novo Aripuanã",
+    "slug": "NOVO_ARIPUANA",
+    "cod_ibge": "1303304",
+    "vagas_total": 56,
+    "matriculas": 55,
+    "ingressos": 55,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Carauari",
+    "slug": "CARAUARI",
+    "cod_ibge": "1301001",
+    "vagas_total": 0,
+    "matriculas": 34,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

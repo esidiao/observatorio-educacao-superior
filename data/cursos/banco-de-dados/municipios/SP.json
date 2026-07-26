@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 980,
+    "matriculas": 295,
+    "ingressos": 167,
+    "concluintes": 61,
+    "n_cursos": 8,
+    "n_ies": 6
+  },
+  {
+    "nome": "São José dos Campos",
+    "slug": "SAO_JOSE_DOS_CAMPOS",
+    "cod_ibge": "3549904",
+    "vagas_total": 123,
+    "matriculas": 253,
+    "ingressos": 117,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bauru",
+    "slug": "BAURU",
+    "cod_ibge": "3506003",
+    "vagas_total": 90,
+    "matriculas": 235,
+    "ingressos": 79,
+    "concluintes": 45,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 60,
+    "matriculas": 2,
+    "ingressos": 3,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

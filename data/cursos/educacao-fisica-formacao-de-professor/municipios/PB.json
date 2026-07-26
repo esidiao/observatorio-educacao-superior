@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 118,
+    "matriculas": 340,
+    "ingressos": 99,
+    "concluintes": 51,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 79,
+    "matriculas": 237,
+    "ingressos": 66,
+    "concluintes": 24,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Sousa",
+    "slug": "SOUSA",
+    "cod_ibge": "2516201",
+    "vagas_total": 64,
+    "matriculas": 178,
+    "ingressos": 40,
+    "concluintes": 35,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Patos",
+    "slug": "PATOS",
+    "cod_ibge": "2510808",
+    "vagas_total": 61,
+    "matriculas": 15,
+    "ingressos": 0,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

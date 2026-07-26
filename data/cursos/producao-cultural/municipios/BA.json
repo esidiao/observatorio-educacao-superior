@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Itabuna",
+    "slug": "ITABUNA",
+    "cod_ibge": "2914802",
+    "vagas_total": 110,
+    "matriculas": 49,
+    "ingressos": 26,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Amaro",
+    "slug": "SANTO_AMARO",
+    "cod_ibge": "2928604",
+    "vagas_total": 57,
+    "matriculas": 24,
+    "ingressos": 5,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

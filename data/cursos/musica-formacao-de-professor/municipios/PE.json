@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 105,
+    "matriculas": 283,
+    "ingressos": 62,
+    "concluintes": 46,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 33,
+    "matriculas": 119,
+    "ingressos": 33,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Jardim",
+    "slug": "BELO_JARDIM",
+    "cod_ibge": "2601706",
+    "vagas_total": 30,
+    "matriculas": 67,
+    "ingressos": 8,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

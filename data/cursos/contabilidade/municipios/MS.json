@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 904,
+    "matriculas": 567,
+    "ingressos": 276,
+    "concluintes": 71,
+    "n_cursos": 7,
+    "n_ies": 7
+  },
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 150,
+    "matriculas": 288,
+    "ingressos": 87,
+    "concluintes": 42,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Três Lagoas",
+    "slug": "TRES_LAGOAS",
+    "cod_ibge": "5008305",
+    "vagas_total": 132,
+    "matriculas": 218,
+    "ingressos": 59,
+    "concluintes": 22,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Caarapó",
+    "slug": "CAARAPO",
+    "cod_ibge": "5002407",
+    "vagas_total": 95,
+    "matriculas": 18,
+    "ingressos": 6,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Porã",
+    "slug": "PONTA_PORA",
+    "cod_ibge": "5006606",
+    "vagas_total": 83,
+    "matriculas": 141,
+    "ingressos": 53,
+    "concluintes": 17,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Corumbá",
+    "slug": "CORUMBA",
+    "cod_ibge": "5003207",
+    "vagas_total": 68,
+    "matriculas": 158,
+    "ingressos": 60,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Andradina",
+    "slug": "NOVA_ANDRADINA",
+    "cod_ibge": "5006200",
+    "vagas_total": 58,
+    "matriculas": 139,
+    "ingressos": 55,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mundo Novo",
+    "slug": "MUNDO_NOVO",
+    "cod_ibge": "5005681",
+    "vagas_total": 50,
+    "matriculas": 21,
+    "ingressos": 1,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paranaíba",
+    "slug": "PARANAIBA",
+    "cod_ibge": "5006309",
+    "vagas_total": 50,
+    "matriculas": 49,
+    "ingressos": 19,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cassilândia",
+    "slug": "CASSILANDIA",
+    "cod_ibge": "5002902",
+    "vagas_total": 40,
+    "matriculas": 21,
+    "ingressos": 12,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Alegre",
+    "slug": "ALEGRE",
+    "cod_ibge": "3200201",
+    "vagas_total": 60,
+    "matriculas": 123,
+    "ingressos": 23,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

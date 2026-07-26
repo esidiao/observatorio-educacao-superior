@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Guarulhos",
+    "slug": "GUARULHOS",
+    "cod_ibge": "3518800",
+    "vagas_total": 265,
+    "matriculas": 1,
+    "ingressos": 2,
+    "concluintes": 1,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

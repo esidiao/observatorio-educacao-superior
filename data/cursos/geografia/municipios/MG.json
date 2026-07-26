@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Alfenas",
+    "slug": "ALFENAS",
+    "cod_ibge": "3101607",
+    "vagas_total": 159,
+    "matriculas": 104,
+    "ingressos": 19,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 110,
+    "matriculas": 183,
+    "ingressos": 23,
+    "concluintes": 49,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Montes Claros",
+    "slug": "MONTES_CLAROS",
+    "cod_ibge": "3143302",
+    "vagas_total": 50,
+    "matriculas": 68,
+    "ingressos": 20,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João del Rei",
+    "slug": "SAO_JOAO_DEL_REI",
+    "cod_ibge": "3162500",
+    "vagas_total": 49,
+    "matriculas": 82,
+    "ingressos": 12,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 11,
+    "matriculas": 87,
+    "ingressos": 11,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 11,
+    "matriculas": 97,
+    "ingressos": 11,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 1,
+    "matriculas": 16,
+    "ingressos": 1,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ituiutaba",
+    "slug": "ITUIUTABA",
+    "cod_ibge": "3134202",
+    "vagas_total": 0,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

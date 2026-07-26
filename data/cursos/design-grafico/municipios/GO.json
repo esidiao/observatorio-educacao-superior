@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 837,
+    "matriculas": 450,
+    "ingressos": 169,
+    "concluintes": 124,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 140,
+    "matriculas": 99,
+    "ingressos": 46,
+    "concluintes": 37,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Verde",
+    "slug": "RIO_VERDE",
+    "cod_ibge": "5218805",
+    "vagas_total": 80,
+    "matriculas": 107,
+    "ingressos": 67,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

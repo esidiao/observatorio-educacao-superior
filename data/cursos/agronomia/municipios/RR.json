@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Boa Vista",
+    "slug": "BOA_VISTA",
+    "cod_ibge": "1400100",
+    "vagas_total": 156,
+    "matriculas": 330,
+    "ingressos": 127,
+    "concluintes": 39,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Caracaraí",
+    "slug": "CARACARAI",
+    "cod_ibge": "1400209",
+    "vagas_total": 49,
+    "matriculas": 89,
+    "ingressos": 17,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rorainópolis",
+    "slug": "RORAINOPOLIS",
+    "cod_ibge": "1400472",
+    "vagas_total": 30,
+    "matriculas": 69,
+    "ingressos": 25,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

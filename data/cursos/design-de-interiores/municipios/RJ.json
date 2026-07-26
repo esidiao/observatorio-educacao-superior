@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 1222,
+    "matriculas": 457,
+    "ingressos": 193,
+    "concluintes": 115,
+    "n_cursos": 8,
+    "n_ies": 6
+  },
+  {
+    "nome": "Niterói",
+    "slug": "NITEROI",
+    "cod_ibge": "3303302",
+    "vagas_total": 800,
+    "matriculas": 32,
+    "ingressos": 2,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

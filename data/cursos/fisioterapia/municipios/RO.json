@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Porto Velho",
+    "slug": "PORTO_VELHO",
+    "cod_ibge": "1100205",
+    "vagas_total": 1125,
+    "matriculas": 546,
+    "ingressos": 246,
+    "concluintes": 37,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Ji-Paraná",
+    "slug": "JI_PARANA",
+    "cod_ibge": "1100122",
+    "vagas_total": 691,
+    "matriculas": 162,
+    "ingressos": 56,
+    "concluintes": 24,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Rolim de Moura",
+    "slug": "ROLIM_DE_MOURA",
+    "cod_ibge": "1100288",
+    "vagas_total": 540,
+    "matriculas": 96,
+    "ingressos": 25,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vilhena",
+    "slug": "VILHENA",
+    "cod_ibge": "1100304",
+    "vagas_total": 197,
+    "matriculas": 119,
+    "ingressos": 38,
+    "concluintes": 9,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cacoal",
+    "slug": "CACOAL",
+    "cod_ibge": "1100049",
+    "vagas_total": 183,
+    "matriculas": 186,
+    "ingressos": 47,
+    "concluintes": 50,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ariquemes",
+    "slug": "ARIQUEMES",
+    "cod_ibge": "1100023",
+    "vagas_total": 101,
+    "matriculas": 88,
+    "ingressos": 28,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

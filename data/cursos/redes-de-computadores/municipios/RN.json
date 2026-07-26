@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 138,
+    "matriculas": 261,
+    "ingressos": 83,
+    "concluintes": 15,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "São Gonçalo do Amarante",
+    "slug": "SAO_GONCALO_DO_AMARANTE",
+    "cod_ibge": "2412005",
+    "vagas_total": 70,
+    "matriculas": 85,
+    "ingressos": 33,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

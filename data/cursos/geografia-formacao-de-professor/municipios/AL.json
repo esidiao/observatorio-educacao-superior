@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Maceió",
+    "slug": "MACEIO",
+    "cod_ibge": "2704302",
+    "vagas_total": 173,
+    "matriculas": 331,
+    "ingressos": 91,
+    "concluintes": 48,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Delmiro Gouveia",
+    "slug": "DELMIRO_GOUVEIA",
+    "cod_ibge": "2702405",
+    "vagas_total": 131,
+    "matriculas": 209,
+    "ingressos": 51,
+    "concluintes": 38,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "União dos Palmares",
+    "slug": "UNIAO_DOS_PALMARES",
+    "cod_ibge": "2709301",
+    "vagas_total": 56,
+    "matriculas": 174,
+    "ingressos": 26,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arapiraca",
+    "slug": "ARAPIRACA",
+    "cod_ibge": "2700300",
+    "vagas_total": 40,
+    "matriculas": 156,
+    "ingressos": 40,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palmeira dos Índios",
+    "slug": "PALMEIRA_DOS_INDIOS",
+    "cod_ibge": "2706307",
+    "vagas_total": 40,
+    "matriculas": 191,
+    "ingressos": 40,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

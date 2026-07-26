@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Várzea Grande",
+    "slug": "VARZEA_GRANDE",
+    "cod_ibge": "5108402",
+    "vagas_total": 89,
+    "matriculas": 48,
+    "ingressos": 21,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Novo do Parecis",
+    "slug": "CAMPO_NOVO_DO_PARECIS",
+    "cod_ibge": "5102637",
+    "vagas_total": 35,
+    "matriculas": 96,
+    "ingressos": 22,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 20,
+    "matriculas": 11,
+    "ingressos": 0,
+    "concluintes": 7,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

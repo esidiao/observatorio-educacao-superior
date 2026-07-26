@@ -1,0 +1,211 @@
+[
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 332,
+    "matriculas": 55,
+    "ingressos": 9,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ouro Preto",
+    "slug": "OURO_PRETO",
+    "cod_ibge": "3146107",
+    "vagas_total": 280,
+    "matriculas": 68,
+    "ingressos": 32,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberaba",
+    "slug": "UBERABA",
+    "cod_ibge": "3170107",
+    "vagas_total": 270,
+    "matriculas": 126,
+    "ingressos": 46,
+    "concluintes": 16,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Alfenas",
+    "slug": "ALFENAS",
+    "cod_ibge": "3101607",
+    "vagas_total": 212,
+    "matriculas": 52,
+    "ingressos": 13,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ituiutaba",
+    "slug": "ITUIUTABA",
+    "cod_ibge": "3134202",
+    "vagas_total": 162,
+    "matriculas": 63,
+    "ingressos": 15,
+    "concluintes": 15,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Iturama",
+    "slug": "ITURAMA",
+    "cod_ibge": "3134400",
+    "vagas_total": 139,
+    "matriculas": 56,
+    "ingressos": 23,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 114,
+    "matriculas": 86,
+    "ingressos": 11,
+    "concluintes": 9,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itajubá",
+    "slug": "ITAJUBA",
+    "cod_ibge": "3132404",
+    "vagas_total": 95,
+    "matriculas": 79,
+    "ingressos": 26,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pouso Alegre",
+    "slug": "POUSO_ALEGRE",
+    "cod_ibge": "3152501",
+    "vagas_total": 95,
+    "matriculas": 54,
+    "ingressos": 20,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 91,
+    "matriculas": 106,
+    "ingressos": 24,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Diamantina",
+    "slug": "DIAMANTINA",
+    "cod_ibge": "3121605",
+    "vagas_total": 90,
+    "matriculas": 42,
+    "ingressos": 19,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 78,
+    "matriculas": 121,
+    "ingressos": 0,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Divinópolis",
+    "slug": "DIVINOPOLIS",
+    "cod_ibge": "3122306",
+    "vagas_total": 69,
+    "matriculas": 72,
+    "ingressos": 25,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barbacena",
+    "slug": "BARBACENA",
+    "cod_ibge": "3105608",
+    "vagas_total": 64,
+    "matriculas": 74,
+    "ingressos": 21,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João del Rei",
+    "slug": "SAO_JOAO_DEL_REI",
+    "cod_ibge": "3162500",
+    "vagas_total": 49,
+    "matriculas": 99,
+    "ingressos": 14,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salinas",
+    "slug": "SALINAS",
+    "cod_ibge": "3157005",
+    "vagas_total": 40,
+    "matriculas": 44,
+    "ingressos": 9,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florestal",
+    "slug": "FLORESTAL",
+    "cod_ibge": "3126000",
+    "vagas_total": 36,
+    "matriculas": 20,
+    "ingressos": 13,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ubá",
+    "slug": "UBA",
+    "cod_ibge": "3169901",
+    "vagas_total": 30,
+    "matriculas": 33,
+    "ingressos": 5,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 2,
+    "matriculas": 120,
+    "ingressos": 2,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 229,
+    "matriculas": 330,
+    "ingressos": 78,
+    "concluintes": 49,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Varginha",
+    "slug": "VARGINHA",
+    "cod_ibge": "3170701",
+    "vagas_total": 113,
+    "matriculas": 59,
+    "ingressos": 23,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ouro Preto",
+    "slug": "OURO_PRETO",
+    "cod_ibge": "3146107",
+    "vagas_total": 57,
+    "matriculas": 61,
+    "ingressos": 48,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 40,
+    "matriculas": 145,
+    "ingressos": 44,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

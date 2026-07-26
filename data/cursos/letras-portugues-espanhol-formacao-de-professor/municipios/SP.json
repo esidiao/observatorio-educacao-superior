@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 180,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Avaré",
+    "slug": "AVARE",
+    "cod_ibge": "3504503",
+    "vagas_total": 41,
+    "matriculas": 123,
+    "ingressos": 41,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Carlos",
+    "slug": "SAO_CARLOS",
+    "cod_ibge": "3548906",
+    "vagas_total": 26,
+    "matriculas": 107,
+    "ingressos": 20,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José do Rio Preto",
+    "slug": "SAO_JOSE_DO_RIO_PRETO",
+    "cod_ibge": "3549805",
+    "vagas_total": 6,
+    "matriculas": 65,
+    "ingressos": 0,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarulhos",
+    "slug": "GUARULHOS",
+    "cod_ibge": "3518800",
+    "vagas_total": 2,
+    "matriculas": 97,
+    "ingressos": 1,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Assis",
+    "slug": "ASSIS",
+    "cod_ibge": "3504008",
+    "vagas_total": 0,
+    "matriculas": 64,
+    "ingressos": 0,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

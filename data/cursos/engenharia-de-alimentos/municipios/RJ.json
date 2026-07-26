@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Seropédica",
+    "slug": "SEROPEDICA",
+    "cod_ibge": "3305554",
+    "vagas_total": 96,
+    "matriculas": 211,
+    "ingressos": 53,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 71,
+    "matriculas": 156,
+    "ingressos": 46,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Valença",
+    "slug": "VALENCA",
+    "cod_ibge": "3306107",
+    "vagas_total": 51,
+    "matriculas": 107,
+    "ingressos": 18,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Tianguá",
+    "slug": "TIANGUA",
+    "cod_ibge": "2313401",
+    "vagas_total": 263,
+    "matriculas": 76,
+    "ingressos": 24,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Iguatu",
+    "slug": "IGUATU",
+    "cod_ibge": "2305506",
+    "vagas_total": 73,
+    "matriculas": 127,
+    "ingressos": 59,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

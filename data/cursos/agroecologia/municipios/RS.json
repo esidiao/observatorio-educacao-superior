@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "São Lourenço do Sul",
+    "slug": "SAO_LOURENCO_DO_SUL",
+    "cod_ibge": "4318804",
+    "vagas_total": 263,
+    "matriculas": 36,
+    "ingressos": 12,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 25,
+    "matriculas": 24,
+    "ingressos": 1,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

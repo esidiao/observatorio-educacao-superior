@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Coari",
+    "slug": "COARI",
+    "cod_ibge": "1301209",
+    "vagas_total": 100,
+    "matriculas": 271,
+    "ingressos": 27,
+    "concluintes": 44,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Humaitá",
+    "slug": "HUMAITA",
+    "cod_ibge": "1301704",
+    "vagas_total": 100,
+    "matriculas": 135,
+    "ingressos": 9,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itacoatiara",
+    "slug": "ITACOATIARA",
+    "cod_ibge": "1301902",
+    "vagas_total": 100,
+    "matriculas": 247,
+    "ingressos": 29,
+    "concluintes": 31,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Manaus",
+    "slug": "MANAUS",
+    "cod_ibge": "1302603",
+    "vagas_total": 84,
+    "matriculas": 175,
+    "ingressos": 16,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Benjamin Constant",
+    "slug": "BENJAMIN_CONSTANT",
+    "cod_ibge": "1300607",
+    "vagas_total": 50,
+    "matriculas": 193,
+    "ingressos": 20,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

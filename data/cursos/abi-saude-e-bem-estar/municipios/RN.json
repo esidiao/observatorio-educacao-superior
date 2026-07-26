@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 86,
+    "matriculas": 151,
+    "ingressos": 79,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pau dos Ferros",
+    "slug": "PAU_DOS_FERROS",
+    "cod_ibge": "2409407",
+    "vagas_total": 41,
+    "matriculas": 71,
+    "ingressos": 39,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  }
+]

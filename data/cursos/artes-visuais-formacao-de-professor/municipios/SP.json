@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 849,
+    "matriculas": 674,
+    "ingressos": 244,
+    "concluintes": 98,
+    "n_cursos": 8,
+    "n_ies": 8
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 141,
+    "matriculas": 41,
+    "ingressos": 8,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Presidente Prudente",
+    "slug": "PRESIDENTE_PRUDENTE",
+    "cod_ibge": "3541406",
+    "vagas_total": 120,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 82,
+    "matriculas": 210,
+    "ingressos": 54,
+    "concluintes": 26,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Limeira",
+    "slug": "LIMEIRA",
+    "cod_ibge": "3526902",
+    "vagas_total": 80,
+    "matriculas": 53,
+    "ingressos": 18,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pindamonhangaba",
+    "slug": "PINDAMONHANGABA",
+    "cod_ibge": "3538006",
+    "vagas_total": 80,
+    "matriculas": 57,
+    "ingressos": 29,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ourinhos",
+    "slug": "OURINHOS",
+    "cod_ibge": "3534708",
+    "vagas_total": 75,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piraju",
+    "slug": "PIRAJU",
+    "cod_ibge": "3538808",
+    "vagas_total": 68,
+    "matriculas": 12,
+    "ingressos": 12,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Atibaia",
+    "slug": "ATIBAIA",
+    "cod_ibge": "3504107",
+    "vagas_total": 50,
+    "matriculas": 49,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José dos Campos",
+    "slug": "SAO_JOSE_DOS_CAMPOS",
+    "cod_ibge": "3549904",
+    "vagas_total": 34,
+    "matriculas": 49,
+    "ingressos": 22,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bauru",
+    "slug": "BAURU",
+    "cod_ibge": "3506003",
+    "vagas_total": 4,
+    "matriculas": 64,
+    "ingressos": 0,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

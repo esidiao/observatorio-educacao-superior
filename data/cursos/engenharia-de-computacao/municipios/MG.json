@@ -1,0 +1,233 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 733,
+    "matriculas": 1327,
+    "ingressos": 320,
+    "concluintes": 121,
+    "n_cursos": 9,
+    "n_ies": 7
+  },
+  {
+    "nome": "Montes Claros",
+    "slug": "MONTES_CLAROS",
+    "cod_ibge": "3143302",
+    "vagas_total": 280,
+    "matriculas": 378,
+    "ingressos": 118,
+    "concluintes": 9,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Uberaba",
+    "slug": "UBERABA",
+    "cod_ibge": "3170107",
+    "vagas_total": 247,
+    "matriculas": 314,
+    "ingressos": 100,
+    "concluintes": 37,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 244,
+    "matriculas": 379,
+    "ingressos": 108,
+    "concluintes": 28,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "João Monlevade",
+    "slug": "JOAO_MONLEVADE",
+    "cod_ibge": "3136207",
+    "vagas_total": 227,
+    "matriculas": 318,
+    "ingressos": 89,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Rita do Sapucaí",
+    "slug": "SANTA_RITA_DO_SAPUCAI",
+    "cod_ibge": "3159605",
+    "vagas_total": 180,
+    "matriculas": 300,
+    "ingressos": 103,
+    "concluintes": 44,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Divinópolis",
+    "slug": "DIVINOPOLIS",
+    "cod_ibge": "3122306",
+    "vagas_total": 179,
+    "matriculas": 510,
+    "ingressos": 127,
+    "concluintes": 35,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Leopoldina",
+    "slug": "LEOPOLDINA",
+    "cod_ibge": "3138401",
+    "vagas_total": 140,
+    "matriculas": 221,
+    "ingressos": 57,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Conselheiro Lafaiete",
+    "slug": "CONSELHEIRO_LAFAIETE",
+    "cod_ibge": "3118304",
+    "vagas_total": 125,
+    "matriculas": 58,
+    "ingressos": 15,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itabira",
+    "slug": "ITABIRA",
+    "cod_ibge": "3131703",
+    "vagas_total": 105,
+    "matriculas": 252,
+    "ingressos": 51,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itajubá",
+    "slug": "ITAJUBA",
+    "cod_ibge": "3132404",
+    "vagas_total": 82,
+    "matriculas": 367,
+    "ingressos": 80,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Poços de Caldas",
+    "slug": "POCOS_DE_CALDAS",
+    "cod_ibge": "3151800",
+    "vagas_total": 71,
+    "matriculas": 155,
+    "ingressos": 37,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Timóteo",
+    "slug": "TIMOTEO",
+    "cod_ibge": "3168705",
+    "vagas_total": 63,
+    "matriculas": 237,
+    "ingressos": 42,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bambuí",
+    "slug": "BAMBUI",
+    "cod_ibge": "3105103",
+    "vagas_total": 50,
+    "matriculas": 123,
+    "ingressos": 26,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 50,
+    "matriculas": 43,
+    "ingressos": 31,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ituiutaba",
+    "slug": "ITUIUTABA",
+    "cod_ibge": "3134202",
+    "vagas_total": 49,
+    "matriculas": 124,
+    "ingressos": 35,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipatinga",
+    "slug": "IPATINGA",
+    "cod_ibge": "3131307",
+    "vagas_total": 33,
+    "matriculas": 58,
+    "ingressos": 21,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 31,
+    "matriculas": 117,
+    "ingressos": 26,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Betim",
+    "slug": "BETIM",
+    "cod_ibge": "3106705",
+    "vagas_total": 10,
+    "matriculas": 24,
+    "ingressos": 10,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Contagem",
+    "slug": "CONTAGEM",
+    "cod_ibge": "3118601",
+    "vagas_total": 7,
+    "matriculas": 31,
+    "ingressos": 7,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pouso Alegre",
+    "slug": "POUSO_ALEGRE",
+    "cod_ibge": "3152501",
+    "vagas_total": 6,
+    "matriculas": 9,
+    "ingressos": 6,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

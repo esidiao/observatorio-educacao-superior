@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 2299,
+    "matriculas": 2809,
+    "ingressos": 813,
+    "concluintes": 461,
+    "n_cursos": 10,
+    "n_ies": 10
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 593,
+    "matriculas": 692,
+    "ingressos": 207,
+    "concluintes": 111,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ananindeua",
+    "slug": "ANANINDEUA",
+    "cod_ibge": "1500800",
+    "vagas_total": 297,
+    "matriculas": 345,
+    "ingressos": 91,
+    "concluintes": 60,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Altamira",
+    "slug": "ALTAMIRA",
+    "cod_ibge": "1500602",
+    "vagas_total": 159,
+    "matriculas": 233,
+    "ingressos": 82,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Redenção",
+    "slug": "REDENCAO",
+    "cod_ibge": "1506138",
+    "vagas_total": 150,
+    "matriculas": 234,
+    "ingressos": 33,
+    "concluintes": 53,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tucuruí",
+    "slug": "TUCURUI",
+    "cod_ibge": "1508100",
+    "vagas_total": 150,
+    "matriculas": 367,
+    "ingressos": 45,
+    "concluintes": 142,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Parauapebas",
+    "slug": "PARAUAPEBAS",
+    "cod_ibge": "1505536",
+    "vagas_total": 114,
+    "matriculas": 151,
+    "ingressos": 33,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Paragominas",
+    "slug": "PARAGOMINAS",
+    "cod_ibge": "1505502",
+    "vagas_total": 102,
+    "matriculas": 29,
+    "ingressos": 29,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Abaetetuba",
+    "slug": "ABAETETUBA",
+    "cod_ibge": "1500107",
+    "vagas_total": 100,
+    "matriculas": 95,
+    "ingressos": 42,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 40,
+    "matriculas": 113,
+    "ingressos": 33,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

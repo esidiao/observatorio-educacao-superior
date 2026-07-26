@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Aracaju",
+    "slug": "ARACAJU",
+    "cod_ibge": "2800308",
+    "vagas_total": 3132,
+    "matriculas": 3178,
+    "ingressos": 819,
+    "concluintes": 420,
+    "n_cursos": 9,
+    "n_ies": 9
+  },
+  {
+    "nome": "Lagarto",
+    "slug": "LAGARTO",
+    "cod_ibge": "2803500",
+    "vagas_total": 263,
+    "matriculas": 304,
+    "ingressos": 83,
+    "concluintes": 73,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Canindé de São Francisco",
+    "slug": "CANINDE_DE_SAO_FRANCISCO",
+    "cod_ibge": "2801207",
+    "vagas_total": 160,
+    "matriculas": 150,
+    "ingressos": 18,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Estância",
+    "slug": "ESTANCIA",
+    "cod_ibge": "2802106",
+    "vagas_total": 14,
+    "matriculas": 114,
+    "ingressos": 14,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itabaiana",
+    "slug": "ITABAIANA",
+    "cod_ibge": "2802908",
+    "vagas_total": 3,
+    "matriculas": 35,
+    "ingressos": 3,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

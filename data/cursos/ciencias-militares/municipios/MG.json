@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Três Corações",
+    "slug": "TRES_CORACOES",
+    "cod_ibge": "3169307",
+    "vagas_total": 519,
+    "matriculas": 1024,
+    "ingressos": 516,
+    "concluintes": 505,
+    "n_cursos": 5,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 180,
+    "matriculas": 204,
+    "ingressos": 205,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

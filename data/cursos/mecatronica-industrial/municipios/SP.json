@@ -1,0 +1,167 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 1497,
+    "matriculas": 125,
+    "ingressos": 62,
+    "concluintes": 49,
+    "n_cursos": 5,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santo André",
+    "slug": "SANTO_ANDRE",
+    "cod_ibge": "3547809",
+    "vagas_total": 137,
+    "matriculas": 170,
+    "ingressos": 120,
+    "concluintes": 36,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Amparo",
+    "slug": "AMPARO",
+    "cod_ibge": "3501905",
+    "vagas_total": 100,
+    "matriculas": 29,
+    "ingressos": 12,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Garça",
+    "slug": "GARCA",
+    "cod_ibge": "3516705",
+    "vagas_total": 83,
+    "matriculas": 135,
+    "ingressos": 75,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itu",
+    "slug": "ITU",
+    "cod_ibge": "3523909",
+    "vagas_total": 80,
+    "matriculas": 90,
+    "ingressos": 62,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mogi Mirim",
+    "slug": "MOGI_MIRIM",
+    "cod_ibge": "3530805",
+    "vagas_total": 80,
+    "matriculas": 71,
+    "ingressos": 37,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sertãozinho",
+    "slug": "SERTAOZINHO",
+    "cod_ibge": "3551702",
+    "vagas_total": 80,
+    "matriculas": 59,
+    "ingressos": 35,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José dos Campos",
+    "slug": "SAO_JOSE_DOS_CAMPOS",
+    "cod_ibge": "3549904",
+    "vagas_total": 70,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Caetano do Sul",
+    "slug": "SAO_CAETANO_DO_SUL",
+    "cod_ibge": "3548807",
+    "vagas_total": 60,
+    "matriculas": 157,
+    "ingressos": 60,
+    "concluintes": 54,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Taubaté",
+    "slug": "TAUBATE",
+    "cod_ibge": "3554102",
+    "vagas_total": 50,
+    "matriculas": 84,
+    "ingressos": 44,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 46,
+    "matriculas": 108,
+    "ingressos": 43,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Birigui",
+    "slug": "BIRIGUI",
+    "cod_ibge": "3506508",
+    "vagas_total": 41,
+    "matriculas": 67,
+    "ingressos": 40,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 40,
+    "matriculas": 75,
+    "ingressos": 36,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Carlos",
+    "slug": "SAO_CARLOS",
+    "cod_ibge": "3548906",
+    "vagas_total": 40,
+    "matriculas": 108,
+    "ingressos": 38,
+    "concluintes": 53,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarulhos",
+    "slug": "GUARULHOS",
+    "cod_ibge": "3518800",
+    "vagas_total": 38,
+    "matriculas": 54,
+    "ingressos": 15,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

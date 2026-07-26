@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Nova Venécia",
+    "slug": "NOVA_VENECIA",
+    "cod_ibge": "3203908",
+    "vagas_total": 90,
+    "matriculas": 48,
+    "ingressos": 11,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alegre",
+    "slug": "ALEGRE",
+    "cod_ibge": "3200201",
+    "vagas_total": 56,
+    "matriculas": 163,
+    "ingressos": 19,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

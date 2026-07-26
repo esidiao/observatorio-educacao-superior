@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Cruz das Almas",
+    "slug": "CRUZ_DAS_ALMAS",
+    "cod_ibge": "2909802",
+    "vagas_total": 74,
+    "matriculas": 61,
+    "ingressos": 7,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Xique-Xique",
+    "slug": "XIQUE_XIQUE",
+    "cod_ibge": "2933604",
+    "vagas_total": 41,
+    "matriculas": 51,
+    "ingressos": 1,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paulo Afonso",
+    "slug": "PAULO_AFONSO",
+    "cod_ibge": "2924009",
+    "vagas_total": 30,
+    "matriculas": 74,
+    "ingressos": 7,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

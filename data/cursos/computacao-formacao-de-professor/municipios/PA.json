@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Capitão Poço",
+    "slug": "CAPITAO_POCO",
+    "cod_ibge": "1502301",
+    "vagas_total": 84,
+    "matriculas": 77,
+    "ingressos": 26,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 63,
+    "matriculas": 224,
+    "ingressos": 60,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Castanhal",
+    "slug": "CASTANHAL",
+    "cod_ibge": "1502400",
+    "vagas_total": 60,
+    "matriculas": 94,
+    "ingressos": 31,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 40,
+    "matriculas": 148,
+    "ingressos": 40,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 0,
+    "matriculas": 38,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

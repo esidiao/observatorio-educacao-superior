@@ -1,0 +1,43 @@
+{
+  "ano_censo": "2024",
+  "ufs": {
+    "CE": {
+      "vagas_total": 0,
+      "vagas_presencial": 0,
+      "vagas_ead": 0,
+      "vagas_capital": 0,
+      "pct_ead": null,
+      "n_cursos_presencial": 3,
+      "n_cursos_ead": 0,
+      "n_ies": 0,
+      "municipios_oferta": 3,
+      "ead_polos_municipios": 0,
+      "ead_polos_registros": 0,
+      "mun_ead_only": 0,
+      "ingressos": 0,
+      "matriculas": 59,
+      "matriculas_ead": 0,
+      "concluintes": 16,
+      "taxa_conclusao": 27.1,
+      "pct_mulheres": null,
+      "pct_ppi": null,
+      "pct_financiamento": null,
+      "pct_noturno": null,
+      "pct_rede_publica": null,
+      "HHI": null,
+      "CR2": null,
+      "CR10": null,
+      "municipios_total": 184,
+      "municipios_deserto": 181,
+      "populacao": 9233656,
+      "regiao": "Nordeste",
+      "capital": "Fortaleza",
+      "vagas_por_100k": 0.0
+    }
+  },
+  "vagas_por_curso": {
+    "80377": 0,
+    "90971": 0,
+    "90987": 0
+  }
+}

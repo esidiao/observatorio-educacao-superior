@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 210,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Luís Eduardo Magalhães",
+    "slug": "LUIS_EDUARDO_MAGALHAES",
+    "cod_ibge": "2919553",
+    "vagas_total": 117,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ilhéus",
+    "slug": "ILHEUS",
+    "cod_ibge": "2913606",
+    "vagas_total": 72,
+    "matriculas": 97,
+    "ingressos": 45,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória da Conquista",
+    "slug": "VITORIA_DA_CONQUISTA",
+    "cod_ibge": "2933307",
+    "vagas_total": 54,
+    "matriculas": 116,
+    "ingressos": 32,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paripiranga",
+    "slug": "PARIPIRANGA",
+    "cod_ibge": "2923803",
+    "vagas_total": 1,
+    "matriculas": 1,
+    "ingressos": 1,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

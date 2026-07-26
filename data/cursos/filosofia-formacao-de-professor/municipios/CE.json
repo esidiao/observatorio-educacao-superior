@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 223,
+    "matriculas": 604,
+    "ingressos": 171,
+    "concluintes": 43,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 55,
+    "matriculas": 90,
+    "ingressos": 23,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 42,
+    "matriculas": 155,
+    "ingressos": 34,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

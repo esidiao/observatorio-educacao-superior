@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Aracaju",
+    "slug": "ARACAJU",
+    "cod_ibge": "2800308",
+    "vagas_total": 226,
+    "matriculas": 40,
+    "ingressos": 33,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Propriá",
+    "slug": "PROPRIA",
+    "cod_ibge": "2805703",
+    "vagas_total": 55,
+    "matriculas": 61,
+    "ingressos": 31,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

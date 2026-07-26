@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 2520,
+    "matriculas": 4433,
+    "ingressos": 1426,
+    "concluintes": 498,
+    "n_cursos": 9,
+    "n_ies": 9
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 1340,
+    "matriculas": 1561,
+    "ingressos": 523,
+    "concluintes": 251,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Balsas",
+    "slug": "BALSAS",
+    "cod_ibge": "2101400",
+    "vagas_total": 470,
+    "matriculas": 147,
+    "ingressos": 45,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 245,
+    "matriculas": 315,
+    "ingressos": 83,
+    "concluintes": 69,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bacabal",
+    "slug": "BACABAL",
+    "cod_ibge": "2101202",
+    "vagas_total": 192,
+    "matriculas": 411,
+    "ingressos": 192,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Inês",
+    "slug": "SANTA_INES",
+    "cod_ibge": "2109908",
+    "vagas_total": 125,
+    "matriculas": 230,
+    "ingressos": 81,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pinheiro",
+    "slug": "PINHEIRO",
+    "cod_ibge": "2108603",
+    "vagas_total": 108,
+    "matriculas": 97,
+    "ingressos": 108,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra do Corda",
+    "slug": "BARRA_DO_CORDA",
+    "cod_ibge": "2101608",
+    "vagas_total": 105,
+    "matriculas": 76,
+    "ingressos": 36,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Açailândia",
+    "slug": "ACAILANDIA",
+    "cod_ibge": "2100055",
+    "vagas_total": 104,
+    "matriculas": 139,
+    "ingressos": 36,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pedreiras",
+    "slug": "PEDREIRAS",
+    "cod_ibge": "2108207",
+    "vagas_total": 100,
+    "matriculas": 217,
+    "ingressos": 54,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

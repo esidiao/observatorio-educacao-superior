@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Limeira",
+    "slug": "LIMEIRA",
+    "cod_ibge": "3526902",
+    "vagas_total": 31,
+    "matriculas": 158,
+    "ingressos": 31,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

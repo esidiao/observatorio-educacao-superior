@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Patos",
+    "slug": "PATOS",
+    "cod_ibge": "2510808",
+    "vagas_total": 109,
+    "matriculas": 9,
+    "ingressos": 9,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

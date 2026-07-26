@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 165,
+    "matriculas": 312,
+    "ingressos": 101,
+    "concluintes": 54,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 59,
+    "matriculas": 52,
+    "ingressos": 11,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 28,
+    "matriculas": 90,
+    "ingressos": 20,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 20,
+    "matriculas": 54,
+    "ingressos": 20,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

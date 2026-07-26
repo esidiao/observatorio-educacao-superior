@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 300,
+    "matriculas": 157,
+    "ingressos": 95,
+    "concluintes": 55,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 60,
+    "matriculas": 53,
+    "ingressos": 40,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sertão",
+    "slug": "SERTAO",
+    "cod_ibge": "4320503",
+    "vagas_total": 47,
+    "matriculas": 45,
+    "ingressos": 23,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Farroupilha",
+    "slug": "FARROUPILHA",
+    "cod_ibge": "4307906",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

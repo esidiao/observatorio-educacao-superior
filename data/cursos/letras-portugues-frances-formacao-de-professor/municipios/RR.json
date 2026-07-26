@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Boa Vista",
+    "slug": "BOA_VISTA",
+    "cod_ibge": "1400100",
+    "vagas_total": 30,
+    "matriculas": 16,
+    "ingressos": 7,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Olinda",
+    "slug": "OLINDA",
+    "cod_ibge": "2609600",
+    "vagas_total": 110,
+    "matriculas": 48,
+    "ingressos": 12,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 50,
+    "matriculas": 243,
+    "ingressos": 48,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

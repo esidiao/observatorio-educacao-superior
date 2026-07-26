@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 112,
+    "matriculas": 148,
+    "ingressos": 76,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Apucarana",
+    "slug": "APUCARANA",
+    "cod_ibge": "4101408",
+    "vagas_total": 71,
+    "matriculas": 56,
+    "ingressos": 39,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 64,
+    "matriculas": 130,
+    "ingressos": 31,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 64,
+    "matriculas": 100,
+    "ingressos": 43,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 50,
+    "matriculas": 98,
+    "ingressos": 28,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 50,
+    "matriculas": 128,
+    "ingressos": 24,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

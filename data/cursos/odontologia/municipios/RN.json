@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 937,
+    "matriculas": 1942,
+    "ingressos": 448,
+    "concluintes": 265,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 478,
+    "matriculas": 1032,
+    "ingressos": 235,
+    "concluintes": 114,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Caicó",
+    "slug": "CAICO",
+    "cod_ibge": "2402006",
+    "vagas_total": 20,
+    "matriculas": 114,
+    "ingressos": 18,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

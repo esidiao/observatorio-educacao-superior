@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 126,
+    "matriculas": 86,
+    "ingressos": 27,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Mariana",
+    "slug": "MARIANA",
+    "cod_ibge": "3140001",
+    "vagas_total": 46,
+    "matriculas": 66,
+    "ingressos": 25,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 30,
+    "matriculas": 53,
+    "ingressos": 30,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 28,
+    "matriculas": 85,
+    "ingressos": 28,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João del Rei",
+    "slug": "SAO_JOAO_DEL_REI",
+    "cod_ibge": "3162500",
+    "vagas_total": 15,
+    "matriculas": 41,
+    "ingressos": 10,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 2,
+    "matriculas": 8,
+    "ingressos": 2,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ituiutaba",
+    "slug": "ITUIUTABA",
+    "cod_ibge": "3134202",
+    "vagas_total": 0,
+    "matriculas": 11,
+    "ingressos": 0,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

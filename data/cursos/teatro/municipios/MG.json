@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "São João del Rei",
+    "slug": "SAO_JOAO_DEL_REI",
+    "cod_ibge": "3162500",
+    "vagas_total": 37,
+    "matriculas": 123,
+    "ingressos": 27,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 25,
+    "matriculas": 102,
+    "ingressos": 5,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 14,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

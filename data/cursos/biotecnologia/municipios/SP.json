@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 76,
+    "matriculas": 247,
+    "ingressos": 60,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Carlos",
+    "slug": "SAO_CARLOS",
+    "cod_ibge": "3548906",
+    "vagas_total": 48,
+    "matriculas": 200,
+    "ingressos": 43,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araras",
+    "slug": "ARARAS",
+    "cod_ibge": "3503307",
+    "vagas_total": 36,
+    "matriculas": 136,
+    "ingressos": 30,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo André",
+    "slug": "SANTO_ANDRE",
+    "cod_ibge": "3547809",
+    "vagas_total": 33,
+    "matriculas": 62,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José dos Campos",
+    "slug": "SAO_JOSE_DOS_CAMPOS",
+    "cod_ibge": "3549904",
+    "vagas_total": 0,
+    "matriculas": 22,
+    "ingressos": 0,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

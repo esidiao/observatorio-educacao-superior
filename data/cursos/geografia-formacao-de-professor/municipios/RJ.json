@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 374,
+    "matriculas": 943,
+    "ingressos": 210,
+    "concluintes": 82,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "São Gonçalo",
+    "slug": "SAO_GONCALO",
+    "cod_ibge": "3304904",
+    "vagas_total": 328,
+    "matriculas": 350,
+    "ingressos": 59,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campos dos Goytacazes",
+    "slug": "CAMPOS_DOS_GOYTACAZES",
+    "cod_ibge": "3301009",
+    "vagas_total": 273,
+    "matriculas": 450,
+    "ingressos": 108,
+    "concluintes": 68,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Angra dos Reis",
+    "slug": "ANGRA_DOS_REIS",
+    "cod_ibge": "3300100",
+    "vagas_total": 160,
+    "matriculas": 126,
+    "ingressos": 40,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Duque de Caxias",
+    "slug": "DUQUE_DE_CAXIAS",
+    "cod_ibge": "3301702",
+    "vagas_total": 150,
+    "matriculas": 282,
+    "ingressos": 55,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Niterói",
+    "slug": "NITEROI",
+    "cod_ibge": "3303302",
+    "vagas_total": 82,
+    "matriculas": 227,
+    "ingressos": 73,
+    "concluintes": 50,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cabo Frio",
+    "slug": "CABO_FRIO",
+    "cod_ibge": "3300704",
+    "vagas_total": 70,
+    "matriculas": 32,
+    "ingressos": 36,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Iguaçu",
+    "slug": "NOVA_IGUACU",
+    "cod_ibge": "3303500",
+    "vagas_total": 57,
+    "matriculas": 213,
+    "ingressos": 48,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Seropédica",
+    "slug": "SEROPEDICA",
+    "cod_ibge": "3305554",
+    "vagas_total": 12,
+    "matriculas": 127,
+    "ingressos": 6,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

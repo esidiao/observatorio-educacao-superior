@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 50,
+    "matriculas": 39,
+    "ingressos": 1,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

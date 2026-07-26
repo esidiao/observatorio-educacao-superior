@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Patos de Minas",
+    "slug": "PATOS_DE_MINAS",
+    "cod_ibge": "3148004",
+    "vagas_total": 167,
+    "matriculas": 104,
+    "ingressos": 29,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João del Rei",
+    "slug": "SAO_JOAO_DEL_REI",
+    "cod_ibge": "3162500",
+    "vagas_total": 80,
+    "matriculas": 189,
+    "ingressos": 41,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alfenas",
+    "slug": "ALFENAS",
+    "cod_ibge": "3101607",
+    "vagas_total": 78,
+    "matriculas": 160,
+    "ingressos": 40,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 67,
+    "matriculas": 220,
+    "ingressos": 51,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

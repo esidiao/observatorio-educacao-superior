@@ -1,0 +1,189 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 385,
+    "matriculas": 1421,
+    "ingressos": 292,
+    "concluintes": 134,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Cametá",
+    "slug": "CAMETA",
+    "cod_ibge": "1502103",
+    "vagas_total": 100,
+    "matriculas": 348,
+    "ingressos": 87,
+    "concluintes": 67,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bragança",
+    "slug": "BRAGANCA",
+    "cod_ibge": "1501709",
+    "vagas_total": 95,
+    "matriculas": 211,
+    "ingressos": 60,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 94,
+    "matriculas": 208,
+    "ingressos": 71,
+    "concluintes": 22,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Altamira",
+    "slug": "ALTAMIRA",
+    "cod_ibge": "1500602",
+    "vagas_total": 87,
+    "matriculas": 141,
+    "ingressos": 40,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tomé-Açu",
+    "slug": "TOME_ACU",
+    "cod_ibge": "1508001",
+    "vagas_total": 67,
+    "matriculas": 267,
+    "ingressos": 47,
+    "concluintes": 37,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Félix do Xingu",
+    "slug": "SAO_FELIX_DO_XINGU",
+    "cod_ibge": "1507300",
+    "vagas_total": 64,
+    "matriculas": 72,
+    "ingressos": 22,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Castanhal",
+    "slug": "CASTANHAL",
+    "cod_ibge": "1502400",
+    "vagas_total": 51,
+    "matriculas": 204,
+    "ingressos": 41,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Abaetetuba",
+    "slug": "ABAETETUBA",
+    "cod_ibge": "1500107",
+    "vagas_total": 45,
+    "matriculas": 280,
+    "ingressos": 8,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Breves",
+    "slug": "BREVES",
+    "cod_ibge": "1501808",
+    "vagas_total": 45,
+    "matriculas": 146,
+    "ingressos": 34,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ananindeua",
+    "slug": "ANANINDEUA",
+    "cod_ibge": "1500800",
+    "vagas_total": 44,
+    "matriculas": 32,
+    "ingressos": 32,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Moju",
+    "slug": "MOJU",
+    "cod_ibge": "1504703",
+    "vagas_total": 40,
+    "matriculas": 117,
+    "ingressos": 37,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vigia",
+    "slug": "VIGIA",
+    "cod_ibge": "1508209",
+    "vagas_total": 40,
+    "matriculas": 97,
+    "ingressos": 40,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Conceição do Araguaia",
+    "slug": "CONCEICAO_DO_ARAGUAIA",
+    "cod_ibge": "1502707",
+    "vagas_total": 20,
+    "matriculas": 15,
+    "ingressos": 1,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Miguel do Guamá",
+    "slug": "SAO_MIGUEL_DO_GUAMA",
+    "cod_ibge": "1507607",
+    "vagas_total": 20,
+    "matriculas": 100,
+    "ingressos": 1,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Soure",
+    "slug": "SOURE",
+    "cod_ibge": "1507904",
+    "vagas_total": 0,
+    "matriculas": 70,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

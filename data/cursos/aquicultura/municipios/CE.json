@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Aracati",
+    "slug": "ARACATI",
+    "cod_ibge": "2301109",
+    "vagas_total": 40,
+    "matriculas": 68,
+    "ingressos": 12,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Morada Nova",
+    "slug": "MORADA_NOVA",
+    "cod_ibge": "2308708",
+    "vagas_total": 35,
+    "matriculas": 61,
+    "ingressos": 17,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

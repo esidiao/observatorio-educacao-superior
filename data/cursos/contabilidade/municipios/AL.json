@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Maceió",
+    "slug": "MACEIO",
+    "cod_ibge": "2704302",
+    "vagas_total": 1731,
+    "matriculas": 1487,
+    "ingressos": 444,
+    "concluintes": 154,
+    "n_cursos": 9,
+    "n_ies": 9
+  },
+  {
+    "nome": "Santana do Ipanema",
+    "slug": "SANTANA_DO_IPANEMA",
+    "cod_ibge": "2708006",
+    "vagas_total": 61,
+    "matriculas": 251,
+    "ingressos": 58,
+    "concluintes": 50,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arapiraca",
+    "slug": "ARAPIRACA",
+    "cod_ibge": "2700300",
+    "vagas_total": 40,
+    "matriculas": 199,
+    "ingressos": 40,
+    "concluintes": 31,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Miguel dos Campos",
+    "slug": "SAO_MIGUEL_DOS_CAMPOS",
+    "cod_ibge": "2708600",
+    "vagas_total": 40,
+    "matriculas": 179,
+    "ingressos": 40,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

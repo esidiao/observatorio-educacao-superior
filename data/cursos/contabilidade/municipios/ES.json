@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Vila Velha",
+    "slug": "VILA_VELHA",
+    "cod_ibge": "3205200",
+    "vagas_total": 862,
+    "matriculas": 217,
+    "ingressos": 104,
+    "concluintes": 40,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Vitória",
+    "slug": "VITORIA",
+    "cod_ibge": "3205309",
+    "vagas_total": 691,
+    "matriculas": 1202,
+    "ingressos": 364,
+    "concluintes": 148,
+    "n_cursos": 6,
+    "n_ies": 5
+  },
+  {
+    "nome": "Serra",
+    "slug": "SERRA",
+    "cod_ibge": "3205002",
+    "vagas_total": 467,
+    "matriculas": 201,
+    "ingressos": 102,
+    "concluintes": 79,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Cariacica",
+    "slug": "CARIACICA",
+    "cod_ibge": "3201308",
+    "vagas_total": 252,
+    "matriculas": 177,
+    "ingressos": 57,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Colatina",
+    "slug": "COLATINA",
+    "cod_ibge": "3201506",
+    "vagas_total": 192,
+    "matriculas": 97,
+    "ingressos": 38,
+    "concluintes": 26,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Nova Venécia",
+    "slug": "NOVA_VENECIA",
+    "cod_ibge": "3203908",
+    "vagas_total": 178,
+    "matriculas": 63,
+    "ingressos": 25,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cachoeiro de Itapemirim",
+    "slug": "CACHOEIRO_DE_ITAPEMIRIM",
+    "cod_ibge": "3201209",
+    "vagas_total": 110,
+    "matriculas": 122,
+    "ingressos": 1,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Venda Nova do Imigrante",
+    "slug": "VENDA_NOVA_DO_IMIGRANTE",
+    "cod_ibge": "3205069",
+    "vagas_total": 101,
+    "matriculas": 11,
+    "ingressos": 1,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aracruz",
+    "slug": "ARACRUZ",
+    "cod_ibge": "3200607",
+    "vagas_total": 70,
+    "matriculas": 30,
+    "ingressos": 7,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Mateus",
+    "slug": "SAO_MATEUS",
+    "cod_ibge": "3204906",
+    "vagas_total": 10,
+    "matriculas": 34,
+    "ingressos": 8,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

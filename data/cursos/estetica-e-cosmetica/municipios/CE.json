@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 2056,
+    "matriculas": 695,
+    "ingressos": 269,
+    "concluintes": 171,
+    "n_cursos": 7,
+    "n_ies": 5
+  },
+  {
+    "nome": "Quixeramobim",
+    "slug": "QUIXERAMOBIM",
+    "cod_ibge": "2311405",
+    "vagas_total": 100,
+    "matriculas": 42,
+    "ingressos": 21,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

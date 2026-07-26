@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Bento Gonçalves",
+    "slug": "BENTO_GONCALVES",
+    "cod_ibge": "4302105",
+    "vagas_total": 130,
+    "matriculas": 112,
+    "ingressos": 41,
+    "concluintes": 17,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 130,
+    "matriculas": 17,
+    "ingressos": 7,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 114,
+    "matriculas": 49,
+    "ingressos": 27,
+    "concluintes": 11,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Canoas",
+    "slug": "CANOAS",
+    "cod_ibge": "4304606",
+    "vagas_total": 72,
+    "matriculas": 167,
+    "ingressos": 70,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 25,
+    "matriculas": 16,
+    "ingressos": 7,
+    "concluintes": 7,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Passo Fundo",
+    "slug": "PASSO_FUNDO",
+    "cod_ibge": "4314100",
+    "vagas_total": 1,
+    "matriculas": 0,
+    "ingressos": 1,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cachoeirinha",
+    "slug": "CACHOEIRINHA",
+    "cod_ibge": "4303103",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lajeado",
+    "slug": "LAJEADO",
+    "cod_ibge": "4311403",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

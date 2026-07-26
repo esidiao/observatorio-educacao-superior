@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Cruzeiro",
+    "slug": "CRUZEIRO",
+    "cod_ibge": "3513405",
+    "vagas_total": 60,
+    "matriculas": 1,
+    "ingressos": 3,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pindamonhangaba",
+    "slug": "PINDAMONHANGABA",
+    "cod_ibge": "3538006",
+    "vagas_total": 60,
+    "matriculas": 3,
+    "ingressos": 3,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

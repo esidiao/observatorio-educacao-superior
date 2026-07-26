@@ -1,0 +1,211 @@
+[
+  {
+    "nome": "Quirinópolis",
+    "slug": "QUIRINOPOLIS",
+    "cod_ibge": "5218508",
+    "vagas_total": 254,
+    "matriculas": 44,
+    "ingressos": 26,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Valparaíso de Goiás",
+    "slug": "VALPARAISO_DE_GOIAS",
+    "cod_ibge": "5221858",
+    "vagas_total": 240,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiás",
+    "slug": "GOIAS",
+    "cod_ibge": "5208905",
+    "vagas_total": 233,
+    "matriculas": 43,
+    "ingressos": 20,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Morrinhos",
+    "slug": "MORRINHOS",
+    "cod_ibge": "5213806",
+    "vagas_total": 204,
+    "matriculas": 59,
+    "ingressos": 33,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iporá",
+    "slug": "IPORA",
+    "cod_ibge": "5210208",
+    "vagas_total": 198,
+    "matriculas": 62,
+    "ingressos": 29,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porangatu",
+    "slug": "PORANGATU",
+    "cod_ibge": "5218003",
+    "vagas_total": 196,
+    "matriculas": 81,
+    "ingressos": 27,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Inhumas",
+    "slug": "INHUMAS",
+    "cod_ibge": "5210000",
+    "vagas_total": 187,
+    "matriculas": 73,
+    "ingressos": 33,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Luís de Montes Belos",
+    "slug": "SAO_LUIS_DE_MONTES_BELOS",
+    "cod_ibge": "5220108",
+    "vagas_total": 158,
+    "matriculas": 47,
+    "ingressos": 32,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 152,
+    "matriculas": 92,
+    "ingressos": 35,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Formosa",
+    "slug": "FORMOSA",
+    "cod_ibge": "5208004",
+    "vagas_total": 138,
+    "matriculas": 107,
+    "ingressos": 40,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapuranga",
+    "slug": "ITAPURANGA",
+    "cod_ibge": "5211206",
+    "vagas_total": 133,
+    "matriculas": 64,
+    "ingressos": 30,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 80,
+    "matriculas": 4,
+    "ingressos": 9,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catalão",
+    "slug": "CATALAO",
+    "cod_ibge": "5205109",
+    "vagas_total": 75,
+    "matriculas": 100,
+    "ingressos": 44,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pires do Rio",
+    "slug": "PIRES_DO_RIO",
+    "cod_ibge": "5217401",
+    "vagas_total": 57,
+    "matriculas": 24,
+    "ingressos": 24,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiatuba",
+    "slug": "GOIATUBA",
+    "cod_ibge": "5209101",
+    "vagas_total": 18,
+    "matriculas": 35,
+    "ingressos": 18,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campos Belos",
+    "slug": "CAMPOS_BELOS",
+    "cod_ibge": "5204904",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jussara",
+    "slug": "JUSSARA",
+    "cod_ibge": "5212204",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Posse",
+    "slug": "POSSE",
+    "cod_ibge": "5218300",
+    "vagas_total": 0,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Miguel do Araguaia",
+    "slug": "SAO_MIGUEL_DO_ARAGUAIA",
+    "cod_ibge": "5220207",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

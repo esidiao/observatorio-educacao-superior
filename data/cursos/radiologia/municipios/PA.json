@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 328,
+    "matriculas": 150,
+    "ingressos": 64,
+    "concluintes": 35,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 31,
+    "matriculas": 50,
+    "ingressos": 30,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

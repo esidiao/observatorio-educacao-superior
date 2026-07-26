@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 301,
+    "matriculas": 57,
+    "ingressos": 17,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lages",
+    "slug": "LAGES",
+    "cod_ibge": "4209300",
+    "vagas_total": 51,
+    "matriculas": 67,
+    "ingressos": 31,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Blumenau",
+    "slug": "BLUMENAU",
+    "cod_ibge": "4202404",
+    "vagas_total": 20,
+    "matriculas": 36,
+    "ingressos": 13,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

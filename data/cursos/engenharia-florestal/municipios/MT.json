@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 151,
+    "matriculas": 90,
+    "ingressos": 30,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alta Floresta",
+    "slug": "ALTA_FLORESTA",
+    "cod_ibge": "5100250",
+    "vagas_total": 100,
+    "matriculas": 90,
+    "ingressos": 24,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 88,
+    "matriculas": 289,
+    "ingressos": 75,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cáceres",
+    "slug": "CACERES",
+    "cod_ibge": "5102504",
+    "vagas_total": 40,
+    "matriculas": 82,
+    "ingressos": 6,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

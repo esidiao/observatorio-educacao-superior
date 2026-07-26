@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Presidente Prudente",
+    "slug": "PRESIDENTE_PRUDENTE",
+    "cod_ibge": "3541406",
+    "vagas_total": 80,
+    "matriculas": 61,
+    "ingressos": 35,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

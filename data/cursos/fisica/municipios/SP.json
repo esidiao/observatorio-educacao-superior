@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 176,
+    "matriculas": 565,
+    "ingressos": 144,
+    "concluintes": 97,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Carlos",
+    "slug": "SAO_CARLOS",
+    "cod_ibge": "3548906",
+    "vagas_total": 66,
+    "matriculas": 178,
+    "ingressos": 35,
+    "concluintes": 41,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santo André",
+    "slug": "SANTO_ANDRE",
+    "cod_ibge": "3547809",
+    "vagas_total": 45,
+    "matriculas": 63,
+    "ingressos": 1,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 19,
+    "matriculas": 271,
+    "ingressos": 0,
+    "concluintes": 43,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Claro",
+    "slug": "RIO_CLARO",
+    "cod_ibge": "3543907",
+    "vagas_total": 5,
+    "matriculas": 73,
+    "ingressos": 0,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guaratinguetá",
+    "slug": "GUARATINGUETA",
+    "cod_ibge": "3518404",
+    "vagas_total": 0,
+    "matriculas": 58,
+    "ingressos": 0,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 1345,
+    "matriculas": 376,
+    "ingressos": 222,
+    "concluintes": 50,
+    "n_cursos": 9,
+    "n_ies": 4
+  },
+  {
+    "nome": "Ourinhos",
+    "slug": "OURINHOS",
+    "cod_ibge": "3534708",
+    "vagas_total": 190,
+    "matriculas": 365,
+    "ingressos": 165,
+    "concluintes": 59,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Americana",
+    "slug": "AMERICANA",
+    "cod_ibge": "3501608",
+    "vagas_total": 189,
+    "matriculas": 471,
+    "ingressos": 165,
+    "concluintes": 95,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Caetano do Sul",
+    "slug": "SAO_CAETANO_DO_SUL",
+    "cod_ibge": "3548807",
+    "vagas_total": 176,
+    "matriculas": 438,
+    "ingressos": 176,
+    "concluintes": 83,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santana de Parnaíba",
+    "slug": "SANTANA_DE_PARNAIBA",
+    "cod_ibge": "3547304",
+    "vagas_total": 88,
+    "matriculas": 127,
+    "ingressos": 22,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araraquara",
+    "slug": "ARARAQUARA",
+    "cod_ibge": "3503208",
+    "vagas_total": 80,
+    "matriculas": 231,
+    "ingressos": 86,
+    "concluintes": 37,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 67,
+    "matriculas": 11,
+    "ingressos": 14,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

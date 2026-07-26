@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Porto Velho",
+    "slug": "PORTO_VELHO",
+    "cod_ibge": "1100205",
+    "vagas_total": 118,
+    "matriculas": 111,
+    "ingressos": 30,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vilhena",
+    "slug": "VILHENA",
+    "cod_ibge": "1100304",
+    "vagas_total": 83,
+    "matriculas": 81,
+    "ingressos": 30,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guajará-Mirim",
+    "slug": "GUAJARA_MIRIM",
+    "cod_ibge": "1100106",
+    "vagas_total": 79,
+    "matriculas": 130,
+    "ingressos": 38,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

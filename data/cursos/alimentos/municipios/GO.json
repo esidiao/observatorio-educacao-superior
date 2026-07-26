@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Morrinhos",
+    "slug": "MORRINHOS",
+    "cod_ibge": "5213806",
+    "vagas_total": 140,
+    "matriculas": 65,
+    "ingressos": 5,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Inhumas",
+    "slug": "INHUMAS",
+    "cod_ibge": "5210000",
+    "vagas_total": 60,
+    "matriculas": 37,
+    "ingressos": 9,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jataí",
+    "slug": "JATAI",
+    "cod_ibge": "5211909",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Urutaí",
+    "slug": "URUTAI",
+    "cod_ibge": "5221809",
+    "vagas_total": 0,
+    "matriculas": 14,
+    "ingressos": 0,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 1
+  }
+]

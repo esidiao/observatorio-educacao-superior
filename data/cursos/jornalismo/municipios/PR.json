@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 441,
+    "matriculas": 650,
+    "ingressos": 226,
+    "concluintes": 71,
+    "n_cursos": 8,
+    "n_ies": 7
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 70,
+    "matriculas": 98,
+    "ingressos": 36,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 68,
+    "matriculas": 168,
+    "ingressos": 40,
+    "concluintes": 30,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 65,
+    "matriculas": 219,
+    "ingressos": 61,
+    "concluintes": 31,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 63,
+    "matriculas": 0,
+    "ingressos": 1,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 33,
+    "matriculas": 35,
+    "ingressos": 6,
+    "concluintes": 9,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 32,
+    "matriculas": 73,
+    "ingressos": 17,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

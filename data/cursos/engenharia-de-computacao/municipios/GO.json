@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 374,
+    "matriculas": 761,
+    "ingressos": 186,
+    "concluintes": 64,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Trindade",
+    "slug": "TRINDADE",
+    "cod_ibge": "5221403",
+    "vagas_total": 56,
+    "matriculas": 116,
+    "ingressos": 37,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

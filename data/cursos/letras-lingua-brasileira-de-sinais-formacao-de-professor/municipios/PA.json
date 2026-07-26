@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 236,
+    "matriculas": 593,
+    "ingressos": 116,
+    "concluintes": 42,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 40,
+    "matriculas": 21,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

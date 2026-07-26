@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 319,
+    "matriculas": 56,
+    "ingressos": 22,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Criciúma",
+    "slug": "CRICIUMA",
+    "cod_ibge": "4204608",
+    "vagas_total": 51,
+    "matriculas": 56,
+    "ingressos": 22,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 33,
+    "matriculas": 139,
+    "ingressos": 31,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 70,
+    "matriculas": 150,
+    "ingressos": 20,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pontal do Araguaia",
+    "slug": "PONTAL_DO_ARAGUAIA",
+    "cod_ibge": "5106653",
+    "vagas_total": 45,
+    "matriculas": 39,
+    "ingressos": 10,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 21,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra do Bugres",
+    "slug": "BARRA_DO_BUGRES",
+    "cod_ibge": "5101704",
+    "vagas_total": 1,
+    "matriculas": 54,
+    "ingressos": 1,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lucas do Rio Verde",
+    "slug": "LUCAS_DO_RIO_VERDE",
+    "cod_ibge": "5105259",
+    "vagas_total": 0,
+    "matriculas": 9,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Mutum",
+    "slug": "NOVA_MUTUM",
+    "cod_ibge": "5106224",
+    "vagas_total": 0,
+    "matriculas": 22,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

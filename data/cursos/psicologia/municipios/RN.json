@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 1936,
+    "matriculas": 3583,
+    "ingressos": 1258,
+    "concluintes": 403,
+    "n_cursos": 7,
+    "n_ies": 6
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 725,
+    "matriculas": 1356,
+    "ingressos": 390,
+    "concluintes": 197,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Caicó",
+    "slug": "CAICO",
+    "cod_ibge": "2402006",
+    "vagas_total": 156,
+    "matriculas": 172,
+    "ingressos": 55,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Miguel",
+    "slug": "SAO_MIGUEL",
+    "cod_ibge": "2412500",
+    "vagas_total": 106,
+    "matriculas": 64,
+    "ingressos": 22,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pau dos Ferros",
+    "slug": "PAU_DOS_FERROS",
+    "cod_ibge": "2409407",
+    "vagas_total": 85,
+    "matriculas": 127,
+    "ingressos": 37,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz",
+    "slug": "SANTA_CRUZ",
+    "cod_ibge": "2411205",
+    "vagas_total": 49,
+    "matriculas": 222,
+    "ingressos": 48,
+    "concluintes": 43,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Bandeirantes",
+    "slug": "BANDEIRANTES",
+    "cod_ibge": "4102406",
+    "vagas_total": 40,
+    "matriculas": 12,
+    "ingressos": 26,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

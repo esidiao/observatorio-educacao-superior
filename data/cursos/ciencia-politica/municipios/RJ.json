@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 120,
+    "matriculas": 253,
+    "ingressos": 88,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Angra dos Reis",
+    "slug": "ANGRA_DOS_REIS",
+    "cod_ibge": "3300100",
+    "vagas_total": 80,
+    "matriculas": 73,
+    "ingressos": 19,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

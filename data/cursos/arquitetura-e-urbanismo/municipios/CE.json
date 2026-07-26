@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 5312,
+    "matriculas": 2177,
+    "ingressos": 499,
+    "concluintes": 369,
+    "n_cursos": 15,
+    "n_ies": 12
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 536,
+    "matriculas": 437,
+    "ingressos": 118,
+    "concluintes": 74,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 345,
+    "matriculas": 303,
+    "ingressos": 86,
+    "concluintes": 30,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Tianguá",
+    "slug": "TIANGUA",
+    "cod_ibge": "2313401",
+    "vagas_total": 260,
+    "matriculas": 104,
+    "ingressos": 24,
+    "concluintes": 17,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Iguatu",
+    "slug": "IGUATU",
+    "cod_ibge": "2305506",
+    "vagas_total": 251,
+    "matriculas": 77,
+    "ingressos": 9,
+    "concluintes": 17,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 121,
+    "matriculas": 66,
+    "ingressos": 1,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aracati",
+    "slug": "ARACATI",
+    "cod_ibge": "2301109",
+    "vagas_total": 100,
+    "matriculas": 7,
+    "ingressos": 15,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Manaus",
+    "slug": "MANAUS",
+    "cod_ibge": "1302603",
+    "vagas_total": 55,
+    "matriculas": 91,
+    "ingressos": 40,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

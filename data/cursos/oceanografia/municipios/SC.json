@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Itajaí",
+    "slug": "ITAJAI",
+    "cod_ibge": "4208203",
+    "vagas_total": 619,
+    "matriculas": 33,
+    "ingressos": 17,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 68,
+    "matriculas": 125,
+    "ingressos": 33,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

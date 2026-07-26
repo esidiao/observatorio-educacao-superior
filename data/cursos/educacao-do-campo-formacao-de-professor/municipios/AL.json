@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "União dos Palmares",
+    "slug": "UNIAO_DOS_PALMARES",
+    "cod_ibge": "2709301",
+    "vagas_total": 61,
+    "matriculas": 48,
+    "ingressos": 49,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arapiraca",
+    "slug": "ARAPIRACA",
+    "cod_ibge": "2700300",
+    "vagas_total": 60,
+    "matriculas": 73,
+    "ingressos": 73,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santana do Ipanema",
+    "slug": "SANTANA_DO_IPANEMA",
+    "cod_ibge": "2708006",
+    "vagas_total": 40,
+    "matriculas": 39,
+    "ingressos": 45,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

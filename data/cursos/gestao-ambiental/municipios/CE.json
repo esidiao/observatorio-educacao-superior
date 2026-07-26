@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Camocim",
+    "slug": "CAMOCIM",
+    "cod_ibge": "2302602",
+    "vagas_total": 60,
+    "matriculas": 73,
+    "ingressos": 31,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paracuru",
+    "slug": "PARACURU",
+    "cod_ibge": "2310209",
+    "vagas_total": 35,
+    "matriculas": 93,
+    "ingressos": 32,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 30,
+    "matriculas": 145,
+    "ingressos": 23,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

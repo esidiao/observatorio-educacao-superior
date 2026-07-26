@@ -1,0 +1,145 @@
+[
+  {
+    "nome": "Uberaba",
+    "slug": "UBERABA",
+    "cod_ibge": "3170107",
+    "vagas_total": 443,
+    "matriculas": 267,
+    "ingressos": 75,
+    "concluintes": 26,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Unaí",
+    "slug": "UNAI",
+    "cod_ibge": "3170404",
+    "vagas_total": 349,
+    "matriculas": 92,
+    "ingressos": 32,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 217,
+    "matriculas": 387,
+    "ingressos": 88,
+    "concluintes": 62,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 217,
+    "matriculas": 339,
+    "ingressos": 75,
+    "concluintes": 34,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Diamantina",
+    "slug": "DIAMANTINA",
+    "cod_ibge": "3121605",
+    "vagas_total": 186,
+    "matriculas": 178,
+    "ingressos": 33,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João del Rei",
+    "slug": "SAO_JOAO_DEL_REI",
+    "cod_ibge": "3162500",
+    "vagas_total": 147,
+    "matriculas": 487,
+    "ingressos": 92,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Machado",
+    "slug": "MACHADO",
+    "cod_ibge": "3139003",
+    "vagas_total": 136,
+    "matriculas": 186,
+    "ingressos": 53,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 102,
+    "matriculas": 385,
+    "ingressos": 101,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Montes Claros",
+    "slug": "MONTES_CLAROS",
+    "cod_ibge": "3143302",
+    "vagas_total": 90,
+    "matriculas": 148,
+    "ingressos": 39,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Janaúba",
+    "slug": "JANAUBA",
+    "cod_ibge": "3135100",
+    "vagas_total": 86,
+    "matriculas": 143,
+    "ingressos": 45,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patos de Minas",
+    "slug": "PATOS_DE_MINAS",
+    "cod_ibge": "3148004",
+    "vagas_total": 76,
+    "matriculas": 10,
+    "ingressos": 1,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Pomba",
+    "slug": "RIO_POMBA",
+    "cod_ibge": "3155801",
+    "vagas_total": 61,
+    "matriculas": 154,
+    "ingressos": 34,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bambuí",
+    "slug": "BAMBUI",
+    "cod_ibge": "3105103",
+    "vagas_total": 54,
+    "matriculas": 180,
+    "ingressos": 50,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

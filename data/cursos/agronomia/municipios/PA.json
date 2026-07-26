@@ -1,0 +1,145 @@
+[
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 237,
+    "matriculas": 500,
+    "ingressos": 133,
+    "concluintes": 30,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 182,
+    "matriculas": 616,
+    "ingressos": 155,
+    "concluintes": 92,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itaituba",
+    "slug": "ITAITUBA",
+    "cod_ibge": "1503606",
+    "vagas_total": 78,
+    "matriculas": 107,
+    "ingressos": 21,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Parauapebas",
+    "slug": "PARAUAPEBAS",
+    "cod_ibge": "1505536",
+    "vagas_total": 76,
+    "matriculas": 261,
+    "ingressos": 41,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capanema",
+    "slug": "CAPANEMA",
+    "cod_ibge": "1502202",
+    "vagas_total": 66,
+    "matriculas": 242,
+    "ingressos": 48,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capitão Poço",
+    "slug": "CAPITAO_POCO",
+    "cod_ibge": "1502301",
+    "vagas_total": 66,
+    "matriculas": 130,
+    "ingressos": 46,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paragominas",
+    "slug": "PARAGOMINAS",
+    "cod_ibge": "1505502",
+    "vagas_total": 60,
+    "matriculas": 338,
+    "ingressos": 51,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cametá",
+    "slug": "CAMETA",
+    "cod_ibge": "1502103",
+    "vagas_total": 57,
+    "matriculas": 310,
+    "ingressos": 40,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Castanhal",
+    "slug": "CASTANHAL",
+    "cod_ibge": "1502400",
+    "vagas_total": 50,
+    "matriculas": 184,
+    "ingressos": 36,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 49,
+    "matriculas": 214,
+    "ingressos": 43,
+    "concluintes": 78,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Altamira",
+    "slug": "ALTAMIRA",
+    "cod_ibge": "1500602",
+    "vagas_total": 48,
+    "matriculas": 191,
+    "ingressos": 32,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Conceição do Araguaia",
+    "slug": "CONCEICAO_DO_ARAGUAIA",
+    "cod_ibge": "1502707",
+    "vagas_total": 40,
+    "matriculas": 180,
+    "ingressos": 30,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juruti",
+    "slug": "JURUTI",
+    "cod_ibge": "1503903",
+    "vagas_total": 40,
+    "matriculas": 146,
+    "ingressos": 36,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

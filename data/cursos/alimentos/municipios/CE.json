@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Quixeramobim",
+    "slug": "QUIXERAMOBIM",
+    "cod_ibge": "2311405",
+    "vagas_total": 90,
+    "matriculas": 118,
+    "ingressos": 49,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 75,
+    "matriculas": 126,
+    "ingressos": 36,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 45,
+    "matriculas": 113,
+    "ingressos": 25,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Limoeiro do Norte",
+    "slug": "LIMOEIRO_DO_NORTE",
+    "cod_ibge": "2307601",
+    "vagas_total": 45,
+    "matriculas": 98,
+    "ingressos": 38,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

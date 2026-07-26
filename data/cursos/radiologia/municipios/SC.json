@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Lages",
+    "slug": "LAGES",
+    "cod_ibge": "4209300",
+    "vagas_total": 300,
+    "matriculas": 240,
+    "ingressos": 66,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 56,
+    "matriculas": 138,
+    "ingressos": 36,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Xanxerê",
+    "slug": "XANXERE",
+    "cod_ibge": "4219507",
+    "vagas_total": 38,
+    "matriculas": 36,
+    "ingressos": 17,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joaçaba",
+    "slug": "JOACABA",
+    "cod_ibge": "4209003",
+    "vagas_total": 0,
+    "matriculas": 9,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

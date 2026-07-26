@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 366,
+    "matriculas": 282,
+    "ingressos": 107,
+    "concluintes": 36,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Miguel do Iguaçu",
+    "slug": "SAO_MIGUEL_DO_IGUACU",
+    "cod_ibge": "4125704",
+    "vagas_total": 105,
+    "matriculas": 23,
+    "ingressos": 29,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 102,
+    "matriculas": 225,
+    "ingressos": 55,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Dois Vizinhos",
+    "slug": "DOIS_VIZINHOS",
+    "cod_ibge": "4107207",
+    "vagas_total": 88,
+    "matriculas": 227,
+    "ingressos": 37,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 68,
+    "matriculas": 158,
+    "ingressos": 27,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marechal Cândido Rondon",
+    "slug": "MARECHAL_CANDIDO_RONDON",
+    "cod_ibge": "4114609",
+    "vagas_total": 50,
+    "matriculas": 106,
+    "ingressos": 14,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 45,
+    "matriculas": 167,
+    "ingressos": 43,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Blumenau",
+    "slug": "BLUMENAU",
+    "cod_ibge": "4202404",
+    "vagas_total": 100,
+    "matriculas": 194,
+    "ingressos": 75,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

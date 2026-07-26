@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Mazagão",
+    "slug": "MAZAGAO",
+    "cod_ibge": "1600402",
+    "vagas_total": 40,
+    "matriculas": 275,
+    "ingressos": 37,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

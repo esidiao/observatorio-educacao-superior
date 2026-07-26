@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 1113,
+    "matriculas": 602,
+    "ingressos": 265,
+    "concluintes": 33,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "Paulista",
+    "slug": "PAULISTA",
+    "cod_ibge": "2610707",
+    "vagas_total": 483,
+    "matriculas": 72,
+    "ingressos": 60,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 434,
+    "matriculas": 111,
+    "ingressos": 65,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória de Santo Antão",
+    "slug": "VITORIA_DE_SANTO_ANTAO",
+    "cod_ibge": "2616407",
+    "vagas_total": 240,
+    "matriculas": 60,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Serra Talhada",
+    "slug": "SERRA_TALHADA",
+    "cod_ibge": "2613909",
+    "vagas_total": 140,
+    "matriculas": 23,
+    "ingressos": 26,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

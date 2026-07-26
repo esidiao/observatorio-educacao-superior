@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 297,
+    "matriculas": 473,
+    "ingressos": 213,
+    "concluintes": 75,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Cabedelo",
+    "slug": "CABEDELO",
+    "cod_ibge": "2503209",
+    "vagas_total": 242,
+    "matriculas": 459,
+    "ingressos": 235,
+    "concluintes": 116,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Guarabira",
+    "slug": "GUARABIRA",
+    "cod_ibge": "2506301",
+    "vagas_total": 88,
+    "matriculas": 234,
+    "ingressos": 83,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Picuí",
+    "slug": "PICUI",
+    "cod_ibge": "2511400",
+    "vagas_total": 69,
+    "matriculas": 54,
+    "ingressos": 45,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

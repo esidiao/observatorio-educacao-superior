@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 104,
+    "matriculas": 395,
+    "ingressos": 83,
+    "concluintes": 47,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Nova Iguaçu",
+    "slug": "NOVA_IGUACU",
+    "cod_ibge": "3303500",
+    "vagas_total": 70,
+    "matriculas": 169,
+    "ingressos": 50,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Gonçalo",
+    "slug": "SAO_GONCALO",
+    "cod_ibge": "3304904",
+    "vagas_total": 60,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

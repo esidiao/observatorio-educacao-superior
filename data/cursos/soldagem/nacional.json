@@ -1,0 +1,77 @@
+{
+  "metadados": {
+    "curso": "Soldagem",
+    "slug": "soldagem",
+    "cine_rotulo": "Soldagem",
+    "area_cine": "Engenharia, produção e construção",
+    "versao_censo": "2024",
+    "ciclo_enade": null,
+    "data_extracao": "2026-07-26",
+    "cobertura": null,
+    "fontes": {
+      "censo": {
+        "nome": "Microdados do Censo da Educação Superior",
+        "orgao": "INEP/MEC",
+        "ano": 2024,
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados"
+      },
+      "cpc": null,
+      "populacao": {
+        "nome": "Estimativas populacionais",
+        "orgao": "IBGE",
+        "ano": 2024
+      }
+    }
+  },
+  "ufs": {
+    "SP": {
+      "vagas_total": 570,
+      "vagas_presencial": 570,
+      "vagas_ead": 0,
+      "vagas_capital": 321,
+      "pct_ead": 0.0,
+      "n_cursos_presencial": 4,
+      "n_cursos_ead": 0,
+      "n_ies": 4,
+      "municipios_oferta": 3,
+      "ead_polos_municipios": 0,
+      "ead_polos_registros": 0,
+      "mun_ead_only": 0,
+      "ingressos": 309,
+      "matriculas": 567,
+      "matriculas_ead": 0,
+      "concluintes": 93,
+      "taxa_conclusao": 16.4,
+      "pct_mulheres": 9.4,
+      "pct_ppi": 53.7,
+      "pct_financiamento": 0.0,
+      "pct_noturno": 49.3,
+      "pct_rede_publica": 100.0,
+      "HHI": 0.3025,
+      "CR2": 0.7088,
+      "CR10": 1.0,
+      "municipios_total": 645,
+      "municipios_deserto": 642,
+      "populacao": 45973194,
+      "regiao": "Sudeste",
+      "capital": "São Paulo",
+      "vagas_por_100k": 1.2,
+      "CC": null,
+      "ENADE": null,
+      "IDD": null,
+      "CPC_cont": null,
+      "vagas_avaliadas": null,
+      "cpc_org_didatico": null,
+      "cpc_infraestrutura": null,
+      "cpc_oportunidade": null,
+      "pct_doc_mestres": null,
+      "pct_doc_doutores": null,
+      "pct_doc_regime": null,
+      "n_cursos_avaliados": null,
+      "concluintes_avaliados": null,
+      "ICT": 0.7793,
+      "E": 0.2207,
+      "IAF": null
+    }
+  }
+}

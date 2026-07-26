@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 252,
+    "matriculas": 93,
+    "ingressos": 36,
+    "concluintes": 8,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Morrinhos",
+    "slug": "MORRINHOS",
+    "cod_ibge": "5213806",
+    "vagas_total": 160,
+    "matriculas": 54,
+    "ingressos": 10,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 146,
+    "matriculas": 170,
+    "ingressos": 61,
+    "concluintes": 22,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Urutaí",
+    "slug": "URUTAI",
+    "cod_ibge": "5221809",
+    "vagas_total": 133,
+    "matriculas": 33,
+    "ingressos": 5,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Luziânia",
+    "slug": "LUZIANIA",
+    "cod_ibge": "5212501",
+    "vagas_total": 96,
+    "matriculas": 177,
+    "ingressos": 72,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itumbiara",
+    "slug": "ITUMBIARA",
+    "cod_ibge": "5211503",
+    "vagas_total": 92,
+    "matriculas": 99,
+    "ingressos": 23,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jataí",
+    "slug": "JATAI",
+    "cod_ibge": "5211909",
+    "vagas_total": 92,
+    "matriculas": 8,
+    "ingressos": 6,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catalão",
+    "slug": "CATALAO",
+    "cod_ibge": "5205109",
+    "vagas_total": 77,
+    "matriculas": 26,
+    "ingressos": 15,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uruaçu",
+    "slug": "URUACU",
+    "cod_ibge": "5221601",
+    "vagas_total": 74,
+    "matriculas": 60,
+    "ingressos": 15,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Inhumas",
+    "slug": "INHUMAS",
+    "cod_ibge": "5210000",
+    "vagas_total": 60,
+    "matriculas": 26,
+    "ingressos": 9,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ceres",
+    "slug": "CERES",
+    "cod_ibge": "5205406",
+    "vagas_total": 56,
+    "matriculas": 79,
+    "ingressos": 12,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iporá",
+    "slug": "IPORA",
+    "cod_ibge": "5210208",
+    "vagas_total": 52,
+    "matriculas": 48,
+    "ingressos": 8,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Verde",
+    "slug": "RIO_VERDE",
+    "cod_ibge": "5218805",
+    "vagas_total": 8,
+    "matriculas": 45,
+    "ingressos": 7,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Formosa",
+    "slug": "FORMOSA",
+    "cod_ibge": "5208004",
+    "vagas_total": 0,
+    "matriculas": 6,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

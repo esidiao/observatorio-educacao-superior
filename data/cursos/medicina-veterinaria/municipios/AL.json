@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Maceió",
+    "slug": "MACEIO",
+    "cod_ibge": "2704302",
+    "vagas_total": 666,
+    "matriculas": 924,
+    "ingressos": 269,
+    "concluintes": 87,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Arapiraca",
+    "slug": "ARAPIRACA",
+    "cod_ibge": "2700300",
+    "vagas_total": 327,
+    "matriculas": 235,
+    "ingressos": 89,
+    "concluintes": 15,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "2709400",
+    "vagas_total": 69,
+    "matriculas": 309,
+    "ingressos": 63,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

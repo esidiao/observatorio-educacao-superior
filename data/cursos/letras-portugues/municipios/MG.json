@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 437,
+    "matriculas": 1046,
+    "ingressos": 335,
+    "concluintes": 144,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Alfenas",
+    "slug": "ALFENAS",
+    "cod_ibge": "3101607",
+    "vagas_total": 45,
+    "matriculas": 39,
+    "ingressos": 37,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mariana",
+    "slug": "MARIANA",
+    "cod_ibge": "3140001",
+    "vagas_total": 35,
+    "matriculas": 49,
+    "ingressos": 12,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 1
+  }
+]

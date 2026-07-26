@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 274,
+    "matriculas": 674,
+    "ingressos": 246,
+    "concluintes": 45,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santa Rosa",
+    "slug": "SANTA_ROSA",
+    "cod_ibge": "4317202",
+    "vagas_total": 268,
+    "matriculas": 57,
+    "ingressos": 22,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ijuí",
+    "slug": "IJUI",
+    "cod_ibge": "4310207",
+    "vagas_total": 171,
+    "matriculas": 48,
+    "ingressos": 32,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lajeado",
+    "slug": "LAJEADO",
+    "cod_ibge": "4311403",
+    "vagas_total": 126,
+    "matriculas": 257,
+    "ingressos": 81,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alegrete",
+    "slug": "ALEGRETE",
+    "cod_ibge": "4300406",
+    "vagas_total": 115,
+    "matriculas": 214,
+    "ingressos": 72,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 114,
+    "matriculas": 101,
+    "ingressos": 92,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

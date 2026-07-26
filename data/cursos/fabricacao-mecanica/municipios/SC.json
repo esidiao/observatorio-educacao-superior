@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Jaraguá do Sul",
+    "slug": "JARAGUA_DO_SUL",
+    "cod_ibge": "4208906",
+    "vagas_total": 44,
+    "matriculas": 177,
+    "ingressos": 42,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 41,
+    "matriculas": 45,
+    "ingressos": 32,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 0,
+    "matriculas": 15,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

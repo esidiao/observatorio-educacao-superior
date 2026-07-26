@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 71,
+    "matriculas": 98,
+    "ingressos": 35,
+    "concluintes": 13,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 44,
+    "matriculas": 27,
+    "ingressos": 13,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 30,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 28,
+    "matriculas": 118,
+    "ingressos": 24,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

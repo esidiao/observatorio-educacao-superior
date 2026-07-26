@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 100,
+    "matriculas": 60,
+    "ingressos": 24,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 62,
+    "matriculas": 46,
+    "ingressos": 29,
+    "concluintes": 13,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

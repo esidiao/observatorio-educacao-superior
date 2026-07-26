@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 341,
+    "matriculas": 682,
+    "ingressos": 165,
+    "concluintes": 82,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Petrópolis",
+    "slug": "PETROPOLIS",
+    "cod_ibge": "3303906",
+    "vagas_total": 180,
+    "matriculas": 43,
+    "ingressos": 10,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Niterói",
+    "slug": "NITEROI",
+    "cod_ibge": "3303302",
+    "vagas_total": 71,
+    "matriculas": 179,
+    "ingressos": 67,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

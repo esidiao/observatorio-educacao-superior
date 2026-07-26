@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 596,
+    "matriculas": 1223,
+    "ingressos": 291,
+    "concluintes": 163,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Serra Talhada",
+    "slug": "SERRA_TALHADA",
+    "cod_ibge": "2613909",
+    "vagas_total": 279,
+    "matriculas": 30,
+    "ingressos": 6,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiana",
+    "slug": "GOIANA",
+    "cod_ibge": "2606200",
+    "vagas_total": 200,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Garanhuns",
+    "slug": "GARANHUNS",
+    "cod_ibge": "2606002",
+    "vagas_total": 100,
+    "matriculas": 162,
+    "ingressos": 88,
+    "concluintes": 54,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palmares",
+    "slug": "PALMARES",
+    "cod_ibge": "2610004",
+    "vagas_total": 100,
+    "matriculas": 47,
+    "ingressos": 14,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 100,
+    "matriculas": 326,
+    "ingressos": 82,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nazaré da Mata",
+    "slug": "NAZARE_DA_MATA",
+    "cod_ibge": "2609501",
+    "vagas_total": 90,
+    "matriculas": 287,
+    "ingressos": 82,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória de Santo Antão",
+    "slug": "VITORIA_DE_SANTO_ANTAO",
+    "cod_ibge": "2616407",
+    "vagas_total": 90,
+    "matriculas": 383,
+    "ingressos": 84,
+    "concluintes": 52,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Arcoverde",
+    "slug": "ARCOVERDE",
+    "cod_ibge": "2601201",
+    "vagas_total": 85,
+    "matriculas": 59,
+    "ingressos": 17,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salgueiro",
+    "slug": "SALGUEIRO",
+    "cod_ibge": "2612208",
+    "vagas_total": 62,
+    "matriculas": 42,
+    "ingressos": 21,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belém do São Francisco",
+    "slug": "BELEM_DO_SAO_FRANCISCO",
+    "cod_ibge": "2601607",
+    "vagas_total": 0,
+    "matriculas": 5,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 225,
+    "matriculas": 150,
+    "ingressos": 45,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Canoinhas",
+    "slug": "CANOINHAS",
+    "cod_ibge": "4203808",
+    "vagas_total": 70,
+    "matriculas": 52,
+    "ingressos": 27,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Miguel do Oeste",
+    "slug": "SAO_MIGUEL_DO_OESTE",
+    "cod_ibge": "4217204",
+    "vagas_total": 70,
+    "matriculas": 59,
+    "ingressos": 28,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 30,
+    "matriculas": 23,
+    "ingressos": 0,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Itapeva",
+    "slug": "ITAPEVA",
+    "cod_ibge": "3522406",
+    "vagas_total": 80,
+    "matriculas": 90,
+    "ingressos": 22,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Várzea Grande",
+    "slug": "VARZEA_GRANDE",
+    "cod_ibge": "5108402",
+    "vagas_total": 127,
+    "matriculas": 129,
+    "ingressos": 39,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

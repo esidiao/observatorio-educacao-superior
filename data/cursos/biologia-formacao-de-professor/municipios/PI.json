@@ -1,0 +1,145 @@
+[
+  {
+    "nome": "Floriano",
+    "slug": "FLORIANO",
+    "cod_ibge": "2203909",
+    "vagas_total": 170,
+    "matriculas": 373,
+    "ingressos": 96,
+    "concluintes": 47,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 164,
+    "matriculas": 526,
+    "ingressos": 127,
+    "concluintes": 67,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Parnaíba",
+    "slug": "PARNAIBA",
+    "cod_ibge": "2207702",
+    "vagas_total": 143,
+    "matriculas": 477,
+    "ingressos": 132,
+    "concluintes": 31,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Campo Maior",
+    "slug": "CAMPO_MAIOR",
+    "cod_ibge": "2202208",
+    "vagas_total": 140,
+    "matriculas": 129,
+    "ingressos": 38,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Picos",
+    "slug": "PICOS",
+    "cod_ibge": "2208007",
+    "vagas_total": 140,
+    "matriculas": 375,
+    "ingressos": 96,
+    "concluintes": 56,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Bom Jesus",
+    "slug": "BOM_JESUS",
+    "cod_ibge": "2201903",
+    "vagas_total": 105,
+    "matriculas": 144,
+    "ingressos": 29,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Valença do Piauí",
+    "slug": "VALENCA_DO_PIAUI",
+    "cod_ibge": "2211308",
+    "vagas_total": 41,
+    "matriculas": 151,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paulistana",
+    "slug": "PAULISTANA",
+    "cod_ibge": "2207801",
+    "vagas_total": 40,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pedro II",
+    "slug": "PEDRO_II",
+    "cod_ibge": "2207900",
+    "vagas_total": 40,
+    "matriculas": 159,
+    "ingressos": 40,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João do Piauí",
+    "slug": "SAO_JOAO_DO_PIAUI",
+    "cod_ibge": "2210003",
+    "vagas_total": 40,
+    "matriculas": 154,
+    "ingressos": 41,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Raimundo Nonato",
+    "slug": "SAO_RAIMUNDO_NONATO",
+    "cod_ibge": "2210607",
+    "vagas_total": 40,
+    "matriculas": 50,
+    "ingressos": 16,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uruçuí",
+    "slug": "URUCUI",
+    "cod_ibge": "2211209",
+    "vagas_total": 40,
+    "matriculas": 136,
+    "ingressos": 39,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Corrente",
+    "slug": "CORRENTE",
+    "cod_ibge": "2202901",
+    "vagas_total": 35,
+    "matriculas": 39,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

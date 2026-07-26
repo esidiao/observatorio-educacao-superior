@@ -1,0 +1,167 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 1524,
+    "matriculas": 1571,
+    "ingressos": 668,
+    "concluintes": 219,
+    "n_cursos": 15,
+    "n_ies": 14
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 506,
+    "matriculas": 403,
+    "ingressos": 200,
+    "concluintes": 79,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 431,
+    "matriculas": 519,
+    "ingressos": 244,
+    "concluintes": 72,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 231,
+    "matriculas": 244,
+    "ingressos": 90,
+    "concluintes": 45,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Francisco Beltrão",
+    "slug": "FRANCISCO_BELTRAO",
+    "cod_ibge": "4108403",
+    "vagas_total": 190,
+    "matriculas": 216,
+    "ingressos": 58,
+    "concluintes": 47,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 186,
+    "matriculas": 176,
+    "ingressos": 76,
+    "concluintes": 26,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 150,
+    "matriculas": 211,
+    "ingressos": 69,
+    "concluintes": 37,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Campo Mourão",
+    "slug": "CAMPO_MOURAO",
+    "cod_ibge": "4104303",
+    "vagas_total": 145,
+    "matriculas": 52,
+    "ingressos": 30,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 145,
+    "matriculas": 216,
+    "ingressos": 61,
+    "concluintes": 36,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 140,
+    "matriculas": 29,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Apucarana",
+    "slug": "APUCARANA",
+    "cod_ibge": "4101408",
+    "vagas_total": 130,
+    "matriculas": 58,
+    "ingressos": 22,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Realeza",
+    "slug": "REALEZA",
+    "cod_ibge": "4121406",
+    "vagas_total": 124,
+    "matriculas": 105,
+    "ingressos": 34,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paranavaí",
+    "slug": "PARANAVAI",
+    "cod_ibge": "4118402",
+    "vagas_total": 100,
+    "matriculas": 70,
+    "ingressos": 52,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "União da Vitória",
+    "slug": "UNIAO_DA_VITORIA",
+    "cod_ibge": "4128203",
+    "vagas_total": 55,
+    "matriculas": 85,
+    "ingressos": 24,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Umuarama",
+    "slug": "UMUARAMA",
+    "cod_ibge": "4128104",
+    "vagas_total": 25,
+    "matriculas": 66,
+    "ingressos": 5,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

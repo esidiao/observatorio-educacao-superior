@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 102,
+    "matriculas": 509,
+    "ingressos": 100,
+    "concluintes": 52,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 81,
+    "matriculas": 217,
+    "ingressos": 0,
+    "concluintes": 25,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Angicos",
+    "slug": "ANGICOS",
+    "cod_ibge": "2400802",
+    "vagas_total": 66,
+    "matriculas": 88,
+    "ingressos": 0,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Currais Novos",
+    "slug": "CURRAIS_NOVOS",
+    "cod_ibge": "2403103",
+    "vagas_total": 44,
+    "matriculas": 72,
+    "ingressos": 32,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Gonçalo do Amarante",
+    "slug": "SAO_GONCALO_DO_AMARANTE",
+    "cod_ibge": "2412005",
+    "vagas_total": 40,
+    "matriculas": 87,
+    "ingressos": 36,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

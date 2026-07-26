@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Aquidauana",
+    "slug": "AQUIDAUANA",
+    "cod_ibge": "5001102",
+    "vagas_total": 102,
+    "matriculas": 71,
+    "ingressos": 30,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Três Lagoas",
+    "slug": "TRES_LAGOAS",
+    "cod_ibge": "5008305",
+    "vagas_total": 99,
+    "matriculas": 87,
+    "ingressos": 21,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Corumbá",
+    "slug": "CORUMBA",
+    "cod_ibge": "5003207",
+    "vagas_total": 75,
+    "matriculas": 114,
+    "ingressos": 49,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jardim",
+    "slug": "JARDIM",
+    "cod_ibge": "5005004",
+    "vagas_total": 41,
+    "matriculas": 127,
+    "ingressos": 41,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 32,
+    "matriculas": 120,
+    "ingressos": 31,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 0,
+    "matriculas": 34,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

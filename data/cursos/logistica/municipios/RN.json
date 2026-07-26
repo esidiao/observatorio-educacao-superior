@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Parnamirim",
+    "slug": "PARNAMIRIM",
+    "cod_ibge": "2403251",
+    "vagas_total": 30,
+    "matriculas": 1,
+    "ingressos": 1,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Gonçalo do Amarante",
+    "slug": "SAO_GONCALO_DO_AMARANTE",
+    "cod_ibge": "2412005",
+    "vagas_total": 0,
+    "matriculas": 20,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

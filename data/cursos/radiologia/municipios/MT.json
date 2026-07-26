@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Várzea Grande",
+    "slug": "VARZEA_GRANDE",
+    "cod_ibge": "5108402",
+    "vagas_total": 203,
+    "matriculas": 23,
+    "ingressos": 13,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 60,
+    "matriculas": 28,
+    "ingressos": 24,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra do Garças",
+    "slug": "BARRA_DO_GARCAS",
+    "cod_ibge": "5101803",
+    "vagas_total": 50,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

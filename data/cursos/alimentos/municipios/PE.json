@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 67,
+    "matriculas": 172,
+    "ingressos": 66,
+    "concluintes": 40,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salgueiro",
+    "slug": "SALGUEIRO",
+    "cod_ibge": "2612208",
+    "vagas_total": 60,
+    "matriculas": 108,
+    "ingressos": 40,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

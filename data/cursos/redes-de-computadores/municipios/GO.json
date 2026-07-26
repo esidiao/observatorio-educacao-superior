@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Pires do Rio",
+    "slug": "PIRES_DO_RIO",
+    "cod_ibge": "5217401",
+    "vagas_total": 54,
+    "matriculas": 65,
+    "ingressos": 39,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

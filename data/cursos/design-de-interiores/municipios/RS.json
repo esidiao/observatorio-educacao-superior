@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 176,
+    "matriculas": 101,
+    "ingressos": 60,
+    "concluintes": 26,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Novo Hamburgo",
+    "slug": "NOVO_HAMBURGO",
+    "cod_ibge": "4313409",
+    "vagas_total": 153,
+    "matriculas": 34,
+    "ingressos": 14,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cachoeirinha",
+    "slug": "CACHOEIRINHA",
+    "cod_ibge": "4303103",
+    "vagas_total": 103,
+    "matriculas": 50,
+    "ingressos": 31,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bento Gonçalves",
+    "slug": "BENTO_GONCALVES",
+    "cod_ibge": "4302105",
+    "vagas_total": 83,
+    "matriculas": 18,
+    "ingressos": 7,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 1,
+    "matriculas": 7,
+    "ingressos": 1,
+    "concluintes": 7,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

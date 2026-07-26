@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Caicó",
+    "slug": "CAICO",
+    "cod_ibge": "2402006",
+    "vagas_total": 104,
+    "matriculas": 254,
+    "ingressos": 79,
+    "concluintes": 54,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 96,
+    "matriculas": 396,
+    "ingressos": 95,
+    "concluintes": 56,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 49,
+    "matriculas": 210,
+    "ingressos": 46,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Açu",
+    "slug": "ACU",
+    "cod_ibge": "2400208",
+    "vagas_total": 44,
+    "matriculas": 141,
+    "ingressos": 34,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 174,
+    "matriculas": 252,
+    "ingressos": 87,
+    "concluintes": 38,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Francisco do Conde",
+    "slug": "SAO_FRANCISCO_DO_CONDE",
+    "cod_ibge": "2929206",
+    "vagas_total": 93,
+    "matriculas": 98,
+    "ingressos": 27,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

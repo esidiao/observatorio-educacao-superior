@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 282,
+    "matriculas": 42,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Assis",
+    "slug": "ASSIS",
+    "cod_ibge": "3504008",
+    "vagas_total": 57,
+    "matriculas": 223,
+    "ingressos": 41,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Botucatu",
+    "slug": "BOTUCATU",
+    "cod_ibge": "3507506",
+    "vagas_total": 52,
+    "matriculas": 288,
+    "ingressos": 49,
+    "concluintes": 41,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araraquara",
+    "slug": "ARARAQUARA",
+    "cod_ibge": "3503208",
+    "vagas_total": 42,
+    "matriculas": 222,
+    "ingressos": 40,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

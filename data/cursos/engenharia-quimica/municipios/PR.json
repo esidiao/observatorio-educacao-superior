@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 282,
+    "matriculas": 446,
+    "ingressos": 106,
+    "concluintes": 76,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 243,
+    "matriculas": 944,
+    "ingressos": 211,
+    "concluintes": 140,
+    "n_cursos": 6,
+    "n_ies": 5
+  },
+  {
+    "nome": "Telêmaco Borba",
+    "slug": "TELEMACO_BORBA",
+    "cod_ibge": "4127106",
+    "vagas_total": 140,
+    "matriculas": 77,
+    "ingressos": 25,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 94,
+    "matriculas": 336,
+    "ingressos": 58,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Francisco Beltrão",
+    "slug": "FRANCISCO_BELTRAO",
+    "cod_ibge": "4108403",
+    "vagas_total": 90,
+    "matriculas": 237,
+    "ingressos": 23,
+    "concluintes": 49,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 90,
+    "matriculas": 371,
+    "ingressos": 69,
+    "concluintes": 55,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Apucarana",
+    "slug": "APUCARANA",
+    "cod_ibge": "4101408",
+    "vagas_total": 89,
+    "matriculas": 292,
+    "ingressos": 29,
+    "concluintes": 49,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 63,
+    "matriculas": 132,
+    "ingressos": 37,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Mourão",
+    "slug": "CAMPO_MOURAO",
+    "cod_ibge": "4104303",
+    "vagas_total": 50,
+    "matriculas": 152,
+    "ingressos": 35,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 50,
+    "matriculas": 130,
+    "ingressos": 24,
+    "concluintes": 38,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

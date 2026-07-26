@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Várzea Grande",
+    "slug": "VARZEA_GRANDE",
+    "cod_ibge": "5108402",
+    "vagas_total": 302,
+    "matriculas": 6,
+    "ingressos": 2,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 200,
+    "matriculas": 244,
+    "ingressos": 74,
+    "concluintes": 11,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Guarantã do Norte",
+    "slug": "GUARANTA_DO_NORTE",
+    "cod_ibge": "5104104",
+    "vagas_total": 130,
+    "matriculas": 5,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

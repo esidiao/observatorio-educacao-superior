@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 44,
+    "matriculas": 148,
+    "ingressos": 43,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapajé",
+    "slug": "ITAPAJE",
+    "cod_ibge": "2306306",
+    "vagas_total": 41,
+    "matriculas": 61,
+    "ingressos": 30,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 103,
+    "matriculas": 180,
+    "ingressos": 44,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

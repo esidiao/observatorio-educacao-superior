@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Cáceres",
+    "slug": "CACERES",
+    "cod_ibge": "5102504",
+    "vagas_total": 1,
+    "matriculas": 21,
+    "ingressos": 1,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 0,
+    "matriculas": 39,
+    "ingressos": 0,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

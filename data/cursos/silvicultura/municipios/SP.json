@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Capão Bonito",
+    "slug": "CAPAO_BONITO",
+    "cod_ibge": "3510203",
+    "vagas_total": 83,
+    "matriculas": 131,
+    "ingressos": 69,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

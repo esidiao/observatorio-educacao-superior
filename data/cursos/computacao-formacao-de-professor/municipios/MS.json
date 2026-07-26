@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Jardim",
+    "slug": "JARDIM",
+    "cod_ibge": "5005004",
+    "vagas_total": 60,
+    "matriculas": 73,
+    "ingressos": 50,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 149,
+    "matriculas": 445,
+    "ingressos": 131,
+    "concluintes": 40,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 83,
+    "matriculas": 87,
+    "ingressos": 51,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 52,
+    "matriculas": 132,
+    "ingressos": 34,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 49,
+    "matriculas": 97,
+    "ingressos": 32,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paranaguá",
+    "slug": "PARANAGUA",
+    "cod_ibge": "4118204",
+    "vagas_total": 39,
+    "matriculas": 89,
+    "ingressos": 30,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Apucarana",
+    "slug": "APUCARANA",
+    "cod_ibge": "4101408",
+    "vagas_total": 27,
+    "matriculas": 47,
+    "ingressos": 21,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marechal Cândido Rondon",
+    "slug": "MARECHAL_CANDIDO_RONDON",
+    "cod_ibge": "4114609",
+    "vagas_total": 21,
+    "matriculas": 42,
+    "ingressos": 13,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Irati",
+    "slug": "IRATI",
+    "cod_ibge": "4110706",
+    "vagas_total": 17,
+    "matriculas": 37,
+    "ingressos": 12,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

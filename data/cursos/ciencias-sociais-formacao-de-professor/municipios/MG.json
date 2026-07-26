@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 101,
+    "matriculas": 165,
+    "ingressos": 22,
+    "concluintes": 43,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 65,
+    "matriculas": 38,
+    "ingressos": 15,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ibirité",
+    "slug": "IBIRITE",
+    "cod_ibge": "3129806",
+    "vagas_total": 51,
+    "matriculas": 31,
+    "ingressos": 12,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alfenas",
+    "slug": "ALFENAS",
+    "cod_ibge": "3101607",
+    "vagas_total": 44,
+    "matriculas": 61,
+    "ingressos": 22,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 15,
+    "matriculas": 63,
+    "ingressos": 15,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 3,
+    "matriculas": 109,
+    "ingressos": 3,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barbacena",
+    "slug": "BARBACENA",
+    "cod_ibge": "3105608",
+    "vagas_total": 0,
+    "matriculas": 35,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

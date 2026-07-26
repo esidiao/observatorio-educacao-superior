@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 2612,
+    "matriculas": 1391,
+    "ingressos": 482,
+    "concluintes": 253,
+    "n_cursos": 14,
+    "n_ies": 9
+  },
+  {
+    "nome": "Guarulhos",
+    "slug": "GUARULHOS",
+    "cod_ibge": "3518800",
+    "vagas_total": 235,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rosana",
+    "slug": "ROSANA",
+    "cod_ibge": "3544251",
+    "vagas_total": 142,
+    "matriculas": 54,
+    "ingressos": 17,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 132,
+    "matriculas": 37,
+    "ingressos": 10,
+    "concluintes": 13,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Roque",
+    "slug": "SAO_ROQUE",
+    "cod_ibge": "3550605",
+    "vagas_total": 66,
+    "matriculas": 82,
+    "ingressos": 42,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santos",
+    "slug": "SANTOS",
+    "cod_ibge": "3548500",
+    "vagas_total": 60,
+    "matriculas": 2,
+    "ingressos": 3,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 51,
+    "matriculas": 145,
+    "ingressos": 25,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barretos",
+    "slug": "BARRETOS",
+    "cod_ibge": "3505500",
+    "vagas_total": 42,
+    "matriculas": 37,
+    "ingressos": 34,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campos do Jordão",
+    "slug": "CAMPOS_DO_JORDAO",
+    "cod_ibge": "3509700",
+    "vagas_total": 42,
+    "matriculas": 33,
+    "ingressos": 25,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cubatão",
+    "slug": "CUBATAO",
+    "cod_ibge": "3513504",
+    "vagas_total": 40,
+    "matriculas": 90,
+    "ingressos": 40,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

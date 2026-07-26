@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Várzea Grande",
+    "slug": "VARZEA_GRANDE",
+    "cod_ibge": "5108402",
+    "vagas_total": 212,
+    "matriculas": 106,
+    "ingressos": 79,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 50,
+    "matriculas": 48,
+    "ingressos": 48,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

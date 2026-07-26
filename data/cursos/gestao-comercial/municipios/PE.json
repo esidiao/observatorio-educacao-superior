@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 1149,
+    "matriculas": 160,
+    "ingressos": 51,
+    "concluintes": 70,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Cabo de Santo Agostinho",
+    "slug": "CABO_DE_SANTO_AGOSTINHO",
+    "cod_ibge": "2602902",
+    "vagas_total": 471,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 200,
+    "matriculas": 12,
+    "ingressos": 0,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arcoverde",
+    "slug": "ARCOVERDE",
+    "cod_ibge": "2601201",
+    "vagas_total": 55,
+    "matriculas": 13,
+    "ingressos": 0,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaboatão dos Guararapes",
+    "slug": "JABOATAO_DOS_GUARARAPES",
+    "cod_ibge": "2607901",
+    "vagas_total": 19,
+    "matriculas": 20,
+    "ingressos": 19,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 10,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

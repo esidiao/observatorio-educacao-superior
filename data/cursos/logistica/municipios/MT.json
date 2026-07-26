@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 210,
+    "matriculas": 119,
+    "ingressos": 56,
+    "concluintes": 61,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Barra do Garças",
+    "slug": "BARRA_DO_GARCAS",
+    "cod_ibge": "5101803",
+    "vagas_total": 100,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Várzea Grande",
+    "slug": "VARZEA_GRANDE",
+    "cod_ibge": "5108402",
+    "vagas_total": 80,
+    "matriculas": 1,
+    "ingressos": 1,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 60,
+    "matriculas": 10,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Matupá",
+    "slug": "MATUPA",
+    "cod_ibge": "5105606",
+    "vagas_total": 20,
+    "matriculas": 22,
+    "ingressos": 20,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

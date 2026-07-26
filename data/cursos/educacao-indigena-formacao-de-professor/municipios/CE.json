@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Redenção",
+    "slug": "REDENCAO",
+    "cod_ibge": "2311603",
+    "vagas_total": 80,
+    "matriculas": 78,
+    "ingressos": 80,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 62,
+    "matriculas": 136,
+    "ingressos": 62,
+    "concluintes": 36,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 29,
+    "matriculas": 29,
+    "ingressos": 29,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

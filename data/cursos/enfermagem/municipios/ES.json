@@ -1,0 +1,145 @@
+[
+  {
+    "nome": "Vitória",
+    "slug": "VITORIA",
+    "cod_ibge": "3205309",
+    "vagas_total": 1268,
+    "matriculas": 1332,
+    "ingressos": 392,
+    "concluintes": 253,
+    "n_cursos": 7,
+    "n_ies": 7
+  },
+  {
+    "nome": "Serra",
+    "slug": "SERRA",
+    "cod_ibge": "3205002",
+    "vagas_total": 369,
+    "matriculas": 314,
+    "ingressos": 129,
+    "concluintes": 65,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Vila Velha",
+    "slug": "VILA_VELHA",
+    "cod_ibge": "3205200",
+    "vagas_total": 346,
+    "matriculas": 786,
+    "ingressos": 218,
+    "concluintes": 129,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Cachoeiro de Itapemirim",
+    "slug": "CACHOEIRO_DE_ITAPEMIRIM",
+    "cod_ibge": "3201209",
+    "vagas_total": 292,
+    "matriculas": 382,
+    "ingressos": 43,
+    "concluintes": 88,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "São Mateus",
+    "slug": "SAO_MATEUS",
+    "cod_ibge": "3204906",
+    "vagas_total": 258,
+    "matriculas": 459,
+    "ingressos": 105,
+    "concluintes": 77,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Cariacica",
+    "slug": "CARIACICA",
+    "cod_ibge": "3201308",
+    "vagas_total": 176,
+    "matriculas": 232,
+    "ingressos": 57,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aracruz",
+    "slug": "ARACRUZ",
+    "cod_ibge": "3200607",
+    "vagas_total": 125,
+    "matriculas": 44,
+    "ingressos": 3,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Venécia",
+    "slug": "NOVA_VENECIA",
+    "cod_ibge": "3203908",
+    "vagas_total": 120,
+    "matriculas": 190,
+    "ingressos": 45,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Colatina",
+    "slug": "COLATINA",
+    "cod_ibge": "3201506",
+    "vagas_total": 110,
+    "matriculas": 200,
+    "ingressos": 39,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Venda Nova do Imigrante",
+    "slug": "VENDA_NOVA_DO_IMIGRANTE",
+    "cod_ibge": "3205069",
+    "vagas_total": 100,
+    "matriculas": 103,
+    "ingressos": 22,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alegre",
+    "slug": "ALEGRE",
+    "cod_ibge": "3200201",
+    "vagas_total": 88,
+    "matriculas": 162,
+    "ingressos": 32,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapari",
+    "slug": "GUARAPARI",
+    "cod_ibge": "3202405",
+    "vagas_total": 88,
+    "matriculas": 177,
+    "ingressos": 88,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Linhares",
+    "slug": "LINHARES",
+    "cod_ibge": "3203205",
+    "vagas_total": 64,
+    "matriculas": 135,
+    "ingressos": 64,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

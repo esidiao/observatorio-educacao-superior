@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 234,
+    "matriculas": 361,
+    "ingressos": 155,
+    "concluintes": 36,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 166,
+    "matriculas": 251,
+    "ingressos": 91,
+    "concluintes": 34,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Três Lagoas",
+    "slug": "TRES_LAGOAS",
+    "cod_ibge": "5008305",
+    "vagas_total": 100,
+    "matriculas": 29,
+    "ingressos": 24,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Porã",
+    "slug": "PONTA_PORA",
+    "cod_ibge": "5006606",
+    "vagas_total": 82,
+    "matriculas": 55,
+    "ingressos": 27,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Corumbá",
+    "slug": "CORUMBA",
+    "cod_ibge": "5003207",
+    "vagas_total": 52,
+    "matriculas": 169,
+    "ingressos": 53,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cassilândia",
+    "slug": "CASSILANDIA",
+    "cod_ibge": "5002902",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

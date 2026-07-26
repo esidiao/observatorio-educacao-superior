@@ -1,0 +1,222 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 345,
+    "matriculas": 708,
+    "ingressos": 196,
+    "concluintes": 74,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "São Carlos",
+    "slug": "SAO_CARLOS",
+    "cod_ibge": "3548906",
+    "vagas_total": 197,
+    "matriculas": 137,
+    "ingressos": 46,
+    "concluintes": 11,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Araras",
+    "slug": "ARARAS",
+    "cod_ibge": "3503307",
+    "vagas_total": 90,
+    "matriculas": 71,
+    "ingressos": 23,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 60,
+    "matriculas": 61,
+    "ingressos": 26,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ilha Solteira",
+    "slug": "ILHA_SOLTEIRA",
+    "cod_ibge": "3520442",
+    "vagas_total": 56,
+    "matriculas": 38,
+    "ingressos": 10,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 55,
+    "matriculas": 225,
+    "ingressos": 45,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Limpo Paulista",
+    "slug": "CAMPO_LIMPO_PAULISTA",
+    "cod_ibge": "3509601",
+    "vagas_total": 50,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Presidente Prudente",
+    "slug": "PRESIDENTE_PRUDENTE",
+    "cod_ibge": "3541406",
+    "vagas_total": 50,
+    "matriculas": 50,
+    "ingressos": 16,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piracicaba",
+    "slug": "PIRACICABA",
+    "cod_ibge": "3538709",
+    "vagas_total": 42,
+    "matriculas": 64,
+    "ingressos": 38,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Birigui",
+    "slug": "BIRIGUI",
+    "cod_ibge": "3506508",
+    "vagas_total": 41,
+    "matriculas": 57,
+    "ingressos": 30,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Votuporanga",
+    "slug": "VOTUPORANGA",
+    "cod_ibge": "3557105",
+    "vagas_total": 41,
+    "matriculas": 47,
+    "ingressos": 30,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caraguatatuba",
+    "slug": "CARAGUATATUBA",
+    "cod_ibge": "3510500",
+    "vagas_total": 40,
+    "matriculas": 76,
+    "ingressos": 40,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapetininga",
+    "slug": "ITAPETININGA",
+    "cod_ibge": "3522307",
+    "vagas_total": 40,
+    "matriculas": 57,
+    "ingressos": 31,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Registro",
+    "slug": "REGISTRO",
+    "cod_ibge": "3542602",
+    "vagas_total": 40,
+    "matriculas": 70,
+    "ingressos": 36,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João da Boa Vista",
+    "slug": "SAO_JOAO_DA_BOA_VISTA",
+    "cod_ibge": "3549102",
+    "vagas_total": 40,
+    "matriculas": 26,
+    "ingressos": 22,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo André",
+    "slug": "SANTO_ANDRE",
+    "cod_ibge": "3547809",
+    "vagas_total": 39,
+    "matriculas": 48,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bauru",
+    "slug": "BAURU",
+    "cod_ibge": "3506003",
+    "vagas_total": 31,
+    "matriculas": 154,
+    "ingressos": 0,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José do Rio Preto",
+    "slug": "SAO_JOSE_DO_RIO_PRETO",
+    "cod_ibge": "3549805",
+    "vagas_total": 30,
+    "matriculas": 54,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Claro",
+    "slug": "RIO_CLARO",
+    "cod_ibge": "3543907",
+    "vagas_total": 5,
+    "matriculas": 49,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guaratinguetá",
+    "slug": "GUARATINGUETA",
+    "cod_ibge": "3518404",
+    "vagas_total": 2,
+    "matriculas": 37,
+    "ingressos": 0,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

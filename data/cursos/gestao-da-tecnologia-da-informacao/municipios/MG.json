@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Pará de Minas",
+    "slug": "PARA_DE_MINAS",
+    "cod_ibge": "3147105",
+    "vagas_total": 56,
+    "matriculas": 90,
+    "ingressos": 54,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João del Rei",
+    "slug": "SAO_JOAO_DEL_REI",
+    "cod_ibge": "3162500",
+    "vagas_total": 44,
+    "matriculas": 133,
+    "ingressos": 38,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Muriaé",
+    "slug": "MURIAE",
+    "cod_ibge": "3143906",
+    "vagas_total": 35,
+    "matriculas": 76,
+    "ingressos": 38,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 22,
+    "matriculas": 61,
+    "ingressos": 22,
+    "concluintes": 17,
+    "n_cursos": 5,
+    "n_ies": 2
+  },
+  {
+    "nome": "Betim",
+    "slug": "BETIM",
+    "cod_ibge": "3106705",
+    "vagas_total": 7,
+    "matriculas": 5,
+    "ingressos": 7,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 5,
+    "matriculas": 6,
+    "ingressos": 5,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itabira",
+    "slug": "ITABIRA",
+    "cod_ibge": "3131703",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

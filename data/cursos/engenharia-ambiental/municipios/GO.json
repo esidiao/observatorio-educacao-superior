@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Caldas Novas",
+    "slug": "CALDAS_NOVAS",
+    "cod_ibge": "5204508",
+    "vagas_total": 102,
+    "matriculas": 8,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 100,
+    "matriculas": 96,
+    "ingressos": 34,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Verde",
+    "slug": "RIO_VERDE",
+    "cod_ibge": "5218805",
+    "vagas_total": 24,
+    "matriculas": 71,
+    "ingressos": 16,
+    "concluintes": 9,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

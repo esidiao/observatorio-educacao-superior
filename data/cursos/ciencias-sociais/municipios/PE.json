@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 200,
+    "matriculas": 466,
+    "ingressos": 140,
+    "concluintes": 43,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

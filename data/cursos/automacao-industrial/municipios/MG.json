@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Ituiutaba",
+    "slug": "ITUIUTABA",
+    "cod_ibge": "3134202",
+    "vagas_total": 65,
+    "matriculas": 22,
+    "ingressos": 24,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 5,
+    "matriculas": 18,
+    "ingressos": 5,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Betim",
+    "slug": "BETIM",
+    "cod_ibge": "3106705",
+    "vagas_total": 1,
+    "matriculas": 2,
+    "ingressos": 1,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

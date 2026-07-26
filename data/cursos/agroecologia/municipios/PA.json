@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Abaetetuba",
+    "slug": "ABAETETUBA",
+    "cod_ibge": "1500107",
+    "vagas_total": 48,
+    "matriculas": 116,
+    "ingressos": 30,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bragança",
+    "slug": "BRAGANCA",
+    "cod_ibge": "1501709",
+    "vagas_total": 41,
+    "matriculas": 104,
+    "ingressos": 19,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Breves",
+    "slug": "BREVES",
+    "cod_ibge": "1501808",
+    "vagas_total": 40,
+    "matriculas": 63,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cametá",
+    "slug": "CAMETA",
+    "cod_ibge": "1502103",
+    "vagas_total": 40,
+    "matriculas": 8,
+    "ingressos": 21,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 40,
+    "matriculas": 64,
+    "ingressos": 23,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

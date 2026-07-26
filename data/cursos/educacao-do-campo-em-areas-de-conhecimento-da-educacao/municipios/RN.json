@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 60,
+    "matriculas": 28,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 57,
+    "matriculas": 199,
+    "ingressos": 0,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Canguaretama",
+    "slug": "CANGUARETAMA",
+    "cod_ibge": "2402204",
+    "vagas_total": 48,
+    "matriculas": 102,
+    "ingressos": 40,
+    "concluintes": 6,
+    "n_cursos": 2,
+    "n_ies": 1
+  }
+]

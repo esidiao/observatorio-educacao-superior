@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 713,
+    "matriculas": 696,
+    "ingressos": 228,
+    "concluintes": 94,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Alagoinhas",
+    "slug": "ALAGOINHAS",
+    "cod_ibge": "2900702",
+    "vagas_total": 40,
+    "matriculas": 5,
+    "ingressos": 1,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

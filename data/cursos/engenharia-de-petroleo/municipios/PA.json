@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Salinópolis",
+    "slug": "SALINOPOLIS",
+    "cod_ibge": "1506203",
+    "vagas_total": 65,
+    "matriculas": 180,
+    "ingressos": 35,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

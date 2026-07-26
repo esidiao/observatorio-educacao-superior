@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 291,
+    "matriculas": 124,
+    "ingressos": 61,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 175,
+    "matriculas": 33,
+    "ingressos": 30,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 133,
+    "matriculas": 71,
+    "ingressos": 12,
+    "concluintes": 23,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "São João del Rei",
+    "slug": "SAO_JOAO_DEL_REI",
+    "cod_ibge": "3162500",
+    "vagas_total": 80,
+    "matriculas": 162,
+    "ingressos": 24,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Montes Claros",
+    "slug": "MONTES_CLAROS",
+    "cod_ibge": "3143302",
+    "vagas_total": 70,
+    "matriculas": 106,
+    "ingressos": 35,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ouro Preto",
+    "slug": "OURO_PRETO",
+    "cod_ibge": "3146107",
+    "vagas_total": 64,
+    "matriculas": 65,
+    "ingressos": 21,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 63,
+    "matriculas": 97,
+    "ingressos": 16,
+    "concluintes": 25,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 1262,
+    "matriculas": 1223,
+    "ingressos": 828,
+    "concluintes": 160,
+    "n_cursos": 8,
+    "n_ies": 7
+  },
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 470,
+    "matriculas": 717,
+    "ingressos": 342,
+    "concluintes": 47,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Patos",
+    "slug": "PATOS",
+    "cod_ibge": "2510808",
+    "vagas_total": 104,
+    "matriculas": 173,
+    "ingressos": 94,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Esperança",
+    "slug": "ESPERANCA",
+    "cod_ibge": "2506004",
+    "vagas_total": 88,
+    "matriculas": 135,
+    "ingressos": 91,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Monteiro",
+    "slug": "MONTEIRO",
+    "cod_ibge": "2509701",
+    "vagas_total": 87,
+    "matriculas": 275,
+    "ingressos": 84,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cajazeiras",
+    "slug": "CAJAZEIRAS",
+    "cod_ibge": "2503704",
+    "vagas_total": 68,
+    "matriculas": 243,
+    "ingressos": 63,
+    "concluintes": 44,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Tinto",
+    "slug": "RIO_TINTO",
+    "cod_ibge": "2512903",
+    "vagas_total": 50,
+    "matriculas": 196,
+    "ingressos": 46,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Rita",
+    "slug": "SANTA_RITA",
+    "cod_ibge": "2513703",
+    "vagas_total": 40,
+    "matriculas": 34,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

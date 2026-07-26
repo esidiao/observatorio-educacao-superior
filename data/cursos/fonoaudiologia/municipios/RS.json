@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 252,
+    "matriculas": 305,
+    "ingressos": 94,
+    "concluintes": 51,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Canoas",
+    "slug": "CANOAS",
+    "cod_ibge": "4304606",
+    "vagas_total": 201,
+    "matriculas": 216,
+    "ingressos": 115,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 85,
+    "matriculas": 44,
+    "ingressos": 19,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ijuí",
+    "slug": "IJUI",
+    "cod_ibge": "4310207",
+    "vagas_total": 44,
+    "matriculas": 41,
+    "ingressos": 45,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Passo Fundo",
+    "slug": "PASSO_FUNDO",
+    "cod_ibge": "4314100",
+    "vagas_total": 37,
+    "matriculas": 80,
+    "ingressos": 37,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 35,
+    "matriculas": 150,
+    "ingressos": 35,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Macapá",
+    "slug": "MACAPA",
+    "cod_ibge": "1600303",
+    "vagas_total": 1327,
+    "matriculas": 545,
+    "ingressos": 170,
+    "concluintes": 67,
+    "n_cursos": 7,
+    "n_ies": 7
+  },
+  {
+    "nome": "Santana",
+    "slug": "SANTANA",
+    "cod_ibge": "1600600",
+    "vagas_total": 300,
+    "matriculas": 101,
+    "ingressos": 3,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Laranjal do Jari",
+    "slug": "LARANJAL_DO_JARI",
+    "cod_ibge": "1600279",
+    "vagas_total": 43,
+    "matriculas": 158,
+    "ingressos": 42,
+    "concluintes": 59,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

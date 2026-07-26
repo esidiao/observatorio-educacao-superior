@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 309,
+    "matriculas": 230,
+    "ingressos": 105,
+    "concluintes": 74,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 145,
+    "matriculas": 7,
+    "ingressos": 9,
+    "concluintes": 3,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

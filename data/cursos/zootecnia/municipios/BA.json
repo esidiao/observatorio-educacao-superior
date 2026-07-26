@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 100,
+    "matriculas": 218,
+    "ingressos": 69,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapetinga",
+    "slug": "ITAPETINGA",
+    "cod_ibge": "2916401",
+    "vagas_total": 95,
+    "matriculas": 181,
+    "ingressos": 43,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cruz das Almas",
+    "slug": "CRUZ_DAS_ALMAS",
+    "cod_ibge": "2909802",
+    "vagas_total": 84,
+    "matriculas": 220,
+    "ingressos": 60,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Inês",
+    "slug": "SANTA_INES",
+    "cod_ibge": "2927903",
+    "vagas_total": 40,
+    "matriculas": 94,
+    "ingressos": 32,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

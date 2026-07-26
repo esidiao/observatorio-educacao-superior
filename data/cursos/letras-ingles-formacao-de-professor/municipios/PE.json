@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Afogados da Ingazeira",
+    "slug": "AFOGADOS_DA_INGAZEIRA",
+    "cod_ibge": "2600104",
+    "vagas_total": 52,
+    "matriculas": 75,
+    "ingressos": 16,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 30,
+    "matriculas": 124,
+    "ingressos": 26,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 20,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

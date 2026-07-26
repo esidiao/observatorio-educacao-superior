@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 1146,
+    "matriculas": 1009,
+    "ingressos": 331,
+    "concluintes": 144,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 189,
+    "matriculas": 291,
+    "ingressos": 68,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Três Lagoas",
+    "slug": "TRES_LAGOAS",
+    "cod_ibge": "5008305",
+    "vagas_total": 100,
+    "matriculas": 55,
+    "ingressos": 17,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Naviraí",
+    "slug": "NAVIRAI",
+    "cod_ibge": "5005707",
+    "vagas_total": 91,
+    "matriculas": 145,
+    "ingressos": 33,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jardim",
+    "slug": "JARDIM",
+    "cod_ibge": "5005004",
+    "vagas_total": 56,
+    "matriculas": 95,
+    "ingressos": 40,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

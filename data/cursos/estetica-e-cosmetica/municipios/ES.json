@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Vila Velha",
+    "slug": "VILA_VELHA",
+    "cod_ibge": "3205200",
+    "vagas_total": 204,
+    "matriculas": 99,
+    "ingressos": 60,
+    "concluintes": 22,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Colatina",
+    "slug": "COLATINA",
+    "cod_ibge": "3201506",
+    "vagas_total": 102,
+    "matriculas": 71,
+    "ingressos": 29,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória",
+    "slug": "VITORIA",
+    "cod_ibge": "3205309",
+    "vagas_total": 100,
+    "matriculas": 0,
+    "ingressos": 11,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

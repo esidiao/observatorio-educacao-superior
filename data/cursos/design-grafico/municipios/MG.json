@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 347,
+    "matriculas": 90,
+    "ingressos": 34,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 235,
+    "matriculas": 546,
+    "ingressos": 146,
+    "concluintes": 56,
+    "n_cursos": 7,
+    "n_ies": 4
+  },
+  {
+    "nome": "Contagem",
+    "slug": "CONTAGEM",
+    "cod_ibge": "3118601",
+    "vagas_total": 21,
+    "matriculas": 38,
+    "ingressos": 21,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 20,
+    "matriculas": 27,
+    "ingressos": 17,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pouso Alegre",
+    "slug": "POUSO_ALEGRE",
+    "cod_ibge": "3152501",
+    "vagas_total": 6,
+    "matriculas": 11,
+    "ingressos": 6,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

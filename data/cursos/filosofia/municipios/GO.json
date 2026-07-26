@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 140,
+    "matriculas": 148,
+    "ingressos": 67,
+    "concluintes": 13,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Goiás",
+    "slug": "GOIAS",
+    "cod_ibge": "5208905",
+    "vagas_total": 101,
+    "matriculas": 7,
+    "ingressos": 8,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

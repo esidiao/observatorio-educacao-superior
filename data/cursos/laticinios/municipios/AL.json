@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Satuba",
+    "slug": "SATUBA",
+    "cod_ibge": "2708907",
+    "vagas_total": 30,
+    "matriculas": 50,
+    "ingressos": 23,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

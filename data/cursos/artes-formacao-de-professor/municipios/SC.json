@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 2,
+    "matriculas": 21,
+    "ingressos": 2,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Laguna",
+    "slug": "LAGUNA",
+    "cod_ibge": "4209409",
+    "vagas_total": 0,
+    "matriculas": 26,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tubarão",
+    "slug": "TUBARAO",
+    "cod_ibge": "4218707",
+    "vagas_total": 0,
+    "matriculas": 18,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Xanxerê",
+    "slug": "XANXERE",
+    "cod_ibge": "4219507",
+    "vagas_total": 0,
+    "matriculas": 24,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

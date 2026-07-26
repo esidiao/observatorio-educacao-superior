@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 44,
+    "matriculas": 161,
+    "ingressos": 40,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

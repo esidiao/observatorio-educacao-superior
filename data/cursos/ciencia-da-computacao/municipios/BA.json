@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 781,
+    "matriculas": 1376,
+    "ingressos": 492,
+    "concluintes": 116,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "Ilhéus",
+    "slug": "ILHEUS",
+    "cod_ibge": "2913606",
+    "vagas_total": 92,
+    "matriculas": 283,
+    "ingressos": 71,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória da Conquista",
+    "slug": "VITORIA_DA_CONQUISTA",
+    "cod_ibge": "2933307",
+    "vagas_total": 62,
+    "matriculas": 223,
+    "ingressos": 49,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 24,
+    "matriculas": 34,
+    "ingressos": 24,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guanambi",
+    "slug": "GUANAMBI",
+    "cod_ibge": "2911709",
+    "vagas_total": 21,
+    "matriculas": 25,
+    "ingressos": 21,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paripiranga",
+    "slug": "PARIPIRANGA",
+    "cod_ibge": "2923803",
+    "vagas_total": 15,
+    "matriculas": 30,
+    "ingressos": 15,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Camaçari",
+    "slug": "CAMACARI",
+    "cod_ibge": "2905701",
+    "vagas_total": 0,
+    "matriculas": 56,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Teixeira de Freitas",
+    "slug": "TEIXEIRA_DE_FREITAS",
+    "cod_ibge": "2931350",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

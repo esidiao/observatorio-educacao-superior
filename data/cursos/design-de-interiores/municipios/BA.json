@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 189,
+    "matriculas": 133,
+    "ingressos": 68,
+    "concluintes": 25,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 12,
+    "matriculas": 44,
+    "ingressos": 12,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

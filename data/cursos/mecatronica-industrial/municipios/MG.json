@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Extrema",
+    "slug": "EXTREMA",
+    "cod_ibge": "3125101",
+    "vagas_total": 51,
+    "matriculas": 34,
+    "ingressos": 1,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 0,
+    "matriculas": 17,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

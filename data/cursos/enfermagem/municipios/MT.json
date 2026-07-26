@@ -1,0 +1,233 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 1003,
+    "matriculas": 1373,
+    "ingressos": 509,
+    "concluintes": 192,
+    "n_cursos": 7,
+    "n_ies": 7
+  },
+  {
+    "nome": "Cáceres",
+    "slug": "CACERES",
+    "cod_ibge": "5102504",
+    "vagas_total": 578,
+    "matriculas": 524,
+    "ingressos": 145,
+    "concluintes": 67,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Várzea Grande",
+    "slug": "VARZEA_GRANDE",
+    "cod_ibge": "5108402",
+    "vagas_total": 515,
+    "matriculas": 206,
+    "ingressos": 59,
+    "concluintes": 43,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José dos Quatro Marcos",
+    "slug": "SAO_JOSE_DOS_QUATRO_MARCOS",
+    "cod_ibge": "5107107",
+    "vagas_total": 415,
+    "matriculas": 115,
+    "ingressos": 48,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 346,
+    "matriculas": 280,
+    "ingressos": 106,
+    "concluintes": 41,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Sorriso",
+    "slug": "SORRISO",
+    "cod_ibge": "5107925",
+    "vagas_total": 218,
+    "matriculas": 124,
+    "ingressos": 59,
+    "concluintes": 21,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 213,
+    "matriculas": 382,
+    "ingressos": 127,
+    "concluintes": 69,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Barra do Garças",
+    "slug": "BARRA_DO_GARCAS",
+    "cod_ibge": "5101803",
+    "vagas_total": 186,
+    "matriculas": 205,
+    "ingressos": 49,
+    "concluintes": 34,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Primavera do Leste",
+    "slug": "PRIMAVERA_DO_LESTE",
+    "cod_ibge": "5107040",
+    "vagas_total": 173,
+    "matriculas": 104,
+    "ingressos": 73,
+    "concluintes": 17,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Tangará da Serra",
+    "slug": "TANGARA_DA_SERRA",
+    "cod_ibge": "5107958",
+    "vagas_total": 161,
+    "matriculas": 410,
+    "ingressos": 157,
+    "concluintes": 67,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Guarantã do Norte",
+    "slug": "GUARANTA_DO_NORTE",
+    "cod_ibge": "5104104",
+    "vagas_total": 123,
+    "matriculas": 91,
+    "ingressos": 17,
+    "concluintes": 25,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Lucas do Rio Verde",
+    "slug": "LUCAS_DO_RIO_VERDE",
+    "cod_ibge": "5105259",
+    "vagas_total": 108,
+    "matriculas": 28,
+    "ingressos": 11,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Colíder",
+    "slug": "COLIDER",
+    "cod_ibge": "5103205",
+    "vagas_total": 106,
+    "matriculas": 83,
+    "ingressos": 14,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaciara",
+    "slug": "JACIARA",
+    "cod_ibge": "5104807",
+    "vagas_total": 100,
+    "matriculas": 85,
+    "ingressos": 29,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juara",
+    "slug": "JUARA",
+    "cod_ibge": "5105101",
+    "vagas_total": 100,
+    "matriculas": 29,
+    "ingressos": 1,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Diamantino",
+    "slug": "DIAMANTINO",
+    "cod_ibge": "5103502",
+    "vagas_total": 90,
+    "matriculas": 210,
+    "ingressos": 67,
+    "concluintes": 43,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juína",
+    "slug": "JUINA",
+    "cod_ibge": "5105150",
+    "vagas_total": 60,
+    "matriculas": 5,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Novo do Parecis",
+    "slug": "CAMPO_NOVO_DO_PARECIS",
+    "cod_ibge": "5102637",
+    "vagas_total": 50,
+    "matriculas": 28,
+    "ingressos": 0,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pontal do Araguaia",
+    "slug": "PONTAL_DO_ARAGUAIA",
+    "cod_ibge": "5106653",
+    "vagas_total": 30,
+    "matriculas": 111,
+    "ingressos": 30,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alta Floresta",
+    "slug": "ALTA_FLORESTA",
+    "cod_ibge": "5100250",
+    "vagas_total": 28,
+    "matriculas": 71,
+    "ingressos": 25,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra do Bugres",
+    "slug": "BARRA_DO_BUGRES",
+    "cod_ibge": "5101704",
+    "vagas_total": 1,
+    "matriculas": 49,
+    "ingressos": 1,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Jaboticabal",
+    "slug": "JABOTICABAL",
+    "cod_ibge": "3524303",
+    "vagas_total": 173,
+    "matriculas": 201,
+    "ingressos": 97,
+    "concluintes": 41,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piracicaba",
+    "slug": "PIRACICABA",
+    "cod_ibge": "3538709",
+    "vagas_total": 96,
+    "matriculas": 187,
+    "ingressos": 84,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araçatuba",
+    "slug": "ARACATUBA",
+    "cod_ibge": "3502804",
+    "vagas_total": 90,
+    "matriculas": 76,
+    "ingressos": 57,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

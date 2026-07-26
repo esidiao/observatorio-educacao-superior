@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 981,
+    "matriculas": 1306,
+    "ingressos": 364,
+    "concluintes": 211,
+    "n_cursos": 6,
+    "n_ies": 5
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 298,
+    "matriculas": 554,
+    "ingressos": 170,
+    "concluintes": 119,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Poços de Caldas",
+    "slug": "POCOS_DE_CALDAS",
+    "cod_ibge": "3151800",
+    "vagas_total": 140,
+    "matriculas": 158,
+    "ingressos": 52,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

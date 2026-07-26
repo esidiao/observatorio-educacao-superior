@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 169,
+    "matriculas": 383,
+    "ingressos": 136,
+    "concluintes": 53,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 74,
+    "matriculas": 104,
+    "ingressos": 25,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ananindeua",
+    "slug": "ANANINDEUA",
+    "cod_ibge": "1500800",
+    "vagas_total": 55,
+    "matriculas": 105,
+    "ingressos": 31,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cametá",
+    "slug": "CAMETA",
+    "cod_ibge": "1502103",
+    "vagas_total": 40,
+    "matriculas": 51,
+    "ingressos": 35,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paragominas",
+    "slug": "PARAGOMINAS",
+    "cod_ibge": "1505502",
+    "vagas_total": 40,
+    "matriculas": 14,
+    "ingressos": 7,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 30,
+    "matriculas": 67,
+    "ingressos": 16,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salvaterra",
+    "slug": "SALVATERRA",
+    "cod_ibge": "1506302",
+    "vagas_total": 20,
+    "matriculas": 42,
+    "ingressos": 1,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barcarena",
+    "slug": "BARCARENA",
+    "cod_ibge": "1501303",
+    "vagas_total": 0,
+    "matriculas": 39,
+    "ingressos": 0,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Conceição do Araguaia",
+    "slug": "CONCEICAO_DO_ARAGUAIA",
+    "cod_ibge": "1502707",
+    "vagas_total": 0,
+    "matriculas": 11,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

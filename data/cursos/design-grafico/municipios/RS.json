@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Novo Hamburgo",
+    "slug": "NOVO_HAMBURGO",
+    "cod_ibge": "4313409",
+    "vagas_total": 156,
+    "matriculas": 45,
+    "ingressos": 16,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Passo Fundo",
+    "slug": "PASSO_FUNDO",
+    "cod_ibge": "4314100",
+    "vagas_total": 94,
+    "matriculas": 133,
+    "ingressos": 58,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 87,
+    "matriculas": 60,
+    "ingressos": 30,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Canoas",
+    "slug": "CANOAS",
+    "cod_ibge": "4304606",
+    "vagas_total": 76,
+    "matriculas": 134,
+    "ingressos": 54,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 56,
+    "matriculas": 251,
+    "ingressos": 54,
+    "concluintes": 32,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ijuí",
+    "slug": "IJUI",
+    "cod_ibge": "4310207",
+    "vagas_total": 35,
+    "matriculas": 17,
+    "ingressos": 21,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 32,
+    "matriculas": 21,
+    "ingressos": 11,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 27,
+    "matriculas": 100,
+    "ingressos": 27,
+    "concluintes": 35,
+    "n_cursos": 5,
+    "n_ies": 2
+  }
+]

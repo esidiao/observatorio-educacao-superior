@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 1386,
+    "matriculas": 462,
+    "ingressos": 143,
+    "concluintes": 61,
+    "n_cursos": 4,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ananindeua",
+    "slug": "ANANINDEUA",
+    "cod_ibge": "1500800",
+    "vagas_total": 680,
+    "matriculas": 203,
+    "ingressos": 123,
+    "concluintes": 27,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 448,
+    "matriculas": 90,
+    "ingressos": 38,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

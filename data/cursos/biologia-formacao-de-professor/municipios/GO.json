@@ -1,0 +1,178 @@
+[
+  {
+    "nome": "Trindade",
+    "slug": "TRINDADE",
+    "cod_ibge": "5221403",
+    "vagas_total": 497,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 284,
+    "matriculas": 263,
+    "ingressos": 83,
+    "concluintes": 38,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 256,
+    "matriculas": 114,
+    "ingressos": 47,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palmeiras de Goiás",
+    "slug": "PALMEIRAS_DE_GOIAS",
+    "cod_ibge": "5215702",
+    "vagas_total": 219,
+    "matriculas": 67,
+    "ingressos": 27,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Quirinópolis",
+    "slug": "QUIRINOPOLIS",
+    "cod_ibge": "5218508",
+    "vagas_total": 181,
+    "matriculas": 81,
+    "ingressos": 36,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iporá",
+    "slug": "IPORA",
+    "cod_ibge": "5210208",
+    "vagas_total": 166,
+    "matriculas": 88,
+    "ingressos": 39,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caldas Novas",
+    "slug": "CALDAS_NOVAS",
+    "cod_ibge": "5204508",
+    "vagas_total": 103,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Urutaí",
+    "slug": "URUTAI",
+    "cod_ibge": "5221809",
+    "vagas_total": 102,
+    "matriculas": 78,
+    "ingressos": 17,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catalão",
+    "slug": "CATALAO",
+    "cod_ibge": "5205109",
+    "vagas_total": 69,
+    "matriculas": 92,
+    "ingressos": 38,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porangatu",
+    "slug": "PORANGATU",
+    "cod_ibge": "5218003",
+    "vagas_total": 63,
+    "matriculas": 18,
+    "ingressos": 18,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ceres",
+    "slug": "CERES",
+    "cod_ibge": "5205406",
+    "vagas_total": 56,
+    "matriculas": 120,
+    "ingressos": 17,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Formosa",
+    "slug": "FORMOSA",
+    "cod_ibge": "5208004",
+    "vagas_total": 46,
+    "matriculas": 99,
+    "ingressos": 32,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Posse",
+    "slug": "POSSE",
+    "cod_ibge": "5218300",
+    "vagas_total": 43,
+    "matriculas": 69,
+    "ingressos": 33,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Águas Lindas de Goiás",
+    "slug": "AGUAS_LINDAS_DE_GOIAS",
+    "cod_ibge": "5200258",
+    "vagas_total": 42,
+    "matriculas": 85,
+    "ingressos": 28,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jataí",
+    "slug": "JATAI",
+    "cod_ibge": "5211909",
+    "vagas_total": 32,
+    "matriculas": 36,
+    "ingressos": 13,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Verde",
+    "slug": "RIO_VERDE",
+    "cod_ibge": "5218805",
+    "vagas_total": 28,
+    "matriculas": 89,
+    "ingressos": 19,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

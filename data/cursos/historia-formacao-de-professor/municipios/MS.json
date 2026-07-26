@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 184,
+    "matriculas": 310,
+    "ingressos": 111,
+    "concluintes": 32,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Nova Andradina",
+    "slug": "NOVA_ANDRADINA",
+    "cod_ibge": "5006200",
+    "vagas_total": 159,
+    "matriculas": 60,
+    "ingressos": 21,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aquidauana",
+    "slug": "AQUIDAUANA",
+    "cod_ibge": "5001102",
+    "vagas_total": 92,
+    "matriculas": 111,
+    "ingressos": 37,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Três Lagoas",
+    "slug": "TRES_LAGOAS",
+    "cod_ibge": "5008305",
+    "vagas_total": 65,
+    "matriculas": 136,
+    "ingressos": 50,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Corumbá",
+    "slug": "CORUMBA",
+    "cod_ibge": "5003207",
+    "vagas_total": 48,
+    "matriculas": 119,
+    "ingressos": 46,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Amambai",
+    "slug": "AMAMBAI",
+    "cod_ibge": "5000609",
+    "vagas_total": 0,
+    "matriculas": 36,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 0,
+    "matriculas": 102,
+    "ingressos": 0,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

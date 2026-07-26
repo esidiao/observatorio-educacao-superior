@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 133,
+    "matriculas": 513,
+    "ingressos": 97,
+    "concluintes": 57,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Campo Mourão",
+    "slug": "CAMPO_MOURAO",
+    "cod_ibge": "4104303",
+    "vagas_total": 91,
+    "matriculas": 193,
+    "ingressos": 80,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cornélio Procópio",
+    "slug": "CORNELIO_PROCOPIO",
+    "cod_ibge": "4106407",
+    "vagas_total": 88,
+    "matriculas": 229,
+    "ingressos": 42,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 88,
+    "matriculas": 184,
+    "ingressos": 45,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Cruz das Almas",
+    "slug": "CRUZ_DAS_ALMAS",
+    "cod_ibge": "2909802",
+    "vagas_total": 76,
+    "matriculas": 79,
+    "ingressos": 21,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uruçuca",
+    "slug": "URUCUCA",
+    "cod_ibge": "2932705",
+    "vagas_total": 50,
+    "matriculas": 40,
+    "ingressos": 10,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

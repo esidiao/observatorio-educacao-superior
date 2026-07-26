@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 1407,
+    "matriculas": 812,
+    "ingressos": 227,
+    "concluintes": 105,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Crato",
+    "slug": "CRATO",
+    "cod_ibge": "2304202",
+    "vagas_total": 160,
+    "matriculas": 616,
+    "ingressos": 90,
+    "concluintes": 54,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iguatu",
+    "slug": "IGUATU",
+    "cod_ibge": "2305506",
+    "vagas_total": 80,
+    "matriculas": 229,
+    "ingressos": 33,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 60,
+    "matriculas": 208,
+    "ingressos": 50,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

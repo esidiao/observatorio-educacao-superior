@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Lages",
+    "slug": "LAGES",
+    "cod_ibge": "4209300",
+    "vagas_total": 300,
+    "matriculas": 58,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 188,
+    "matriculas": 178,
+    "ingressos": 44,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Concórdia",
+    "slug": "CONCORDIA",
+    "cod_ibge": "4204301",
+    "vagas_total": 154,
+    "matriculas": 38,
+    "ingressos": 13,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pinhalzinho",
+    "slug": "PINHALZINHO",
+    "cod_ibge": "4212908",
+    "vagas_total": 90,
+    "matriculas": 22,
+    "ingressos": 15,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 35,
+    "matriculas": 46,
+    "ingressos": 17,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Urupema",
+    "slug": "URUPEMA",
+    "cod_ibge": "4218954",
+    "vagas_total": 20,
+    "matriculas": 17,
+    "ingressos": 9,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Blumenau",
+    "slug": "BLUMENAU",
+    "cod_ibge": "4202404",
+    "vagas_total": 1,
+    "matriculas": 5,
+    "ingressos": 1,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

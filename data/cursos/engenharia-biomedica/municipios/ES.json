@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Serra",
+    "slug": "SERRA",
+    "cod_ibge": "3205002",
+    "vagas_total": 160,
+    "matriculas": 9,
+    "ingressos": 2,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

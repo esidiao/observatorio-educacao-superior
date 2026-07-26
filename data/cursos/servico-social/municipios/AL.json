@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Maceió",
+    "slug": "MACEIO",
+    "cod_ibge": "2704302",
+    "vagas_total": 365,
+    "matriculas": 718,
+    "ingressos": 185,
+    "concluintes": 79,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Palmeira dos Índios",
+    "slug": "PALMEIRA_DOS_INDIOS",
+    "cod_ibge": "2706307",
+    "vagas_total": 55,
+    "matriculas": 192,
+    "ingressos": 48,
+    "concluintes": 40,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

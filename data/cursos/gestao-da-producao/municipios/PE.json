@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Igarassu",
+    "slug": "IGARASSU",
+    "cod_ibge": "2606804",
+    "vagas_total": 200,
+    "matriculas": 77,
+    "ingressos": 35,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipojuca",
+    "slug": "IPOJUCA",
+    "cod_ibge": "2607208",
+    "vagas_total": 160,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

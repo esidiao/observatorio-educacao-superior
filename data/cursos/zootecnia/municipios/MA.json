@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Chapadinha",
+    "slug": "CHAPADINHA",
+    "cod_ibge": "2103208",
+    "vagas_total": 108,
+    "matriculas": 272,
+    "ingressos": 55,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 96,
+    "matriculas": 277,
+    "ingressos": 73,
+    "concluintes": 25,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Timon",
+    "slug": "TIMON",
+    "cod_ibge": "2112209",
+    "vagas_total": 80,
+    "matriculas": 33,
+    "ingressos": 0,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 45,
+    "matriculas": 151,
+    "ingressos": 29,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Raimundo das Mangabeiras",
+    "slug": "SAO_RAIMUNDO_DAS_MANGABEIRAS",
+    "cod_ibge": "2111607",
+    "vagas_total": 45,
+    "matriculas": 135,
+    "ingressos": 43,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

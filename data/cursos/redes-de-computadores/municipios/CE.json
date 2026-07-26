@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 1511,
+    "matriculas": 161,
+    "ingressos": 61,
+    "concluintes": 47,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "Jaguaribe",
+    "slug": "JAGUARIBE",
+    "cod_ibge": "2306900",
+    "vagas_total": 65,
+    "matriculas": 160,
+    "ingressos": 40,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 57,
+    "matriculas": 127,
+    "ingressos": 51,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Canindé",
+    "slug": "CANINDE",
+    "cod_ibge": "2302800",
+    "vagas_total": 40,
+    "matriculas": 81,
+    "ingressos": 38,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

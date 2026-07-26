@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 1964,
+    "matriculas": 574,
+    "ingressos": 272,
+    "concluintes": 143,
+    "n_cursos": 11,
+    "n_ies": 8
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 120,
+    "matriculas": 34,
+    "ingressos": 24,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

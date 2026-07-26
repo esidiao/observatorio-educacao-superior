@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "São José",
+    "slug": "SAO_JOSE",
+    "cod_ibge": "4216602",
+    "vagas_total": 366,
+    "matriculas": 57,
+    "ingressos": 13,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lages",
+    "slug": "LAGES",
+    "cod_ibge": "4209300",
+    "vagas_total": 350,
+    "matriculas": 100,
+    "ingressos": 43,
+    "concluintes": 11,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Itajaí",
+    "slug": "ITAJAI",
+    "cod_ibge": "4208203",
+    "vagas_total": 211,
+    "matriculas": 45,
+    "ingressos": 28,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 91,
+    "matriculas": 101,
+    "ingressos": 47,
+    "concluintes": 16,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Criciúma",
+    "slug": "CRICIUMA",
+    "cod_ibge": "4204608",
+    "vagas_total": 90,
+    "matriculas": 87,
+    "ingressos": 46,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 71,
+    "matriculas": 321,
+    "ingressos": 68,
+    "concluintes": 66,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Blumenau",
+    "slug": "BLUMENAU",
+    "cod_ibge": "4202404",
+    "vagas_total": 42,
+    "matriculas": 73,
+    "ingressos": 24,
+    "concluintes": 11,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 31,
+    "matriculas": 50,
+    "ingressos": 24,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palhoça",
+    "slug": "PALHOCA",
+    "cod_ibge": "4211900",
+    "vagas_total": 7,
+    "matriculas": 21,
+    "ingressos": 7,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tubarão",
+    "slug": "TUBARAO",
+    "cod_ibge": "4218707",
+    "vagas_total": 6,
+    "matriculas": 25,
+    "ingressos": 6,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

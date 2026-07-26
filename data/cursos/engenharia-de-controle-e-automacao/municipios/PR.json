@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 105,
+    "matriculas": 457,
+    "ingressos": 101,
+    "concluintes": 33,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Cornélio Procópio",
+    "slug": "CORNELIO_PROCOPIO",
+    "cod_ibge": "4106407",
+    "vagas_total": 88,
+    "matriculas": 309,
+    "ingressos": 55,
+    "concluintes": 51,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jacarezinho",
+    "slug": "JACAREZINHO",
+    "cod_ibge": "4111803",
+    "vagas_total": 80,
+    "matriculas": 129,
+    "ingressos": 37,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 12,
+    "matriculas": 54,
+    "ingressos": 11,
+    "concluintes": 21,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

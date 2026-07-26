@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 165,
+    "matriculas": 408,
+    "ingressos": 46,
+    "concluintes": 52,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 158,
+    "matriculas": 402,
+    "ingressos": 154,
+    "concluintes": 38,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Marília",
+    "slug": "MARILIA",
+    "cod_ibge": "3529005",
+    "vagas_total": 50,
+    "matriculas": 184,
+    "ingressos": 0,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Votuporanga",
+    "slug": "VOTUPORANGA",
+    "cod_ibge": "3557105",
+    "vagas_total": 40,
+    "matriculas": 79,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araraquara",
+    "slug": "ARARAQUARA",
+    "cod_ibge": "3503208",
+    "vagas_total": 10,
+    "matriculas": 207,
+    "ingressos": 0,
+    "concluintes": 47,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarulhos",
+    "slug": "GUARULHOS",
+    "cod_ibge": "3518800",
+    "vagas_total": 1,
+    "matriculas": 162,
+    "ingressos": 1,
+    "concluintes": 41,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

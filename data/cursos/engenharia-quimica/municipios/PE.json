@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 694,
+    "matriculas": 32,
+    "ingressos": 1,
+    "concluintes": 13,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 691,
+    "matriculas": 464,
+    "ingressos": 98,
+    "concluintes": 66,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Belo Jardim",
+    "slug": "BELO_JARDIM",
+    "cod_ibge": "2601706",
+    "vagas_total": 80,
+    "matriculas": 103,
+    "ingressos": 25,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

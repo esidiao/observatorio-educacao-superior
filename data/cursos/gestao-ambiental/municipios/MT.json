@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 50,
+    "matriculas": 153,
+    "ingressos": 32,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorriso",
+    "slug": "SORRISO",
+    "cod_ibge": "5107925",
+    "vagas_total": 35,
+    "matriculas": 69,
+    "ingressos": 9,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 882,
+    "matriculas": 1185,
+    "ingressos": 565,
+    "concluintes": 54,
+    "n_cursos": 7,
+    "n_ies": 4
+  },
+  {
+    "nome": "Conselheiro Lafaiete",
+    "slug": "CONSELHEIRO_LAFAIETE",
+    "cod_ibge": "3118304",
+    "vagas_total": 300,
+    "matriculas": 44,
+    "ingressos": 53,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Rita do Sapucaí",
+    "slug": "SANTA_RITA_DO_SAPUCAI",
+    "cod_ibge": "3159605",
+    "vagas_total": 180,
+    "matriculas": 458,
+    "ingressos": 149,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Coronel Fabriciano",
+    "slug": "CORONEL_FABRICIANO",
+    "cod_ibge": "3119401",
+    "vagas_total": 170,
+    "matriculas": 250,
+    "ingressos": 130,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 125,
+    "matriculas": 188,
+    "ingressos": 63,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Serrana",
+    "slug": "NOVA_SERRANA",
+    "cod_ibge": "3145208",
+    "vagas_total": 80,
+    "matriculas": 13,
+    "ingressos": 13,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Contagem",
+    "slug": "CONTAGEM",
+    "cod_ibge": "3118601",
+    "vagas_total": 36,
+    "matriculas": 49,
+    "ingressos": 36,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

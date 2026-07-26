@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 90,
+    "matriculas": 205,
+    "ingressos": 72,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria da Vitória",
+    "slug": "SANTA_MARIA_DA_VITORIA",
+    "cod_ibge": "2928109",
+    "vagas_total": 55,
+    "matriculas": 56,
+    "ingressos": 10,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cachoeira",
+    "slug": "CACHOEIRA",
+    "cod_ibge": "2904902",
+    "vagas_total": 53,
+    "matriculas": 80,
+    "ingressos": 21,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juazeiro",
+    "slug": "JUAZEIRO",
+    "cod_ibge": "2918407",
+    "vagas_total": 25,
+    "matriculas": 7,
+    "ingressos": 15,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

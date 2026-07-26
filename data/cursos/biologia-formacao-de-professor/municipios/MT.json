@@ -1,0 +1,167 @@
+[
+  {
+    "nome": "Cáceres",
+    "slug": "CACERES",
+    "cod_ibge": "5102504",
+    "vagas_total": 102,
+    "matriculas": 330,
+    "ingressos": 84,
+    "concluintes": 46,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alta Floresta",
+    "slug": "ALTA_FLORESTA",
+    "cod_ibge": "5100250",
+    "vagas_total": 100,
+    "matriculas": 219,
+    "ingressos": 81,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Xavantina",
+    "slug": "NOVA_XAVANTINA",
+    "cod_ibge": "5106257",
+    "vagas_total": 100,
+    "matriculas": 187,
+    "ingressos": 75,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tangará da Serra",
+    "slug": "TANGARA_DA_SERRA",
+    "cod_ibge": "5107958",
+    "vagas_total": 84,
+    "matriculas": 250,
+    "ingressos": 84,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pontal do Araguaia",
+    "slug": "PONTAL_DO_ARAGUAIA",
+    "cod_ibge": "5106653",
+    "vagas_total": 45,
+    "matriculas": 71,
+    "ingressos": 34,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 45,
+    "matriculas": 22,
+    "ingressos": 34,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 43,
+    "matriculas": 127,
+    "ingressos": 34,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 38,
+    "matriculas": 121,
+    "ingressos": 35,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaciara",
+    "slug": "JACIARA",
+    "cod_ibge": "5104807",
+    "vagas_total": 35,
+    "matriculas": 92,
+    "ingressos": 24,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juína",
+    "slug": "JUINA",
+    "cod_ibge": "5105150",
+    "vagas_total": 35,
+    "matriculas": 118,
+    "ingressos": 14,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pontes e Lacerda",
+    "slug": "PONTES_E_LACERDA",
+    "cod_ibge": "5106752",
+    "vagas_total": 35,
+    "matriculas": 22,
+    "ingressos": 26,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Confresa",
+    "slug": "CONFRESA",
+    "cod_ibge": "5103353",
+    "vagas_total": 20,
+    "matriculas": 60,
+    "ingressos": 11,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Diamantino",
+    "slug": "DIAMANTINO",
+    "cod_ibge": "5103502",
+    "vagas_total": 0,
+    "matriculas": 41,
+    "ingressos": 0,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarantã do Norte",
+    "slug": "GUARANTA_DO_NORTE",
+    "cod_ibge": "5104104",
+    "vagas_total": 0,
+    "matriculas": 66,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vila Rica",
+    "slug": "VILA_RICA",
+    "cod_ibge": "5108600",
+    "vagas_total": 0,
+    "matriculas": 37,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

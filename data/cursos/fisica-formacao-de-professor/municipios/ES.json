@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "São Mateus",
+    "slug": "SAO_MATEUS",
+    "cod_ibge": "3204906",
+    "vagas_total": 101,
+    "matriculas": 70,
+    "ingressos": 12,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alegre",
+    "slug": "ALEGRE",
+    "cod_ibge": "3200201",
+    "vagas_total": 93,
+    "matriculas": 50,
+    "ingressos": 6,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cariacica",
+    "slug": "CARIACICA",
+    "cod_ibge": "3201308",
+    "vagas_total": 55,
+    "matriculas": 73,
+    "ingressos": 20,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória",
+    "slug": "VITORIA",
+    "cod_ibge": "3205309",
+    "vagas_total": 54,
+    "matriculas": 132,
+    "ingressos": 47,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

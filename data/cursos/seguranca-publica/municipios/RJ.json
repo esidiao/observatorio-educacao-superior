@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Niterói",
+    "slug": "NITEROI",
+    "cod_ibge": "3303302",
+    "vagas_total": 130,
+    "matriculas": 627,
+    "ingressos": 101,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

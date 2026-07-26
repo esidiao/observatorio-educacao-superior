@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Caucaia",
+    "slug": "CAUCAIA",
+    "cod_ibge": "2303709",
+    "vagas_total": 430,
+    "matriculas": 69,
+    "ingressos": 48,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 130,
+    "matriculas": 146,
+    "ingressos": 91,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 70,
+    "matriculas": 117,
+    "ingressos": 57,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  }
+]

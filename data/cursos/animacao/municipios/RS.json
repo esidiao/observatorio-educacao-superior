@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Novo Hamburgo",
+    "slug": "NOVO_HAMBURGO",
+    "cod_ibge": "4313409",
+    "vagas_total": 155,
+    "matriculas": 65,
+    "ingressos": 23,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 28,
+    "matriculas": 131,
+    "ingressos": 28,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 10,
+    "matriculas": 25,
+    "ingressos": 10,
+    "concluintes": 2,
+    "n_cursos": 2,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 293,
+    "matriculas": 660,
+    "ingressos": 148,
+    "concluintes": 110,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 244,
+    "matriculas": 484,
+    "ingressos": 162,
+    "concluintes": 82,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 52,
+    "matriculas": 207,
+    "ingressos": 36,
+    "concluintes": 46,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

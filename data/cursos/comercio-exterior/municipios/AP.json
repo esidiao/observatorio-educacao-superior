@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Santana",
+    "slug": "SANTANA",
+    "cod_ibge": "1600600",
+    "vagas_total": 48,
+    "matriculas": 49,
+    "ingressos": 37,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

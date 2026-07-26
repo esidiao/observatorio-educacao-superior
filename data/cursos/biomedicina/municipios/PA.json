@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 2598,
+    "matriculas": 1586,
+    "ingressos": 569,
+    "concluintes": 240,
+    "n_cursos": 11,
+    "n_ies": 10
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 950,
+    "matriculas": 578,
+    "ingressos": 253,
+    "concluintes": 63,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Ananindeua",
+    "slug": "ANANINDEUA",
+    "cod_ibge": "1500800",
+    "vagas_total": 717,
+    "matriculas": 485,
+    "ingressos": 147,
+    "concluintes": 62,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 467,
+    "matriculas": 264,
+    "ingressos": 87,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Castanhal",
+    "slug": "CASTANHAL",
+    "cod_ibge": "1502400",
+    "vagas_total": 136,
+    "matriculas": 26,
+    "ingressos": 34,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

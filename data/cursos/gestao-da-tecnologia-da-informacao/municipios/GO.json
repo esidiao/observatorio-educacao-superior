@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 456,
+    "matriculas": 107,
+    "ingressos": 83,
+    "concluintes": 2,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Trindade",
+    "slug": "TRINDADE",
+    "cod_ibge": "5221403",
+    "vagas_total": 133,
+    "matriculas": 59,
+    "ingressos": 52,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uruaçu",
+    "slug": "URUACU",
+    "cod_ibge": "5221601",
+    "vagas_total": 53,
+    "matriculas": 30,
+    "ingressos": 19,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiatuba",
+    "slug": "GOIATUBA",
+    "cod_ibge": "5209101",
+    "vagas_total": 45,
+    "matriculas": 69,
+    "ingressos": 45,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Urutaí",
+    "slug": "URUTAI",
+    "cod_ibge": "5221809",
+    "vagas_total": 0,
+    "matriculas": 30,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

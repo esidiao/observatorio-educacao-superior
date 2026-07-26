@@ -1,0 +1,222 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 1807,
+    "matriculas": 689,
+    "ingressos": 146,
+    "concluintes": 125,
+    "n_cursos": 8,
+    "n_ies": 6
+  },
+  {
+    "nome": "Uberaba",
+    "slug": "UBERABA",
+    "cod_ibge": "3170107",
+    "vagas_total": 226,
+    "matriculas": 311,
+    "ingressos": 64,
+    "concluintes": 55,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ouro Branco",
+    "slug": "OURO_BRANCO",
+    "cod_ibge": "3145901",
+    "vagas_total": 184,
+    "matriculas": 357,
+    "ingressos": 47,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 169,
+    "matriculas": 517,
+    "ingressos": 102,
+    "concluintes": 58,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Coronel Fabriciano",
+    "slug": "CORONEL_FABRICIANO",
+    "cod_ibge": "3119401",
+    "vagas_total": 140,
+    "matriculas": 48,
+    "ingressos": 24,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Diamantina",
+    "slug": "DIAMANTINA",
+    "cod_ibge": "3121605",
+    "vagas_total": 118,
+    "matriculas": 98,
+    "ingressos": 19,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pouso Alegre",
+    "slug": "POUSO_ALEGRE",
+    "cod_ibge": "3152501",
+    "vagas_total": 118,
+    "matriculas": 99,
+    "ingressos": 36,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paracatu",
+    "slug": "PARACATU",
+    "cod_ibge": "3147006",
+    "vagas_total": 100,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Contagem",
+    "slug": "CONTAGEM",
+    "cod_ibge": "3118601",
+    "vagas_total": 80,
+    "matriculas": 113,
+    "ingressos": 57,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipatinga",
+    "slug": "IPATINGA",
+    "cod_ibge": "3131307",
+    "vagas_total": 80,
+    "matriculas": 8,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 66,
+    "matriculas": 219,
+    "ingressos": 50,
+    "concluintes": 28,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Poços de Caldas",
+    "slug": "POCOS_DE_CALDAS",
+    "cod_ibge": "3151800",
+    "vagas_total": 62,
+    "matriculas": 231,
+    "ingressos": 40,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Formiga",
+    "slug": "FORMIGA",
+    "cod_ibge": "3126109",
+    "vagas_total": 60,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patos de Minas",
+    "slug": "PATOS_DE_MINAS",
+    "cod_ibge": "3148004",
+    "vagas_total": 60,
+    "matriculas": 35,
+    "ingressos": 0,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sete Lagoas",
+    "slug": "SETE_LAGOAS",
+    "cod_ibge": "3167202",
+    "vagas_total": 60,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itajubá",
+    "slug": "ITAJUBA",
+    "cod_ibge": "3132404",
+    "vagas_total": 43,
+    "matriculas": 198,
+    "ingressos": 34,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Montes Claros",
+    "slug": "MONTES_CLAROS",
+    "cod_ibge": "3143302",
+    "vagas_total": 43,
+    "matriculas": 179,
+    "ingressos": 36,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Betim",
+    "slug": "BETIM",
+    "cod_ibge": "3106705",
+    "vagas_total": 6,
+    "matriculas": 34,
+    "ingressos": 6,
+    "concluintes": 12,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Conselheiro Lafaiete",
+    "slug": "CONSELHEIRO_LAFAIETE",
+    "cod_ibge": "3118304",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 0,
+    "matriculas": 221,
+    "ingressos": 0,
+    "concluintes": 57,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

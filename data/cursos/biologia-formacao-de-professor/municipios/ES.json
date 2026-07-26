@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Alegre",
+    "slug": "ALEGRE",
+    "cod_ibge": "3200201",
+    "vagas_total": 164,
+    "matriculas": 279,
+    "ingressos": 72,
+    "concluintes": 48,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Vitória",
+    "slug": "VITORIA",
+    "cod_ibge": "3205309",
+    "vagas_total": 159,
+    "matriculas": 179,
+    "ingressos": 43,
+    "concluintes": 21,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Serra",
+    "slug": "SERRA",
+    "cod_ibge": "3205002",
+    "vagas_total": 110,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Mateus",
+    "slug": "SAO_MATEUS",
+    "cod_ibge": "3204906",
+    "vagas_total": 89,
+    "matriculas": 159,
+    "ingressos": 42,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Teresa",
+    "slug": "SANTA_TERESA",
+    "cod_ibge": "3204609",
+    "vagas_total": 55,
+    "matriculas": 65,
+    "ingressos": 13,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

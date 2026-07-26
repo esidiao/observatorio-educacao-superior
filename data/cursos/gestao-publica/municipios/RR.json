@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Boa Vista",
+    "slug": "BOA_VISTA",
+    "cod_ibge": "1400100",
+    "vagas_total": 47,
+    "matriculas": 90,
+    "ingressos": 34,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bonfim",
+    "slug": "BONFIM",
+    "cod_ibge": "1400159",
+    "vagas_total": 35,
+    "matriculas": 33,
+    "ingressos": 34,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

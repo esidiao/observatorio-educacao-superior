@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 507,
+    "matriculas": 590,
+    "ingressos": 194,
+    "concluintes": 95,
+    "n_cursos": 7,
+    "n_ies": 6
+  },
+  {
+    "nome": "Canoas",
+    "slug": "CANOAS",
+    "cod_ibge": "4304606",
+    "vagas_total": 306,
+    "matriculas": 103,
+    "ingressos": 31,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Vitória do Palmar",
+    "slug": "SANTA_VITORIA_DO_PALMAR",
+    "cod_ibge": "4317301",
+    "vagas_total": 232,
+    "matriculas": 87,
+    "ingressos": 29,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 157,
+    "matriculas": 61,
+    "ingressos": 18,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 137,
+    "matriculas": 161,
+    "ingressos": 61,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sant'Ana do Livramento",
+    "slug": "SANT_ANA_DO_LIVRAMENTO",
+    "cod_ibge": "4317103",
+    "vagas_total": 116,
+    "matriculas": 114,
+    "ingressos": 53,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 105,
+    "matriculas": 50,
+    "ingressos": 23,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 80,
+    "matriculas": 62,
+    "ingressos": 22,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 50,
+    "matriculas": 200,
+    "ingressos": 49,
+    "concluintes": 44,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lajeado",
+    "slug": "LAJEADO",
+    "cod_ibge": "4311403",
+    "vagas_total": 40,
+    "matriculas": 73,
+    "ingressos": 22,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 2921,
+    "matriculas": 1009,
+    "ingressos": 271,
+    "concluintes": 158,
+    "n_cursos": 9,
+    "n_ies": 8
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 260,
+    "matriculas": 57,
+    "ingressos": 10,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ilhéus",
+    "slug": "ILHEUS",
+    "cod_ibge": "2913606",
+    "vagas_total": 67,
+    "matriculas": 140,
+    "ingressos": 43,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lauro de Freitas",
+    "slug": "LAURO_DE_FREITAS",
+    "cod_ibge": "2919207",
+    "vagas_total": 0,
+    "matriculas": 6,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Teixeira de Freitas",
+    "slug": "TEIXEIRA_DE_FREITAS",
+    "cod_ibge": "2931350",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

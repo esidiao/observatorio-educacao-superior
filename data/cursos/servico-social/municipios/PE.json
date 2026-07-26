@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 2337,
+    "matriculas": 721,
+    "ingressos": 169,
+    "concluintes": 153,
+    "n_cursos": 8,
+    "n_ies": 7
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 108,
+    "matriculas": 19,
+    "ingressos": 1,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Serra Talhada",
+    "slug": "SERRA_TALHADA",
+    "cod_ibge": "2613909",
+    "vagas_total": 50,
+    "matriculas": 18,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palmares",
+    "slug": "PALMARES",
+    "cod_ibge": "2610004",
+    "vagas_total": 40,
+    "matriculas": 76,
+    "ingressos": 19,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Carpina",
+    "slug": "CARPINA",
+    "cod_ibge": "2604007",
+    "vagas_total": 29,
+    "matriculas": 89,
+    "ingressos": 24,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória de Santo Antão",
+    "slug": "VITORIA_DE_SANTO_ANTAO",
+    "cod_ibge": "2616407",
+    "vagas_total": 5,
+    "matriculas": 24,
+    "ingressos": 5,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaboatão dos Guararapes",
+    "slug": "JABOATAO_DOS_GUARARAPES",
+    "cod_ibge": "2607901",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

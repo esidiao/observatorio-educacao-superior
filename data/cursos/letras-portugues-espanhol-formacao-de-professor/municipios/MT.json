@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Guarantã do Norte",
+    "slug": "GUARANTA_DO_NORTE",
+    "cod_ibge": "5104104",
+    "vagas_total": 196,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 26,
+    "matriculas": 56,
+    "ingressos": 23,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

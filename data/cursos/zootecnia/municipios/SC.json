@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 160,
+    "matriculas": 117,
+    "ingressos": 31,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 110,
+    "matriculas": 192,
+    "ingressos": 57,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Rosa do Sul",
+    "slug": "SANTA_ROSA_DO_SUL",
+    "cod_ibge": "4215653",
+    "vagas_total": 60,
+    "matriculas": 30,
+    "ingressos": 21,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Xanxerê",
+    "slug": "XANXERE",
+    "cod_ibge": "4219507",
+    "vagas_total": 45,
+    "matriculas": 76,
+    "ingressos": 20,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

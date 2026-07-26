@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 3206,
+    "matriculas": 4450,
+    "ingressos": 1140,
+    "concluintes": 785,
+    "n_cursos": 15,
+    "n_ies": 13
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 1185,
+    "matriculas": 1304,
+    "ingressos": 305,
+    "concluintes": 181,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 784,
+    "matriculas": 868,
+    "ingressos": 245,
+    "concluintes": 127,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Tianguá",
+    "slug": "TIANGUA",
+    "cod_ibge": "2313401",
+    "vagas_total": 340,
+    "matriculas": 257,
+    "ingressos": 63,
+    "concluintes": 30,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 303,
+    "matriculas": 249,
+    "ingressos": 63,
+    "concluintes": 43,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Iguatu",
+    "slug": "IGUATU",
+    "cod_ibge": "2305506",
+    "vagas_total": 200,
+    "matriculas": 52,
+    "ingressos": 32,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Itapipoca",
+    "slug": "ITAPIPOCA",
+    "cod_ibge": "2306405",
+    "vagas_total": 105,
+    "matriculas": 120,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

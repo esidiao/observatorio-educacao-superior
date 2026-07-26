@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Itaqui",
+    "slug": "ITAQUI",
+    "cod_ibge": "4310603",
+    "vagas_total": 432,
+    "matriculas": 100,
+    "ingressos": 47,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tramandaí",
+    "slug": "TRAMANDAI",
+    "cod_ibge": "4321600",
+    "vagas_total": 144,
+    "matriculas": 81,
+    "ingressos": 14,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

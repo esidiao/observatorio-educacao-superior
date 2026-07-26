@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Várzea Grande",
+    "slug": "VARZEA_GRANDE",
+    "cod_ibge": "5108402",
+    "vagas_total": 74,
+    "matriculas": 192,
+    "ingressos": 54,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 70,
+    "matriculas": 193,
+    "ingressos": 20,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Primavera do Leste",
+    "slug": "PRIMAVERA_DO_LESTE",
+    "cod_ibge": "5107040",
+    "vagas_total": 40,
+    "matriculas": 103,
+    "ingressos": 13,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

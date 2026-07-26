@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Alegrete",
+    "slug": "ALEGRETE",
+    "cod_ibge": "4300406",
+    "vagas_total": 37,
+    "matriculas": 23,
+    "ingressos": 1,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 25,
+    "matriculas": 36,
+    "ingressos": 5,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 1611,
+    "matriculas": 1396,
+    "ingressos": 462,
+    "concluintes": 167,
+    "n_cursos": 8,
+    "n_ies": 7
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 1185,
+    "matriculas": 132,
+    "ingressos": 37,
+    "concluintes": 26,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 313,
+    "matriculas": 60,
+    "ingressos": 24,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Timon",
+    "slug": "TIMON",
+    "cod_ibge": "2112209",
+    "vagas_total": 200,
+    "matriculas": 68,
+    "ingressos": 12,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paço do Lumiar",
+    "slug": "PACO_DO_LUMIAR",
+    "cod_ibge": "2107506",
+    "vagas_total": 121,
+    "matriculas": 32,
+    "ingressos": 32,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pedreiras",
+    "slug": "PEDREIRAS",
+    "cod_ibge": "2108207",
+    "vagas_total": 105,
+    "matriculas": 69,
+    "ingressos": 32,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

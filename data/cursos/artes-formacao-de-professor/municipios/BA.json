@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Porto Seguro",
+    "slug": "PORTO_SEGURO",
+    "cod_ibge": "2925303",
+    "vagas_total": 192,
+    "matriculas": 76,
+    "ingressos": 28,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itabuna",
+    "slug": "ITABUNA",
+    "cod_ibge": "2914802",
+    "vagas_total": 162,
+    "matriculas": 89,
+    "ingressos": 61,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Teixeira de Freitas",
+    "slug": "TEIXEIRA_DE_FREITAS",
+    "cod_ibge": "2931350",
+    "vagas_total": 110,
+    "matriculas": 70,
+    "ingressos": 26,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

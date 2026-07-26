@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Lauro de Freitas",
+    "slug": "LAURO_DE_FREITAS",
+    "cod_ibge": "2919207",
+    "vagas_total": 100,
+    "matriculas": 165,
+    "ingressos": 78,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 53,
+    "matriculas": 24,
+    "ingressos": 3,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

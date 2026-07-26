@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 100,
+    "matriculas": 9,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra do Garças",
+    "slug": "BARRA_DO_GARCAS",
+    "cod_ibge": "5101803",
+    "vagas_total": 96,
+    "matriculas": 76,
+    "ingressos": 31,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tangará da Serra",
+    "slug": "TANGARA_DA_SERRA",
+    "cod_ibge": "5107958",
+    "vagas_total": 90,
+    "matriculas": 197,
+    "ingressos": 73,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 80,
+    "matriculas": 212,
+    "ingressos": 56,
+    "concluintes": 37,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 0,
+    "matriculas": 61,
+    "ingressos": 0,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

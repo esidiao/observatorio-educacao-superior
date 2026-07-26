@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Codó",
+    "slug": "CODO",
+    "cod_ibge": "2103307",
+    "vagas_total": 0,
+    "matriculas": 20,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

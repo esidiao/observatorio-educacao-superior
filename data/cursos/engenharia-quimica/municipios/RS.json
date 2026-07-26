@@ -1,0 +1,200 @@
+[
+  {
+    "nome": "Santo Antônio da Patrulha",
+    "slug": "SANTO_ANTONIO_DA_PATRULHA",
+    "cod_ibge": "4317608",
+    "vagas_total": 361,
+    "matriculas": 34,
+    "ingressos": 13,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 290,
+    "matriculas": 709,
+    "ingressos": 154,
+    "concluintes": 82,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 255,
+    "matriculas": 293,
+    "ingressos": 80,
+    "concluintes": 42,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ijuí",
+    "slug": "IJUI",
+    "cod_ibge": "4310207",
+    "vagas_total": 247,
+    "matriculas": 33,
+    "ingressos": 11,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Canoas",
+    "slug": "CANOAS",
+    "cod_ibge": "4304606",
+    "vagas_total": 222,
+    "matriculas": 64,
+    "ingressos": 31,
+    "concluintes": 16,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 210,
+    "matriculas": 121,
+    "ingressos": 26,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bagé",
+    "slug": "BAGE",
+    "cod_ibge": "4301602",
+    "vagas_total": 200,
+    "matriculas": 87,
+    "ingressos": 24,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Novo Hamburgo",
+    "slug": "NOVO_HAMBURGO",
+    "cod_ibge": "4313409",
+    "vagas_total": 184,
+    "matriculas": 115,
+    "ingressos": 12,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Grande",
+    "slug": "RIO_GRANDE",
+    "cod_ibge": "4315602",
+    "vagas_total": 163,
+    "matriculas": 149,
+    "ingressos": 50,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 151,
+    "matriculas": 102,
+    "ingressos": 25,
+    "concluintes": 25,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 103,
+    "matriculas": 95,
+    "ingressos": 66,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Passo Fundo",
+    "slug": "PASSO_FUNDO",
+    "cod_ibge": "4314100",
+    "vagas_total": 67,
+    "matriculas": 52,
+    "ingressos": 12,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lajeado",
+    "slug": "LAJEADO",
+    "cod_ibge": "4311403",
+    "vagas_total": 42,
+    "matriculas": 55,
+    "ingressos": 12,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Feliz",
+    "slug": "FELIZ",
+    "cod_ibge": "4308102",
+    "vagas_total": 35,
+    "matriculas": 70,
+    "ingressos": 17,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Horizontina",
+    "slug": "HORIZONTINA",
+    "cod_ibge": "4309605",
+    "vagas_total": 35,
+    "matriculas": 8,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Ângelo",
+    "slug": "SANTO_ANGELO",
+    "cod_ibge": "4317509",
+    "vagas_total": 20,
+    "matriculas": 15,
+    "ingressos": 2,
+    "concluintes": 12,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Erechim",
+    "slug": "ERECHIM",
+    "cod_ibge": "4307005",
+    "vagas_total": 2,
+    "matriculas": 26,
+    "ingressos": 1,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 0,
+    "matriculas": 17,
+    "ingressos": 0,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

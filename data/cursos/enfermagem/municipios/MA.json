@@ -1,0 +1,200 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 2791,
+    "matriculas": 4424,
+    "ingressos": 1307,
+    "concluintes": 646,
+    "n_cursos": 13,
+    "n_ies": 11
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 920,
+    "matriculas": 1675,
+    "ingressos": 444,
+    "concluintes": 267,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 512,
+    "matriculas": 457,
+    "ingressos": 135,
+    "concluintes": 96,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Presidente Dutra",
+    "slug": "PRESIDENTE_DUTRA",
+    "cod_ibge": "2109106",
+    "vagas_total": 263,
+    "matriculas": 110,
+    "ingressos": 67,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santa Inês",
+    "slug": "SANTA_INES",
+    "cod_ibge": "2109908",
+    "vagas_total": 260,
+    "matriculas": 686,
+    "ingressos": 195,
+    "concluintes": 80,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Pinheiro",
+    "slug": "PINHEIRO",
+    "cod_ibge": "2108603",
+    "vagas_total": 252,
+    "matriculas": 689,
+    "ingressos": 199,
+    "concluintes": 66,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Bacabal",
+    "slug": "BACABAL",
+    "cod_ibge": "2101202",
+    "vagas_total": 248,
+    "matriculas": 565,
+    "ingressos": 202,
+    "concluintes": 61,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Pedreiras",
+    "slug": "PEDREIRAS",
+    "cod_ibge": "2108207",
+    "vagas_total": 210,
+    "matriculas": 340,
+    "ingressos": 77,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paço do Lumiar",
+    "slug": "PACO_DO_LUMIAR",
+    "cod_ibge": "2107506",
+    "vagas_total": 203,
+    "matriculas": 475,
+    "ingressos": 96,
+    "concluintes": 58,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapadinha",
+    "slug": "CHAPADINHA",
+    "cod_ibge": "2103208",
+    "vagas_total": 138,
+    "matriculas": 302,
+    "ingressos": 49,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra do Corda",
+    "slug": "BARRA_DO_CORDA",
+    "cod_ibge": "2101608",
+    "vagas_total": 105,
+    "matriculas": 184,
+    "ingressos": 28,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Codó",
+    "slug": "CODO",
+    "cod_ibge": "2103307",
+    "vagas_total": 100,
+    "matriculas": 55,
+    "ingressos": 67,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Timon",
+    "slug": "TIMON",
+    "cod_ibge": "2112209",
+    "vagas_total": 100,
+    "matriculas": 43,
+    "ingressos": 7,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bacabeira",
+    "slug": "BACABEIRA",
+    "cod_ibge": "2101251",
+    "vagas_total": 90,
+    "matriculas": 93,
+    "ingressos": 29,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Coroatá",
+    "slug": "COROATA",
+    "cod_ibge": "2103604",
+    "vagas_total": 74,
+    "matriculas": 401,
+    "ingressos": 63,
+    "concluintes": 63,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Colinas",
+    "slug": "COLINAS",
+    "cod_ibge": "2103505",
+    "vagas_total": 35,
+    "matriculas": 116,
+    "ingressos": 36,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Grajaú",
+    "slug": "GRAJAU",
+    "cod_ibge": "2104800",
+    "vagas_total": 33,
+    "matriculas": 169,
+    "ingressos": 35,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Balsas",
+    "slug": "BALSAS",
+    "cod_ibge": "2101400",
+    "vagas_total": 30,
+    "matriculas": 106,
+    "ingressos": 28,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

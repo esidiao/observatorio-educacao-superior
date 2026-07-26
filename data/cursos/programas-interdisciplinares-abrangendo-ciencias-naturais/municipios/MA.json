@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 498,
+    "matriculas": 1934,
+    "ingressos": 427,
+    "concluintes": 142,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Balsas",
+    "slug": "BALSAS",
+    "cod_ibge": "2101400",
+    "vagas_total": 120,
+    "matriculas": 303,
+    "ingressos": 74,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

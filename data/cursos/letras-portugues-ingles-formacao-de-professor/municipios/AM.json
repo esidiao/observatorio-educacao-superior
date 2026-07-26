@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Manaus",
+    "slug": "MANAUS",
+    "cod_ibge": "1302603",
+    "vagas_total": 66,
+    "matriculas": 10,
+    "ingressos": 13,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Humaitá",
+    "slug": "HUMAITA",
+    "cod_ibge": "1301704",
+    "vagas_total": 50,
+    "matriculas": 102,
+    "ingressos": 15,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

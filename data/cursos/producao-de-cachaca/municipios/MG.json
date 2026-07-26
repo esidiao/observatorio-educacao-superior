@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Salinas",
+    "slug": "SALINAS",
+    "cod_ibge": "3157005",
+    "vagas_total": 36,
+    "matriculas": 8,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

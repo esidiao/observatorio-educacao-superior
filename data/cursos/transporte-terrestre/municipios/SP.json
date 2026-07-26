@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 173,
+    "matriculas": 250,
+    "ingressos": 152,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barueri",
+    "slug": "BARUERI",
+    "cod_ibge": "3505708",
+    "vagas_total": 83,
+    "matriculas": 126,
+    "ingressos": 76,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 205,
+    "matriculas": 712,
+    "ingressos": 141,
+    "concluintes": 124,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Ituiutaba",
+    "slug": "ITUIUTABA",
+    "cod_ibge": "3134202",
+    "vagas_total": 151,
+    "matriculas": 111,
+    "ingressos": 27,
+    "concluintes": 23,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Montes Claros",
+    "slug": "MONTES_CLAROS",
+    "cod_ibge": "3143302",
+    "vagas_total": 104,
+    "matriculas": 265,
+    "ingressos": 76,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 101,
+    "matriculas": 207,
+    "ingressos": 54,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sete Lagoas",
+    "slug": "SETE_LAGOAS",
+    "cod_ibge": "3167202",
+    "vagas_total": 100,
+    "matriculas": 22,
+    "ingressos": 1,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberaba",
+    "slug": "UBERABA",
+    "cod_ibge": "3170107",
+    "vagas_total": 81,
+    "matriculas": 11,
+    "ingressos": 0,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Paranaíba",
+    "slug": "RIO_PARANAIBA",
+    "cod_ibge": "3155504",
+    "vagas_total": 61,
+    "matriculas": 128,
+    "ingressos": 35,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alfenas",
+    "slug": "ALFENAS",
+    "cod_ibge": "3101607",
+    "vagas_total": 59,
+    "matriculas": 180,
+    "ingressos": 50,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patos de Minas",
+    "slug": "PATOS_DE_MINAS",
+    "cod_ibge": "3148004",
+    "vagas_total": 58,
+    "matriculas": 8,
+    "ingressos": 8,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Passos",
+    "slug": "PASSOS",
+    "cod_ibge": "3147907",
+    "vagas_total": 56,
+    "matriculas": 107,
+    "ingressos": 42,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 50,
+    "matriculas": 192,
+    "ingressos": 46,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patrocínio",
+    "slug": "PATROCINIO",
+    "cod_ibge": "3148103",
+    "vagas_total": 50,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ouro Preto",
+    "slug": "OURO_PRETO",
+    "cod_ibge": "3146107",
+    "vagas_total": 39,
+    "matriculas": 137,
+    "ingressos": 34,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João del Rei",
+    "slug": "SAO_JOAO_DEL_REI",
+    "cod_ibge": "3162500",
+    "vagas_total": 25,
+    "matriculas": 128,
+    "ingressos": 26,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 15,
+    "matriculas": 182,
+    "ingressos": 16,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 7,
+    "matriculas": 161,
+    "ingressos": 7,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

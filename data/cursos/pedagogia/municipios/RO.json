@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Porto Velho",
+    "slug": "PORTO_VELHO",
+    "cod_ibge": "1100205",
+    "vagas_total": 320,
+    "matriculas": 132,
+    "ingressos": 29,
+    "concluintes": 32,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Ouro Preto do Oeste",
+    "slug": "OURO_PRETO_DO_OESTE",
+    "cod_ibge": "1100155",
+    "vagas_total": 210,
+    "matriculas": 6,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vilhena",
+    "slug": "VILHENA",
+    "cod_ibge": "1100304",
+    "vagas_total": 110,
+    "matriculas": 114,
+    "ingressos": 44,
+    "concluintes": 27,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cacoal",
+    "slug": "CACOAL",
+    "cod_ibge": "1100049",
+    "vagas_total": 100,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaru",
+    "slug": "JARU",
+    "cod_ibge": "1100114",
+    "vagas_total": 100,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ji-Paraná",
+    "slug": "JI_PARANA",
+    "cod_ibge": "1100122",
+    "vagas_total": 93,
+    "matriculas": 116,
+    "ingressos": 42,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guajará-Mirim",
+    "slug": "GUAJARA_MIRIM",
+    "cod_ibge": "1100106",
+    "vagas_total": 71,
+    "matriculas": 170,
+    "ingressos": 43,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rolim de Moura",
+    "slug": "ROLIM_DE_MOURA",
+    "cod_ibge": "1100288",
+    "vagas_total": 62,
+    "matriculas": 89,
+    "ingressos": 18,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ariquemes",
+    "slug": "ARIQUEMES",
+    "cod_ibge": "1100023",
+    "vagas_total": 56,
+    "matriculas": 132,
+    "ingressos": 44,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 742,
+    "matriculas": 1165,
+    "ingressos": 318,
+    "concluintes": 119,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Palmeira das Missões",
+    "slug": "PALMEIRA_DAS_MISSOES",
+    "cod_ibge": "4313706",
+    "vagas_total": 273,
+    "matriculas": 114,
+    "ingressos": 27,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 236,
+    "matriculas": 241,
+    "ingressos": 89,
+    "concluintes": 17,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Rio Grande",
+    "slug": "RIO_GRANDE",
+    "cod_ibge": "4315602",
+    "vagas_total": 202,
+    "matriculas": 243,
+    "ingressos": 110,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 130,
+    "matriculas": 110,
+    "ingressos": 32,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 105,
+    "matriculas": 156,
+    "ingressos": 59,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 88,
+    "matriculas": 191,
+    "ingressos": 42,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 82,
+    "matriculas": 50,
+    "ingressos": 12,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sant'Ana do Livramento",
+    "slug": "SANT_ANA_DO_LIVRAMENTO",
+    "cod_ibge": "4317103",
+    "vagas_total": 79,
+    "matriculas": 152,
+    "ingressos": 57,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Passo Fundo",
+    "slug": "PASSO_FUNDO",
+    "cod_ibge": "4314100",
+    "vagas_total": 58,
+    "matriculas": 86,
+    "ingressos": 38,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Horizontina",
+    "slug": "HORIZONTINA",
+    "cod_ibge": "4309605",
+    "vagas_total": 38,
+    "matriculas": 41,
+    "ingressos": 7,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Rio Branco",
+    "slug": "RIO_BRANCO",
+    "cod_ibge": "1200401",
+    "vagas_total": 40,
+    "matriculas": 59,
+    "ingressos": 25,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tarauacá",
+    "slug": "TARAUACA",
+    "cod_ibge": "1200609",
+    "vagas_total": 40,
+    "matriculas": 153,
+    "ingressos": 39,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

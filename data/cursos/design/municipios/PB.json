@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 73,
+    "matriculas": 217,
+    "ingressos": 63,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Tinto",
+    "slug": "RIO_TINTO",
+    "cod_ibge": "2512903",
+    "vagas_total": 50,
+    "matriculas": 156,
+    "ingressos": 39,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Laranjal do Jari",
+    "slug": "LARANJAL_DO_JARI",
+    "cod_ibge": "1600279",
+    "vagas_total": 48,
+    "matriculas": 121,
+    "ingressos": 44,
+    "concluintes": 49,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Oiapoque",
+    "slug": "OIAPOQUE",
+    "cod_ibge": "1600501",
+    "vagas_total": 36,
+    "matriculas": 140,
+    "ingressos": 19,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Macapá",
+    "slug": "MACAPA",
+    "cod_ibge": "1600303",
+    "vagas_total": 25,
+    "matriculas": 150,
+    "ingressos": 17,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

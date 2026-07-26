@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Ananindeua",
+    "slug": "ANANINDEUA",
+    "cod_ibge": "1500800",
+    "vagas_total": 233,
+    "matriculas": 143,
+    "ingressos": 37,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Abaetetuba",
+    "slug": "ABAETETUBA",
+    "cod_ibge": "1500107",
+    "vagas_total": 200,
+    "matriculas": 86,
+    "ingressos": 91,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 100,
+    "matriculas": 60,
+    "ingressos": 30,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Benevides",
+    "slug": "BENEVIDES",
+    "cod_ibge": "1501501",
+    "vagas_total": 50,
+    "matriculas": 114,
+    "ingressos": 23,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

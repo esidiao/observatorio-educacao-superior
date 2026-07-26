@@ -1,0 +1,178 @@
+[
+  {
+    "nome": "São Lourenço do Sul",
+    "slug": "SAO_LOURENCO_DO_SUL",
+    "cod_ibge": "4318804",
+    "vagas_total": 231,
+    "matriculas": 56,
+    "ingressos": 25,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Taquara",
+    "slug": "TAQUARA",
+    "cod_ibge": "4321204",
+    "vagas_total": 171,
+    "matriculas": 23,
+    "ingressos": 7,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bagé",
+    "slug": "BAGE",
+    "cod_ibge": "4301602",
+    "vagas_total": 166,
+    "matriculas": 102,
+    "ingressos": 59,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 152,
+    "matriculas": 211,
+    "ingressos": 126,
+    "concluintes": 24,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Rio Grande",
+    "slug": "RIO_GRANDE",
+    "cod_ibge": "4315602",
+    "vagas_total": 136,
+    "matriculas": 143,
+    "ingressos": 67,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 116,
+    "matriculas": 42,
+    "ingressos": 35,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaguarão",
+    "slug": "JAGUARAO",
+    "cod_ibge": "4311007",
+    "vagas_total": 113,
+    "matriculas": 36,
+    "ingressos": 26,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 97,
+    "matriculas": 144,
+    "ingressos": 58,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 85,
+    "matriculas": 91,
+    "ingressos": 52,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 75,
+    "matriculas": 30,
+    "ingressos": 17,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Canoas",
+    "slug": "CANOAS",
+    "cod_ibge": "4304606",
+    "vagas_total": 73,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Getúlio Vargas",
+    "slug": "GETULIO_VARGAS",
+    "cod_ibge": "4308904",
+    "vagas_total": 70,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 67,
+    "matriculas": 111,
+    "ingressos": 35,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bento Gonçalves",
+    "slug": "BENTO_GONCALVES",
+    "cod_ibge": "4302105",
+    "vagas_total": 60,
+    "matriculas": 75,
+    "ingressos": 41,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Novo Hamburgo",
+    "slug": "NOVO_HAMBURGO",
+    "cod_ibge": "4313409",
+    "vagas_total": 57,
+    "matriculas": 40,
+    "ingressos": 41,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ivoti",
+    "slug": "IVOTI",
+    "cod_ibge": "4310801",
+    "vagas_total": 50,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

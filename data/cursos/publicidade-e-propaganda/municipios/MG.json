@@ -1,0 +1,222 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 1585,
+    "matriculas": 1743,
+    "ingressos": 525,
+    "concluintes": 278,
+    "n_cursos": 11,
+    "n_ies": 8
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 705,
+    "matriculas": 159,
+    "ingressos": 51,
+    "concluintes": 23,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Coronel Fabriciano",
+    "slug": "CORONEL_FABRICIANO",
+    "cod_ibge": "3119401",
+    "vagas_total": 180,
+    "matriculas": 97,
+    "ingressos": 41,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guaxupé",
+    "slug": "GUAXUPE",
+    "cod_ibge": "3128709",
+    "vagas_total": 173,
+    "matriculas": 27,
+    "ingressos": 6,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Passos",
+    "slug": "PASSOS",
+    "cod_ibge": "3147907",
+    "vagas_total": 163,
+    "matriculas": 247,
+    "ingressos": 72,
+    "concluintes": 34,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 149,
+    "matriculas": 317,
+    "ingressos": 138,
+    "concluintes": 37,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Sete Lagoas",
+    "slug": "SETE_LAGOAS",
+    "cod_ibge": "3167202",
+    "vagas_total": 120,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Poços de Caldas",
+    "slug": "POCOS_DE_CALDAS",
+    "cod_ibge": "3151800",
+    "vagas_total": 119,
+    "matriculas": 190,
+    "ingressos": 51,
+    "concluintes": 38,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Montes Claros",
+    "slug": "MONTES_CLAROS",
+    "cod_ibge": "3143302",
+    "vagas_total": 104,
+    "matriculas": 121,
+    "ingressos": 34,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barbacena",
+    "slug": "BARBACENA",
+    "cod_ibge": "3105608",
+    "vagas_total": 101,
+    "matriculas": 44,
+    "ingressos": 19,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Varginha",
+    "slug": "VARGINHA",
+    "cod_ibge": "3170701",
+    "vagas_total": 80,
+    "matriculas": 61,
+    "ingressos": 19,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Divinópolis",
+    "slug": "DIVINOPOLIS",
+    "cod_ibge": "3122306",
+    "vagas_total": 79,
+    "matriculas": 42,
+    "ingressos": 18,
+    "concluintes": 9,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Uberaba",
+    "slug": "UBERABA",
+    "cod_ibge": "3170107",
+    "vagas_total": 75,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pouso Alegre",
+    "slug": "POUSO_ALEGRE",
+    "cod_ibge": "3152501",
+    "vagas_total": 70,
+    "matriculas": 89,
+    "ingressos": 36,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 70,
+    "matriculas": 15,
+    "ingressos": 4,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patos de Minas",
+    "slug": "PATOS_DE_MINAS",
+    "cod_ibge": "3148004",
+    "vagas_total": 65,
+    "matriculas": 88,
+    "ingressos": 36,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Frutal",
+    "slug": "FRUTAL",
+    "cod_ibge": "3127107",
+    "vagas_total": 41,
+    "matriculas": 99,
+    "ingressos": 29,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Governador Valadares",
+    "slug": "GOVERNADOR_VALADARES",
+    "cod_ibge": "3127701",
+    "vagas_total": 38,
+    "matriculas": 92,
+    "ingressos": 35,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 35,
+    "matriculas": 71,
+    "ingressos": 35,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Contagem",
+    "slug": "CONTAGEM",
+    "cod_ibge": "3118601",
+    "vagas_total": 25,
+    "matriculas": 68,
+    "ingressos": 25,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

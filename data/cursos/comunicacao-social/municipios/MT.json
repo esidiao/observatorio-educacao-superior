@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 30,
+    "matriculas": 49,
+    "ingressos": 28,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,145 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 431,
+    "matriculas": 87,
+    "ingressos": 30,
+    "concluintes": 29,
+    "n_cursos": 9,
+    "n_ies": 5
+  },
+  {
+    "nome": "Varginha",
+    "slug": "VARGINHA",
+    "cod_ibge": "3170701",
+    "vagas_total": 120,
+    "matriculas": 26,
+    "ingressos": 12,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Francisco",
+    "slug": "SAO_FRANCISCO",
+    "cod_ibge": "3161106",
+    "vagas_total": 80,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ribeirão das Neves",
+    "slug": "RIBEIRAO_DAS_NEVES",
+    "cod_ibge": "3154606",
+    "vagas_total": 72,
+    "matriculas": 141,
+    "ingressos": 69,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campanha",
+    "slug": "CAMPANHA",
+    "cod_ibge": "3110905",
+    "vagas_total": 67,
+    "matriculas": 81,
+    "ingressos": 42,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Almenara",
+    "slug": "ALMENARA",
+    "cod_ibge": "3101706",
+    "vagas_total": 40,
+    "matriculas": 101,
+    "ingressos": 33,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponte Nova",
+    "slug": "PONTE_NOVA",
+    "cod_ibge": "3152105",
+    "vagas_total": 40,
+    "matriculas": 78,
+    "ingressos": 23,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 40,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cataguases",
+    "slug": "CATAGUASES",
+    "cod_ibge": "3115300",
+    "vagas_total": 35,
+    "matriculas": 9,
+    "ingressos": 26,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Contagem",
+    "slug": "CONTAGEM",
+    "cod_ibge": "3118601",
+    "vagas_total": 9,
+    "matriculas": 22,
+    "ingressos": 9,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Betim",
+    "slug": "BETIM",
+    "cod_ibge": "3106705",
+    "vagas_total": 1,
+    "matriculas": 5,
+    "ingressos": 1,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sabará",
+    "slug": "SABARA",
+    "cod_ibge": "3156700",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sete Lagoas",
+    "slug": "SETE_LAGOAS",
+    "cod_ibge": "3167202",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

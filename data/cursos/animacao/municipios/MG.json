@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 488,
+    "matriculas": 322,
+    "ingressos": 78,
+    "concluintes": 43,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Cataguases",
+    "slug": "CATAGUASES",
+    "cod_ibge": "3115300",
+    "vagas_total": 30,
+    "matriculas": 47,
+    "ingressos": 16,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 20,
+    "matriculas": 3,
+    "ingressos": 6,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

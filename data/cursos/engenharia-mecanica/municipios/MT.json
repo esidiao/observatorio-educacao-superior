@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 215,
+    "matriculas": 99,
+    "ingressos": 68,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 87,
+    "matriculas": 283,
+    "ingressos": 62,
+    "concluintes": 35,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Primavera do Leste",
+    "slug": "PRIMAVERA_DO_LESTE",
+    "cod_ibge": "5107040",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 0,
+    "matriculas": 7,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorriso",
+    "slug": "SORRISO",
+    "cod_ibge": "5107925",
+    "vagas_total": 0,
+    "matriculas": 11,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tangará da Serra",
+    "slug": "TANGARA_DA_SERRA",
+    "cod_ibge": "5107958",
+    "vagas_total": 0,
+    "matriculas": 13,
+    "ingressos": 0,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

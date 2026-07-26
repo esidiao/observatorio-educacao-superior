@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 141,
+    "matriculas": 191,
+    "ingressos": 62,
+    "concluintes": 25,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 97,
+    "matriculas": 178,
+    "ingressos": 53,
+    "concluintes": 21,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Três Lagoas",
+    "slug": "TRES_LAGOAS",
+    "cod_ibge": "5008305",
+    "vagas_total": 72,
+    "matriculas": 118,
+    "ingressos": 38,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aquidauana",
+    "slug": "AQUIDAUANA",
+    "cod_ibge": "5001102",
+    "vagas_total": 68,
+    "matriculas": 149,
+    "ingressos": 56,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Corumbá",
+    "slug": "CORUMBA",
+    "cod_ibge": "5003207",
+    "vagas_total": 50,
+    "matriculas": 140,
+    "ingressos": 41,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mundo Novo",
+    "slug": "MUNDO_NOVO",
+    "cod_ibge": "5005681",
+    "vagas_total": 41,
+    "matriculas": 94,
+    "ingressos": 40,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ivinhema",
+    "slug": "IVINHEMA",
+    "cod_ibge": "5004700",
+    "vagas_total": 26,
+    "matriculas": 41,
+    "ingressos": 13,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Coxim",
+    "slug": "COXIM",
+    "cod_ibge": "5003306",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

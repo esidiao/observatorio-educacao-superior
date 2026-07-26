@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 325,
+    "matriculas": 409,
+    "ingressos": 152,
+    "concluintes": 150,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Igarassu",
+    "slug": "IGARASSU",
+    "cod_ibge": "2606804",
+    "vagas_total": 80,
+    "matriculas": 181,
+    "ingressos": 73,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salgueiro",
+    "slug": "SALGUEIRO",
+    "cod_ibge": "2612208",
+    "vagas_total": 61,
+    "matriculas": 129,
+    "ingressos": 56,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

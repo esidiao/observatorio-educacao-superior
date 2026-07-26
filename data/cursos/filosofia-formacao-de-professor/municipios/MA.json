@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 418,
+    "matriculas": 757,
+    "ingressos": 145,
+    "concluintes": 43,
+    "n_cursos": 4,
+    "n_ies": 4
+  }
+]

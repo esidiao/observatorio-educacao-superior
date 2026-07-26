@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Nilópolis",
+    "slug": "NILOPOLIS",
+    "cod_ibge": "3303203",
+    "vagas_total": 112,
+    "matriculas": 313,
+    "ingressos": 71,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio das Ostras",
+    "slug": "RIO_DAS_OSTRAS",
+    "cod_ibge": "3304524",
+    "vagas_total": 100,
+    "matriculas": 222,
+    "ingressos": 62,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Niterói",
+    "slug": "NITEROI",
+    "cod_ibge": "3303302",
+    "vagas_total": 89,
+    "matriculas": 346,
+    "ingressos": 86,
+    "concluintes": 49,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

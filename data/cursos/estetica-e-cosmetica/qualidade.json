@@ -1,0 +1,917 @@
+{
+  "ciclo_enade": 2023,
+  "ufs": {
+    "AL": {
+      "vagas_avaliadas": 431,
+      "concluintes_avaliados": 22,
+      "n_cursos_avaliados": 3,
+      "ENADE": 3.0,
+      "IDD": 3.0,
+      "CPC_cont": 2.65,
+      "cpc_org_didatico": 5.58,
+      "cpc_infraestrutura": 5.38,
+      "cpc_oportunidade": 5.09,
+      "pct_doc_mestres": 84.5,
+      "pct_doc_doutores": 8.2,
+      "pct_doc_regime": 39.5,
+      "CC": 3.0,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 3.02,
+          "IDD": 2.17,
+          "CPC_cont": 2.53,
+          "cpc_org_didatico": 5.7,
+          "cpc_infraestrutura": 5.66,
+          "cpc_oportunidade": 5.3,
+          "pct_doc_mestres": 90.0,
+          "pct_doc_doutores": 20.0,
+          "pct_doc_regime": 30.0,
+          "n_cursos_avaliados": 1
+        },
+        "presencial": {
+          "ENADE": 2.99,
+          "IDD": 3.74,
+          "CPC_cont": 2.74,
+          "cpc_org_didatico": 5.5,
+          "cpc_infraestrutura": 5.18,
+          "cpc_oportunidade": 4.96,
+          "pct_doc_mestres": 80.8,
+          "pct_doc_doutores": 0.0,
+          "pct_doc_regime": 46.2,
+          "n_cursos_avaliados": 2
+        }
+      }
+    },
+    "AM": {
+      "vagas_avaliadas": 1750,
+      "concluintes_avaliados": 186,
+      "n_cursos_avaliados": 7,
+      "ENADE": 1.88,
+      "IDD": 1.93,
+      "CPC_cont": 2.54,
+      "cpc_org_didatico": 5.77,
+      "cpc_infraestrutura": 5.66,
+      "cpc_oportunidade": 5.47,
+      "pct_doc_mestres": 66.2,
+      "pct_doc_doutores": 40.0,
+      "pct_doc_regime": 85.4,
+      "CC": 1.88,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 1.31,
+          "IDD": 2.17,
+          "CPC_cont": 2.22,
+          "cpc_org_didatico": 5.25,
+          "cpc_infraestrutura": 4.68,
+          "cpc_oportunidade": 4.42,
+          "pct_doc_mestres": 85.4,
+          "pct_doc_doutores": 25.7,
+          "pct_doc_regime": 89.0,
+          "n_cursos_avaliados": 2
+        },
+        "presencial": {
+          "ENADE": 1.95,
+          "IDD": 1.9,
+          "CPC_cont": 2.57,
+          "cpc_org_didatico": 5.83,
+          "cpc_infraestrutura": 5.77,
+          "cpc_oportunidade": 5.58,
+          "pct_doc_mestres": 63.9,
+          "pct_doc_doutores": 41.8,
+          "pct_doc_regime": 84.9,
+          "n_cursos_avaliados": 5
+        }
+      }
+    },
+    "BA": {
+      "vagas_avaliadas": 3522,
+      "concluintes_avaliados": 135,
+      "n_cursos_avaliados": 16,
+      "ENADE": 2.79,
+      "IDD": 2.63,
+      "CPC_cont": 2.92,
+      "cpc_org_didatico": 5.19,
+      "cpc_infraestrutura": 4.98,
+      "cpc_oportunidade": 4.57,
+      "pct_doc_mestres": 87.7,
+      "pct_doc_doutores": 52.8,
+      "pct_doc_regime": 83.4,
+      "CC": 2.79,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 2.91,
+          "IDD": 2.33,
+          "CPC_cont": 2.8,
+          "cpc_org_didatico": 4.95,
+          "cpc_infraestrutura": 5.0,
+          "cpc_oportunidade": 4.75,
+          "pct_doc_mestres": 80.0,
+          "pct_doc_doutores": 40.0,
+          "pct_doc_regime": 100.0,
+          "n_cursos_avaliados": 2
+        },
+        "presencial": {
+          "ENADE": 2.78,
+          "IDD": 2.65,
+          "CPC_cont": 2.93,
+          "cpc_org_didatico": 5.21,
+          "cpc_infraestrutura": 4.98,
+          "cpc_oportunidade": 4.56,
+          "pct_doc_mestres": 88.3,
+          "pct_doc_doutores": 53.8,
+          "pct_doc_regime": 82.1,
+          "n_cursos_avaliados": 14
+        }
+      }
+    },
+    "CE": {
+      "vagas_avaliadas": 5256,
+      "concluintes_avaliados": 118,
+      "n_cursos_avaliados": 6,
+      "ENADE": 3.06,
+      "IDD": 2.83,
+      "CPC_cont": 3.41,
+      "cpc_org_didatico": 5.48,
+      "cpc_infraestrutura": 5.27,
+      "cpc_oportunidade": 4.87,
+      "pct_doc_mestres": 98.6,
+      "pct_doc_doutores": 76.6,
+      "pct_doc_regime": 91.5,
+      "CC": 3.06,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 1.44,
+          "IDD": 0.0,
+          "CPC_cont": 2.05,
+          "cpc_org_didatico": 5.81,
+          "cpc_infraestrutura": 5.88,
+          "cpc_oportunidade": 5.75,
+          "pct_doc_mestres": 90.0,
+          "pct_doc_doutores": 50.0,
+          "pct_doc_regime": 100.0,
+          "n_cursos_avaliados": 1
+        },
+        "presencial": {
+          "ENADE": 3.34,
+          "IDD": 3.31,
+          "CPC_cont": 3.64,
+          "cpc_org_didatico": 5.42,
+          "cpc_infraestrutura": 5.17,
+          "cpc_oportunidade": 4.72,
+          "pct_doc_mestres": 100.0,
+          "pct_doc_doutores": 81.0,
+          "pct_doc_regime": 90.1,
+          "n_cursos_avaliados": 5
+        }
+      }
+    },
+    "DF": {
+      "vagas_avaliadas": 879,
+      "concluintes_avaliados": 49,
+      "n_cursos_avaliados": 7,
+      "ENADE": 3.32,
+      "IDD": 3.03,
+      "CPC_cont": 3.45,
+      "cpc_org_didatico": 5.71,
+      "cpc_infraestrutura": 5.65,
+      "cpc_oportunidade": 5.45,
+      "pct_doc_mestres": 96.2,
+      "pct_doc_doutores": 56.5,
+      "pct_doc_regime": 86.6,
+      "CC": 3.32,
+      "por_modalidade": {
+        "presencial": {
+          "ENADE": 3.32,
+          "IDD": 3.03,
+          "CPC_cont": 3.45,
+          "cpc_org_didatico": 5.71,
+          "cpc_infraestrutura": 5.65,
+          "cpc_oportunidade": 5.45,
+          "pct_doc_mestres": 96.2,
+          "pct_doc_doutores": 56.5,
+          "pct_doc_regime": 86.6,
+          "n_cursos_avaliados": 7
+        }
+      }
+    },
+    "ES": {
+      "vagas_avaliadas": 396,
+      "concluintes_avaliados": 57,
+      "n_cursos_avaliados": 4,
+      "ENADE": 4.26,
+      "IDD": 4.39,
+      "CPC_cont": 4.11,
+      "cpc_org_didatico": 5.84,
+      "cpc_infraestrutura": 5.82,
+      "cpc_oportunidade": 5.76,
+      "pct_doc_mestres": 96.1,
+      "pct_doc_doutores": 45.7,
+      "pct_doc_regime": 95.4,
+      "CC": 4.26,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 4.14,
+          "IDD": null,
+          "CPC_cont": 4.22,
+          "cpc_org_didatico": 5.9,
+          "cpc_infraestrutura": 5.87,
+          "cpc_oportunidade": 5.8,
+          "pct_doc_mestres": 100.0,
+          "pct_doc_doutores": 64.7,
+          "pct_doc_regime": 100.0,
+          "n_cursos_avaliados": 1
+        },
+        "presencial": {
+          "ENADE": 4.32,
+          "IDD": 4.39,
+          "CPC_cont": 4.04,
+          "cpc_org_didatico": 5.8,
+          "cpc_infraestrutura": 5.79,
+          "cpc_oportunidade": 5.73,
+          "pct_doc_mestres": 94.0,
+          "pct_doc_doutores": 35.4,
+          "pct_doc_regime": 93.0,
+          "n_cursos_avaliados": 3
+        }
+      }
+    },
+    "GO": {
+      "vagas_avaliadas": 2795,
+      "concluintes_avaliados": 127,
+      "n_cursos_avaliados": 14,
+      "ENADE": 2.28,
+      "IDD": 2.22,
+      "CPC_cont": 2.86,
+      "cpc_org_didatico": 5.61,
+      "cpc_infraestrutura": 5.33,
+      "cpc_oportunidade": 5.1,
+      "pct_doc_mestres": 85.7,
+      "pct_doc_doutores": 58.2,
+      "pct_doc_regime": 90.3,
+      "CC": 2.28,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 1.69,
+          "IDD": 1.87,
+          "CPC_cont": 1.9,
+          "cpc_org_didatico": null,
+          "cpc_infraestrutura": null,
+          "cpc_oportunidade": null,
+          "pct_doc_mestres": 83.3,
+          "pct_doc_doutores": 33.3,
+          "pct_doc_regime": 100.0,
+          "n_cursos_avaliados": 1
+        },
+        "presencial": {
+          "ENADE": 2.29,
+          "IDD": 2.23,
+          "CPC_cont": 2.87,
+          "cpc_org_didatico": 5.61,
+          "cpc_infraestrutura": 5.33,
+          "cpc_oportunidade": 5.1,
+          "pct_doc_mestres": 85.7,
+          "pct_doc_doutores": 58.6,
+          "pct_doc_regime": 90.1,
+          "n_cursos_avaliados": 13
+        }
+      }
+    },
+    "MA": {
+      "vagas_avaliadas": 945,
+      "concluintes_avaliados": 174,
+      "n_cursos_avaliados": 7,
+      "ENADE": 2.71,
+      "IDD": 3.24,
+      "CPC_cont": 3.06,
+      "cpc_org_didatico": 5.61,
+      "cpc_infraestrutura": 5.42,
+      "cpc_oportunidade": 5.11,
+      "pct_doc_mestres": 69.8,
+      "pct_doc_doutores": 34.9,
+      "pct_doc_regime": 88.8,
+      "CC": 2.71,
+      "por_modalidade": {
+        "presencial": {
+          "ENADE": 2.71,
+          "IDD": 3.24,
+          "CPC_cont": 3.06,
+          "cpc_org_didatico": 5.61,
+          "cpc_infraestrutura": 5.42,
+          "cpc_oportunidade": 5.11,
+          "pct_doc_mestres": 69.8,
+          "pct_doc_doutores": 34.9,
+          "pct_doc_regime": 88.8,
+          "n_cursos_avaliados": 7
+        }
+      }
+    },
+    "MG": {
+      "vagas_avaliadas": 3569,
+      "concluintes_avaliados": 329,
+      "n_cursos_avaliados": 28,
+      "ENADE": 2.79,
+      "IDD": 2.39,
+      "CPC_cont": 2.94,
+      "cpc_org_didatico": 5.26,
+      "cpc_infraestrutura": 5.04,
+      "cpc_oportunidade": 4.62,
+      "pct_doc_mestres": 91.6,
+      "pct_doc_doutores": 58.0,
+      "pct_doc_regime": 87.1,
+      "CC": 2.79,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 2.81,
+          "IDD": 2.83,
+          "CPC_cont": 2.84,
+          "cpc_org_didatico": 4.97,
+          "cpc_infraestrutura": 4.98,
+          "cpc_oportunidade": 4.36,
+          "pct_doc_mestres": 86.8,
+          "pct_doc_doutores": 45.3,
+          "pct_doc_regime": 81.4,
+          "n_cursos_avaliados": 5
+        },
+        "presencial": {
+          "ENADE": 2.79,
+          "IDD": 2.32,
+          "CPC_cont": 2.96,
+          "cpc_org_didatico": 5.33,
+          "cpc_infraestrutura": 5.05,
+          "cpc_oportunidade": 4.68,
+          "pct_doc_mestres": 92.7,
+          "pct_doc_doutores": 60.9,
+          "pct_doc_regime": 88.4,
+          "n_cursos_avaliados": 23
+        }
+      }
+    },
+    "MS": {
+      "vagas_avaliadas": 2622,
+      "concluintes_avaliados": 115,
+      "n_cursos_avaliados": 9,
+      "ENADE": 2.86,
+      "IDD": 2.89,
+      "CPC_cont": 3.33,
+      "cpc_org_didatico": 5.76,
+      "cpc_infraestrutura": 5.69,
+      "cpc_oportunidade": 5.28,
+      "pct_doc_mestres": 91.1,
+      "pct_doc_doutores": 69.3,
+      "pct_doc_regime": 73.7,
+      "CC": 2.86,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 2.42,
+          "IDD": 1.71,
+          "CPC_cont": 2.69,
+          "cpc_org_didatico": 5.75,
+          "cpc_infraestrutura": 5.67,
+          "cpc_oportunidade": 5.13,
+          "pct_doc_mestres": 92.9,
+          "pct_doc_doutores": 71.6,
+          "pct_doc_regime": 38.8,
+          "n_cursos_avaliados": 4
+        },
+        "presencial": {
+          "ENADE": 3.02,
+          "IDD": 3.3,
+          "CPC_cont": 3.55,
+          "cpc_org_didatico": 5.76,
+          "cpc_infraestrutura": 5.7,
+          "cpc_oportunidade": 5.34,
+          "pct_doc_mestres": 90.4,
+          "pct_doc_doutores": 68.5,
+          "pct_doc_regime": 86.1,
+          "n_cursos_avaliados": 5
+        }
+      }
+    },
+    "MT": {
+      "vagas_avaliadas": 2033,
+      "concluintes_avaliados": 65,
+      "n_cursos_avaliados": 9,
+      "ENADE": 2.26,
+      "IDD": 3.16,
+      "CPC_cont": 3.09,
+      "cpc_org_didatico": 5.69,
+      "cpc_infraestrutura": 5.56,
+      "cpc_oportunidade": 5.35,
+      "pct_doc_mestres": 78.8,
+      "pct_doc_doutores": 55.6,
+      "pct_doc_regime": 96.3,
+      "CC": 2.26,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 0.33,
+          "IDD": null,
+          "CPC_cont": 1.11,
+          "cpc_org_didatico": 4.46,
+          "cpc_infraestrutura": 3.46,
+          "cpc_oportunidade": 2.92,
+          "pct_doc_mestres": 88.9,
+          "pct_doc_doutores": 22.2,
+          "pct_doc_regime": 100.0,
+          "n_cursos_avaliados": 1
+        },
+        "presencial": {
+          "ENADE": 2.42,
+          "IDD": 3.16,
+          "CPC_cont": 3.26,
+          "cpc_org_didatico": 5.79,
+          "cpc_infraestrutura": 5.74,
+          "cpc_oportunidade": 5.56,
+          "pct_doc_mestres": 77.9,
+          "pct_doc_doutores": 58.4,
+          "pct_doc_regime": 96.0,
+          "n_cursos_avaliados": 8
+        }
+      }
+    },
+    "PA": {
+      "vagas_avaliadas": 5989,
+      "concluintes_avaliados": 206,
+      "n_cursos_avaliados": 5,
+      "ENADE": 1.6,
+      "IDD": 1.16,
+      "CPC_cont": 1.99,
+      "cpc_org_didatico": 5.34,
+      "cpc_infraestrutura": 5.07,
+      "cpc_oportunidade": 4.43,
+      "pct_doc_mestres": 85.7,
+      "pct_doc_doutores": 31.1,
+      "pct_doc_regime": 76.0,
+      "CC": 1.6,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 1.14,
+          "IDD": 0.39,
+          "CPC_cont": 1.66,
+          "cpc_org_didatico": 5.14,
+          "cpc_infraestrutura": 4.81,
+          "cpc_oportunidade": 4.03,
+          "pct_doc_mestres": 96.3,
+          "pct_doc_doutores": 35.8,
+          "pct_doc_regime": 81.3,
+          "n_cursos_avaliados": 2
+        },
+        "presencial": {
+          "ENADE": 2.78,
+          "IDD": 3.12,
+          "CPC_cont": 2.83,
+          "cpc_org_didatico": 5.85,
+          "cpc_infraestrutura": 5.73,
+          "cpc_oportunidade": 5.47,
+          "pct_doc_mestres": 58.9,
+          "pct_doc_doutores": 19.0,
+          "pct_doc_regime": 62.6,
+          "n_cursos_avaliados": 3
+        }
+      }
+    },
+    "PB": {
+      "vagas_avaliadas": 1275,
+      "concluintes_avaliados": 59,
+      "n_cursos_avaliados": 6,
+      "ENADE": 2.27,
+      "IDD": 1.92,
+      "CPC_cont": 2.71,
+      "cpc_org_didatico": 5.55,
+      "cpc_infraestrutura": 5.32,
+      "cpc_oportunidade": 4.99,
+      "pct_doc_mestres": 87.4,
+      "pct_doc_doutores": 55.8,
+      "pct_doc_regime": 84.9,
+      "CC": 2.27,
+      "por_modalidade": {
+        "presencial": {
+          "ENADE": 2.27,
+          "IDD": 1.92,
+          "CPC_cont": 2.71,
+          "cpc_org_didatico": 5.55,
+          "cpc_infraestrutura": 5.32,
+          "cpc_oportunidade": 4.99,
+          "pct_doc_mestres": 87.4,
+          "pct_doc_doutores": 55.8,
+          "pct_doc_regime": 84.9,
+          "n_cursos_avaliados": 6
+        }
+      }
+    },
+    "PE": {
+      "vagas_avaliadas": 19514,
+      "concluintes_avaliados": 515,
+      "n_cursos_avaliados": 11,
+      "ENADE": 1.9,
+      "IDD": 0.63,
+      "CPC_cont": 1.92,
+      "cpc_org_didatico": 4.99,
+      "cpc_infraestrutura": 4.8,
+      "cpc_oportunidade": 4.0,
+      "pct_doc_mestres": 88.1,
+      "pct_doc_doutores": 37.4,
+      "pct_doc_regime": 85.2,
+      "CC": 1.9,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 1.81,
+          "IDD": 0.47,
+          "CPC_cont": 1.81,
+          "cpc_org_didatico": 4.92,
+          "cpc_infraestrutura": 4.73,
+          "cpc_oportunidade": 3.89,
+          "pct_doc_mestres": 89.8,
+          "pct_doc_doutores": 34.4,
+          "pct_doc_regime": 85.2,
+          "n_cursos_avaliados": 3
+        },
+        "presencial": {
+          "ENADE": 2.41,
+          "IDD": 1.53,
+          "CPC_cont": 2.53,
+          "cpc_org_didatico": 5.37,
+          "cpc_infraestrutura": 5.17,
+          "cpc_oportunidade": 4.68,
+          "pct_doc_mestres": 77.6,
+          "pct_doc_doutores": 54.7,
+          "pct_doc_regime": 85.2,
+          "n_cursos_avaliados": 8
+        }
+      }
+    },
+    "PI": {
+      "vagas_avaliadas": 577,
+      "concluintes_avaliados": 73,
+      "n_cursos_avaliados": 3,
+      "ENADE": 1.66,
+      "IDD": 1.07,
+      "CPC_cont": 2.37,
+      "cpc_org_didatico": 5.8,
+      "cpc_infraestrutura": 5.79,
+      "cpc_oportunidade": 5.66,
+      "pct_doc_mestres": 90.0,
+      "pct_doc_doutores": 45.2,
+      "pct_doc_regime": 87.4,
+      "CC": 1.66,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 1.73,
+          "IDD": null,
+          "CPC_cont": 2.71,
+          "cpc_org_didatico": 5.91,
+          "cpc_infraestrutura": 5.97,
+          "cpc_oportunidade": 5.87,
+          "pct_doc_mestres": 100.0,
+          "pct_doc_doutores": 44.4,
+          "pct_doc_regime": 88.9,
+          "n_cursos_avaliados": 1
+        },
+        "presencial": {
+          "ENADE": 1.65,
+          "IDD": 1.07,
+          "CPC_cont": 2.35,
+          "cpc_org_didatico": 5.79,
+          "cpc_infraestrutura": 5.79,
+          "cpc_oportunidade": 5.65,
+          "pct_doc_mestres": 89.5,
+          "pct_doc_doutores": 45.2,
+          "pct_doc_regime": 87.4,
+          "n_cursos_avaliados": 2
+        }
+      }
+    },
+    "PR": {
+      "vagas_avaliadas": 50956,
+      "concluintes_avaliados": 2070,
+      "n_cursos_avaliados": 37,
+      "ENADE": 2.2,
+      "IDD": 2.04,
+      "CPC_cont": 2.57,
+      "cpc_org_didatico": 5.14,
+      "cpc_infraestrutura": 4.95,
+      "cpc_oportunidade": 4.08,
+      "pct_doc_mestres": 84.9,
+      "pct_doc_doutores": 48.1,
+      "pct_doc_regime": 96.8,
+      "CC": 2.2,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 2.04,
+          "IDD": 1.04,
+          "CPC_cont": 2.4,
+          "cpc_org_didatico": 5.07,
+          "cpc_infraestrutura": 4.86,
+          "cpc_oportunidade": 3.9,
+          "pct_doc_mestres": 82.9,
+          "pct_doc_doutores": 43.4,
+          "pct_doc_regime": 97.2,
+          "n_cursos_avaliados": 14
+        },
+        "presencial": {
+          "ENADE": 3.03,
+          "IDD": 3.03,
+          "CPC_cont": 3.45,
+          "cpc_org_didatico": 5.48,
+          "cpc_infraestrutura": 5.39,
+          "cpc_oportunidade": 5.0,
+          "pct_doc_mestres": 95.1,
+          "pct_doc_doutores": 71.8,
+          "pct_doc_regime": 94.7,
+          "n_cursos_avaliados": 23
+        }
+      }
+    },
+    "RJ": {
+      "vagas_avaliadas": 15482,
+      "concluintes_avaliados": 353,
+      "n_cursos_avaliados": 16,
+      "ENADE": 2.68,
+      "IDD": 1.14,
+      "CPC_cont": 2.44,
+      "cpc_org_didatico": 5.07,
+      "cpc_infraestrutura": 4.95,
+      "cpc_oportunidade": 4.19,
+      "pct_doc_mestres": 92.5,
+      "pct_doc_doutores": 50.9,
+      "pct_doc_regime": 88.7,
+      "CC": 2.68,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 2.57,
+          "IDD": 0.45,
+          "CPC_cont": 2.17,
+          "cpc_org_didatico": 4.88,
+          "cpc_infraestrutura": 4.76,
+          "cpc_oportunidade": 3.84,
+          "pct_doc_mestres": 95.5,
+          "pct_doc_doutores": 51.0,
+          "pct_doc_regime": 86.7,
+          "n_cursos_avaliados": 7
+        },
+        "presencial": {
+          "ENADE": 3.05,
+          "IDD": 3.22,
+          "CPC_cont": 3.36,
+          "cpc_org_didatico": 5.71,
+          "cpc_infraestrutura": 5.55,
+          "cpc_oportunidade": 5.34,
+          "pct_doc_mestres": 82.8,
+          "pct_doc_doutores": 50.6,
+          "pct_doc_regime": 95.5,
+          "n_cursos_avaliados": 9
+        }
+      }
+    },
+    "RN": {
+      "vagas_avaliadas": 469,
+      "concluintes_avaliados": 33,
+      "n_cursos_avaliados": 2,
+      "ENADE": 1.64,
+      "IDD": 0.79,
+      "CPC_cont": 2.34,
+      "cpc_org_didatico": 5.26,
+      "cpc_infraestrutura": 5.07,
+      "cpc_oportunidade": 4.33,
+      "pct_doc_mestres": 100.0,
+      "pct_doc_doutores": 83.9,
+      "pct_doc_regime": 80.4,
+      "CC": 1.64,
+      "por_modalidade": {
+        "presencial": {
+          "ENADE": 1.64,
+          "IDD": 0.79,
+          "CPC_cont": 2.34,
+          "cpc_org_didatico": 5.26,
+          "cpc_infraestrutura": 5.07,
+          "cpc_oportunidade": 4.33,
+          "pct_doc_mestres": 100.0,
+          "pct_doc_doutores": 83.9,
+          "pct_doc_regime": 80.4,
+          "n_cursos_avaliados": 2
+        }
+      }
+    },
+    "RO": {
+      "vagas_avaliadas": 130,
+      "concluintes_avaliados": 27,
+      "n_cursos_avaliados": 2,
+      "ENADE": 2.41,
+      "IDD": 2.95,
+      "CPC_cont": 3.07,
+      "cpc_org_didatico": 5.71,
+      "cpc_infraestrutura": 5.7,
+      "cpc_oportunidade": 5.61,
+      "pct_doc_mestres": 80.9,
+      "pct_doc_doutores": 35.1,
+      "pct_doc_regime": 100.0,
+      "CC": 2.41,
+      "por_modalidade": {
+        "presencial": {
+          "ENADE": 2.41,
+          "IDD": 2.95,
+          "CPC_cont": 3.07,
+          "cpc_org_didatico": 5.71,
+          "cpc_infraestrutura": 5.7,
+          "cpc_oportunidade": 5.61,
+          "pct_doc_mestres": 80.9,
+          "pct_doc_doutores": 35.1,
+          "pct_doc_regime": 100.0,
+          "n_cursos_avaliados": 2
+        }
+      }
+    },
+    "RS": {
+      "vagas_avaliadas": 2756,
+      "concluintes_avaliados": 345,
+      "n_cursos_avaliados": 26,
+      "ENADE": 3.19,
+      "IDD": 3.01,
+      "CPC_cont": 3.15,
+      "cpc_org_didatico": 5.4,
+      "cpc_infraestrutura": 5.14,
+      "cpc_oportunidade": 4.7,
+      "pct_doc_mestres": 92.0,
+      "pct_doc_doutores": 49.1,
+      "pct_doc_regime": 81.8,
+      "CC": 3.19,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 2.86,
+          "IDD": 1.97,
+          "CPC_cont": 2.52,
+          "cpc_org_didatico": 5.16,
+          "cpc_infraestrutura": 5.02,
+          "cpc_oportunidade": 3.94,
+          "pct_doc_mestres": 87.3,
+          "pct_doc_doutores": 31.6,
+          "pct_doc_regime": 71.4,
+          "n_cursos_avaliados": 6
+        },
+        "presencial": {
+          "ENADE": 3.26,
+          "IDD": 3.15,
+          "CPC_cont": 3.29,
+          "cpc_org_didatico": 5.46,
+          "cpc_infraestrutura": 5.17,
+          "cpc_oportunidade": 4.86,
+          "pct_doc_mestres": 92.9,
+          "pct_doc_doutores": 52.9,
+          "pct_doc_regime": 84.0,
+          "n_cursos_avaliados": 20
+        }
+      }
+    },
+    "SC": {
+      "vagas_avaliadas": 8717,
+      "concluintes_avaliados": 482,
+      "n_cursos_avaliados": 16,
+      "ENADE": 2.31,
+      "IDD": 1.53,
+      "CPC_cont": 2.15,
+      "cpc_org_didatico": 5.06,
+      "cpc_infraestrutura": 4.9,
+      "cpc_oportunidade": 3.91,
+      "pct_doc_mestres": 76.0,
+      "pct_doc_doutores": 31.7,
+      "pct_doc_regime": 79.1,
+      "CC": 2.31,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 2.16,
+          "IDD": 1.19,
+          "CPC_cont": 2.0,
+          "cpc_org_didatico": 5.01,
+          "cpc_infraestrutura": 4.85,
+          "cpc_oportunidade": 3.72,
+          "pct_doc_mestres": 77.3,
+          "pct_doc_doutores": 29.2,
+          "pct_doc_regime": 82.4,
+          "n_cursos_avaliados": 6
+        },
+        "presencial": {
+          "ENADE": 2.87,
+          "IDD": 2.76,
+          "CPC_cont": 2.73,
+          "cpc_org_didatico": 5.26,
+          "cpc_infraestrutura": 5.06,
+          "cpc_oportunidade": 4.64,
+          "pct_doc_mestres": 70.8,
+          "pct_doc_doutores": 41.6,
+          "pct_doc_regime": 66.2,
+          "n_cursos_avaliados": 10
+        }
+      }
+    },
+    "SE": {
+      "vagas_avaliadas": 658,
+      "concluintes_avaliados": 46,
+      "n_cursos_avaliados": 3,
+      "ENADE": 2.51,
+      "IDD": 2.7,
+      "CPC_cont": 2.84,
+      "cpc_org_didatico": 5.3,
+      "cpc_infraestrutura": 5.28,
+      "cpc_oportunidade": 4.87,
+      "pct_doc_mestres": 89.4,
+      "pct_doc_doutores": 50.2,
+      "pct_doc_regime": 70.7,
+      "CC": 2.51,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 1.5,
+          "IDD": null,
+          "CPC_cont": 2.32,
+          "cpc_org_didatico": 4.67,
+          "cpc_infraestrutura": 4.27,
+          "cpc_oportunidade": 5.25,
+          "pct_doc_mestres": 96.3,
+          "pct_doc_doutores": 74.1,
+          "pct_doc_regime": 85.2,
+          "n_cursos_avaliados": 1
+        },
+        "presencial": {
+          "ENADE": 2.61,
+          "IDD": 2.7,
+          "CPC_cont": 2.89,
+          "cpc_org_didatico": 5.36,
+          "cpc_infraestrutura": 5.37,
+          "cpc_oportunidade": 4.84,
+          "pct_doc_mestres": 88.8,
+          "pct_doc_doutores": 47.9,
+          "pct_doc_regime": 69.3,
+          "n_cursos_avaliados": 2
+        }
+      }
+    },
+    "SP": {
+      "vagas_avaliadas": 94432,
+      "concluintes_avaliados": 1712,
+      "n_cursos_avaliados": 70,
+      "ENADE": 2.45,
+      "IDD": 2.15,
+      "CPC_cont": 2.52,
+      "cpc_org_didatico": 5.13,
+      "cpc_infraestrutura": 4.92,
+      "cpc_oportunidade": 4.27,
+      "pct_doc_mestres": 87.5,
+      "pct_doc_doutores": 38.2,
+      "pct_doc_regime": 72.6,
+      "CC": 2.45,
+      "por_modalidade": {
+        "ead": {
+          "ENADE": 2.25,
+          "IDD": 0.74,
+          "CPC_cont": 2.28,
+          "cpc_org_didatico": 4.97,
+          "cpc_infraestrutura": 4.74,
+          "cpc_oportunidade": 3.97,
+          "pct_doc_mestres": 89.4,
+          "pct_doc_doutores": 30.1,
+          "pct_doc_regime": 68.6,
+          "n_cursos_avaliados": 15
+        },
+        "presencial": {
+          "ENADE": 2.78,
+          "IDD": 2.52,
+          "CPC_cont": 2.91,
+          "cpc_org_didatico": 5.39,
+          "cpc_infraestrutura": 5.2,
+          "cpc_oportunidade": 4.76,
+          "pct_doc_mestres": 84.5,
+          "pct_doc_doutores": 51.5,
+          "pct_doc_regime": 79.2,
+          "n_cursos_avaliados": 55
+        }
+      }
+    },
+    "TO": {
+      "vagas_avaliadas": 375,
+      "concluintes_avaliados": 50,
+      "n_cursos_avaliados": 4,
+      "ENADE": 2.35,
+      "IDD": 2.23,
+      "CPC_cont": 2.97,
+      "cpc_org_didatico": 5.84,
+      "cpc_infraestrutura": 5.66,
+      "cpc_oportunidade": 5.29,
+      "pct_doc_mestres": 84.2,
+      "pct_doc_doutores": 55.6,
+      "pct_doc_regime": 96.2,
+      "CC": 2.35,
+      "por_modalidade": {
+        "presencial": {
+          "ENADE": 2.35,
+          "IDD": 2.23,
+          "CPC_cont": 2.97,
+          "cpc_org_didatico": 5.84,
+          "cpc_infraestrutura": 5.66,
+          "cpc_oportunidade": 5.29,
+          "pct_doc_mestres": 84.2,
+          "pct_doc_doutores": 55.6,
+          "pct_doc_regime": 96.2,
+          "n_cursos_avaliados": 4
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Araucária",
+    "slug": "ARAUCARIA",
+    "cod_ibge": "4101804",
+    "vagas_total": 100,
+    "matriculas": 5,
+    "ingressos": 3,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Medianeira",
+    "slug": "MEDIANEIRA",
+    "cod_ibge": "4115804",
+    "vagas_total": 60,
+    "matriculas": 5,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Loanda",
+    "slug": "LOANDA",
+    "cod_ibge": "4113502",
+    "vagas_total": 46,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 1,
+    "matriculas": 48,
+    "ingressos": 1,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

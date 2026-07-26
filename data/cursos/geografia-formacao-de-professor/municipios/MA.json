@@ -1,0 +1,134 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 118,
+    "matriculas": 510,
+    "ingressos": 77,
+    "concluintes": 58,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 40,
+    "matriculas": 159,
+    "ingressos": 38,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 40,
+    "matriculas": 128,
+    "ingressos": 34,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Amarante do Maranhão",
+    "slug": "AMARANTE_DO_MARANHAO",
+    "cod_ibge": "2100600",
+    "vagas_total": 0,
+    "matriculas": 26,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Carutapera",
+    "slug": "CARUTAPERA",
+    "cod_ibge": "2102903",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Governador Nunes Freire",
+    "slug": "GOVERNADOR_NUNES_FREIRE",
+    "cod_ibge": "2104677",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itinga do Maranhão",
+    "slug": "ITINGA_DO_MARANHAO",
+    "cod_ibge": "2105427",
+    "vagas_total": 0,
+    "matriculas": 22,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pastos Bons",
+    "slug": "PASTOS_BONS",
+    "cod_ibge": "2108009",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Franco",
+    "slug": "PORTO_FRANCO",
+    "cod_ibge": "2109007",
+    "vagas_total": 0,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Luzia",
+    "slug": "SANTA_LUZIA",
+    "cod_ibge": "2110005",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Rita",
+    "slug": "SANTA_RITA",
+    "cod_ibge": "2110203",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vila Nova dos Martírios",
+    "slug": "VILA_NOVA_DOS_MARTIRIOS",
+    "cod_ibge": "2112852",
+    "vagas_total": 0,
+    "matriculas": 22,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

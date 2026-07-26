@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 942,
+    "matriculas": 1561,
+    "ingressos": 592,
+    "concluintes": 153,
+    "n_cursos": 7,
+    "n_ies": 7
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 196,
+    "matriculas": 388,
+    "ingressos": 129,
+    "concluintes": 42,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 98,
+    "matriculas": 246,
+    "ingressos": 58,
+    "concluintes": 45,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Campo Mourão",
+    "slug": "CAMPO_MOURAO",
+    "cod_ibge": "4104303",
+    "vagas_total": 96,
+    "matriculas": 404,
+    "ingressos": 92,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Helena",
+    "slug": "SANTA_HELENA",
+    "cod_ibge": "4123501",
+    "vagas_total": 90,
+    "matriculas": 175,
+    "ingressos": 43,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 89,
+    "matriculas": 359,
+    "ingressos": 81,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bandeirantes",
+    "slug": "BANDEIRANTES",
+    "cod_ibge": "4102406",
+    "vagas_total": 88,
+    "matriculas": 144,
+    "ingressos": 39,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Medianeira",
+    "slug": "MEDIANEIRA",
+    "cod_ibge": "4115804",
+    "vagas_total": 82,
+    "matriculas": 313,
+    "ingressos": 75,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Apucarana",
+    "slug": "APUCARANA",
+    "cod_ibge": "4101408",
+    "vagas_total": 56,
+    "matriculas": 92,
+    "ingressos": 37,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 50,
+    "matriculas": 198,
+    "ingressos": 37,
+    "concluintes": 43,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 50,
+    "matriculas": 136,
+    "ingressos": 35,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 44,
+    "matriculas": 188,
+    "ingressos": 44,
+    "concluintes": 49,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ampére",
+    "slug": "AMPERE",
+    "cod_ibge": "4101002",
+    "vagas_total": 40,
+    "matriculas": 15,
+    "ingressos": 1,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pinhais",
+    "slug": "PINHAIS",
+    "cod_ibge": "4119152",
+    "vagas_total": 39,
+    "matriculas": 77,
+    "ingressos": 36,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

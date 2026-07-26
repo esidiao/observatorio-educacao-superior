@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 1152,
+    "matriculas": 684,
+    "ingressos": 166,
+    "concluintes": 122,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 466,
+    "matriculas": 80,
+    "ingressos": 27,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Olinda",
+    "slug": "OLINDA",
+    "cod_ibge": "2609600",
+    "vagas_total": 120,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaboatão dos Guararapes",
+    "slug": "JABOATAO_DOS_GUARARAPES",
+    "cod_ibge": "2607901",
+    "vagas_total": 14,
+    "matriculas": 44,
+    "ingressos": 14,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 267,
+    "matriculas": 481,
+    "ingressos": 156,
+    "concluintes": 183,
+    "n_cursos": 5,
+    "n_ies": 2
+  }
+]

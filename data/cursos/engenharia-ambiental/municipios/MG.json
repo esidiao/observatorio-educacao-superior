@@ -1,0 +1,178 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 446,
+    "matriculas": 340,
+    "ingressos": 87,
+    "concluintes": 56,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "Sete Lagoas",
+    "slug": "SETE_LAGOAS",
+    "cod_ibge": "3167202",
+    "vagas_total": 300,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Manhuaçu",
+    "slug": "MANHUACU",
+    "cod_ibge": "3139409",
+    "vagas_total": 200,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 155,
+    "matriculas": 193,
+    "ingressos": 64,
+    "concluintes": 14,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Poços de Caldas",
+    "slug": "POCOS_DE_CALDAS",
+    "cod_ibge": "3151800",
+    "vagas_total": 127,
+    "matriculas": 64,
+    "ingressos": 16,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itabira",
+    "slug": "ITABIRA",
+    "cod_ibge": "3131703",
+    "vagas_total": 125,
+    "matriculas": 160,
+    "ingressos": 40,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberaba",
+    "slug": "UBERABA",
+    "cod_ibge": "3170107",
+    "vagas_total": 122,
+    "matriculas": 142,
+    "ingressos": 46,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "João Monlevade",
+    "slug": "JOAO_MONLEVADE",
+    "cod_ibge": "3136207",
+    "vagas_total": 109,
+    "matriculas": 204,
+    "ingressos": 60,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paracatu",
+    "slug": "PARACATU",
+    "cod_ibge": "3147006",
+    "vagas_total": 100,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 91,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itajubá",
+    "slug": "ITAJUBA",
+    "cod_ibge": "3132404",
+    "vagas_total": 90,
+    "matriculas": 216,
+    "ingressos": 44,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Inconfidentes",
+    "slug": "INCONFIDENTES",
+    "cod_ibge": "3130606",
+    "vagas_total": 85,
+    "matriculas": 67,
+    "ingressos": 18,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ouro Preto",
+    "slug": "OURO_PRETO",
+    "cod_ibge": "3146107",
+    "vagas_total": 71,
+    "matriculas": 184,
+    "ingressos": 43,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ibirité",
+    "slug": "IBIRITE",
+    "cod_ibge": "3129806",
+    "vagas_total": 50,
+    "matriculas": 54,
+    "ingressos": 42,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Passos",
+    "slug": "PASSOS",
+    "cod_ibge": "3147907",
+    "vagas_total": 25,
+    "matriculas": 59,
+    "ingressos": 6,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipatinga",
+    "slug": "IPATINGA",
+    "cod_ibge": "3131307",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

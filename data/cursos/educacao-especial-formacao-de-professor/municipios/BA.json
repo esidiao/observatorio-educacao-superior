@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Cruz das Almas",
+    "slug": "CRUZ_DAS_ALMAS",
+    "cod_ibge": "2909802",
+    "vagas_total": 150,
+    "matriculas": 144,
+    "ingressos": 152,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Serrinha",
+    "slug": "SERRINHA",
+    "cod_ibge": "2930501",
+    "vagas_total": 74,
+    "matriculas": 68,
+    "ingressos": 70,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

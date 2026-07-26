@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Lages",
+    "slug": "LAGES",
+    "cod_ibge": "4209300",
+    "vagas_total": 30,
+    "matriculas": 892,
+    "ingressos": 30,
+    "concluintes": 289,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

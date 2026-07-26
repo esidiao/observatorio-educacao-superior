@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 6705,
+    "matriculas": 5848,
+    "ingressos": 3100,
+    "concluintes": 791,
+    "n_cursos": 21,
+    "n_ies": 15
+  },
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 896,
+    "matriculas": 564,
+    "ingressos": 290,
+    "concluintes": 94,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Olinda",
+    "slug": "OLINDA",
+    "cod_ibge": "2609600",
+    "vagas_total": 624,
+    "matriculas": 552,
+    "ingressos": 227,
+    "concluintes": 55,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Paulista",
+    "slug": "PAULISTA",
+    "cod_ibge": "2610707",
+    "vagas_total": 437,
+    "matriculas": 690,
+    "ingressos": 351,
+    "concluintes": 83,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Jaboatão dos Guararapes",
+    "slug": "JABOATAO_DOS_GUARARAPES",
+    "cod_ibge": "2607901",
+    "vagas_total": 163,
+    "matriculas": 310,
+    "ingressos": 158,
+    "concluintes": 36,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Vitória de Santo Antão",
+    "slug": "VITORIA_DE_SANTO_ANTAO",
+    "cod_ibge": "2616407",
+    "vagas_total": 140,
+    "matriculas": 184,
+    "ingressos": 0,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Serra Talhada",
+    "slug": "SERRA_TALHADA",
+    "cod_ibge": "2613909",
+    "vagas_total": 120,
+    "matriculas": 284,
+    "ingressos": 77,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arcoverde",
+    "slug": "ARCOVERDE",
+    "cod_ibge": "2601201",
+    "vagas_total": 110,
+    "matriculas": 83,
+    "ingressos": 62,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Garanhuns",
+    "slug": "GARANHUNS",
+    "cod_ibge": "2606002",
+    "vagas_total": 75,
+    "matriculas": 228,
+    "ingressos": 74,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Surubim",
+    "slug": "SURUBIM",
+    "cod_ibge": "2614501",
+    "vagas_total": 60,
+    "matriculas": 3,
+    "ingressos": 3,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palmares",
+    "slug": "PALMARES",
+    "cod_ibge": "2610004",
+    "vagas_total": 36,
+    "matriculas": 78,
+    "ingressos": 36,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

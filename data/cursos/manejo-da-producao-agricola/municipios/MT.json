@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Sorriso",
+    "slug": "SORRISO",
+    "cod_ibge": "5107925",
+    "vagas_total": 35,
+    "matriculas": 74,
+    "ingressos": 9,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

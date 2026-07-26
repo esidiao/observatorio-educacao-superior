@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Manaus",
+    "slug": "MANAUS",
+    "cod_ibge": "1302603",
+    "vagas_total": 164,
+    "matriculas": 537,
+    "ingressos": 93,
+    "concluintes": 120,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Tabatinga",
+    "slug": "TABATINGA",
+    "cod_ibge": "1304062",
+    "vagas_total": 120,
+    "matriculas": 206,
+    "ingressos": 61,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Parintins",
+    "slug": "PARINTINS",
+    "cod_ibge": "1303403",
+    "vagas_total": 45,
+    "matriculas": 226,
+    "ingressos": 84,
+    "concluintes": 38,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tefé",
+    "slug": "TEFE",
+    "cod_ibge": "1304203",
+    "vagas_total": 30,
+    "matriculas": 135,
+    "ingressos": 29,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caapiranga",
+    "slug": "CAAPIRANGA",
+    "cod_ibge": "1300839",
+    "vagas_total": 0,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itacoatiara",
+    "slug": "ITACOATIARA",
+    "cod_ibge": "1301902",
+    "vagas_total": 0,
+    "matriculas": 10,
+    "ingressos": 0,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maraã",
+    "slug": "MARAA",
+    "cod_ibge": "1302801",
+    "vagas_total": 0,
+    "matriculas": 33,
+    "ingressos": 0,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Presidente Figueiredo",
+    "slug": "PRESIDENTE_FIGUEIREDO",
+    "cod_ibge": "1303536",
+    "vagas_total": 0,
+    "matriculas": 49,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Paulo de Olivença",
+    "slug": "SAO_PAULO_DE_OLIVENCA",
+    "cod_ibge": "1303908",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

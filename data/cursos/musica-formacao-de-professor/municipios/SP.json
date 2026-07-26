@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 854,
+    "matriculas": 270,
+    "ingressos": 99,
+    "concluintes": 40,
+    "n_cursos": 7,
+    "n_ies": 7
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 118,
+    "matriculas": 115,
+    "ingressos": 18,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 101,
+    "matriculas": 13,
+    "ingressos": 1,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Presidente Prudente",
+    "slug": "PRESIDENTE_PRUDENTE",
+    "cod_ibge": "3541406",
+    "vagas_total": 100,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Carlos",
+    "slug": "SAO_CARLOS",
+    "cod_ibge": "3548906",
+    "vagas_total": 70,
+    "matriculas": 87,
+    "ingressos": 30,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Engenheiro Coelho",
+    "slug": "ENGENHEIRO_COELHO",
+    "cod_ibge": "3515152",
+    "vagas_total": 60,
+    "matriculas": 94,
+    "ingressos": 23,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Limpo Paulista",
+    "slug": "CAMPO_LIMPO_PAULISTA",
+    "cod_ibge": "3509601",
+    "vagas_total": 50,
+    "matriculas": 38,
+    "ingressos": 0,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pindamonhangaba",
+    "slug": "PINDAMONHANGABA",
+    "cod_ibge": "3538006",
+    "vagas_total": 40,
+    "matriculas": 26,
+    "ingressos": 20,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

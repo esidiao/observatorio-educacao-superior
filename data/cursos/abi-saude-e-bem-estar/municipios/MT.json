@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 128,
+    "matriculas": 167,
+    "ingressos": 104,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lucas do Rio Verde",
+    "slug": "LUCAS_DO_RIO_VERDE",
+    "cod_ibge": "5105259",
+    "vagas_total": 60,
+    "matriculas": 29,
+    "ingressos": 32,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  }
+]

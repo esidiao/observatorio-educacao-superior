@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Manaus",
+    "slug": "MANAUS",
+    "cod_ibge": "1302603",
+    "vagas_total": 9535,
+    "matriculas": 5126,
+    "ingressos": 1576,
+    "concluintes": 594,
+    "n_cursos": 22,
+    "n_ies": 18
+  },
+  {
+    "nome": "Parintins",
+    "slug": "PARINTINS",
+    "cod_ibge": "1303403",
+    "vagas_total": 250,
+    "matriculas": 280,
+    "ingressos": 28,
+    "concluintes": 29,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Coari",
+    "slug": "COARI",
+    "cod_ibge": "1301209",
+    "vagas_total": 245,
+    "matriculas": 62,
+    "ingressos": 45,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Manacapuru",
+    "slug": "MANACAPURU",
+    "cod_ibge": "1302504",
+    "vagas_total": 240,
+    "matriculas": 5,
+    "ingressos": 5,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itacoatiara",
+    "slug": "ITACOATIARA",
+    "cod_ibge": "1301902",
+    "vagas_total": 200,
+    "matriculas": 6,
+    "ingressos": 8,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tefé",
+    "slug": "TEFE",
+    "cod_ibge": "1304203",
+    "vagas_total": 145,
+    "matriculas": 37,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Benjamin Constant",
+    "slug": "BENJAMIN_CONSTANT",
+    "cod_ibge": "1300607",
+    "vagas_total": 50,
+    "matriculas": 187,
+    "ingressos": 31,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Eirunepé",
+    "slug": "EIRUNEPE",
+    "cod_ibge": "1301407",
+    "vagas_total": 45,
+    "matriculas": 23,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lábrea",
+    "slug": "LABREA",
+    "cod_ibge": "1302405",
+    "vagas_total": 45,
+    "matriculas": 29,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maués",
+    "slug": "MAUES",
+    "cod_ibge": "1302900",
+    "vagas_total": 45,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Olinda do Norte",
+    "slug": "NOVA_OLINDA_DO_NORTE",
+    "cod_ibge": "1303106",
+    "vagas_total": 45,
+    "matriculas": 21,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Novo Aripuanã",
+    "slug": "NOVO_ARIPUANA",
+    "cod_ibge": "1303304",
+    "vagas_total": 45,
+    "matriculas": 21,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Presidente Figueiredo",
+    "slug": "PRESIDENTE_FIGUEIREDO",
+    "cod_ibge": "1303536",
+    "vagas_total": 45,
+    "matriculas": 11,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Gabriel da Cachoeira",
+    "slug": "SAO_GABRIEL_DA_CACHOEIRA",
+    "cod_ibge": "1303809",
+    "vagas_total": 45,
+    "matriculas": 23,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

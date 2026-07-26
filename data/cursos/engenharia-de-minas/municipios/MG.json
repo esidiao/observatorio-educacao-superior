@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 272,
+    "matriculas": 358,
+    "ingressos": 91,
+    "concluintes": 44,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Conselheiro Lafaiete",
+    "slug": "CONSELHEIRO_LAFAIETE",
+    "cod_ibge": "3118304",
+    "vagas_total": 132,
+    "matriculas": 38,
+    "ingressos": 10,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "João Monlevade",
+    "slug": "JOAO_MONLEVADE",
+    "cod_ibge": "3136207",
+    "vagas_total": 106,
+    "matriculas": 257,
+    "ingressos": 59,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paracatu",
+    "slug": "PARACATU",
+    "cod_ibge": "3147006",
+    "vagas_total": 104,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Janaúba",
+    "slug": "JANAUBA",
+    "cod_ibge": "3135100",
+    "vagas_total": 102,
+    "matriculas": 65,
+    "ingressos": 13,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ouro Preto",
+    "slug": "OURO_PRETO",
+    "cod_ibge": "3146107",
+    "vagas_total": 86,
+    "matriculas": 371,
+    "ingressos": 80,
+    "concluintes": 44,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araxá",
+    "slug": "ARAXA",
+    "cod_ibge": "3104007",
+    "vagas_total": 80,
+    "matriculas": 96,
+    "ingressos": 22,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Poços de Caldas",
+    "slug": "POCOS_DE_CALDAS",
+    "cod_ibge": "3151800",
+    "vagas_total": 78,
+    "matriculas": 48,
+    "ingressos": 17,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipatinga",
+    "slug": "IPATINGA",
+    "cod_ibge": "3131307",
+    "vagas_total": 37,
+    "matriculas": 5,
+    "ingressos": 2,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mariana",
+    "slug": "MARIANA",
+    "cod_ibge": "3140001",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

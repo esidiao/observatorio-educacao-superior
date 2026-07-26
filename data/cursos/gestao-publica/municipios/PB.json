@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Sumé",
+    "slug": "SUME",
+    "cod_ibge": "2516300",
+    "vagas_total": 174,
+    "matriculas": 77,
+    "ingressos": 38,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 130,
+    "matriculas": 242,
+    "ingressos": 89,
+    "concluintes": 27,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

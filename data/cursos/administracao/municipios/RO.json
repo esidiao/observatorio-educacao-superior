@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Porto Velho",
+    "slug": "PORTO_VELHO",
+    "cod_ibge": "1100205",
+    "vagas_total": 1727,
+    "matriculas": 446,
+    "ingressos": 261,
+    "concluintes": 56,
+    "n_cursos": 7,
+    "n_ies": 7
+  },
+  {
+    "nome": "Ji-Paraná",
+    "slug": "JI_PARANA",
+    "cod_ibge": "1100122",
+    "vagas_total": 589,
+    "matriculas": 68,
+    "ingressos": 39,
+    "concluintes": 24,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cacoal",
+    "slug": "CACOAL",
+    "cod_ibge": "1100049",
+    "vagas_total": 498,
+    "matriculas": 293,
+    "ingressos": 113,
+    "concluintes": 28,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Pimenta Bueno",
+    "slug": "PIMENTA_BUENO",
+    "cod_ibge": "1100189",
+    "vagas_total": 490,
+    "matriculas": 19,
+    "ingressos": 4,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vilhena",
+    "slug": "VILHENA",
+    "cod_ibge": "1100304",
+    "vagas_total": 270,
+    "matriculas": 140,
+    "ingressos": 58,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ariquemes",
+    "slug": "ARIQUEMES",
+    "cod_ibge": "1100023",
+    "vagas_total": 187,
+    "matriculas": 170,
+    "ingressos": 106,
+    "concluintes": 13,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ouro Preto do Oeste",
+    "slug": "OURO_PRETO_DO_OESTE",
+    "cod_ibge": "1100155",
+    "vagas_total": 185,
+    "matriculas": 10,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaru",
+    "slug": "JARU",
+    "cod_ibge": "1100114",
+    "vagas_total": 100,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guajará-Mirim",
+    "slug": "GUAJARA_MIRIM",
+    "cod_ibge": "1100106",
+    "vagas_total": 40,
+    "matriculas": 126,
+    "ingressos": 34,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

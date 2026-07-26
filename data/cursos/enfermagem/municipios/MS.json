@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 1336,
+    "matriculas": 1719,
+    "ingressos": 648,
+    "concluintes": 306,
+    "n_cursos": 7,
+    "n_ies": 7
+  },
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 227,
+    "matriculas": 548,
+    "ingressos": 190,
+    "concluintes": 89,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Três Lagoas",
+    "slug": "TRES_LAGOAS",
+    "cod_ibge": "5008305",
+    "vagas_total": 142,
+    "matriculas": 388,
+    "ingressos": 96,
+    "concluintes": 59,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Corumbá",
+    "slug": "CORUMBA",
+    "cod_ibge": "5003207",
+    "vagas_total": 130,
+    "matriculas": 42,
+    "ingressos": 3,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Coxim",
+    "slug": "COXIM",
+    "cod_ibge": "5003306",
+    "vagas_total": 62,
+    "matriculas": 165,
+    "ingressos": 49,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cassilândia",
+    "slug": "CASSILANDIA",
+    "cod_ibge": "5002902",
+    "vagas_total": 8,
+    "matriculas": 63,
+    "ingressos": 8,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Costa Rica",
+    "slug": "COSTA_RICA",
+    "cod_ibge": "5003256",
+    "vagas_total": 0,
+    "matriculas": 31,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

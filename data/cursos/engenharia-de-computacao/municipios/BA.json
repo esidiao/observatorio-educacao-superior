@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 2178,
+    "matriculas": 1077,
+    "ingressos": 316,
+    "concluintes": 107,
+    "n_cursos": 7,
+    "n_ies": 6
+  },
+  {
+    "nome": "Vitória da Conquista",
+    "slug": "VITORIA_DA_CONQUISTA",
+    "cod_ibge": "2933307",
+    "vagas_total": 641,
+    "matriculas": 152,
+    "ingressos": 49,
+    "concluintes": 11,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 387,
+    "matriculas": 660,
+    "ingressos": 171,
+    "concluintes": 45,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Cruz das Almas",
+    "slug": "CRUZ_DAS_ALMAS",
+    "cod_ibge": "2909802",
+    "vagas_total": 30,
+    "matriculas": 19,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juazeiro",
+    "slug": "JUAZEIRO",
+    "cod_ibge": "2918407",
+    "vagas_total": 10,
+    "matriculas": 13,
+    "ingressos": 8,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lauro de Freitas",
+    "slug": "LAURO_DE_FREITAS",
+    "cod_ibge": "2919207",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

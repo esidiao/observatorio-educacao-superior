@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Ananindeua",
+    "slug": "ANANINDEUA",
+    "cod_ibge": "1500800",
+    "vagas_total": 430,
+    "matriculas": 100,
+    "ingressos": 53,
+    "concluintes": 27,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 130,
+    "matriculas": 27,
+    "ingressos": 15,
+    "concluintes": 7,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

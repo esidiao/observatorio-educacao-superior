@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 103,
+    "matriculas": 289,
+    "ingressos": 85,
+    "concluintes": 39,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cametá",
+    "slug": "CAMETA",
+    "cod_ibge": "1502103",
+    "vagas_total": 40,
+    "matriculas": 69,
+    "ingressos": 21,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 40,
+    "matriculas": 26,
+    "ingressos": 9,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salvaterra",
+    "slug": "SALVATERRA",
+    "cod_ibge": "1506302",
+    "vagas_total": 40,
+    "matriculas": 111,
+    "ingressos": 36,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Castanhal",
+    "slug": "CASTANHAL",
+    "cod_ibge": "1502400",
+    "vagas_total": 30,
+    "matriculas": 89,
+    "ingressos": 20,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Redenção",
+    "slug": "REDENCAO",
+    "cod_ibge": "1506138",
+    "vagas_total": 0,
+    "matriculas": 14,
+    "ingressos": 0,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

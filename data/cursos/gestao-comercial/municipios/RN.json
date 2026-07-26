@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 168,
+    "matriculas": 27,
+    "ingressos": 8,
+    "concluintes": 15,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Currais Novos",
+    "slug": "CURRAIS_NOVOS",
+    "cod_ibge": "2403103",
+    "vagas_total": 60,
+    "matriculas": 30,
+    "ingressos": 27,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

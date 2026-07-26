@@ -1,0 +1,178 @@
+[
+  {
+    "nome": "Manaus",
+    "slug": "MANAUS",
+    "cod_ibge": "1302603",
+    "vagas_total": 687,
+    "matriculas": 568,
+    "ingressos": 105,
+    "concluintes": 131,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Parintins",
+    "slug": "PARINTINS",
+    "cod_ibge": "1303403",
+    "vagas_total": 50,
+    "matriculas": 158,
+    "ingressos": 47,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tefé",
+    "slug": "TEFE",
+    "cod_ibge": "1304203",
+    "vagas_total": 30,
+    "matriculas": 167,
+    "ingressos": 29,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Boca do Acre",
+    "slug": "BOCA_DO_ACRE",
+    "cod_ibge": "1300706",
+    "vagas_total": 0,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Carauari",
+    "slug": "CARAUARI",
+    "cod_ibge": "1301001",
+    "vagas_total": 0,
+    "matriculas": 33,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Careiro",
+    "slug": "CAREIRO",
+    "cod_ibge": "1301100",
+    "vagas_total": 0,
+    "matriculas": 17,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Humaitá",
+    "slug": "HUMAITA",
+    "cod_ibge": "1301704",
+    "vagas_total": 0,
+    "matriculas": 18,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipixuna",
+    "slug": "IPIXUNA",
+    "cod_ibge": "1301803",
+    "vagas_total": 0,
+    "matriculas": 22,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itacoatiara",
+    "slug": "ITACOATIARA",
+    "cod_ibge": "1301902",
+    "vagas_total": 0,
+    "matriculas": 24,
+    "ingressos": 0,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapiranga",
+    "slug": "ITAPIRANGA",
+    "cod_ibge": "1302009",
+    "vagas_total": 0,
+    "matriculas": 20,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lábrea",
+    "slug": "LABREA",
+    "cod_ibge": "1302405",
+    "vagas_total": 0,
+    "matriculas": 23,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maraã",
+    "slug": "MARAA",
+    "cod_ibge": "1302801",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maués",
+    "slug": "MAUES",
+    "cod_ibge": "1302900",
+    "vagas_total": 0,
+    "matriculas": 21,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Novo Aripuanã",
+    "slug": "NOVO_ARIPUANA",
+    "cod_ibge": "1303304",
+    "vagas_total": 0,
+    "matriculas": 22,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Presidente Figueiredo",
+    "slug": "PRESIDENTE_FIGUEIREDO",
+    "cod_ibge": "1303536",
+    "vagas_total": 0,
+    "matriculas": 7,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tabatinga",
+    "slug": "TABATINGA",
+    "cod_ibge": "1304062",
+    "vagas_total": 0,
+    "matriculas": 19,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

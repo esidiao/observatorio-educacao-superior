@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 581,
+    "matriculas": 267,
+    "ingressos": 68,
+    "concluintes": 35,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 106,
+    "matriculas": 113,
+    "ingressos": 5,
+    "concluintes": 19,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Caraúbas",
+    "slug": "CARAUBAS",
+    "cod_ibge": "2402303",
+    "vagas_total": 30,
+    "matriculas": 33,
+    "ingressos": 0,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

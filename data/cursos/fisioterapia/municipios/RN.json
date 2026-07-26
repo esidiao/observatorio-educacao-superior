@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 1898,
+    "matriculas": 1489,
+    "ingressos": 453,
+    "concluintes": 181,
+    "n_cursos": 8,
+    "n_ies": 7
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 508,
+    "matriculas": 672,
+    "ingressos": 229,
+    "concluintes": 79,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Açu",
+    "slug": "ACU",
+    "cod_ibge": "2400208",
+    "vagas_total": 155,
+    "matriculas": 145,
+    "ingressos": 50,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz",
+    "slug": "SANTA_CRUZ",
+    "cod_ibge": "2411205",
+    "vagas_total": 44,
+    "matriculas": 190,
+    "ingressos": 41,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

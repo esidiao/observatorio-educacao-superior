@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 565,
+    "matriculas": 255,
+    "ingressos": 132,
+    "concluintes": 32,
+    "n_cursos": 4,
+    "n_ies": 2
+  }
+]

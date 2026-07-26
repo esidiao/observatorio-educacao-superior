@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Maceió",
+    "slug": "MACEIO",
+    "cod_ibge": "2704302",
+    "vagas_total": 2328,
+    "matriculas": 1758,
+    "ingressos": 708,
+    "concluintes": 227,
+    "n_cursos": 9,
+    "n_ies": 9
+  },
+  {
+    "nome": "Arapiraca",
+    "slug": "ARAPIRACA",
+    "cod_ibge": "2700300",
+    "vagas_total": 416,
+    "matriculas": 814,
+    "ingressos": 289,
+    "concluintes": 43,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Penedo",
+    "slug": "PENEDO",
+    "cod_ibge": "2706703",
+    "vagas_total": 55,
+    "matriculas": 92,
+    "ingressos": 42,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

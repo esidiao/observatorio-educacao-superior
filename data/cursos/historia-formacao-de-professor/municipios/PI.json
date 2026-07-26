@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 676,
+    "matriculas": 696,
+    "ingressos": 180,
+    "concluintes": 102,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Parnaíba",
+    "slug": "PARNAIBA",
+    "cod_ibge": "2207702",
+    "vagas_total": 180,
+    "matriculas": 157,
+    "ingressos": 35,
+    "concluintes": 35,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Picos",
+    "slug": "PICOS",
+    "cod_ibge": "2208007",
+    "vagas_total": 105,
+    "matriculas": 283,
+    "ingressos": 68,
+    "concluintes": 57,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barras",
+    "slug": "BARRAS",
+    "cod_ibge": "2201200",
+    "vagas_total": 80,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Floriano",
+    "slug": "FLORIANO",
+    "cod_ibge": "2203909",
+    "vagas_total": 80,
+    "matriculas": 125,
+    "ingressos": 67,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Oeiras",
+    "slug": "OEIRAS",
+    "cod_ibge": "2207009",
+    "vagas_total": 50,
+    "matriculas": 133,
+    "ingressos": 41,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Maior",
+    "slug": "CAMPO_MAIOR",
+    "cod_ibge": "2202208",
+    "vagas_total": 40,
+    "matriculas": 123,
+    "ingressos": 35,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Raimundo Nonato",
+    "slug": "SAO_RAIMUNDO_NONATO",
+    "cod_ibge": "2210607",
+    "vagas_total": 40,
+    "matriculas": 79,
+    "ingressos": 25,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

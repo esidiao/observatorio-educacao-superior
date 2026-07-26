@@ -1,0 +1,211 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 954,
+    "matriculas": 805,
+    "ingressos": 346,
+    "concluintes": 61,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Várzea Grande",
+    "slug": "VARZEA_GRANDE",
+    "cod_ibge": "5108402",
+    "vagas_total": 436,
+    "matriculas": 201,
+    "ingressos": 72,
+    "concluintes": 17,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cáceres",
+    "slug": "CACERES",
+    "cod_ibge": "5102504",
+    "vagas_total": 361,
+    "matriculas": 349,
+    "ingressos": 118,
+    "concluintes": 54,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 352,
+    "matriculas": 534,
+    "ingressos": 182,
+    "concluintes": 40,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Barra do Garças",
+    "slug": "BARRA_DO_GARCAS",
+    "cod_ibge": "5101803",
+    "vagas_total": 294,
+    "matriculas": 128,
+    "ingressos": 56,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Guarantã do Norte",
+    "slug": "GUARANTA_DO_NORTE",
+    "cod_ibge": "5104104",
+    "vagas_total": 291,
+    "matriculas": 27,
+    "ingressos": 9,
+    "concluintes": 1,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São José dos Quatro Marcos",
+    "slug": "SAO_JOSE_DOS_QUATRO_MARCOS",
+    "cod_ibge": "5107107",
+    "vagas_total": 221,
+    "matriculas": 51,
+    "ingressos": 29,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 204,
+    "matriculas": 340,
+    "ingressos": 121,
+    "concluintes": 52,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Sorriso",
+    "slug": "SORRISO",
+    "cod_ibge": "5107925",
+    "vagas_total": 129,
+    "matriculas": 116,
+    "ingressos": 89,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juína",
+    "slug": "JUINA",
+    "cod_ibge": "5105150",
+    "vagas_total": 100,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Mutum",
+    "slug": "NOVA_MUTUM",
+    "cod_ibge": "5106224",
+    "vagas_total": 91,
+    "matriculas": 268,
+    "ingressos": 87,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tangará da Serra",
+    "slug": "TANGARA_DA_SERRA",
+    "cod_ibge": "5107958",
+    "vagas_total": 83,
+    "matriculas": 331,
+    "ingressos": 83,
+    "concluintes": 52,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Jaciara",
+    "slug": "JACIARA",
+    "cod_ibge": "5104807",
+    "vagas_total": 80,
+    "matriculas": 100,
+    "ingressos": 23,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lucas do Rio Verde",
+    "slug": "LUCAS_DO_RIO_VERDE",
+    "cod_ibge": "5105259",
+    "vagas_total": 60,
+    "matriculas": 92,
+    "ingressos": 29,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araputanga",
+    "slug": "ARAPUTANGA",
+    "cod_ibge": "5101258",
+    "vagas_total": 45,
+    "matriculas": 94,
+    "ingressos": 30,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alta Floresta",
+    "slug": "ALTA_FLORESTA",
+    "cod_ibge": "5100250",
+    "vagas_total": 26,
+    "matriculas": 28,
+    "ingressos": 23,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Primavera do Leste",
+    "slug": "PRIMAVERA_DO_LESTE",
+    "cod_ibge": "5107040",
+    "vagas_total": 1,
+    "matriculas": 1,
+    "ingressos": 1,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Diamantino",
+    "slug": "DIAMANTINO",
+    "cod_ibge": "5103502",
+    "vagas_total": 0,
+    "matriculas": 25,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Félix do Araguaia",
+    "slug": "SAO_FELIX_DO_ARAGUAIA",
+    "cod_ibge": "5107859",
+    "vagas_total": 0,
+    "matriculas": 64,
+    "ingressos": 0,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

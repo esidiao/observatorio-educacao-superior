@@ -1,0 +1,134 @@
+[
+  {
+    "nome": "Vitória da Conquista",
+    "slug": "VITORIA_DA_CONQUISTA",
+    "cod_ibge": "2933307",
+    "vagas_total": 142,
+    "matriculas": 280,
+    "ingressos": 79,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 104,
+    "matriculas": 323,
+    "ingressos": 58,
+    "concluintes": 77,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 99,
+    "matriculas": 227,
+    "ingressos": 68,
+    "concluintes": 43,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ilhéus",
+    "slug": "ILHEUS",
+    "cod_ibge": "2913606",
+    "vagas_total": 69,
+    "matriculas": 130,
+    "ingressos": 44,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jacobina",
+    "slug": "JACOBINA",
+    "cod_ibge": "2917508",
+    "vagas_total": 41,
+    "matriculas": 115,
+    "ingressos": 30,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caetité",
+    "slug": "CAETITE",
+    "cod_ibge": "2905206",
+    "vagas_total": 40,
+    "matriculas": 93,
+    "ingressos": 27,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Inês",
+    "slug": "SANTA_INES",
+    "cod_ibge": "2927903",
+    "vagas_total": 40,
+    "matriculas": 128,
+    "ingressos": 41,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Antônio de Jesus",
+    "slug": "SANTO_ANTONIO_DE_JESUS",
+    "cod_ibge": "2928703",
+    "vagas_total": 40,
+    "matriculas": 144,
+    "ingressos": 23,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Senhor do Bonfim",
+    "slug": "SENHOR_DO_BONFIM",
+    "cod_ibge": "2930105",
+    "vagas_total": 40,
+    "matriculas": 13,
+    "ingressos": 33,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Serrinha",
+    "slug": "SERRINHA",
+    "cod_ibge": "2930501",
+    "vagas_total": 40,
+    "matriculas": 109,
+    "ingressos": 18,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barreiras",
+    "slug": "BARREIRAS",
+    "cod_ibge": "2903201",
+    "vagas_total": 36,
+    "matriculas": 43,
+    "ingressos": 5,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paripiranga",
+    "slug": "PARIPIRANGA",
+    "cod_ibge": "2923803",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

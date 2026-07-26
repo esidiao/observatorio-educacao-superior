@@ -1,0 +1,145 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 265,
+    "matriculas": 343,
+    "ingressos": 69,
+    "concluintes": 36,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 128,
+    "matriculas": 151,
+    "ingressos": 31,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 127,
+    "matriculas": 136,
+    "ingressos": 51,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 120,
+    "matriculas": 65,
+    "ingressos": 21,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 109,
+    "matriculas": 66,
+    "ingressos": 23,
+    "concluintes": 6,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Charqueadas",
+    "slug": "CHARQUEADAS",
+    "cod_ibge": "4305355",
+    "vagas_total": 88,
+    "matriculas": 148,
+    "ingressos": 42,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Grande",
+    "slug": "RIO_GRANDE",
+    "cod_ibge": "4315602",
+    "vagas_total": 83,
+    "matriculas": 163,
+    "ingressos": 53,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Horizontina",
+    "slug": "HORIZONTINA",
+    "cod_ibge": "4309605",
+    "vagas_total": 46,
+    "matriculas": 46,
+    "ingressos": 13,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Panambi",
+    "slug": "PANAMBI",
+    "cod_ibge": "4313904",
+    "vagas_total": 45,
+    "matriculas": 32,
+    "ingressos": 43,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Farroupilha",
+    "slug": "FARROUPILHA",
+    "cod_ibge": "4307906",
+    "vagas_total": 42,
+    "matriculas": 78,
+    "ingressos": 28,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Canoas",
+    "slug": "CANOAS",
+    "cod_ibge": "4304606",
+    "vagas_total": 3,
+    "matriculas": 1,
+    "ingressos": 3,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lajeado",
+    "slug": "LAJEADO",
+    "cod_ibge": "4311403",
+    "vagas_total": 0,
+    "matriculas": 15,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 0,
+    "matriculas": 14,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

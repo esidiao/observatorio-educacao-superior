@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Serra Talhada",
+    "slug": "SERRA_TALHADA",
+    "cod_ibge": "2613909",
+    "vagas_total": 334,
+    "matriculas": 345,
+    "ingressos": 94,
+    "concluintes": 39,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 263,
+    "matriculas": 298,
+    "ingressos": 90,
+    "concluintes": 72,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Nazaré da Mata",
+    "slug": "NAZARE_DA_MATA",
+    "cod_ibge": "2609501",
+    "vagas_total": 150,
+    "matriculas": 387,
+    "ingressos": 83,
+    "concluintes": 58,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Jardim",
+    "slug": "BELO_JARDIM",
+    "cod_ibge": "2601706",
+    "vagas_total": 110,
+    "matriculas": 48,
+    "ingressos": 22,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palmares",
+    "slug": "PALMARES",
+    "cod_ibge": "2610004",
+    "vagas_total": 100,
+    "matriculas": 104,
+    "ingressos": 34,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Garanhuns",
+    "slug": "GARANHUNS",
+    "cod_ibge": "2606002",
+    "vagas_total": 85,
+    "matriculas": 392,
+    "ingressos": 126,
+    "concluintes": 111,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 70,
+    "matriculas": 25,
+    "ingressos": 9,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belém do São Francisco",
+    "slug": "BELEM_DO_SAO_FRANCISCO",
+    "cod_ibge": "2601607",
+    "vagas_total": 50,
+    "matriculas": 21,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 50,
+    "matriculas": 198,
+    "ingressos": 47,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória de Santo Antão",
+    "slug": "VITORIA_DE_SANTO_ANTAO",
+    "cod_ibge": "2616407",
+    "vagas_total": 31,
+    "matriculas": 68,
+    "ingressos": 25,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Olinda",
+    "slug": "OLINDA",
+    "cod_ibge": "2609600",
+    "vagas_total": 0,
+    "matriculas": 6,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

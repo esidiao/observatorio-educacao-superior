@@ -1,0 +1,77 @@
+{
+  "metadados": {
+    "curso": "Irrigação e drenagem",
+    "slug": "irrigacao-e-drenagem",
+    "cine_rotulo": "Irrigação e drenagem",
+    "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+    "versao_censo": "2024",
+    "ciclo_enade": null,
+    "data_extracao": "2026-07-26",
+    "cobertura": null,
+    "fontes": {
+      "censo": {
+        "nome": "Microdados do Censo da Educação Superior",
+        "orgao": "INEP/MEC",
+        "ano": 2024,
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados"
+      },
+      "cpc": null,
+      "populacao": {
+        "nome": "Estimativas populacionais",
+        "orgao": "IBGE",
+        "ano": 2024
+      }
+    }
+  },
+  "ufs": {
+    "CE": {
+      "vagas_total": 0,
+      "vagas_presencial": 0,
+      "vagas_ead": 0,
+      "vagas_capital": 0,
+      "pct_ead": null,
+      "n_cursos_presencial": 3,
+      "n_cursos_ead": 0,
+      "n_ies": 0,
+      "municipios_oferta": 3,
+      "ead_polos_municipios": 0,
+      "ead_polos_registros": 0,
+      "mun_ead_only": 0,
+      "ingressos": 0,
+      "matriculas": 59,
+      "matriculas_ead": 0,
+      "concluintes": 16,
+      "taxa_conclusao": 27.1,
+      "pct_mulheres": null,
+      "pct_ppi": null,
+      "pct_financiamento": null,
+      "pct_noturno": null,
+      "pct_rede_publica": null,
+      "HHI": null,
+      "CR2": null,
+      "CR10": null,
+      "municipios_total": 184,
+      "municipios_deserto": 181,
+      "populacao": 9233656,
+      "regiao": "Nordeste",
+      "capital": "Fortaleza",
+      "vagas_por_100k": 0.0,
+      "CC": null,
+      "ENADE": null,
+      "IDD": null,
+      "CPC_cont": null,
+      "vagas_avaliadas": null,
+      "cpc_org_didatico": null,
+      "cpc_infraestrutura": null,
+      "cpc_oportunidade": null,
+      "pct_doc_mestres": null,
+      "pct_doc_doutores": null,
+      "pct_doc_regime": null,
+      "n_cursos_avaliados": null,
+      "concluintes_avaliados": null,
+      "ICT": null,
+      "E": null,
+      "IAF": null
+    }
+  }
+}

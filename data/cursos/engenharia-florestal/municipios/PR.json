@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 100,
+    "matriculas": 317,
+    "ingressos": 60,
+    "concluintes": 45,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaguariaíva",
+    "slug": "JAGUARIAIVA",
+    "cod_ibge": "4112009",
+    "vagas_total": 100,
+    "matriculas": 2,
+    "ingressos": 2,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Irati",
+    "slug": "IRATI",
+    "cod_ibge": "4110706",
+    "vagas_total": 50,
+    "matriculas": 102,
+    "ingressos": 16,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Dois Vizinhos",
+    "slug": "DOIS_VIZINHOS",
+    "cod_ibge": "4107207",
+    "vagas_total": 44,
+    "matriculas": 115,
+    "ingressos": 15,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

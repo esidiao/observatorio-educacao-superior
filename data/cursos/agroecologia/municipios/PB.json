@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Sumé",
+    "slug": "SUME",
+    "cod_ibge": "2516300",
+    "vagas_total": 190,
+    "matriculas": 27,
+    "ingressos": 9,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bananeiras",
+    "slug": "BANANEIRAS",
+    "cod_ibge": "2501500",
+    "vagas_total": 50,
+    "matriculas": 87,
+    "ingressos": 23,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sousa",
+    "slug": "SOUSA",
+    "cod_ibge": "2516201",
+    "vagas_total": 35,
+    "matriculas": 92,
+    "ingressos": 20,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lagoa Seca",
+    "slug": "LAGOA_SECA",
+    "cod_ibge": "2508307",
+    "vagas_total": 8,
+    "matriculas": 56,
+    "ingressos": 0,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Picuí",
+    "slug": "PICUI",
+    "cod_ibge": "2511400",
+    "vagas_total": 0,
+    "matriculas": 23,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

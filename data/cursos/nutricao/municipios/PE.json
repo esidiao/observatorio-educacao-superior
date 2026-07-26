@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 5390,
+    "matriculas": 2651,
+    "ingressos": 860,
+    "concluintes": 323,
+    "n_cursos": 17,
+    "n_ies": 13
+  },
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 1184,
+    "matriculas": 444,
+    "ingressos": 183,
+    "concluintes": 68,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Olinda",
+    "slug": "OLINDA",
+    "cod_ibge": "2609600",
+    "vagas_total": 700,
+    "matriculas": 221,
+    "ingressos": 95,
+    "concluintes": 17,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Paulista",
+    "slug": "PAULISTA",
+    "cod_ibge": "2610707",
+    "vagas_total": 526,
+    "matriculas": 39,
+    "ingressos": 28,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 522,
+    "matriculas": 647,
+    "ingressos": 167,
+    "concluintes": 103,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Garanhuns",
+    "slug": "GARANHUNS",
+    "cod_ibge": "2606002",
+    "vagas_total": 461,
+    "matriculas": 252,
+    "ingressos": 99,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória de Santo Antão",
+    "slug": "VITORIA_DE_SANTO_ANTAO",
+    "cod_ibge": "2616407",
+    "vagas_total": 337,
+    "matriculas": 385,
+    "ingressos": 86,
+    "concluintes": 87,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Serra Talhada",
+    "slug": "SERRA_TALHADA",
+    "cod_ibge": "2613909",
+    "vagas_total": 324,
+    "matriculas": 246,
+    "ingressos": 163,
+    "concluintes": 51,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Belém do São Francisco",
+    "slug": "BELEM_DO_SAO_FRANCISCO",
+    "cod_ibge": "2601607",
+    "vagas_total": 85,
+    "matriculas": 60,
+    "ingressos": 17,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Timbaúba",
+    "slug": "TIMBAUBA",
+    "cod_ibge": "2615300",
+    "vagas_total": 84,
+    "matriculas": 14,
+    "ingressos": 18,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaboatão dos Guararapes",
+    "slug": "JABOATAO_DOS_GUARARAPES",
+    "cod_ibge": "2607901",
+    "vagas_total": 28,
+    "matriculas": 108,
+    "ingressos": 28,
+    "concluintes": 40,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

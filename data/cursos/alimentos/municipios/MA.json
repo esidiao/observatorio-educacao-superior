@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 66,
+    "matriculas": 56,
+    "ingressos": 25,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Codó",
+    "slug": "CODO",
+    "cod_ibge": "2103307",
+    "vagas_total": 54,
+    "matriculas": 41,
+    "ingressos": 17,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 48,
+    "matriculas": 84,
+    "ingressos": 23,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Bento",
+    "slug": "SAO_BENTO",
+    "cod_ibge": "2110500",
+    "vagas_total": 30,
+    "matriculas": 18,
+    "ingressos": 7,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bacabal",
+    "slug": "BACABAL",
+    "cod_ibge": "2101202",
+    "vagas_total": 0,
+    "matriculas": 24,
+    "ingressos": 0,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Zé Doca",
+    "slug": "ZE_DOCA",
+    "cod_ibge": "2114007",
+    "vagas_total": 0,
+    "matriculas": 38,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "nome": "Iporá",
+    "slug": "IPORA",
+    "cod_ibge": "5210208",
+    "vagas_total": 253,
+    "matriculas": 37,
+    "ingressos": 14,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 249,
+    "matriculas": 321,
+    "ingressos": 115,
+    "concluintes": 39,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Morrinhos",
+    "slug": "MORRINHOS",
+    "cod_ibge": "5213806",
+    "vagas_total": 247,
+    "matriculas": 45,
+    "ingressos": 15,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiás",
+    "slug": "GOIAS",
+    "cod_ibge": "5208905",
+    "vagas_total": 243,
+    "matriculas": 43,
+    "ingressos": 27,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 237,
+    "matriculas": 57,
+    "ingressos": 29,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Formosa",
+    "slug": "FORMOSA",
+    "cod_ibge": "5208004",
+    "vagas_total": 222,
+    "matriculas": 56,
+    "ingressos": 27,
+    "concluintes": 8,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Quirinópolis",
+    "slug": "QUIRINOPOLIS",
+    "cod_ibge": "5218508",
+    "vagas_total": 187,
+    "matriculas": 50,
+    "ingressos": 29,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Urutaí",
+    "slug": "URUTAI",
+    "cod_ibge": "5221809",
+    "vagas_total": 150,
+    "matriculas": 28,
+    "ingressos": 4,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jataí",
+    "slug": "JATAI",
+    "cod_ibge": "5211909",
+    "vagas_total": 97,
+    "matriculas": 17,
+    "ingressos": 9,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catalão",
+    "slug": "CATALAO",
+    "cod_ibge": "5205109",
+    "vagas_total": 95,
+    "matriculas": 54,
+    "ingressos": 33,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Valparaíso de Goiás",
+    "slug": "VALPARAISO_DE_GOIAS",
+    "cod_ibge": "5221858",
+    "vagas_total": 49,
+    "matriculas": 77,
+    "ingressos": 36,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jussara",
+    "slug": "JUSSARA",
+    "cod_ibge": "5212204",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porangatu",
+    "slug": "PORANGATU",
+    "cod_ibge": "5218003",
+    "vagas_total": 0,
+    "matriculas": 30,
+    "ingressos": 0,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Posse",
+    "slug": "POSSE",
+    "cod_ibge": "5218300",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Helena de Goiás",
+    "slug": "SANTA_HELENA_DE_GOIAS",
+    "cod_ibge": "5219308",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

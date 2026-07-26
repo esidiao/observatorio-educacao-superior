@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 687,
+    "matriculas": 515,
+    "ingressos": 100,
+    "concluintes": 78,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Volta Redonda",
+    "slug": "VOLTA_REDONDA",
+    "cod_ibge": "3306305",
+    "vagas_total": 484,
+    "matriculas": 59,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Gonçalo",
+    "slug": "SAO_GONCALO",
+    "cod_ibge": "3304904",
+    "vagas_total": 175,
+    "matriculas": 256,
+    "ingressos": 63,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Seropédica",
+    "slug": "SEROPEDICA",
+    "cod_ibge": "3305554",
+    "vagas_total": 59,
+    "matriculas": 183,
+    "ingressos": 51,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Duque de Caxias",
+    "slug": "DUQUE_DE_CAXIAS",
+    "cod_ibge": "3301702",
+    "vagas_total": 0,
+    "matriculas": 6,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

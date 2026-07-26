@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 570,
+    "matriculas": 77,
+    "ingressos": 29,
+    "concluintes": 36,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 261,
+    "matriculas": 640,
+    "ingressos": 158,
+    "concluintes": 97,
+    "n_cursos": 7,
+    "n_ies": 6
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 192,
+    "matriculas": 412,
+    "ingressos": 156,
+    "concluintes": 83,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 189,
+    "matriculas": 140,
+    "ingressos": 75,
+    "concluintes": 60,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 100,
+    "matriculas": 47,
+    "ingressos": 28,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 65,
+    "matriculas": 69,
+    "ingressos": 42,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

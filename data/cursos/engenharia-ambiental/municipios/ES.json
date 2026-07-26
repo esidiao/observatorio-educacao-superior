@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Venda Nova do Imigrante",
+    "slug": "VENDA_NOVA_DO_IMIGRANTE",
+    "cod_ibge": "3205069",
+    "vagas_total": 90,
+    "matriculas": 19,
+    "ingressos": 10,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória",
+    "slug": "VITORIA",
+    "cod_ibge": "3205309",
+    "vagas_total": 60,
+    "matriculas": 8,
+    "ingressos": 7,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ibatiba",
+    "slug": "IBATIBA",
+    "cod_ibge": "3202454",
+    "vagas_total": 52,
+    "matriculas": 64,
+    "ingressos": 17,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cachoeiro de Itapemirim",
+    "slug": "CACHOEIRO_DE_ITAPEMIRIM",
+    "cod_ibge": "3201209",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

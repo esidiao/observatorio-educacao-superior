@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 1201,
+    "matriculas": 1664,
+    "ingressos": 662,
+    "concluintes": 125,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 770,
+    "matriculas": 1176,
+    "ingressos": 270,
+    "concluintes": 128,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Patos",
+    "slug": "PATOS",
+    "cod_ibge": "2510808",
+    "vagas_total": 353,
+    "matriculas": 550,
+    "ingressos": 160,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cajazeiras",
+    "slug": "CAJAZEIRAS",
+    "cod_ibge": "2503704",
+    "vagas_total": 139,
+    "matriculas": 155,
+    "ingressos": 77,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cabedelo",
+    "slug": "CABEDELO",
+    "cod_ibge": "2503209",
+    "vagas_total": 112,
+    "matriculas": 83,
+    "ingressos": 95,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Barra Mansa",
+    "slug": "BARRA_MANSA",
+    "cod_ibge": "3300407",
+    "vagas_total": 60,
+    "matriculas": 70,
+    "ingressos": 27,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Bom Jesus",
+    "slug": "BOM_JESUS",
+    "cod_ibge": "2201903",
+    "vagas_total": 116,
+    "matriculas": 119,
+    "ingressos": 32,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

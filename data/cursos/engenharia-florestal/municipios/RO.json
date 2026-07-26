@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Rolim de Moura",
+    "slug": "ROLIM_DE_MOURA",
+    "cod_ibge": "1100288",
+    "vagas_total": 227,
+    "matriculas": 39,
+    "ingressos": 3,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ji-Paraná",
+    "slug": "JI_PARANA",
+    "cod_ibge": "1100122",
+    "vagas_total": 57,
+    "matriculas": 81,
+    "ingressos": 29,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

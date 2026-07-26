@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 1403,
+    "matriculas": 1204,
+    "ingressos": 322,
+    "concluintes": 138,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 588,
+    "matriculas": 568,
+    "ingressos": 175,
+    "concluintes": 50,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Monteiro",
+    "slug": "MONTEIRO",
+    "cod_ibge": "2509701",
+    "vagas_total": 249,
+    "matriculas": 249,
+    "ingressos": 92,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarabira",
+    "slug": "GUARABIRA",
+    "cod_ibge": "2506301",
+    "vagas_total": 150,
+    "matriculas": 60,
+    "ingressos": 23,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sousa",
+    "slug": "SOUSA",
+    "cod_ibge": "2516201",
+    "vagas_total": 146,
+    "matriculas": 186,
+    "ingressos": 57,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mamanguape",
+    "slug": "MAMANGUAPE",
+    "cod_ibge": "2508901",
+    "vagas_total": 108,
+    "matriculas": 380,
+    "ingressos": 93,
+    "concluintes": 40,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cabedelo",
+    "slug": "CABEDELO",
+    "cod_ibge": "2503209",
+    "vagas_total": 42,
+    "matriculas": 123,
+    "ingressos": 42,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

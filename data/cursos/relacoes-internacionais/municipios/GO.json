@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 278,
+    "matriculas": 355,
+    "ingressos": 137,
+    "concluintes": 43,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 130,
+    "matriculas": 30,
+    "ingressos": 25,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

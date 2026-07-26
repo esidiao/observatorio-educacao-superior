@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 60,
+    "matriculas": 36,
+    "ingressos": 36,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aparecida de Goiânia",
+    "slug": "APARECIDA_DE_GOIANIA",
+    "cod_ibge": "5201405",
+    "vagas_total": 41,
+    "matriculas": 88,
+    "ingressos": 32,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

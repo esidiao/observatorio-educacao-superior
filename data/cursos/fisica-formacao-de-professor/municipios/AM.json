@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Manaus",
+    "slug": "MANAUS",
+    "cod_ibge": "1302603",
+    "vagas_total": 172,
+    "matriculas": 403,
+    "ingressos": 62,
+    "concluintes": 30,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Parintins",
+    "slug": "PARINTINS",
+    "cod_ibge": "1303403",
+    "vagas_total": 50,
+    "matriculas": 127,
+    "ingressos": 27,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tefé",
+    "slug": "TEFE",
+    "cod_ibge": "1304203",
+    "vagas_total": 0,
+    "matriculas": 24,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

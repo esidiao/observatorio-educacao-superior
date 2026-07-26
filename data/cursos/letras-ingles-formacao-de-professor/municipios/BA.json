@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 193,
+    "matriculas": 110,
+    "ingressos": 60,
+    "concluintes": 17,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 55,
+    "matriculas": 123,
+    "ingressos": 51,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alagoinhas",
+    "slug": "ALAGOINHAS",
+    "cod_ibge": "2900702",
+    "vagas_total": 30,
+    "matriculas": 57,
+    "ingressos": 15,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caetité",
+    "slug": "CAETITE",
+    "cod_ibge": "2905206",
+    "vagas_total": 30,
+    "matriculas": 92,
+    "ingressos": 17,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Conceição do Coité",
+    "slug": "CONCEICAO_DO_COITE",
+    "cod_ibge": "2908408",
+    "vagas_total": 30,
+    "matriculas": 79,
+    "ingressos": 15,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Seabra",
+    "slug": "SEABRA",
+    "cod_ibge": "2929909",
+    "vagas_total": 30,
+    "matriculas": 47,
+    "ingressos": 6,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Teixeira de Freitas",
+    "slug": "TEIXEIRA_DE_FREITAS",
+    "cod_ibge": "2931350",
+    "vagas_total": 27,
+    "matriculas": 57,
+    "ingressos": 14,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jacobina",
+    "slug": "JACOBINA",
+    "cod_ibge": "2917508",
+    "vagas_total": 25,
+    "matriculas": 63,
+    "ingressos": 16,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Antônio de Jesus",
+    "slug": "SANTO_ANTONIO_DE_JESUS",
+    "cod_ibge": "2928703",
+    "vagas_total": 25,
+    "matriculas": 63,
+    "ingressos": 18,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

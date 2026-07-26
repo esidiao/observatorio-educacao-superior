@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Canarana",
+    "slug": "CANARANA",
+    "cod_ibge": "5102702",
+    "vagas_total": 128,
+    "matriculas": 68,
+    "ingressos": 68,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 45,
+    "matriculas": 30,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra do Bugres",
+    "slug": "BARRA_DO_BUGRES",
+    "cod_ibge": "5101704",
+    "vagas_total": 10,
+    "matriculas": 123,
+    "ingressos": 8,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 1
+  }
+]

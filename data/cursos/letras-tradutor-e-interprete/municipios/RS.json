@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 131,
+    "matriculas": 437,
+    "ingressos": 111,
+    "concluintes": 37,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 74,
+    "matriculas": 52,
+    "ingressos": 31,
+    "concluintes": 1,
+    "n_cursos": 2,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Registro",
+    "slug": "REGISTRO",
+    "cod_ibge": "3542602",
+    "vagas_total": 73,
+    "matriculas": 63,
+    "ingressos": 9,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

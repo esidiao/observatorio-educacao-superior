@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 1318,
+    "matriculas": 3286,
+    "ingressos": 804,
+    "concluintes": 395,
+    "n_cursos": 14,
+    "n_ies": 14
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 264,
+    "matriculas": 562,
+    "ingressos": 155,
+    "concluintes": 65,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 244,
+    "matriculas": 377,
+    "ingressos": 118,
+    "concluintes": 57,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 230,
+    "matriculas": 225,
+    "ingressos": 63,
+    "concluintes": 32,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 184,
+    "matriculas": 326,
+    "ingressos": 95,
+    "concluintes": 23,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 178,
+    "matriculas": 524,
+    "ingressos": 149,
+    "concluintes": 75,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Araucária",
+    "slug": "ARAUCARIA",
+    "cod_ibge": "4101804",
+    "vagas_total": 155,
+    "matriculas": 62,
+    "ingressos": 24,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cornélio Procópio",
+    "slug": "CORNELIO_PROCOPIO",
+    "cod_ibge": "4106407",
+    "vagas_total": 93,
+    "matriculas": 425,
+    "ingressos": 67,
+    "concluintes": 59,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 90,
+    "matriculas": 207,
+    "ingressos": 40,
+    "concluintes": 51,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Pato Branco",
+    "slug": "PATO_BRANCO",
+    "cod_ibge": "4118501",
+    "vagas_total": 88,
+    "matriculas": 309,
+    "ingressos": 48,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José dos Pinhais",
+    "slug": "SAO_JOSE_DOS_PINHAIS",
+    "cod_ibge": "4125506",
+    "vagas_total": 85,
+    "matriculas": 35,
+    "ingressos": 39,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "União da Vitória",
+    "slug": "UNIAO_DA_VITORIA",
+    "cod_ibge": "4128203",
+    "vagas_total": 85,
+    "matriculas": 67,
+    "ingressos": 34,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Telêmaco Borba",
+    "slug": "TELEMACO_BORBA",
+    "cod_ibge": "4127106",
+    "vagas_total": 80,
+    "matriculas": 79,
+    "ingressos": 28,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Umuarama",
+    "slug": "UMUARAMA",
+    "cod_ibge": "4128104",
+    "vagas_total": 0,
+    "matriculas": 24,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

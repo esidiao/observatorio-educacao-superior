@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 90,
+    "matriculas": 44,
+    "ingressos": 18,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Bento do Sul",
+    "slug": "SAO_BENTO_DO_SUL",
+    "cod_ibge": "4215802",
+    "vagas_total": 45,
+    "matriculas": 61,
+    "ingressos": 27,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

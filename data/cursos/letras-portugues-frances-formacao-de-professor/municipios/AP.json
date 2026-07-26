@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Oiapoque",
+    "slug": "OIAPOQUE",
+    "cod_ibge": "1600501",
+    "vagas_total": 45,
+    "matriculas": 168,
+    "ingressos": 28,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Macapá",
+    "slug": "MACAPA",
+    "cod_ibge": "1600303",
+    "vagas_total": 30,
+    "matriculas": 205,
+    "ingressos": 14,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

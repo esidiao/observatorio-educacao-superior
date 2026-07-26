@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Araras",
+    "slug": "ARARAS",
+    "cod_ibge": "3503307",
+    "vagas_total": 52,
+    "matriculas": 138,
+    "ingressos": 30,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

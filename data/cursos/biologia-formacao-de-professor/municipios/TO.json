@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Araguaína",
+    "slug": "ARAGUAINA",
+    "cod_ibge": "1702109",
+    "vagas_total": 84,
+    "matriculas": 210,
+    "ingressos": 47,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araguatins",
+    "slug": "ARAGUATINS",
+    "cod_ibge": "1702208",
+    "vagas_total": 71,
+    "matriculas": 153,
+    "ingressos": 45,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Nacional",
+    "slug": "PORTO_NACIONAL",
+    "cod_ibge": "1718204",
+    "vagas_total": 50,
+    "matriculas": 50,
+    "ingressos": 8,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Dianópolis",
+    "slug": "DIANOPOLIS",
+    "cod_ibge": "1707009",
+    "vagas_total": 42,
+    "matriculas": 53,
+    "ingressos": 44,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

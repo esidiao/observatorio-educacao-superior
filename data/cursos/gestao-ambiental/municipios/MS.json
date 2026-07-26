@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 85,
+    "matriculas": 47,
+    "ingressos": 15,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mundo Novo",
+    "slug": "MUNDO_NOVO",
+    "cod_ibge": "5005681",
+    "vagas_total": 41,
+    "matriculas": 44,
+    "ingressos": 20,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

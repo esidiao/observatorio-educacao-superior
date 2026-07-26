@@ -1,0 +1,233 @@
+[
+  {
+    "nome": "Curitibanos",
+    "slug": "CURITIBANOS",
+    "cod_ibge": "4204806",
+    "vagas_total": 382,
+    "matriculas": 223,
+    "ingressos": 44,
+    "concluintes": 59,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 320,
+    "matriculas": 412,
+    "ingressos": 129,
+    "concluintes": 64,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Rio do Sul",
+    "slug": "RIO_DO_SUL",
+    "cod_ibge": "4214805",
+    "vagas_total": 257,
+    "matriculas": 193,
+    "ingressos": 42,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 227,
+    "matriculas": 518,
+    "ingressos": 129,
+    "concluintes": 45,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campos Novos",
+    "slug": "CAMPOS_NOVOS",
+    "cod_ibge": "4203600",
+    "vagas_total": 120,
+    "matriculas": 223,
+    "ingressos": 77,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lages",
+    "slug": "LAGES",
+    "cod_ibge": "4209300",
+    "vagas_total": 120,
+    "matriculas": 360,
+    "ingressos": 88,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Camboriú",
+    "slug": "CAMBORIU",
+    "cod_ibge": "4203204",
+    "vagas_total": 109,
+    "matriculas": 75,
+    "ingressos": 34,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araquari",
+    "slug": "ARAQUARI",
+    "cod_ibge": "4201307",
+    "vagas_total": 100,
+    "matriculas": 106,
+    "ingressos": 39,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Xanxerê",
+    "slug": "XANXERE",
+    "cod_ibge": "4219507",
+    "vagas_total": 94,
+    "matriculas": 281,
+    "ingressos": 90,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Rosa do Sul",
+    "slug": "SANTA_ROSA_DO_SUL",
+    "cod_ibge": "4215653",
+    "vagas_total": 91,
+    "matriculas": 207,
+    "ingressos": 49,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Videira",
+    "slug": "VIDEIRA",
+    "cod_ibge": "4219309",
+    "vagas_total": 89,
+    "matriculas": 100,
+    "ingressos": 37,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Concórdia",
+    "slug": "CONCORDIA",
+    "cod_ibge": "4204301",
+    "vagas_total": 85,
+    "matriculas": 130,
+    "ingressos": 37,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caçador",
+    "slug": "CACADOR",
+    "cod_ibge": "4203006",
+    "vagas_total": 82,
+    "matriculas": 134,
+    "ingressos": 57,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Canoinhas",
+    "slug": "CANOINHAS",
+    "cod_ibge": "4203808",
+    "vagas_total": 74,
+    "matriculas": 130,
+    "ingressos": 35,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapiranga",
+    "slug": "ITAPIRANGA",
+    "cod_ibge": "4208401",
+    "vagas_total": 65,
+    "matriculas": 115,
+    "ingressos": 30,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Miguel do Oeste",
+    "slug": "SAO_MIGUEL_DO_OESTE",
+    "cod_ibge": "4217204",
+    "vagas_total": 60,
+    "matriculas": 75,
+    "ingressos": 24,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José do Cedro",
+    "slug": "SAO_JOSE_DO_CEDRO",
+    "cod_ibge": "4216701",
+    "vagas_total": 53,
+    "matriculas": 77,
+    "ingressos": 24,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maravilha",
+    "slug": "MARAVILHA",
+    "cod_ibge": "4210506",
+    "vagas_total": 49,
+    "matriculas": 98,
+    "ingressos": 31,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Orleans",
+    "slug": "ORLEANS",
+    "cod_ibge": "4211702",
+    "vagas_total": 48,
+    "matriculas": 78,
+    "ingressos": 24,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Bento do Sul",
+    "slug": "SAO_BENTO_DO_SUL",
+    "cod_ibge": "4215802",
+    "vagas_total": 13,
+    "matriculas": 27,
+    "ingressos": 13,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tubarão",
+    "slug": "TUBARAO",
+    "cod_ibge": "4218707",
+    "vagas_total": 8,
+    "matriculas": 33,
+    "ingressos": 8,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

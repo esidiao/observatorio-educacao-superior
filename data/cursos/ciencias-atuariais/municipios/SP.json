@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 319,
+    "matriculas": 401,
+    "ingressos": 103,
+    "concluintes": 81,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Osasco",
+    "slug": "OSASCO",
+    "cod_ibge": "3534401",
+    "vagas_total": 88,
+    "matriculas": 352,
+    "ingressos": 83,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

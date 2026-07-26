@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Umuarama",
+    "slug": "UMUARAMA",
+    "cod_ibge": "4128104",
+    "vagas_total": 161,
+    "matriculas": 25,
+    "ingressos": 30,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 81,
+    "matriculas": 94,
+    "ingressos": 38,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Medianeira",
+    "slug": "MEDIANEIRA",
+    "cod_ibge": "4115804",
+    "vagas_total": 61,
+    "matriculas": 71,
+    "ingressos": 54,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Colombo",
+    "slug": "COLOMBO",
+    "cod_ibge": "4105805",
+    "vagas_total": 41,
+    "matriculas": 94,
+    "ingressos": 40,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Mourão",
+    "slug": "CAMPO_MOURAO",
+    "cod_ibge": "4104303",
+    "vagas_total": 22,
+    "matriculas": 41,
+    "ingressos": 15,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

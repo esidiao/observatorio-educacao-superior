@@ -1,0 +1,189 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 8921,
+    "matriculas": 5077,
+    "ingressos": 1587,
+    "concluintes": 684,
+    "n_cursos": 29,
+    "n_ies": 22
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 999,
+    "matriculas": 579,
+    "ingressos": 178,
+    "concluintes": 85,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 656,
+    "matriculas": 840,
+    "ingressos": 259,
+    "concluintes": 81,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Tianguá",
+    "slug": "TIANGUA",
+    "cod_ibge": "2313401",
+    "vagas_total": 573,
+    "matriculas": 176,
+    "ingressos": 52,
+    "concluintes": 22,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Maracanaú",
+    "slug": "MARACANAU",
+    "cod_ibge": "2307650",
+    "vagas_total": 557,
+    "matriculas": 438,
+    "ingressos": 137,
+    "concluintes": 53,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Iguatu",
+    "slug": "IGUATU",
+    "cod_ibge": "2305506",
+    "vagas_total": 350,
+    "matriculas": 43,
+    "ingressos": 13,
+    "concluintes": 5,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Caucaia",
+    "slug": "CAUCAIA",
+    "cod_ibge": "2303709",
+    "vagas_total": 240,
+    "matriculas": 167,
+    "ingressos": 31,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 232,
+    "matriculas": 74,
+    "ingressos": 30,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aracati",
+    "slug": "ARACATI",
+    "cod_ibge": "2301109",
+    "vagas_total": 100,
+    "matriculas": 28,
+    "ingressos": 14,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "2303501",
+    "vagas_total": 100,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mucambo",
+    "slug": "MUCAMBO",
+    "cod_ibge": "2309003",
+    "vagas_total": 80,
+    "matriculas": 76,
+    "ingressos": 60,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Icó",
+    "slug": "ICO",
+    "cod_ibge": "2305407",
+    "vagas_total": 65,
+    "matriculas": 39,
+    "ingressos": 1,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Limoeiro do Norte",
+    "slug": "LIMOEIRO_DO_NORTE",
+    "cod_ibge": "2307601",
+    "vagas_total": 53,
+    "matriculas": 77,
+    "ingressos": 43,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Croatá",
+    "slug": "CROATA",
+    "cod_ibge": "2304236",
+    "vagas_total": 45,
+    "matriculas": 32,
+    "ingressos": 8,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Baturité",
+    "slug": "BATURITE",
+    "cod_ibge": "2302107",
+    "vagas_total": 40,
+    "matriculas": 106,
+    "ingressos": 30,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Horizonte",
+    "slug": "HORIZONTE",
+    "cod_ibge": "2305233",
+    "vagas_total": 39,
+    "matriculas": 60,
+    "ingressos": 36,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Benedito",
+    "slug": "SAO_BENEDITO",
+    "cod_ibge": "2312304",
+    "vagas_total": 29,
+    "matriculas": 85,
+    "ingressos": 29,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

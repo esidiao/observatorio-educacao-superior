@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 250,
+    "matriculas": 655,
+    "ingressos": 143,
+    "concluintes": 112,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Barras",
+    "slug": "BARRAS",
+    "cod_ibge": "2201200",
+    "vagas_total": 40,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Floriano",
+    "slug": "FLORIANO",
+    "cod_ibge": "2203909",
+    "vagas_total": 40,
+    "matriculas": 89,
+    "ingressos": 31,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uruçuí",
+    "slug": "URUCUI",
+    "cod_ibge": "2211209",
+    "vagas_total": 40,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Maior",
+    "slug": "CAMPO_MAIOR",
+    "cod_ibge": "2202208",
+    "vagas_total": 35,
+    "matriculas": 121,
+    "ingressos": 31,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Raimundo Nonato",
+    "slug": "SAO_RAIMUNDO_NONATO",
+    "cod_ibge": "2210607",
+    "vagas_total": 30,
+    "matriculas": 13,
+    "ingressos": 0,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

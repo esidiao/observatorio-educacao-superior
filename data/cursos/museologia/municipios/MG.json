@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 108,
+    "matriculas": 147,
+    "ingressos": 44,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ouro Preto",
+    "slug": "OURO_PRETO",
+    "cod_ibge": "3146107",
+    "vagas_total": 71,
+    "matriculas": 159,
+    "ingressos": 41,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

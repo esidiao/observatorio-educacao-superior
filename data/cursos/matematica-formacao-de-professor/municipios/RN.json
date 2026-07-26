@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 244,
+    "matriculas": 402,
+    "ingressos": 136,
+    "concluintes": 43,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 125,
+    "matriculas": 261,
+    "ingressos": 60,
+    "concluintes": 13,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Caicó",
+    "slug": "CAICO",
+    "cod_ibge": "2402006",
+    "vagas_total": 49,
+    "matriculas": 88,
+    "ingressos": 32,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ceará-Mirim",
+    "slug": "CEARA_MIRIM",
+    "cod_ibge": "2402600",
+    "vagas_total": 42,
+    "matriculas": 88,
+    "ingressos": 42,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz",
+    "slug": "SANTA_CRUZ",
+    "cod_ibge": "2411205",
+    "vagas_total": 41,
+    "matriculas": 94,
+    "ingressos": 30,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Paulo do Potengi",
+    "slug": "SAO_PAULO_DO_POTENGI",
+    "cod_ibge": "2412609",
+    "vagas_total": 40,
+    "matriculas": 81,
+    "ingressos": 27,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patu",
+    "slug": "PATU",
+    "cod_ibge": "2409308",
+    "vagas_total": 32,
+    "matriculas": 83,
+    "ingressos": 28,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

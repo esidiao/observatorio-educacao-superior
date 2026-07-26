@@ -1,0 +1,145 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 228,
+    "matriculas": 644,
+    "ingressos": 174,
+    "concluintes": 71,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Parnaíba",
+    "slug": "PARNAIBA",
+    "cod_ibge": "2207702",
+    "vagas_total": 122,
+    "matriculas": 345,
+    "ingressos": 84,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Picos",
+    "slug": "PICOS",
+    "cod_ibge": "2208007",
+    "vagas_total": 105,
+    "matriculas": 170,
+    "ingressos": 42,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Floriano",
+    "slug": "FLORIANO",
+    "cod_ibge": "2203909",
+    "vagas_total": 50,
+    "matriculas": 160,
+    "ingressos": 42,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Maior",
+    "slug": "CAMPO_MAIOR",
+    "cod_ibge": "2202208",
+    "vagas_total": 45,
+    "matriculas": 124,
+    "ingressos": 37,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Corrente",
+    "slug": "CORRENTE",
+    "cod_ibge": "2202901",
+    "vagas_total": 45,
+    "matriculas": 127,
+    "ingressos": 38,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uruçuí",
+    "slug": "URUCUI",
+    "cod_ibge": "2211209",
+    "vagas_total": 41,
+    "matriculas": 72,
+    "ingressos": 21,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Angical do Piauí",
+    "slug": "ANGICAL_DO_PIAUI",
+    "cod_ibge": "2200608",
+    "vagas_total": 40,
+    "matriculas": 140,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cocal",
+    "slug": "COCAL",
+    "cod_ibge": "2202703",
+    "vagas_total": 40,
+    "matriculas": 83,
+    "ingressos": 37,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Luzilândia",
+    "slug": "LUZILANDIA",
+    "cod_ibge": "2205805",
+    "vagas_total": 40,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piripiri",
+    "slug": "PIRIPIRI",
+    "cod_ibge": "2208403",
+    "vagas_total": 40,
+    "matriculas": 151,
+    "ingressos": 38,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Raimundo Nonato",
+    "slug": "SAO_RAIMUNDO_NONATO",
+    "cod_ibge": "2210607",
+    "vagas_total": 40,
+    "matriculas": 134,
+    "ingressos": 35,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Oeiras",
+    "slug": "OEIRAS",
+    "cod_ibge": "2207009",
+    "vagas_total": 30,
+    "matriculas": 62,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

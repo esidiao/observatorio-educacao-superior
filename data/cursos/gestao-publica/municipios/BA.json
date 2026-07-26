@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Cachoeira",
+    "slug": "CACHOEIRA",
+    "cod_ibge": "2904902",
+    "vagas_total": 80,
+    "matriculas": 115,
+    "ingressos": 28,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juazeiro",
+    "slug": "JUAZEIRO",
+    "cod_ibge": "2918407",
+    "vagas_total": 80,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

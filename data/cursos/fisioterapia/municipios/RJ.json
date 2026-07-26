@@ -1,0 +1,222 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 7807,
+    "matriculas": 7085,
+    "ingressos": 1995,
+    "concluintes": 1151,
+    "n_cursos": 29,
+    "n_ies": 15
+  },
+  {
+    "nome": "Niterói",
+    "slug": "NITEROI",
+    "cod_ibge": "3303302",
+    "vagas_total": 950,
+    "matriculas": 985,
+    "ingressos": 319,
+    "concluintes": 184,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Nova Iguaçu",
+    "slug": "NOVA_IGUACU",
+    "cod_ibge": "3303500",
+    "vagas_total": 927,
+    "matriculas": 764,
+    "ingressos": 226,
+    "concluintes": 125,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Gonçalo",
+    "slug": "SAO_GONCALO",
+    "cod_ibge": "3304904",
+    "vagas_total": 833,
+    "matriculas": 820,
+    "ingressos": 271,
+    "concluintes": 148,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Campos dos Goytacazes",
+    "slug": "CAMPOS_DOS_GOYTACAZES",
+    "cod_ibge": "3301009",
+    "vagas_total": 830,
+    "matriculas": 708,
+    "ingressos": 220,
+    "concluintes": 97,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Cabo Frio",
+    "slug": "CABO_FRIO",
+    "cod_ibge": "3300704",
+    "vagas_total": 688,
+    "matriculas": 533,
+    "ingressos": 162,
+    "concluintes": 56,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Nova Friburgo",
+    "slug": "NOVA_FRIBURGO",
+    "cod_ibge": "3303401",
+    "vagas_total": 581,
+    "matriculas": 206,
+    "ingressos": 25,
+    "concluintes": 50,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Teresópolis",
+    "slug": "TERESOPOLIS",
+    "cod_ibge": "3305802",
+    "vagas_total": 437,
+    "matriculas": 318,
+    "ingressos": 119,
+    "concluintes": 48,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Petrópolis",
+    "slug": "PETROPOLIS",
+    "cod_ibge": "3303906",
+    "vagas_total": 435,
+    "matriculas": 227,
+    "ingressos": 53,
+    "concluintes": 48,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Duque de Caxias",
+    "slug": "DUQUE_DE_CAXIAS",
+    "cod_ibge": "3301702",
+    "vagas_total": 432,
+    "matriculas": 302,
+    "ingressos": 97,
+    "concluintes": 39,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Angra dos Reis",
+    "slug": "ANGRA_DOS_REIS",
+    "cod_ibge": "3300100",
+    "vagas_total": 420,
+    "matriculas": 146,
+    "ingressos": 33,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maricá",
+    "slug": "MARICA",
+    "cod_ibge": "3302700",
+    "vagas_total": 269,
+    "matriculas": 168,
+    "ingressos": 134,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itaperuna",
+    "slug": "ITAPERUNA",
+    "cod_ibge": "3302205",
+    "vagas_total": 264,
+    "matriculas": 690,
+    "ingressos": 211,
+    "concluintes": 124,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Vassouras",
+    "slug": "VASSOURAS",
+    "cod_ibge": "3306206",
+    "vagas_total": 255,
+    "matriculas": 454,
+    "ingressos": 170,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Saquarema",
+    "slug": "SAQUAREMA",
+    "cod_ibge": "3305505",
+    "vagas_total": 252,
+    "matriculas": 373,
+    "ingressos": 237,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Volta Redonda",
+    "slug": "VOLTA_REDONDA",
+    "cod_ibge": "3306305",
+    "vagas_total": 250,
+    "matriculas": 48,
+    "ingressos": 10,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belford Roxo",
+    "slug": "BELFORD_ROXO",
+    "cod_ibge": "3300456",
+    "vagas_total": 124,
+    "matriculas": 132,
+    "ingressos": 41,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra Mansa",
+    "slug": "BARRA_MANSA",
+    "cod_ibge": "3300407",
+    "vagas_total": 90,
+    "matriculas": 219,
+    "ingressos": 73,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araruama",
+    "slug": "ARARUAMA",
+    "cod_ibge": "3300209",
+    "vagas_total": 58,
+    "matriculas": 96,
+    "ingressos": 1,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Antônio de Pádua",
+    "slug": "SANTO_ANTONIO_DE_PADUA",
+    "cod_ibge": "3304706",
+    "vagas_total": 53,
+    "matriculas": 41,
+    "ingressos": 26,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

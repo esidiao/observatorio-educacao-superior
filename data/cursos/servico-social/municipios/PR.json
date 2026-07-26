@@ -1,0 +1,134 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 356,
+    "matriculas": 71,
+    "ingressos": 29,
+    "concluintes": 20,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Ivaiporã",
+    "slug": "IVAIPORA",
+    "cod_ibge": "4111506",
+    "vagas_total": 128,
+    "matriculas": 41,
+    "ingressos": 29,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 100,
+    "matriculas": 9,
+    "ingressos": 9,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 99,
+    "matriculas": 275,
+    "ingressos": 65,
+    "concluintes": 47,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Matinhos",
+    "slug": "MATINHOS",
+    "cod_ibge": "4115705",
+    "vagas_total": 97,
+    "matriculas": 120,
+    "ingressos": 47,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 90,
+    "matriculas": 112,
+    "ingressos": 37,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 81,
+    "matriculas": 218,
+    "ingressos": 77,
+    "concluintes": 27,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Apucarana",
+    "slug": "APUCARANA",
+    "cod_ibge": "4101408",
+    "vagas_total": 69,
+    "matriculas": 68,
+    "ingressos": 50,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 56,
+    "matriculas": 149,
+    "ingressos": 51,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paranavaí",
+    "slug": "PARANAVAI",
+    "cod_ibge": "4118402",
+    "vagas_total": 52,
+    "matriculas": 66,
+    "ingressos": 34,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 50,
+    "matriculas": 91,
+    "ingressos": 23,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Francisco Beltrão",
+    "slug": "FRANCISCO_BELTRAO",
+    "cod_ibge": "4108403",
+    "vagas_total": 45,
+    "matriculas": 94,
+    "ingressos": 34,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

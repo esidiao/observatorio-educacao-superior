@@ -1,0 +1,200 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 4546,
+    "matriculas": 987,
+    "ingressos": 575,
+    "concluintes": 290,
+    "n_cursos": 31,
+    "n_ies": 12
+  },
+  {
+    "nome": "Santos",
+    "slug": "SANTOS",
+    "cod_ibge": "3548500",
+    "vagas_total": 696,
+    "matriculas": 420,
+    "ingressos": 320,
+    "concluintes": 85,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Itapetininga",
+    "slug": "ITAPETININGA",
+    "cod_ibge": "3522307",
+    "vagas_total": 459,
+    "matriculas": 279,
+    "ingressos": 176,
+    "concluintes": 54,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Osasco",
+    "slug": "OSASCO",
+    "cod_ibge": "3534401",
+    "vagas_total": 330,
+    "matriculas": 23,
+    "ingressos": 11,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 315,
+    "matriculas": 110,
+    "ingressos": 74,
+    "concluintes": 36,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 246,
+    "matriculas": 127,
+    "ingressos": 61,
+    "concluintes": 14,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Praia Grande",
+    "slug": "PRAIA_GRANDE",
+    "cod_ibge": "3541000",
+    "vagas_total": 165,
+    "matriculas": 348,
+    "ingressos": 162,
+    "concluintes": 69,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salto",
+    "slug": "SALTO",
+    "cod_ibge": "3545209",
+    "vagas_total": 164,
+    "matriculas": 61,
+    "ingressos": 36,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barueri",
+    "slug": "BARUERI",
+    "cod_ibge": "3505708",
+    "vagas_total": 160,
+    "matriculas": 316,
+    "ingressos": 75,
+    "concluintes": 94,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Caetano do Sul",
+    "slug": "SAO_CAETANO_DO_SUL",
+    "cod_ibge": "3548807",
+    "vagas_total": 142,
+    "matriculas": 217,
+    "ingressos": 123,
+    "concluintes": 69,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Vicente",
+    "slug": "SAO_VICENTE",
+    "cod_ibge": "3551009",
+    "vagas_total": 101,
+    "matriculas": 41,
+    "ingressos": 28,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Indaiatuba",
+    "slug": "INDAIATUBA",
+    "cod_ibge": "3520509",
+    "vagas_total": 95,
+    "matriculas": 217,
+    "ingressos": 93,
+    "concluintes": 52,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarulhos",
+    "slug": "GUARULHOS",
+    "cod_ibge": "3518800",
+    "vagas_total": 90,
+    "matriculas": 156,
+    "ingressos": 81,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cotia",
+    "slug": "COTIA",
+    "cod_ibge": "3513009",
+    "vagas_total": 81,
+    "matriculas": 63,
+    "ingressos": 83,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jundiaí",
+    "slug": "JUNDIAI",
+    "cod_ibge": "3525904",
+    "vagas_total": 75,
+    "matriculas": 9,
+    "ingressos": 6,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Claro",
+    "slug": "RIO_CLARO",
+    "cod_ibge": "3543907",
+    "vagas_total": 66,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Limpo Paulista",
+    "slug": "CAMPO_LIMPO_PAULISTA",
+    "cod_ibge": "3509601",
+    "vagas_total": 50,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Bernardo do Campo",
+    "slug": "SAO_BERNARDO_DO_CAMPO",
+    "cod_ibge": "3548708",
+    "vagas_total": 17,
+    "matriculas": 33,
+    "ingressos": 17,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

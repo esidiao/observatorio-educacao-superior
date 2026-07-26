@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Ilhéus",
+    "slug": "ILHEUS",
+    "cod_ibge": "2913606",
+    "vagas_total": 63,
+    "matriculas": 241,
+    "ingressos": 55,
+    "concluintes": 52,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Conceição do Coité",
+    "slug": "CONCEICAO_DO_COITE",
+    "cod_ibge": "2908408",
+    "vagas_total": 40,
+    "matriculas": 79,
+    "ingressos": 10,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

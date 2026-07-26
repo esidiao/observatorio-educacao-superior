@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 146,
+    "matriculas": 117,
+    "ingressos": 64,
+    "concluintes": 43,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 200,
+    "matriculas": 53,
+    "ingressos": 32,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palhoça",
+    "slug": "PALHOCA",
+    "cod_ibge": "4211900",
+    "vagas_total": 86,
+    "matriculas": 253,
+    "ingressos": 86,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio do Sul",
+    "slug": "RIO_DO_SUL",
+    "cod_ibge": "4214805",
+    "vagas_total": 53,
+    "matriculas": 62,
+    "ingressos": 38,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 173,
+    "matriculas": 472,
+    "ingressos": 99,
+    "concluintes": 55,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 74,
+    "matriculas": 123,
+    "ingressos": 49,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Soure",
+    "slug": "SOURE",
+    "cod_ibge": "1507904",
+    "vagas_total": 52,
+    "matriculas": 112,
+    "ingressos": 33,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Altamira",
+    "slug": "ALTAMIRA",
+    "cod_ibge": "1500602",
+    "vagas_total": 47,
+    "matriculas": 91,
+    "ingressos": 23,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cametá",
+    "slug": "CAMETA",
+    "cod_ibge": "1502103",
+    "vagas_total": 40,
+    "matriculas": 160,
+    "ingressos": 33,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bragança",
+    "slug": "BRAGANCA",
+    "cod_ibge": "1501709",
+    "vagas_total": 0,
+    "matriculas": 145,
+    "ingressos": 0,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

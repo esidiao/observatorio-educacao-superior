@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Cajazeiras",
+    "slug": "CAJAZEIRAS",
+    "cod_ibge": "2503704",
+    "vagas_total": 142,
+    "matriculas": 48,
+    "ingressos": 27,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 105,
+    "matriculas": 74,
+    "ingressos": 46,
+    "concluintes": 16,
+    "n_cursos": 3,
+    "n_ies": 3
+  }
+]

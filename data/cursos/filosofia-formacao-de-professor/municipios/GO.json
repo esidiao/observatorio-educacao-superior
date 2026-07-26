@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Valparaíso de Goiás",
+    "slug": "VALPARAISO_DE_GOIAS",
+    "cod_ibge": "5221858",
+    "vagas_total": 240,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiás",
+    "slug": "GOIAS",
+    "cod_ibge": "5208905",
+    "vagas_total": 102,
+    "matriculas": 17,
+    "ingressos": 11,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 81,
+    "matriculas": 10,
+    "ingressos": 9,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uruaçu",
+    "slug": "URUACU",
+    "cod_ibge": "5221601",
+    "vagas_total": 11,
+    "matriculas": 19,
+    "ingressos": 7,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 1,
+    "matriculas": 49,
+    "ingressos": 1,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 105,
+    "matriculas": 305,
+    "ingressos": 94,
+    "concluintes": 47,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Capanema",
+    "slug": "CAPANEMA",
+    "cod_ibge": "1502202",
+    "vagas_total": 70,
+    "matriculas": 120,
+    "ingressos": 43,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capitão Poço",
+    "slug": "CAPITAO_POCO",
+    "cod_ibge": "1502301",
+    "vagas_total": 65,
+    "matriculas": 137,
+    "ingressos": 50,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 50,
+    "matriculas": 203,
+    "ingressos": 48,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 41,
+    "matriculas": 113,
+    "ingressos": 30,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Oriximiná",
+    "slug": "ORIXIMINA",
+    "cod_ibge": "1505304",
+    "vagas_total": 40,
+    "matriculas": 191,
+    "ingressos": 40,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

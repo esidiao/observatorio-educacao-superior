@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 6063,
+    "matriculas": 3405,
+    "ingressos": 1765,
+    "concluintes": 509,
+    "n_cursos": 23,
+    "n_ies": 15
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 896,
+    "matriculas": 443,
+    "ingressos": 183,
+    "concluintes": 53,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 313,
+    "matriculas": 404,
+    "ingressos": 137,
+    "concluintes": 22,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Tianguá",
+    "slug": "TIANGUA",
+    "cod_ibge": "2313401",
+    "vagas_total": 200,
+    "matriculas": 64,
+    "ingressos": 23,
+    "concluintes": 1,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Crateús",
+    "slug": "CRATEUS",
+    "cod_ibge": "2304103",
+    "vagas_total": 168,
+    "matriculas": 212,
+    "ingressos": 76,
+    "concluintes": 12,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Boa Viagem",
+    "slug": "BOA_VIAGEM",
+    "cod_ibge": "2302404",
+    "vagas_total": 75,
+    "matriculas": 125,
+    "ingressos": 74,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tauá",
+    "slug": "TAUA",
+    "cod_ibge": "2313302",
+    "vagas_total": 60,
+    "matriculas": 38,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaguaruana",
+    "slug": "JAGUARUANA",
+    "cod_ibge": "2307007",
+    "vagas_total": 50,
+    "matriculas": 48,
+    "ingressos": 36,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mombaça",
+    "slug": "MOMBACA",
+    "cod_ibge": "2308500",
+    "vagas_total": 45,
+    "matriculas": 33,
+    "ingressos": 13,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapajé",
+    "slug": "ITAPAJE",
+    "cod_ibge": "2306306",
+    "vagas_total": 41,
+    "matriculas": 71,
+    "ingressos": 30,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cedro",
+    "slug": "CEDRO",
+    "cod_ibge": "2303808",
+    "vagas_total": 35,
+    "matriculas": 179,
+    "ingressos": 29,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tabuleiro do Norte",
+    "slug": "TABULEIRO_DO_NORTE",
+    "cod_ibge": "2313104",
+    "vagas_total": 35,
+    "matriculas": 55,
+    "ingressos": 35,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Crato",
+    "slug": "CRATO",
+    "cod_ibge": "2304202",
+    "vagas_total": 31,
+    "matriculas": 385,
+    "ingressos": 31,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Canindé",
+    "slug": "CANINDE",
+    "cod_ibge": "2302800",
+    "vagas_total": 0,
+    "matriculas": 46,
+    "ingressos": 0,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

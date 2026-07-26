@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Unaí",
+    "slug": "UNAI",
+    "cod_ibge": "3170404",
+    "vagas_total": 375,
+    "matriculas": 93,
+    "ingressos": 36,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araçuaí",
+    "slug": "ARACUAI",
+    "cod_ibge": "3103405",
+    "vagas_total": 184,
+    "matriculas": 59,
+    "ingressos": 12,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 139,
+    "matriculas": 141,
+    "ingressos": 40,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Montes Claros",
+    "slug": "MONTES_CLAROS",
+    "cod_ibge": "3143302",
+    "vagas_total": 139,
+    "matriculas": 116,
+    "ingressos": 39,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Januária",
+    "slug": "JANUARIA",
+    "cod_ibge": "3135209",
+    "vagas_total": 117,
+    "matriculas": 130,
+    "ingressos": 43,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 61,
+    "matriculas": 156,
+    "ingressos": 58,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

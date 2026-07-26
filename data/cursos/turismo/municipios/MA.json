@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 175,
+    "matriculas": 477,
+    "ingressos": 63,
+    "concluintes": 23,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Bernardo",
+    "slug": "SAO_BERNARDO",
+    "cod_ibge": "2110609",
+    "vagas_total": 144,
+    "matriculas": 95,
+    "ingressos": 10,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barreirinhas",
+    "slug": "BARREIRINHAS",
+    "cod_ibge": "2101707",
+    "vagas_total": 80,
+    "matriculas": 46,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alcântara",
+    "slug": "ALCANTARA",
+    "cod_ibge": "2100204",
+    "vagas_total": 55,
+    "matriculas": 21,
+    "ingressos": 1,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Cáceres",
+    "slug": "CACERES",
+    "cod_ibge": "5102504",
+    "vagas_total": 135,
+    "matriculas": 307,
+    "ingressos": 97,
+    "concluintes": 48,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 101,
+    "matriculas": 198,
+    "ingressos": 91,
+    "concluintes": 22,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Tangará da Serra",
+    "slug": "TANGARA_DA_SERRA",
+    "cod_ibge": "5107958",
+    "vagas_total": 86,
+    "matriculas": 234,
+    "ingressos": 83,
+    "concluintes": 37,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alto Araguaia",
+    "slug": "ALTO_ARAGUAIA",
+    "cod_ibge": "5100300",
+    "vagas_total": 56,
+    "matriculas": 147,
+    "ingressos": 44,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra do Garças",
+    "slug": "BARRA_DO_GARCAS",
+    "cod_ibge": "5101803",
+    "vagas_total": 51,
+    "matriculas": 89,
+    "ingressos": 37,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 26,
+    "matriculas": 56,
+    "ingressos": 23,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juara",
+    "slug": "JUARA",
+    "cod_ibge": "5105101",
+    "vagas_total": 2,
+    "matriculas": 18,
+    "ingressos": 2,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

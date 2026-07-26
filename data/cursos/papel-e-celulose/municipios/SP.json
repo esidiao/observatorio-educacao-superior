@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Bauru",
+    "slug": "BAURU",
+    "cod_ibge": "3506003",
+    "vagas_total": 47,
+    "matriculas": 33,
+    "ingressos": 42,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

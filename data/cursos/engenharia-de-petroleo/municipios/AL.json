@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Maceió",
+    "slug": "MACEIO",
+    "cod_ibge": "2704302",
+    "vagas_total": 116,
+    "matriculas": 140,
+    "ingressos": 46,
+    "concluintes": 5,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

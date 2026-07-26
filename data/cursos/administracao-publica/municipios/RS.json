@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 215,
+    "matriculas": 396,
+    "ingressos": 117,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Frederico Westphalen",
+    "slug": "FREDERICO_WESTPHALEN",
+    "cod_ibge": "4308508",
+    "vagas_total": 40,
+    "matriculas": 78,
+    "ingressos": 38,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tramandaí",
+    "slug": "TRAMANDAI",
+    "cod_ibge": "4321600",
+    "vagas_total": 20,
+    "matriculas": 11,
+    "ingressos": 2,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

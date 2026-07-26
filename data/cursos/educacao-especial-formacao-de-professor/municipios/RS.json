@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 348,
+    "matriculas": 332,
+    "ingressos": 155,
+    "concluintes": 32,
+    "n_cursos": 3,
+    "n_ies": 1
+  },
+  {
+    "nome": "Erechim",
+    "slug": "ERECHIM",
+    "cod_ibge": "4307005",
+    "vagas_total": 90,
+    "matriculas": 71,
+    "ingressos": 90,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 262,
+    "matriculas": 190,
+    "ingressos": 79,
+    "concluintes": 46,
+    "n_cursos": 4,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Gabriel",
+    "slug": "SAO_GABRIEL",
+    "cod_ibge": "4318309",
+    "vagas_total": 229,
+    "matriculas": 61,
+    "ingressos": 34,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 140,
+    "matriculas": 88,
+    "ingressos": 25,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Lourenço do Sul",
+    "slug": "SAO_LOURENCO_DO_SUL",
+    "cod_ibge": "4318804",
+    "vagas_total": 138,
+    "matriculas": 20,
+    "ingressos": 9,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tapes",
+    "slug": "TAPES",
+    "cod_ibge": "4321105",
+    "vagas_total": 60,
+    "matriculas": 38,
+    "ingressos": 21,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Grande",
+    "slug": "RIO_GRANDE",
+    "cod_ibge": "4315602",
+    "vagas_total": 50,
+    "matriculas": 69,
+    "ingressos": 43,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viamão",
+    "slug": "VIAMAO",
+    "cod_ibge": "4323002",
+    "vagas_total": 40,
+    "matriculas": 135,
+    "ingressos": 34,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 35,
+    "matriculas": 128,
+    "ingressos": 32,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sertão",
+    "slug": "SERTAO",
+    "cod_ibge": "4320503",
+    "vagas_total": 31,
+    "matriculas": 24,
+    "ingressos": 5,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Borja",
+    "slug": "SAO_BORJA",
+    "cod_ibge": "4318002",
+    "vagas_total": 21,
+    "matriculas": 39,
+    "ingressos": 6,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Erechim",
+    "slug": "ERECHIM",
+    "cod_ibge": "4307005",
+    "vagas_total": 20,
+    "matriculas": 21,
+    "ingressos": 7,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Soledade",
+    "slug": "SOLEDADE",
+    "cod_ibge": "4320800",
+    "vagas_total": 20,
+    "matriculas": 11,
+    "ingressos": 1,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Francisco de Paula",
+    "slug": "SAO_FRANCISCO_DE_PAULA",
+    "cod_ibge": "4318200",
+    "vagas_total": 20,
+    "matriculas": 29,
+    "ingressos": 12,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Três Passos",
+    "slug": "TRES_PASSOS",
+    "cod_ibge": "4321907",
+    "vagas_total": 0,
+    "matriculas": 8,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

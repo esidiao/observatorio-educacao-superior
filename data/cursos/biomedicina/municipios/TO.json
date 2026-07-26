@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "1721000",
+    "vagas_total": 730,
+    "matriculas": 401,
+    "ingressos": 160,
+    "concluintes": 29,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Araguaína",
+    "slug": "ARAGUAINA",
+    "cod_ibge": "1702109",
+    "vagas_total": 111,
+    "matriculas": 132,
+    "ingressos": 87,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guaraí",
+    "slug": "GUARAI",
+    "cod_ibge": "1709302",
+    "vagas_total": 60,
+    "matriculas": 48,
+    "ingressos": 13,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

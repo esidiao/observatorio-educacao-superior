@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Umuarama",
+    "slug": "UMUARAMA",
+    "cod_ibge": "4128104",
+    "vagas_total": 167,
+    "matriculas": 19,
+    "ingressos": 19,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 120,
+    "matriculas": 17,
+    "ingressos": 0,
+    "concluintes": 12,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Paranaguá",
+    "slug": "PARANAGUA",
+    "cod_ibge": "4118204",
+    "vagas_total": 40,
+    "matriculas": 93,
+    "ingressos": 39,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Matinhos",
+    "slug": "MATINHOS",
+    "cod_ibge": "4115705",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Medianeira",
+    "slug": "MEDIANEIRA",
+    "cod_ibge": "4115804",
+    "vagas_total": 0,
+    "matriculas": 23,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

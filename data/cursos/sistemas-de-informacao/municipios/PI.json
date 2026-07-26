@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 1304,
+    "matriculas": 621,
+    "ingressos": 227,
+    "concluintes": 84,
+    "n_cursos": 6,
+    "n_ies": 5
+  },
+  {
+    "nome": "Parnaíba",
+    "slug": "PARNAIBA",
+    "cod_ibge": "2207702",
+    "vagas_total": 240,
+    "matriculas": 120,
+    "ingressos": 78,
+    "concluintes": 3,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Picos",
+    "slug": "PICOS",
+    "cod_ibge": "2208007",
+    "vagas_total": 180,
+    "matriculas": 482,
+    "ingressos": 171,
+    "concluintes": 34,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Floriano",
+    "slug": "FLORIANO",
+    "cod_ibge": "2203909",
+    "vagas_total": 50,
+    "matriculas": 160,
+    "ingressos": 41,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pedro II",
+    "slug": "PEDRO_II",
+    "cod_ibge": "2207900",
+    "vagas_total": 44,
+    "matriculas": 127,
+    "ingressos": 44,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Angical do Piauí",
+    "slug": "ANGICAL_DO_PIAUI",
+    "cod_ibge": "2200608",
+    "vagas_total": 40,
+    "matriculas": 33,
+    "ingressos": 39,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Corrente",
+    "slug": "CORRENTE",
+    "cod_ibge": "2202901",
+    "vagas_total": 40,
+    "matriculas": 90,
+    "ingressos": 39,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piripiri",
+    "slug": "PIRIPIRI",
+    "cod_ibge": "2208403",
+    "vagas_total": 40,
+    "matriculas": 34,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

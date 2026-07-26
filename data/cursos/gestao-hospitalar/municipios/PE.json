@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Abreu e Lima",
+    "slug": "ABREU_E_LIMA",
+    "cod_ibge": "2600054",
+    "vagas_total": 40,
+    "matriculas": 34,
+    "ingressos": 38,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Ilhéus",
+    "slug": "ILHEUS",
+    "cod_ibge": "2913606",
+    "vagas_total": 5,
+    "matriculas": 18,
+    "ingressos": 4,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 1,
+    "matriculas": 40,
+    "ingressos": 1,
+    "concluintes": 38,
+    "n_cursos": 2,
+    "n_ies": 1
+  }
+]

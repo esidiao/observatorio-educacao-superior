@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 190,
+    "matriculas": 185,
+    "ingressos": 66,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

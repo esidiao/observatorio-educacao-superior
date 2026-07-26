@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 2237,
+    "matriculas": 1721,
+    "ingressos": 462,
+    "concluintes": 231,
+    "n_cursos": 8,
+    "n_ies": 8
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 335,
+    "matriculas": 455,
+    "ingressos": 111,
+    "concluintes": 74,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Rio Verde",
+    "slug": "RIO_VERDE",
+    "cod_ibge": "5218805",
+    "vagas_total": 122,
+    "matriculas": 61,
+    "ingressos": 80,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caldas Novas",
+    "slug": "CALDAS_NOVAS",
+    "cod_ibge": "5204508",
+    "vagas_total": 70,
+    "matriculas": 39,
+    "ingressos": 21,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Luís de Montes Belos",
+    "slug": "SAO_LUIS_DE_MONTES_BELOS",
+    "cod_ibge": "5220108",
+    "vagas_total": 65,
+    "matriculas": 10,
+    "ingressos": 1,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiás",
+    "slug": "GOIAS",
+    "cod_ibge": "5208905",
+    "vagas_total": 58,
+    "matriculas": 103,
+    "ingressos": 20,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uruaçu",
+    "slug": "URUACU",
+    "cod_ibge": "5221601",
+    "vagas_total": 31,
+    "matriculas": 19,
+    "ingressos": 5,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiatuba",
+    "slug": "GOIATUBA",
+    "cod_ibge": "5209101",
+    "vagas_total": 20,
+    "matriculas": 18,
+    "ingressos": 20,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jataí",
+    "slug": "JATAI",
+    "cod_ibge": "5211909",
+    "vagas_total": 16,
+    "matriculas": 69,
+    "ingressos": 16,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catalão",
+    "slug": "CATALAO",
+    "cod_ibge": "5205109",
+    "vagas_total": 11,
+    "matriculas": 32,
+    "ingressos": 11,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Valparaíso de Goiás",
+    "slug": "VALPARAISO_DE_GOIAS",
+    "cod_ibge": "5221858",
+    "vagas_total": 0,
+    "matriculas": 9,
+    "ingressos": 0,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

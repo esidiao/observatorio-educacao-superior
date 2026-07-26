@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 2305,
+    "matriculas": 725,
+    "ingressos": 93,
+    "concluintes": 103,
+    "n_cursos": 9,
+    "n_ies": 9
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 394,
+    "matriculas": 0,
+    "ingressos": 4,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Timon",
+    "slug": "TIMON",
+    "cod_ibge": "2112209",
+    "vagas_total": 300,
+    "matriculas": 38,
+    "ingressos": 0,
+    "concluintes": 17,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Paço do Lumiar",
+    "slug": "PACO_DO_LUMIAR",
+    "cod_ibge": "2107506",
+    "vagas_total": 200,
+    "matriculas": 127,
+    "ingressos": 23,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapadinha",
+    "slug": "CHAPADINHA",
+    "cod_ibge": "2103208",
+    "vagas_total": 130,
+    "matriculas": 26,
+    "ingressos": 0,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 110,
+    "matriculas": 11,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Bacabeira",
+    "slug": "BACABEIRA",
+    "cod_ibge": "2101251",
+    "vagas_total": 100,
+    "matriculas": 34,
+    "ingressos": 0,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pedreiras",
+    "slug": "PEDREIRAS",
+    "cod_ibge": "2108207",
+    "vagas_total": 100,
+    "matriculas": 246,
+    "ingressos": 39,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra do Corda",
+    "slug": "BARRA_DO_CORDA",
+    "cod_ibge": "2101608",
+    "vagas_total": 53,
+    "matriculas": 42,
+    "ingressos": 16,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

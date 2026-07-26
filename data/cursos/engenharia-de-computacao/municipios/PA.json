@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 1227,
+    "matriculas": 756,
+    "ingressos": 229,
+    "concluintes": 86,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Tucuruí",
+    "slug": "TUCURUI",
+    "cod_ibge": "1508100",
+    "vagas_total": 61,
+    "matriculas": 223,
+    "ingressos": 50,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 46,
+    "matriculas": 145,
+    "ingressos": 35,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Castanhal",
+    "slug": "CASTANHAL",
+    "cod_ibge": "1502400",
+    "vagas_total": 38,
+    "matriculas": 185,
+    "ingressos": 33,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Escada",
+    "slug": "ESCADA",
+    "cod_ibge": "2605202",
+    "vagas_total": 203,
+    "matriculas": 48,
+    "ingressos": 16,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 182,
+    "matriculas": 373,
+    "ingressos": 84,
+    "concluintes": 70,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 50,
+    "matriculas": 175,
+    "ingressos": 37,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nazaré da Mata",
+    "slug": "NAZARE_DA_MATA",
+    "cod_ibge": "2609501",
+    "vagas_total": 40,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Carpina",
+    "slug": "CARPINA",
+    "cod_ibge": "2604007",
+    "vagas_total": 27,
+    "matriculas": 111,
+    "ingressos": 22,
+    "concluintes": 38,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

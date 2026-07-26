@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Balneário Camboriú",
+    "slug": "BALNEARIO_CAMBORIU",
+    "cod_ibge": "4202008",
+    "vagas_total": 221,
+    "matriculas": 37,
+    "ingressos": 32,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Orleans",
+    "slug": "ORLEANS",
+    "cod_ibge": "4211702",
+    "vagas_total": 45,
+    "matriculas": 17,
+    "ingressos": 5,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lages",
+    "slug": "LAGES",
+    "cod_ibge": "4209300",
+    "vagas_total": 44,
+    "matriculas": 35,
+    "ingressos": 13,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Criciúma",
+    "slug": "CRICIUMA",
+    "cod_ibge": "4204608",
+    "vagas_total": 32,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaraguá do Sul",
+    "slug": "JARAGUA_DO_SUL",
+    "cod_ibge": "4208906",
+    "vagas_total": 7,
+    "matriculas": 13,
+    "ingressos": 7,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palhoça",
+    "slug": "PALHOCA",
+    "cod_ibge": "4211900",
+    "vagas_total": 7,
+    "matriculas": 13,
+    "ingressos": 7,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tubarão",
+    "slug": "TUBARAO",
+    "cod_ibge": "4218707",
+    "vagas_total": 1,
+    "matriculas": 8,
+    "ingressos": 1,
+    "concluintes": 4,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

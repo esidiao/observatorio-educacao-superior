@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 723,
+    "matriculas": 392,
+    "ingressos": 319,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Janaúba",
+    "slug": "JANAUBA",
+    "cod_ibge": "3135100",
+    "vagas_total": 670,
+    "matriculas": 117,
+    "ingressos": 30,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Teófilo Otoni",
+    "slug": "TEOFILO_OTONI",
+    "cod_ibge": "3168606",
+    "vagas_total": 655,
+    "matriculas": 173,
+    "ingressos": 38,
+    "concluintes": 65,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Diamantina",
+    "slug": "DIAMANTINA",
+    "cod_ibge": "3121605",
+    "vagas_total": 614,
+    "matriculas": 280,
+    "ingressos": 67,
+    "concluintes": 82,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Poços de Caldas",
+    "slug": "POCOS_DE_CALDAS",
+    "cod_ibge": "3151800",
+    "vagas_total": 541,
+    "matriculas": 467,
+    "ingressos": 104,
+    "concluintes": 63,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 245,
+    "matriculas": 644,
+    "ingressos": 165,
+    "concluintes": 75,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sete Lagoas",
+    "slug": "SETE_LAGOAS",
+    "cod_ibge": "3167202",
+    "vagas_total": 70,
+    "matriculas": 116,
+    "ingressos": 19,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

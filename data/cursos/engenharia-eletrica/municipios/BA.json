@@ -1,0 +1,189 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 5277,
+    "matriculas": 1405,
+    "ingressos": 348,
+    "concluintes": 245,
+    "n_cursos": 12,
+    "n_ies": 11
+  },
+  {
+    "nome": "Vitória da Conquista",
+    "slug": "VITORIA_DA_CONQUISTA",
+    "cod_ibge": "2933307",
+    "vagas_total": 772,
+    "matriculas": 415,
+    "ingressos": 83,
+    "concluintes": 59,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 563,
+    "matriculas": 116,
+    "ingressos": 24,
+    "concluintes": 29,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Santo Antônio de Jesus",
+    "slug": "SANTO_ANTONIO_DE_JESUS",
+    "cod_ibge": "2928703",
+    "vagas_total": 199,
+    "matriculas": 3,
+    "ingressos": 1,
+    "concluintes": 1,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ilhéus",
+    "slug": "ILHEUS",
+    "cod_ibge": "2913606",
+    "vagas_total": 187,
+    "matriculas": 184,
+    "ingressos": 62,
+    "concluintes": 7,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Alagoinhas",
+    "slug": "ALAGOINHAS",
+    "cod_ibge": "2900702",
+    "vagas_total": 100,
+    "matriculas": 39,
+    "ingressos": 9,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paulo Afonso",
+    "slug": "PAULO_AFONSO",
+    "cod_ibge": "2924009",
+    "vagas_total": 80,
+    "matriculas": 191,
+    "ingressos": 3,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lauro de Freitas",
+    "slug": "LAURO_DE_FREITAS",
+    "cod_ibge": "2919207",
+    "vagas_total": 79,
+    "matriculas": 94,
+    "ingressos": 16,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bom Jesus da Lapa",
+    "slug": "BOM_JESUS_DA_LAPA",
+    "cod_ibge": "2903904",
+    "vagas_total": 67,
+    "matriculas": 111,
+    "ingressos": 18,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cruz das Almas",
+    "slug": "CRUZ_DAS_ALMAS",
+    "cod_ibge": "2909802",
+    "vagas_total": 35,
+    "matriculas": 41,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guanambi",
+    "slug": "GUANAMBI",
+    "cod_ibge": "2911709",
+    "vagas_total": 10,
+    "matriculas": 27,
+    "ingressos": 10,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jacobina",
+    "slug": "JACOBINA",
+    "cod_ibge": "2917508",
+    "vagas_total": 6,
+    "matriculas": 7,
+    "ingressos": 6,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Senhor do Bonfim",
+    "slug": "SENHOR_DO_BONFIM",
+    "cod_ibge": "2930105",
+    "vagas_total": 5,
+    "matriculas": 4,
+    "ingressos": 5,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itabuna",
+    "slug": "ITABUNA",
+    "cod_ibge": "2914802",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jequié",
+    "slug": "JEQUIE",
+    "cod_ibge": "2918001",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juazeiro",
+    "slug": "JUAZEIRO",
+    "cod_ibge": "2918407",
+    "vagas_total": 0,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Teixeira de Freitas",
+    "slug": "TEIXEIRA_DE_FREITAS",
+    "cod_ibge": "2931350",
+    "vagas_total": 0,
+    "matriculas": 6,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

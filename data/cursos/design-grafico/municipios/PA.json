@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 1170,
+    "matriculas": 370,
+    "ingressos": 130,
+    "concluintes": 68,
+    "n_cursos": 3,
+    "n_ies": 3
+  }
+]

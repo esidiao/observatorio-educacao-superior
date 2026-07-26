@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 287,
+    "matriculas": 7,
+    "ingressos": 5,
+    "concluintes": 3,
+    "n_cursos": 5,
+    "n_ies": 2
+  },
+  {
+    "nome": "Contagem",
+    "slug": "CONTAGEM",
+    "cod_ibge": "3118601",
+    "vagas_total": 2,
+    "matriculas": 4,
+    "ingressos": 2,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

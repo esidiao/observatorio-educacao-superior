@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Carapicuíba",
+    "slug": "CARAPICUIBA",
+    "cod_ibge": "3510609",
+    "vagas_total": 83,
+    "matriculas": 181,
+    "ingressos": 82,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barueri",
+    "slug": "BARUERI",
+    "cod_ibge": "3505708",
+    "vagas_total": 80,
+    "matriculas": 146,
+    "ingressos": 14,
+    "concluintes": 57,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guaratinguetá",
+    "slug": "GUARATINGUETA",
+    "cod_ibge": "3518404",
+    "vagas_total": 80,
+    "matriculas": 42,
+    "ingressos": 64,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

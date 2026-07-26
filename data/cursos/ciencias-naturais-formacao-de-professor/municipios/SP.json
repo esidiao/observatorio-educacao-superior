@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Diadema",
+    "slug": "DIADEMA",
+    "cod_ibge": "3513801",
+    "vagas_total": 415,
+    "matriculas": 503,
+    "ingressos": 196,
+    "concluintes": 66,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 252,
+    "matriculas": 364,
+    "ingressos": 124,
+    "concluintes": 37,
+    "n_cursos": 3,
+    "n_ies": 2
+  }
+]

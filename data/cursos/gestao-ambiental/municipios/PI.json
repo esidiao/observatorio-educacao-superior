@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 41,
+    "matriculas": 117,
+    "ingressos": 41,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Corrente",
+    "slug": "CORRENTE",
+    "cod_ibge": "2202901",
+    "vagas_total": 40,
+    "matriculas": 110,
+    "ingressos": 40,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Raimundo Nonato",
+    "slug": "SAO_RAIMUNDO_NONATO",
+    "cod_ibge": "2210607",
+    "vagas_total": 40,
+    "matriculas": 0,
+    "ingressos": 18,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

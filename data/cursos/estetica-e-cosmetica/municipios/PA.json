@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 480,
+    "matriculas": 286,
+    "ingressos": 137,
+    "concluintes": 73,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Itaituba",
+    "slug": "ITAITUBA",
+    "cod_ibge": "1503606",
+    "vagas_total": 192,
+    "matriculas": 30,
+    "ingressos": 10,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 125,
+    "matriculas": 151,
+    "ingressos": 47,
+    "concluintes": 57,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

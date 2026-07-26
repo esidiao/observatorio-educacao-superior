@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Parintins",
+    "slug": "PARINTINS",
+    "cod_ibge": "1303403",
+    "vagas_total": 50,
+    "matriculas": 14,
+    "ingressos": 0,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

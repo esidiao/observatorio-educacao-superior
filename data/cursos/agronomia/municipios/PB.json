@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Catolé do Rocha",
+    "slug": "CATOLE_DO_ROCHA",
+    "cod_ibge": "2504306",
+    "vagas_total": 330,
+    "matriculas": 174,
+    "ingressos": 45,
+    "concluintes": 54,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lagoa Seca",
+    "slug": "LAGOA_SECA",
+    "cod_ibge": "2508307",
+    "vagas_total": 258,
+    "matriculas": 212,
+    "ingressos": 96,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 162,
+    "matriculas": 84,
+    "ingressos": 29,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pombal",
+    "slug": "POMBAL",
+    "cod_ibge": "2512101",
+    "vagas_total": 130,
+    "matriculas": 168,
+    "ingressos": 45,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Areia",
+    "slug": "AREIA",
+    "cod_ibge": "2501104",
+    "vagas_total": 109,
+    "matriculas": 333,
+    "ingressos": 68,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

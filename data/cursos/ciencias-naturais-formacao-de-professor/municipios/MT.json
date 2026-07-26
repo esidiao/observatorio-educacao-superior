@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Nova Lacerda",
+    "slug": "NOVA_LACERDA",
+    "cod_ibge": "5106182",
+    "vagas_total": 0,
+    "matriculas": 22,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 0,
+    "matriculas": 40,
+    "ingressos": 0,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vila Bela da Santíssima Trindade",
+    "slug": "VILA_BELA_DA_SANTISSIMA_TRINDADE",
+    "cod_ibge": "5105507",
+    "vagas_total": 0,
+    "matriculas": 24,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

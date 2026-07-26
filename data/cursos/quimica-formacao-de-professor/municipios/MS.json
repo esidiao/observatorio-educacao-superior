@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 191,
+    "matriculas": 127,
+    "ingressos": 44,
+    "concluintes": 6,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 95,
+    "matriculas": 132,
+    "ingressos": 59,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Coxim",
+    "slug": "COXIM",
+    "cod_ibge": "5003306",
+    "vagas_total": 47,
+    "matriculas": 56,
+    "ingressos": 39,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Naviraí",
+    "slug": "NAVIRAI",
+    "cod_ibge": "5005707",
+    "vagas_total": 21,
+    "matriculas": 66,
+    "ingressos": 21,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 390,
+    "matriculas": 469,
+    "ingressos": 159,
+    "concluintes": 92,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 120,
+    "matriculas": 170,
+    "ingressos": 61,
+    "concluintes": 43,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 114,
+    "matriculas": 200,
+    "ingressos": 68,
+    "concluintes": 27,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Bandeirantes",
+    "slug": "BANDEIRANTES",
+    "cod_ibge": "4102406",
+    "vagas_total": 90,
+    "matriculas": 27,
+    "ingressos": 0,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 82,
+    "matriculas": 177,
+    "ingressos": 61,
+    "concluintes": 39,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Paranaguá",
+    "slug": "PARANAGUA",
+    "cod_ibge": "4118204",
+    "vagas_total": 56,
+    "matriculas": 106,
+    "ingressos": 40,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 40,
+    "matriculas": 80,
+    "ingressos": 23,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 40,
+    "matriculas": 164,
+    "ingressos": 39,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 33,
+    "matriculas": 86,
+    "ingressos": 32,
+    "concluintes": 11,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Palotina",
+    "slug": "PALOTINA",
+    "cod_ibge": "4117909",
+    "vagas_total": 24,
+    "matriculas": 43,
+    "ingressos": 1,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Dois Vizinhos",
+    "slug": "DOIS_VIZINHOS",
+    "cod_ibge": "4107207",
+    "vagas_total": 22,
+    "matriculas": 12,
+    "ingressos": 19,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

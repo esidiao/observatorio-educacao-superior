@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Alegre",
+    "slug": "ALEGRE",
+    "cod_ibge": "3200201",
+    "vagas_total": 141,
+    "matriculas": 382,
+    "ingressos": 109,
+    "concluintes": 45,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Colatina",
+    "slug": "COLATINA",
+    "cod_ibge": "3201506",
+    "vagas_total": 76,
+    "matriculas": 172,
+    "ingressos": 49,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Mateus",
+    "slug": "SAO_MATEUS",
+    "cod_ibge": "3204906",
+    "vagas_total": 73,
+    "matriculas": 198,
+    "ingressos": 45,
+    "concluintes": 29,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santa Teresa",
+    "slug": "SANTA_TERESA",
+    "cod_ibge": "3204609",
+    "vagas_total": 55,
+    "matriculas": 140,
+    "ingressos": 33,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

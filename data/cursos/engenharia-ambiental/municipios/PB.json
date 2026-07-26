@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Pombal",
+    "slug": "POMBAL",
+    "cod_ibge": "2512101",
+    "vagas_total": 170,
+    "matriculas": 63,
+    "ingressos": 20,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 92,
+    "matriculas": 251,
+    "ingressos": 62,
+    "concluintes": 26,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

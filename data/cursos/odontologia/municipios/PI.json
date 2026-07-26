@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 1631,
+    "matriculas": 3040,
+    "ingressos": 799,
+    "concluintes": 464,
+    "n_cursos": 8,
+    "n_ies": 8
+  },
+  {
+    "nome": "Parnaíba",
+    "slug": "PARNAIBA",
+    "cod_ibge": "2207702",
+    "vagas_total": 417,
+    "matriculas": 556,
+    "ingressos": 118,
+    "concluintes": 96,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Piripiri",
+    "slug": "PIRIPIRI",
+    "cod_ibge": "2208403",
+    "vagas_total": 100,
+    "matriculas": 177,
+    "ingressos": 35,
+    "concluintes": 60,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Floriano",
+    "slug": "FLORIANO",
+    "cod_ibge": "2203909",
+    "vagas_total": 50,
+    "matriculas": 143,
+    "ingressos": 25,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

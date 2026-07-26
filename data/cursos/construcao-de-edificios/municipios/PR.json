@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Umuarama",
+    "slug": "UMUARAMA",
+    "cod_ibge": "4128104",
+    "vagas_total": 84,
+    "matriculas": 16,
+    "ingressos": 20,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 27,
+    "matriculas": 24,
+    "ingressos": 4,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

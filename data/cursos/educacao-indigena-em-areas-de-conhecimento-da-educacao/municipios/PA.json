@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 80,
+    "matriculas": 211,
+    "ingressos": 41,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Vila Velha",
+    "slug": "VILA_VELHA",
+    "cod_ibge": "3205200",
+    "vagas_total": 460,
+    "matriculas": 679,
+    "ingressos": 287,
+    "concluintes": 38,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória",
+    "slug": "VITORIA",
+    "cod_ibge": "3205309",
+    "vagas_total": 204,
+    "matriculas": 510,
+    "ingressos": 192,
+    "concluintes": 42,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Guarapari",
+    "slug": "GUARAPARI",
+    "cod_ibge": "3202405",
+    "vagas_total": 63,
+    "matriculas": 101,
+    "ingressos": 63,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Mateus",
+    "slug": "SAO_MATEUS",
+    "cod_ibge": "3204906",
+    "vagas_total": 56,
+    "matriculas": 248,
+    "ingressos": 52,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alegre",
+    "slug": "ALEGRE",
+    "cod_ibge": "3200201",
+    "vagas_total": 41,
+    "matriculas": 173,
+    "ingressos": 40,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

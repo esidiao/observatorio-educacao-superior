@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 40,
+    "matriculas": 118,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pesqueira",
+    "slug": "PESQUEIRA",
+    "cod_ibge": "2610905",
+    "vagas_total": 30,
+    "matriculas": 30,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

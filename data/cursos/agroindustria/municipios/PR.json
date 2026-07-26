@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Pitanga",
+    "slug": "PITANGA",
+    "cod_ibge": "4119608",
+    "vagas_total": 119,
+    "matriculas": 69,
+    "ingressos": 22,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

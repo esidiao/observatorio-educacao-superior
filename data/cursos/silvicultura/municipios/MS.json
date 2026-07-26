@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Água Clara",
+    "slug": "AGUA_CLARA",
+    "cod_ibge": "5000203",
+    "vagas_total": 42,
+    "matriculas": 40,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

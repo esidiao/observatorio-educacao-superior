@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Rio Branco",
+    "slug": "RIO_BRANCO",
+    "cod_ibge": "1200401",
+    "vagas_total": 817,
+    "matriculas": 469,
+    "ingressos": 179,
+    "concluintes": 52,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Sena Madureira",
+    "slug": "SENA_MADUREIRA",
+    "cod_ibge": "1200500",
+    "vagas_total": 40,
+    "matriculas": 25,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

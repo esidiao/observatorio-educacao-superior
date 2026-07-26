@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Uberaba",
+    "slug": "UBERABA",
+    "cod_ibge": "3170107",
+    "vagas_total": 257,
+    "matriculas": 175,
+    "ingressos": 71,
+    "concluintes": 33,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Pará de Minas",
+    "slug": "PARA_DE_MINAS",
+    "cod_ibge": "3147105",
+    "vagas_total": 155,
+    "matriculas": 41,
+    "ingressos": 42,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Luz",
+    "slug": "LUZ",
+    "cod_ibge": "3138807",
+    "vagas_total": 150,
+    "matriculas": 0,
+    "ingressos": 10,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 104,
+    "matriculas": 38,
+    "ingressos": 32,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 80,
+    "matriculas": 28,
+    "ingressos": 2,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Janaúba",
+    "slug": "JANAUBA",
+    "cod_ibge": "3135100",
+    "vagas_total": 59,
+    "matriculas": 46,
+    "ingressos": 22,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 49,
+    "matriculas": 171,
+    "ingressos": 50,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ituiutaba",
+    "slug": "ITUIUTABA",
+    "cod_ibge": "3134202",
+    "vagas_total": 48,
+    "matriculas": 107,
+    "ingressos": 36,
+    "concluintes": 2,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Governador Valadares",
+    "slug": "GOVERNADOR_VALADARES",
+    "cod_ibge": "3127701",
+    "vagas_total": 30,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bom Despacho",
+    "slug": "BOM_DESPACHO",
+    "cod_ibge": "3107406",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paracatu",
+    "slug": "PARACATU",
+    "cod_ibge": "3147006",
+    "vagas_total": 0,
+    "matriculas": 15,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

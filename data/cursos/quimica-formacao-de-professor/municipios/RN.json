@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 110,
+    "matriculas": 271,
+    "ingressos": 96,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 83,
+    "matriculas": 109,
+    "ingressos": 36,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Apodi",
+    "slug": "APODI",
+    "cod_ibge": "2401008",
+    "vagas_total": 60,
+    "matriculas": 64,
+    "ingressos": 22,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipanguaçu",
+    "slug": "IPANGUACU",
+    "cod_ibge": "2404705",
+    "vagas_total": 56,
+    "matriculas": 81,
+    "ingressos": 24,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pau dos Ferros",
+    "slug": "PAU_DOS_FERROS",
+    "cod_ibge": "2409407",
+    "vagas_total": 41,
+    "matriculas": 69,
+    "ingressos": 30,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Currais Novos",
+    "slug": "CURRAIS_NOVOS",
+    "cod_ibge": "2403103",
+    "vagas_total": 40,
+    "matriculas": 109,
+    "ingressos": 28,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

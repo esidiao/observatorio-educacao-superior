@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 260,
+    "matriculas": 320,
+    "ingressos": 100,
+    "concluintes": 17,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 80,
+    "matriculas": 269,
+    "ingressos": 76,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Serra Talhada",
+    "slug": "SERRA_TALHADA",
+    "cod_ibge": "2613909",
+    "vagas_total": 72,
+    "matriculas": 63,
+    "ingressos": 39,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 64,
+    "matriculas": 139,
+    "ingressos": 51,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salgueiro",
+    "slug": "SALGUEIRO",
+    "cod_ibge": "2612208",
+    "vagas_total": 64,
+    "matriculas": 92,
+    "ingressos": 45,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pesqueira",
+    "slug": "PESQUEIRA",
+    "cod_ibge": "2610905",
+    "vagas_total": 40,
+    "matriculas": 91,
+    "ingressos": 30,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

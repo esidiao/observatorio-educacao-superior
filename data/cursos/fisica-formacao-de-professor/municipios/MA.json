@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 155,
+    "matriculas": 465,
+    "ingressos": 105,
+    "concluintes": 27,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 75,
+    "matriculas": 102,
+    "ingressos": 45,
+    "concluintes": 12,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 70,
+    "matriculas": 82,
+    "ingressos": 25,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João dos Patos",
+    "slug": "SAO_JOAO_DOS_PATOS",
+    "cod_ibge": "2111102",
+    "vagas_total": 59,
+    "matriculas": 22,
+    "ingressos": 21,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Inês",
+    "slug": "SANTA_INES",
+    "cod_ibge": "2109908",
+    "vagas_total": 41,
+    "matriculas": 66,
+    "ingressos": 32,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pedreiras",
+    "slug": "PEDREIRAS",
+    "cod_ibge": "2108207",
+    "vagas_total": 40,
+    "matriculas": 48,
+    "ingressos": 8,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Loreto",
+    "slug": "LORETO",
+    "cod_ibge": "2106102",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paraibano",
+    "slug": "PARAIBANO",
+    "cod_ibge": "2107704",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pinheiro",
+    "slug": "PINHEIRO",
+    "cod_ibge": "2108603",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viana",
+    "slug": "VIANA",
+    "cod_ibge": "2112803",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

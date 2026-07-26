@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Maceió",
+    "slug": "MACEIO",
+    "cod_ibge": "2704302",
+    "vagas_total": 288,
+    "matriculas": 521,
+    "ingressos": 129,
+    "concluintes": 61,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Penedo",
+    "slug": "PENEDO",
+    "cod_ibge": "2706703",
+    "vagas_total": 130,
+    "matriculas": 216,
+    "ingressos": 50,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arapiraca",
+    "slug": "ARAPIRACA",
+    "cod_ibge": "2700300",
+    "vagas_total": 118,
+    "matriculas": 456,
+    "ingressos": 99,
+    "concluintes": 82,
+    "n_cursos": 4,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santana do Ipanema",
+    "slug": "SANTANA_DO_IPANEMA",
+    "cod_ibge": "2708006",
+    "vagas_total": 43,
+    "matriculas": 185,
+    "ingressos": 40,
+    "concluintes": 11,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palmeira dos Índios",
+    "slug": "PALMEIRA_DOS_INDIOS",
+    "cod_ibge": "2706307",
+    "vagas_total": 40,
+    "matriculas": 201,
+    "ingressos": 38,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

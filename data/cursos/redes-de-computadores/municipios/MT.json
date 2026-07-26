@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 110,
+    "matriculas": 163,
+    "ingressos": 31,
+    "concluintes": 15,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Pontes e Lacerda",
+    "slug": "PONTES_E_LACERDA",
+    "cod_ibge": "5106752",
+    "vagas_total": 0,
+    "matriculas": 19,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

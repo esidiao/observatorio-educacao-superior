@@ -1,0 +1,167 @@
+[
+  {
+    "nome": "Manaus",
+    "slug": "MANAUS",
+    "cod_ibge": "1302603",
+    "vagas_total": 2878,
+    "matriculas": 1031,
+    "ingressos": 218,
+    "concluintes": 111,
+    "n_cursos": 8,
+    "n_ies": 8
+  },
+  {
+    "nome": "Parintins",
+    "slug": "PARINTINS",
+    "cod_ibge": "1303403",
+    "vagas_total": 50,
+    "matriculas": 224,
+    "ingressos": 25,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barcelos",
+    "slug": "BARCELOS",
+    "cod_ibge": "1300409",
+    "vagas_total": 0,
+    "matriculas": 14,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Boa Vista do Ramos",
+    "slug": "BOA_VISTA_DO_RAMOS",
+    "cod_ibge": "1300680",
+    "vagas_total": 0,
+    "matriculas": 24,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Borba",
+    "slug": "BORBA",
+    "cod_ibge": "1300805",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Eirunepé",
+    "slug": "EIRUNEPE",
+    "cod_ibge": "1301407",
+    "vagas_total": 0,
+    "matriculas": 29,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipixuna",
+    "slug": "IPIXUNA",
+    "cod_ibge": "1301803",
+    "vagas_total": 0,
+    "matriculas": 17,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iranduba",
+    "slug": "IRANDUBA",
+    "cod_ibge": "1301852",
+    "vagas_total": 0,
+    "matriculas": 17,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jutaí",
+    "slug": "JUTAI",
+    "cod_ibge": "1302306",
+    "vagas_total": 0,
+    "matriculas": 21,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Manicoré",
+    "slug": "MANICORE",
+    "cod_ibge": "1302702",
+    "vagas_total": 0,
+    "matriculas": 27,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maraã",
+    "slug": "MARAA",
+    "cod_ibge": "1302801",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Olinda do Norte",
+    "slug": "NOVA_OLINDA_DO_NORTE",
+    "cod_ibge": "1303106",
+    "vagas_total": 0,
+    "matriculas": 31,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Antônio do Içá",
+    "slug": "SANTO_ANTONIO_DO_ICA",
+    "cod_ibge": "1303700",
+    "vagas_total": 0,
+    "matriculas": 21,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Sebastião do Uatumã",
+    "slug": "SAO_SEBASTIAO_DO_UATUMA",
+    "cod_ibge": "1303957",
+    "vagas_total": 0,
+    "matriculas": 22,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tapauá",
+    "slug": "TAPAUA",
+    "cod_ibge": "1304104",
+    "vagas_total": 0,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

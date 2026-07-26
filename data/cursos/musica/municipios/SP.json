@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 860,
+    "matriculas": 775,
+    "ingressos": 280,
+    "concluintes": 110,
+    "n_cursos": 36,
+    "n_ies": 8
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 54,
+    "matriculas": 287,
+    "ingressos": 53,
+    "concluintes": 46,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pindamonhangaba",
+    "slug": "PINDAMONHANGABA",
+    "cod_ibge": "3538006",
+    "vagas_total": 33,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ribeirão Preto",
+    "slug": "RIBEIRAO_PRETO",
+    "cod_ibge": "3543402",
+    "vagas_total": 7,
+    "matriculas": 18,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 9,
+    "n_ies": 1
+  }
+]

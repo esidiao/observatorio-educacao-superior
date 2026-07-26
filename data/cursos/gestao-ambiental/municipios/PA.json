@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Ananindeua",
+    "slug": "ANANINDEUA",
+    "cod_ibge": "1500800",
+    "vagas_total": 84,
+    "matriculas": 60,
+    "ingressos": 39,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bragança",
+    "slug": "BRAGANCA",
+    "cod_ibge": "1501709",
+    "vagas_total": 40,
+    "matriculas": 101,
+    "ingressos": 38,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Breves",
+    "slug": "BREVES",
+    "cod_ibge": "1501808",
+    "vagas_total": 40,
+    "matriculas": 32,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 40,
+    "matriculas": 124,
+    "ingressos": 35,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 0,
+    "matriculas": 18,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Venda Nova do Imigrante",
+    "slug": "VENDA_NOVA_DO_IMIGRANTE",
+    "cod_ibge": "3205069",
+    "vagas_total": 80,
+    "matriculas": 47,
+    "ingressos": 20,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

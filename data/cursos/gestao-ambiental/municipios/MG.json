@@ -1,0 +1,134 @@
+[
+  {
+    "nome": "Arinos",
+    "slug": "ARINOS",
+    "cod_ibge": "3104502",
+    "vagas_total": 136,
+    "matriculas": 48,
+    "ingressos": 28,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Governador Valadares",
+    "slug": "GOVERNADOR_VALADARES",
+    "cod_ibge": "3127701",
+    "vagas_total": 88,
+    "matriculas": 48,
+    "ingressos": 26,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cambuquira",
+    "slug": "CAMBUQUIRA",
+    "cod_ibge": "3110707",
+    "vagas_total": 80,
+    "matriculas": 9,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florestal",
+    "slug": "FLORESTAL",
+    "cod_ibge": "3126000",
+    "vagas_total": 70,
+    "matriculas": 54,
+    "ingressos": 18,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ituiutaba",
+    "slug": "ITUIUTABA",
+    "cod_ibge": "3134202",
+    "vagas_total": 67,
+    "matriculas": 66,
+    "ingressos": 23,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João del Rei",
+    "slug": "SAO_JOAO_DEL_REI",
+    "cod_ibge": "3162500",
+    "vagas_total": 63,
+    "matriculas": 70,
+    "ingressos": 18,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 63,
+    "matriculas": 61,
+    "ingressos": 31,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barbacena",
+    "slug": "BARBACENA",
+    "cod_ibge": "3105608",
+    "vagas_total": 62,
+    "matriculas": 37,
+    "ingressos": 18,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Poços de Caldas",
+    "slug": "POCOS_DE_CALDAS",
+    "cod_ibge": "3151800",
+    "vagas_total": 53,
+    "matriculas": 50,
+    "ingressos": 35,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bom Sucesso",
+    "slug": "BOM_SUCESSO",
+    "cod_ibge": "3108008",
+    "vagas_total": 40,
+    "matriculas": 35,
+    "ingressos": 12,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Boa Esperança",
+    "slug": "BOA_ESPERANCA",
+    "cod_ibge": "3107109",
+    "vagas_total": 1,
+    "matriculas": 1,
+    "ingressos": 1,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Inconfidentes",
+    "slug": "INCONFIDENTES",
+    "cod_ibge": "3130606",
+    "vagas_total": 0,
+    "matriculas": 27,
+    "ingressos": 0,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

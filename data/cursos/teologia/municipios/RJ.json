@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 417,
+    "matriculas": 379,
+    "ingressos": 147,
+    "concluintes": 53,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Itaboraí",
+    "slug": "ITABORAI",
+    "cod_ibge": "3301900",
+    "vagas_total": 140,
+    "matriculas": 71,
+    "ingressos": 45,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrópolis",
+    "slug": "PETROPOLIS",
+    "cod_ibge": "3303906",
+    "vagas_total": 130,
+    "matriculas": 70,
+    "ingressos": 26,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Campos dos Goytacazes",
+    "slug": "CAMPOS_DOS_GOYTACAZES",
+    "cod_ibge": "3301009",
+    "vagas_total": 65,
+    "matriculas": 60,
+    "ingressos": 24,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

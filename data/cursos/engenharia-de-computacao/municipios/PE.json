@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 1747,
+    "matriculas": 1257,
+    "ingressos": 235,
+    "concluintes": 100,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "Belo Jardim",
+    "slug": "BELO_JARDIM",
+    "cod_ibge": "2601706",
+    "vagas_total": 80,
+    "matriculas": 198,
+    "ingressos": 61,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaboatão dos Guararapes",
+    "slug": "JABOATAO_DOS_GUARARAPES",
+    "cod_ibge": "2607901",
+    "vagas_total": 8,
+    "matriculas": 16,
+    "ingressos": 8,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 1410,
+    "matriculas": 200,
+    "ingressos": 65,
+    "concluintes": 38,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 620,
+    "matriculas": 1,
+    "ingressos": 1,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Itamaraju",
+    "slug": "ITAMARAJU",
+    "cod_ibge": "2915601",
+    "vagas_total": 106,
+    "matriculas": 26,
+    "ingressos": 14,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cruz das Almas",
+    "slug": "CRUZ_DAS_ALMAS",
+    "cod_ibge": "2909802",
+    "vagas_total": 104,
+    "matriculas": 71,
+    "ingressos": 31,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itabuna",
+    "slug": "ITABUNA",
+    "cod_ibge": "2914802",
+    "vagas_total": 61,
+    "matriculas": 80,
+    "ingressos": 49,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guanambi",
+    "slug": "GUANAMBI",
+    "cod_ibge": "2911709",
+    "vagas_total": 20,
+    "matriculas": 35,
+    "ingressos": 20,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

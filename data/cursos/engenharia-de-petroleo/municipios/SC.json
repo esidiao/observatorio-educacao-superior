@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Balneário Camboriú",
+    "slug": "BALNEARIO_CAMBORIU",
+    "cod_ibge": "4202008",
+    "vagas_total": 160,
+    "matriculas": 181,
+    "ingressos": 46,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tubarão",
+    "slug": "TUBARAO",
+    "cod_ibge": "4218707",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

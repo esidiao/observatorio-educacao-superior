@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 466,
+    "matriculas": 121,
+    "ingressos": 72,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capão do Leão",
+    "slug": "CAPAO_DO_LEAO",
+    "cod_ibge": "4304663",
+    "vagas_total": 231,
+    "matriculas": 79,
+    "ingressos": 46,
+    "concluintes": 17,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itaqui",
+    "slug": "ITAQUI",
+    "cod_ibge": "4310603",
+    "vagas_total": 75,
+    "matriculas": 53,
+    "ingressos": 24,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alegrete",
+    "slug": "ALEGRETE",
+    "cod_ibge": "4300406",
+    "vagas_total": 60,
+    "matriculas": 35,
+    "ingressos": 21,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bento Gonçalves",
+    "slug": "BENTO_GONCALVES",
+    "cod_ibge": "4302105",
+    "vagas_total": 59,
+    "matriculas": 57,
+    "ingressos": 22,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Antônio da Patrulha",
+    "slug": "SANTO_ANTONIO_DA_PATRULHA",
+    "cod_ibge": "4317608",
+    "vagas_total": 47,
+    "matriculas": 5,
+    "ingressos": 7,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cruz Alta",
+    "slug": "CRUZ_ALTA",
+    "cod_ibge": "4306106",
+    "vagas_total": 45,
+    "matriculas": 77,
+    "ingressos": 37,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Rosa",
+    "slug": "SANTA_ROSA",
+    "cod_ibge": "4317202",
+    "vagas_total": 45,
+    "matriculas": 53,
+    "ingressos": 32,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 43,
+    "matriculas": 86,
+    "ingressos": 31,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bagé",
+    "slug": "BAGE",
+    "cod_ibge": "4301602",
+    "vagas_total": 32,
+    "matriculas": 46,
+    "ingressos": 26,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 0,
+    "matriculas": 35,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Encantado",
+    "slug": "ENCANTADO",
+    "cod_ibge": "4306809",
+    "vagas_total": 0,
+    "matriculas": 23,
+    "ingressos": 0,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Augusto",
+    "slug": "SANTO_AUGUSTO",
+    "cod_ibge": "4317806",
+    "vagas_total": 0,
+    "matriculas": 18,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Luiz Gonzaga",
+    "slug": "SAO_LUIZ_GONZAGA",
+    "cod_ibge": "4318903",
+    "vagas_total": 0,
+    "matriculas": 8,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

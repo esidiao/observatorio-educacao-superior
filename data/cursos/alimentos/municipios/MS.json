@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Coxim",
+    "slug": "COXIM",
+    "cod_ibge": "5003306",
+    "vagas_total": 40,
+    "matriculas": 31,
+    "ingressos": 20,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

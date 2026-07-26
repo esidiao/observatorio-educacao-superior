@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Maceió",
+    "slug": "MACEIO",
+    "cod_ibge": "2704302",
+    "vagas_total": 157,
+    "matriculas": 83,
+    "ingressos": 28,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Palmeira dos Índios",
+    "slug": "PALMEIRA_DOS_INDIOS",
+    "cod_ibge": "2706307",
+    "vagas_total": 90,
+    "matriculas": 200,
+    "ingressos": 57,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Largo",
+    "slug": "RIO_LARGO",
+    "cod_ibge": "2707701",
+    "vagas_total": 50,
+    "matriculas": 131,
+    "ingressos": 43,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

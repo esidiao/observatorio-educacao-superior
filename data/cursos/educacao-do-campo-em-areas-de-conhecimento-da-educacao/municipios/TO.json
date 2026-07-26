@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Arraias",
+    "slug": "ARRAIAS",
+    "cod_ibge": "1702406",
+    "vagas_total": 40,
+    "matriculas": 227,
+    "ingressos": 33,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tocantinópolis",
+    "slug": "TOCANTINOPOLIS",
+    "cod_ibge": "1721208",
+    "vagas_total": 40,
+    "matriculas": 168,
+    "ingressos": 34,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

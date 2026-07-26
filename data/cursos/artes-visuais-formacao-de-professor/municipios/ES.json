@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Vitória",
+    "slug": "VITORIA",
+    "cod_ibge": "3205309",
+    "vagas_total": 92,
+    "matriculas": 453,
+    "ingressos": 90,
+    "concluintes": 43,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Serra",
+    "slug": "SERRA",
+    "cod_ibge": "3205002",
+    "vagas_total": 45,
+    "matriculas": 19,
+    "ingressos": 16,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

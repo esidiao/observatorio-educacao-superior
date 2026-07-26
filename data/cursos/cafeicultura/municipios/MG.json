@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Muzambinho",
+    "slug": "MUZAMBINHO",
+    "cod_ibge": "3144102",
+    "vagas_total": 75,
+    "matriculas": 106,
+    "ingressos": 36,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patrocínio",
+    "slug": "PATROCINIO",
+    "cod_ibge": "3148103",
+    "vagas_total": 52,
+    "matriculas": 20,
+    "ingressos": 15,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

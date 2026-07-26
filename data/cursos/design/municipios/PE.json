@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 1507,
+    "matriculas": 926,
+    "ingressos": 244,
+    "concluintes": 125,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 160,
+    "matriculas": 674,
+    "ingressos": 152,
+    "concluintes": 67,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

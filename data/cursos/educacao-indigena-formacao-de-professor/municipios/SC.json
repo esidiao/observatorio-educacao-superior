@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Abelardo Luz",
+    "slug": "ABELARDO_LUZ",
+    "cod_ibge": "4200101",
+    "vagas_total": 40,
+    "matriculas": 40,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 2,
+    "matriculas": 40,
+    "ingressos": 2,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

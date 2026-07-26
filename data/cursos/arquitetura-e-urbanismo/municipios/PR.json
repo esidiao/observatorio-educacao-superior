@@ -1,0 +1,222 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 2614,
+    "matriculas": 2830,
+    "ingressos": 804,
+    "concluintes": 398,
+    "n_cursos": 17,
+    "n_ies": 17
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 584,
+    "matriculas": 894,
+    "ingressos": 252,
+    "concluintes": 119,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 424,
+    "matriculas": 371,
+    "ingressos": 102,
+    "concluintes": 53,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 357,
+    "matriculas": 921,
+    "ingressos": 259,
+    "concluintes": 128,
+    "n_cursos": 6,
+    "n_ies": 5
+  },
+  {
+    "nome": "Campo Mourão",
+    "slug": "CAMPO_MOURAO",
+    "cod_ibge": "4104303",
+    "vagas_total": 276,
+    "matriculas": 118,
+    "ingressos": 25,
+    "concluintes": 26,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Umuarama",
+    "slug": "UMUARAMA",
+    "cod_ibge": "4128104",
+    "vagas_total": 227,
+    "matriculas": 230,
+    "ingressos": 64,
+    "concluintes": 30,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 226,
+    "matriculas": 267,
+    "ingressos": 112,
+    "concluintes": 45,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 225,
+    "matriculas": 461,
+    "ingressos": 84,
+    "concluintes": 82,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Francisco Beltrão",
+    "slug": "FRANCISCO_BELTRAO",
+    "cod_ibge": "4108403",
+    "vagas_total": 185,
+    "matriculas": 155,
+    "ingressos": 49,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paranavaí",
+    "slug": "PARANAVAI",
+    "cod_ibge": "4118402",
+    "vagas_total": 174,
+    "matriculas": 116,
+    "ingressos": 46,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 156,
+    "matriculas": 158,
+    "ingressos": 42,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 155,
+    "matriculas": 287,
+    "ingressos": 81,
+    "concluintes": 30,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "União da Vitória",
+    "slug": "UNIAO_DA_VITORIA",
+    "cod_ibge": "4128203",
+    "vagas_total": 145,
+    "matriculas": 121,
+    "ingressos": 32,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Pato Branco",
+    "slug": "PATO_BRANCO",
+    "cod_ibge": "4118501",
+    "vagas_total": 70,
+    "matriculas": 98,
+    "ingressos": 24,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paranaguá",
+    "slug": "PARANAGUA",
+    "cod_ibge": "4118204",
+    "vagas_total": 65,
+    "matriculas": 41,
+    "ingressos": 18,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pinhais",
+    "slug": "PINHAIS",
+    "cod_ibge": "4119152",
+    "vagas_total": 50,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araucária",
+    "slug": "ARAUCARIA",
+    "cod_ibge": "4101804",
+    "vagas_total": 41,
+    "matriculas": 18,
+    "ingressos": 1,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arapongas",
+    "slug": "ARAPONGAS",
+    "cod_ibge": "4101507",
+    "vagas_total": 34,
+    "matriculas": 94,
+    "ingressos": 28,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bandeirantes",
+    "slug": "BANDEIRANTES",
+    "cod_ibge": "4102406",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cianorte",
+    "slug": "CIANORTE",
+    "cod_ibge": "4105508",
+    "vagas_total": 0,
+    "matriculas": 21,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

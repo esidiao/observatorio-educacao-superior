@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Araguaína",
+    "slug": "ARAGUAINA",
+    "cod_ibge": "1702109",
+    "vagas_total": 100,
+    "matriculas": 146,
+    "ingressos": 29,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paraíso do Tocantins",
+    "slug": "PARAISO_DO_TOCANTINS",
+    "cod_ibge": "1716109",
+    "vagas_total": 45,
+    "matriculas": 106,
+    "ingressos": 16,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Gurupi",
+    "slug": "GURUPI",
+    "cod_ibge": "1709500",
+    "vagas_total": 40,
+    "matriculas": 14,
+    "ingressos": 11,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

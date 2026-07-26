@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Diamantina",
+    "slug": "DIAMANTINA",
+    "cod_ibge": "3121605",
+    "vagas_total": 624,
+    "matriculas": 12,
+    "ingressos": 24,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ibirité",
+    "slug": "IBIRITE",
+    "cod_ibge": "3129806",
+    "vagas_total": 137,
+    "matriculas": 314,
+    "ingressos": 124,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 110,
+    "matriculas": 91,
+    "ingressos": 103,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 66,
+    "matriculas": 0,
+    "ingressos": 66,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  }
+]

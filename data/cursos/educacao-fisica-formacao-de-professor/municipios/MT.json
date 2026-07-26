@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "São José dos Quatro Marcos",
+    "slug": "SAO_JOSE_DOS_QUATRO_MARCOS",
+    "cod_ibge": "5107107",
+    "vagas_total": 894,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 271,
+    "matriculas": 298,
+    "ingressos": 32,
+    "concluintes": 31,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Várzea Grande",
+    "slug": "VARZEA_GRANDE",
+    "cod_ibge": "5108402",
+    "vagas_total": 207,
+    "matriculas": 17,
+    "ingressos": 10,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarantã do Norte",
+    "slug": "GUARANTA_DO_NORTE",
+    "cod_ibge": "5104104",
+    "vagas_total": 115,
+    "matriculas": 12,
+    "ingressos": 5,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaciara",
+    "slug": "JACIARA",
+    "cod_ibge": "5104807",
+    "vagas_total": 100,
+    "matriculas": 6,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cáceres",
+    "slug": "CACERES",
+    "cod_ibge": "5102504",
+    "vagas_total": 91,
+    "matriculas": 288,
+    "ingressos": 77,
+    "concluintes": 47,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Diamantino",
+    "slug": "DIAMANTINO",
+    "cod_ibge": "5103502",
+    "vagas_total": 90,
+    "matriculas": 193,
+    "ingressos": 82,
+    "concluintes": 40,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pontal do Araguaia",
+    "slug": "PONTAL_DO_ARAGUAIA",
+    "cod_ibge": "5106653",
+    "vagas_total": 53,
+    "matriculas": 79,
+    "ingressos": 38,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorriso",
+    "slug": "SORRISO",
+    "cod_ibge": "5107925",
+    "vagas_total": 50,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araputanga",
+    "slug": "ARAPUTANGA",
+    "cod_ibge": "5101258",
+    "vagas_total": 44,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lucas do Rio Verde",
+    "slug": "LUCAS_DO_RIO_VERDE",
+    "cod_ibge": "5105259",
+    "vagas_total": 10,
+    "matriculas": 16,
+    "ingressos": 2,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

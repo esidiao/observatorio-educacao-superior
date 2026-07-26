@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 753,
+    "matriculas": 875,
+    "ingressos": 480,
+    "concluintes": 161,
+    "n_cursos": 8,
+    "n_ies": 6
+  },
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 251,
+    "matriculas": 344,
+    "ingressos": 134,
+    "concluintes": 54,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Várzea Grande",
+    "slug": "VARZEA_GRANDE",
+    "cod_ibge": "5108402",
+    "vagas_total": 207,
+    "matriculas": 81,
+    "ingressos": 51,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarantã do Norte",
+    "slug": "GUARANTA_DO_NORTE",
+    "cod_ibge": "5104104",
+    "vagas_total": 192,
+    "matriculas": 18,
+    "ingressos": 8,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 151,
+    "matriculas": 430,
+    "ingressos": 91,
+    "concluintes": 24,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Primavera do Leste",
+    "slug": "PRIMAVERA_DO_LESTE",
+    "cod_ibge": "5107040",
+    "vagas_total": 40,
+    "matriculas": 104,
+    "ingressos": 38,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Verde",
+    "slug": "CAMPO_VERDE",
+    "cod_ibge": "5102678",
+    "vagas_total": 35,
+    "matriculas": 91,
+    "ingressos": 26,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pontes e Lacerda",
+    "slug": "PONTES_E_LACERDA",
+    "cod_ibge": "5106752",
+    "vagas_total": 35,
+    "matriculas": 32,
+    "ingressos": 18,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marcelândia",
+    "slug": "MARCELANDIA",
+    "cod_ibge": "5105580",
+    "vagas_total": 32,
+    "matriculas": 39,
+    "ingressos": 31,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

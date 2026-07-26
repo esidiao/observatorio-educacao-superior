@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 187,
+    "matriculas": 61,
+    "ingressos": 35,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pindamonhangaba",
+    "slug": "PINDAMONHANGABA",
+    "cod_ibge": "3538006",
+    "vagas_total": 90,
+    "matriculas": 173,
+    "ingressos": 88,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Osasco",
+    "slug": "OSASCO",
+    "cod_ibge": "3534401",
+    "vagas_total": 40,
+    "matriculas": 35,
+    "ingressos": 28,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

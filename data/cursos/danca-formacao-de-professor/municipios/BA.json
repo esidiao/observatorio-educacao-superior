@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Jequié",
+    "slug": "JEQUIE",
+    "cod_ibge": "2918001",
+    "vagas_total": 49,
+    "matriculas": 40,
+    "ingressos": 13,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 10,
+    "matriculas": 89,
+    "ingressos": 2,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

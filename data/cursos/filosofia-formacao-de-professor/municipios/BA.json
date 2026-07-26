@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Itaberaba",
+    "slug": "ITABERABA",
+    "cod_ibge": "2914703",
+    "vagas_total": 150,
+    "matriculas": 19,
+    "ingressos": 20,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Amargosa",
+    "slug": "AMARGOSA",
+    "cod_ibge": "2901007",
+    "vagas_total": 138,
+    "matriculas": 123,
+    "ingressos": 44,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 126,
+    "matriculas": 172,
+    "ingressos": 63,
+    "concluintes": 13,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ilhéus",
+    "slug": "ILHEUS",
+    "cod_ibge": "2913606",
+    "vagas_total": 106,
+    "matriculas": 114,
+    "ingressos": 26,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 75,
+    "matriculas": 140,
+    "ingressos": 40,
+    "concluintes": 18,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Vitória da Conquista",
+    "slug": "VITORIA_DA_CONQUISTA",
+    "cod_ibge": "2933307",
+    "vagas_total": 71,
+    "matriculas": 130,
+    "ingressos": 39,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

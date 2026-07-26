@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 221,
+    "matriculas": 261,
+    "ingressos": 79,
+    "concluintes": 22,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 152,
+    "matriculas": 144,
+    "ingressos": 54,
+    "concluintes": 17,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Charqueadas",
+    "slug": "CHARQUEADAS",
+    "cod_ibge": "4305355",
+    "vagas_total": 100,
+    "matriculas": 128,
+    "ingressos": 41,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Taquara",
+    "slug": "TAQUARA",
+    "cod_ibge": "4321204",
+    "vagas_total": 72,
+    "matriculas": 35,
+    "ingressos": 11,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Ângelo",
+    "slug": "SANTO_ANGELO",
+    "cod_ibge": "4317509",
+    "vagas_total": 65,
+    "matriculas": 63,
+    "ingressos": 39,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Panambi",
+    "slug": "PANAMBI",
+    "cod_ibge": "4313904",
+    "vagas_total": 40,
+    "matriculas": 80,
+    "ingressos": 40,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 40,
+    "matriculas": 138,
+    "ingressos": 39,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

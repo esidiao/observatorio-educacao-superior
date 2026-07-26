@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 145,
+    "matriculas": 26,
+    "ingressos": 9,
+    "concluintes": 6,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Barra do Bugres",
+    "slug": "BARRA_DO_BUGRES",
+    "cod_ibge": "5101704",
+    "vagas_total": 110,
+    "matriculas": 201,
+    "ingressos": 87,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Várzea Grande",
+    "slug": "VARZEA_GRANDE",
+    "cod_ibge": "5108402",
+    "vagas_total": 100,
+    "matriculas": 20,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itiquira",
+    "slug": "ITIQUIRA",
+    "cod_ibge": "5104609",
+    "vagas_total": 5,
+    "matriculas": 31,
+    "ingressos": 1,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 1,
+    "matriculas": 5,
+    "ingressos": 1,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Primavera do Leste",
+    "slug": "PRIMAVERA_DO_LESTE",
+    "cod_ibge": "5107040",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 0,
+    "matriculas": 7,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Tangará da Serra",
+    "slug": "TANGARA_DA_SERRA",
+    "cod_ibge": "5107958",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

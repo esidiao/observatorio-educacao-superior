@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 1301,
+    "matriculas": 447,
+    "ingressos": 164,
+    "concluintes": 107,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 177,
+    "matriculas": 71,
+    "ingressos": 31,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 120,
+    "matriculas": 88,
+    "ingressos": 32,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Baturité",
+    "slug": "BATURITE",
+    "cod_ibge": "2302107",
+    "vagas_total": 75,
+    "matriculas": 125,
+    "ingressos": 34,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ubajara",
+    "slug": "UBAJARA",
+    "cod_ibge": "2313609",
+    "vagas_total": 75,
+    "matriculas": 174,
+    "ingressos": 42,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

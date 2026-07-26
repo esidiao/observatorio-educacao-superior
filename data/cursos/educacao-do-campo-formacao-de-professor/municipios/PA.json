@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 108,
+    "matriculas": 191,
+    "ingressos": 90,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Abaetetuba",
+    "slug": "ABAETETUBA",
+    "cod_ibge": "1500107",
+    "vagas_total": 40,
+    "matriculas": 32,
+    "ingressos": 38,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Breves",
+    "slug": "BREVES",
+    "cod_ibge": "1501808",
+    "vagas_total": 30,
+    "matriculas": 125,
+    "ingressos": 31,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

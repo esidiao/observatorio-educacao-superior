@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Cuité",
+    "slug": "CUITE",
+    "cod_ibge": "2505105",
+    "vagas_total": 304,
+    "matriculas": 245,
+    "ingressos": 74,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 287,
+    "matriculas": 487,
+    "ingressos": 139,
+    "concluintes": 51,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patos",
+    "slug": "PATOS",
+    "cod_ibge": "2510808",
+    "vagas_total": 230,
+    "matriculas": 270,
+    "ingressos": 83,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 172,
+    "matriculas": 382,
+    "ingressos": 108,
+    "concluintes": 38,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cabedelo",
+    "slug": "CABEDELO",
+    "cod_ibge": "2503209",
+    "vagas_total": 88,
+    "matriculas": 198,
+    "ingressos": 76,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Princesa Isabel",
+    "slug": "PRINCESA_ISABEL",
+    "cod_ibge": "2512309",
+    "vagas_total": 88,
+    "matriculas": 200,
+    "ingressos": 60,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catolé do Rocha",
+    "slug": "CATOLE_DO_ROCHA",
+    "cod_ibge": "2504306",
+    "vagas_total": 64,
+    "matriculas": 37,
+    "ingressos": 37,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cajazeiras",
+    "slug": "CAJAZEIRAS",
+    "cod_ibge": "2503704",
+    "vagas_total": 40,
+    "matriculas": 130,
+    "ingressos": 39,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Areia",
+    "slug": "AREIA",
+    "cod_ibge": "2501104",
+    "vagas_total": 30,
+    "matriculas": 107,
+    "ingressos": 26,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

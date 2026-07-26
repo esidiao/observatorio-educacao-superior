@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 248,
+    "matriculas": 860,
+    "ingressos": 186,
+    "concluintes": 85,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Picos",
+    "slug": "PICOS",
+    "cod_ibge": "2208007",
+    "vagas_total": 90,
+    "matriculas": 271,
+    "ingressos": 72,
+    "concluintes": 46,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Corrente",
+    "slug": "CORRENTE",
+    "cod_ibge": "2202901",
+    "vagas_total": 40,
+    "matriculas": 11,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Floriano",
+    "slug": "FLORIANO",
+    "cod_ibge": "2203909",
+    "vagas_total": 40,
+    "matriculas": 95,
+    "ingressos": 0,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Oeiras",
+    "slug": "OEIRAS",
+    "cod_ibge": "2207009",
+    "vagas_total": 40,
+    "matriculas": 132,
+    "ingressos": 33,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Parnaíba",
+    "slug": "PARNAIBA",
+    "cod_ibge": "2207702",
+    "vagas_total": 40,
+    "matriculas": 148,
+    "ingressos": 38,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bom Jesus",
+    "slug": "BOM_JESUS",
+    "cod_ibge": "2201903",
+    "vagas_total": 35,
+    "matriculas": 69,
+    "ingressos": 32,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piripiri",
+    "slug": "PIRIPIRI",
+    "cod_ibge": "2208403",
+    "vagas_total": 35,
+    "matriculas": 78,
+    "ingressos": 24,
+    "concluintes": 37,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

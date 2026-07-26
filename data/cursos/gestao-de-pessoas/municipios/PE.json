@@ -1,0 +1,145 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 2128,
+    "matriculas": 718,
+    "ingressos": 306,
+    "concluintes": 196,
+    "n_cursos": 12,
+    "n_ies": 11
+  },
+  {
+    "nome": "Jaboatão dos Guararapes",
+    "slug": "JABOATAO_DOS_GUARARAPES",
+    "cod_ibge": "2607901",
+    "vagas_total": 416,
+    "matriculas": 101,
+    "ingressos": 57,
+    "concluintes": 39,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Olinda",
+    "slug": "OLINDA",
+    "cod_ibge": "2609600",
+    "vagas_total": 302,
+    "matriculas": 90,
+    "ingressos": 34,
+    "concluintes": 40,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Vitória de Santo Antão",
+    "slug": "VITORIA_DE_SANTO_ANTAO",
+    "cod_ibge": "2616407",
+    "vagas_total": 282,
+    "matriculas": 69,
+    "ingressos": 33,
+    "concluintes": 37,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 240,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Igarassu",
+    "slug": "IGARASSU",
+    "cod_ibge": "2606804",
+    "vagas_total": 200,
+    "matriculas": 89,
+    "ingressos": 33,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipojuca",
+    "slug": "IPOJUCA",
+    "cod_ibge": "2607208",
+    "vagas_total": 160,
+    "matriculas": 43,
+    "ingressos": 16,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cabo de Santo Agostinho",
+    "slug": "CABO_DE_SANTO_AGOSTINHO",
+    "cod_ibge": "2602902",
+    "vagas_total": 141,
+    "matriculas": 116,
+    "ingressos": 68,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Garanhuns",
+    "slug": "GARANHUNS",
+    "cod_ibge": "2606002",
+    "vagas_total": 100,
+    "matriculas": 70,
+    "ingressos": 37,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Escada",
+    "slug": "ESCADA",
+    "cod_ibge": "2605202",
+    "vagas_total": 61,
+    "matriculas": 45,
+    "ingressos": 12,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palmares",
+    "slug": "PALMARES",
+    "cod_ibge": "2610004",
+    "vagas_total": 50,
+    "matriculas": 20,
+    "ingressos": 5,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Timbaúba",
+    "slug": "TIMBAUBA",
+    "cod_ibge": "2615300",
+    "vagas_total": 50,
+    "matriculas": 13,
+    "ingressos": 10,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 1,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

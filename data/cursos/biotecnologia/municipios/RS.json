@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "São Gabriel",
+    "slug": "SAO_GABRIEL",
+    "cod_ibge": "4318309",
+    "vagas_total": 188,
+    "matriculas": 42,
+    "ingressos": 26,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capão do Leão",
+    "slug": "CAPAO_DO_LEAO",
+    "cod_ibge": "4304663",
+    "vagas_total": 61,
+    "matriculas": 131,
+    "ingressos": 40,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 45,
+    "matriculas": 135,
+    "ingressos": 37,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

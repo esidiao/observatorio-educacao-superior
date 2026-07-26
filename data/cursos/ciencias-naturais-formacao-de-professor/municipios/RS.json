@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Santo Antônio da Patrulha",
+    "slug": "SANTO_ANTONIO_DA_PATRULHA",
+    "cod_ibge": "4317608",
+    "vagas_total": 479,
+    "matriculas": 30,
+    "ingressos": 17,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caçapava do Sul",
+    "slug": "CACAPAVA_DO_SUL",
+    "cod_ibge": "4302808",
+    "vagas_total": 193,
+    "matriculas": 13,
+    "ingressos": 14,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uruguaiana",
+    "slug": "URUGUAIANA",
+    "cod_ibge": "4322400",
+    "vagas_total": 163,
+    "matriculas": 133,
+    "ingressos": 56,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Dom Pedrito",
+    "slug": "DOM_PEDRITO",
+    "cod_ibge": "4306601",
+    "vagas_total": 158,
+    "matriculas": 78,
+    "ingressos": 24,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 38,
+    "matriculas": 94,
+    "ingressos": 35,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

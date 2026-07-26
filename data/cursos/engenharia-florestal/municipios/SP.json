@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Itapeva",
+    "slug": "ITAPEVA",
+    "cod_ibge": "3522406",
+    "vagas_total": 170,
+    "matriculas": 29,
+    "ingressos": 21,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lençóis Paulista",
+    "slug": "LENCOIS_PAULISTA",
+    "cod_ibge": "3526803",
+    "vagas_total": 96,
+    "matriculas": 12,
+    "ingressos": 12,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 72,
+    "matriculas": 171,
+    "ingressos": 37,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piracicaba",
+    "slug": "PIRACICABA",
+    "cod_ibge": "3538709",
+    "vagas_total": 59,
+    "matriculas": 211,
+    "ingressos": 37,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Garça",
+    "slug": "GARCA",
+    "cod_ibge": "3516705",
+    "vagas_total": 50,
+    "matriculas": 14,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Botucatu",
+    "slug": "BOTUCATU",
+    "cod_ibge": "3507506",
+    "vagas_total": 45,
+    "matriculas": 220,
+    "ingressos": 41,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

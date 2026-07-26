@@ -1,0 +1,233 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 2058,
+    "matriculas": 2008,
+    "ingressos": 921,
+    "concluintes": 320,
+    "n_cursos": 15,
+    "n_ies": 14
+  },
+  {
+    "nome": "Luziânia",
+    "slug": "LUZIANIA",
+    "cod_ibge": "5212501",
+    "vagas_total": 328,
+    "matriculas": 466,
+    "ingressos": 216,
+    "concluintes": 38,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Mineiros",
+    "slug": "MINEIROS",
+    "cod_ibge": "5213103",
+    "vagas_total": 306,
+    "matriculas": 71,
+    "ingressos": 39,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Helena de Goiás",
+    "slug": "SANTA_HELENA_DE_GOIAS",
+    "cod_ibge": "5219308",
+    "vagas_total": 180,
+    "matriculas": 73,
+    "ingressos": 41,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Trindade",
+    "slug": "TRINDADE",
+    "cod_ibge": "5221403",
+    "vagas_total": 126,
+    "matriculas": 124,
+    "ingressos": 54,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 121,
+    "matriculas": 119,
+    "ingressos": 47,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aparecida de Goiânia",
+    "slug": "APARECIDA_DE_GOIANIA",
+    "cod_ibge": "5201405",
+    "vagas_total": 120,
+    "matriculas": 229,
+    "ingressos": 89,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itumbiara",
+    "slug": "ITUMBIARA",
+    "cod_ibge": "5211503",
+    "vagas_total": 120,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iporá",
+    "slug": "IPORA",
+    "cod_ibge": "5210208",
+    "vagas_total": 100,
+    "matriculas": 35,
+    "ingressos": 9,
+    "concluintes": 4,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Formosa",
+    "slug": "FORMOSA",
+    "cod_ibge": "5208004",
+    "vagas_total": 89,
+    "matriculas": 167,
+    "ingressos": 74,
+    "concluintes": 9,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Itaberaí",
+    "slug": "ITABERAI",
+    "cod_ibge": "5210406",
+    "vagas_total": 58,
+    "matriculas": 53,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Urutaí",
+    "slug": "URUTAI",
+    "cod_ibge": "5221809",
+    "vagas_total": 57,
+    "matriculas": 118,
+    "ingressos": 40,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ceres",
+    "slug": "CERES",
+    "cod_ibge": "5205406",
+    "vagas_total": 48,
+    "matriculas": 214,
+    "ingressos": 40,
+    "concluintes": 14,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Catalão",
+    "slug": "CATALAO",
+    "cod_ibge": "5205109",
+    "vagas_total": 35,
+    "matriculas": 59,
+    "ingressos": 29,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jataí",
+    "slug": "JATAI",
+    "cod_ibge": "5211909",
+    "vagas_total": 34,
+    "matriculas": 80,
+    "ingressos": 32,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uruaçu",
+    "slug": "URUACU",
+    "cod_ibge": "5221601",
+    "vagas_total": 33,
+    "matriculas": 72,
+    "ingressos": 26,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goianésia",
+    "slug": "GOIANESIA",
+    "cod_ibge": "5208608",
+    "vagas_total": 0,
+    "matriculas": 15,
+    "ingressos": 0,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Inhumas",
+    "slug": "INHUMAS",
+    "cod_ibge": "5210000",
+    "vagas_total": 0,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porangatu",
+    "slug": "PORANGATU",
+    "cod_ibge": "5218003",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Posse",
+    "slug": "POSSE",
+    "cod_ibge": "5218300",
+    "vagas_total": 0,
+    "matriculas": 6,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sanclerlândia",
+    "slug": "SANCLERLANDIA",
+    "cod_ibge": "5219001",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

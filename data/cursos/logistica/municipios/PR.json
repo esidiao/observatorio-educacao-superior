@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 1008,
+    "matriculas": 121,
+    "ingressos": 36,
+    "concluintes": 35,
+    "n_cursos": 10,
+    "n_ies": 10
+  },
+  {
+    "nome": "Araucária",
+    "slug": "ARAUCARIA",
+    "cod_ibge": "4101804",
+    "vagas_total": 150,
+    "matriculas": 51,
+    "ingressos": 39,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Colombo",
+    "slug": "COLOMBO",
+    "cod_ibge": "4105805",
+    "vagas_total": 100,
+    "matriculas": 14,
+    "ingressos": 5,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pinhais",
+    "slug": "PINHAIS",
+    "cod_ibge": "4119152",
+    "vagas_total": 100,
+    "matriculas": 17,
+    "ingressos": 5,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paranaguá",
+    "slug": "PARANAGUA",
+    "cod_ibge": "4118204",
+    "vagas_total": 83,
+    "matriculas": 28,
+    "ingressos": 27,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ivaiporã",
+    "slug": "IVAIPORA",
+    "cod_ibge": "4111506",
+    "vagas_total": 67,
+    "matriculas": 8,
+    "ingressos": 1,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José dos Pinhais",
+    "slug": "SAO_JOSE_DOS_PINHAIS",
+    "cod_ibge": "4125506",
+    "vagas_total": 55,
+    "matriculas": 35,
+    "ingressos": 4,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

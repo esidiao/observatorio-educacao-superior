@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "1721000",
+    "vagas_total": 1127,
+    "matriculas": 399,
+    "ingressos": 197,
+    "concluintes": 39,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Gurupi",
+    "slug": "GURUPI",
+    "cod_ibge": "1709500",
+    "vagas_total": 180,
+    "matriculas": 211,
+    "ingressos": 59,
+    "concluintes": 40,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araguaína",
+    "slug": "ARAGUAINA",
+    "cod_ibge": "1702109",
+    "vagas_total": 145,
+    "matriculas": 239,
+    "ingressos": 77,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guaraí",
+    "slug": "GUARAI",
+    "cod_ibge": "1709302",
+    "vagas_total": 60,
+    "matriculas": 91,
+    "ingressos": 24,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

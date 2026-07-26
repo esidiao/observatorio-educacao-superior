@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 4011,
+    "matriculas": 851,
+    "ingressos": 186,
+    "concluintes": 130,
+    "n_cursos": 8,
+    "n_ies": 7
+  },
+  {
+    "nome": "Russas",
+    "slug": "RUSSAS",
+    "cod_ibge": "2311801",
+    "vagas_total": 62,
+    "matriculas": 139,
+    "ingressos": 30,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maracanaú",
+    "slug": "MARACANAU",
+    "cod_ibge": "2307650",
+    "vagas_total": 30,
+    "matriculas": 163,
+    "ingressos": 31,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cedro",
+    "slug": "CEDRO",
+    "cod_ibge": "2303808",
+    "vagas_total": 25,
+    "matriculas": 42,
+    "ingressos": 23,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

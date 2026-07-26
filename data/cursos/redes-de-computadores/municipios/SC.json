@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Araquari",
+    "slug": "ARAQUARI",
+    "cod_ibge": "4201307",
+    "vagas_total": 78,
+    "matriculas": 39,
+    "ingressos": 39,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Brusque",
+    "slug": "BRUSQUE",
+    "cod_ibge": "4202909",
+    "vagas_total": 50,
+    "matriculas": 61,
+    "ingressos": 30,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sombrio",
+    "slug": "SOMBRIO",
+    "cod_ibge": "4217709",
+    "vagas_total": 50,
+    "matriculas": 44,
+    "ingressos": 38,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

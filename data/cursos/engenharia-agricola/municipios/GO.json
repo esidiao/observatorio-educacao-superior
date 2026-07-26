@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 289,
+    "matriculas": 122,
+    "ingressos": 38,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Urutaí",
+    "slug": "URUTAI",
+    "cod_ibge": "5221809",
+    "vagas_total": 71,
+    "matriculas": 118,
+    "ingressos": 34,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Helena de Goiás",
+    "slug": "SANTA_HELENA_DE_GOIAS",
+    "cod_ibge": "5219308",
+    "vagas_total": 0,
+    "matriculas": 10,
+    "ingressos": 0,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

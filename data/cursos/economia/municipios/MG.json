@@ -1,0 +1,134 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 1142,
+    "matriculas": 1397,
+    "ingressos": 407,
+    "concluintes": 218,
+    "n_cursos": 6,
+    "n_ies": 5
+  },
+  {
+    "nome": "Teófilo Otoni",
+    "slug": "TEOFILO_OTONI",
+    "cod_ibge": "3168606",
+    "vagas_total": 398,
+    "matriculas": 122,
+    "ingressos": 32,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mariana",
+    "slug": "MARIANA",
+    "cod_ibge": "3140001",
+    "vagas_total": 281,
+    "matriculas": 312,
+    "ingressos": 97,
+    "concluintes": 67,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 174,
+    "matriculas": 372,
+    "ingressos": 98,
+    "concluintes": 50,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Governador Valadares",
+    "slug": "GOVERNADOR_VALADARES",
+    "cod_ibge": "3127701",
+    "vagas_total": 150,
+    "matriculas": 138,
+    "ingressos": 27,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João del Rei",
+    "slug": "SAO_JOAO_DEL_REI",
+    "cod_ibge": "3162500",
+    "vagas_total": 150,
+    "matriculas": 482,
+    "ingressos": 77,
+    "concluintes": 44,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Montes Claros",
+    "slug": "MONTES_CLAROS",
+    "cod_ibge": "3143302",
+    "vagas_total": 126,
+    "matriculas": 289,
+    "ingressos": 79,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itajubá",
+    "slug": "ITAJUBA",
+    "cod_ibge": "3132404",
+    "vagas_total": 117,
+    "matriculas": 5,
+    "ingressos": 4,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 112,
+    "matriculas": 439,
+    "ingressos": 89,
+    "concluintes": 55,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Varginha",
+    "slug": "VARGINHA",
+    "cod_ibge": "3170701",
+    "vagas_total": 89,
+    "matriculas": 110,
+    "ingressos": 27,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 77,
+    "matriculas": 239,
+    "ingressos": 76,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Contagem",
+    "slug": "CONTAGEM",
+    "cod_ibge": "3118601",
+    "vagas_total": 12,
+    "matriculas": 24,
+    "ingressos": 12,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

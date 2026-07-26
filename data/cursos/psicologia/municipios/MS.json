@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 1737,
+    "matriculas": 2902,
+    "ingressos": 1214,
+    "concluintes": 402,
+    "n_cursos": 9,
+    "n_ies": 9
+  },
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 398,
+    "matriculas": 997,
+    "ingressos": 318,
+    "concluintes": 163,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Três Lagoas",
+    "slug": "TRES_LAGOAS",
+    "cod_ibge": "5008305",
+    "vagas_total": 200,
+    "matriculas": 262,
+    "ingressos": 93,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Corumbá",
+    "slug": "CORUMBA",
+    "cod_ibge": "5003207",
+    "vagas_total": 50,
+    "matriculas": 188,
+    "ingressos": 47,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paranaíba",
+    "slug": "PARANAIBA",
+    "cod_ibge": "5006309",
+    "vagas_total": 50,
+    "matriculas": 167,
+    "ingressos": 43,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Coxim",
+    "slug": "COXIM",
+    "cod_ibge": "5003306",
+    "vagas_total": 1,
+    "matriculas": 34,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 211,
+    "matriculas": 347,
+    "ingressos": 98,
+    "concluintes": 69,
+    "n_cursos": 5,
+    "n_ies": 3
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 204,
+    "matriculas": 61,
+    "ingressos": 13,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Borja",
+    "slug": "SAO_BORJA",
+    "cod_ibge": "4318002",
+    "vagas_total": 167,
+    "matriculas": 84,
+    "ingressos": 35,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Novo Hamburgo",
+    "slug": "NOVO_HAMBURGO",
+    "cod_ibge": "4313409",
+    "vagas_total": 150,
+    "matriculas": 38,
+    "ingressos": 12,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Frederico Westphalen",
+    "slug": "FREDERICO_WESTPHALEN",
+    "cod_ibge": "4308508",
+    "vagas_total": 139,
+    "matriculas": 51,
+    "ingressos": 11,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Taquara",
+    "slug": "TAQUARA",
+    "cod_ibge": "4321204",
+    "vagas_total": 100,
+    "matriculas": 23,
+    "ingressos": 5,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 32,
+    "matriculas": 128,
+    "ingressos": 30,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Ângelo",
+    "slug": "SANTO_ANGELO",
+    "cod_ibge": "4317509",
+    "vagas_total": 20,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 0,
+    "matriculas": 10,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

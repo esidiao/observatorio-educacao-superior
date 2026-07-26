@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Pinheiral",
+    "slug": "PINHEIRAL",
+    "cod_ibge": "3303955",
+    "vagas_total": 142,
+    "matriculas": 143,
+    "ingressos": 39,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Antônio de Pádua",
+    "slug": "SANTO_ANTONIO_DE_PADUA",
+    "cod_ibge": "3304706",
+    "vagas_total": 100,
+    "matriculas": 55,
+    "ingressos": 16,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

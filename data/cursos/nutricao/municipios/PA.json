@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 3645,
+    "matriculas": 1327,
+    "ingressos": 435,
+    "concluintes": 286,
+    "n_cursos": 8,
+    "n_ies": 7
+  },
+  {
+    "nome": "Ananindeua",
+    "slug": "ANANINDEUA",
+    "cod_ibge": "1500800",
+    "vagas_total": 692,
+    "matriculas": 270,
+    "ingressos": 92,
+    "concluintes": 34,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 463,
+    "matriculas": 195,
+    "ingressos": 76,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Castanhal",
+    "slug": "CASTANHAL",
+    "cod_ibge": "1502400",
+    "vagas_total": 308,
+    "matriculas": 104,
+    "ingressos": 64,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Parauapebas",
+    "slug": "PARAUAPEBAS",
+    "cod_ibge": "1505536",
+    "vagas_total": 249,
+    "matriculas": 160,
+    "ingressos": 55,
+    "concluintes": 12,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Redenção",
+    "slug": "REDENCAO",
+    "cod_ibge": "1506138",
+    "vagas_total": 180,
+    "matriculas": 30,
+    "ingressos": 1,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

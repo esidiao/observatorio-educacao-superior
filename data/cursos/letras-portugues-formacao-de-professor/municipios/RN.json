@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 121,
+    "matriculas": 423,
+    "ingressos": 106,
+    "concluintes": 62,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Caraúbas",
+    "slug": "CARAUBAS",
+    "cod_ibge": "2402303",
+    "vagas_total": 90,
+    "matriculas": 282,
+    "ingressos": 39,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pau dos Ferros",
+    "slug": "PAU_DOS_FERROS",
+    "cod_ibge": "2409407",
+    "vagas_total": 73,
+    "matriculas": 239,
+    "ingressos": 70,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 63,
+    "matriculas": 248,
+    "ingressos": 57,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patu",
+    "slug": "PATU",
+    "cod_ibge": "2409308",
+    "vagas_total": 45,
+    "matriculas": 122,
+    "ingressos": 36,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Açu",
+    "slug": "ACU",
+    "cod_ibge": "2400208",
+    "vagas_total": 31,
+    "matriculas": 105,
+    "ingressos": 29,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Currais Novos",
+    "slug": "CURRAIS_NOVOS",
+    "cod_ibge": "2403103",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

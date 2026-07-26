@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 2466,
+    "matriculas": 4145,
+    "ingressos": 1274,
+    "concluintes": 649,
+    "n_cursos": 16,
+    "n_ies": 16
+  },
+  {
+    "nome": "Parnaíba",
+    "slug": "PARNAIBA",
+    "cod_ibge": "2207702",
+    "vagas_total": 371,
+    "matriculas": 667,
+    "ingressos": 155,
+    "concluintes": 91,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Floriano",
+    "slug": "FLORIANO",
+    "cod_ibge": "2203909",
+    "vagas_total": 212,
+    "matriculas": 501,
+    "ingressos": 108,
+    "concluintes": 97,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Picos",
+    "slug": "PICOS",
+    "cod_ibge": "2208007",
+    "vagas_total": 100,
+    "matriculas": 333,
+    "ingressos": 78,
+    "concluintes": 74,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Piripiri",
+    "slug": "PIRIPIRI",
+    "cod_ibge": "2208403",
+    "vagas_total": 100,
+    "matriculas": 187,
+    "ingressos": 46,
+    "concluintes": 40,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Maior",
+    "slug": "CAMPO_MAIOR",
+    "cod_ibge": "2202208",
+    "vagas_total": 50,
+    "matriculas": 24,
+    "ingressos": 7,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

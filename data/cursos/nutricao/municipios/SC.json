@@ -1,0 +1,200 @@
+[
+  {
+    "nome": "São José",
+    "slug": "SAO_JOSE",
+    "cod_ibge": "4216602",
+    "vagas_total": 734,
+    "matriculas": 280,
+    "ingressos": 108,
+    "concluintes": 68,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Itajaí",
+    "slug": "ITAJAI",
+    "cod_ibge": "4208203",
+    "vagas_total": 627,
+    "matriculas": 269,
+    "ingressos": 152,
+    "concluintes": 45,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 356,
+    "matriculas": 353,
+    "ingressos": 153,
+    "concluintes": 54,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Criciúma",
+    "slug": "CRICIUMA",
+    "cod_ibge": "4204608",
+    "vagas_total": 200,
+    "matriculas": 385,
+    "ingressos": 153,
+    "concluintes": 53,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 117,
+    "matriculas": 315,
+    "ingressos": 95,
+    "concluintes": 52,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Blumenau",
+    "slug": "BLUMENAU",
+    "cod_ibge": "4202404",
+    "vagas_total": 107,
+    "matriculas": 166,
+    "ingressos": 82,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 99,
+    "matriculas": 143,
+    "ingressos": 66,
+    "concluintes": 34,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Capivari de Baixo",
+    "slug": "CAPIVARI_DE_BAIXO",
+    "cod_ibge": "4203956",
+    "vagas_total": 90,
+    "matriculas": 59,
+    "ingressos": 54,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Balneário Camboriú",
+    "slug": "BALNEARIO_CAMBORIU",
+    "cod_ibge": "4202008",
+    "vagas_total": 70,
+    "matriculas": 84,
+    "ingressos": 35,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Rio do Sul",
+    "slug": "RIO_DO_SUL",
+    "cod_ibge": "4214805",
+    "vagas_total": 65,
+    "matriculas": 116,
+    "ingressos": 39,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lages",
+    "slug": "LAGES",
+    "cod_ibge": "4209300",
+    "vagas_total": 60,
+    "matriculas": 165,
+    "ingressos": 58,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joaçaba",
+    "slug": "JOACABA",
+    "cod_ibge": "4209003",
+    "vagas_total": 51,
+    "matriculas": 44,
+    "ingressos": 48,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caçador",
+    "slug": "CACADOR",
+    "cod_ibge": "4203006",
+    "vagas_total": 50,
+    "matriculas": 69,
+    "ingressos": 32,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Videira",
+    "slug": "VIDEIRA",
+    "cod_ibge": "4219309",
+    "vagas_total": 45,
+    "matriculas": 78,
+    "ingressos": 26,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Miguel do Oeste",
+    "slug": "SAO_MIGUEL_DO_OESTE",
+    "cod_ibge": "4217204",
+    "vagas_total": 44,
+    "matriculas": 54,
+    "ingressos": 25,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palhoça",
+    "slug": "PALHOCA",
+    "cod_ibge": "4211900",
+    "vagas_total": 43,
+    "matriculas": 90,
+    "ingressos": 43,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tubarão",
+    "slug": "TUBARAO",
+    "cod_ibge": "4218707",
+    "vagas_total": 25,
+    "matriculas": 84,
+    "ingressos": 25,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaraguá do Sul",
+    "slug": "JARAGUA_DO_SUL",
+    "cod_ibge": "4208906",
+    "vagas_total": 22,
+    "matriculas": 62,
+    "ingressos": 22,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

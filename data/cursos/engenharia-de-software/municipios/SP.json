@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 1901,
+    "matriculas": 1516,
+    "ingressos": 991,
+    "concluintes": 0,
+    "n_cursos": 11,
+    "n_ies": 5
+  },
+  {
+    "nome": "Mogi das Cruzes",
+    "slug": "MOGI_DAS_CRUZES",
+    "cod_ibge": "3530607",
+    "vagas_total": 276,
+    "matriculas": 467,
+    "ingressos": 258,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 222,
+    "matriculas": 408,
+    "ingressos": 182,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ourinhos",
+    "slug": "OURINHOS",
+    "cod_ibge": "3534708",
+    "vagas_total": 201,
+    "matriculas": 193,
+    "ingressos": 86,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ribeirão Preto",
+    "slug": "RIBEIRAO_PRETO",
+    "cod_ibge": "3543402",
+    "vagas_total": 104,
+    "matriculas": 216,
+    "ingressos": 103,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João da Boa Vista",
+    "slug": "SAO_JOAO_DA_BOA_VISTA",
+    "cod_ibge": "3549102",
+    "vagas_total": 75,
+    "matriculas": 161,
+    "ingressos": 58,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Franca",
+    "slug": "FRANCA",
+    "cod_ibge": "3516200",
+    "vagas_total": 65,
+    "matriculas": 152,
+    "ingressos": 54,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Birigui",
+    "slug": "BIRIGUI",
+    "cod_ibge": "3506508",
+    "vagas_total": 60,
+    "matriculas": 48,
+    "ingressos": 22,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lins",
+    "slug": "LINS",
+    "cod_ibge": "3527108",
+    "vagas_total": 60,
+    "matriculas": 61,
+    "ingressos": 31,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Penápolis",
+    "slug": "PENAPOLIS",
+    "cod_ibge": "3537305",
+    "vagas_total": 60,
+    "matriculas": 31,
+    "ingressos": 31,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Carlos",
+    "slug": "SAO_CARLOS",
+    "cod_ibge": "3548906",
+    "vagas_total": 42,
+    "matriculas": 68,
+    "ingressos": 42,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Franco da Rocha",
+    "slug": "FRANCO_DA_ROCHA",
+    "cod_ibge": "3516408",
+    "vagas_total": 40,
+    "matriculas": 29,
+    "ingressos": 39,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarulhos",
+    "slug": "GUARULHOS",
+    "cod_ibge": "3518800",
+    "vagas_total": 23,
+    "matriculas": 1,
+    "ingressos": 1,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santos",
+    "slug": "SANTOS",
+    "cod_ibge": "3548500",
+    "vagas_total": 11,
+    "matriculas": 10,
+    "ingressos": 11,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

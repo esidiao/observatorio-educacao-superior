@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 1010,
+    "matriculas": 305,
+    "ingressos": 84,
+    "concluintes": 34,
+    "n_cursos": 7,
+    "n_ies": 6
+  },
+  {
+    "nome": "Canindé",
+    "slug": "CANINDE",
+    "cod_ibge": "2302800",
+    "vagas_total": 35,
+    "matriculas": 104,
+    "ingressos": 17,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

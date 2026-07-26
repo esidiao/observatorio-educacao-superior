@@ -1,0 +1,41 @@
+{
+  "ano_censo": "2024",
+  "ufs": {
+    "RJ": {
+      "vagas_total": 27,
+      "vagas_presencial": 27,
+      "vagas_ead": 0,
+      "vagas_capital": 27,
+      "pct_ead": 0.0,
+      "n_cursos_presencial": 1,
+      "n_cursos_ead": 0,
+      "n_ies": 1,
+      "municipios_oferta": 1,
+      "ead_polos_municipios": 0,
+      "ead_polos_registros": 0,
+      "mun_ead_only": 0,
+      "ingressos": 3,
+      "matriculas": 28,
+      "matriculas_ead": 0,
+      "concluintes": 3,
+      "taxa_conclusao": 10.7,
+      "pct_mulheres": 66.7,
+      "pct_ppi": 33.3,
+      "pct_financiamento": 0.0,
+      "pct_noturno": 0.0,
+      "pct_rede_publica": 100.0,
+      "HHI": 1.0,
+      "CR2": 1.0,
+      "CR10": 1.0,
+      "municipios_total": 92,
+      "municipios_deserto": 91,
+      "populacao": 17219679,
+      "regiao": "Sudeste",
+      "capital": "Rio de Janeiro",
+      "vagas_por_100k": 0.2
+    }
+  },
+  "vagas_por_curso": {
+    "107808": 27
+  }
+}

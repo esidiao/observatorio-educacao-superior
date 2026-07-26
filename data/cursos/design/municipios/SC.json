@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 1168,
+    "matriculas": 454,
+    "ingressos": 149,
+    "concluintes": 67,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Balneário Camboriú",
+    "slug": "BALNEARIO_CAMBORIU",
+    "cod_ibge": "4202008",
+    "vagas_total": 263,
+    "matriculas": 28,
+    "ingressos": 4,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 139,
+    "matriculas": 483,
+    "ingressos": 123,
+    "concluintes": 61,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Jaraguá do Sul",
+    "slug": "JARAGUA_DO_SUL",
+    "cod_ibge": "4208906",
+    "vagas_total": 95,
+    "matriculas": 68,
+    "ingressos": 14,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Criciúma",
+    "slug": "CRICIUMA",
+    "cod_ibge": "4204608",
+    "vagas_total": 62,
+    "matriculas": 89,
+    "ingressos": 28,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Blumenau",
+    "slug": "BLUMENAU",
+    "cod_ibge": "4202404",
+    "vagas_total": 60,
+    "matriculas": 180,
+    "ingressos": 53,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 55,
+    "matriculas": 179,
+    "ingressos": 36,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Videira",
+    "slug": "VIDEIRA",
+    "cod_ibge": "4219309",
+    "vagas_total": 47,
+    "matriculas": 95,
+    "ingressos": 28,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pinhalzinho",
+    "slug": "PINHALZINHO",
+    "cod_ibge": "4212908",
+    "vagas_total": 44,
+    "matriculas": 73,
+    "ingressos": 25,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Xanxerê",
+    "slug": "XANXERE",
+    "cod_ibge": "4219507",
+    "vagas_total": 40,
+    "matriculas": 28,
+    "ingressos": 12,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

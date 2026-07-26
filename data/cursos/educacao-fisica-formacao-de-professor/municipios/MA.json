@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 978,
+    "matriculas": 783,
+    "ingressos": 100,
+    "concluintes": 72,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Paço do Lumiar",
+    "slug": "PACO_DO_LUMIAR",
+    "cod_ibge": "2107506",
+    "vagas_total": 180,
+    "matriculas": 143,
+    "ingressos": 18,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bacabeira",
+    "slug": "BACABEIRA",
+    "cod_ibge": "2101251",
+    "vagas_total": 100,
+    "matriculas": 95,
+    "ingressos": 25,
+    "concluintes": 38,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pedreiras",
+    "slug": "PEDREIRAS",
+    "cod_ibge": "2108207",
+    "vagas_total": 100,
+    "matriculas": 320,
+    "ingressos": 100,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Timon",
+    "slug": "TIMON",
+    "cod_ibge": "2112209",
+    "vagas_total": 100,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pinheiro",
+    "slug": "PINHEIRO",
+    "cod_ibge": "2108603",
+    "vagas_total": 50,
+    "matriculas": 244,
+    "ingressos": 30,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João dos Patos",
+    "slug": "SAO_JOAO_DOS_PATOS",
+    "cod_ibge": "2111102",
+    "vagas_total": 35,
+    "matriculas": 108,
+    "ingressos": 32,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

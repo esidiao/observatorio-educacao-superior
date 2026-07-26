@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 849,
+    "matriculas": 111,
+    "ingressos": 51,
+    "concluintes": 56,
+    "n_cursos": 9,
+    "n_ies": 5
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 124,
+    "matriculas": 123,
+    "ingressos": 59,
+    "concluintes": 37,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Luz",
+    "slug": "LUZ",
+    "cod_ibge": "3138807",
+    "vagas_total": 100,
+    "matriculas": 0,
+    "ingressos": 8,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 77,
+    "matriculas": 112,
+    "ingressos": 65,
+    "concluintes": 24,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Formiga",
+    "slug": "FORMIGA",
+    "cod_ibge": "3126109",
+    "vagas_total": 50,
+    "matriculas": 5,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Contagem",
+    "slug": "CONTAGEM",
+    "cod_ibge": "3118601",
+    "vagas_total": 17,
+    "matriculas": 43,
+    "ingressos": 17,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Divinópolis",
+    "slug": "DIVINOPOLIS",
+    "cod_ibge": "3122306",
+    "vagas_total": 8,
+    "matriculas": 24,
+    "ingressos": 8,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Betim",
+    "slug": "BETIM",
+    "cod_ibge": "3106705",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 2,
+    "n_ies": 1
+  }
+]

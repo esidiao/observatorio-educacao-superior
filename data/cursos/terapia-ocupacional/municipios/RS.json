@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 100,
+    "matriculas": 6,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 45,
+    "matriculas": 206,
+    "ingressos": 45,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 41,
+    "matriculas": 233,
+    "ingressos": 40,
+    "concluintes": 67,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

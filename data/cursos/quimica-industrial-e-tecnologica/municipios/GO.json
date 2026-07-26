@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 610,
+    "matriculas": 483,
+    "ingressos": 147,
+    "concluintes": 120,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Catalão",
+    "slug": "CATALAO",
+    "cod_ibge": "5205109",
+    "vagas_total": 44,
+    "matriculas": 34,
+    "ingressos": 19,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

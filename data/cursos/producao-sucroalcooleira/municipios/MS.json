@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Ivinhema",
+    "slug": "IVINHEMA",
+    "cod_ibge": "5004700",
+    "vagas_total": 44,
+    "matriculas": 53,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Glória de Dourados",
+    "slug": "GLORIA_DE_DOURADOS",
+    "cod_ibge": "5004007",
+    "vagas_total": 0,
+    "matriculas": 12,
+    "ingressos": 0,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

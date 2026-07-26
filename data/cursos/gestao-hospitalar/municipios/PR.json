@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Paranaguá",
+    "slug": "PARANAGUA",
+    "cod_ibge": "4118204",
+    "vagas_total": 200,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 50,
+    "matriculas": 11,
+    "ingressos": 3,
+    "concluintes": 1,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

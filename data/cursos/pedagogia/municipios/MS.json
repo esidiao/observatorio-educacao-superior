@@ -1,0 +1,134 @@
+[
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 512,
+    "matriculas": 652,
+    "ingressos": 218,
+    "concluintes": 76,
+    "n_cursos": 8,
+    "n_ies": 6
+  },
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 188,
+    "matriculas": 288,
+    "ingressos": 95,
+    "concluintes": 37,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Três Lagoas",
+    "slug": "TRES_LAGOAS",
+    "cod_ibge": "5008305",
+    "vagas_total": 155,
+    "matriculas": 153,
+    "ingressos": 58,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Naviraí",
+    "slug": "NAVIRAI",
+    "cod_ibge": "5005707",
+    "vagas_total": 139,
+    "matriculas": 114,
+    "ingressos": 46,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paranaíba",
+    "slug": "PARANAIBA",
+    "cod_ibge": "5006309",
+    "vagas_total": 93,
+    "matriculas": 148,
+    "ingressos": 57,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Aquidauana",
+    "slug": "AQUIDAUANA",
+    "cod_ibge": "5001102",
+    "vagas_total": 88,
+    "matriculas": 168,
+    "ingressos": 51,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caarapó",
+    "slug": "CAARAPO",
+    "cod_ibge": "5002407",
+    "vagas_total": 60,
+    "matriculas": 190,
+    "ingressos": 28,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mundo Novo",
+    "slug": "MUNDO_NOVO",
+    "cod_ibge": "5005681",
+    "vagas_total": 50,
+    "matriculas": 22,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Corumbá",
+    "slug": "CORUMBA",
+    "cod_ibge": "5003207",
+    "vagas_total": 47,
+    "matriculas": 149,
+    "ingressos": 43,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maracaju",
+    "slug": "MARACAJU",
+    "cod_ibge": "5005400",
+    "vagas_total": 41,
+    "matriculas": 105,
+    "ingressos": 39,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cassilândia",
+    "slug": "CASSILANDIA",
+    "cod_ibge": "5002902",
+    "vagas_total": 0,
+    "matriculas": 5,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Porã",
+    "slug": "PONTA_PORA",
+    "cod_ibge": "5006606",
+    "vagas_total": 0,
+    "matriculas": 50,
+    "ingressos": 0,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 2654,
+    "matriculas": 1061,
+    "ingressos": 464,
+    "concluintes": 170,
+    "n_cursos": 6,
+    "n_ies": 5
+  },
+  {
+    "nome": "Castanhal",
+    "slug": "CASTANHAL",
+    "cod_ibge": "1502400",
+    "vagas_total": 791,
+    "matriculas": 253,
+    "ingressos": 78,
+    "concluintes": 42,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 503,
+    "matriculas": 159,
+    "ingressos": 85,
+    "concluintes": 4,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Paragominas",
+    "slug": "PARAGOMINAS",
+    "cod_ibge": "1505502",
+    "vagas_total": 107,
+    "matriculas": 217,
+    "ingressos": 82,
+    "concluintes": 29,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Itaituba",
+    "slug": "ITAITUBA",
+    "cod_ibge": "1503606",
+    "vagas_total": 88,
+    "matriculas": 41,
+    "ingressos": 22,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Parauapebas",
+    "slug": "PARAUAPEBAS",
+    "cod_ibge": "1505536",
+    "vagas_total": 80,
+    "matriculas": 63,
+    "ingressos": 47,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capitão Poço",
+    "slug": "CAPITAO_POCO",
+    "cod_ibge": "1502301",
+    "vagas_total": 71,
+    "matriculas": 175,
+    "ingressos": 46,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cametá",
+    "slug": "CAMETA",
+    "cod_ibge": "1502103",
+    "vagas_total": 44,
+    "matriculas": 166,
+    "ingressos": 34,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 44,
+    "matriculas": 155,
+    "ingressos": 40,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Oriximiná",
+    "slug": "ORIXIMINA",
+    "cod_ibge": "1505304",
+    "vagas_total": 40,
+    "matriculas": 147,
+    "ingressos": 39,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Óbidos",
+    "slug": "OBIDOS",
+    "cod_ibge": "1505106",
+    "vagas_total": 40,
+    "matriculas": 67,
+    "ingressos": 24,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Altamira",
+    "slug": "ALTAMIRA",
+    "cod_ibge": "1500602",
+    "vagas_total": 35,
+    "matriculas": 88,
+    "ingressos": 25,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Novo Progresso",
+    "slug": "NOVO_PROGRESSO",
+    "cod_ibge": "1505031",
+    "vagas_total": 20,
+    "matriculas": 5,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Redenção",
+    "slug": "REDENCAO",
+    "cod_ibge": "1506138",
+    "vagas_total": 0,
+    "matriculas": 20,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 220,
+    "matriculas": 748,
+    "ingressos": 191,
+    "concluintes": 90,
+    "n_cursos": 7,
+    "n_ies": 5
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 53,
+    "matriculas": 206,
+    "ingressos": 49,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

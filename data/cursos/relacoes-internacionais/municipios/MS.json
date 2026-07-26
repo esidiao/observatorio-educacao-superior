@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 55,
+    "matriculas": 227,
+    "ingressos": 52,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

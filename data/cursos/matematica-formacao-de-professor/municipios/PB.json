@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 639,
+    "matriculas": 649,
+    "ingressos": 243,
+    "concluintes": 76,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Patos",
+    "slug": "PATOS",
+    "cod_ibge": "2510808",
+    "vagas_total": 294,
+    "matriculas": 204,
+    "ingressos": 81,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Monteiro",
+    "slug": "MONTEIRO",
+    "cod_ibge": "2509701",
+    "vagas_total": 292,
+    "matriculas": 147,
+    "ingressos": 49,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cajazeiras",
+    "slug": "CAJAZEIRAS",
+    "cod_ibge": "2503704",
+    "vagas_total": 243,
+    "matriculas": 338,
+    "ingressos": 109,
+    "concluintes": 40,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 203,
+    "matriculas": 417,
+    "ingressos": 166,
+    "concluintes": 29,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cuité",
+    "slug": "CUITE",
+    "cod_ibge": "2505105",
+    "vagas_total": 130,
+    "matriculas": 140,
+    "ingressos": 45,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Tinto",
+    "slug": "RIO_TINTO",
+    "cod_ibge": "2512903",
+    "vagas_total": 111,
+    "matriculas": 300,
+    "ingressos": 82,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "1721000",
+    "vagas_total": 140,
+    "matriculas": 144,
+    "ingressos": 34,
+    "concluintes": 2,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Gurupi",
+    "slug": "GURUPI",
+    "cod_ibge": "1709500",
+    "vagas_total": 130,
+    "matriculas": 38,
+    "ingressos": 62,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tocantinópolis",
+    "slug": "TOCANTINOPOLIS",
+    "cod_ibge": "1721208",
+    "vagas_total": 50,
+    "matriculas": 160,
+    "ingressos": 38,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Miracema do Tocantins",
+    "slug": "MIRACEMA_DO_TOCANTINS",
+    "cod_ibge": "1713205",
+    "vagas_total": 48,
+    "matriculas": 135,
+    "ingressos": 32,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

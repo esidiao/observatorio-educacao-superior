@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 761,
+    "matriculas": 221,
+    "ingressos": 67,
+    "concluintes": 48,
+    "n_cursos": 7,
+    "n_ies": 6
+  },
+  {
+    "nome": "Cruzeiro",
+    "slug": "CRUZEIRO",
+    "cod_ibge": "3513405",
+    "vagas_total": 240,
+    "matriculas": 75,
+    "ingressos": 27,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barueri",
+    "slug": "BARUERI",
+    "cod_ibge": "3505708",
+    "vagas_total": 81,
+    "matriculas": 67,
+    "ingressos": 26,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jundiaí",
+    "slug": "JUNDIAI",
+    "cod_ibge": "3525904",
+    "vagas_total": 81,
+    "matriculas": 110,
+    "ingressos": 66,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itu",
+    "slug": "ITU",
+    "cod_ibge": "3523909",
+    "vagas_total": 80,
+    "matriculas": 76,
+    "ingressos": 36,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Presidente Prudente",
+    "slug": "PRESIDENTE_PRUDENTE",
+    "cod_ibge": "3541406",
+    "vagas_total": 50,
+    "matriculas": 66,
+    "ingressos": 19,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

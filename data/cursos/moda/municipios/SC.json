@@ -1,0 +1,145 @@
+[
+  {
+    "nome": "Balneário Camboriú",
+    "slug": "BALNEARIO_CAMBORIU",
+    "cod_ibge": "4202008",
+    "vagas_total": 479,
+    "matriculas": 98,
+    "ingressos": 60,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José",
+    "slug": "SAO_JOSE",
+    "cod_ibge": "4216602",
+    "vagas_total": 220,
+    "matriculas": 44,
+    "ingressos": 1,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Criciúma",
+    "slug": "CRICIUMA",
+    "cod_ibge": "4204608",
+    "vagas_total": 137,
+    "matriculas": 137,
+    "ingressos": 60,
+    "concluintes": 25,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Brusque",
+    "slug": "BRUSQUE",
+    "cod_ibge": "4202909",
+    "vagas_total": 122,
+    "matriculas": 158,
+    "ingressos": 49,
+    "concluintes": 30,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Jaraguá do Sul",
+    "slug": "JARAGUA_DO_SUL",
+    "cod_ibge": "4208906",
+    "vagas_total": 119,
+    "matriculas": 214,
+    "ingressos": 80,
+    "concluintes": 42,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Blumenau",
+    "slug": "BLUMENAU",
+    "cod_ibge": "4202404",
+    "vagas_total": 116,
+    "matriculas": 180,
+    "ingressos": 69,
+    "concluintes": 38,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 83,
+    "matriculas": 306,
+    "ingressos": 81,
+    "concluintes": 115,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ibirama",
+    "slug": "IBIRAMA",
+    "cod_ibge": "4206900",
+    "vagas_total": 57,
+    "matriculas": 49,
+    "ingressos": 20,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araranguá",
+    "slug": "ARARANGUA",
+    "cod_ibge": "4201406",
+    "vagas_total": 55,
+    "matriculas": 101,
+    "ingressos": 39,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Gaspar",
+    "slug": "GASPAR",
+    "cod_ibge": "4205902",
+    "vagas_total": 42,
+    "matriculas": 77,
+    "ingressos": 38,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 32,
+    "matriculas": 61,
+    "ingressos": 26,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tubarão",
+    "slug": "TUBARAO",
+    "cod_ibge": "4218707",
+    "vagas_total": 8,
+    "matriculas": 21,
+    "ingressos": 8,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Indaial",
+    "slug": "INDAIAL",
+    "cod_ibge": "4207502",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

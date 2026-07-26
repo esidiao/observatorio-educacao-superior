@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "1721000",
+    "vagas_total": 389,
+    "matriculas": 168,
+    "ingressos": 12,
+    "concluintes": 45,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Miracema do Tocantins",
+    "slug": "MIRACEMA_DO_TOCANTINS",
+    "cod_ibge": "1713205",
+    "vagas_total": 120,
+    "matriculas": 292,
+    "ingressos": 37,
+    "concluintes": 64,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

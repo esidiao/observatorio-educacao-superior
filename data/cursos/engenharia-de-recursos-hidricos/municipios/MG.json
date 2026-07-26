@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Teófilo Otoni",
+    "slug": "TEOFILO_OTONI",
+    "cod_ibge": "3168606",
+    "vagas_total": 270,
+    "matriculas": 26,
+    "ingressos": 13,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itajubá",
+    "slug": "ITAJUBA",
+    "cod_ibge": "3132404",
+    "vagas_total": 88,
+    "matriculas": 129,
+    "ingressos": 38,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

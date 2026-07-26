@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 1577,
+    "matriculas": 1480,
+    "ingressos": 388,
+    "concluintes": 133,
+    "n_cursos": 10,
+    "n_ies": 9
+  },
+  {
+    "nome": "Petrópolis",
+    "slug": "PETROPOLIS",
+    "cod_ibge": "3303906",
+    "vagas_total": 228,
+    "matriculas": 380,
+    "ingressos": 98,
+    "concluintes": 29,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Bom Jesus do Itabapoana",
+    "slug": "BOM_JESUS_DO_ITABAPOANA",
+    "cod_ibge": "3300605",
+    "vagas_total": 130,
+    "matriculas": 92,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itaperuna",
+    "slug": "ITAPERUNA",
+    "cod_ibge": "3302205",
+    "vagas_total": 129,
+    "matriculas": 48,
+    "ingressos": 50,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campos dos Goytacazes",
+    "slug": "CAMPOS_DOS_GOYTACAZES",
+    "cod_ibge": "3301009",
+    "vagas_total": 62,
+    "matriculas": 201,
+    "ingressos": 45,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Friburgo",
+    "slug": "NOVA_FRIBURGO",
+    "cod_ibge": "3303401",
+    "vagas_total": 42,
+    "matriculas": 186,
+    "ingressos": 39,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

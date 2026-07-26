@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 103,
+    "matriculas": 95,
+    "ingressos": 49,
+    "concluintes": 7,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Bagé",
+    "slug": "BAGE",
+    "cod_ibge": "4301602",
+    "vagas_total": 83,
+    "matriculas": 49,
+    "ingressos": 26,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 82,
+    "matriculas": 83,
+    "ingressos": 34,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 61,
+    "matriculas": 52,
+    "ingressos": 13,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 60,
+    "matriculas": 17,
+    "ingressos": 4,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ivoti",
+    "slug": "IVOTI",
+    "cod_ibge": "4310801",
+    "vagas_total": 55,
+    "matriculas": 30,
+    "ingressos": 8,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 54,
+    "matriculas": 38,
+    "ingressos": 3,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Passo Fundo",
+    "slug": "PASSO_FUNDO",
+    "cod_ibge": "4314100",
+    "vagas_total": 43,
+    "matriculas": 34,
+    "ingressos": 20,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Montenegro",
+    "slug": "MONTENEGRO",
+    "cod_ibge": "4312401",
+    "vagas_total": 0,
+    "matriculas": 28,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

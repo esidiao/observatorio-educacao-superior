@@ -1,0 +1,134 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 651,
+    "matriculas": 707,
+    "ingressos": 366,
+    "concluintes": 61,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Cáceres",
+    "slug": "CACERES",
+    "cod_ibge": "5102504",
+    "vagas_total": 453,
+    "matriculas": 86,
+    "ingressos": 36,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 261,
+    "matriculas": 201,
+    "ingressos": 95,
+    "concluintes": 41,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Barra do Garças",
+    "slug": "BARRA_DO_GARCAS",
+    "cod_ibge": "5101803",
+    "vagas_total": 239,
+    "matriculas": 280,
+    "ingressos": 135,
+    "concluintes": 24,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Várzea Grande",
+    "slug": "VARZEA_GRANDE",
+    "cod_ibge": "5108402",
+    "vagas_total": 211,
+    "matriculas": 214,
+    "ingressos": 82,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 178,
+    "matriculas": 258,
+    "ingressos": 133,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Guarantã do Norte",
+    "slug": "GUARANTA_DO_NORTE",
+    "cod_ibge": "5104104",
+    "vagas_total": 137,
+    "matriculas": 80,
+    "ingressos": 26,
+    "concluintes": 1,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Lucas do Rio Verde",
+    "slug": "LUCAS_DO_RIO_VERDE",
+    "cod_ibge": "5105259",
+    "vagas_total": 85,
+    "matriculas": 25,
+    "ingressos": 38,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Primavera do Leste",
+    "slug": "PRIMAVERA_DO_LESTE",
+    "cod_ibge": "5107040",
+    "vagas_total": 83,
+    "matriculas": 102,
+    "ingressos": 74,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorriso",
+    "slug": "SORRISO",
+    "cod_ibge": "5107925",
+    "vagas_total": 59,
+    "matriculas": 95,
+    "ingressos": 59,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tangará da Serra",
+    "slug": "TANGARA_DA_SERRA",
+    "cod_ibge": "5107958",
+    "vagas_total": 59,
+    "matriculas": 136,
+    "ingressos": 59,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Mutum",
+    "slug": "NOVA_MUTUM",
+    "cod_ibge": "5106224",
+    "vagas_total": 40,
+    "matriculas": 17,
+    "ingressos": 17,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

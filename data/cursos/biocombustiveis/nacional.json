@@ -1,0 +1,77 @@
+{
+  "metadados": {
+    "curso": "Biocombustíveis",
+    "slug": "biocombustiveis",
+    "cine_rotulo": "Biocombustíveis",
+    "area_cine": "Engenharia, produção e construção",
+    "versao_censo": "2024",
+    "ciclo_enade": null,
+    "data_extracao": "2026-07-26",
+    "cobertura": null,
+    "fontes": {
+      "censo": {
+        "nome": "Microdados do Censo da Educação Superior",
+        "orgao": "INEP/MEC",
+        "ano": 2024,
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados"
+      },
+      "cpc": null,
+      "populacao": {
+        "nome": "Estimativas populacionais",
+        "orgao": "IBGE",
+        "ano": 2024
+      }
+    }
+  },
+  "ufs": {
+    "SP": {
+      "vagas_total": 359,
+      "vagas_presencial": 359,
+      "vagas_ead": 0,
+      "vagas_capital": 0,
+      "pct_ead": 0.0,
+      "n_cursos_presencial": 3,
+      "n_cursos_ead": 0,
+      "n_ies": 3,
+      "municipios_oferta": 3,
+      "ead_polos_municipios": 0,
+      "ead_polos_registros": 0,
+      "mun_ead_only": 0,
+      "ingressos": 238,
+      "matriculas": 464,
+      "matriculas_ead": 0,
+      "concluintes": 63,
+      "taxa_conclusao": 13.6,
+      "pct_mulheres": 50.0,
+      "pct_ppi": 42.4,
+      "pct_financiamento": 0.0,
+      "pct_noturno": 76.3,
+      "pct_rede_publica": 100.0,
+      "HHI": 0.3666,
+      "CR2": 0.7493,
+      "CR10": 1.0,
+      "municipios_total": 645,
+      "municipios_deserto": 642,
+      "populacao": 45973194,
+      "regiao": "Sudeste",
+      "capital": "São Paulo",
+      "vagas_por_100k": 0.8,
+      "CC": null,
+      "ENADE": null,
+      "IDD": null,
+      "CPC_cont": null,
+      "vagas_avaliadas": null,
+      "cpc_org_didatico": null,
+      "cpc_infraestrutura": null,
+      "cpc_oportunidade": null,
+      "pct_doc_mestres": null,
+      "pct_doc_doutores": null,
+      "pct_doc_regime": null,
+      "n_cursos_avaliados": null,
+      "concluintes_avaliados": null,
+      "ICT": 0.4977,
+      "E": 0.5023,
+      "IAF": null
+    }
+  }
+}

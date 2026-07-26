@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Varginha",
+    "slug": "VARGINHA",
+    "cod_ibge": "3170701",
+    "vagas_total": 640,
+    "matriculas": 517,
+    "ingressos": 177,
+    "concluintes": 47,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Diamantina",
+    "slug": "DIAMANTINA",
+    "cod_ibge": "3121605",
+    "vagas_total": 265,
+    "matriculas": 72,
+    "ingressos": 19,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 99,
+    "matriculas": 206,
+    "ingressos": 55,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

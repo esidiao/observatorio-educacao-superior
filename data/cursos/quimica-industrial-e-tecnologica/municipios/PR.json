@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 128,
+    "matriculas": 253,
+    "ingressos": 113,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araucária",
+    "slug": "ARAUCARIA",
+    "cod_ibge": "4101804",
+    "vagas_total": 75,
+    "matriculas": 22,
+    "ingressos": 5,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 72,
+    "matriculas": 77,
+    "ingressos": 32,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Medianeira",
+    "slug": "MEDIANEIRA",
+    "cod_ibge": "4115804",
+    "vagas_total": 46,
+    "matriculas": 15,
+    "ingressos": 27,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

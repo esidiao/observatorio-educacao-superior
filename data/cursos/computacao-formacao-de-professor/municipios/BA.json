@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Santo Amaro",
+    "slug": "SANTO_AMARO",
+    "cod_ibge": "2928604",
+    "vagas_total": 110,
+    "matriculas": 91,
+    "ingressos": 26,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Valença",
+    "slug": "VALENCA",
+    "cod_ibge": "2932903",
+    "vagas_total": 62,
+    "matriculas": 103,
+    "ingressos": 36,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 52,
+    "matriculas": 128,
+    "ingressos": 39,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Senhor do Bonfim",
+    "slug": "SENHOR_DO_BONFIM",
+    "cod_ibge": "2930105",
+    "vagas_total": 47,
+    "matriculas": 117,
+    "ingressos": 39,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jacobina",
+    "slug": "JACOBINA",
+    "cod_ibge": "2917508",
+    "vagas_total": 40,
+    "matriculas": 87,
+    "ingressos": 17,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Seguro",
+    "slug": "PORTO_SEGURO",
+    "cod_ibge": "2925303",
+    "vagas_total": 40,
+    "matriculas": 99,
+    "ingressos": 34,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Camaçari",
+    "slug": "CAMACARI",
+    "cod_ibge": "2905701",
+    "vagas_total": 30,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

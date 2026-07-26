@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Presidente Figueiredo",
+    "slug": "PRESIDENTE_FIGUEIREDO",
+    "cod_ibge": "1303536",
+    "vagas_total": 30,
+    "matriculas": 78,
+    "ingressos": 25,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

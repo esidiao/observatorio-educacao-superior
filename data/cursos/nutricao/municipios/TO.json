@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "1721000",
+    "vagas_total": 500,
+    "matriculas": 564,
+    "ingressos": 180,
+    "concluintes": 54,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Araguaína",
+    "slug": "ARAGUAINA",
+    "cod_ibge": "1702109",
+    "vagas_total": 110,
+    "matriculas": 36,
+    "ingressos": 36,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

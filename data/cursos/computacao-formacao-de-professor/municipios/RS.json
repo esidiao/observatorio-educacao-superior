@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Osório",
+    "slug": "OSORIO",
+    "cod_ibge": "4313508",
+    "vagas_total": 100,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Ângelo",
+    "slug": "SANTO_ANGELO",
+    "cod_ibge": "4317509",
+    "vagas_total": 75,
+    "matriculas": 56,
+    "ingressos": 36,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Augusto",
+    "slug": "SANTO_AUGUSTO",
+    "cod_ibge": "4317806",
+    "vagas_total": 69,
+    "matriculas": 32,
+    "ingressos": 37,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 56,
+    "matriculas": 88,
+    "ingressos": 39,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 31,
+    "matriculas": 5,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

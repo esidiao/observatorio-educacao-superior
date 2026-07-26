@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Inconfidentes",
+    "slug": "INCONFIDENTES",
+    "cod_ibge": "3130606",
+    "vagas_total": 35,
+    "matriculas": 31,
+    "ingressos": 37,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Janaúba",
+    "slug": "JANAUBA",
+    "cod_ibge": "3135100",
+    "vagas_total": 30,
+    "matriculas": 30,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Januária",
+    "slug": "JANUARIA",
+    "cod_ibge": "3135209",
+    "vagas_total": 30,
+    "matriculas": 30,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

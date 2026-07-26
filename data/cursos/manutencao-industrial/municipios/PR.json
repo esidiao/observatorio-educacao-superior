@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Medianeira",
+    "slug": "MEDIANEIRA",
+    "cod_ibge": "4115804",
+    "vagas_total": 60,
+    "matriculas": 129,
+    "ingressos": 59,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pato Branco",
+    "slug": "PATO_BRANCO",
+    "cod_ibge": "4118501",
+    "vagas_total": 52,
+    "matriculas": 95,
+    "ingressos": 39,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Telêmaco Borba",
+    "slug": "TELEMACO_BORBA",
+    "cod_ibge": "4127106",
+    "vagas_total": 48,
+    "matriculas": 87,
+    "ingressos": 24,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 0,
+    "matriculas": 40,
+    "ingressos": 0,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paranaguá",
+    "slug": "PARANAGUA",
+    "cod_ibge": "4118204",
+    "vagas_total": 0,
+    "matriculas": 49,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

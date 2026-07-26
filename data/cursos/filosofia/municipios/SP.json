@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 629,
+    "matriculas": 904,
+    "ingressos": 306,
+    "concluintes": 148,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Mogi das Cruzes",
+    "slug": "MOGI_DAS_CRUZES",
+    "cod_ibge": "3530607",
+    "vagas_total": 163,
+    "matriculas": 37,
+    "ingressos": 17,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Taubaté",
+    "slug": "TAUBATE",
+    "cod_ibge": "3554102",
+    "vagas_total": 116,
+    "matriculas": 57,
+    "ingressos": 29,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 87,
+    "matriculas": 128,
+    "ingressos": 28,
+    "concluintes": 35,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cachoeira Paulista",
+    "slug": "CACHOEIRA_PAULISTA",
+    "cod_ibge": "3508603",
+    "vagas_total": 50,
+    "matriculas": 13,
+    "ingressos": 9,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarulhos",
+    "slug": "GUARULHOS",
+    "cod_ibge": "3518800",
+    "vagas_total": 48,
+    "matriculas": 59,
+    "ingressos": 1,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Bernardo do Campo",
+    "slug": "SAO_BERNARDO_DO_CAMPO",
+    "cod_ibge": "3548708",
+    "vagas_total": 46,
+    "matriculas": 40,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lorena",
+    "slug": "LORENA",
+    "cod_ibge": "3527207",
+    "vagas_total": 41,
+    "matriculas": 16,
+    "ingressos": 4,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Carlos",
+    "slug": "SAO_CARLOS",
+    "cod_ibge": "3548906",
+    "vagas_total": 35,
+    "matriculas": 39,
+    "ingressos": 0,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santos",
+    "slug": "SANTOS",
+    "cod_ibge": "3548500",
+    "vagas_total": 30,
+    "matriculas": 19,
+    "ingressos": 9,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marília",
+    "slug": "MARILIA",
+    "cod_ibge": "3529005",
+    "vagas_total": 24,
+    "matriculas": 49,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

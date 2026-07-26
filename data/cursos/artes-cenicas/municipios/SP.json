@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 150,
+    "matriculas": 370,
+    "ingressos": 100,
+    "concluintes": 70,
+    "n_cursos": 7,
+    "n_ies": 3
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 26,
+    "matriculas": 149,
+    "ingressos": 26,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

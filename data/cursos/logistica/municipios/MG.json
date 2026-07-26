@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 631,
+    "matriculas": 43,
+    "ingressos": 24,
+    "concluintes": 32,
+    "n_cursos": 7,
+    "n_ies": 4
+  },
+  {
+    "nome": "Sete Lagoas",
+    "slug": "SETE_LAGOAS",
+    "cod_ibge": "3167202",
+    "vagas_total": 240,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 234,
+    "matriculas": 131,
+    "ingressos": 56,
+    "concluintes": 23,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Contagem",
+    "slug": "CONTAGEM",
+    "cod_ibge": "3118601",
+    "vagas_total": 145,
+    "matriculas": 134,
+    "ingressos": 93,
+    "concluintes": 57,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Extrema",
+    "slug": "EXTREMA",
+    "cod_ibge": "3125101",
+    "vagas_total": 90,
+    "matriculas": 73,
+    "ingressos": 42,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberaba",
+    "slug": "UBERABA",
+    "cod_ibge": "3170107",
+    "vagas_total": 83,
+    "matriculas": 31,
+    "ingressos": 16,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João del Rei",
+    "slug": "SAO_JOAO_DEL_REI",
+    "cod_ibge": "3162500",
+    "vagas_total": 63,
+    "matriculas": 80,
+    "ingressos": 19,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Varginha",
+    "slug": "VARGINHA",
+    "cod_ibge": "3170701",
+    "vagas_total": 60,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sabará",
+    "slug": "SABARA",
+    "cod_ibge": "3156700",
+    "vagas_total": 40,
+    "matriculas": 97,
+    "ingressos": 26,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Betim",
+    "slug": "BETIM",
+    "cod_ibge": "3106705",
+    "vagas_total": 3,
+    "matriculas": 40,
+    "ingressos": 3,
+    "concluintes": 26,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

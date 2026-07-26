@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 2120,
+    "matriculas": 2149,
+    "ingressos": 495,
+    "concluintes": 314,
+    "n_cursos": 13,
+    "n_ies": 10
+  },
+  {
+    "nome": "Parnaíba",
+    "slug": "PARNAIBA",
+    "cod_ibge": "2207702",
+    "vagas_total": 521,
+    "matriculas": 605,
+    "ingressos": 161,
+    "concluintes": 47,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Campo Maior",
+    "slug": "CAMPO_MAIOR",
+    "cod_ibge": "2202208",
+    "vagas_total": 240,
+    "matriculas": 471,
+    "ingressos": 168,
+    "concluintes": 36,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Raimundo Nonato",
+    "slug": "SAO_RAIMUNDO_NONATO",
+    "cod_ibge": "2210607",
+    "vagas_total": 240,
+    "matriculas": 74,
+    "ingressos": 46,
+    "concluintes": 13,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Elesbão Veloso",
+    "slug": "ELESBAO_VELOSO",
+    "cod_ibge": "2203503",
+    "vagas_total": 155,
+    "matriculas": 216,
+    "ingressos": 0,
+    "concluintes": 152,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Picos",
+    "slug": "PICOS",
+    "cod_ibge": "2208007",
+    "vagas_total": 150,
+    "matriculas": 243,
+    "ingressos": 68,
+    "concluintes": 38,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Floriano",
+    "slug": "FLORIANO",
+    "cod_ibge": "2203909",
+    "vagas_total": 141,
+    "matriculas": 387,
+    "ingressos": 98,
+    "concluintes": 85,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São João do Piauí",
+    "slug": "SAO_JOAO_DO_PIAUI",
+    "cod_ibge": "2210003",
+    "vagas_total": 100,
+    "matriculas": 135,
+    "ingressos": 57,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uruçuí",
+    "slug": "URUCUI",
+    "cod_ibge": "2211209",
+    "vagas_total": 90,
+    "matriculas": 136,
+    "ingressos": 71,
+    "concluintes": 2,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Oeiras",
+    "slug": "OEIRAS",
+    "cod_ibge": "2207009",
+    "vagas_total": 80,
+    "matriculas": 76,
+    "ingressos": 0,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piripiri",
+    "slug": "PIRIPIRI",
+    "cod_ibge": "2208403",
+    "vagas_total": 70,
+    "matriculas": 147,
+    "ingressos": 54,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bom Jesus",
+    "slug": "BOM_JESUS",
+    "cod_ibge": "2201903",
+    "vagas_total": 40,
+    "matriculas": 89,
+    "ingressos": 33,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Corrente",
+    "slug": "CORRENTE",
+    "cod_ibge": "2202901",
+    "vagas_total": 40,
+    "matriculas": 132,
+    "ingressos": 0,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Luzilândia",
+    "slug": "LUZILANDIA",
+    "cod_ibge": "2205805",
+    "vagas_total": 40,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

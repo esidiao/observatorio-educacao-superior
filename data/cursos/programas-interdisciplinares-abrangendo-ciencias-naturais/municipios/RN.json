@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 1251,
+    "matriculas": 2100,
+    "ingressos": 267,
+    "concluintes": 54,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 959,
+    "matriculas": 2524,
+    "ingressos": 815,
+    "concluintes": 249,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Caraúbas",
+    "slug": "CARAUBAS",
+    "cod_ibge": "2402303",
+    "vagas_total": 626,
+    "matriculas": 632,
+    "ingressos": 74,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Angicos",
+    "slug": "ANGICOS",
+    "cod_ibge": "2400802",
+    "vagas_total": 400,
+    "matriculas": 659,
+    "ingressos": 91,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pau dos Ferros",
+    "slug": "PAU_DOS_FERROS",
+    "cod_ibge": "2409407",
+    "vagas_total": 399,
+    "matriculas": 564,
+    "ingressos": 76,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

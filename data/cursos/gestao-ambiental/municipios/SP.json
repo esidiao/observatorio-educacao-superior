@@ -1,0 +1,145 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 433,
+    "matriculas": 550,
+    "ingressos": 110,
+    "concluintes": 79,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Itapetininga",
+    "slug": "ITAPETININGA",
+    "cod_ibge": "3522307",
+    "vagas_total": 331,
+    "matriculas": 66,
+    "ingressos": 41,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaboticabal",
+    "slug": "JABOTICABAL",
+    "cod_ibge": "3524303",
+    "vagas_total": 88,
+    "matriculas": 109,
+    "ingressos": 54,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jacareí",
+    "slug": "JACAREI",
+    "cod_ibge": "3524402",
+    "vagas_total": 83,
+    "matriculas": 101,
+    "ingressos": 90,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jundiaí",
+    "slug": "JUNDIAI",
+    "cod_ibge": "3525904",
+    "vagas_total": 81,
+    "matriculas": 99,
+    "ingressos": 33,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaú",
+    "slug": "JAU",
+    "cod_ibge": "3525300",
+    "vagas_total": 80,
+    "matriculas": 81,
+    "ingressos": 49,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piracicaba",
+    "slug": "PIRACICABA",
+    "cod_ibge": "3538709",
+    "vagas_total": 59,
+    "matriculas": 188,
+    "ingressos": 38,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Limpo Paulista",
+    "slug": "CAMPO_LIMPO_PAULISTA",
+    "cod_ibge": "3509601",
+    "vagas_total": 50,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lençóis Paulista",
+    "slug": "LENCOIS_PAULISTA",
+    "cod_ibge": "3526803",
+    "vagas_total": 48,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Carlos",
+    "slug": "SAO_CARLOS",
+    "cod_ibge": "3548906",
+    "vagas_total": 48,
+    "matriculas": 167,
+    "ingressos": 44,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Roque",
+    "slug": "SAO_ROQUE",
+    "cod_ibge": "3550605",
+    "vagas_total": 42,
+    "matriculas": 63,
+    "ingressos": 38,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Limeira",
+    "slug": "LIMEIRA",
+    "cod_ibge": "3526902",
+    "vagas_total": 23,
+    "matriculas": 58,
+    "ingressos": 21,
+    "concluintes": 4,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarulhos",
+    "slug": "GUARULHOS",
+    "cod_ibge": "3518800",
+    "vagas_total": 22,
+    "matriculas": 22,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

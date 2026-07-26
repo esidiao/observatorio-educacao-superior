@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Resende",
+    "slug": "RESENDE",
+    "cod_ibge": "3304201",
+    "vagas_total": 66,
+    "matriculas": 10,
+    "ingressos": 10,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

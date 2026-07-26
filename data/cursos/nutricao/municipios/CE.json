@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 6285,
+    "matriculas": 2872,
+    "ingressos": 904,
+    "concluintes": 407,
+    "n_cursos": 18,
+    "n_ies": 12
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 1033,
+    "matriculas": 352,
+    "ingressos": 126,
+    "concluintes": 74,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Maracanaú",
+    "slug": "MARACANAU",
+    "cod_ibge": "2307650",
+    "vagas_total": 366,
+    "matriculas": 150,
+    "ingressos": 105,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tianguá",
+    "slug": "TIANGUA",
+    "cod_ibge": "2313401",
+    "vagas_total": 285,
+    "matriculas": 168,
+    "ingressos": 79,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 259,
+    "matriculas": 149,
+    "ingressos": 39,
+    "concluintes": 31,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Iguatu",
+    "slug": "IGUATU",
+    "cod_ibge": "2305506",
+    "vagas_total": 248,
+    "matriculas": 109,
+    "ingressos": 21,
+    "concluintes": 24,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 220,
+    "matriculas": 292,
+    "ingressos": 107,
+    "concluintes": 27,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Eusébio",
+    "slug": "EUSEBIO",
+    "cod_ibge": "2304285",
+    "vagas_total": 200,
+    "matriculas": 35,
+    "ingressos": 19,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapipoca",
+    "slug": "ITAPIPOCA",
+    "cod_ibge": "2306405",
+    "vagas_total": 165,
+    "matriculas": 148,
+    "ingressos": 45,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aracati",
+    "slug": "ARACATI",
+    "cod_ibge": "2301109",
+    "vagas_total": 100,
+    "matriculas": 43,
+    "ingressos": 18,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Limoeiro do Norte",
+    "slug": "LIMOEIRO_DO_NORTE",
+    "cod_ibge": "2307601",
+    "vagas_total": 45,
+    "matriculas": 178,
+    "ingressos": 46,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

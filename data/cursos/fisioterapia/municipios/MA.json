@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 2718,
+    "matriculas": 2472,
+    "ingressos": 680,
+    "concluintes": 390,
+    "n_cursos": 9,
+    "n_ies": 8
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 1085,
+    "matriculas": 661,
+    "ingressos": 137,
+    "concluintes": 120,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 351,
+    "matriculas": 173,
+    "ingressos": 36,
+    "concluintes": 56,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Inês",
+    "slug": "SANTA_INES",
+    "cod_ibge": "2109908",
+    "vagas_total": 135,
+    "matriculas": 107,
+    "ingressos": 64,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Codó",
+    "slug": "CODO",
+    "cod_ibge": "2103307",
+    "vagas_total": 121,
+    "matriculas": 35,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Presidente Dutra",
+    "slug": "PRESIDENTE_DUTRA",
+    "cod_ibge": "2109106",
+    "vagas_total": 112,
+    "matriculas": 55,
+    "ingressos": 62,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapadinha",
+    "slug": "CHAPADINHA",
+    "cod_ibge": "2103208",
+    "vagas_total": 110,
+    "matriculas": 115,
+    "ingressos": 60,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pedreiras",
+    "slug": "PEDREIRAS",
+    "cod_ibge": "2108207",
+    "vagas_total": 110,
+    "matriculas": 170,
+    "ingressos": 35,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Timon",
+    "slug": "TIMON",
+    "cod_ibge": "2112209",
+    "vagas_total": 70,
+    "matriculas": 20,
+    "ingressos": 14,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra do Corda",
+    "slug": "BARRA_DO_CORDA",
+    "cod_ibge": "2101608",
+    "vagas_total": 43,
+    "matriculas": 88,
+    "ingressos": 27,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapecuru Mirim",
+    "slug": "ITAPECURU_MIRIM",
+    "cod_ibge": "2105401",
+    "vagas_total": 30,
+    "matriculas": 26,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

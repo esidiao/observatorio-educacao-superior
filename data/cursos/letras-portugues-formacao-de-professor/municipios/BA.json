@@ -1,0 +1,233 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 439,
+    "matriculas": 291,
+    "ingressos": 52,
+    "concluintes": 91,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "São Francisco do Conde",
+    "slug": "SAO_FRANCISCO_DO_CONDE",
+    "cod_ibge": "2929206",
+    "vagas_total": 135,
+    "matriculas": 137,
+    "ingressos": 32,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jequié",
+    "slug": "JEQUIE",
+    "cod_ibge": "2918001",
+    "vagas_total": 117,
+    "matriculas": 250,
+    "ingressos": 70,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 100,
+    "matriculas": 310,
+    "ingressos": 100,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipiaú",
+    "slug": "IPIAU",
+    "cod_ibge": "2913903",
+    "vagas_total": 60,
+    "matriculas": 117,
+    "ingressos": 16,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itaberaba",
+    "slug": "ITABERABA",
+    "cod_ibge": "2914703",
+    "vagas_total": 52,
+    "matriculas": 105,
+    "ingressos": 27,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória da Conquista",
+    "slug": "VITORIA_DA_CONQUISTA",
+    "cod_ibge": "2933307",
+    "vagas_total": 46,
+    "matriculas": 112,
+    "ingressos": 31,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Euclides da Cunha",
+    "slug": "EUCLIDES_DA_CUNHA",
+    "cod_ibge": "2910701",
+    "vagas_total": 42,
+    "matriculas": 126,
+    "ingressos": 33,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barreiras",
+    "slug": "BARREIRAS",
+    "cod_ibge": "2903201",
+    "vagas_total": 41,
+    "matriculas": 104,
+    "ingressos": 22,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alagoinhas",
+    "slug": "ALAGOINHAS",
+    "cod_ibge": "2900702",
+    "vagas_total": 40,
+    "matriculas": 104,
+    "ingressos": 25,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Brumado",
+    "slug": "BRUMADO",
+    "cod_ibge": "2904605",
+    "vagas_total": 40,
+    "matriculas": 74,
+    "ingressos": 12,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caetité",
+    "slug": "CAETITE",
+    "cod_ibge": "2905206",
+    "vagas_total": 40,
+    "matriculas": 76,
+    "ingressos": 21,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Conceição do Coité",
+    "slug": "CONCEICAO_DO_COITE",
+    "cod_ibge": "2908408",
+    "vagas_total": 40,
+    "matriculas": 115,
+    "ingressos": 20,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Eunápolis",
+    "slug": "EUNAPOLIS",
+    "cod_ibge": "2910727",
+    "vagas_total": 40,
+    "matriculas": 59,
+    "ingressos": 16,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Seabra",
+    "slug": "SEABRA",
+    "cod_ibge": "2929909",
+    "vagas_total": 40,
+    "matriculas": 89,
+    "ingressos": 12,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Irecê",
+    "slug": "IRECE",
+    "cod_ibge": "2914604",
+    "vagas_total": 30,
+    "matriculas": 98,
+    "ingressos": 16,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jacobina",
+    "slug": "JACOBINA",
+    "cod_ibge": "2917508",
+    "vagas_total": 30,
+    "matriculas": 99,
+    "ingressos": 20,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Antônio de Jesus",
+    "slug": "SANTO_ANTONIO_DE_JESUS",
+    "cod_ibge": "2928703",
+    "vagas_total": 30,
+    "matriculas": 96,
+    "ingressos": 24,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Teixeira de Freitas",
+    "slug": "TEIXEIRA_DE_FREITAS",
+    "cod_ibge": "2931350",
+    "vagas_total": 25,
+    "matriculas": 57,
+    "ingressos": 14,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paripiranga",
+    "slug": "PARIPIRANGA",
+    "cod_ibge": "2923803",
+    "vagas_total": 7,
+    "matriculas": 19,
+    "ingressos": 7,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Senhor do Bonfim",
+    "slug": "SENHOR_DO_BONFIM",
+    "cod_ibge": "2930105",
+    "vagas_total": 0,
+    "matriculas": 7,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

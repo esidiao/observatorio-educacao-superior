@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 205,
+    "matriculas": 71,
+    "ingressos": 45,
+    "concluintes": 16,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Bento Gonçalves",
+    "slug": "BENTO_GONCALVES",
+    "cod_ibge": "4302105",
+    "vagas_total": 161,
+    "matriculas": 28,
+    "ingressos": 7,
+    "concluintes": 5,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Taquara",
+    "slug": "TAQUARA",
+    "cod_ibge": "4321204",
+    "vagas_total": 105,
+    "matriculas": 31,
+    "ingressos": 15,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

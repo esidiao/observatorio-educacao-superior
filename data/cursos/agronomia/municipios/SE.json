@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Nossa Senhora da Glória",
+    "slug": "NOSSA_SENHORA_DA_GLORIA",
+    "cod_ibge": "2804508",
+    "vagas_total": 54,
+    "matriculas": 150,
+    "ingressos": 41,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Cristóvão",
+    "slug": "SAO_CRISTOVAO",
+    "cod_ibge": "2806701",
+    "vagas_total": 51,
+    "matriculas": 232,
+    "ingressos": 48,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aracaju",
+    "slug": "ARACAJU",
+    "cod_ibge": "2800308",
+    "vagas_total": 30,
+    "matriculas": 10,
+    "ingressos": 1,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

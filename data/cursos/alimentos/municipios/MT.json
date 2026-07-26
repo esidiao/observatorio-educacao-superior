@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Barra do Bugres",
+    "slug": "BARRA_DO_BUGRES",
+    "cod_ibge": "5101704",
+    "vagas_total": 87,
+    "matriculas": 56,
+    "ingressos": 61,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 84,
+    "matriculas": 129,
+    "ingressos": 48,
+    "concluintes": 16,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

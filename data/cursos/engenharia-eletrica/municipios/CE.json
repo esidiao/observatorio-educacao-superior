@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 4055,
+    "matriculas": 1042,
+    "ingressos": 267,
+    "concluintes": 122,
+    "n_cursos": 7,
+    "n_ies": 6
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 111,
+    "matriculas": 405,
+    "ingressos": 77,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cedro",
+    "slug": "CEDRO",
+    "cod_ibge": "2303808",
+    "vagas_total": 30,
+    "matriculas": 61,
+    "ingressos": 28,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

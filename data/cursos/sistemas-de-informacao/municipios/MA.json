@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 1161,
+    "matriculas": 227,
+    "ingressos": 119,
+    "concluintes": 15,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 619,
+    "matriculas": 1200,
+    "ingressos": 377,
+    "concluintes": 121,
+    "n_cursos": 8,
+    "n_ies": 7
+  },
+  {
+    "nome": "Balsas",
+    "slug": "BALSAS",
+    "cod_ibge": "2101400",
+    "vagas_total": 330,
+    "matriculas": 76,
+    "ingressos": 29,
+    "concluintes": 1,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 231,
+    "matriculas": 138,
+    "ingressos": 89,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Coelho Neto",
+    "slug": "COELHO_NETO",
+    "cod_ibge": "2103406",
+    "vagas_total": 55,
+    "matriculas": 59,
+    "ingressos": 39,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 1397,
+    "matriculas": 1042,
+    "ingressos": 379,
+    "concluintes": 246,
+    "n_cursos": 6,
+    "n_ies": 4
+  },
+  {
+    "nome": "Nova Iguaçu",
+    "slug": "NOVA_IGUACU",
+    "cod_ibge": "3303500",
+    "vagas_total": 270,
+    "matriculas": 61,
+    "ingressos": 33,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Niterói",
+    "slug": "NITEROI",
+    "cod_ibge": "3303302",
+    "vagas_total": 114,
+    "matriculas": 128,
+    "ingressos": 44,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cabo Frio",
+    "slug": "CABO_FRIO",
+    "cod_ibge": "3300704",
+    "vagas_total": 49,
+    "matriculas": 79,
+    "ingressos": 26,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

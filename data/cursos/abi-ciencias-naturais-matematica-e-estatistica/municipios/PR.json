@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 1082,
+    "matriculas": 482,
+    "ingressos": 396,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bandeirantes",
+    "slug": "BANDEIRANTES",
+    "cod_ibge": "4102406",
+    "vagas_total": 148,
+    "matriculas": 55,
+    "ingressos": 46,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 90,
+    "matriculas": 0,
+    "ingressos": 53,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palotina",
+    "slug": "PALOTINA",
+    "cod_ibge": "4117909",
+    "vagas_total": 89,
+    "matriculas": 18,
+    "ingressos": 43,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "4117602",
+    "vagas_total": 40,
+    "matriculas": 18,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Porto Velho",
+    "slug": "PORTO_VELHO",
+    "cod_ibge": "1100205",
+    "vagas_total": 393,
+    "matriculas": 37,
+    "ingressos": 28,
+    "concluintes": 4,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

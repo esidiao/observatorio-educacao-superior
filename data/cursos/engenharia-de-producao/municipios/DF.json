@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Brasília",
+    "slug": "BRASILIA",
+    "cod_ibge": "5300108",
+    "vagas_total": 76,
+    "matriculas": 540,
+    "ingressos": 81,
+    "concluintes": 67,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

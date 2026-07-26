@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Laranjeiras do Sul",
+    "slug": "LARANJEIRAS_DO_SUL",
+    "cod_ibge": "4113304",
+    "vagas_total": 162,
+    "matriculas": 47,
+    "ingressos": 14,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Umuarama",
+    "slug": "UMUARAMA",
+    "cod_ibge": "4128104",
+    "vagas_total": 155,
+    "matriculas": 53,
+    "ingressos": 14,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 99,
+    "matriculas": 107,
+    "ingressos": 39,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Medianeira",
+    "slug": "MEDIANEIRA",
+    "cod_ibge": "4115804",
+    "vagas_total": 89,
+    "matriculas": 78,
+    "ingressos": 34,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Francisco Beltrão",
+    "slug": "FRANCISCO_BELTRAO",
+    "cod_ibge": "4108403",
+    "vagas_total": 88,
+    "matriculas": 75,
+    "ingressos": 22,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jandaia do Sul",
+    "slug": "JANDAIA_DO_SUL",
+    "cod_ibge": "4112108",
+    "vagas_total": 51,
+    "matriculas": 35,
+    "ingressos": 1,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 50,
+    "matriculas": 59,
+    "ingressos": 17,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Mourão",
+    "slug": "CAMPO_MOURAO",
+    "cod_ibge": "4104303",
+    "vagas_total": 47,
+    "matriculas": 95,
+    "ingressos": 12,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 40,
+    "matriculas": 128,
+    "ingressos": 36,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 2,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

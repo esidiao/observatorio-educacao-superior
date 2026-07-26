@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 303,
+    "matriculas": 193,
+    "ingressos": 49,
+    "concluintes": 23,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Umuarama",
+    "slug": "UMUARAMA",
+    "cod_ibge": "4128104",
+    "vagas_total": 171,
+    "matriculas": 37,
+    "ingressos": 22,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Irati",
+    "slug": "IRATI",
+    "cod_ibge": "4110706",
+    "vagas_total": 47,
+    "matriculas": 54,
+    "ingressos": 11,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Medianeira",
+    "slug": "MEDIANEIRA",
+    "cod_ibge": "4115804",
+    "vagas_total": 0,
+    "matriculas": 57,
+    "ingressos": 0,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

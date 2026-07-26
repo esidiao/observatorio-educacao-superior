@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "São Carlos",
+    "slug": "SAO_CARLOS",
+    "cod_ibge": "3548906",
+    "vagas_total": 204,
+    "matriculas": 703,
+    "ingressos": 157,
+    "concluintes": 89,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santo André",
+    "slug": "SANTO_ANDRE",
+    "cod_ibge": "3547809",
+    "vagas_total": 129,
+    "matriculas": 190,
+    "ingressos": 1,
+    "concluintes": 39,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Guaratinguetá",
+    "slug": "GUARATINGUETA",
+    "cod_ibge": "3518404",
+    "vagas_total": 86,
+    "matriculas": 194,
+    "ingressos": 42,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lorena",
+    "slug": "LORENA",
+    "cod_ibge": "3527207",
+    "vagas_total": 64,
+    "matriculas": 160,
+    "ingressos": 29,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 54,
+    "matriculas": 50,
+    "ingressos": 5,
+    "concluintes": 11,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Campo Limpo Paulista",
+    "slug": "CAMPO_LIMPO_PAULISTA",
+    "cod_ibge": "3509601",
+    "vagas_total": 50,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Ferreira",
+    "slug": "PORTO_FERREIRA",
+    "cod_ibge": "3540705",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Bernardo do Campo",
+    "slug": "SAO_BERNARDO_DO_CAMPO",
+    "cod_ibge": "3548708",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José dos Campos",
+    "slug": "SAO_JOSE_DOS_CAMPOS",
+    "cod_ibge": "3549904",
+    "vagas_total": 0,
+    "matriculas": 84,
+    "ingressos": 0,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

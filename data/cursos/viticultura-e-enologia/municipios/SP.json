@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "São Roque",
+    "slug": "SAO_ROQUE",
+    "cod_ibge": "3550605",
+    "vagas_total": 42,
+    "matriculas": 87,
+    "ingressos": 42,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

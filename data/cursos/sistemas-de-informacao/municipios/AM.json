@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Manaus",
+    "slug": "MANAUS",
+    "cod_ibge": "1302603",
+    "vagas_total": 2133,
+    "matriculas": 2906,
+    "ingressos": 1212,
+    "concluintes": 375,
+    "n_cursos": 17,
+    "n_ies": 11
+  },
+  {
+    "nome": "Manacapuru",
+    "slug": "MANACAPURU",
+    "cod_ibge": "1302504",
+    "vagas_total": 150,
+    "matriculas": 3,
+    "ingressos": 3,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itacoatiara",
+    "slug": "ITACOATIARA",
+    "cod_ibge": "1301902",
+    "vagas_total": 50,
+    "matriculas": 128,
+    "ingressos": 20,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

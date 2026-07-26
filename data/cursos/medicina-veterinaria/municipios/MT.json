@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 379,
+    "matriculas": 1129,
+    "ingressos": 340,
+    "concluintes": 164,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São José dos Quatro Marcos",
+    "slug": "SAO_JOSE_DOS_QUATRO_MARCOS",
+    "cod_ibge": "5107107",
+    "vagas_total": 272,
+    "matriculas": 195,
+    "ingressos": 45,
+    "concluintes": 40,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lucas do Rio Verde",
+    "slug": "LUCAS_DO_RIO_VERDE",
+    "cod_ibge": "5105259",
+    "vagas_total": 90,
+    "matriculas": 99,
+    "ingressos": 52,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarantã do Norte",
+    "slug": "GUARANTA_DO_NORTE",
+    "cod_ibge": "5104104",
+    "vagas_total": 85,
+    "matriculas": 91,
+    "ingressos": 36,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra do Garças",
+    "slug": "BARRA_DO_GARCAS",
+    "cod_ibge": "5101803",
+    "vagas_total": 83,
+    "matriculas": 226,
+    "ingressos": 44,
+    "concluintes": 40,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sinop",
+    "slug": "SINOP",
+    "cod_ibge": "5107909",
+    "vagas_total": 80,
+    "matriculas": 346,
+    "ingressos": 70,
+    "concluintes": 49,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 536,
+    "matriculas": 898,
+    "ingressos": 229,
+    "concluintes": 120,
+    "n_cursos": 7,
+    "n_ies": 7
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 261,
+    "matriculas": 113,
+    "ingressos": 50,
+    "concluintes": 27,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Itumbiara",
+    "slug": "ITUMBIARA",
+    "cod_ibge": "5211503",
+    "vagas_total": 92,
+    "matriculas": 145,
+    "ingressos": 43,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Trindade",
+    "slug": "TRINDADE",
+    "cod_ibge": "5221403",
+    "vagas_total": 56,
+    "matriculas": 155,
+    "ingressos": 27,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Valparaíso de Goiás",
+    "slug": "VALPARAISO_DE_GOIAS",
+    "cod_ibge": "5221858",
+    "vagas_total": 52,
+    "matriculas": 98,
+    "ingressos": 39,
+    "concluintes": 9,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Jataí",
+    "slug": "JATAI",
+    "cod_ibge": "5211909",
+    "vagas_total": 35,
+    "matriculas": 76,
+    "ingressos": 28,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catalão",
+    "slug": "CATALAO",
+    "cod_ibge": "5205109",
+    "vagas_total": 10,
+    "matriculas": 32,
+    "ingressos": 10,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

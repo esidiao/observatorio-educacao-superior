@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 98,
+    "matriculas": 64,
+    "ingressos": 32,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Monteiro",
+    "slug": "MONTEIRO",
+    "cod_ibge": "2509701",
+    "vagas_total": 80,
+    "matriculas": 244,
+    "ingressos": 30,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

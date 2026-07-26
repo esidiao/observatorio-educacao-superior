@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Porto Velho",
+    "slug": "PORTO_VELHO",
+    "cod_ibge": "1100205",
+    "vagas_total": 120,
+    "matriculas": 63,
+    "ingressos": 9,
+    "concluintes": 5,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Guajará-Mirim",
+    "slug": "GUAJARA_MIRIM",
+    "cod_ibge": "1100106",
+    "vagas_total": 82,
+    "matriculas": 72,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Colorado do Oeste",
+    "slug": "COLORADO_DO_OESTE",
+    "cod_ibge": "1100064",
+    "vagas_total": 66,
+    "matriculas": 59,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ariquemes",
+    "slug": "ARIQUEMES",
+    "cod_ibge": "1100023",
+    "vagas_total": 60,
+    "matriculas": 76,
+    "ingressos": 35,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

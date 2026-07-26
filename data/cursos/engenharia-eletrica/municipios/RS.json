@@ -1,0 +1,222 @@
+[
+  {
+    "nome": "Cachoeira do Sul",
+    "slug": "CACHOEIRA_DO_SUL",
+    "cod_ibge": "4303004",
+    "vagas_total": 551,
+    "matriculas": 126,
+    "ingressos": 29,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 266,
+    "matriculas": 215,
+    "ingressos": 72,
+    "concluintes": 31,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Ijuí",
+    "slug": "IJUI",
+    "cod_ibge": "4310207",
+    "vagas_total": 244,
+    "matriculas": 93,
+    "ingressos": 19,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 220,
+    "matriculas": 133,
+    "ingressos": 34,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bento Gonçalves",
+    "slug": "BENTO_GONCALVES",
+    "cod_ibge": "4302105",
+    "vagas_total": 201,
+    "matriculas": 85,
+    "ingressos": 30,
+    "concluintes": 4,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Alegrete",
+    "slug": "ALEGRETE",
+    "cod_ibge": "4300406",
+    "vagas_total": 192,
+    "matriculas": 93,
+    "ingressos": 24,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Novo Hamburgo",
+    "slug": "NOVO_HAMBURGO",
+    "cod_ibge": "4313409",
+    "vagas_total": 180,
+    "matriculas": 55,
+    "ingressos": 8,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Rosa",
+    "slug": "SANTA_ROSA",
+    "cod_ibge": "4317202",
+    "vagas_total": 160,
+    "matriculas": 21,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 135,
+    "matriculas": 552,
+    "ingressos": 110,
+    "concluintes": 73,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 133,
+    "matriculas": 253,
+    "ingressos": 126,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 100,
+    "matriculas": 265,
+    "ingressos": 63,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Getúlio Vargas",
+    "slug": "GETULIO_VARGAS",
+    "cod_ibge": "4308904",
+    "vagas_total": 70,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Ângelo",
+    "slug": "SANTO_ANGELO",
+    "cod_ibge": "4317509",
+    "vagas_total": 60,
+    "matriculas": 55,
+    "ingressos": 16,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lajeado",
+    "slug": "LAJEADO",
+    "cod_ibge": "4311403",
+    "vagas_total": 46,
+    "matriculas": 57,
+    "ingressos": 15,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Passo Fundo",
+    "slug": "PASSO_FUNDO",
+    "cod_ibge": "4314100",
+    "vagas_total": 35,
+    "matriculas": 64,
+    "ingressos": 5,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Luiz Gonzaga",
+    "slug": "SAO_LUIZ_GONZAGA",
+    "cod_ibge": "4318903",
+    "vagas_total": 35,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Erechim",
+    "slug": "ERECHIM",
+    "cod_ibge": "4307005",
+    "vagas_total": 32,
+    "matriculas": 88,
+    "ingressos": 21,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 1,
+    "matriculas": 13,
+    "ingressos": 1,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Canoas",
+    "slug": "CANOAS",
+    "cod_ibge": "4304606",
+    "vagas_total": 0,
+    "matriculas": 28,
+    "ingressos": 0,
+    "concluintes": 7,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Rio Grande",
+    "slug": "RIO_GRANDE",
+    "cod_ibge": "4315602",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

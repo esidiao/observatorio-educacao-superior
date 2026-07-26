@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Laranjeiras do Sul",
+    "slug": "LARANJEIRAS_DO_SUL",
+    "cod_ibge": "4113304",
+    "vagas_total": 162,
+    "matriculas": 41,
+    "ingressos": 12,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palotina",
+    "slug": "PALOTINA",
+    "cod_ibge": "4117909",
+    "vagas_total": 75,
+    "matriculas": 67,
+    "ingressos": 6,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 64,
+    "matriculas": 54,
+    "ingressos": 25,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 50,
+    "matriculas": 17,
+    "ingressos": 17,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pontal do Paraná",
+    "slug": "PONTAL_DO_PARANA",
+    "cod_ibge": "4119954",
+    "vagas_total": 43,
+    "matriculas": 52,
+    "ingressos": 15,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

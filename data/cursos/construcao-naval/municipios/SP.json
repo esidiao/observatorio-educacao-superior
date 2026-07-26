@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Jaú",
+    "slug": "JAU",
+    "cod_ibge": "3525300",
+    "vagas_total": 81,
+    "matriculas": 56,
+    "ingressos": 37,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

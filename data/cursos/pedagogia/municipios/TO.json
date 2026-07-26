@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "1721000",
+    "vagas_total": 410,
+    "matriculas": 477,
+    "ingressos": 63,
+    "concluintes": 79,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Porto Nacional",
+    "slug": "PORTO_NACIONAL",
+    "cod_ibge": "1718204",
+    "vagas_total": 167,
+    "matriculas": 234,
+    "ingressos": 43,
+    "concluintes": 31,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Gurupi",
+    "slug": "GURUPI",
+    "cod_ibge": "1709500",
+    "vagas_total": 160,
+    "matriculas": 64,
+    "ingressos": 60,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arraias",
+    "slug": "ARRAIAS",
+    "cod_ibge": "1702406",
+    "vagas_total": 120,
+    "matriculas": 347,
+    "ingressos": 77,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Miracema do Tocantins",
+    "slug": "MIRACEMA_DO_TOCANTINS",
+    "cod_ibge": "1713205",
+    "vagas_total": 120,
+    "matriculas": 289,
+    "ingressos": 50,
+    "concluintes": 50,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tocantinópolis",
+    "slug": "TOCANTINOPOLIS",
+    "cod_ibge": "1721208",
+    "vagas_total": 60,
+    "matriculas": 187,
+    "ingressos": 38,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araguatins",
+    "slug": "ARAGUATINS",
+    "cod_ibge": "1702208",
+    "vagas_total": 56,
+    "matriculas": 110,
+    "ingressos": 30,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Colinas do Tocantins",
+    "slug": "COLINAS_DO_TOCANTINS",
+    "cod_ibge": "1705508",
+    "vagas_total": 41,
+    "matriculas": 40,
+    "ingressos": 41,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guaraí",
+    "slug": "GUARAI",
+    "cod_ibge": "1709302",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

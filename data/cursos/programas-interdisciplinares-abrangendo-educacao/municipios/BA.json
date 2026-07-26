@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Porto Seguro",
+    "slug": "PORTO_SEGURO",
+    "cod_ibge": "2925303",
+    "vagas_total": 447,
+    "matriculas": 213,
+    "ingressos": 117,
+    "concluintes": 16,
+    "n_cursos": 3,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itabuna",
+    "slug": "ITABUNA",
+    "cod_ibge": "2914802",
+    "vagas_total": 420,
+    "matriculas": 340,
+    "ingressos": 148,
+    "concluintes": 8,
+    "n_cursos": 3,
+    "n_ies": 1
+  },
+  {
+    "nome": "Teixeira de Freitas",
+    "slug": "TEIXEIRA_DE_FREITAS",
+    "cod_ibge": "2931350",
+    "vagas_total": 260,
+    "matriculas": 183,
+    "ingressos": 84,
+    "concluintes": 12,
+    "n_cursos": 3,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Amaro",
+    "slug": "SANTO_AMARO",
+    "cod_ibge": "2928604",
+    "vagas_total": 56,
+    "matriculas": 68,
+    "ingressos": 12,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

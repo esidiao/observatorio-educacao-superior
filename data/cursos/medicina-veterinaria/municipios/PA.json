@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 1395,
+    "matriculas": 1994,
+    "ingressos": 471,
+    "concluintes": 231,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "Castanhal",
+    "slug": "CASTANHAL",
+    "cod_ibge": "1502400",
+    "vagas_total": 471,
+    "matriculas": 343,
+    "ingressos": 116,
+    "concluintes": 38,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 192,
+    "matriculas": 586,
+    "ingressos": 153,
+    "concluintes": 69,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Altamira",
+    "slug": "ALTAMIRA",
+    "cod_ibge": "1500602",
+    "vagas_total": 162,
+    "matriculas": 177,
+    "ingressos": 69,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Redenção",
+    "slug": "REDENCAO",
+    "cod_ibge": "1506138",
+    "vagas_total": 162,
+    "matriculas": 184,
+    "ingressos": 34,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 143,
+    "matriculas": 378,
+    "ingressos": 131,
+    "concluintes": 53,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Parauapebas",
+    "slug": "PARAUAPEBAS",
+    "cod_ibge": "1505536",
+    "vagas_total": 52,
+    "matriculas": 91,
+    "ingressos": 33,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Xinguara",
+    "slug": "XINGUARA",
+    "cod_ibge": "1508407",
+    "vagas_total": 39,
+    "matriculas": 231,
+    "ingressos": 35,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

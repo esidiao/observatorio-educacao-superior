@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 540,
+    "matriculas": 84,
+    "ingressos": 86,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belford Roxo",
+    "slug": "BELFORD_ROXO",
+    "cod_ibge": "3300456",
+    "vagas_total": 430,
+    "matriculas": 32,
+    "ingressos": 18,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra Mansa",
+    "slug": "BARRA_MANSA",
+    "cod_ibge": "3300407",
+    "vagas_total": 140,
+    "matriculas": 121,
+    "ingressos": 77,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Volta Redonda",
+    "slug": "VOLTA_REDONDA",
+    "cod_ibge": "3306305",
+    "vagas_total": 128,
+    "matriculas": 102,
+    "ingressos": 87,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Seropédica",
+    "slug": "SEROPEDICA",
+    "cod_ibge": "3305554",
+    "vagas_total": 120,
+    "matriculas": 0,
+    "ingressos": 107,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  }
+]

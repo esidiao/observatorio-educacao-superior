@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Porto Velho",
+    "slug": "PORTO_VELHO",
+    "cod_ibge": "1100205",
+    "vagas_total": 1296,
+    "matriculas": 1559,
+    "ingressos": 542,
+    "concluintes": 161,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Ji-Paraná",
+    "slug": "JI_PARANA",
+    "cod_ibge": "1100122",
+    "vagas_total": 659,
+    "matriculas": 309,
+    "ingressos": 104,
+    "concluintes": 38,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Pimenta Bueno",
+    "slug": "PIMENTA_BUENO",
+    "cod_ibge": "1100189",
+    "vagas_total": 529,
+    "matriculas": 96,
+    "ingressos": 19,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rolim de Moura",
+    "slug": "ROLIM_DE_MOURA",
+    "cod_ibge": "1100288",
+    "vagas_total": 455,
+    "matriculas": 207,
+    "ingressos": 68,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vilhena",
+    "slug": "VILHENA",
+    "cod_ibge": "1100304",
+    "vagas_total": 357,
+    "matriculas": 363,
+    "ingressos": 115,
+    "concluintes": 31,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Seringueiras",
+    "slug": "SERINGUEIRAS",
+    "cod_ibge": "1101500",
+    "vagas_total": 330,
+    "matriculas": 32,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cacoal",
+    "slug": "CACOAL",
+    "cod_ibge": "1100049",
+    "vagas_total": 194,
+    "matriculas": 342,
+    "ingressos": 134,
+    "concluintes": 55,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ariquemes",
+    "slug": "ARIQUEMES",
+    "cod_ibge": "1100023",
+    "vagas_total": 177,
+    "matriculas": 381,
+    "ingressos": 115,
+    "concluintes": 59,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Ouro Preto do Oeste",
+    "slug": "OURO_PRETO_DO_OESTE",
+    "cod_ibge": "1100155",
+    "vagas_total": 110,
+    "matriculas": 28,
+    "ingressos": 2,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaru",
+    "slug": "JARU",
+    "cod_ibge": "1100114",
+    "vagas_total": 102,
+    "matriculas": 120,
+    "ingressos": 21,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

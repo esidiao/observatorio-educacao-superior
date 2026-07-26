@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Santa Vitória do Palmar",
+    "slug": "SANTA_VITORIA_DO_PALMAR",
+    "cod_ibge": "4317301",
+    "vagas_total": 358,
+    "matriculas": 25,
+    "ingressos": 2,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Canela",
+    "slug": "CANELA",
+    "cod_ibge": "4304408",
+    "vagas_total": 149,
+    "matriculas": 30,
+    "ingressos": 9,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Restinga Sêca",
+    "slug": "RESTINGA_SECA",
+    "cod_ibge": "4315503",
+    "vagas_total": 87,
+    "matriculas": 19,
+    "ingressos": 21,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 68,
+    "matriculas": 65,
+    "ingressos": 19,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 0,
+    "matriculas": 12,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

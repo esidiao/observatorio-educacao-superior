@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 724,
+    "matriculas": 308,
+    "ingressos": 106,
+    "concluintes": 51,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Cotia",
+    "slug": "COTIA",
+    "cod_ibge": "3513009",
+    "vagas_total": 40,
+    "matriculas": 13,
+    "ingressos": 36,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bauru",
+    "slug": "BAURU",
+    "cod_ibge": "3506003",
+    "vagas_total": 0,
+    "matriculas": 70,
+    "ingressos": 0,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

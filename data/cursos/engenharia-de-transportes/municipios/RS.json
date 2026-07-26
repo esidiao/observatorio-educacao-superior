@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Cachoeira do Sul",
+    "slug": "CACHOEIRA_DO_SUL",
+    "cod_ibge": "4303004",
+    "vagas_total": 654,
+    "matriculas": 100,
+    "ingressos": 37,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

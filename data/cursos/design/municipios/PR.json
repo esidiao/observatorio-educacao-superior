@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 1346,
+    "matriculas": 2077,
+    "ingressos": 635,
+    "concluintes": 327,
+    "n_cursos": 9,
+    "n_ies": 8
+  },
+  {
+    "nome": "Cianorte",
+    "slug": "CIANORTE",
+    "cod_ibge": "4105508",
+    "vagas_total": 82,
+    "matriculas": 86,
+    "ingressos": 30,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 30,
+    "matriculas": 139,
+    "ingressos": 30,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

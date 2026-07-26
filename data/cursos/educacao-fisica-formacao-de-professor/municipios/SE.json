@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Aracaju",
+    "slug": "ARACAJU",
+    "cod_ibge": "2800308",
+    "vagas_total": 772,
+    "matriculas": 67,
+    "ingressos": 6,
+    "concluintes": 33,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "São Cristóvão",
+    "slug": "SAO_CRISTOVAO",
+    "cod_ibge": "2806701",
+    "vagas_total": 82,
+    "matriculas": 193,
+    "ingressos": 49,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

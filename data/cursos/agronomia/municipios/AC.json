@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Cruzeiro do Sul",
+    "slug": "CRUZEIRO_DO_SUL",
+    "cod_ibge": "1200203",
+    "vagas_total": 68,
+    "matriculas": 124,
+    "ingressos": 39,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Branco",
+    "slug": "RIO_BRANCO",
+    "cod_ibge": "1200401",
+    "vagas_total": 65,
+    "matriculas": 273,
+    "ingressos": 58,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

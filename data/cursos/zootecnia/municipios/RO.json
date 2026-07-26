@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Vilhena",
+    "slug": "VILHENA",
+    "cod_ibge": "1100304",
+    "vagas_total": 200,
+    "matriculas": 17,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Velho",
+    "slug": "PORTO_VELHO",
+    "cod_ibge": "1100205",
+    "vagas_total": 100,
+    "matriculas": 8,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Presidente Médici",
+    "slug": "PRESIDENTE_MEDICI",
+    "cod_ibge": "1100254",
+    "vagas_total": 89,
+    "matriculas": 107,
+    "ingressos": 35,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Colorado do Oeste",
+    "slug": "COLORADO_DO_OESTE",
+    "cod_ibge": "1100064",
+    "vagas_total": 45,
+    "matriculas": 116,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cacoal",
+    "slug": "CACOAL",
+    "cod_ibge": "1100049",
+    "vagas_total": 40,
+    "matriculas": 139,
+    "ingressos": 33,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

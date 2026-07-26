@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 3148,
+    "matriculas": 2162,
+    "ingressos": 539,
+    "concluintes": 233,
+    "n_cursos": 12,
+    "n_ies": 10
+  },
+  {
+    "nome": "Volta Redonda",
+    "slug": "VOLTA_REDONDA",
+    "cod_ibge": "3306305",
+    "vagas_total": 600,
+    "matriculas": 96,
+    "ingressos": 35,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Gonçalo",
+    "slug": "SAO_GONCALO",
+    "cod_ibge": "3304904",
+    "vagas_total": 411,
+    "matriculas": 392,
+    "ingressos": 70,
+    "concluintes": 42,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Niterói",
+    "slug": "NITEROI",
+    "cod_ibge": "3303302",
+    "vagas_total": 215,
+    "matriculas": 851,
+    "ingressos": 206,
+    "concluintes": 110,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Nova Iguaçu",
+    "slug": "NOVA_IGUACU",
+    "cod_ibge": "3303500",
+    "vagas_total": 96,
+    "matriculas": 333,
+    "ingressos": 87,
+    "concluintes": 58,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Macaé",
+    "slug": "MACAE",
+    "cod_ibge": "3302403",
+    "vagas_total": 90,
+    "matriculas": 103,
+    "ingressos": 36,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Duque de Caxias",
+    "slug": "DUQUE_DE_CAXIAS",
+    "cod_ibge": "3301702",
+    "vagas_total": 60,
+    "matriculas": 33,
+    "ingressos": 39,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campos dos Goytacazes",
+    "slug": "CAMPOS_DOS_GOYTACAZES",
+    "cod_ibge": "3301009",
+    "vagas_total": 55,
+    "matriculas": 172,
+    "ingressos": 43,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itaperuna",
+    "slug": "ITAPERUNA",
+    "cod_ibge": "3302205",
+    "vagas_total": 49,
+    "matriculas": 11,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Seropédica",
+    "slug": "SEROPEDICA",
+    "cod_ibge": "3305554",
+    "vagas_total": 15,
+    "matriculas": 461,
+    "ingressos": 15,
+    "concluintes": 62,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrópolis",
+    "slug": "PETROPOLIS",
+    "cod_ibge": "3303906",
+    "vagas_total": 0,
+    "matriculas": 18,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

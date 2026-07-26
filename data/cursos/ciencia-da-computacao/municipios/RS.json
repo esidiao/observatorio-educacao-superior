@@ -1,0 +1,222 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 790,
+    "matriculas": 1745,
+    "ingressos": 501,
+    "concluintes": 173,
+    "n_cursos": 8,
+    "n_ies": 7
+  },
+  {
+    "nome": "Canoas",
+    "slug": "CANOAS",
+    "cod_ibge": "4304606",
+    "vagas_total": 463,
+    "matriculas": 315,
+    "ingressos": 141,
+    "concluintes": 31,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Passo Fundo",
+    "slug": "PASSO_FUNDO",
+    "cod_ibge": "4314100",
+    "vagas_total": 305,
+    "matriculas": 860,
+    "ingressos": 284,
+    "concluintes": 89,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Erechim",
+    "slug": "ERECHIM",
+    "cod_ibge": "4307005",
+    "vagas_total": 257,
+    "matriculas": 239,
+    "ingressos": 79,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 220,
+    "matriculas": 325,
+    "ingressos": 128,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 194,
+    "matriculas": 291,
+    "ingressos": 120,
+    "concluintes": 21,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Novo Hamburgo",
+    "slug": "NOVO_HAMBURGO",
+    "cod_ibge": "4313409",
+    "vagas_total": 181,
+    "matriculas": 264,
+    "ingressos": 86,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alegrete",
+    "slug": "ALEGRETE",
+    "cod_ibge": "4300406",
+    "vagas_total": 159,
+    "matriculas": 151,
+    "ingressos": 57,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Rosa",
+    "slug": "SANTA_ROSA",
+    "cod_ibge": "4317202",
+    "vagas_total": 146,
+    "matriculas": 63,
+    "ingressos": 34,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ijuí",
+    "slug": "IJUI",
+    "cod_ibge": "4310207",
+    "vagas_total": 131,
+    "matriculas": 158,
+    "ingressos": 51,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cachoeirinha",
+    "slug": "CACHOEIRINHA",
+    "cod_ibge": "4303103",
+    "vagas_total": 113,
+    "matriculas": 156,
+    "ingressos": 89,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 111,
+    "matriculas": 220,
+    "ingressos": 81,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 99,
+    "matriculas": 414,
+    "ingressos": 101,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 96,
+    "matriculas": 269,
+    "ingressos": 92,
+    "concluintes": 38,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santo Ângelo",
+    "slug": "SANTO_ANGELO",
+    "cod_ibge": "4317509",
+    "vagas_total": 65,
+    "matriculas": 135,
+    "ingressos": 27,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Frederico Westphalen",
+    "slug": "FREDERICO_WESTPHALEN",
+    "cod_ibge": "4308508",
+    "vagas_total": 60,
+    "matriculas": 101,
+    "ingressos": 44,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cruz Alta",
+    "slug": "CRUZ_ALTA",
+    "cod_ibge": "4306106",
+    "vagas_total": 53,
+    "matriculas": 64,
+    "ingressos": 22,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bento Gonçalves",
+    "slug": "BENTO_GONCALVES",
+    "cod_ibge": "4302105",
+    "vagas_total": 52,
+    "matriculas": 85,
+    "ingressos": 36,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ibirubá",
+    "slug": "IBIRUBA",
+    "cod_ibge": "4310009",
+    "vagas_total": 45,
+    "matriculas": 116,
+    "ingressos": 35,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santiago",
+    "slug": "SANTIAGO",
+    "cod_ibge": "4317400",
+    "vagas_total": 43,
+    "matriculas": 69,
+    "ingressos": 22,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

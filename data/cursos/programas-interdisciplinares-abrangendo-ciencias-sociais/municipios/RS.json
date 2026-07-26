@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Restinga Sêca",
+    "slug": "RESTINGA_SECA",
+    "cod_ibge": "4315503",
+    "vagas_total": 66,
+    "matriculas": 120,
+    "ingressos": 27,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

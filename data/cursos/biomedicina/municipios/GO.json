@@ -1,0 +1,145 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 1890,
+    "matriculas": 2114,
+    "ingressos": 869,
+    "concluintes": 197,
+    "n_cursos": 11,
+    "n_ies": 11
+  },
+  {
+    "nome": "Trindade",
+    "slug": "TRINDADE",
+    "cod_ibge": "5221403",
+    "vagas_total": 713,
+    "matriculas": 312,
+    "ingressos": 190,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porangatu",
+    "slug": "PORANGATU",
+    "cod_ibge": "5218003",
+    "vagas_total": 250,
+    "matriculas": 152,
+    "ingressos": 73,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Aparecida de Goiânia",
+    "slug": "APARECIDA_DE_GOIANIA",
+    "cod_ibge": "5201405",
+    "vagas_total": 210,
+    "matriculas": 406,
+    "ingressos": 132,
+    "concluintes": 51,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 208,
+    "matriculas": 323,
+    "ingressos": 171,
+    "concluintes": 40,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Rio Verde",
+    "slug": "RIO_VERDE",
+    "cod_ibge": "5218805",
+    "vagas_total": 175,
+    "matriculas": 112,
+    "ingressos": 71,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Quirinópolis",
+    "slug": "QUIRINOPOLIS",
+    "cod_ibge": "5218508",
+    "vagas_total": 160,
+    "matriculas": 109,
+    "ingressos": 39,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Luís de Montes Belos",
+    "slug": "SAO_LUIS_DE_MONTES_BELOS",
+    "cod_ibge": "5220108",
+    "vagas_total": 120,
+    "matriculas": 40,
+    "ingressos": 50,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ceres",
+    "slug": "CERES",
+    "cod_ibge": "5205406",
+    "vagas_total": 105,
+    "matriculas": 138,
+    "ingressos": 53,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piracanjuba",
+    "slug": "PIRACANJUBA",
+    "cod_ibge": "5217104",
+    "vagas_total": 100,
+    "matriculas": 73,
+    "ingressos": 14,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Formosa",
+    "slug": "FORMOSA",
+    "cod_ibge": "5208004",
+    "vagas_total": 50,
+    "matriculas": 62,
+    "ingressos": 29,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jataí",
+    "slug": "JATAI",
+    "cod_ibge": "5211909",
+    "vagas_total": 45,
+    "matriculas": 127,
+    "ingressos": 43,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itumbiara",
+    "slug": "ITUMBIARA",
+    "cod_ibge": "5211503",
+    "vagas_total": 33,
+    "matriculas": 92,
+    "ingressos": 33,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

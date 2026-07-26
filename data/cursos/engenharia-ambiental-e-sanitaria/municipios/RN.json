@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Pau dos Ferros",
+    "slug": "PAU_DOS_FERROS",
+    "cod_ibge": "2409407",
+    "vagas_total": 65,
+    "matriculas": 29,
+    "ingressos": 0,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 36,
+    "matriculas": 94,
+    "ingressos": 36,
+    "concluintes": 2,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "São José dos Pinhais",
+    "slug": "SAO_JOSE_DOS_PINHAIS",
+    "cod_ibge": "4125506",
+    "vagas_total": 105,
+    "matriculas": 354,
+    "ingressos": 105,
+    "concluintes": 100,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

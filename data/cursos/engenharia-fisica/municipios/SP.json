@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Lorena",
+    "slug": "LORENA",
+    "cod_ibge": "3527207",
+    "vagas_total": 75,
+    "matriculas": 171,
+    "ingressos": 17,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Carlos",
+    "slug": "SAO_CARLOS",
+    "cod_ibge": "3548906",
+    "vagas_total": 46,
+    "matriculas": 216,
+    "ingressos": 36,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 1,
+    "matriculas": 84,
+    "ingressos": 0,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

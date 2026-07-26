@@ -1,0 +1,233 @@
+[
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 819,
+    "matriculas": 664,
+    "ingressos": 216,
+    "concluintes": 79,
+    "n_cursos": 9,
+    "n_ies": 7
+  },
+  {
+    "nome": "São José",
+    "slug": "SAO_JOSE",
+    "cod_ibge": "4216602",
+    "vagas_total": 616,
+    "matriculas": 12,
+    "ingressos": 1,
+    "concluintes": 7,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Itajaí",
+    "slug": "ITAJAI",
+    "cod_ibge": "4208203",
+    "vagas_total": 581,
+    "matriculas": 137,
+    "ingressos": 58,
+    "concluintes": 33,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 415,
+    "matriculas": 112,
+    "ingressos": 27,
+    "concluintes": 23,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Lages",
+    "slug": "LAGES",
+    "cod_ibge": "4209300",
+    "vagas_total": 342,
+    "matriculas": 196,
+    "ingressos": 71,
+    "concluintes": 9,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 157,
+    "matriculas": 516,
+    "ingressos": 133,
+    "concluintes": 42,
+    "n_cursos": 5,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Bento do Sul",
+    "slug": "SAO_BENTO_DO_SUL",
+    "cod_ibge": "4215802",
+    "vagas_total": 140,
+    "matriculas": 187,
+    "ingressos": 58,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Criciúma",
+    "slug": "CRICIUMA",
+    "cod_ibge": "4204608",
+    "vagas_total": 93,
+    "matriculas": 174,
+    "ingressos": 36,
+    "concluintes": 22,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Blumenau",
+    "slug": "BLUMENAU",
+    "cod_ibge": "4202404",
+    "vagas_total": 85,
+    "matriculas": 151,
+    "ingressos": 60,
+    "concluintes": 34,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Caçador",
+    "slug": "CACADOR",
+    "cod_ibge": "4203006",
+    "vagas_total": 80,
+    "matriculas": 84,
+    "ingressos": 26,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapiranga",
+    "slug": "ITAPIRANGA",
+    "cod_ibge": "4208401",
+    "vagas_total": 80,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Brusque",
+    "slug": "BRUSQUE",
+    "cod_ibge": "4202909",
+    "vagas_total": 71,
+    "matriculas": 51,
+    "ingressos": 16,
+    "concluintes": 8,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Joaçaba",
+    "slug": "JOACABA",
+    "cod_ibge": "4209003",
+    "vagas_total": 70,
+    "matriculas": 92,
+    "ingressos": 39,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Orleans",
+    "slug": "ORLEANS",
+    "cod_ibge": "4211702",
+    "vagas_total": 63,
+    "matriculas": 35,
+    "ingressos": 15,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Navegantes",
+    "slug": "NAVEGANTES",
+    "cod_ibge": "4211306",
+    "vagas_total": 20,
+    "matriculas": 37,
+    "ingressos": 14,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaraguá do Sul",
+    "slug": "JARAGUA_DO_SUL",
+    "cod_ibge": "4208906",
+    "vagas_total": 11,
+    "matriculas": 29,
+    "ingressos": 11,
+    "concluintes": 0,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Capivari de Baixo",
+    "slug": "CAPIVARI_DE_BAIXO",
+    "cod_ibge": "4203956",
+    "vagas_total": 10,
+    "matriculas": 11,
+    "ingressos": 1,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palhoça",
+    "slug": "PALHOCA",
+    "cod_ibge": "4211900",
+    "vagas_total": 10,
+    "matriculas": 39,
+    "ingressos": 10,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guaramirim",
+    "slug": "GUARAMIRIM",
+    "cod_ibge": "4206504",
+    "vagas_total": 1,
+    "matriculas": 12,
+    "ingressos": 1,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio do Sul",
+    "slug": "RIO_DO_SUL",
+    "cod_ibge": "4214805",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tubarão",
+    "slug": "TUBARAO",
+    "cod_ibge": "4218707",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Jaguarão",
+    "slug": "JAGUARAO",
+    "cod_ibge": "4311007",
+    "vagas_total": 184,
+    "matriculas": 18,
+    "ingressos": 20,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

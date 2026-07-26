@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 160,
+    "matriculas": 530,
+    "ingressos": 149,
+    "concluintes": 84,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Nazaré da Mata",
+    "slug": "NAZARE_DA_MATA",
+    "cod_ibge": "2609501",
+    "vagas_total": 60,
+    "matriculas": 196,
+    "ingressos": 48,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 60,
+    "matriculas": 157,
+    "ingressos": 38,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Garanhuns",
+    "slug": "GARANHUNS",
+    "cod_ibge": "2606002",
+    "vagas_total": 50,
+    "matriculas": 159,
+    "ingressos": 47,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salgueiro",
+    "slug": "SALGUEIRO",
+    "cod_ibge": "2612208",
+    "vagas_total": 50,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belém do São Francisco",
+    "slug": "BELEM_DO_SAO_FRANCISCO",
+    "cod_ibge": "2601607",
+    "vagas_total": 20,
+    "matriculas": 3,
+    "ingressos": 1,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

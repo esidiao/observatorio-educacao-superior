@@ -1,0 +1,42 @@
+{
+  "ano_censo": "2024",
+  "ufs": {
+    "AM": {
+      "vagas_total": 86,
+      "vagas_presencial": 86,
+      "vagas_ead": 0,
+      "vagas_capital": 0,
+      "pct_ead": 0.0,
+      "n_cursos_presencial": 2,
+      "n_cursos_ead": 0,
+      "n_ies": 1,
+      "municipios_oferta": 2,
+      "ead_polos_municipios": 0,
+      "ead_polos_registros": 0,
+      "mun_ead_only": 0,
+      "ingressos": 8,
+      "matriculas": 6,
+      "matriculas_ead": 0,
+      "concluintes": 1,
+      "taxa_conclusao": 16.7,
+      "pct_mulheres": 37.5,
+      "pct_ppi": 100.0,
+      "pct_financiamento": 0.0,
+      "pct_noturno": 0.0,
+      "pct_rede_publica": 100.0,
+      "HHI": 1.0,
+      "CR2": 1.0,
+      "CR10": 1.0,
+      "municipios_total": 62,
+      "municipios_deserto": 60,
+      "populacao": 4281209,
+      "regiao": "Norte",
+      "capital": "Manaus",
+      "vagas_por_100k": 2.0
+    }
+  },
+  "vagas_por_curso": {
+    "1315488": 0,
+    "1344174": 86
+  }
+}

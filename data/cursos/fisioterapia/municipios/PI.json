@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 1807,
+    "matriculas": 1834,
+    "ingressos": 467,
+    "concluintes": 238,
+    "n_cursos": 10,
+    "n_ies": 10
+  },
+  {
+    "nome": "Parnaíba",
+    "slug": "PARNAIBA",
+    "cod_ibge": "2207702",
+    "vagas_total": 231,
+    "matriculas": 689,
+    "ingressos": 165,
+    "concluintes": 78,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Picos",
+    "slug": "PICOS",
+    "cod_ibge": "2208007",
+    "vagas_total": 110,
+    "matriculas": 117,
+    "ingressos": 27,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Floriano",
+    "slug": "FLORIANO",
+    "cod_ibge": "2203909",
+    "vagas_total": 100,
+    "matriculas": 110,
+    "ingressos": 23,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piripiri",
+    "slug": "PIRIPIRI",
+    "cod_ibge": "2208403",
+    "vagas_total": 100,
+    "matriculas": 119,
+    "ingressos": 21,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Pedro do Piauí",
+    "slug": "SAO_PEDRO_DO_PIAUI",
+    "cod_ibge": "2210508",
+    "vagas_total": 50,
+    "matriculas": 49,
+    "ingressos": 6,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

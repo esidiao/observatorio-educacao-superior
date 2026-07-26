@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 764,
+    "matriculas": 464,
+    "ingressos": 74,
+    "concluintes": 136,
+    "n_cursos": 9,
+    "n_ies": 4
+  },
+  {
+    "nome": "Santos",
+    "slug": "SANTOS",
+    "cod_ibge": "3548500",
+    "vagas_total": 280,
+    "matriculas": 12,
+    "ingressos": 1,
+    "concluintes": 3,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santana de Parnaíba",
+    "slug": "SANTANA_DE_PARNAIBA",
+    "cod_ibge": "3547304",
+    "vagas_total": 232,
+    "matriculas": 0,
+    "ingressos": 2,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ribeirão Preto",
+    "slug": "RIBEIRAO_PRETO",
+    "cod_ibge": "3543402",
+    "vagas_total": 231,
+    "matriculas": 47,
+    "ingressos": 4,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Limeira",
+    "slug": "LIMEIRA",
+    "cod_ibge": "3526902",
+    "vagas_total": 230,
+    "matriculas": 0,
+    "ingressos": 2,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Bernardo do Campo",
+    "slug": "SAO_BERNARDO_DO_CAMPO",
+    "cod_ibge": "3548708",
+    "vagas_total": 150,
+    "matriculas": 294,
+    "ingressos": 59,
+    "concluintes": 68,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Jundiaí",
+    "slug": "JUNDIAI",
+    "cod_ibge": "3525904",
+    "vagas_total": 116,
+    "matriculas": 5,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São José dos Campos",
+    "slug": "SAO_JOSE_DOS_CAMPOS",
+    "cod_ibge": "3549904",
+    "vagas_total": 116,
+    "matriculas": 95,
+    "ingressos": 2,
+    "concluintes": 39,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Bauru",
+    "slug": "BAURU",
+    "cod_ibge": "3506003",
+    "vagas_total": 115,
+    "matriculas": 14,
+    "ingressos": 1,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 115,
+    "matriculas": 21,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araraquara",
+    "slug": "ARARAQUARA",
+    "cod_ibge": "3503208",
+    "vagas_total": 81,
+    "matriculas": 0,
+    "ingressos": 2,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Limpo Paulista",
+    "slug": "CAMPO_LIMPO_PAULISTA",
+    "cod_ibge": "3509601",
+    "vagas_total": 50,
+    "matriculas": 25,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Caetano do Sul",
+    "slug": "SAO_CAETANO_DO_SUL",
+    "cod_ibge": "3548807",
+    "vagas_total": 47,
+    "matriculas": 33,
+    "ingressos": 15,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo André",
+    "slug": "SANTO_ANDRE",
+    "cod_ibge": "3547809",
+    "vagas_total": 0,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

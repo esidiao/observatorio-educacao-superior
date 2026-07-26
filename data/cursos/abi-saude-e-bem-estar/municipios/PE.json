@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 550,
+    "matriculas": 559,
+    "ingressos": 426,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 2
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 45,
+    "matriculas": 0,
+    "ingressos": 42,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 218,
+    "matriculas": 116,
+    "ingressos": 67,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 151,
+    "matriculas": 111,
+    "ingressos": 41,
+    "concluintes": 27,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Bauru",
+    "slug": "BAURU",
+    "cod_ibge": "3506003",
+    "vagas_total": 131,
+    "matriculas": 148,
+    "ingressos": 81,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ribeirão Preto",
+    "slug": "RIBEIRAO_PRETO",
+    "cod_ibge": "3543402",
+    "vagas_total": 81,
+    "matriculas": 180,
+    "ingressos": 81,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Osasco",
+    "slug": "OSASCO",
+    "cod_ibge": "3534401",
+    "vagas_total": 80,
+    "matriculas": 96,
+    "ingressos": 81,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

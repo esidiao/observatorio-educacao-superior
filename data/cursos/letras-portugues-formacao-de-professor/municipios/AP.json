@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Santana",
+    "slug": "SANTANA",
+    "cod_ibge": "1600600",
+    "vagas_total": 550,
+    "matriculas": 189,
+    "ingressos": 26,
+    "concluintes": 9,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Macapá",
+    "slug": "MACAPA",
+    "cod_ibge": "1600303",
+    "vagas_total": 116,
+    "matriculas": 350,
+    "ingressos": 101,
+    "concluintes": 14,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

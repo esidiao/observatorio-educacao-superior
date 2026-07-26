@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 162,
+    "matriculas": 569,
+    "ingressos": 137,
+    "concluintes": 38,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Codó",
+    "slug": "CODO",
+    "cod_ibge": "2103307",
+    "vagas_total": 55,
+    "matriculas": 73,
+    "ingressos": 18,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 53,
+    "matriculas": 148,
+    "ingressos": 23,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Açailândia",
+    "slug": "ACAILANDIA",
+    "cod_ibge": "2100055",
+    "vagas_total": 40,
+    "matriculas": 84,
+    "ingressos": 29,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bacabal",
+    "slug": "BACABAL",
+    "cod_ibge": "2101202",
+    "vagas_total": 40,
+    "matriculas": 49,
+    "ingressos": 27,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 40,
+    "matriculas": 62,
+    "ingressos": 23,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Zé Doca",
+    "slug": "ZE_DOCA",
+    "cod_ibge": "2114007",
+    "vagas_total": 40,
+    "matriculas": 100,
+    "ingressos": 27,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paraibano",
+    "slug": "PARAIBANO",
+    "cod_ibge": "2107704",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pedreiras",
+    "slug": "PEDREIRAS",
+    "cod_ibge": "2108207",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

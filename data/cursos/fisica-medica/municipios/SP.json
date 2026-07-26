@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Ribeirão Preto",
+    "slug": "RIBEIRAO_PRETO",
+    "cod_ibge": "3543402",
+    "vagas_total": 56,
+    "matriculas": 197,
+    "ingressos": 43,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Botucatu",
+    "slug": "BOTUCATU",
+    "cod_ibge": "3507506",
+    "vagas_total": 46,
+    "matriculas": 143,
+    "ingressos": 39,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 29,
+    "matriculas": 65,
+    "ingressos": 27,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barretos",
+    "slug": "BARRETOS",
+    "cod_ibge": "3505500",
+    "vagas_total": 2,
+    "matriculas": 4,
+    "ingressos": 2,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

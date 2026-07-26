@@ -1,0 +1,145 @@
+[
+  {
+    "nome": "Belém",
+    "slug": "BELEM",
+    "cod_ibge": "1501402",
+    "vagas_total": 5497,
+    "matriculas": 1176,
+    "ingressos": 371,
+    "concluintes": 146,
+    "n_cursos": 9,
+    "n_ies": 9
+  },
+  {
+    "nome": "Ananindeua",
+    "slug": "ANANINDEUA",
+    "cod_ibge": "1500800",
+    "vagas_total": 1475,
+    "matriculas": 334,
+    "ingressos": 157,
+    "concluintes": 31,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Castanhal",
+    "slug": "CASTANHAL",
+    "cod_ibge": "1502400",
+    "vagas_total": 1424,
+    "matriculas": 180,
+    "ingressos": 69,
+    "concluintes": 13,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santarém",
+    "slug": "SANTAREM",
+    "cod_ibge": "1506807",
+    "vagas_total": 269,
+    "matriculas": 178,
+    "ingressos": 75,
+    "concluintes": 25,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Altamira",
+    "slug": "ALTAMIRA",
+    "cod_ibge": "1500602",
+    "vagas_total": 230,
+    "matriculas": 35,
+    "ingressos": 0,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marabá",
+    "slug": "MARABA",
+    "cod_ibge": "1504208",
+    "vagas_total": 204,
+    "matriculas": 126,
+    "ingressos": 38,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itaituba",
+    "slug": "ITAITUBA",
+    "cod_ibge": "1503606",
+    "vagas_total": 171,
+    "matriculas": 135,
+    "ingressos": 29,
+    "concluintes": 44,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Paragominas",
+    "slug": "PARAGOMINAS",
+    "cod_ibge": "1505502",
+    "vagas_total": 64,
+    "matriculas": 164,
+    "ingressos": 51,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rondon do Pará",
+    "slug": "RONDON_DO_PARA",
+    "cod_ibge": "1506187",
+    "vagas_total": 64,
+    "matriculas": 175,
+    "ingressos": 54,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capanema",
+    "slug": "CAPANEMA",
+    "cod_ibge": "1502202",
+    "vagas_total": 62,
+    "matriculas": 242,
+    "ingressos": 54,
+    "concluintes": 44,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tomé-Açu",
+    "slug": "TOME_ACU",
+    "cod_ibge": "1508001",
+    "vagas_total": 62,
+    "matriculas": 230,
+    "ingressos": 56,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Novo Progresso",
+    "slug": "NOVO_PROGRESSO",
+    "cod_ibge": "1505031",
+    "vagas_total": 30,
+    "matriculas": 62,
+    "ingressos": 27,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Parauapebas",
+    "slug": "PARAUAPEBAS",
+    "cod_ibge": "1505536",
+    "vagas_total": 5,
+    "matriculas": 23,
+    "ingressos": 5,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

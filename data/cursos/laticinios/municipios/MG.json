@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Luz",
+    "slug": "LUZ",
+    "cod_ibge": "3138807",
+    "vagas_total": 80,
+    "matriculas": 0,
+    "ingressos": 6,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Pomba",
+    "slug": "RIO_POMBA",
+    "cod_ibge": "3155801",
+    "vagas_total": 65,
+    "matriculas": 39,
+    "ingressos": 9,
+    "concluintes": 7,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 47,
+    "matriculas": 88,
+    "ingressos": 35,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

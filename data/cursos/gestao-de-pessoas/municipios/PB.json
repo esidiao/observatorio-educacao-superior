@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 382,
+    "matriculas": 28,
+    "ingressos": 12,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 165,
+    "matriculas": 138,
+    "ingressos": 62,
+    "concluintes": 58,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Cabedelo",
+    "slug": "CABEDELO",
+    "cod_ibge": "2503209",
+    "vagas_total": 26,
+    "matriculas": 35,
+    "ingressos": 19,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 270,
+    "matriculas": 482,
+    "ingressos": 105,
+    "concluintes": 74,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Goiana",
+    "slug": "GOIANA",
+    "cod_ibge": "2606200",
+    "vagas_total": 200,
+    "matriculas": 6,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arcoverde",
+    "slug": "ARCOVERDE",
+    "cod_ibge": "2601201",
+    "vagas_total": 105,
+    "matriculas": 129,
+    "ingressos": 33,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Garanhuns",
+    "slug": "GARANHUNS",
+    "cod_ibge": "2606002",
+    "vagas_total": 50,
+    "matriculas": 207,
+    "ingressos": 47,
+    "concluintes": 47,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araripina",
+    "slug": "ARARIPINA",
+    "cod_ibge": "2601102",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

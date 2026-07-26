@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Serra",
+    "slug": "SERRA",
+    "cod_ibge": "3205002",
+    "vagas_total": 345,
+    "matriculas": 448,
+    "ingressos": 164,
+    "concluintes": 34,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Linhares",
+    "slug": "LINHARES",
+    "cod_ibge": "3203205",
+    "vagas_total": 88,
+    "matriculas": 149,
+    "ingressos": 24,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

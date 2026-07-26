@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 360,
+    "matriculas": 124,
+    "ingressos": 60,
+    "concluintes": 2,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Volta Redonda",
+    "slug": "VOLTA_REDONDA",
+    "cod_ibge": "3306305",
+    "vagas_total": 205,
+    "matriculas": 29,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vassouras",
+    "slug": "VASSOURAS",
+    "cod_ibge": "3306206",
+    "vagas_total": 195,
+    "matriculas": 408,
+    "ingressos": 183,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Saquarema",
+    "slug": "SAQUAREMA",
+    "cod_ibge": "3305505",
+    "vagas_total": 175,
+    "matriculas": 243,
+    "ingressos": 163,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Resende",
+    "slug": "RESENDE",
+    "cod_ibge": "3304201",
+    "vagas_total": 110,
+    "matriculas": 63,
+    "ingressos": 54,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra Mansa",
+    "slug": "BARRA_MANSA",
+    "cod_ibge": "3300407",
+    "vagas_total": 90,
+    "matriculas": 41,
+    "ingressos": 47,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maricá",
+    "slug": "MARICA",
+    "cod_ibge": "3302700",
+    "vagas_total": 87,
+    "matriculas": 163,
+    "ingressos": 72,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

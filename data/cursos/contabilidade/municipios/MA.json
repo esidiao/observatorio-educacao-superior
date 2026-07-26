@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 1178,
+    "matriculas": 1229,
+    "ingressos": 322,
+    "concluintes": 120,
+    "n_cursos": 10,
+    "n_ies": 10
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 594,
+    "matriculas": 522,
+    "ingressos": 77,
+    "concluintes": 45,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Balsas",
+    "slug": "BALSAS",
+    "cod_ibge": "2101400",
+    "vagas_total": 450,
+    "matriculas": 79,
+    "ingressos": 24,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Timon",
+    "slug": "TIMON",
+    "cod_ibge": "2112209",
+    "vagas_total": 263,
+    "matriculas": 141,
+    "ingressos": 57,
+    "concluintes": 15,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Paço do Lumiar",
+    "slug": "PACO_DO_LUMIAR",
+    "cod_ibge": "2107506",
+    "vagas_total": 140,
+    "matriculas": 113,
+    "ingressos": 23,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapadinha",
+    "slug": "CHAPADINHA",
+    "cod_ibge": "2103208",
+    "vagas_total": 115,
+    "matriculas": 133,
+    "ingressos": 27,
+    "concluintes": 60,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pedreiras",
+    "slug": "PEDREIRAS",
+    "cod_ibge": "2108207",
+    "vagas_total": 110,
+    "matriculas": 100,
+    "ingressos": 31,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Codó",
+    "slug": "CODO",
+    "cod_ibge": "2103307",
+    "vagas_total": 40,
+    "matriculas": 121,
+    "ingressos": 39,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

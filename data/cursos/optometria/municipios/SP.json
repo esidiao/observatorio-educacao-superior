@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Mogi das Cruzes",
+    "slug": "MOGI_DAS_CRUZES",
+    "cod_ibge": "3530607",
+    "vagas_total": 130,
+    "matriculas": 203,
+    "ingressos": 58,
+    "concluintes": 24,
+    "n_cursos": 2,
+    "n_ies": 1
+  }
+]

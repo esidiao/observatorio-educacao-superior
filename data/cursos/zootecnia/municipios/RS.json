@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Palmeira das Missões",
+    "slug": "PALMEIRA_DAS_MISSOES",
+    "cod_ibge": "4313706",
+    "vagas_total": 351,
+    "matriculas": 114,
+    "ingressos": 27,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 192,
+    "matriculas": 292,
+    "ingressos": 79,
+    "concluintes": 46,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capão do Leão",
+    "slug": "CAPAO_DO_LEAO",
+    "cod_ibge": "4304663",
+    "vagas_total": 153,
+    "matriculas": 288,
+    "ingressos": 97,
+    "concluintes": 37,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Dom Pedrito",
+    "slug": "DOM_PEDRITO",
+    "cod_ibge": "4306601",
+    "vagas_total": 130,
+    "matriculas": 155,
+    "ingressos": 46,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 100,
+    "matriculas": 177,
+    "ingressos": 44,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alegrete",
+    "slug": "ALEGRETE",
+    "cod_ibge": "4300406",
+    "vagas_total": 44,
+    "matriculas": 132,
+    "ingressos": 30,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sertão",
+    "slug": "SERTAO",
+    "cod_ibge": "4320503",
+    "vagas_total": 41,
+    "matriculas": 73,
+    "ingressos": 11,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

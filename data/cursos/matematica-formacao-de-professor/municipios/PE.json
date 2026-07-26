@@ -1,0 +1,200 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 430,
+    "matriculas": 722,
+    "ingressos": 195,
+    "concluintes": 81,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Serra Talhada",
+    "slug": "SERRA_TALHADA",
+    "cod_ibge": "2613909",
+    "vagas_total": 222,
+    "matriculas": 80,
+    "ingressos": 23,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiana",
+    "slug": "GOIANA",
+    "cod_ibge": "2606200",
+    "vagas_total": 200,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Jardim",
+    "slug": "BELO_JARDIM",
+    "cod_ibge": "2601706",
+    "vagas_total": 110,
+    "matriculas": 10,
+    "ingressos": 17,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cabo de Santo Agostinho",
+    "slug": "CABO_DE_SANTO_AGOSTINHO",
+    "cod_ibge": "2602902",
+    "vagas_total": 110,
+    "matriculas": 13,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arcoverde",
+    "slug": "ARCOVERDE",
+    "cod_ibge": "2601201",
+    "vagas_total": 105,
+    "matriculas": 69,
+    "ingressos": 22,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palmares",
+    "slug": "PALMARES",
+    "cod_ibge": "2610004",
+    "vagas_total": 100,
+    "matriculas": 93,
+    "ingressos": 28,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 80,
+    "matriculas": 356,
+    "ingressos": 70,
+    "concluintes": 54,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nazaré da Mata",
+    "slug": "NAZARE_DA_MATA",
+    "cod_ibge": "2609501",
+    "vagas_total": 80,
+    "matriculas": 260,
+    "ingressos": 63,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pesqueira",
+    "slug": "PESQUEIRA",
+    "cod_ibge": "2610905",
+    "vagas_total": 65,
+    "matriculas": 150,
+    "ingressos": 37,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 60,
+    "matriculas": 161,
+    "ingressos": 45,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Afogados da Ingazeira",
+    "slug": "AFOGADOS_DA_INGAZEIRA",
+    "cod_ibge": "2600104",
+    "vagas_total": 55,
+    "matriculas": 63,
+    "ingressos": 8,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belém do São Francisco",
+    "slug": "BELEM_DO_SAO_FRANCISCO",
+    "cod_ibge": "2601607",
+    "vagas_total": 50,
+    "matriculas": 53,
+    "ingressos": 18,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Garanhuns",
+    "slug": "GARANHUNS",
+    "cod_ibge": "2606002",
+    "vagas_total": 50,
+    "matriculas": 193,
+    "ingressos": 0,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria da Boa Vista",
+    "slug": "SANTA_MARIA_DA_BOA_VISTA",
+    "cod_ibge": "2612604",
+    "vagas_total": 40,
+    "matriculas": 48,
+    "ingressos": 40,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ouricuri",
+    "slug": "OURICURI",
+    "cod_ibge": "2609907",
+    "vagas_total": 38,
+    "matriculas": 51,
+    "ingressos": 38,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória de Santo Antão",
+    "slug": "VITORIA_DE_SANTO_ANTAO",
+    "cod_ibge": "2616407",
+    "vagas_total": 21,
+    "matriculas": 45,
+    "ingressos": 16,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salgueiro",
+    "slug": "SALGUEIRO",
+    "cod_ibge": "2612208",
+    "vagas_total": 0,
+    "matriculas": 28,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

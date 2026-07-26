@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Brejo Santo",
+    "slug": "BREJO_SANTO",
+    "cod_ibge": "2302503",
+    "vagas_total": 29,
+    "matriculas": 74,
+    "ingressos": 14,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

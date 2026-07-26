@@ -1,0 +1,167 @@
+[
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 361,
+    "matriculas": 217,
+    "ingressos": 93,
+    "concluintes": 35,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Bento Gonçalves",
+    "slug": "BENTO_GONCALVES",
+    "cod_ibge": "4302105",
+    "vagas_total": 259,
+    "matriculas": 101,
+    "ingressos": 40,
+    "concluintes": 19,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 177,
+    "matriculas": 229,
+    "ingressos": 126,
+    "concluintes": 30,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 177,
+    "matriculas": 400,
+    "ingressos": 144,
+    "concluintes": 37,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "Lajeado",
+    "slug": "LAJEADO",
+    "cod_ibge": "4311403",
+    "vagas_total": 125,
+    "matriculas": 146,
+    "ingressos": 42,
+    "concluintes": 58,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cachoeirinha",
+    "slug": "CACHOEIRINHA",
+    "cod_ibge": "4303103",
+    "vagas_total": 111,
+    "matriculas": 45,
+    "ingressos": 27,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 110,
+    "matriculas": 30,
+    "ingressos": 16,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Novo Hamburgo",
+    "slug": "NOVO_HAMBURGO",
+    "cod_ibge": "4313409",
+    "vagas_total": 103,
+    "matriculas": 23,
+    "ingressos": 12,
+    "concluintes": 5,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Vacaria",
+    "slug": "VACARIA",
+    "cod_ibge": "4322509",
+    "vagas_total": 50,
+    "matriculas": 61,
+    "ingressos": 39,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rolante",
+    "slug": "ROLANTE",
+    "cod_ibge": "4316006",
+    "vagas_total": 45,
+    "matriculas": 61,
+    "ingressos": 24,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viamão",
+    "slug": "VIAMAO",
+    "cod_ibge": "4323002",
+    "vagas_total": 40,
+    "matriculas": 161,
+    "ingressos": 40,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Farroupilha",
+    "slug": "FARROUPILHA",
+    "cod_ibge": "4307906",
+    "vagas_total": 38,
+    "matriculas": 121,
+    "ingressos": 31,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Veranópolis",
+    "slug": "VERANOPOLIS",
+    "cod_ibge": "4322806",
+    "vagas_total": 36,
+    "matriculas": 91,
+    "ingressos": 33,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Osório",
+    "slug": "OSORIO",
+    "cod_ibge": "4313508",
+    "vagas_total": 35,
+    "matriculas": 53,
+    "ingressos": 35,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Feliz",
+    "slug": "FELIZ",
+    "cod_ibge": "4308102",
+    "vagas_total": 33,
+    "matriculas": 81,
+    "ingressos": 33,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

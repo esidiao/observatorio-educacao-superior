@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 5045,
+    "matriculas": 4049,
+    "ingressos": 1272,
+    "concluintes": 611,
+    "n_cursos": 19,
+    "n_ies": 13
+  },
+  {
+    "nome": "Niterói",
+    "slug": "NITEROI",
+    "cod_ibge": "3303302",
+    "vagas_total": 1059,
+    "matriculas": 823,
+    "ingressos": 280,
+    "concluintes": 99,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Petrópolis",
+    "slug": "PETROPOLIS",
+    "cod_ibge": "3303906",
+    "vagas_total": 852,
+    "matriculas": 138,
+    "ingressos": 55,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Nova Friburgo",
+    "slug": "NOVA_FRIBURGO",
+    "cod_ibge": "3303401",
+    "vagas_total": 693,
+    "matriculas": 117,
+    "ingressos": 32,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cabo Frio",
+    "slug": "CABO_FRIO",
+    "cod_ibge": "3300704",
+    "vagas_total": 243,
+    "matriculas": 122,
+    "ingressos": 46,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Resende",
+    "slug": "RESENDE",
+    "cod_ibge": "3304201",
+    "vagas_total": 140,
+    "matriculas": 87,
+    "ingressos": 18,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Volta Redonda",
+    "slug": "VOLTA_REDONDA",
+    "cod_ibge": "3306305",
+    "vagas_total": 73,
+    "matriculas": 97,
+    "ingressos": 38,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Duque de Caxias",
+    "slug": "DUQUE_DE_CAXIAS",
+    "cod_ibge": "3301702",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

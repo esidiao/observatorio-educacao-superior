@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 302,
+    "matriculas": 394,
+    "ingressos": 190,
+    "concluintes": 70,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 99,
+    "matriculas": 260,
+    "ingressos": 75,
+    "concluintes": 41,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

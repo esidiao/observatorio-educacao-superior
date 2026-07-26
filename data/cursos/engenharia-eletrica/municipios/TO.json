@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "1721000",
+    "vagas_total": 220,
+    "matriculas": 601,
+    "ingressos": 122,
+    "concluintes": 63,
+    "n_cursos": 3,
+    "n_ies": 3
+  }
+]

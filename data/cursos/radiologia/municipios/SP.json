@@ -1,0 +1,222 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 4777,
+    "matriculas": 2022,
+    "ingressos": 848,
+    "concluintes": 478,
+    "n_cursos": 20,
+    "n_ies": 16
+  },
+  {
+    "nome": "Carapicuíba",
+    "slug": "CARAPICUIBA",
+    "cod_ibge": "3510609",
+    "vagas_total": 1188,
+    "matriculas": 49,
+    "ingressos": 19,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarulhos",
+    "slug": "GUARULHOS",
+    "cod_ibge": "3518800",
+    "vagas_total": 382,
+    "matriculas": 134,
+    "ingressos": 60,
+    "concluintes": 39,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santo André",
+    "slug": "SANTO_ANDRE",
+    "cod_ibge": "3547809",
+    "vagas_total": 272,
+    "matriculas": 70,
+    "ingressos": 34,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São José do Rio Preto",
+    "slug": "SAO_JOSE_DO_RIO_PRETO",
+    "cod_ibge": "3549805",
+    "vagas_total": 253,
+    "matriculas": 74,
+    "ingressos": 49,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Taboão da Serra",
+    "slug": "TABOAO_DA_SERRA",
+    "cod_ibge": "3552809",
+    "vagas_total": 220,
+    "matriculas": 86,
+    "ingressos": 59,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mogi das Cruzes",
+    "slug": "MOGI_DAS_CRUZES",
+    "cod_ibge": "3530607",
+    "vagas_total": 169,
+    "matriculas": 174,
+    "ingressos": 98,
+    "concluintes": 47,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santos",
+    "slug": "SANTOS",
+    "cod_ibge": "3548500",
+    "vagas_total": 158,
+    "matriculas": 28,
+    "ingressos": 20,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 152,
+    "matriculas": 13,
+    "ingressos": 20,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Franca",
+    "slug": "FRANCA",
+    "cod_ibge": "3516200",
+    "vagas_total": 126,
+    "matriculas": 35,
+    "ingressos": 29,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Presidente Prudente",
+    "slug": "PRESIDENTE_PRUDENTE",
+    "cod_ibge": "3541406",
+    "vagas_total": 120,
+    "matriculas": 14,
+    "ingressos": 0,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José dos Campos",
+    "slug": "SAO_JOSE_DOS_CAMPOS",
+    "cod_ibge": "3549904",
+    "vagas_total": 116,
+    "matriculas": 7,
+    "ingressos": 12,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 115,
+    "matriculas": 29,
+    "ingressos": 6,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ribeirão Preto",
+    "slug": "RIBEIRAO_PRETO",
+    "cod_ibge": "3543402",
+    "vagas_total": 114,
+    "matriculas": 148,
+    "ingressos": 60,
+    "concluintes": 43,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itu",
+    "slug": "ITU",
+    "cod_ibge": "3523909",
+    "vagas_total": 108,
+    "matriculas": 60,
+    "ingressos": 39,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bauru",
+    "slug": "BAURU",
+    "cod_ibge": "3506003",
+    "vagas_total": 81,
+    "matriculas": 6,
+    "ingressos": 11,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Botucatu",
+    "slug": "BOTUCATU",
+    "cod_ibge": "3507506",
+    "vagas_total": 80,
+    "matriculas": 169,
+    "ingressos": 85,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cruzeiro",
+    "slug": "CRUZEIRO",
+    "cod_ibge": "3513405",
+    "vagas_total": 60,
+    "matriculas": 6,
+    "ingressos": 6,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Limpo Paulista",
+    "slug": "CAMPO_LIMPO_PAULISTA",
+    "cod_ibge": "3509601",
+    "vagas_total": 50,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pindamonhangaba",
+    "slug": "PINDAMONHANGABA",
+    "cod_ibge": "3538006",
+    "vagas_total": 40,
+    "matriculas": 8,
+    "ingressos": 16,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

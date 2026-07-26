@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Cidade Gaúcha",
+    "slug": "CIDADE_GAUCHA",
+    "cod_ibge": "4105607",
+    "vagas_total": 212,
+    "matriculas": 28,
+    "ingressos": 20,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jandaia do Sul",
+    "slug": "JANDAIA_DO_SUL",
+    "cod_ibge": "4112108",
+    "vagas_total": 71,
+    "matriculas": 73,
+    "ingressos": 23,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 50,
+    "matriculas": 136,
+    "ingressos": 24,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

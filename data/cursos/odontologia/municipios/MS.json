@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Campo Grande",
+    "slug": "CAMPO_GRANDE",
+    "cod_ibge": "5002704",
+    "vagas_total": 496,
+    "matriculas": 1292,
+    "ingressos": 392,
+    "concluintes": 252,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Dourados",
+    "slug": "DOURADOS",
+    "cod_ibge": "5003702",
+    "vagas_total": 107,
+    "matriculas": 301,
+    "ingressos": 55,
+    "concluintes": 48,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Três Lagoas",
+    "slug": "TRES_LAGOAS",
+    "cod_ibge": "5008305",
+    "vagas_total": 100,
+    "matriculas": 167,
+    "ingressos": 49,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

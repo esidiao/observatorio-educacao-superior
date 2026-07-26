@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Santo Amaro",
+    "slug": "SANTO_AMARO",
+    "cod_ibge": "2928604",
+    "vagas_total": 93,
+    "matriculas": 31,
+    "ingressos": 10,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

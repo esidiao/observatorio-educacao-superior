@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 1046,
+    "matriculas": 146,
+    "ingressos": 73,
+    "concluintes": 60,
+    "n_cursos": 11,
+    "n_ies": 11
+  },
+  {
+    "nome": "Campo Mourão",
+    "slug": "CAMPO_MOURAO",
+    "cod_ibge": "4104303",
+    "vagas_total": 187,
+    "matriculas": 8,
+    "ingressos": 6,
+    "concluintes": 1,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Araucária",
+    "slug": "ARAUCARIA",
+    "cod_ibge": "4101804",
+    "vagas_total": 110,
+    "matriculas": 32,
+    "ingressos": 18,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Colombo",
+    "slug": "COLOMBO",
+    "cod_ibge": "4105805",
+    "vagas_total": 100,
+    "matriculas": 11,
+    "ingressos": 6,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 100,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pinhais",
+    "slug": "PINHAIS",
+    "cod_ibge": "4119152",
+    "vagas_total": 100,
+    "matriculas": 21,
+    "ingressos": 14,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 100,
+    "matriculas": 16,
+    "ingressos": 14,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ivaiporã",
+    "slug": "IVAIPORA",
+    "cod_ibge": "4111506",
+    "vagas_total": 68,
+    "matriculas": 23,
+    "ingressos": 9,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José dos Pinhais",
+    "slug": "SAO_JOSE_DOS_PINHAIS",
+    "cod_ibge": "4125506",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Manaus",
+    "slug": "MANAUS",
+    "cod_ibge": "1302603",
+    "vagas_total": 614,
+    "matriculas": 749,
+    "ingressos": 144,
+    "concluintes": 95,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Parintins",
+    "slug": "PARINTINS",
+    "cod_ibge": "1303403",
+    "vagas_total": 130,
+    "matriculas": 183,
+    "ingressos": 36,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barcelos",
+    "slug": "BARCELOS",
+    "cod_ibge": "1300409",
+    "vagas_total": 112,
+    "matriculas": 52,
+    "ingressos": 51,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tabatinga",
+    "slug": "TABATINGA",
+    "cod_ibge": "1304062",
+    "vagas_total": 64,
+    "matriculas": 214,
+    "ingressos": 40,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Apuí",
+    "slug": "APUI",
+    "cod_ibge": "1300144",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Atalaia do Norte",
+    "slug": "ATALAIA_DO_NORTE",
+    "cod_ibge": "1300201",
+    "vagas_total": 0,
+    "matriculas": 24,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Antônio do Içá",
+    "slug": "SANTO_ANTONIO_DO_ICA",
+    "cod_ibge": "1303700",
+    "vagas_total": 0,
+    "matriculas": 29,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tefé",
+    "slug": "TEFE",
+    "cod_ibge": "1304203",
+    "vagas_total": 0,
+    "matriculas": 106,
+    "ingressos": 0,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

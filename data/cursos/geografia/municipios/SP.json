@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 234,
+    "matriculas": 903,
+    "ingressos": 172,
+    "concluintes": 116,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 50,
+    "matriculas": 223,
+    "ingressos": 50,
+    "concluintes": 50,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Presidente Prudente",
+    "slug": "PRESIDENTE_PRUDENTE",
+    "cod_ibge": "3541406",
+    "vagas_total": 8,
+    "matriculas": 144,
+    "ingressos": 0,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ourinhos",
+    "slug": "OURINHOS",
+    "cod_ibge": "3534708",
+    "vagas_total": 0,
+    "matriculas": 54,
+    "ingressos": 0,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Claro",
+    "slug": "RIO_CLARO",
+    "cod_ibge": "3543907",
+    "vagas_total": 0,
+    "matriculas": 245,
+    "ingressos": 0,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

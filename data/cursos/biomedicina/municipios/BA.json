@@ -1,0 +1,222 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 2929,
+    "matriculas": 1889,
+    "ingressos": 890,
+    "concluintes": 227,
+    "n_cursos": 12,
+    "n_ies": 12
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 1648,
+    "matriculas": 741,
+    "ingressos": 266,
+    "concluintes": 93,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Vitória da Conquista",
+    "slug": "VITORIA_DA_CONQUISTA",
+    "cod_ibge": "2933307",
+    "vagas_total": 743,
+    "matriculas": 404,
+    "ingressos": 125,
+    "concluintes": 70,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Valença",
+    "slug": "VALENCA",
+    "cod_ibge": "2932903",
+    "vagas_total": 304,
+    "matriculas": 8,
+    "ingressos": 7,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itabuna",
+    "slug": "ITABUNA",
+    "cod_ibge": "2914802",
+    "vagas_total": 303,
+    "matriculas": 202,
+    "ingressos": 123,
+    "concluintes": 27,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Luís Eduardo Magalhães",
+    "slug": "LUIS_EDUARDO_MAGALHAES",
+    "cod_ibge": "2919553",
+    "vagas_total": 300,
+    "matriculas": 117,
+    "ingressos": 41,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ilhéus",
+    "slug": "ILHEUS",
+    "cod_ibge": "2913606",
+    "vagas_total": 207,
+    "matriculas": 272,
+    "ingressos": 79,
+    "concluintes": 43,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Jequié",
+    "slug": "JEQUIE",
+    "cod_ibge": "2918001",
+    "vagas_total": 169,
+    "matriculas": 164,
+    "ingressos": 54,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Conceição do Coité",
+    "slug": "CONCEICAO_DO_COITE",
+    "cod_ibge": "2908408",
+    "vagas_total": 160,
+    "matriculas": 179,
+    "ingressos": 74,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lauro de Freitas",
+    "slug": "LAURO_DE_FREITAS",
+    "cod_ibge": "2919207",
+    "vagas_total": 157,
+    "matriculas": 337,
+    "ingressos": 148,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barreiras",
+    "slug": "BARREIRAS",
+    "cod_ibge": "2903201",
+    "vagas_total": 149,
+    "matriculas": 260,
+    "ingressos": 104,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alagoinhas",
+    "slug": "ALAGOINHAS",
+    "cod_ibge": "2900702",
+    "vagas_total": 140,
+    "matriculas": 75,
+    "ingressos": 31,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cruz das Almas",
+    "slug": "CRUZ_DAS_ALMAS",
+    "cod_ibge": "2909802",
+    "vagas_total": 120,
+    "matriculas": 111,
+    "ingressos": 47,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Teixeira de Freitas",
+    "slug": "TEIXEIRA_DE_FREITAS",
+    "cod_ibge": "2931350",
+    "vagas_total": 79,
+    "matriculas": 113,
+    "ingressos": 36,
+    "concluintes": 4,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Paulo Afonso",
+    "slug": "PAULO_AFONSO",
+    "cod_ibge": "2924009",
+    "vagas_total": 75,
+    "matriculas": 145,
+    "ingressos": 46,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guanambi",
+    "slug": "GUANAMBI",
+    "cod_ibge": "2911709",
+    "vagas_total": 53,
+    "matriculas": 145,
+    "ingressos": 53,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capim Grosso",
+    "slug": "CAPIM_GROSSO",
+    "cod_ibge": "2906873",
+    "vagas_total": 40,
+    "matriculas": 40,
+    "ingressos": 24,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Irecê",
+    "slug": "IRECE",
+    "cod_ibge": "2914604",
+    "vagas_total": 29,
+    "matriculas": 26,
+    "ingressos": 29,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paripiranga",
+    "slug": "PARIPIRANGA",
+    "cod_ibge": "2923803",
+    "vagas_total": 26,
+    "matriculas": 78,
+    "ingressos": 26,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Eunápolis",
+    "slug": "EUNAPOLIS",
+    "cod_ibge": "2910727",
+    "vagas_total": 0,
+    "matriculas": 68,
+    "ingressos": 0,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

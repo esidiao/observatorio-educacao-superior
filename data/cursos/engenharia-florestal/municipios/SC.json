@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Curitibanos",
+    "slug": "CURITIBANOS",
+    "cod_ibge": "4204806",
+    "vagas_total": 261,
+    "matriculas": 99,
+    "ingressos": 19,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lages",
+    "slug": "LAGES",
+    "cod_ibge": "4209300",
+    "vagas_total": 120,
+    "matriculas": 177,
+    "ingressos": 53,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Blumenau",
+    "slug": "BLUMENAU",
+    "cod_ibge": "4202404",
+    "vagas_total": 0,
+    "matriculas": 12,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

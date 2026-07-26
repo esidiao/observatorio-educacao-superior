@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 117,
+    "matriculas": 155,
+    "ingressos": 72,
+    "concluintes": 23,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Barracão",
+    "slug": "BARRACAO",
+    "cod_ibge": "4102604",
+    "vagas_total": 42,
+    "matriculas": 25,
+    "ingressos": 41,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "nome": "Itajaí",
+    "slug": "ITAJAI",
+    "cod_ibge": "4208203",
+    "vagas_total": 558,
+    "matriculas": 136,
+    "ingressos": 67,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joinville",
+    "slug": "JOINVILLE",
+    "cod_ibge": "4209102",
+    "vagas_total": 244,
+    "matriculas": 63,
+    "ingressos": 10,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Francisco do Sul",
+    "slug": "SAO_FRANCISCO_DO_SUL",
+    "cod_ibge": "4216206",
+    "vagas_total": 198,
+    "matriculas": 40,
+    "ingressos": 20,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Laguna",
+    "slug": "LAGUNA",
+    "cod_ibge": "4209409",
+    "vagas_total": 132,
+    "matriculas": 233,
+    "ingressos": 94,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Criciúma",
+    "slug": "CRICIUMA",
+    "cod_ibge": "4204608",
+    "vagas_total": 68,
+    "matriculas": 127,
+    "ingressos": 35,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Joaçaba",
+    "slug": "JOACABA",
+    "cod_ibge": "4209003",
+    "vagas_total": 53,
+    "matriculas": 59,
+    "ingressos": 18,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Blumenau",
+    "slug": "BLUMENAU",
+    "cod_ibge": "4202404",
+    "vagas_total": 50,
+    "matriculas": 85,
+    "ingressos": 37,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Chapecó",
+    "slug": "CHAPECO",
+    "cod_ibge": "4204202",
+    "vagas_total": 50,
+    "matriculas": 69,
+    "ingressos": 29,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tubarão",
+    "slug": "TUBARAO",
+    "cod_ibge": "4218707",
+    "vagas_total": 7,
+    "matriculas": 20,
+    "ingressos": 7,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 3,
+    "matriculas": 28,
+    "ingressos": 3,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

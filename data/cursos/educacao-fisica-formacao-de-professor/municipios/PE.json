@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 875,
+    "matriculas": 2105,
+    "ingressos": 573,
+    "concluintes": 143,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Serra Talhada",
+    "slug": "SERRA_TALHADA",
+    "cod_ibge": "2613909",
+    "vagas_total": 144,
+    "matriculas": 93,
+    "ingressos": 48,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiana",
+    "slug": "GOIANA",
+    "cod_ibge": "2606200",
+    "vagas_total": 130,
+    "matriculas": 17,
+    "ingressos": 2,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arcoverde",
+    "slug": "ARCOVERDE",
+    "cod_ibge": "2601201",
+    "vagas_total": 102,
+    "matriculas": 255,
+    "ingressos": 89,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 100,
+    "matriculas": 21,
+    "ingressos": 19,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória de Santo Antão",
+    "slug": "VITORIA_DE_SANTO_ANTAO",
+    "cod_ibge": "2616407",
+    "vagas_total": 90,
+    "matriculas": 305,
+    "ingressos": 85,
+    "concluintes": 43,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bezerros",
+    "slug": "BEZERROS",
+    "cod_ibge": "2601904",
+    "vagas_total": 80,
+    "matriculas": 1,
+    "ingressos": 2,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 29,
+    "matriculas": 37,
+    "ingressos": 19,
+    "concluintes": 17,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

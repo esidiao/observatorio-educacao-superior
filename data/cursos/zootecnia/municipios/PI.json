@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Bom Jesus",
+    "slug": "BOM_JESUS",
+    "cod_ibge": "2201903",
+    "vagas_total": 120,
+    "matriculas": 172,
+    "ingressos": 54,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 115,
+    "matriculas": 315,
+    "ingressos": 88,
+    "concluintes": 21,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Corrente",
+    "slug": "CORRENTE",
+    "cod_ibge": "2202901",
+    "vagas_total": 40,
+    "matriculas": 105,
+    "ingressos": 26,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paulistana",
+    "slug": "PAULISTANA",
+    "cod_ibge": "2207801",
+    "vagas_total": 40,
+    "matriculas": 67,
+    "ingressos": 30,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

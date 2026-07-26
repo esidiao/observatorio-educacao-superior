@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 117,
+    "matriculas": 252,
+    "ingressos": 105,
+    "concluintes": 21,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "João Câmara",
+    "slug": "JOAO_CAMARA",
+    "cod_ibge": "2405801",
+    "vagas_total": 58,
+    "matriculas": 93,
+    "ingressos": 33,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 56,
+    "matriculas": 57,
+    "ingressos": 21,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caraúbas",
+    "slug": "CARAUBAS",
+    "cod_ibge": "2402303",
+    "vagas_total": 46,
+    "matriculas": 12,
+    "ingressos": 15,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz",
+    "slug": "SANTA_CRUZ",
+    "cod_ibge": "2411205",
+    "vagas_total": 42,
+    "matriculas": 99,
+    "ingressos": 36,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caicó",
+    "slug": "CAICO",
+    "cod_ibge": "2402006",
+    "vagas_total": 41,
+    "matriculas": 61,
+    "ingressos": 34,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

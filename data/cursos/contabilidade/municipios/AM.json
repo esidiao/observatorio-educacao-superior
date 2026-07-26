@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Manaus",
+    "slug": "MANAUS",
+    "cod_ibge": "1302603",
+    "vagas_total": 5848,
+    "matriculas": 3479,
+    "ingressos": 1180,
+    "concluintes": 384,
+    "n_cursos": 19,
+    "n_ies": 15
+  },
+  {
+    "nome": "Boca do Acre",
+    "slug": "BOCA_DO_ACRE",
+    "cod_ibge": "1300706",
+    "vagas_total": 45,
+    "matriculas": 26,
+    "ingressos": 0,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Carauari",
+    "slug": "CARAUARI",
+    "cod_ibge": "1301001",
+    "vagas_total": 45,
+    "matriculas": 19,
+    "ingressos": 0,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Careiro",
+    "slug": "CAREIRO",
+    "cod_ibge": "1301100",
+    "vagas_total": 45,
+    "matriculas": 27,
+    "ingressos": 0,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Humaitá",
+    "slug": "HUMAITA",
+    "cod_ibge": "1301704",
+    "vagas_total": 45,
+    "matriculas": 12,
+    "ingressos": 0,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Manacapuru",
+    "slug": "MANACAPURU",
+    "cod_ibge": "1302504",
+    "vagas_total": 45,
+    "matriculas": 24,
+    "ingressos": 0,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Manicoré",
+    "slug": "MANICORE",
+    "cod_ibge": "1302702",
+    "vagas_total": 45,
+    "matriculas": 28,
+    "ingressos": 0,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Gabriel da Cachoeira",
+    "slug": "SAO_GABRIEL_DA_CACHOEIRA",
+    "cod_ibge": "1303809",
+    "vagas_total": 45,
+    "matriculas": 26,
+    "ingressos": 1,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

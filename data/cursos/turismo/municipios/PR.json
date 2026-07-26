@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Apucarana",
+    "slug": "APUCARANA",
+    "cod_ibge": "4101408",
+    "vagas_total": 75,
+    "matriculas": 51,
+    "ingressos": 15,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 66,
+    "matriculas": 144,
+    "ingressos": 40,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Mourão",
+    "slug": "CAMPO_MOURAO",
+    "cod_ibge": "4104303",
+    "vagas_total": 61,
+    "matriculas": 56,
+    "ingressos": 21,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 50,
+    "matriculas": 119,
+    "ingressos": 35,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Irati",
+    "slug": "IRATI",
+    "cod_ibge": "4110706",
+    "vagas_total": 50,
+    "matriculas": 24,
+    "ingressos": 8,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Matinhos",
+    "slug": "MATINHOS",
+    "cod_ibge": "4115705",
+    "vagas_total": 48,
+    "matriculas": 66,
+    "ingressos": 24,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Loanda",
+    "slug": "LOANDA",
+    "cod_ibge": "4113502",
+    "vagas_total": 40,
+    "matriculas": 24,
+    "ingressos": 24,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 40,
+    "matriculas": 84,
+    "ingressos": 38,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

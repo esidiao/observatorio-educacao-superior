@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 371,
+    "matriculas": 485,
+    "ingressos": 232,
+    "concluintes": 52,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "Barra do Bugres",
+    "slug": "BARRA_DO_BUGRES",
+    "cod_ibge": "5101704",
+    "vagas_total": 121,
+    "matriculas": 264,
+    "ingressos": 85,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rondonópolis",
+    "slug": "RONDONOPOLIS",
+    "cod_ibge": "5107602",
+    "vagas_total": 111,
+    "matriculas": 127,
+    "ingressos": 44,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cáceres",
+    "slug": "CACERES",
+    "cod_ibge": "5102504",
+    "vagas_total": 103,
+    "matriculas": 248,
+    "ingressos": 78,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alto Araguaia",
+    "slug": "ALTO_ARAGUAIA",
+    "cod_ibge": "5100300",
+    "vagas_total": 67,
+    "matriculas": 108,
+    "ingressos": 49,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barra do Garças",
+    "slug": "BARRA_DO_GARCAS",
+    "cod_ibge": "5101803",
+    "vagas_total": 46,
+    "matriculas": 126,
+    "ingressos": 41,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

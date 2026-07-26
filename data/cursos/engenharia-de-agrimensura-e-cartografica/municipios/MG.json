@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Monte Carmelo",
+    "slug": "MONTE_CARMELO",
+    "cod_ibge": "3143104",
+    "vagas_total": 190,
+    "matriculas": 72,
+    "ingressos": 3,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Inconfidentes",
+    "slug": "INCONFIDENTES",
+    "cod_ibge": "3130606",
+    "vagas_total": 79,
+    "matriculas": 75,
+    "ingressos": 31,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 57,
+    "matriculas": 143,
+    "ingressos": 45,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

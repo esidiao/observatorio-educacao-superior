@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Cachoeira do Sul",
+    "slug": "CACHOEIRA_DO_SUL",
+    "cod_ibge": "4303004",
+    "vagas_total": 653,
+    "matriculas": 115,
+    "ingressos": 30,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pelotas",
+    "slug": "PELOTAS",
+    "cod_ibge": "4314407",
+    "vagas_total": 132,
+    "matriculas": 109,
+    "ingressos": 42,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alegrete",
+    "slug": "ALEGRETE",
+    "cod_ibge": "4300406",
+    "vagas_total": 55,
+    "matriculas": 76,
+    "ingressos": 27,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 2,
+    "matriculas": 18,
+    "ingressos": 1,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

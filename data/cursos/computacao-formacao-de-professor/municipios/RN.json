@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Angicos",
+    "slug": "ANGICOS",
+    "cod_ibge": "2400802",
+    "vagas_total": 105,
+    "matriculas": 119,
+    "ingressos": 0,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipanguaçu",
+    "slug": "IPANGUACU",
+    "cod_ibge": "2404705",
+    "vagas_total": 51,
+    "matriculas": 114,
+    "ingressos": 24,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 40,
+    "matriculas": 115,
+    "ingressos": 34,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

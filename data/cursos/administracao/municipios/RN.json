@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 6374,
+    "matriculas": 1741,
+    "ingressos": 559,
+    "concluintes": 244,
+    "n_cursos": 14,
+    "n_ies": 9
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 815,
+    "matriculas": 884,
+    "ingressos": 180,
+    "concluintes": 71,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Caicó",
+    "slug": "CAICO",
+    "cod_ibge": "2402006",
+    "vagas_total": 200,
+    "matriculas": 60,
+    "ingressos": 43,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pau dos Ferros",
+    "slug": "PAU_DOS_FERROS",
+    "cod_ibge": "2409407",
+    "vagas_total": 157,
+    "matriculas": 223,
+    "ingressos": 59,
+    "concluintes": 44,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Açu",
+    "slug": "ACU",
+    "cod_ibge": "2400208",
+    "vagas_total": 110,
+    "matriculas": 77,
+    "ingressos": 27,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Currais Novos",
+    "slug": "CURRAIS_NOVOS",
+    "cod_ibge": "2403103",
+    "vagas_total": 55,
+    "matriculas": 198,
+    "ingressos": 43,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

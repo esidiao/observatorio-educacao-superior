@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Seropédica",
+    "slug": "SEROPEDICA",
+    "cod_ibge": "3305554",
+    "vagas_total": 136,
+    "matriculas": 345,
+    "ingressos": 81,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

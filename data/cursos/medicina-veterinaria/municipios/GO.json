@@ -1,0 +1,200 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 1501,
+    "matriculas": 3179,
+    "ingressos": 941,
+    "concluintes": 415,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Trindade",
+    "slug": "TRINDADE",
+    "cod_ibge": "5221403",
+    "vagas_total": 733,
+    "matriculas": 495,
+    "ingressos": 258,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 520,
+    "matriculas": 872,
+    "ingressos": 338,
+    "concluintes": 118,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Rio Verde",
+    "slug": "RIO_VERDE",
+    "cod_ibge": "5218805",
+    "vagas_total": 435,
+    "matriculas": 794,
+    "ingressos": 309,
+    "concluintes": 51,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Mineiros",
+    "slug": "MINEIROS",
+    "cod_ibge": "5213103",
+    "vagas_total": 265,
+    "matriculas": 233,
+    "ingressos": 60,
+    "concluintes": 44,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Luís de Montes Belos",
+    "slug": "SAO_LUIS_DE_MONTES_BELOS",
+    "cod_ibge": "5220108",
+    "vagas_total": 211,
+    "matriculas": 457,
+    "ingressos": 120,
+    "concluintes": 103,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Luziânia",
+    "slug": "LUZIANIA",
+    "cod_ibge": "5212501",
+    "vagas_total": 204,
+    "matriculas": 359,
+    "ingressos": 87,
+    "concluintes": 62,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porangatu",
+    "slug": "PORANGATU",
+    "cod_ibge": "5218003",
+    "vagas_total": 185,
+    "matriculas": 320,
+    "ingressos": 119,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Goianésia",
+    "slug": "GOIANESIA",
+    "cod_ibge": "5208608",
+    "vagas_total": 170,
+    "matriculas": 68,
+    "ingressos": 44,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Inhumas",
+    "slug": "INHUMAS",
+    "cod_ibge": "5210000",
+    "vagas_total": 134,
+    "matriculas": 236,
+    "ingressos": 78,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jataí",
+    "slug": "JATAI",
+    "cod_ibge": "5211909",
+    "vagas_total": 128,
+    "matriculas": 465,
+    "ingressos": 123,
+    "concluintes": 76,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Palmeiras de Goiás",
+    "slug": "PALMEIRAS_DE_GOIAS",
+    "cod_ibge": "5215702",
+    "vagas_total": 127,
+    "matriculas": 108,
+    "ingressos": 62,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caldas Novas",
+    "slug": "CALDAS_NOVAS",
+    "cod_ibge": "5204508",
+    "vagas_total": 110,
+    "matriculas": 103,
+    "ingressos": 54,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Iporá",
+    "slug": "IPORA",
+    "cod_ibge": "5210208",
+    "vagas_total": 100,
+    "matriculas": 25,
+    "ingressos": 28,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Goiatuba",
+    "slug": "GOIATUBA",
+    "cod_ibge": "5209101",
+    "vagas_total": 89,
+    "matriculas": 179,
+    "ingressos": 89,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catalão",
+    "slug": "CATALAO",
+    "cod_ibge": "5205109",
+    "vagas_total": 71,
+    "matriculas": 217,
+    "ingressos": 71,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itumbiara",
+    "slug": "ITUMBIARA",
+    "cod_ibge": "5211503",
+    "vagas_total": 49,
+    "matriculas": 82,
+    "ingressos": 49,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Urutaí",
+    "slug": "URUTAI",
+    "cod_ibge": "5221809",
+    "vagas_total": 49,
+    "matriculas": 218,
+    "ingressos": 45,
+    "concluintes": 40,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Itapetinga",
+    "slug": "ITAPETINGA",
+    "cod_ibge": "2916401",
+    "vagas_total": 68,
+    "matriculas": 29,
+    "ingressos": 35,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

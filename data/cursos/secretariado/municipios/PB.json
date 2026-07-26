@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Mamanguape",
+    "slug": "MAMANGUAPE",
+    "cod_ibge": "2508901",
+    "vagas_total": 113,
+    "matriculas": 303,
+    "ingressos": 86,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

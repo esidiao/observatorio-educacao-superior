@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "2709400",
+    "vagas_total": 75,
+    "matriculas": 38,
+    "ingressos": 18,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Largo",
+    "slug": "RIO_LARGO",
+    "cod_ibge": "2707701",
+    "vagas_total": 65,
+    "matriculas": 118,
+    "ingressos": 46,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maceió",
+    "slug": "MACEIO",
+    "cod_ibge": "2704302",
+    "vagas_total": 60,
+    "matriculas": 38,
+    "ingressos": 0,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

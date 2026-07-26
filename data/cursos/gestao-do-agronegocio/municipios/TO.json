@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Porto Nacional",
+    "slug": "PORTO_NACIONAL",
+    "cod_ibge": "1718204",
+    "vagas_total": 126,
+    "matriculas": 38,
+    "ingressos": 13,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Augustinópolis",
+    "slug": "AUGUSTINOPOLIS",
+    "cod_ibge": "1702554",
+    "vagas_total": 100,
+    "matriculas": 17,
+    "ingressos": 3,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paraíso do Tocantins",
+    "slug": "PARAISO_DO_TOCANTINS",
+    "cod_ibge": "1716109",
+    "vagas_total": 69,
+    "matriculas": 86,
+    "ingressos": 24,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

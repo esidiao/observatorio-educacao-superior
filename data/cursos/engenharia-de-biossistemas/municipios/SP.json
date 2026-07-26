@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Pirassununga",
+    "slug": "PIRASSUNUNGA",
+    "cod_ibge": "3539301",
+    "vagas_total": 106,
+    "matriculas": 233,
+    "ingressos": 43,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tupã",
+    "slug": "TUPA",
+    "cod_ibge": "3555000",
+    "vagas_total": 59,
+    "matriculas": 165,
+    "ingressos": 30,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Avaré",
+    "slug": "AVARE",
+    "cod_ibge": "3504503",
+    "vagas_total": 42,
+    "matriculas": 71,
+    "ingressos": 40,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

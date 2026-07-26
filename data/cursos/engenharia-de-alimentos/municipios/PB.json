@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Pombal",
+    "slug": "POMBAL",
+    "cod_ibge": "2512101",
+    "vagas_total": 218,
+    "matriculas": 81,
+    "ingressos": 9,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 91,
+    "matriculas": 168,
+    "ingressos": 60,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 85,
+    "matriculas": 88,
+    "ingressos": 32,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

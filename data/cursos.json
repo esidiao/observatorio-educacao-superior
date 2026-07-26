@@ -1,11 +1,178 @@
 {
-  "_nota": "Catálogo de cursos do observatório. 'cine_rotulo' deve bater EXATAMENTE com NO_CINE_ROTULO dos microdados do Censo (match exato, nunca substring — 'Medicina' por substring capturaria 'Biomedicina' e 'Medicina veterinária'). 'enade_ano' é o ciclo ENADE vigente para a área; null quando não há ciclo aplicável/publicado. 'cobertura' declara a proxy territorial de cobertura correlata; null quando não existe fonte oficial adequada para a área — nesse caso o indicador não é exibido, jamais estimado.",
+  "_nota": "Catálogo gerado por etl/catalogo.py a partir de NO_CINE_ROTULO dos microdados do Censo — não editar à mão, exceto os campos preservados 'cobertura' e 'enade_ano'. 'cine_rotulo' bate EXATAMENTE com o rótulo do Censo (match exato, nunca substring — 'Medicina' por substring capturaria 'Biomedicina' e 'Medicina veterinária'). 'cpc_area' é a área de avaliação correspondente na planilha do CPC; null quando o curso está fora do ciclo ENADE publicado, e então não há IAF. 'cobertura' declara a proxy territorial de cobertura correlata; null quando não existe fonte oficial adequada — nesse caso o indicador não é exibido, jamais estimado.",
   "cursos": [
+    {
+      "slug": "pedagogia",
+      "nome": "Pedagogia",
+      "cine_rotulo": "Pedagogia",
+      "cine_codigo": "0113P01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "bacharelado",
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "administracao",
+      "nome": "Administração",
+      "cine_rotulo": "Administração",
+      "cine_codigo": "0413A01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "sistemas-de-informacao",
+      "nome": "Sistemas de informação",
+      "cine_rotulo": "Sistemas de informação",
+      "cine_codigo": "0613S01",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "contabilidade",
+      "nome": "Contabilidade",
+      "cine_rotulo": "Contabilidade",
+      "cine_codigo": "0411C01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-de-pessoas",
+      "nome": "Gestão de pessoas",
+      "cine_rotulo": "Gestão de pessoas",
+      "cine_codigo": "0413G07",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "marketing",
+      "nome": "Marketing",
+      "cine_rotulo": "Marketing",
+      "cine_codigo": "0414M01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "direito",
+      "nome": "Direito",
+      "cine_rotulo": "Direito",
+      "cine_codigo": "0421D01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Direito",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": 2024,
+      "cobertura": null
+    },
+    {
+      "slug": "enfermagem",
+      "nome": "Enfermagem",
+      "cine_rotulo": "Enfermagem",
+      "cine_codigo": "0913E01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": "ENFERMAGEM",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "logistica",
+      "nome": "Logística",
+      "cine_rotulo": "Logística",
+      "cine_codigo": "0413L01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "fisioterapia",
+      "nome": "Fisioterapia",
+      "cine_rotulo": "Fisioterapia",
+      "cine_codigo": "0915F01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "FISIOTERAPIA",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-civil",
+      "nome": "Engenharia civil",
+      "cine_rotulo": "Engenharia civil",
+      "cine_codigo": "0732E01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Arquitetura e construção",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "ENGENHARIA CIVIL",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
     {
       "slug": "farmacia",
       "nome": "Farmácia",
       "cine_rotulo": "Farmácia",
+      "cine_codigo": "0916F01",
       "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "FARMÁCIA",
       "enade_ano": 2023,
       "cobertura": {
         "indicador": "ICON",
@@ -15,27 +182,4852 @@
       }
     },
     {
+      "slug": "educacao-fisica",
+      "nome": "Educação física",
+      "cine_rotulo": "Educação física",
+      "cine_codigo": "0915E01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-de-negocios",
+      "nome": "Gestão de negócios",
+      "cine_rotulo": "Gestão de negócios",
+      "cine_codigo": "0413G05",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "nutricao",
+      "nome": "Nutrição",
+      "cine_rotulo": "Nutrição",
+      "cine_codigo": "0915N01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": "NUTRIÇÃO",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-financeira",
+      "nome": "Gestão financeira",
+      "cine_rotulo": "Gestão financeira",
+      "cine_codigo": "0412G01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "biomedicina",
+      "nome": "Biomedicina",
+      "cine_rotulo": "Biomedicina",
+      "cine_codigo": "0914B01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "BIOMEDICINA",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-comercial",
+      "nome": "Gestão comercial",
+      "cine_rotulo": "Gestão comercial",
+      "cine_codigo": "0416G01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-producao",
+      "nome": "Engenharia de produção",
+      "cine_rotulo": "Engenharia de produção",
+      "cine_codigo": "0725E02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "ENGENHARIA DE PRODUÇÃO",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "servico-social",
+      "nome": "Serviço social",
+      "cine_rotulo": "Serviço social",
+      "cine_codigo": "0923S01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Bem-estar",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-formacao-de-professor",
+      "nome": "Letras português formação de professor",
+      "cine_rotulo": "Letras português formação de professor",
+      "cine_codigo": "0115L13",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-publica",
+      "nome": "Gestão pública",
+      "cine_rotulo": "Gestão pública",
+      "cine_codigo": "0413G12",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "economia",
+      "nome": "Economia",
+      "cine_rotulo": "Economia",
+      "cine_codigo": "0311E01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Ciências sociais e comportamentais",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "historia-formacao-de-professor",
+      "nome": "História formação de professor",
+      "cine_rotulo": "História formação de professor",
+      "cine_codigo": "0114H01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "matematica-formacao-de-professor",
+      "nome": "Matemática formação de professor",
+      "cine_rotulo": "Matemática formação de professor",
+      "cine_codigo": "0114M01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "psicologia",
+      "nome": "Psicologia",
+      "cine_rotulo": "Psicologia",
+      "cine_codigo": "0313P01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Ciências sociais e comportamentais",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-da-tecnologia-da-informacao",
+      "nome": "Gestão da tecnologia da informação",
+      "cine_rotulo": "Gestão da tecnologia da informação",
+      "cine_codigo": "0612G01",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "estetica-e-cosmetica",
+      "nome": "Estética e cosmética",
+      "cine_rotulo": "Estética e cosmética",
+      "cine_codigo": "1012E01",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços pessoais",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": "TECNOLOGIA EM ESTÉTICA E COSMÉTICA",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-software",
+      "nome": "Engenharia de software",
+      "cine_rotulo": "Engenharia de software",
+      "cine_codigo": "0613E01",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-hospitalar",
+      "nome": "Gestão hospitalar",
+      "cine_rotulo": "Gestão hospitalar",
+      "cine_codigo": "0413G11",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": "TECNOLOGIA EM GESTÃO HOSPITALAR",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "biologia-formacao-de-professor",
+      "nome": "Biologia formação de professor",
+      "cine_rotulo": "Biologia formação de professor",
+      "cine_codigo": "0114B01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-ambiental",
+      "nome": "Gestão ambiental",
+      "cine_rotulo": "Gestão ambiental",
+      "cine_codigo": "0712G01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": "TECNOLOGIA EM GESTÃO AMBIENTAL",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-mecanica",
+      "nome": "Engenharia mecânica",
+      "cine_rotulo": "Engenharia mecânica",
+      "cine_codigo": "0715E02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "ENGENHARIA MECÂNICA",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "servicos-juridicos-e-cartoriais",
+      "nome": "Serviços jurídicos e cartoriais",
+      "cine_rotulo": "Serviços jurídicos e cartoriais",
+      "cine_codigo": "0421S01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Direito",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "arquitetura-e-urbanismo",
+      "nome": "Arquitetura e urbanismo",
+      "cine_rotulo": "Arquitetura e urbanismo",
+      "cine_codigo": "0731A02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Arquitetura e construção",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": "ARQUITETURA E URBANISMO",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "geografia-formacao-de-professor",
+      "nome": "Geografia formação de professor",
+      "cine_rotulo": "Geografia formação de professor",
+      "cine_codigo": "0114G01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "empreendedorismo",
+      "nome": "Empreendedorismo",
+      "cine_rotulo": "Empreendedorismo",
+      "cine_codigo": "0413E01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "educacao-fisica-formacao-de-professor",
+      "nome": "Educação física formação de professor",
+      "cine_rotulo": "Educação física formação de professor",
+      "cine_codigo": "0114E03",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "ciencia-da-computacao",
+      "nome": "Ciência da computação",
+      "cine_rotulo": "Ciência da computação",
+      "cine_codigo": "0613C01",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-eletrica",
+      "nome": "Engenharia elétrica",
+      "cine_rotulo": "Engenharia elétrica",
+      "cine_codigo": "0713E05",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "ENGENHARIA ELÉTRICA",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-da-qualidade",
+      "nome": "Gestão da qualidade",
+      "cine_rotulo": "Gestão da qualidade",
+      "cine_codigo": "0413G02",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gastronomia",
+      "nome": "Gastronomia",
+      "cine_rotulo": "Gastronomia",
+      "cine_codigo": "1013G01",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços pessoais",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "comercio-exterior",
+      "nome": "Comércio exterior",
+      "cine_rotulo": "Comércio exterior",
+      "cine_codigo": "0413C01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "artes-visuais-formacao-de-professor",
+      "nome": "Artes visuais formação de professor",
+      "cine_rotulo": "Artes visuais formação de professor",
+      "cine_codigo": "0114A02",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-ingles-formacao-de-professor",
+      "nome": "Letras português inglês formação de professor",
+      "cine_rotulo": "Letras português inglês formação de professor",
+      "cine_codigo": "0115L15",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "redes-de-computadores",
+      "nome": "Redes de computadores",
+      "cine_rotulo": "Redes de computadores",
+      "cine_codigo": "0612R01",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "publicidade-e-propaganda",
+      "nome": "Publicidade e propaganda",
+      "cine_rotulo": "Publicidade e propaganda",
+      "cine_codigo": "0414P01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "jornalismo",
+      "nome": "Jornalismo",
+      "cine_rotulo": "Jornalismo",
+      "cine_codigo": "0321J01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Comunicação e informação",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "ciencias-sociais-formacao-de-professor",
+      "nome": "Ciências sociais formação de professor",
+      "cine_rotulo": "Ciências sociais formação de professor",
+      "cine_codigo": "0114C03",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "filosofia-formacao-de-professor",
+      "nome": "Filosofia formação de professor",
+      "cine_rotulo": "Filosofia formação de professor",
+      "cine_codigo": "0114F01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "quimica-formacao-de-professor",
+      "nome": "Química formação de professor",
+      "cine_rotulo": "Química formação de professor",
+      "cine_codigo": "0114Q01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "fisica-formacao-de-professor",
+      "nome": "Física formação de professor",
+      "cine_rotulo": "Física formação de professor",
+      "cine_codigo": "0114F02",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "negocios-imobiliarios",
+      "nome": "Negócios imobiliários",
+      "cine_rotulo": "Negócios imobiliários",
+      "cine_codigo": "0416N01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "secretariado",
+      "nome": "Secretariado",
+      "cine_rotulo": "Secretariado",
+      "cine_codigo": "0415S01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "ciencia-de-dados",
+      "nome": "Ciência de dados",
+      "cine_rotulo": "Ciência de dados",
+      "cine_codigo": "0681C01",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Programas interdisciplinares abrangendo computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "turismo",
+      "nome": "Turismo",
+      "cine_rotulo": "Turismo",
+      "cine_codigo": "1015T01",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços pessoais",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "seguranca-publica",
+      "nome": "Segurança pública",
+      "cine_rotulo": "Segurança pública",
+      "cine_codigo": "1032S03",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços de segurança",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-do-agronegocio",
+      "nome": "Gestão do agronegócio",
+      "cine_rotulo": "Gestão do agronegócio",
+      "cine_codigo": "0413G09",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": "TECNOLOGIA EM AGRONEGÓCIOS",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "relacoes-internacionais",
+      "nome": "Relações internacionais",
+      "cine_rotulo": "Relações internacionais",
+      "cine_codigo": "0312R01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Ciências sociais e comportamentais",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "programas-interdisciplinares-abrangendo-computacao-e",
+      "nome": "Programas interdisciplinares abrangendo computação e Tecnologias da Informação e Comunicação (TIC)",
+      "cine_rotulo": "Programas interdisciplinares abrangendo computação e Tecnologias da Informação e Comunicação (TIC)",
+      "cine_codigo": "0688P01",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Programas interdisciplinares abrangendo computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "seguranca-no-trabalho",
+      "nome": "Segurança no trabalho",
+      "cine_rotulo": "Segurança no trabalho",
+      "cine_codigo": "1022S01",
+      "area_cine": "Serviços",
+      "area_especifica": "Higiene e serviços de saúde ocupacional",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": "TECNOLOGIA EM SEGURANÇA NO TRABALHO",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "agronomia",
+      "nome": "Agronomia",
+      "cine_rotulo": "Agronomia",
+      "cine_codigo": "0811A04",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Agricultura",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": "AGRONOMIA",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "seguranca-privada",
+      "nome": "Segurança privada",
+      "cine_rotulo": "Segurança privada",
+      "cine_codigo": "1032S02",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços de segurança",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "odontologia",
+      "nome": "Odontologia",
+      "cine_rotulo": "Odontologia",
+      "cine_codigo": "0911O01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "ODONTOLOGIA",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "ciencia-politica",
+      "nome": "Ciência política",
+      "cine_rotulo": "Ciência política",
+      "cine_codigo": "0312C01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Ciências sociais e comportamentais",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "seguranca-da-informacao",
+      "nome": "Segurança da informação",
+      "cine_rotulo": "Segurança da informação",
+      "cine_codigo": "0612S01",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "medicina-veterinaria",
+      "nome": "Medicina veterinária",
+      "cine_rotulo": "Medicina veterinária",
+      "cine_codigo": "0841M01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Veterinária",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "MEDICINA VETERINÁRIA",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "defesa-cibernetica",
+      "nome": "Defesa cibernética",
+      "cine_rotulo": "Defesa cibernética",
+      "cine_codigo": "0612D01",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "design-de-interiores",
+      "nome": "Design de interiores",
+      "cine_rotulo": "Design de interiores",
+      "cine_codigo": "0212D03",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-ingles-formacao-de-professor",
+      "nome": "Letras inglês formação de professor",
+      "cine_rotulo": "Letras inglês formação de professor",
+      "cine_codigo": "0115L04",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-espanhol-formacao-de-professor",
+      "nome": "Letras espanhol formação de professor",
+      "cine_rotulo": "Letras espanhol formação de professor",
+      "cine_codigo": "0115L02",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "biologia",
+      "nome": "Biologia",
+      "cine_rotulo": "Biologia",
+      "cine_codigo": "0511B01",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Ciências biológicas e correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-espanhol-formacao-de-professor",
+      "nome": "Letras português espanhol formação de professor",
+      "cine_rotulo": "Letras português espanhol formação de professor",
+      "cine_codigo": "0115L12",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "teologia",
+      "nome": "Teologia",
+      "cine_rotulo": "Teologia",
+      "cine_codigo": "0221T01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Humanidades (exceto línguas)",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-de-cooperativas",
+      "nome": "Gestão de cooperativas",
+      "cine_rotulo": "Gestão de cooperativas",
+      "cine_codigo": "0413G04",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-computacao",
+      "nome": "Engenharia de computação",
+      "cine_rotulo": "Engenharia de computação",
+      "cine_codigo": "0714E04",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "ENGENHARIA DE COMPUTAÇÃO I",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "podologia",
+      "nome": "Podologia",
+      "cine_rotulo": "Podologia",
+      "cine_codigo": "0915P01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "jogos-digitais",
+      "nome": "Jogos digitais",
+      "cine_rotulo": "Jogos digitais",
+      "cine_codigo": "0681J01",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Programas interdisciplinares abrangendo computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "mediacao",
+      "nome": "Mediação",
+      "cine_rotulo": "Mediação",
+      "cine_codigo": "0421M01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Direito",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "sistemas-para-internet",
+      "nome": "Sistemas para internet",
+      "cine_rotulo": "Sistemas para internet",
+      "cine_codigo": "0613S02",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "internet-das-coisas",
+      "nome": "Internet das coisas",
+      "cine_rotulo": "Internet das coisas",
+      "cine_codigo": "0613I02",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "banco-de-dados",
+      "nome": "Banco de dados",
+      "cine_rotulo": "Banco de dados",
+      "cine_codigo": "0612B01",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "producao-audiovisual",
+      "nome": "Produção audiovisual",
+      "cine_rotulo": "Produção audiovisual",
+      "cine_codigo": "0211P01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "investigacao-e-pericia",
+      "nome": "Investigação e perícia",
+      "cine_rotulo": "Investigação e perícia",
+      "cine_codigo": "1032I01",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços de segurança",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "radiologia",
+      "nome": "Radiologia",
+      "cine_rotulo": "Radiologia",
+      "cine_codigo": "0914R01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": "TECNOLOGIA EM RADIOLOGIA",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "design-grafico",
+      "nome": "Design gráfico",
+      "cine_rotulo": "Design gráfico",
+      "cine_codigo": "0211D01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-da-producao",
+      "nome": "Gestão da produção",
+      "cine_rotulo": "Gestão da produção",
+      "cine_codigo": "0413G01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "ensino-profissionalizante-em-area-especifica-formacao-de",
+      "nome": "Ensino profissionalizante em área específica formação de professor",
+      "cine_rotulo": "Ensino profissionalizante em área específica formação de professor",
+      "cine_codigo": "0114E06",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
       "slug": "medicina",
       "nome": "Medicina",
       "cine_rotulo": "Medicina",
+      "cine_codigo": "0912M01",
       "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "MEDICINA",
       "enade_ano": 2023,
       "cobertura": null
     },
     {
-      "slug": "direito",
-      "nome": "Direito",
-      "cine_rotulo": "Direito",
+      "slug": "inteligencia-artificial",
+      "nome": "Inteligência artificial",
+      "cine_rotulo": "Inteligência artificial",
+      "cine_codigo": "0613I01",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "abi-saude-e-bem-estar",
+      "nome": "ABI Saúde e bem-estar",
+      "cine_rotulo": "ABI Saúde e bem-estar",
+      "cine_codigo": "0011A09",
+      "area_cine": "Programas básicos",
+      "area_especifica": "Programas básicos",
+      "graus": [],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "programas-interdisciplinares-abrangendo-ciencias-naturais",
+      "nome": "Programas interdisciplinares abrangendo ciências naturais, matemática e estatística",
+      "cine_rotulo": "Programas interdisciplinares abrangendo ciências naturais, matemática e estatística",
+      "cine_codigo": "0588P01",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Programas interdisciplinares abrangendo ciências naturais, matemática e estatística",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "educacao-especial-formacao-de-professor",
+      "nome": "Educação especial formação de professor",
+      "cine_rotulo": "Educação especial formação de professor",
+      "cine_codigo": "0113E02",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "administracao-publica",
+      "nome": "Administração pública",
+      "cine_rotulo": "Administração pública",
+      "cine_codigo": "0413A02",
       "area_cine": "Negócios, administração e direito",
-      "enade_ano": 2024,
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
       "cobertura": null
     },
     {
-      "slug": "engenharia-civil",
-      "nome": "Engenharia Civil",
-      "cine_rotulo": "Engenharia civil",
+      "slug": "psicopedagogia",
+      "nome": "Psicopedagogia",
+      "cine_rotulo": "Psicopedagogia",
+      "cine_codigo": "0111P02",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "terapia-ocupacional",
+      "nome": "Terapia ocupacional",
+      "cine_rotulo": "Terapia ocupacional",
+      "cine_codigo": "0915T01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "programas-abrangendo-ciencias-sociais-comunicacao-e",
+      "nome": "Programas abrangendo ciências sociais, comunicação e informação em processo de definição da classificação",
+      "cine_rotulo": "Programas abrangendo ciências sociais, comunicação e informação em processo de definição da classificação",
+      "cine_codigo": "0399P01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Programas abrangendo ciências sociais, comunicação e informação em processo de definição da classificação",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "programas-interdisciplinares-abrangendo-negocios",
+      "nome": "Programas interdisciplinares abrangendo negócios, administração e direito",
+      "cine_rotulo": "Programas interdisciplinares abrangendo negócios, administração e direito",
+      "cine_codigo": "0488P01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Programas interdisciplinares abrangendo negócios, administração e direito",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "automacao-industrial",
+      "nome": "Automação industrial",
+      "cine_rotulo": "Automação industrial",
+      "cine_codigo": "0714A01",
       "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-ambiental-e-sanitaria",
+      "nome": "Engenharia ambiental e sanitária",
+      "cine_rotulo": "Engenharia ambiental e sanitária",
+      "cine_codigo": "0712E02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-controle-e-automacao",
+      "nome": "Engenharia de controle e automação",
+      "cine_rotulo": "Engenharia de controle e automação",
+      "cine_codigo": "0714E05",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "ENGENHARIA DE CONTROLE E AUTOMAÇÃO",
       "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "relacoes-publicas",
+      "nome": "Relações públicas",
+      "cine_rotulo": "Relações públicas",
+      "cine_codigo": "0414R01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-ambiental",
+      "nome": "Engenharia ambiental",
+      "cine_rotulo": "Engenharia ambiental",
+      "cine_codigo": "0712E01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "ENGENHARIA AMBIENTAL",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "gerontologia",
+      "nome": "Gerontologia",
+      "cine_rotulo": "Gerontologia",
+      "cine_codigo": "0921G01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Bem-estar",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "ciencias-sociais",
+      "nome": "Ciências sociais",
+      "cine_rotulo": "Ciências sociais",
+      "cine_codigo": "0312C02",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Ciências sociais e comportamentais",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-lingua-brasileira-de-sinais-formacao-de",
+      "nome": "Letras português língua brasileira de sinais formação de professor",
+      "cine_rotulo": "Letras português língua brasileira de sinais formação de professor",
+      "cine_codigo": "0115L18",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "historia",
+      "nome": "História",
+      "cine_rotulo": "História",
+      "cine_codigo": "0222H01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Humanidades (exceto línguas)",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "moda",
+      "nome": "Moda",
+      "cine_rotulo": "Moda",
+      "cine_codigo": "0212M01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "computacao-formacao-de-professor",
+      "nome": "Computação formação de professor",
+      "cine_rotulo": "Computação formação de professor",
+      "cine_codigo": "0114C05",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-quimica",
+      "nome": "Engenharia química",
+      "cine_rotulo": "Engenharia química",
+      "cine_codigo": "0711E05",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "ENGENHARIA QUÍMICA",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "ciencias-aeronauticas",
+      "nome": "Ciências aeronáuticas",
+      "cine_rotulo": "Ciências aeronáuticas",
+      "cine_codigo": "1041C01",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços de transporte",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-desportiva-e-de-lazer",
+      "nome": "Gestão desportiva e de lazer",
+      "cine_rotulo": "Gestão desportiva e de lazer",
+      "cine_codigo": "1014G01",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços pessoais",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "geografia",
+      "nome": "Geografia",
+      "cine_rotulo": "Geografia",
+      "cine_codigo": "0312G01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Ciências sociais e comportamentais",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "praticas-integrativas",
+      "nome": "Práticas integrativas",
+      "cine_rotulo": "Práticas integrativas",
+      "cine_codigo": "0917P01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "programas-interdisciplinares-abrangendo-ciencias-sociais",
+      "nome": "Programas interdisciplinares abrangendo ciências sociais, comunicação e informação",
+      "cine_rotulo": "Programas interdisciplinares abrangendo ciências sociais, comunicação e informação",
+      "cine_codigo": "0388P01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Programas interdisciplinares abrangendo ciências sociais, comunicação e informação",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "fonoaudiologia",
+      "nome": "Fonoaudiologia",
+      "cine_rotulo": "Fonoaudiologia",
+      "cine_codigo": "0915F02",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "FONOAUDIOLOGIA",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues",
+      "nome": "Letras português",
+      "cine_rotulo": "Letras português",
+      "cine_codigo": "0231L12",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "fotografia",
+      "nome": "Fotografia",
+      "cine_rotulo": "Fotografia",
+      "cine_codigo": "0211F01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-da-saude",
+      "nome": "Gestão da saúde",
+      "cine_rotulo": "Gestão da saúde",
+      "cine_codigo": "0413G03",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "eventos",
+      "nome": "Eventos",
+      "cine_rotulo": "Eventos",
+      "cine_codigo": "1015E01",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços pessoais",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "processos-escolares",
+      "nome": "Processos escolares",
+      "cine_rotulo": "Processos escolares",
+      "cine_codigo": "0111P01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "matematica",
+      "nome": "Matemática",
+      "cine_rotulo": "Matemática",
+      "cine_codigo": "0541M01",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Matemática e estatística",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "formacao-pedagogica-de-professor-para-a-educacao-basica",
+      "nome": "Formação pedagógica de professor para a educação básica",
+      "cine_rotulo": "Formação pedagógica de professor para a educação básica",
+      "cine_codigo": "0113F01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "design",
+      "nome": "Design",
+      "cine_rotulo": "Design",
+      "cine_codigo": "0212D02",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "quimica",
+      "nome": "Química",
+      "cine_rotulo": "Química",
+      "cine_codigo": "0531Q01",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Ciências físicas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "producao-multimidia",
+      "nome": "Produção multimídia",
+      "cine_rotulo": "Produção multimídia",
+      "cine_codigo": "0211P05",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "musica-formacao-de-professor",
+      "nome": "Música formação de professor",
+      "cine_rotulo": "Música formação de professor",
+      "cine_codigo": "0114M02",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "biblioteconomia",
+      "nome": "Biblioteconomia",
+      "cine_rotulo": "Biblioteconomia",
+      "cine_codigo": "0322B01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Comunicação e informação",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "zootecnia",
+      "nome": "Zootecnia",
+      "cine_rotulo": "Zootecnia",
+      "cine_codigo": "0811Z01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Agricultura",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": "ZOOTECNIA",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "programas-interdisciplinares-abrangendo-educacao",
+      "nome": "Programas interdisciplinares abrangendo educação",
+      "cine_rotulo": "Programas interdisciplinares abrangendo educação",
+      "cine_codigo": "0188P01",
+      "area_cine": "Educação",
+      "area_especifica": "Programas interdisciplinares abrangendo educação",
+      "graus": [
+        "licenciatura",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-portuaria",
+      "nome": "Gestão portuária",
+      "cine_rotulo": "Gestão portuária",
+      "cine_codigo": "1041G01",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços de transporte",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "programas-interdisciplinares-abrangendo-saude-e-bem-estar",
+      "nome": "Programas interdisciplinares abrangendo saúde e bem-estar",
+      "cine_rotulo": "Programas interdisciplinares abrangendo saúde e bem-estar",
+      "cine_codigo": "0988P01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Programas interdisciplinares abrangendo saúde e bem-estar",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-lingua-brasileira-de-sinais-formacao-de-professor",
+      "nome": "Letras língua brasileira de sinais formação de professor",
+      "cine_rotulo": "Letras língua brasileira de sinais formação de professor",
+      "cine_codigo": "0115L07",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "filosofia",
+      "nome": "Filosofia",
+      "cine_rotulo": "Filosofia",
+      "cine_codigo": "0223F01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Humanidades (exceto línguas)",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "artes-formacao-de-professor",
+      "nome": "Artes formação de professor",
+      "cine_rotulo": "Artes formação de professor",
+      "cine_codigo": "0114A01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "optometria",
+      "nome": "Optometria",
+      "cine_rotulo": "Optometria",
+      "cine_codigo": "0914O02",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "producao-de-cerveja",
+      "nome": "Produção de cerveja",
+      "cine_rotulo": "Produção de cerveja",
+      "cine_codigo": "0721P04",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "animacao",
+      "nome": "Animação",
+      "cine_rotulo": "Animação",
+      "cine_codigo": "0211A01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "artes-visuais",
+      "nome": "Artes visuais",
+      "cine_rotulo": "Artes visuais",
+      "cine_codigo": "0213A03",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "programas-abrangendo-computacao-e-tecnologias-da-informacao",
+      "nome": "Programas abrangendo Computação e Tecnologias da Informação e Comunicação (TIC) em processo de definição da classificação",
+      "cine_rotulo": "Programas abrangendo Computação e Tecnologias da Informação e Comunicação (TIC) em processo de definição da classificação",
+      "cine_codigo": "0619P01",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "ensino-religioso-formacao-de-professor",
+      "nome": "Ensino religioso formação de professor",
+      "cine_rotulo": "Ensino religioso formação de professor",
+      "cine_codigo": "0114E07",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "servicos-penais",
+      "nome": "Serviços penais",
+      "cine_rotulo": "Serviços penais",
+      "cine_codigo": "1032S04",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços de segurança",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "transporte-terrestre",
+      "nome": "Transporte terrestre",
+      "cine_rotulo": "Transporte terrestre",
+      "cine_codigo": "1041T02",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços de transporte",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-alimentos",
+      "nome": "Engenharia de alimentos",
+      "cine_rotulo": "Engenharia de alimentos",
+      "cine_codigo": "0721E01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "ENGENHARIA DE ALIMENTOS",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-mecatronica",
+      "nome": "Engenharia mecatrônica",
+      "cine_rotulo": "Engenharia mecatrônica",
+      "cine_codigo": "0714E09",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "fisica",
+      "nome": "Física",
+      "cine_rotulo": "Física",
+      "cine_codigo": "0533F01",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Ciências físicas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "cinema-e-audiovisual",
+      "nome": "Cinema e audiovisual",
+      "cine_rotulo": "Cinema e audiovisual",
+      "cine_codigo": "0211C01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "alimentos",
+      "nome": "Alimentos",
+      "cine_rotulo": "Alimentos",
+      "cine_codigo": "0721A01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "quimica-industrial-e-tecnologica",
+      "nome": "Química industrial e tecnológica",
+      "cine_rotulo": "Química industrial e tecnológica",
+      "cine_codigo": "0531Q02",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Ciências físicas",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "design-de-produto",
+      "nome": "Design de produto",
+      "cine_rotulo": "Design de produto",
+      "cine_codigo": "0212D04",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-florestal",
+      "nome": "Engenharia florestal",
+      "cine_rotulo": "Engenharia florestal",
+      "cine_codigo": "0821E01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Silvicultura",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": "ENGENHARIA FLORESTAL",
+      "enade_ano": 2023,
+      "cobertura": null
+    },
+    {
+      "slug": "abi-ciencias-naturais-matematica-e-estatistica",
+      "nome": "ABI Ciências naturais, matemática e estatística",
+      "cine_rotulo": "ABI Ciências naturais, matemática e estatística",
+      "cine_codigo": "0011A05",
+      "area_cine": "Programas básicos",
+      "area_especifica": "Programas básicos",
+      "graus": [],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "abi-artes-e-humanidades",
+      "nome": "ABI Artes e humanidades",
+      "cine_rotulo": "ABI Artes e humanidades",
+      "cine_codigo": "0011A02",
+      "area_cine": "Programas básicos",
+      "area_especifica": "Programas básicos",
+      "graus": [],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "hotelaria",
+      "nome": "Hotelaria",
+      "cine_rotulo": "Hotelaria",
+      "cine_codigo": "1015H01",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços pessoais",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "saude-coletiva",
+      "nome": "Saúde coletiva",
+      "cine_rotulo": "Saúde coletiva",
+      "cine_codigo": "0918S01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "teatro-formacao-de-professor",
+      "nome": "Teatro formação de professor",
+      "cine_rotulo": "Teatro formação de professor",
+      "cine_codigo": "0114T01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "ciencias-naturais-formacao-de-professor",
+      "nome": "Ciências naturais formação de professor",
+      "cine_rotulo": "Ciências naturais formação de professor",
+      "cine_codigo": "0114C02",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-eletronica",
+      "nome": "Engenharia eletrônica",
+      "cine_rotulo": "Engenharia eletrônica",
+      "cine_codigo": "0714E08",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-de-servicos",
+      "nome": "Gestão de serviços",
+      "cine_rotulo": "Gestão de serviços",
+      "cine_codigo": "0413G08",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-materiais",
+      "nome": "Engenharia de materiais",
+      "cine_rotulo": "Engenharia de materiais",
+      "cine_codigo": "0722E01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "musica",
+      "nome": "Música",
+      "cine_rotulo": "Música",
+      "cine_codigo": "0215M01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "radio-tv-e-internet",
+      "nome": "Rádio, TV e internet",
+      "cine_rotulo": "Rádio, TV e internet",
+      "cine_codigo": "0321R01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Comunicação e informação",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-agricola",
+      "nome": "Engenharia agrícola",
+      "cine_rotulo": "Engenharia agrícola",
+      "cine_codigo": "0811E01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Agricultura",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "seguranca-no-transito",
+      "nome": "Segurança no trânsito",
+      "cine_rotulo": "Segurança no trânsito",
+      "cine_codigo": "1032S01",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços de segurança",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-biomedica",
+      "nome": "Engenharia biomédica",
+      "cine_rotulo": "Engenharia biomédica",
+      "cine_codigo": "0714E03",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "producao-cultural",
+      "nome": "Produção cultural",
+      "cine_rotulo": "Produção cultural",
+      "cine_codigo": "0211P03",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-petroleo",
+      "nome": "Engenharia de petróleo",
+      "cine_rotulo": "Engenharia de petróleo",
+      "cine_codigo": "0724E02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-frances-formacao-de-professor",
+      "nome": "Letras português francês formação de professor",
+      "cine_rotulo": "Letras português francês formação de professor",
+      "cine_codigo": "0115L14",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-lingua-brasileira-de-sinais",
+      "nome": "Letras língua brasileira de sinais",
+      "cine_rotulo": "Letras língua brasileira de sinais",
+      "cine_codigo": "0231L08",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "abi-ciencias-sociais-comunicacao-e-informacao",
+      "nome": "ABI Ciências sociais, comunicação e informação",
+      "cine_rotulo": "ABI Ciências sociais, comunicação e informação",
+      "cine_codigo": "0011A03",
+      "area_cine": "Programas básicos",
+      "area_especifica": "Programas básicos",
+      "graus": [],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "mecatronica-industrial",
+      "nome": "Mecatrônica industrial",
+      "cine_rotulo": "Mecatrônica industrial",
+      "cine_codigo": "0714M01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "estatistica",
+      "nome": "Estatística",
+      "cine_rotulo": "Estatística",
+      "cine_codigo": "0542E01",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Matemática e estatística",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "arquivologia",
+      "nome": "Arquivologia",
+      "cine_rotulo": "Arquivologia",
+      "cine_codigo": "0322A01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Comunicação e informação",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-telecomunicacoes",
+      "nome": "Engenharia de telecomunicações",
+      "cine_rotulo": "Engenharia de telecomunicações",
+      "cine_codigo": "0714E07",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "energias-renovaveis",
+      "nome": "Energias renováveis",
+      "cine_rotulo": "Energias renováveis",
+      "cine_codigo": "0713E02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "danca-formacao-de-professor",
+      "nome": "Dança formação de professor",
+      "cine_rotulo": "Dança formação de professor",
+      "cine_codigo": "0114D01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-tradutor-e-interprete",
+      "nome": "Letras tradutor e intérprete",
+      "cine_rotulo": "Letras tradutor e intérprete",
+      "cine_codigo": "0231L22",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-japones-formacao-de-professor",
+      "nome": "Letras português japonês formação de professor",
+      "cine_rotulo": "Letras português japonês formação de professor",
+      "cine_codigo": "0115L17",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "programas-interdisciplinares-abrangendo-artes-e-humanidades",
+      "nome": "Programas interdisciplinares abrangendo artes e humanidades",
+      "cine_rotulo": "Programas interdisciplinares abrangendo artes e humanidades",
+      "cine_codigo": "0288P01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Programas interdisciplinares abrangendo artes e humanidades",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-bioprocessos",
+      "nome": "Engenharia de bioprocessos",
+      "cine_rotulo": "Engenharia de bioprocessos",
+      "cine_codigo": "0711E02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "educacao-do-campo-em-areas-de-conhecimento-da-educacao",
+      "nome": "Educação do campo em áreas de conhecimento da educação básica formação de professor",
+      "cine_rotulo": "Educação do campo em áreas de conhecimento da educação básica formação de professor",
+      "cine_codigo": "0114E02",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "agrocomputacao",
+      "nome": "Agrocomputação",
+      "cine_rotulo": "Agrocomputação",
+      "cine_codigo": "0681A01",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Programas interdisciplinares abrangendo computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-minas",
+      "nome": "Engenharia de minas",
+      "cine_rotulo": "Engenharia de minas",
+      "cine_codigo": "0724E01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "biotecnologia",
+      "nome": "Biotecnologia",
+      "cine_rotulo": "Biotecnologia",
+      "cine_codigo": "0512B02",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Ciências biológicas e correlatas",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "agroecologia",
+      "nome": "Agroecologia",
+      "cine_rotulo": "Agroecologia",
+      "cine_codigo": "0811A01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Agricultura",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "abi-engenharia-producao-e-construcao",
+      "nome": "ABI Engenharia, produção e construção",
+      "cine_rotulo": "ABI Engenharia, produção e construção",
+      "cine_codigo": "0011A07",
+      "area_cine": "Programas básicos",
+      "area_especifica": "Programas básicos",
+      "graus": [],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "museologia",
+      "nome": "Museologia",
+      "cine_rotulo": "Museologia",
+      "cine_codigo": "0322M01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Comunicação e informação",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "construcao-de-edificios",
+      "nome": "Construção de edifícios",
+      "cine_rotulo": "Construção de edifícios",
+      "cine_codigo": "0732C01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Arquitetura e construção",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "abi-educacao",
+      "nome": "ABI Educação",
+      "cine_rotulo": "ABI Educação",
+      "cine_codigo": "0011A01",
+      "area_cine": "Programas básicos",
+      "area_especifica": "Programas básicos",
+      "graus": [],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "educacao-do-campo-formacao-de-professor",
+      "nome": "Educação do campo formação de professor",
+      "cine_rotulo": "Educação do campo formação de professor",
+      "cine_codigo": "0113E01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "agropecuaria",
+      "nome": "Agropecuária",
+      "cine_rotulo": "Agropecuária",
+      "cine_codigo": "0811A05",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Agricultura",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "manutencao-industrial",
+      "nome": "Manutenção industrial",
+      "cine_rotulo": "Manutenção industrial",
+      "cine_codigo": "0715M01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "fabricacao-mecanica",
+      "nome": "Fabricação mecânica",
+      "cine_rotulo": "Fabricação mecânica",
+      "cine_codigo": "0715F01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-energia",
+      "nome": "Engenharia de energia",
+      "cine_rotulo": "Engenharia de energia",
+      "cine_codigo": "0713E04",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "geologia",
+      "nome": "Geologia",
+      "cine_rotulo": "Geologia",
+      "cine_codigo": "0532G02",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Ciências físicas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "saneamento-ambiental",
+      "nome": "Saneamento ambiental",
+      "cine_rotulo": "Saneamento ambiental",
+      "cine_codigo": "0712S01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "programas-abrangendo-negocios-administracao-e-direito-em",
+      "nome": "Programas abrangendo negócios, administração e direito em processo de definição da classificação",
+      "cine_rotulo": "Programas abrangendo negócios, administração e direito em processo de definição da classificação",
+      "cine_codigo": "0499P01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Programas abrangendo negócios, administração e direito em processo de definição da classificação",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "ciencias-militares",
+      "nome": "Ciências militares",
+      "cine_rotulo": "Ciências militares",
+      "cine_codigo": "1031C01",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços de segurança",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "sistemas-eletricos",
+      "nome": "Sistemas elétricos",
+      "cine_rotulo": "Sistemas elétricos",
+      "cine_codigo": "0713S01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "geoprocessamento",
+      "nome": "Geoprocessamento",
+      "cine_rotulo": "Geoprocessamento",
+      "cine_codigo": "0532G03",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Ciências físicas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "sistemas-automotivos",
+      "nome": "Sistemas automotivos",
+      "cine_rotulo": "Sistemas automotivos",
+      "cine_codigo": "0716S01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "programas-interdisciplinares-abrangendo-engenharia-producao",
+      "nome": "Programas interdisciplinares abrangendo engenharia, produção e construção",
+      "cine_rotulo": "Programas interdisciplinares abrangendo engenharia, produção e construção",
+      "cine_codigo": "0788P01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Programas interdisciplinares abrangendo engenharia, produção e construção",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "educacao-indigena-formacao-de-professor",
+      "nome": "Educação indígena formação de professor",
+      "cine_rotulo": "Educação indígena formação de professor",
+      "cine_codigo": "0113E03",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "sistemas-biomedicos",
+      "nome": "Sistemas biomédicos",
+      "cine_rotulo": "Sistemas biomédicos",
+      "cine_codigo": "0714S01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-metalurgica",
+      "nome": "Engenharia metalúrgica",
+      "cine_rotulo": "Engenharia metalúrgica",
+      "cine_codigo": "0715E03",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-pesca",
+      "nome": "Engenharia de pesca",
+      "cine_rotulo": "Engenharia de pesca",
+      "cine_codigo": "0831E01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Pesca",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-estrategica",
+      "nome": "Gestão estratégica",
+      "cine_rotulo": "Gestão estratégica",
+      "cine_codigo": "0413G10",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "arqueologia",
+      "nome": "Arqueologia",
+      "cine_rotulo": "Arqueologia",
+      "cine_codigo": "0222A01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Humanidades (exceto línguas)",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "aquicultura",
+      "nome": "Aquicultura",
+      "cine_rotulo": "Aquicultura",
+      "cine_codigo": "0831A01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Pesca",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "analises-clinicas-e-toxicologicas",
+      "nome": "Análises clínicas e toxicológicas",
+      "cine_rotulo": "Análises clínicas e toxicológicas",
+      "cine_codigo": "0914A01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "comunicacao-social",
+      "nome": "Comunicação social",
+      "cine_rotulo": "Comunicação social",
+      "cine_codigo": "0321C01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Comunicação e informação",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "mineracao",
+      "nome": "Mineração",
+      "cine_rotulo": "Mineração",
+      "cine_codigo": "0724M01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "producao-fonografica",
+      "nome": "Produção fonográfica",
+      "cine_rotulo": "Produção fonográfica",
+      "cine_codigo": "0211P04",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "programas-abrangendo-educacao-em-processo-de-definicao-da",
+      "nome": "Programas abrangendo educação em processo de definição da classificação",
+      "cine_rotulo": "Programas abrangendo educação em processo de definição da classificação",
+      "cine_codigo": "0119P01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-transportes",
+      "nome": "Engenharia de transportes",
+      "cine_rotulo": "Engenharia de transportes",
+      "cine_codigo": "0732E03",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Arquitetura e construção",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-escrita-criativa",
+      "nome": "Letras escrita criativa",
+      "cine_rotulo": "Letras escrita criativa",
+      "cine_codigo": "0231L02",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "meteorologia",
+      "nome": "Meteorologia",
+      "cine_rotulo": "Meteorologia",
+      "cine_codigo": "0532M01",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Ciências físicas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-aeronautica",
+      "nome": "Engenharia aeronáutica",
+      "cine_rotulo": "Engenharia aeronáutica",
+      "cine_codigo": "0716E02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "saude-publica",
+      "nome": "Saúde pública",
+      "cine_rotulo": "Saúde pública",
+      "cine_codigo": "0918S02",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "sistemas-de-telecomunicacoes",
+      "nome": "Sistemas de telecomunicações",
+      "cine_rotulo": "Sistemas de telecomunicações",
+      "cine_codigo": "0714S02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "agrimensura",
+      "nome": "Agrimensura",
+      "cine_rotulo": "Agrimensura",
+      "cine_codigo": "0731A01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Arquitetura e construção",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "oceanografia",
+      "nome": "Oceanografia",
+      "cine_rotulo": "Oceanografia",
+      "cine_codigo": "0532O01",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Ciências físicas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "seguros",
+      "nome": "Seguros",
+      "cine_rotulo": "Seguros",
+      "cine_codigo": "0412S01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "antropologia",
+      "nome": "Antropologia",
+      "cine_rotulo": "Antropologia",
+      "cine_codigo": "0312A01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Ciências sociais e comportamentais",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "artes-cenicas",
+      "nome": "Artes cênicas",
+      "cine_rotulo": "Artes cênicas",
+      "cine_codigo": "0215A01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-agrimensura-e-cartografica",
+      "nome": "Engenharia de agrimensura e cartográfica",
+      "cine_rotulo": "Engenharia de agrimensura e cartográfica",
+      "cine_codigo": "0731E03",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Arquitetura e construção",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "ciencias-atuariais",
+      "nome": "Ciências atuariais",
+      "cine_rotulo": "Ciências atuariais",
+      "cine_codigo": "0542C01",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Matemática e estatística",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-de-residuos",
+      "nome": "Gestão de resíduos",
+      "cine_rotulo": "Gestão de resíduos",
+      "cine_codigo": "0712G02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "matematica-aplicada-e-computacional",
+      "nome": "Matemática aplicada e computacional",
+      "cine_rotulo": "Matemática aplicada e computacional",
+      "cine_codigo": "0541M02",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Matemática e estatística",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "teatro",
+      "nome": "Teatro",
+      "cine_rotulo": "Teatro",
+      "cine_codigo": "0215T01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "sociologia",
+      "nome": "Sociologia",
+      "cine_rotulo": "Sociologia",
+      "cine_codigo": "0312S01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Ciências sociais e comportamentais",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-fiscal-e-tributaria",
+      "nome": "Gestão fiscal e tributária",
+      "cine_rotulo": "Gestão fiscal e tributária",
+      "cine_codigo": "0411G01",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "controle-de-obras",
+      "nome": "Controle de obras",
+      "cine_rotulo": "Controle de obras",
+      "cine_codigo": "0732C02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Arquitetura e construção",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "artes",
+      "nome": "Artes",
+      "cine_rotulo": "Artes",
+      "cine_codigo": "0213A01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "ciencias-agrarias-formacao-de-professor",
+      "nome": "Ciências agrárias formação de professor",
+      "cine_rotulo": "Ciências agrárias formação de professor",
+      "cine_codigo": "0114C01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-textil",
+      "nome": "Engenharia têxtil",
+      "cine_rotulo": "Engenharia têxtil",
+      "cine_codigo": "0723E01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "agroindustria",
+      "nome": "Agroindústria",
+      "cine_rotulo": "Agroindústria",
+      "cine_codigo": "0811A02",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Agricultura",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "mecanica-de-precisao",
+      "nome": "Mecânica de precisão",
+      "cine_rotulo": "Mecânica de precisão",
+      "cine_codigo": "0715M02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "manutencao-de-aeronaves",
+      "nome": "Manutenção de aeronaves",
+      "cine_rotulo": "Manutenção de aeronaves",
+      "cine_codigo": "0716M01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "comunicacao-assistiva",
+      "nome": "Comunicação assistiva",
+      "cine_rotulo": "Comunicação assistiva",
+      "cine_codigo": "0211C02",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-recursos-hidricos",
+      "nome": "Engenharia de recursos hídricos",
+      "cine_rotulo": "Engenharia de recursos hídricos",
+      "cine_codigo": "0732E02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Arquitetura e construção",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "processos-metalurgicos",
+      "nome": "Processos metalúrgicos",
+      "cine_rotulo": "Processos metalúrgicos",
+      "cine_codigo": "0715P01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "ciencias-ambientais",
+      "nome": "Ciências ambientais",
+      "cine_rotulo": "Ciências ambientais",
+      "cine_codigo": "0521C01",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Meio ambiente",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "viticultura-e-enologia",
+      "nome": "Viticultura e enologia",
+      "cine_rotulo": "Viticultura e enologia",
+      "cine_codigo": "0811V01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Agricultura",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-de-negocios-internacionais",
+      "nome": "Gestão de negócios internacionais",
+      "cine_rotulo": "Gestão de negócios internacionais",
+      "cine_codigo": "0413G06",
+      "area_cine": "Negócios, administração e direito",
+      "area_especifica": "Negócios e administração",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "fisica-medica",
+      "nome": "Física médica",
+      "cine_rotulo": "Física médica",
+      "cine_codigo": "0533F03",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Ciências físicas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-fisica",
+      "nome": "Engenharia física",
+      "cine_rotulo": "Engenharia física",
+      "cine_codigo": "0715E01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-japones-formacao-de-professor",
+      "nome": "Letras japonês formação de professor",
+      "cine_rotulo": "Letras japonês formação de professor",
+      "cine_codigo": "0115L06",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "ecologia",
+      "nome": "Ecologia",
+      "cine_rotulo": "Ecologia",
+      "cine_codigo": "0521E01",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Meio ambiente",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "refrigeracao-e-climatizacao",
+      "nome": "Refrigeração e climatização",
+      "cine_rotulo": "Refrigeração e climatização",
+      "cine_codigo": "0713R01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "eletronica-industrial",
+      "nome": "Eletrônica industrial",
+      "cine_rotulo": "Eletrônica industrial",
+      "cine_codigo": "0714E01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "soldagem",
+      "nome": "Soldagem",
+      "cine_rotulo": "Soldagem",
+      "cine_codigo": "0715S01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "transporte-aereo",
+      "nome": "Transporte aéreo",
+      "cine_rotulo": "Transporte aéreo",
+      "cine_codigo": "1041T01",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços de transporte",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "polimeros",
+      "nome": "Polímeros",
+      "cine_rotulo": "Polímeros",
+      "cine_codigo": "0722P02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "geofisica",
+      "nome": "Geofísica",
+      "cine_rotulo": "Geofísica",
+      "cine_codigo": "0532G01",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Ciências físicas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-frances-formacao-de-professor",
+      "nome": "Letras francês formação de professor",
+      "cine_rotulo": "Letras francês formação de professor",
+      "cine_codigo": "0115L03",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "criacao-digital",
+      "nome": "Criação digital",
+      "cine_rotulo": "Criação digital",
+      "cine_codigo": "0681C03",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Programas interdisciplinares abrangendo computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-manufatura",
+      "nome": "Engenharia de manufatura",
+      "cine_rotulo": "Engenharia de manufatura",
+      "cine_codigo": "0725E01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "artes-plasticas",
+      "nome": "Artes plásticas",
+      "cine_rotulo": "Artes plásticas",
+      "cine_codigo": "0213A02",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-industrial",
+      "nome": "Engenharia industrial",
+      "cine_rotulo": "Engenharia industrial",
+      "cine_codigo": "0725E03",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-automotiva",
+      "nome": "Engenharia automotiva",
+      "cine_rotulo": "Engenharia automotiva",
+      "cine_codigo": "0716E03",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "gestao-da-informacao",
+      "nome": "Gestão da informação",
+      "cine_rotulo": "Gestão da informação",
+      "cine_codigo": "0322G01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Comunicação e informação",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-naval",
+      "nome": "Engenharia naval",
+      "cine_rotulo": "Engenharia naval",
+      "cine_codigo": "0716E05",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-biossistemas",
+      "nome": "Engenharia de biossistemas",
+      "cine_rotulo": "Engenharia de biossistemas",
+      "cine_codigo": "0811E02",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Agricultura",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "danca",
+      "nome": "Dança",
+      "cine_rotulo": "Dança",
+      "cine_codigo": "0215D01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "biocombustiveis",
+      "nome": "Biocombustíveis",
+      "cine_rotulo": "Biocombustíveis",
+      "cine_codigo": "0711B01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-agrimensura",
+      "nome": "Engenharia de agrimensura",
+      "cine_rotulo": "Engenharia de agrimensura",
+      "cine_codigo": "0731E02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Arquitetura e construção",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "laticinios",
+      "nome": "Laticínios",
+      "cine_rotulo": "Laticínios",
+      "cine_codigo": "0721L01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "fisica-aplicada",
+      "nome": "Física aplicada",
+      "cine_rotulo": "Física aplicada",
+      "cine_codigo": "0533F02",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Ciências físicas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-aeroespacial",
+      "nome": "Engenharia aeroespacial",
+      "cine_rotulo": "Engenharia aeroespacial",
+      "cine_codigo": "0716E01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "historia-da-arte",
+      "nome": "História da arte",
+      "cine_rotulo": "História da arte",
+      "cine_codigo": "0213H01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "manejo-da-producao-agricola",
+      "nome": "Manejo da produção agrícola",
+      "cine_rotulo": "Manejo da produção agrícola",
+      "cine_codigo": "0811M01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Agricultura",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "computacao-e-tecnologias-da-informacao-e-comunicacao-tic-em",
+      "nome": "Computação e Tecnologias da Informação e Comunicação (TIC) em biociências e saúde",
+      "cine_rotulo": "Computação e Tecnologias da Informação e Comunicação (TIC) em biociências e saúde",
+      "cine_codigo": "0681C02",
+      "area_cine": "Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "area_especifica": "Programas interdisciplinares abrangendo computação e Tecnologias da Informação e Comunicação (TIC)",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-ingles",
+      "nome": "Letras inglês",
+      "cine_rotulo": "Letras inglês",
+      "cine_codigo": "0231L05",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-outras-linguas-estrangeiras-modernas",
+      "nome": "Letras outras línguas estrangeiras modernas",
+      "cine_rotulo": "Letras outras línguas estrangeiras modernas",
+      "cine_codigo": "0231L11",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "conservacao-e-restauro",
+      "nome": "Conservação e restauro",
+      "cine_rotulo": "Conservação e restauro",
+      "cine_codigo": "0222C01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Humanidades (exceto línguas)",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "enfermagem-formacao-de-professor",
+      "nome": "Enfermagem formação de professor",
+      "cine_rotulo": "Enfermagem formação de professor",
+      "cine_codigo": "0114E05",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-bioquimica",
+      "nome": "Engenharia bioquímica",
+      "cine_rotulo": "Engenharia bioquímica",
+      "cine_codigo": "0711E01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "oftalmica",
+      "nome": "Oftálmica",
+      "cine_rotulo": "Oftálmica",
+      "cine_codigo": "0914O01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "bioquimica",
+      "nome": "Bioquímica",
+      "cine_rotulo": "Bioquímica",
+      "cine_codigo": "0512B01",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Ciências biológicas e correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "construcao-naval",
+      "nome": "Construção naval",
+      "cine_rotulo": "Construção naval",
+      "cine_codigo": "0716C01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "musicoterapia",
+      "nome": "Musicoterapia",
+      "cine_rotulo": "Musicoterapia",
+      "cine_codigo": "0917M01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-alemao-formacao-de-professor",
+      "nome": "Letras alemão formação de professor",
+      "cine_rotulo": "Letras alemão formação de professor",
+      "cine_codigo": "0115L01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-alemao-formacao-de-professor",
+      "nome": "Letras português alemão formação de professor",
+      "cine_rotulo": "Letras português alemão formação de professor",
+      "cine_codigo": "0115L11",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-ferroviaria-e-metroviaria",
+      "nome": "Engenharia ferroviária e metroviária",
+      "cine_rotulo": "Engenharia ferroviária e metroviária",
+      "cine_codigo": "0716E04",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-cartografica",
+      "nome": "Engenharia cartográfica",
+      "cine_rotulo": "Engenharia cartográfica",
+      "cine_codigo": "0731E01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Arquitetura e construção",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "sistemas-embarcados",
+      "nome": "Sistemas embarcados",
+      "cine_rotulo": "Sistemas embarcados",
+      "cine_codigo": "0714S03",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "psicologia-formacao-de-professor",
+      "nome": "Psicologia formação de professor",
+      "cine_rotulo": "Psicologia formação de professor",
+      "cine_codigo": "0114P01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-acustica",
+      "nome": "Engenharia acústica",
+      "cine_rotulo": "Engenharia acústica",
+      "cine_codigo": "0714E02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-outras-linguas-estrangeiras-modernas-0115l20",
+      "nome": "Letras português outras línguas estrangeiras modernas formação de professor",
+      "cine_rotulo": "Letras português outras línguas estrangeiras modernas formação de professor",
+      "cine_codigo": "0115L20",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "cafeicultura",
+      "nome": "Cafeicultura",
+      "cine_rotulo": "Cafeicultura",
+      "cine_codigo": "0811C01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Agricultura",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-italiano-formacao-de-professor",
+      "nome": "Letras italiano formação de professor",
+      "cine_rotulo": "Letras italiano formação de professor",
+      "cine_codigo": "0115L05",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-ingles",
+      "nome": "Letras português inglês",
+      "cine_rotulo": "Letras português inglês",
+      "cine_codigo": "0231L16",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "producao-cenica",
+      "nome": "Produção cênica",
+      "cine_rotulo": "Produção cênica",
+      "cine_codigo": "0211P02",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "fruticultura",
+      "nome": "Fruticultura",
+      "cine_rotulo": "Fruticultura",
+      "cine_codigo": "0811F01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Agricultura",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-italiano",
+      "nome": "Letras italiano",
+      "cine_rotulo": "Letras italiano",
+      "cine_codigo": "0231L06",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "producao-editorial",
+      "nome": "Produção editorial",
+      "cine_rotulo": "Produção editorial",
+      "cine_codigo": "0321P01",
+      "area_cine": "Ciências sociais, comunicação e informação",
+      "area_especifica": "Comunicação e informação",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "producao-sucroalcooleira",
+      "nome": "Produção sucroalcooleira",
+      "cine_rotulo": "Produção sucroalcooleira",
+      "cine_codigo": "0721P03",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "producao-textil",
+      "nome": "Produção têxtil",
+      "cine_rotulo": "Produção têxtil",
+      "cine_codigo": "0723P02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "eletrotecnica-industrial",
+      "nome": "Eletrotécnica industrial",
+      "cine_rotulo": "Eletrotécnica industrial",
+      "cine_codigo": "0713E01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "estradas",
+      "nome": "Estradas",
+      "cine_rotulo": "Estradas",
+      "cine_codigo": "0732E05",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Arquitetura e construção",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-outras-linguas-estrangeiras-modernas-formacao-de",
+      "nome": "Letras outras línguas estrangeiras modernas formação de professor",
+      "cine_rotulo": "Letras outras línguas estrangeiras modernas formação de professor",
+      "cine_codigo": "0115L10",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-biotecnologia",
+      "nome": "Engenharia de biotecnologia",
+      "cine_rotulo": "Engenharia de biotecnologia",
+      "cine_codigo": "0711E03",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "astronomia",
+      "nome": "Astronomia",
+      "cine_rotulo": "Astronomia",
+      "cine_codigo": "0533A01",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Ciências físicas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "protese-e-ortese",
+      "nome": "Prótese e órtese",
+      "cine_rotulo": "Prótese e órtese",
+      "cine_codigo": "0914P01",
+      "area_cine": "Saúde e bem-estar",
+      "area_especifica": "Saúde",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-linguas-estrangeiras-classicas-formacao-de-professor",
+      "nome": "Letras línguas estrangeiras clássicas formação de professor",
+      "cine_rotulo": "Letras línguas estrangeiras clássicas formação de professor",
+      "cine_codigo": "0115L08",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "ciencias-da-religiao",
+      "nome": "Ciências da religião",
+      "cine_rotulo": "Ciências da religião",
+      "cine_codigo": "0221C01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Humanidades (exceto línguas)",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "desenho-industrial",
+      "nome": "Desenho industrial",
+      "cine_rotulo": "Desenho industrial",
+      "cine_codigo": "0212D01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-linguistica",
+      "nome": "Letras linguística",
+      "cine_rotulo": "Letras linguística",
+      "cine_codigo": "0231L10",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "horticultura",
+      "nome": "Horticultura",
+      "cine_rotulo": "Horticultura",
+      "cine_codigo": "0812H01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Agricultura",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-frances",
+      "nome": "Letras francês",
+      "cine_rotulo": "Letras francês",
+      "cine_codigo": "0231L04",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-linguas-estrangeiras-classicas",
+      "nome": "Letras português línguas estrangeiras clássicas",
+      "cine_rotulo": "Letras português línguas estrangeiras clássicas",
+      "cine_codigo": "0231L20",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-linguas-estrangeiras-classicas-formacao-de",
+      "nome": "Letras português línguas estrangeiras clássicas formação de professor",
+      "cine_rotulo": "Letras português línguas estrangeiras clássicas formação de professor",
+      "cine_codigo": "0115L19",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-lingua-brasileira-de-sinais",
+      "nome": "Letras português língua brasileira de sinais",
+      "cine_rotulo": "Letras português língua brasileira de sinais",
+      "cine_codigo": "0231L19",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "abi-computacao-e-tecnologias-da-informacao-e-comunicacao-tic",
+      "nome": "ABI Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "cine_rotulo": "ABI Computação e Tecnologias da Informação e Comunicação (TIC)",
+      "cine_codigo": "0011A06",
+      "area_cine": "Programas básicos",
+      "area_especifica": "Programas básicos",
+      "graus": [],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "silvicultura",
+      "nome": "Silvicultura",
+      "cine_rotulo": "Silvicultura",
+      "cine_codigo": "0821S01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Silvicultura",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "telematica",
+      "nome": "Telemática",
+      "cine_rotulo": "Telemática",
+      "cine_codigo": "0714T01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "educacao-indigena-em-areas-de-conhecimento-da-educacao",
+      "nome": "Educação indígena em áreas de conhecimento da educação básica formação de professor",
+      "cine_rotulo": "Educação indígena em áreas de conhecimento da educação básica formação de professor",
+      "cine_codigo": "0114E04",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "programas-interdisciplinares-abrangendo-agricultura",
+      "nome": "Programas interdisciplinares abrangendo agricultura, silvicultura, pesca e veterinária",
+      "cine_rotulo": "Programas interdisciplinares abrangendo agricultura, silvicultura, pesca e veterinária",
+      "cine_codigo": "0888P01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Programas interdisciplinares abrangendo agricultura, silvicultura, pesca e veterinária",
+      "graus": [
+        "bacharelado",
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-informacao",
+      "nome": "Engenharia de informação",
+      "cine_rotulo": "Engenharia de informação",
+      "cine_codigo": "0714E06",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-alemao",
+      "nome": "Letras alemão",
+      "cine_rotulo": "Letras alemão",
+      "cine_codigo": "0231L01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-espanhol",
+      "nome": "Letras português espanhol",
+      "cine_rotulo": "Letras português espanhol",
+      "cine_codigo": "0231L14",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-italiano-formacao-de-professor",
+      "nome": "Letras português italiano formação de professor",
+      "cine_rotulo": "Letras português italiano formação de professor",
+      "cine_codigo": "0115L16",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-frances",
+      "nome": "Letras português francês",
+      "cine_rotulo": "Letras português francês",
+      "cine_codigo": "0231L15",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "producao-pesqueira",
+      "nome": "Produção pesqueira",
+      "cine_rotulo": "Produção pesqueira",
+      "cine_codigo": "0831P01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Pesca",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "sistemas-de-navegacao-fluvial",
+      "nome": "Sistemas de navegação fluvial",
+      "cine_rotulo": "Sistemas de navegação fluvial",
+      "cine_codigo": "0716S02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "ciencias-dos-materiais",
+      "nome": "Ciências dos materiais",
+      "cine_rotulo": "Ciências dos materiais",
+      "cine_codigo": "0722C02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-espanhol",
+      "nome": "Letras espanhol",
+      "cine_rotulo": "Letras espanhol",
+      "cine_codigo": "0231L03",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "rochas-ornamentais",
+      "nome": "Rochas ornamentais",
+      "cine_rotulo": "Rochas ornamentais",
+      "cine_codigo": "0724R01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-nuclear",
+      "nome": "Engenharia nuclear",
+      "cine_rotulo": "Engenharia nuclear",
+      "cine_codigo": "0713E06",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-alemao",
+      "nome": "Letras português alemão",
+      "cine_rotulo": "Letras português alemão",
+      "cine_codigo": "0231L13",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-japones",
+      "nome": "Letras japonês",
+      "cine_rotulo": "Letras japonês",
+      "cine_codigo": "0231L07",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "toxicologia",
+      "nome": "Toxicologia",
+      "cine_rotulo": "Toxicologia",
+      "cine_codigo": "0512T01",
+      "area_cine": "Ciências naturais, matemática e estatística",
+      "area_especifica": "Ciências biológicas e correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "educacao-infantil-formacao-de-professor",
+      "nome": "Educação infantil formação de professor",
+      "cine_rotulo": "Educação infantil formação de professor",
+      "cine_codigo": "0112E01",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "programas-interdisciplinares-abrangendo-servicos",
+      "nome": "Programas interdisciplinares abrangendo serviços",
+      "cine_rotulo": "Programas interdisciplinares abrangendo serviços",
+      "cine_codigo": "1088P01",
+      "area_cine": "Serviços",
+      "area_especifica": "Programas interdisciplinares abrangendo serviços",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "papel-e-celulose",
+      "nome": "Papel e celulose",
+      "cine_rotulo": "Papel e celulose",
+      "cine_codigo": "0722P01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "producao-de-vestuario",
+      "nome": "Produção de vestuário",
+      "cine_rotulo": "Produção de vestuário",
+      "cine_codigo": "0723P01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "producao-grafica",
+      "nome": "Produção gráfica",
+      "cine_rotulo": "Produção gráfica",
+      "cine_codigo": "0725P01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "fabricacao-de-instrumentos-musicais-nao-industrial",
+      "nome": "Fabricação de instrumentos musicais não industrial",
+      "cine_rotulo": "Fabricação de instrumentos musicais não industrial",
+      "cine_codigo": "0214F01",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Artes",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "producao-de-cachaca",
+      "nome": "Produção de cachaça",
+      "cine_rotulo": "Produção de cachaça",
+      "cine_codigo": "0721P02",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-italiano",
+      "nome": "Letras português italiano",
+      "cine_rotulo": "Letras português italiano",
+      "cine_codigo": "0231L17",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-linguas-estrangeiras-classicas",
+      "nome": "Letras línguas estrangeiras clássicas",
+      "cine_rotulo": "Letras línguas estrangeiras clássicas",
+      "cine_codigo": "0231L09",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-outras-linguas-estrangeiras-modernas",
+      "nome": "Letras português outras línguas estrangeiras modernas",
+      "cine_rotulo": "Letras português outras línguas estrangeiras modernas",
+      "cine_codigo": "0231L21",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "cinema-e-audiovisual-formacao-de-professor",
+      "nome": "Cinema e audiovisual formação de professor",
+      "cine_rotulo": "Cinema e audiovisual formação de professor",
+      "cine_codigo": "0114C04",
+      "area_cine": "Educação",
+      "area_especifica": "Educação",
+      "graus": [
+        "licenciatura"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "letras-portugues-japones",
+      "nome": "Letras português japonês",
+      "cine_rotulo": "Letras português japonês",
+      "cine_codigo": "0231L18",
+      "area_cine": "Artes e humanidades",
+      "area_especifica": "Línguas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "formacao-de-tecnicos-e-treinadores-esportivos",
+      "nome": "Formação de técnicos e treinadores esportivos",
+      "cine_rotulo": "Formação de técnicos e treinadores esportivos",
+      "cine_codigo": "1014F01",
+      "area_cine": "Serviços",
+      "area_especifica": "Serviços pessoais",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "material-de-construcao",
+      "nome": "Material de construção",
+      "cine_rotulo": "Material de construção",
+      "cine_codigo": "0732M01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Arquitetura e construção",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia-de-nanotecnologia",
+      "nome": "Engenharia de nanotecnologia",
+      "cine_rotulo": "Engenharia de nanotecnologia",
+      "cine_codigo": "0711E04",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "engenharia",
+      "nome": "Engenharia",
+      "cine_rotulo": "Engenharia",
+      "cine_codigo": "0710E01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "bacharelado"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "petroleo-e-gas",
+      "nome": "Petróleo e gás",
+      "cine_rotulo": "Petróleo e gás",
+      "cine_codigo": "0724P01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "ceramica",
+      "nome": "Cerâmica",
+      "cine_rotulo": "Cerâmica",
+      "cine_codigo": "0722C01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Produção e processamento",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "irrigacao-e-drenagem",
+      "nome": "Irrigação e drenagem",
+      "cine_rotulo": "Irrigação e drenagem",
+      "cine_codigo": "0811I01",
+      "area_cine": "Agricultura, silvicultura, pesca e veterinária",
+      "area_especifica": "Agricultura",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
+      "cobertura": null
+    },
+    {
+      "slug": "redes-de-telecomunicacoes",
+      "nome": "Redes de telecomunicações",
+      "cine_rotulo": "Redes de telecomunicações",
+      "cine_codigo": "0714R01",
+      "area_cine": "Engenharia, produção e construção",
+      "area_especifica": "Engenharia e profissões correlatas",
+      "graus": [
+        "tecnológico"
+      ],
+      "cpc_area": null,
+      "enade_ano": null,
       "cobertura": null
     }
   ]

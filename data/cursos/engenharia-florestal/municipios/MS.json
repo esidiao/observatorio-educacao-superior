@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Chapadão do Sul",
+    "slug": "CHAPADAO_DO_SUL",
+    "cod_ibge": "5002951",
+    "vagas_total": 77,
+    "matriculas": 83,
+    "ingressos": 40,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aquidauana",
+    "slug": "AQUIDAUANA",
+    "cod_ibge": "5001102",
+    "vagas_total": 51,
+    "matriculas": 144,
+    "ingressos": 46,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

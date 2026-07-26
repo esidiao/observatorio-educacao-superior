@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 95,
+    "matriculas": 177,
+    "ingressos": 86,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Umuarama",
+    "slug": "UMUARAMA",
+    "cod_ibge": "4128104",
+    "vagas_total": 86,
+    "matriculas": 170,
+    "ingressos": 73,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 66,
+    "matriculas": 203,
+    "ingressos": 61,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jacarezinho",
+    "slug": "JACAREZINHO",
+    "cod_ibge": "4111803",
+    "vagas_total": 56,
+    "matriculas": 101,
+    "ingressos": 34,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

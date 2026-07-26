@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Serra",
+    "slug": "SERRA",
+    "cod_ibge": "3205002",
+    "vagas_total": 547,
+    "matriculas": 348,
+    "ingressos": 317,
+    "concluintes": 64,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Vitória",
+    "slug": "VITORIA",
+    "cod_ibge": "3205309",
+    "vagas_total": 523,
+    "matriculas": 876,
+    "ingressos": 311,
+    "concluintes": 115,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "São Mateus",
+    "slug": "SAO_MATEUS",
+    "cod_ibge": "3204906",
+    "vagas_total": 280,
+    "matriculas": 237,
+    "ingressos": 76,
+    "concluintes": 38,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Vila Velha",
+    "slug": "VILA_VELHA",
+    "cod_ibge": "3205200",
+    "vagas_total": 255,
+    "matriculas": 267,
+    "ingressos": 77,
+    "concluintes": 49,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Aracruz",
+    "slug": "ARACRUZ",
+    "cod_ibge": "3200607",
+    "vagas_total": 185,
+    "matriculas": 197,
+    "ingressos": 46,
+    "concluintes": 23,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cachoeiro de Itapemirim",
+    "slug": "CACHOEIRO_DE_ITAPEMIRIM",
+    "cod_ibge": "3201209",
+    "vagas_total": 158,
+    "matriculas": 162,
+    "ingressos": 39,
+    "concluintes": 28,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Colatina",
+    "slug": "COLATINA",
+    "cod_ibge": "3201506",
+    "vagas_total": 101,
+    "matriculas": 35,
+    "ingressos": 11,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Linhares",
+    "slug": "LINHARES",
+    "cod_ibge": "3203205",
+    "vagas_total": 3,
+    "matriculas": 5,
+    "ingressos": 3,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapari",
+    "slug": "GUARAPARI",
+    "cod_ibge": "3202405",
+    "vagas_total": 0,
+    "matriculas": 4,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

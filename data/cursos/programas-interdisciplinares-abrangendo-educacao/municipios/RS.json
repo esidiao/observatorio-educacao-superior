@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "São Borja",
+    "slug": "SAO_BORJA",
+    "cod_ibge": "4318002",
+    "vagas_total": 163,
+    "matriculas": 111,
+    "ingressos": 41,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

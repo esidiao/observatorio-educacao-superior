@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Ibirité",
+    "slug": "IBIRITE",
+    "cod_ibge": "3129806",
+    "vagas_total": 96,
+    "matriculas": 263,
+    "ingressos": 51,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Carangola",
+    "slug": "CARANGOLA",
+    "cod_ibge": "3113305",
+    "vagas_total": 86,
+    "matriculas": 83,
+    "ingressos": 20,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patos de Minas",
+    "slug": "PATOS_DE_MINAS",
+    "cod_ibge": "3148004",
+    "vagas_total": 80,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 67,
+    "matriculas": 110,
+    "ingressos": 35,
+    "concluintes": 31,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Uberaba",
+    "slug": "UBERABA",
+    "cod_ibge": "3170107",
+    "vagas_total": 55,
+    "matriculas": 96,
+    "ingressos": 32,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itajubá",
+    "slug": "ITAJUBA",
+    "cod_ibge": "3132404",
+    "vagas_total": 50,
+    "matriculas": 8,
+    "ingressos": 0,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pouso Alegre",
+    "slug": "POUSO_ALEGRE",
+    "cod_ibge": "3152501",
+    "vagas_total": 44,
+    "matriculas": 10,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Divinópolis",
+    "slug": "DIVINOPOLIS",
+    "cod_ibge": "3122306",
+    "vagas_total": 40,
+    "matriculas": 19,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Muriaé",
+    "slug": "MURIAE",
+    "cod_ibge": "3143906",
+    "vagas_total": 40,
+    "matriculas": 16,
+    "ingressos": 12,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Congonhas",
+    "slug": "CONGONHAS",
+    "cod_ibge": "3118007",
+    "vagas_total": 32,
+    "matriculas": 91,
+    "ingressos": 30,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caratinga",
+    "slug": "CARATINGA",
+    "cod_ibge": "3113404",
+    "vagas_total": 20,
+    "matriculas": 12,
+    "ingressos": 5,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 20,
+    "matriculas": 202,
+    "ingressos": 2,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 5,
+    "matriculas": 136,
+    "ingressos": 5,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Diamantina",
+    "slug": "DIAMANTINA",
+    "cod_ibge": "3121605",
+    "vagas_total": 0,
+    "matriculas": 91,
+    "ingressos": 0,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

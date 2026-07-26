@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Itaúna",
+    "slug": "ITAUNA",
+    "cod_ibge": "3133808",
+    "vagas_total": 130,
+    "matriculas": 52,
+    "ingressos": 32,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patrocínio",
+    "slug": "PATROCINIO",
+    "cod_ibge": "3148103",
+    "vagas_total": 86,
+    "matriculas": 149,
+    "ingressos": 50,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patos de Minas",
+    "slug": "PATOS_DE_MINAS",
+    "cod_ibge": "3148004",
+    "vagas_total": 83,
+    "matriculas": 45,
+    "ingressos": 24,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Luz",
+    "slug": "LUZ",
+    "cod_ibge": "3138807",
+    "vagas_total": 75,
+    "matriculas": 0,
+    "ingressos": 7,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Passos",
+    "slug": "PASSOS",
+    "cod_ibge": "3147907",
+    "vagas_total": 67,
+    "matriculas": 83,
+    "ingressos": 40,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 46,
+    "matriculas": 79,
+    "ingressos": 46,
+    "concluintes": 29,
+    "n_cursos": 5,
+    "n_ies": 1
+  },
+  {
+    "nome": "Contagem",
+    "slug": "CONTAGEM",
+    "cod_ibge": "3118601",
+    "vagas_total": 16,
+    "matriculas": 33,
+    "ingressos": 16,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Betim",
+    "slug": "BETIM",
+    "cod_ibge": "3106705",
+    "vagas_total": 4,
+    "matriculas": 10,
+    "ingressos": 4,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Poços de Caldas",
+    "slug": "POCOS_DE_CALDAS",
+    "cod_ibge": "3151800",
+    "vagas_total": 0,
+    "matriculas": 12,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

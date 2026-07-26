@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Vitória",
+    "slug": "VITORIA",
+    "cod_ibge": "3205309",
+    "vagas_total": 1098,
+    "matriculas": 1857,
+    "ingressos": 681,
+    "concluintes": 270,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Santa Teresa",
+    "slug": "SANTA_TERESA",
+    "cod_ibge": "3204609",
+    "vagas_total": 656,
+    "matriculas": 85,
+    "ingressos": 18,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vila Velha",
+    "slug": "VILA_VELHA",
+    "cod_ibge": "3205200",
+    "vagas_total": 608,
+    "matriculas": 1342,
+    "ingressos": 445,
+    "concluintes": 223,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Cachoeiro de Itapemirim",
+    "slug": "CACHOEIRO_DE_ITAPEMIRIM",
+    "cod_ibge": "3201209",
+    "vagas_total": 492,
+    "matriculas": 524,
+    "ingressos": 142,
+    "concluintes": 76,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Serra",
+    "slug": "SERRA",
+    "cod_ibge": "3205002",
+    "vagas_total": 377,
+    "matriculas": 774,
+    "ingressos": 352,
+    "concluintes": 71,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Colatina",
+    "slug": "COLATINA",
+    "cod_ibge": "3201506",
+    "vagas_total": 231,
+    "matriculas": 290,
+    "ingressos": 93,
+    "concluintes": 52,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cariacica",
+    "slug": "CARIACICA",
+    "cod_ibge": "3201308",
+    "vagas_total": 223,
+    "matriculas": 450,
+    "ingressos": 116,
+    "concluintes": 73,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Guarapari",
+    "slug": "GUARAPARI",
+    "cod_ibge": "3202405",
+    "vagas_total": 156,
+    "matriculas": 300,
+    "ingressos": 156,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Mateus",
+    "slug": "SAO_MATEUS",
+    "cod_ibge": "3204906",
+    "vagas_total": 122,
+    "matriculas": 235,
+    "ingressos": 54,
+    "concluintes": 44,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Nova Venécia",
+    "slug": "NOVA_VENECIA",
+    "cod_ibge": "3203908",
+    "vagas_total": 120,
+    "matriculas": 171,
+    "ingressos": 31,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Linhares",
+    "slug": "LINHARES",
+    "cod_ibge": "3203205",
+    "vagas_total": 111,
+    "matriculas": 310,
+    "ingressos": 111,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Aracruz",
+    "slug": "ARACRUZ",
+    "cod_ibge": "3200607",
+    "vagas_total": 105,
+    "matriculas": 140,
+    "ingressos": 46,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Castelo",
+    "slug": "CASTELO",
+    "cod_ibge": "3201407",
+    "vagas_total": 100,
+    "matriculas": 32,
+    "ingressos": 0,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alegre",
+    "slug": "ALEGRE",
+    "cod_ibge": "3200201",
+    "vagas_total": 80,
+    "matriculas": 105,
+    "ingressos": 32,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

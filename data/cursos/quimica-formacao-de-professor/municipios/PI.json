@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 199,
+    "matriculas": 498,
+    "ingressos": 144,
+    "concluintes": 62,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Piripiri",
+    "slug": "PIRIPIRI",
+    "cod_ibge": "2208403",
+    "vagas_total": 70,
+    "matriculas": 82,
+    "ingressos": 34,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Picos",
+    "slug": "PICOS",
+    "cod_ibge": "2208007",
+    "vagas_total": 50,
+    "matriculas": 99,
+    "ingressos": 27,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cocal",
+    "slug": "COCAL",
+    "cod_ibge": "2202703",
+    "vagas_total": 40,
+    "matriculas": 50,
+    "ingressos": 32,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Parnaíba",
+    "slug": "PARNAIBA",
+    "cod_ibge": "2207702",
+    "vagas_total": 40,
+    "matriculas": 84,
+    "ingressos": 25,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paulistana",
+    "slug": "PAULISTANA",
+    "cod_ibge": "2207801",
+    "vagas_total": 40,
+    "matriculas": 57,
+    "ingressos": 19,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Raimundo Nonato",
+    "slug": "SAO_RAIMUNDO_NONATO",
+    "cod_ibge": "2210607",
+    "vagas_total": 40,
+    "matriculas": 2,
+    "ingressos": 18,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Macapá",
+    "slug": "MACAPA",
+    "cod_ibge": "1600303",
+    "vagas_total": 374,
+    "matriculas": 367,
+    "ingressos": 279,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Porto Grande",
+    "slug": "PORTO_GRANDE",
+    "cod_ibge": "1600535",
+    "vagas_total": 30,
+    "matriculas": 79,
+    "ingressos": 27,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

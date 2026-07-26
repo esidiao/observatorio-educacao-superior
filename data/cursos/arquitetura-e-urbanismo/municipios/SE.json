@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Aracaju",
+    "slug": "ARACAJU",
+    "cod_ibge": "2800308",
+    "vagas_total": 946,
+    "matriculas": 530,
+    "ingressos": 132,
+    "concluintes": 86,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Laranjeiras",
+    "slug": "LARANJEIRAS",
+    "cod_ibge": "2803609",
+    "vagas_total": 60,
+    "matriculas": 240,
+    "ingressos": 52,
+    "concluintes": 38,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lagarto",
+    "slug": "LAGARTO",
+    "cod_ibge": "2803500",
+    "vagas_total": 55,
+    "matriculas": 159,
+    "ingressos": 48,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

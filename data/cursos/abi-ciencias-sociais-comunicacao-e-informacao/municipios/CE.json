@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Crato",
+    "slug": "CRATO",
+    "cod_ibge": "2304202",
+    "vagas_total": 80,
+    "matriculas": 16,
+    "ingressos": 16,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  }
+]

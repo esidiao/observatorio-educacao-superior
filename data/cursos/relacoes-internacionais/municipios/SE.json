@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "São Cristóvão",
+    "slug": "SAO_CRISTOVAO",
+    "cod_ibge": "2806701",
+    "vagas_total": 68,
+    "matriculas": 259,
+    "ingressos": 61,
+    "concluintes": 40,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

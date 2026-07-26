@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 2414,
+    "matriculas": 938,
+    "ingressos": 405,
+    "concluintes": 142,
+    "n_cursos": 8,
+    "n_ies": 7
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 349,
+    "matriculas": 359,
+    "ingressos": 133,
+    "concluintes": 31,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Juazeiro",
+    "slug": "JUAZEIRO",
+    "cod_ibge": "2918407",
+    "vagas_total": 80,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lauro de Freitas",
+    "slug": "LAURO_DE_FREITAS",
+    "cod_ibge": "2919207",
+    "vagas_total": 74,
+    "matriculas": 73,
+    "ingressos": 55,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria da Vitória",
+    "slug": "SANTA_MARIA_DA_VITORIA",
+    "cod_ibge": "2928109",
+    "vagas_total": 55,
+    "matriculas": 71,
+    "ingressos": 11,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cachoeira",
+    "slug": "CACHOEIRA",
+    "cod_ibge": "2904902",
+    "vagas_total": 47,
+    "matriculas": 85,
+    "ingressos": 18,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

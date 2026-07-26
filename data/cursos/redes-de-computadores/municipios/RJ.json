@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 830,
+    "matriculas": 36,
+    "ingressos": 1,
+    "concluintes": 8,
+    "n_cursos": 4,
+    "n_ies": 2
+  },
+  {
+    "nome": "Arraial do Cabo",
+    "slug": "ARRAIAL_DO_CABO",
+    "cod_ibge": "3300258",
+    "vagas_total": 140,
+    "matriculas": 89,
+    "ingressos": 46,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrópolis",
+    "slug": "PETROPOLIS",
+    "cod_ibge": "3303906",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

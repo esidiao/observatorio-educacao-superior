@@ -1,0 +1,200 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 3614,
+    "matriculas": 1895,
+    "ingressos": 944,
+    "concluintes": 275,
+    "n_cursos": 17,
+    "n_ies": 11
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 523,
+    "matriculas": 475,
+    "ingressos": 186,
+    "concluintes": 43,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "Vitória da Conquista",
+    "slug": "VITORIA_DA_CONQUISTA",
+    "cod_ibge": "2933307",
+    "vagas_total": 265,
+    "matriculas": 642,
+    "ingressos": 181,
+    "concluintes": 23,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santo Antônio de Jesus",
+    "slug": "SANTO_ANTONIO_DE_JESUS",
+    "cod_ibge": "2928703",
+    "vagas_total": 261,
+    "matriculas": 218,
+    "ingressos": 82,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Alagoinhas",
+    "slug": "ALAGOINHAS",
+    "cod_ibge": "2900702",
+    "vagas_total": 195,
+    "matriculas": 136,
+    "ingressos": 66,
+    "concluintes": 9,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Itabuna",
+    "slug": "ITABUNA",
+    "cod_ibge": "2914802",
+    "vagas_total": 185,
+    "matriculas": 186,
+    "ingressos": 87,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paulo Afonso",
+    "slug": "PAULO_AFONSO",
+    "cod_ibge": "2924009",
+    "vagas_total": 130,
+    "matriculas": 201,
+    "ingressos": 104,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barreiras",
+    "slug": "BARREIRAS",
+    "cod_ibge": "2903201",
+    "vagas_total": 88,
+    "matriculas": 90,
+    "ingressos": 36,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guanambi",
+    "slug": "GUANAMBI",
+    "cod_ibge": "2911709",
+    "vagas_total": 85,
+    "matriculas": 205,
+    "ingressos": 85,
+    "concluintes": 23,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Lauro de Freitas",
+    "slug": "LAURO_DE_FREITAS",
+    "cod_ibge": "2919207",
+    "vagas_total": 70,
+    "matriculas": 87,
+    "ingressos": 60,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Valença",
+    "slug": "VALENCA",
+    "cod_ibge": "2932903",
+    "vagas_total": 70,
+    "matriculas": 83,
+    "ingressos": 32,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Irecê",
+    "slug": "IRECE",
+    "cod_ibge": "2914604",
+    "vagas_total": 60,
+    "matriculas": 191,
+    "ingressos": 52,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapetinga",
+    "slug": "ITAPETINGA",
+    "cod_ibge": "2916401",
+    "vagas_total": 55,
+    "matriculas": 88,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jequié",
+    "slug": "JEQUIE",
+    "cod_ibge": "2918001",
+    "vagas_total": 52,
+    "matriculas": 108,
+    "ingressos": 32,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catu",
+    "slug": "CATU",
+    "cod_ibge": "2907509",
+    "vagas_total": 51,
+    "matriculas": 80,
+    "ingressos": 25,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Eunápolis",
+    "slug": "EUNAPOLIS",
+    "cod_ibge": "2910727",
+    "vagas_total": 50,
+    "matriculas": 74,
+    "ingressos": 34,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capim Grosso",
+    "slug": "CAPIM_GROSSO",
+    "cod_ibge": "2906873",
+    "vagas_total": 30,
+    "matriculas": 12,
+    "ingressos": 5,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paripiranga",
+    "slug": "PARIPIRANGA",
+    "cod_ibge": "2923803",
+    "vagas_total": 21,
+    "matriculas": 48,
+    "ingressos": 21,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 1
+  }
+]

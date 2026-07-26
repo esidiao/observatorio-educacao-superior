@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Bagé",
+    "slug": "BAGE",
+    "cod_ibge": "4301602",
+    "vagas_total": 160,
+    "matriculas": 80,
+    "ingressos": 34,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

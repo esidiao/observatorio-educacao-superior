@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Goioerê",
+    "slug": "GOIOERE",
+    "cod_ibge": "4108601",
+    "vagas_total": 177,
+    "matriculas": 26,
+    "ingressos": 7,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Apucarana",
+    "slug": "APUCARANA",
+    "cod_ibge": "4101408",
+    "vagas_total": 92,
+    "matriculas": 123,
+    "ingressos": 35,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

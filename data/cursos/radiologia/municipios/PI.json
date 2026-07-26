@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 915,
+    "matriculas": 453,
+    "ingressos": 151,
+    "concluintes": 90,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "São Pedro do Piauí",
+    "slug": "SAO_PEDRO_DO_PIAUI",
+    "cod_ibge": "2210508",
+    "vagas_total": 50,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Parnaíba",
+    "slug": "PARNAIBA",
+    "cod_ibge": "2207702",
+    "vagas_total": 20,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

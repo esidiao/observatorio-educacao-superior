@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 880,
+    "matriculas": 401,
+    "ingressos": 273,
+    "concluintes": 78,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Jundiaí",
+    "slug": "JUNDIAI",
+    "cod_ibge": "3525904",
+    "vagas_total": 80,
+    "matriculas": 172,
+    "ingressos": 90,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Caetano do Sul",
+    "slug": "SAO_CAETANO_DO_SUL",
+    "cod_ibge": "3548807",
+    "vagas_total": 60,
+    "matriculas": 98,
+    "ingressos": 56,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

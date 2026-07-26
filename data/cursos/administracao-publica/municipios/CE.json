@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Santa Quitéria",
+    "slug": "SANTA_QUITERIA",
+    "cod_ibge": "2312205",
+    "vagas_total": 380,
+    "matriculas": 7,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Redenção",
+    "slug": "REDENCAO",
+    "cod_ibge": "2311603",
+    "vagas_total": 161,
+    "matriculas": 325,
+    "ingressos": 71,
+    "concluintes": 54,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 65,
+    "matriculas": 176,
+    "ingressos": 55,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

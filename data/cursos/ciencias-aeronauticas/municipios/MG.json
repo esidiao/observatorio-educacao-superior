@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 508,
+    "matriculas": 166,
+    "ingressos": 34,
+    "concluintes": 42,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

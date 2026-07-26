@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Maceió",
+    "slug": "MACEIO",
+    "cod_ibge": "2704302",
+    "vagas_total": 180,
+    "matriculas": 32,
+    "ingressos": 2,
+    "concluintes": 17,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Penedo",
+    "slug": "PENEDO",
+    "cod_ibge": "2706703",
+    "vagas_total": 141,
+    "matriculas": 127,
+    "ingressos": 38,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Delmiro Gouveia",
+    "slug": "DELMIRO_GOUVEIA",
+    "cod_ibge": "2702405",
+    "vagas_total": 101,
+    "matriculas": 150,
+    "ingressos": 36,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arapiraca",
+    "slug": "ARAPIRACA",
+    "cod_ibge": "2700300",
+    "vagas_total": 20,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

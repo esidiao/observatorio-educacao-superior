@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Itapetininga",
+    "slug": "ITAPETININGA",
+    "cod_ibge": "3522307",
+    "vagas_total": 40,
+    "matriculas": 19,
+    "ingressos": 29,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sertãozinho",
+    "slug": "SERTAOZINHO",
+    "cod_ibge": "3551702",
+    "vagas_total": 40,
+    "matriculas": 58,
+    "ingressos": 37,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 11,
+    "matriculas": 6,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

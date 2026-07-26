@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 318,
+    "matriculas": 186,
+    "ingressos": 100,
+    "concluintes": 54,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 252,
+    "matriculas": 21,
+    "ingressos": 15,
+    "concluintes": 1,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Bento Gonçalves",
+    "slug": "BENTO_GONCALVES",
+    "cod_ibge": "4302105",
+    "vagas_total": 161,
+    "matriculas": 58,
+    "ingressos": 28,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Garibaldi",
+    "slug": "GARIBALDI",
+    "cod_ibge": "4308607",
+    "vagas_total": 125,
+    "matriculas": 38,
+    "ingressos": 11,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 125,
+    "matriculas": 62,
+    "ingressos": 23,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Taquara",
+    "slug": "TAQUARA",
+    "cod_ibge": "4321204",
+    "vagas_total": 104,
+    "matriculas": 35,
+    "ingressos": 11,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Farroupilha",
+    "slug": "FARROUPILHA",
+    "cod_ibge": "4307906",
+    "vagas_total": 82,
+    "matriculas": 30,
+    "ingressos": 15,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Sebastião do Caí",
+    "slug": "SAO_SEBASTIAO_DO_CAI",
+    "cod_ibge": "4319505",
+    "vagas_total": 36,
+    "matriculas": 14,
+    "ingressos": 6,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marau",
+    "slug": "MARAU",
+    "cod_ibge": "4311809",
+    "vagas_total": 20,
+    "matriculas": 12,
+    "ingressos": 4,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tapejara",
+    "slug": "TAPEJARA",
+    "cod_ibge": "4320909",
+    "vagas_total": 20,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cachoeirinha",
+    "slug": "CACHOEIRINHA",
+    "cod_ibge": "4303103",
+    "vagas_total": 0,
+    "matriculas": 7,
+    "ingressos": 0,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 60,
+    "matriculas": 108,
+    "ingressos": 41,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 38,
+    "matriculas": 131,
+    "ingressos": 38,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Acopiara",
+    "slug": "ACOPIARA",
+    "cod_ibge": "2300309",
+    "vagas_total": 30,
+    "matriculas": 17,
+    "ingressos": 25,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

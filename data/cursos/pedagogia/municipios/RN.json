@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 1497,
+    "matriculas": 2164,
+    "ingressos": 630,
+    "concluintes": 366,
+    "n_cursos": 8,
+    "n_ies": 7
+  },
+  {
+    "nome": "Açu",
+    "slug": "ACU",
+    "cod_ibge": "2400208",
+    "vagas_total": 145,
+    "matriculas": 461,
+    "ingressos": 88,
+    "concluintes": 78,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Pau dos Ferros",
+    "slug": "PAU_DOS_FERROS",
+    "cod_ibge": "2409407",
+    "vagas_total": 128,
+    "matriculas": 218,
+    "ingressos": 64,
+    "concluintes": 32,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 127,
+    "matriculas": 502,
+    "ingressos": 121,
+    "concluintes": 88,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Miguel",
+    "slug": "SAO_MIGUEL",
+    "cod_ibge": "2412500",
+    "vagas_total": 82,
+    "matriculas": 77,
+    "ingressos": 4,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Angicos",
+    "slug": "ANGICOS",
+    "cod_ibge": "2400802",
+    "vagas_total": 65,
+    "matriculas": 234,
+    "ingressos": 50,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Currais Novos",
+    "slug": "CURRAIS_NOVOS",
+    "cod_ibge": "2403103",
+    "vagas_total": 60,
+    "matriculas": 41,
+    "ingressos": 26,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caicó",
+    "slug": "CAICO",
+    "cod_ibge": "2402006",
+    "vagas_total": 57,
+    "matriculas": 222,
+    "ingressos": 51,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Patu",
+    "slug": "PATU",
+    "cod_ibge": "2409308",
+    "vagas_total": 40,
+    "matriculas": 198,
+    "ingressos": 38,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

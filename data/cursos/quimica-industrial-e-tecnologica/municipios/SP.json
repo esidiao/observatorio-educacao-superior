@@ -1,0 +1,189 @@
+[
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 322,
+    "matriculas": 711,
+    "ingressos": 222,
+    "concluintes": 108,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 265,
+    "matriculas": 235,
+    "ingressos": 13,
+    "concluintes": 24,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Diadema",
+    "slug": "DIADEMA",
+    "cod_ibge": "3513801",
+    "vagas_total": 236,
+    "matriculas": 479,
+    "ingressos": 203,
+    "concluintes": 61,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Praia Grande",
+    "slug": "PRAIA_GRANDE",
+    "cod_ibge": "3541000",
+    "vagas_total": 166,
+    "matriculas": 265,
+    "ingressos": 133,
+    "concluintes": 46,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 144,
+    "matriculas": 37,
+    "ingressos": 16,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mogi Guaçu",
+    "slug": "MOGI_GUACU",
+    "cod_ibge": "3530706",
+    "vagas_total": 80,
+    "matriculas": 10,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo André",
+    "slug": "SANTO_ANDRE",
+    "cod_ibge": "3547809",
+    "vagas_total": 70,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jundiaí",
+    "slug": "JUNDIAI",
+    "cod_ibge": "3525904",
+    "vagas_total": 65,
+    "matriculas": 58,
+    "ingressos": 22,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piracicaba",
+    "slug": "PIRACICABA",
+    "cod_ibge": "3538709",
+    "vagas_total": 55,
+    "matriculas": 30,
+    "ingressos": 15,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Suzano",
+    "slug": "SUZANO",
+    "cod_ibge": "3552502",
+    "vagas_total": 55,
+    "matriculas": 186,
+    "ingressos": 55,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santos",
+    "slug": "SANTOS",
+    "cod_ibge": "3548500",
+    "vagas_total": 50,
+    "matriculas": 2,
+    "ingressos": 5,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capivari",
+    "slug": "CAPIVARI",
+    "cod_ibge": "3510401",
+    "vagas_total": 40,
+    "matriculas": 50,
+    "ingressos": 24,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Indaiatuba",
+    "slug": "INDAIATUBA",
+    "cod_ibge": "3520509",
+    "vagas_total": 40,
+    "matriculas": 91,
+    "ingressos": 33,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bauru",
+    "slug": "BAURU",
+    "cod_ibge": "3506003",
+    "vagas_total": 21,
+    "matriculas": 98,
+    "ingressos": 16,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araraquara",
+    "slug": "ARARAQUARA",
+    "cod_ibge": "3503208",
+    "vagas_total": 15,
+    "matriculas": 100,
+    "ingressos": 0,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Carlos",
+    "slug": "SAO_CARLOS",
+    "cod_ibge": "3548906",
+    "vagas_total": 4,
+    "matriculas": 49,
+    "ingressos": 0,
+    "concluintes": 23,
+    "n_cursos": 4,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ribeirão Preto",
+    "slug": "RIBEIRAO_PRETO",
+    "cod_ibge": "3543402",
+    "vagas_total": 3,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

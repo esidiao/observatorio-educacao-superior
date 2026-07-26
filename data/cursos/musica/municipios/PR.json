@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 243,
+    "matriculas": 575,
+    "ingressos": 204,
+    "concluintes": 89,
+    "n_cursos": 6,
+    "n_ies": 3
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 64,
+    "matriculas": 74,
+    "ingressos": 18,
+    "concluintes": 11,
+    "n_cursos": 4,
+    "n_ies": 1
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 26,
+    "matriculas": 43,
+    "ingressos": 17,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Sombrio",
+    "slug": "SOMBRIO",
+    "cod_ibge": "4217709",
+    "vagas_total": 50,
+    "matriculas": 44,
+    "ingressos": 23,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Florianópolis",
+    "slug": "FLORIANOPOLIS",
+    "cod_ibge": "4205407",
+    "vagas_total": 45,
+    "matriculas": 99,
+    "ingressos": 44,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Balneário Camboriú",
+    "slug": "BALNEARIO_CAMBORIU",
+    "cod_ibge": "4202008",
+    "vagas_total": 4,
+    "matriculas": 11,
+    "ingressos": 3,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

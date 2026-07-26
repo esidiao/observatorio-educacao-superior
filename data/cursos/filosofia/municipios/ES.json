@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Vitória",
+    "slug": "VITORIA",
+    "cod_ibge": "3205309",
+    "vagas_total": 137,
+    "matriculas": 120,
+    "ingressos": 44,
+    "concluintes": 14,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

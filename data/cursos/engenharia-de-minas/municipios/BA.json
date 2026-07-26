@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Brumado",
+    "slug": "BRUMADO",
+    "cod_ibge": "2904605",
+    "vagas_total": 52,
+    "matriculas": 71,
+    "ingressos": 29,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caetité",
+    "slug": "CAETITE",
+    "cod_ibge": "2905206",
+    "vagas_total": 25,
+    "matriculas": 86,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Senhor do Bonfim",
+    "slug": "SENHOR_DO_BONFIM",
+    "cod_ibge": "2930105",
+    "vagas_total": 4,
+    "matriculas": 16,
+    "ingressos": 4,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

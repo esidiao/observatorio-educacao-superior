@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 290,
+    "matriculas": 458,
+    "ingressos": 252,
+    "concluintes": 86,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 279,
+    "matriculas": 402,
+    "ingressos": 228,
+    "concluintes": 88,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Mauá",
+    "slug": "MAUA",
+    "cod_ibge": "3529401",
+    "vagas_total": 160,
+    "matriculas": 356,
+    "ingressos": 158,
+    "concluintes": 82,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mogi Mirim",
+    "slug": "MOGI_MIRIM",
+    "cod_ibge": "3530805",
+    "vagas_total": 80,
+    "matriculas": 52,
+    "ingressos": 47,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 40,
+    "matriculas": 109,
+    "ingressos": 39,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

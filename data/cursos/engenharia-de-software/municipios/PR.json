@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 1172,
+    "matriculas": 1430,
+    "ingressos": 819,
+    "concluintes": 94,
+    "n_cursos": 8,
+    "n_ies": 7
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 566,
+    "matriculas": 914,
+    "ingressos": 454,
+    "concluintes": 63,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 460,
+    "matriculas": 521,
+    "ingressos": 341,
+    "concluintes": 22,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 285,
+    "matriculas": 282,
+    "ingressos": 117,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 278,
+    "matriculas": 462,
+    "ingressos": 209,
+    "concluintes": 46,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 171,
+    "matriculas": 430,
+    "ingressos": 171,
+    "concluintes": 40,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Paranavaí",
+    "slug": "PARANAVAI",
+    "cod_ibge": "4118402",
+    "vagas_total": 156,
+    "matriculas": 266,
+    "ingressos": 140,
+    "concluintes": 15,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São José dos Pinhais",
+    "slug": "SAO_JOSE_DOS_PINHAIS",
+    "cod_ibge": "4125506",
+    "vagas_total": 150,
+    "matriculas": 239,
+    "ingressos": 98,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 125,
+    "matriculas": 192,
+    "ingressos": 102,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "União da Vitória",
+    "slug": "UNIAO_DA_VITORIA",
+    "cod_ibge": "4128203",
+    "vagas_total": 105,
+    "matriculas": 201,
+    "ingressos": 87,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Toledo",
+    "slug": "TOLEDO",
+    "cod_ibge": "4127700",
+    "vagas_total": 101,
+    "matriculas": 81,
+    "ingressos": 63,
+    "concluintes": 0,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cornélio Procópio",
+    "slug": "CORNELIO_PROCOPIO",
+    "cod_ibge": "4106407",
+    "vagas_total": 88,
+    "matriculas": 505,
+    "ingressos": 83,
+    "concluintes": 37,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Dois Vizinhos",
+    "slug": "DOIS_VIZINHOS",
+    "cod_ibge": "4107207",
+    "vagas_total": 88,
+    "matriculas": 445,
+    "ingressos": 83,
+    "concluintes": 49,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Miguel do Iguaçu",
+    "slug": "SAO_MIGUEL_DO_IGUACU",
+    "cod_ibge": "4125704",
+    "vagas_total": 78,
+    "matriculas": 109,
+    "ingressos": 67,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

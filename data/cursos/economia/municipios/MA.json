@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 636,
+    "matriculas": 56,
+    "ingressos": 0,
+    "concluintes": 13,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 115,
+    "matriculas": 792,
+    "ingressos": 84,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

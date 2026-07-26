@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 399,
+    "matriculas": 598,
+    "ingressos": 178,
+    "concluintes": 63,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 141,
+    "matriculas": 131,
+    "ingressos": 50,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itumbiara",
+    "slug": "ITUMBIARA",
+    "cod_ibge": "5211503",
+    "vagas_total": 102,
+    "matriculas": 93,
+    "ingressos": 37,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

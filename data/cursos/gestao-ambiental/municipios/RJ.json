@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Três Rios",
+    "slug": "TRES_RIOS",
+    "cod_ibge": "3306008",
+    "vagas_total": 140,
+    "matriculas": 91,
+    "ingressos": 21,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 119,
+    "matriculas": 169,
+    "ingressos": 60,
+    "concluintes": 7,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Paracambi",
+    "slug": "PARACAMBI",
+    "cod_ibge": "3303609",
+    "vagas_total": 80,
+    "matriculas": 133,
+    "ingressos": 42,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arraial do Cabo",
+    "slug": "ARRAIAL_DO_CABO",
+    "cod_ibge": "3300258",
+    "vagas_total": 60,
+    "matriculas": 23,
+    "ingressos": 33,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

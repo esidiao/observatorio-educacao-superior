@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "São Bernardo",
+    "slug": "SAO_BERNARDO",
+    "cod_ibge": "2110609",
+    "vagas_total": 84,
+    "matriculas": 334,
+    "ingressos": 58,
+    "concluintes": 17,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pinheiro",
+    "slug": "PINHEIRO",
+    "cod_ibge": "2108603",
+    "vagas_total": 70,
+    "matriculas": 301,
+    "ingressos": 54,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Codó",
+    "slug": "CODO",
+    "cod_ibge": "2103307",
+    "vagas_total": 66,
+    "matriculas": 262,
+    "ingressos": 52,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bacabal",
+    "slug": "BACABAL",
+    "cod_ibge": "2101202",
+    "vagas_total": 60,
+    "matriculas": 196,
+    "ingressos": 26,
+    "concluintes": 22,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Grajaú",
+    "slug": "GRAJAU",
+    "cod_ibge": "2104800",
+    "vagas_total": 60,
+    "matriculas": 211,
+    "ingressos": 37,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 60,
+    "matriculas": 199,
+    "ingressos": 12,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 35,
+    "matriculas": 69,
+    "ingressos": 10,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Estreito",
+    "slug": "ESTREITO",
+    "cod_ibge": "2104057",
+    "vagas_total": 0,
+    "matriculas": 16,
+    "ingressos": 0,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

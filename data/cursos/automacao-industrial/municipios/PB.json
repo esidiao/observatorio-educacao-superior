@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 68,
+    "matriculas": 147,
+    "ingressos": 53,
+    "concluintes": 13,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

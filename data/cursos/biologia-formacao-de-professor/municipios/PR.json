@@ -1,0 +1,222 @@
+[
+  {
+    "nome": "Cornélio Procópio",
+    "slug": "CORNELIO_PROCOPIO",
+    "cod_ibge": "4106407",
+    "vagas_total": 258,
+    "matriculas": 51,
+    "ingressos": 23,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 150,
+    "matriculas": 166,
+    "ingressos": 46,
+    "concluintes": 43,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 147,
+    "matriculas": 339,
+    "ingressos": 120,
+    "concluintes": 57,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Jacarezinho",
+    "slug": "JACAREZINHO",
+    "cod_ibge": "4111803",
+    "vagas_total": 130,
+    "matriculas": 104,
+    "ingressos": 38,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Realeza",
+    "slug": "REALEZA",
+    "cod_ibge": "4121406",
+    "vagas_total": 125,
+    "matriculas": 110,
+    "ingressos": 37,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Laranjeiras do Sul",
+    "slug": "LARANJEIRAS_DO_SUL",
+    "cod_ibge": "4113304",
+    "vagas_total": 124,
+    "matriculas": 59,
+    "ingressos": 25,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 120,
+    "matriculas": 174,
+    "ingressos": 49,
+    "concluintes": 41,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Bandeirantes",
+    "slug": "BANDEIRANTES",
+    "cod_ibge": "4102406",
+    "vagas_total": 112,
+    "matriculas": 38,
+    "ingressos": 0,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "4117602",
+    "vagas_total": 104,
+    "matriculas": 58,
+    "ingressos": 40,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 96,
+    "matriculas": 179,
+    "ingressos": 70,
+    "concluintes": 22,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Paranaguá",
+    "slug": "PARANAGUA",
+    "cod_ibge": "4118204",
+    "vagas_total": 70,
+    "matriculas": 72,
+    "ingressos": 36,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Dois Vizinhos",
+    "slug": "DOIS_VIZINHOS",
+    "cod_ibge": "4107207",
+    "vagas_total": 66,
+    "matriculas": 140,
+    "ingressos": 31,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "União da Vitória",
+    "slug": "UNIAO_DA_VITORIA",
+    "cod_ibge": "4128203",
+    "vagas_total": 53,
+    "matriculas": 104,
+    "ingressos": 39,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paranavaí",
+    "slug": "PARANAVAI",
+    "cod_ibge": "4118402",
+    "vagas_total": 52,
+    "matriculas": 116,
+    "ingressos": 41,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 44,
+    "matriculas": 262,
+    "ingressos": 57,
+    "concluintes": 43,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Santa Helena",
+    "slug": "SANTA_HELENA",
+    "cod_ibge": "4123501",
+    "vagas_total": 44,
+    "matriculas": 82,
+    "ingressos": 24,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 40,
+    "matriculas": 84,
+    "ingressos": 30,
+    "concluintes": 7,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Palotina",
+    "slug": "PALOTINA",
+    "cod_ibge": "4117909",
+    "vagas_total": 40,
+    "matriculas": 29,
+    "ingressos": 1,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Umuarama",
+    "slug": "UMUARAMA",
+    "cod_ibge": "4128104",
+    "vagas_total": 40,
+    "matriculas": 74,
+    "ingressos": 30,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Assis Chateaubriand",
+    "slug": "ASSIS_CHATEAUBRIAND",
+    "cod_ibge": "4102000",
+    "vagas_total": 0,
+    "matriculas": 18,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

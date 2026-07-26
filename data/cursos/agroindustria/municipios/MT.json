@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Campo Novo do Parecis",
+    "slug": "CAMPO_NOVO_DO_PARECIS",
+    "cod_ibge": "5102637",
+    "vagas_total": 35,
+    "matriculas": 59,
+    "ingressos": 19,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarantã do Norte",
+    "slug": "GUARANTA_DO_NORTE",
+    "cod_ibge": "5104104",
+    "vagas_total": 0,
+    "matriculas": 28,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

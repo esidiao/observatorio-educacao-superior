@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Arapiraca",
+    "slug": "ARAPIRACA",
+    "cod_ibge": "2700300",
+    "vagas_total": 86,
+    "matriculas": 163,
+    "ingressos": 36,
+    "concluintes": 40,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Maceió",
+    "slug": "MACEIO",
+    "cod_ibge": "2704302",
+    "vagas_total": 44,
+    "matriculas": 133,
+    "ingressos": 26,
+    "concluintes": 17,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santana do Ipanema",
+    "slug": "SANTANA_DO_IPANEMA",
+    "cod_ibge": "2708006",
+    "vagas_total": 0,
+    "matriculas": 5,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

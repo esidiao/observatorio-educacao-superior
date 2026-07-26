@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Alegrete",
+    "slug": "ALEGRETE",
+    "cod_ibge": "4300406",
+    "vagas_total": 50,
+    "matriculas": 70,
+    "ingressos": 22,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Júlio de Castilhos",
+    "slug": "JULIO_DE_CASTILHOS",
+    "cod_ibge": "4311205",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Panambi",
+    "slug": "PANAMBI",
+    "cod_ibge": "4313904",
+    "vagas_total": 0,
+    "matriculas": 37,
+    "ingressos": 0,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

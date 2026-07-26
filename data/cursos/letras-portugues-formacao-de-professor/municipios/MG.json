@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Belo Horizonte",
+    "slug": "BELO_HORIZONTE",
+    "cod_ibge": "3106200",
+    "vagas_total": 472,
+    "matriculas": 1258,
+    "ingressos": 353,
+    "concluintes": 193,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Mariana",
+    "slug": "MARIANA",
+    "cod_ibge": "3140001",
+    "vagas_total": 262,
+    "matriculas": 193,
+    "ingressos": 61,
+    "concluintes": 35,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Montes Claros",
+    "slug": "MONTES_CLAROS",
+    "cod_ibge": "3143302",
+    "vagas_total": 118,
+    "matriculas": 301,
+    "ingressos": 80,
+    "concluintes": 48,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uberlândia",
+    "slug": "UBERLANDIA",
+    "cod_ibge": "3170206",
+    "vagas_total": 92,
+    "matriculas": 166,
+    "ingressos": 60,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Januária",
+    "slug": "JANUARIA",
+    "cod_ibge": "3135209",
+    "vagas_total": 86,
+    "matriculas": 103,
+    "ingressos": 43,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João del Rei",
+    "slug": "SAO_JOAO_DEL_REI",
+    "cod_ibge": "3162500",
+    "vagas_total": 80,
+    "matriculas": 127,
+    "ingressos": 42,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Passos",
+    "slug": "PASSOS",
+    "cod_ibge": "3147907",
+    "vagas_total": 55,
+    "matriculas": 86,
+    "ingressos": 29,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 37,
+    "matriculas": 17,
+    "ingressos": 1,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Unaí",
+    "slug": "UNAI",
+    "cod_ibge": "3170404",
+    "vagas_total": 32,
+    "matriculas": 57,
+    "ingressos": 0,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Almenara",
+    "slug": "ALMENARA",
+    "cod_ibge": "3101706",
+    "vagas_total": 24,
+    "matriculas": 41,
+    "ingressos": 2,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Espinosa",
+    "slug": "ESPINOSA",
+    "cod_ibge": "3124302",
+    "vagas_total": 24,
+    "matriculas": 34,
+    "ingressos": 2,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Virginópolis",
+    "slug": "VIRGINOPOLIS",
+    "cod_ibge": "3171808",
+    "vagas_total": 5,
+    "matriculas": 24,
+    "ingressos": 5,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 3,
+    "matriculas": 77,
+    "ingressos": 3,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alfenas",
+    "slug": "ALFENAS",
+    "cod_ibge": "3101607",
+    "vagas_total": 0,
+    "matriculas": 68,
+    "ingressos": 0,
+    "concluintes": 23,
+    "n_cursos": 2,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 60,
+    "matriculas": 57,
+    "ingressos": 28,
+    "concluintes": 3,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

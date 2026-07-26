@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 125,
+    "matriculas": 231,
+    "ingressos": 114,
+    "concluintes": 34,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Franco da Rocha",
+    "slug": "FRANCO_DA_ROCHA",
+    "cod_ibge": "3516408",
+    "vagas_total": 110,
+    "matriculas": 156,
+    "ingressos": 78,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 90,
+    "matriculas": 147,
+    "ingressos": 77,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

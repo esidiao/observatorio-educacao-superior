@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "São José dos Campos",
+    "slug": "SAO_JOSE_DOS_CAMPOS",
+    "cod_ibge": "3549904",
+    "vagas_total": 107,
+    "matriculas": 167,
+    "ingressos": 86,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 71,
+    "matriculas": 4,
+    "ingressos": 1,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Carlos",
+    "slug": "SAO_CARLOS",
+    "cod_ibge": "3548906",
+    "vagas_total": 60,
+    "matriculas": 119,
+    "ingressos": 27,
+    "concluintes": 25,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

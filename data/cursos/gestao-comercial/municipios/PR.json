@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 450,
+    "matriculas": 125,
+    "ingressos": 84,
+    "concluintes": 37,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Campo Mourão",
+    "slug": "CAMPO_MOURAO",
+    "cod_ibge": "4104303",
+    "vagas_total": 198,
+    "matriculas": 18,
+    "ingressos": 11,
+    "concluintes": 2,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 128,
+    "matriculas": 65,
+    "ingressos": 42,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Medianeira",
+    "slug": "MEDIANEIRA",
+    "cod_ibge": "4115804",
+    "vagas_total": 103,
+    "matriculas": 54,
+    "ingressos": 24,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 100,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ivaiporã",
+    "slug": "IVAIPORA",
+    "cod_ibge": "4111506",
+    "vagas_total": 67,
+    "matriculas": 14,
+    "ingressos": 12,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Assis Chateaubriand",
+    "slug": "ASSIS_CHATEAUBRIAND",
+    "cod_ibge": "4102000",
+    "vagas_total": 55,
+    "matriculas": 62,
+    "ingressos": 42,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

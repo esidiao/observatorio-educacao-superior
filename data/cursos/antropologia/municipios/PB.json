@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Rio Tinto",
+    "slug": "RIO_TINTO",
+    "cod_ibge": "2512903",
+    "vagas_total": 50,
+    "matriculas": 135,
+    "ingressos": 34,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

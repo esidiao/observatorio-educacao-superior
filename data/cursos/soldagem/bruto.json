@@ -1,0 +1,44 @@
+{
+  "ano_censo": "2024",
+  "ufs": {
+    "SP": {
+      "vagas_total": 570,
+      "vagas_presencial": 570,
+      "vagas_ead": 0,
+      "vagas_capital": 321,
+      "pct_ead": 0.0,
+      "n_cursos_presencial": 4,
+      "n_cursos_ead": 0,
+      "n_ies": 4,
+      "municipios_oferta": 3,
+      "ead_polos_municipios": 0,
+      "ead_polos_registros": 0,
+      "mun_ead_only": 0,
+      "ingressos": 309,
+      "matriculas": 567,
+      "matriculas_ead": 0,
+      "concluintes": 93,
+      "taxa_conclusao": 16.4,
+      "pct_mulheres": 9.4,
+      "pct_ppi": 53.7,
+      "pct_financiamento": 0.0,
+      "pct_noturno": 49.3,
+      "pct_rede_publica": 100.0,
+      "HHI": 0.3025,
+      "CR2": 0.7088,
+      "CR10": 1.0,
+      "municipios_total": 645,
+      "municipios_deserto": 642,
+      "populacao": 45973194,
+      "regiao": "Sudeste",
+      "capital": "São Paulo",
+      "vagas_por_100k": 1.2
+    }
+  },
+  "vagas_por_curso": {
+    "1178626": 85,
+    "1178844": 164,
+    "1278759": 240,
+    "21243": 81
+  }
+}

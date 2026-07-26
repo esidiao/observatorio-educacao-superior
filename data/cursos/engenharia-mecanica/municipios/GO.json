@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Goiânia",
+    "slug": "GOIANIA",
+    "cod_ibge": "5208707",
+    "vagas_total": 552,
+    "matriculas": 840,
+    "ingressos": 257,
+    "concluintes": 106,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Anápolis",
+    "slug": "ANAPOLIS",
+    "cod_ibge": "5201108",
+    "vagas_total": 344,
+    "matriculas": 287,
+    "ingressos": 97,
+    "concluintes": 38,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Goianésia",
+    "slug": "GOIANESIA",
+    "cod_ibge": "5208608",
+    "vagas_total": 170,
+    "matriculas": 94,
+    "ingressos": 25,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Verde",
+    "slug": "RIO_VERDE",
+    "cod_ibge": "5218805",
+    "vagas_total": 85,
+    "matriculas": 111,
+    "ingressos": 75,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catalão",
+    "slug": "CATALAO",
+    "cod_ibge": "5205109",
+    "vagas_total": 51,
+    "matriculas": 122,
+    "ingressos": 37,
+    "concluintes": 22,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Jataí",
+    "slug": "JATAI",
+    "cod_ibge": "5211909",
+    "vagas_total": 9,
+    "matriculas": 19,
+    "ingressos": 9,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

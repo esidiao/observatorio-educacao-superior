@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Lavras",
+    "slug": "LAVRAS",
+    "cod_ibge": "3138203",
+    "vagas_total": 310,
+    "matriculas": 314,
+    "ingressos": 92,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Monte Carmelo",
+    "slug": "MONTE_CARMELO",
+    "cod_ibge": "3143104",
+    "vagas_total": 201,
+    "matriculas": 92,
+    "ingressos": 15,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Montes Claros",
+    "slug": "MONTES_CLAROS",
+    "cod_ibge": "3143302",
+    "vagas_total": 139,
+    "matriculas": 123,
+    "ingressos": 37,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Diamantina",
+    "slug": "DIAMANTINA",
+    "cod_ibge": "3121605",
+    "vagas_total": 95,
+    "matriculas": 150,
+    "ingressos": 25,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Janaúba",
+    "slug": "JANAUBA",
+    "cod_ibge": "3135100",
+    "vagas_total": 83,
+    "matriculas": 19,
+    "ingressos": 18,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sete Lagoas",
+    "slug": "SETE_LAGOAS",
+    "cod_ibge": "3167202",
+    "vagas_total": 70,
+    "matriculas": 152,
+    "ingressos": 25,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Viçosa",
+    "slug": "VICOSA",
+    "cod_ibge": "3171303",
+    "vagas_total": 63,
+    "matriculas": 332,
+    "ingressos": 63,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São João Evangelista",
+    "slug": "SAO_JOAO_EVANGELISTA",
+    "cod_ibge": "3162807",
+    "vagas_total": 40,
+    "matriculas": 97,
+    "ingressos": 16,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salinas",
+    "slug": "SALINAS",
+    "cod_ibge": "3157005",
+    "vagas_total": 36,
+    "matriculas": 123,
+    "ingressos": 23,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

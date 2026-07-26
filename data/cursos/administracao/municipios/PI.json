@@ -1,0 +1,156 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 3181,
+    "matriculas": 1254,
+    "ingressos": 463,
+    "concluintes": 144,
+    "n_cursos": 17,
+    "n_ies": 16
+  },
+  {
+    "nome": "Floriano",
+    "slug": "FLORIANO",
+    "cod_ibge": "2203909",
+    "vagas_total": 390,
+    "matriculas": 420,
+    "ingressos": 126,
+    "concluintes": 71,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Picos",
+    "slug": "PICOS",
+    "cod_ibge": "2208007",
+    "vagas_total": 225,
+    "matriculas": 430,
+    "ingressos": 112,
+    "concluintes": 47,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Parnaíba",
+    "slug": "PARNAIBA",
+    "cod_ibge": "2207702",
+    "vagas_total": 223,
+    "matriculas": 304,
+    "ingressos": 91,
+    "concluintes": 15,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Raimundo Nonato",
+    "slug": "SAO_RAIMUNDO_NONATO",
+    "cod_ibge": "2210607",
+    "vagas_total": 152,
+    "matriculas": 36,
+    "ingressos": 0,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piripiri",
+    "slug": "PIRIPIRI",
+    "cod_ibge": "2208403",
+    "vagas_total": 140,
+    "matriculas": 155,
+    "ingressos": 39,
+    "concluintes": 32,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São João do Piauí",
+    "slug": "SAO_JOAO_DO_PIAUI",
+    "cod_ibge": "2210003",
+    "vagas_total": 140,
+    "matriculas": 160,
+    "ingressos": 40,
+    "concluintes": 29,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Campo Maior",
+    "slug": "CAMPO_MAIOR",
+    "cod_ibge": "2202208",
+    "vagas_total": 70,
+    "matriculas": 163,
+    "ingressos": 58,
+    "concluintes": 17,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Pedro II",
+    "slug": "PEDRO_II",
+    "cod_ibge": "2207900",
+    "vagas_total": 50,
+    "matriculas": 136,
+    "ingressos": 40,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Angical do Piauí",
+    "slug": "ANGICAL_DO_PIAUI",
+    "cod_ibge": "2200608",
+    "vagas_total": 45,
+    "matriculas": 133,
+    "ingressos": 40,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Oeiras",
+    "slug": "OEIRAS",
+    "cod_ibge": "2207009",
+    "vagas_total": 43,
+    "matriculas": 152,
+    "ingressos": 40,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Paulistana",
+    "slug": "PAULISTANA",
+    "cod_ibge": "2207801",
+    "vagas_total": 43,
+    "matriculas": 104,
+    "ingressos": 40,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Corrente",
+    "slug": "CORRENTE",
+    "cod_ibge": "2202901",
+    "vagas_total": 40,
+    "matriculas": 35,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uruçuí",
+    "slug": "URUCUI",
+    "cod_ibge": "2211209",
+    "vagas_total": 35,
+    "matriculas": 89,
+    "ingressos": 34,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

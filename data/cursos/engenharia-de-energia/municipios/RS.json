@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 404,
+    "matriculas": 295,
+    "ingressos": 114,
+    "concluintes": 16,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Bagé",
+    "slug": "BAGE",
+    "cod_ibge": "4301602",
+    "vagas_total": 191,
+    "matriculas": 97,
+    "ingressos": 49,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tramandaí",
+    "slug": "TRAMANDAI",
+    "cod_ibge": "4321600",
+    "vagas_total": 25,
+    "matriculas": 26,
+    "ingressos": 10,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 0,
+    "matriculas": 13,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

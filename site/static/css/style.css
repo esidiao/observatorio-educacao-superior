@@ -768,6 +768,11 @@ tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-a
 .curso-chip.comparar { color: var(--accent); border-color: var(--accent); }
 .curso-chip.comparar:hover { background: var(--accent); color: #fff; }
 
+/* `hidden` é o mecanismo usado para esconder chips, cartões e sugestões pelo JS.
+   Sem isto, qualquer regra de `display` (inline-flex nos chips, grid nos cartões)
+   vence o atributo e o elemento reaparece vazio. */
+[hidden] { display: none !important; }
+
 /* Busca de curso: o catálogo tem centenas de entradas, então a navegação é
    por busca. A lista de sugestões flutua sobre o conteúdo. */
 .curso-busca { position: relative; flex: 1 1 260px; max-width: 380px; }

@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Manaus",
+    "slug": "MANAUS",
+    "cod_ibge": "1302603",
+    "vagas_total": 5836,
+    "matriculas": 5848,
+    "ingressos": 2185,
+    "concluintes": 575,
+    "n_cursos": 18,
+    "n_ies": 13
+  },
+  {
+    "nome": "Coari",
+    "slug": "COARI",
+    "cod_ibge": "1301209",
+    "vagas_total": 200,
+    "matriculas": 84,
+    "ingressos": 26,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itacoatiara",
+    "slug": "ITACOATIARA",
+    "cod_ibge": "1301902",
+    "vagas_total": 200,
+    "matriculas": 122,
+    "ingressos": 66,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Parintins",
+    "slug": "PARINTINS",
+    "cod_ibge": "1303403",
+    "vagas_total": 200,
+    "matriculas": 157,
+    "ingressos": 53,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tefé",
+    "slug": "TEFE",
+    "cod_ibge": "1304203",
+    "vagas_total": 200,
+    "matriculas": 192,
+    "ingressos": 77,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

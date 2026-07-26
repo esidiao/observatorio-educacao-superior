@@ -1,0 +1,46 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 55,
+    "matriculas": 6,
+    "ingressos": 3,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alcântara",
+    "slug": "ALCANTARA",
+    "cod_ibge": "2100204",
+    "vagas_total": 49,
+    "matriculas": 11,
+    "ingressos": 11,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José de Ribamar",
+    "slug": "SAO_JOSE_DE_RIBAMAR",
+    "cod_ibge": "2111201",
+    "vagas_total": 40,
+    "matriculas": 94,
+    "ingressos": 24,
+    "concluintes": 43,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Coroatá",
+    "slug": "COROATA",
+    "cod_ibge": "2103604",
+    "vagas_total": 38,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

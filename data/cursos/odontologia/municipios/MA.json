@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 1653,
+    "matriculas": 2930,
+    "ingressos": 749,
+    "concluintes": 417,
+    "n_cursos": 8,
+    "n_ies": 8
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 919,
+    "matriculas": 998,
+    "ingressos": 356,
+    "concluintes": 143,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Balsas",
+    "slug": "BALSAS",
+    "cod_ibge": "2101400",
+    "vagas_total": 470,
+    "matriculas": 109,
+    "ingressos": 17,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caxias",
+    "slug": "CAXIAS",
+    "cod_ibge": "2103000",
+    "vagas_total": 249,
+    "matriculas": 317,
+    "ingressos": 69,
+    "concluintes": 68,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pinheiro",
+    "slug": "PINHEIRO",
+    "cod_ibge": "2108603",
+    "vagas_total": 246,
+    "matriculas": 56,
+    "ingressos": 56,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Inês",
+    "slug": "SANTA_INES",
+    "cod_ibge": "2109908",
+    "vagas_total": 130,
+    "matriculas": 166,
+    "ingressos": 53,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Presidente Dutra",
+    "slug": "PRESIDENTE_DUTRA",
+    "cod_ibge": "2109106",
+    "vagas_total": 118,
+    "matriculas": 40,
+    "ingressos": 51,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Açailândia",
+    "slug": "ACAILANDIA",
+    "cod_ibge": "2100055",
+    "vagas_total": 101,
+    "matriculas": 93,
+    "ingressos": 18,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Timon",
+    "slug": "TIMON",
+    "cod_ibge": "2112209",
+    "vagas_total": 70,
+    "matriculas": 13,
+    "ingressos": 8,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

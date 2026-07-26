@@ -1,0 +1,200 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 1973,
+    "matriculas": 1885,
+    "ingressos": 445,
+    "concluintes": 219,
+    "n_cursos": 13,
+    "n_ies": 13
+  },
+  {
+    "nome": "Maringá",
+    "slug": "MARINGA",
+    "cod_ibge": "4115200",
+    "vagas_total": 350,
+    "matriculas": 287,
+    "ingressos": 78,
+    "concluintes": 42,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Londrina",
+    "slug": "LONDRINA",
+    "cod_ibge": "4113700",
+    "vagas_total": 259,
+    "matriculas": 384,
+    "ingressos": 110,
+    "concluintes": 54,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Ponta Grossa",
+    "slug": "PONTA_GROSSA",
+    "cod_ibge": "4119905",
+    "vagas_total": 254,
+    "matriculas": 401,
+    "ingressos": 121,
+    "concluintes": 48,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Guarapuava",
+    "slug": "GUARAPUAVA",
+    "cod_ibge": "4109401",
+    "vagas_total": 170,
+    "matriculas": 170,
+    "ingressos": 40,
+    "concluintes": 17,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Paranavaí",
+    "slug": "PARANAVAI",
+    "cod_ibge": "4118402",
+    "vagas_total": 106,
+    "matriculas": 106,
+    "ingressos": 44,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araucária",
+    "slug": "ARAUCARIA",
+    "cod_ibge": "4101804",
+    "vagas_total": 100,
+    "matriculas": 48,
+    "ingressos": 15,
+    "concluintes": 16,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Apucarana",
+    "slug": "APUCARANA",
+    "cod_ibge": "4101408",
+    "vagas_total": 91,
+    "matriculas": 227,
+    "ingressos": 36,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pato Branco",
+    "slug": "PATO_BRANCO",
+    "cod_ibge": "4118501",
+    "vagas_total": 90,
+    "matriculas": 215,
+    "ingressos": 35,
+    "concluintes": 15,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Medianeira",
+    "slug": "MEDIANEIRA",
+    "cod_ibge": "4115804",
+    "vagas_total": 89,
+    "matriculas": 209,
+    "ingressos": 59,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cornélio Procópio",
+    "slug": "CORNELIO_PROCOPIO",
+    "cod_ibge": "4106407",
+    "vagas_total": 88,
+    "matriculas": 284,
+    "ingressos": 42,
+    "concluintes": 43,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cascavel",
+    "slug": "CASCAVEL",
+    "cod_ibge": "4104808",
+    "vagas_total": 85,
+    "matriculas": 79,
+    "ingressos": 28,
+    "concluintes": 6,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São José dos Pinhais",
+    "slug": "SAO_JOSE_DOS_PINHAIS",
+    "cod_ibge": "4125506",
+    "vagas_total": 85,
+    "matriculas": 17,
+    "ingressos": 20,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "União da Vitória",
+    "slug": "UNIAO_DA_VITORIA",
+    "cod_ibge": "4128203",
+    "vagas_total": 85,
+    "matriculas": 56,
+    "ingressos": 14,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Foz do Iguaçu",
+    "slug": "FOZ_DO_IGUACU",
+    "cod_ibge": "4108304",
+    "vagas_total": 80,
+    "matriculas": 206,
+    "ingressos": 29,
+    "concluintes": 49,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Francisco Beltrão",
+    "slug": "FRANCISCO_BELTRAO",
+    "cod_ibge": "4108403",
+    "vagas_total": 60,
+    "matriculas": 13,
+    "ingressos": 0,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Largo",
+    "slug": "CAMPO_LARGO",
+    "cod_ibge": "4104204",
+    "vagas_total": 46,
+    "matriculas": 121,
+    "ingressos": 39,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Telêmaco Borba",
+    "slug": "TELEMACO_BORBA",
+    "cod_ibge": "4127106",
+    "vagas_total": 46,
+    "matriculas": 110,
+    "ingressos": 45,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "Rio de Janeiro",
+    "slug": "RIO_DE_JANEIRO",
+    "cod_ibge": "3304557",
+    "vagas_total": 612,
+    "matriculas": 401,
+    "ingressos": 216,
+    "concluintes": 27,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Volta Redonda",
+    "slug": "VOLTA_REDONDA",
+    "cod_ibge": "3306305",
+    "vagas_total": 188,
+    "matriculas": 56,
+    "ingressos": 25,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Antônio de Pádua",
+    "slug": "SANTO_ANTONIO_DE_PADUA",
+    "cod_ibge": "3304706",
+    "vagas_total": 80,
+    "matriculas": 21,
+    "ingressos": 1,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Niterói",
+    "slug": "NITEROI",
+    "cod_ibge": "3303302",
+    "vagas_total": 66,
+    "matriculas": 101,
+    "ingressos": 43,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Iguaçu",
+    "slug": "NOVA_IGUACU",
+    "cod_ibge": "3303500",
+    "vagas_total": 43,
+    "matriculas": 39,
+    "ingressos": 4,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Seropédica",
+    "slug": "SEROPEDICA",
+    "cod_ibge": "3305554",
+    "vagas_total": 11,
+    "matriculas": 12,
+    "ingressos": 1,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

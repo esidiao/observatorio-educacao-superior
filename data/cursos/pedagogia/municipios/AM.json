@@ -1,0 +1,200 @@
+[
+  {
+    "nome": "Manaus",
+    "slug": "MANAUS",
+    "cod_ibge": "1302603",
+    "vagas_total": 4186,
+    "matriculas": 4239,
+    "ingressos": 1227,
+    "concluintes": 688,
+    "n_cursos": 16,
+    "n_ies": 13
+  },
+  {
+    "nome": "Parintins",
+    "slug": "PARINTINS",
+    "cod_ibge": "1303403",
+    "vagas_total": 250,
+    "matriculas": 393,
+    "ingressos": 72,
+    "concluintes": 64,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Manacapuru",
+    "slug": "MANACAPURU",
+    "cod_ibge": "1302504",
+    "vagas_total": 200,
+    "matriculas": 77,
+    "ingressos": 50,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tefé",
+    "slug": "TEFE",
+    "cod_ibge": "1304203",
+    "vagas_total": 190,
+    "matriculas": 233,
+    "ingressos": 88,
+    "concluintes": 23,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Benjamin Constant",
+    "slug": "BENJAMIN_CONSTANT",
+    "cod_ibge": "1300607",
+    "vagas_total": 50,
+    "matriculas": 223,
+    "ingressos": 26,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Humaitá",
+    "slug": "HUMAITA",
+    "cod_ibge": "1301704",
+    "vagas_total": 50,
+    "matriculas": 130,
+    "ingressos": 22,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Itacoatiara",
+    "slug": "ITACOATIARA",
+    "cod_ibge": "1301902",
+    "vagas_total": 50,
+    "matriculas": 65,
+    "ingressos": 38,
+    "concluintes": 28,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Tabatinga",
+    "slug": "TABATINGA",
+    "cod_ibge": "1304062",
+    "vagas_total": 40,
+    "matriculas": 244,
+    "ingressos": 40,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Autazes",
+    "slug": "AUTAZES",
+    "cod_ibge": "1300300",
+    "vagas_total": 0,
+    "matriculas": 87,
+    "ingressos": 0,
+    "concluintes": 85,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Boa Vista do Ramos",
+    "slug": "BOA_VISTA_DO_RAMOS",
+    "cod_ibge": "1300680",
+    "vagas_total": 0,
+    "matriculas": 43,
+    "ingressos": 0,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Carauari",
+    "slug": "CARAUARI",
+    "cod_ibge": "1301001",
+    "vagas_total": 0,
+    "matriculas": 72,
+    "ingressos": 0,
+    "concluintes": 47,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Eirunepé",
+    "slug": "EIRUNEPE",
+    "cod_ibge": "1301407",
+    "vagas_total": 0,
+    "matriculas": 70,
+    "ingressos": 0,
+    "concluintes": 70,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guajará",
+    "slug": "GUAJARA",
+    "cod_ibge": "1301654",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Japurá",
+    "slug": "JAPURA",
+    "cod_ibge": "1302108",
+    "vagas_total": 0,
+    "matriculas": 3,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Lábrea",
+    "slug": "LABREA",
+    "cod_ibge": "1302405",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Olinda do Norte",
+    "slug": "NOVA_OLINDA_DO_NORTE",
+    "cod_ibge": "1303106",
+    "vagas_total": 0,
+    "matriculas": 36,
+    "ingressos": 0,
+    "concluintes": 35,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Antônio do Içá",
+    "slug": "SANTO_ANTONIO_DO_ICA",
+    "cod_ibge": "1303700",
+    "vagas_total": 0,
+    "matriculas": 40,
+    "ingressos": 0,
+    "concluintes": 38,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Uarini",
+    "slug": "UARINI",
+    "cod_ibge": "1304260",
+    "vagas_total": 0,
+    "matriculas": 1,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

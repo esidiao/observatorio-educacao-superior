@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Araripina",
+    "slug": "ARARIPINA",
+    "cod_ibge": "2601102",
+    "vagas_total": 200,
+    "matriculas": 73,
+    "ingressos": 22,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 200,
+    "matriculas": 415,
+    "ingressos": 100,
+    "concluintes": 41,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Serra Talhada",
+    "slug": "SERRA_TALHADA",
+    "cod_ibge": "2613909",
+    "vagas_total": 140,
+    "matriculas": 223,
+    "ingressos": 51,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 106,
+    "matriculas": 340,
+    "ingressos": 102,
+    "concluintes": 64,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Belém do São Francisco",
+    "slug": "BELEM_DO_SAO_FRANCISCO",
+    "cod_ibge": "2601607",
+    "vagas_total": 100,
+    "matriculas": 118,
+    "ingressos": 36,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Garanhuns",
+    "slug": "GARANHUNS",
+    "cod_ibge": "2606002",
+    "vagas_total": 100,
+    "matriculas": 345,
+    "ingressos": 128,
+    "concluintes": 75,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Timbaúba",
+    "slug": "TIMBAUBA",
+    "cod_ibge": "2615300",
+    "vagas_total": 85,
+    "matriculas": 29,
+    "ingressos": 16,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória de Santo Antão",
+    "slug": "VITORIA_DE_SANTO_ANTAO",
+    "cod_ibge": "2616407",
+    "vagas_total": 46,
+    "matriculas": 172,
+    "ingressos": 47,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

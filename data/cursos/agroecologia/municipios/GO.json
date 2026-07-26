@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Campos Belos",
+    "slug": "CAMPOS_BELOS",
+    "cod_ibge": "5204904",
+    "vagas_total": 30,
+    "matriculas": 25,
+    "ingressos": 21,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

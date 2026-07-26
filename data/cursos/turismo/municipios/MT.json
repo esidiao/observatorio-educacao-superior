@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Nova Xavantina",
+    "slug": "NOVA_XAVANTINA",
+    "cod_ibge": "5106257",
+    "vagas_total": 81,
+    "matriculas": 71,
+    "ingressos": 35,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cuiabá",
+    "slug": "CUIABA",
+    "cod_ibge": "5103403",
+    "vagas_total": 80,
+    "matriculas": 259,
+    "ingressos": 22,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

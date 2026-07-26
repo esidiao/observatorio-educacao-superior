@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Garopaba",
+    "slug": "GAROPABA",
+    "cod_ibge": "4205704",
+    "vagas_total": 85,
+    "matriculas": 68,
+    "ingressos": 24,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

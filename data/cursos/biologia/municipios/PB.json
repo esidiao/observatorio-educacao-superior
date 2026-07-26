@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "João Pessoa",
+    "slug": "JOAO_PESSOA",
+    "cod_ibge": "2507507",
+    "vagas_total": 275,
+    "matriculas": 332,
+    "ingressos": 100,
+    "concluintes": 35,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Campina Grande",
+    "slug": "CAMPINA_GRANDE",
+    "cod_ibge": "2504009",
+    "vagas_total": 171,
+    "matriculas": 197,
+    "ingressos": 78,
+    "concluintes": 34,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Areia",
+    "slug": "AREIA",
+    "cod_ibge": "2501104",
+    "vagas_total": 30,
+    "matriculas": 113,
+    "ingressos": 26,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 1462,
+    "matriculas": 255,
+    "ingressos": 151,
+    "concluintes": 71,
+    "n_cursos": 9,
+    "n_ies": 8
+  },
+  {
+    "nome": "Maracanaú",
+    "slug": "MARACANAU",
+    "cod_ibge": "2307650",
+    "vagas_total": 416,
+    "matriculas": 166,
+    "ingressos": 64,
+    "concluintes": 36,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

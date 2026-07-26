@@ -1,0 +1,101 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 320,
+    "matriculas": 541,
+    "ingressos": 145,
+    "concluintes": 46,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Serra Talhada",
+    "slug": "SERRA_TALHADA",
+    "cod_ibge": "2613909",
+    "vagas_total": 120,
+    "matriculas": 163,
+    "ingressos": 48,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 80,
+    "matriculas": 264,
+    "ingressos": 79,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória de Santo Antão",
+    "slug": "VITORIA_DE_SANTO_ANTAO",
+    "cod_ibge": "2616407",
+    "vagas_total": 68,
+    "matriculas": 128,
+    "ingressos": 41,
+    "concluintes": 27,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 63,
+    "matriculas": 187,
+    "ingressos": 63,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Barreiros",
+    "slug": "BARREIROS",
+    "cod_ibge": "2601409",
+    "vagas_total": 52,
+    "matriculas": 59,
+    "ingressos": 22,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ipojuca",
+    "slug": "IPOJUCA",
+    "cod_ibge": "2607208",
+    "vagas_total": 39,
+    "matriculas": 78,
+    "ingressos": 20,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ouricuri",
+    "slug": "OURICURI",
+    "cod_ibge": "2609907",
+    "vagas_total": 36,
+    "matriculas": 78,
+    "ingressos": 25,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Floresta",
+    "slug": "FLORESTA",
+    "cod_ibge": "2605707",
+    "vagas_total": 35,
+    "matriculas": 122,
+    "ingressos": 35,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

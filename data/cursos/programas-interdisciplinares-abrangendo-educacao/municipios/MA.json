@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "São Bernardo",
+    "slug": "SAO_BERNARDO",
+    "cod_ibge": "2110609",
+    "vagas_total": 147,
+    "matriculas": 640,
+    "ingressos": 90,
+    "concluintes": 71,
+    "n_cursos": 3,
+    "n_ies": 1
+  },
+  {
+    "nome": "Codó",
+    "slug": "CODO",
+    "cod_ibge": "2103307",
+    "vagas_total": 71,
+    "matriculas": 336,
+    "ingressos": 52,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bacabal",
+    "slug": "BACABAL",
+    "cod_ibge": "2101202",
+    "vagas_total": 60,
+    "matriculas": 250,
+    "ingressos": 37,
+    "concluintes": 30,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Grajaú",
+    "slug": "GRAJAU",
+    "cod_ibge": "2104800",
+    "vagas_total": 60,
+    "matriculas": 275,
+    "ingressos": 32,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 60,
+    "matriculas": 236,
+    "ingressos": 27,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pinheiro",
+    "slug": "PINHEIRO",
+    "cod_ibge": "2108603",
+    "vagas_total": 47,
+    "matriculas": 303,
+    "ingressos": 26,
+    "concluintes": 20,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 40,
+    "matriculas": 159,
+    "ingressos": 33,
+    "concluintes": 7,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

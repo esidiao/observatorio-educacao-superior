@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 40,
+    "matriculas": 84,
+    "ingressos": 18,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Presidente Sarney",
+    "slug": "PRESIDENTE_SARNEY",
+    "cod_ibge": "2109270",
+    "vagas_total": 35,
+    "matriculas": 29,
+    "ingressos": 34,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

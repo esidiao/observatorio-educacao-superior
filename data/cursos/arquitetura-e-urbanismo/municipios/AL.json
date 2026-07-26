@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Maceió",
+    "slug": "MACEIO",
+    "cod_ibge": "2704302",
+    "vagas_total": 802,
+    "matriculas": 1182,
+    "ingressos": 245,
+    "concluintes": 161,
+    "n_cursos": 5,
+    "n_ies": 5
+  },
+  {
+    "nome": "Arapiraca",
+    "slug": "ARAPIRACA",
+    "cod_ibge": "2700300",
+    "vagas_total": 66,
+    "matriculas": 238,
+    "ingressos": 42,
+    "concluintes": 37,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

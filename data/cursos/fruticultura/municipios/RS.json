@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "São Gabriel",
+    "slug": "SAO_GABRIEL",
+    "cod_ibge": "4318309",
+    "vagas_total": 170,
+    "matriculas": 26,
+    "ingressos": 15,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

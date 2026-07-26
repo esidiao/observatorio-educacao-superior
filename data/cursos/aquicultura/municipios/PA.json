@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Monte Alegre",
+    "slug": "MONTE_ALEGRE",
+    "cod_ibge": "1504802",
+    "vagas_total": 40,
+    "matriculas": 85,
+    "ingressos": 19,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Amargosa",
+    "slug": "AMARGOSA",
+    "cod_ibge": "2901007",
+    "vagas_total": 95,
+    "matriculas": 126,
+    "ingressos": 30,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Feira de Santana",
+    "slug": "FEIRA_DE_SANTANA",
+    "cod_ibge": "2910800",
+    "vagas_total": 86,
+    "matriculas": 247,
+    "ingressos": 53,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

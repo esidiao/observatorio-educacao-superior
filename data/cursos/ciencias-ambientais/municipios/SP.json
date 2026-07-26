@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Diadema",
+    "slug": "DIADEMA",
+    "cod_ibge": "3513801",
+    "vagas_total": 51,
+    "matriculas": 191,
+    "ingressos": 56,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

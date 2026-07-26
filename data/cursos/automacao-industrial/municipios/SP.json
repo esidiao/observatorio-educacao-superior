@@ -1,0 +1,189 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 897,
+    "matriculas": 576,
+    "ingressos": 276,
+    "concluintes": 104,
+    "n_cursos": 10,
+    "n_ies": 8
+  },
+  {
+    "nome": "Mogi das Cruzes",
+    "slug": "MOGI_DAS_CRUZES",
+    "cod_ibge": "3530607",
+    "vagas_total": 262,
+    "matriculas": 72,
+    "ingressos": 41,
+    "concluintes": 12,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Bernardo do Campo",
+    "slug": "SAO_BERNARDO_DO_CAMPO",
+    "cod_ibge": "3548708",
+    "vagas_total": 223,
+    "matriculas": 321,
+    "ingressos": 181,
+    "concluintes": 71,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Osasco",
+    "slug": "OSASCO",
+    "cod_ibge": "3534401",
+    "vagas_total": 169,
+    "matriculas": 287,
+    "ingressos": 175,
+    "concluintes": 40,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Tatuí",
+    "slug": "TATUI",
+    "cod_ibge": "3554003",
+    "vagas_total": 168,
+    "matriculas": 232,
+    "ingressos": 152,
+    "concluintes": 47,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo André",
+    "slug": "SANTO_ANDRE",
+    "cod_ibge": "3547809",
+    "vagas_total": 148,
+    "matriculas": 42,
+    "ingressos": 36,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Vicente",
+    "slug": "SAO_VICENTE",
+    "cod_ibge": "3551009",
+    "vagas_total": 136,
+    "matriculas": 51,
+    "ingressos": 30,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salto",
+    "slug": "SALTO",
+    "cod_ibge": "3545209",
+    "vagas_total": 131,
+    "matriculas": 69,
+    "ingressos": 51,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jundiaí",
+    "slug": "JUNDIAI",
+    "cod_ibge": "3525904",
+    "vagas_total": 118,
+    "matriculas": 39,
+    "ingressos": 50,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 116,
+    "matriculas": 38,
+    "ingressos": 47,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bauru",
+    "slug": "BAURU",
+    "cod_ibge": "3506003",
+    "vagas_total": 90,
+    "matriculas": 182,
+    "ingressos": 78,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 82,
+    "matriculas": 35,
+    "ingressos": 33,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Catanduva",
+    "slug": "CATANDUVA",
+    "cod_ibge": "3511102",
+    "vagas_total": 81,
+    "matriculas": 155,
+    "ingressos": 81,
+    "concluintes": 38,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cubatão",
+    "slug": "CUBATAO",
+    "cod_ibge": "3513504",
+    "vagas_total": 41,
+    "matriculas": 79,
+    "ingressos": 41,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Piracicaba",
+    "slug": "PIRACICABA",
+    "cod_ibge": "3538709",
+    "vagas_total": 41,
+    "matriculas": 61,
+    "ingressos": 41,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santos",
+    "slug": "SANTOS",
+    "cod_ibge": "3548500",
+    "vagas_total": 40,
+    "matriculas": 61,
+    "ingressos": 28,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guarulhos",
+    "slug": "GUARULHOS",
+    "cod_ibge": "3518800",
+    "vagas_total": 0,
+    "matriculas": 74,
+    "ingressos": 0,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

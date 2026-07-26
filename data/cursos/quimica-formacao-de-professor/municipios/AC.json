@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Rio Branco",
+    "slug": "RIO_BRANCO",
+    "cod_ibge": "1200401",
+    "vagas_total": 70,
+    "matriculas": 134,
+    "ingressos": 43,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cruzeiro do Sul",
+    "slug": "CRUZEIRO_DO_SUL",
+    "cod_ibge": "1200203",
+    "vagas_total": 40,
+    "matriculas": 38,
+    "ingressos": 40,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Xapuri",
+    "slug": "XAPURI",
+    "cod_ibge": "1200708",
+    "vagas_total": 40,
+    "matriculas": 43,
+    "ingressos": 15,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

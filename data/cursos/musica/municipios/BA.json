@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 101,
+    "matriculas": 285,
+    "ingressos": 62,
+    "concluintes": 34,
+    "n_cursos": 4,
+    "n_ies": 1
+  }
+]

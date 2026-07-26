@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "1721000",
+    "vagas_total": 290,
+    "matriculas": 269,
+    "ingressos": 94,
+    "concluintes": 21,
+    "n_cursos": 4,
+    "n_ies": 4
+  },
+  {
+    "nome": "Araguaína",
+    "slug": "ARAGUAINA",
+    "cod_ibge": "1702109",
+    "vagas_total": 60,
+    "matriculas": 130,
+    "ingressos": 46,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Paraíso do Tocantins",
+    "slug": "PARAISO_DO_TOCANTINS",
+    "cod_ibge": "1716109",
+    "vagas_total": 45,
+    "matriculas": 183,
+    "ingressos": 41,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Colinas do Tocantins",
+    "slug": "COLINAS_DO_TOCANTINS",
+    "cod_ibge": "1705508",
+    "vagas_total": 40,
+    "matriculas": 65,
+    "ingressos": 35,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Nacional",
+    "slug": "PORTO_NACIONAL",
+    "cod_ibge": "1718204",
+    "vagas_total": 40,
+    "matriculas": 58,
+    "ingressos": 22,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

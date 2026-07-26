@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Mossoró",
+    "slug": "MOSSORO",
+    "cod_ibge": "2408003",
+    "vagas_total": 88,
+    "matriculas": 176,
+    "ingressos": 37,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Macaíba",
+    "slug": "MACAIBA",
+    "cod_ibge": "2407104",
+    "vagas_total": 44,
+    "matriculas": 112,
+    "ingressos": 33,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

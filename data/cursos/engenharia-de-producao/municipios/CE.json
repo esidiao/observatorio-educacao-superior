@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 4212,
+    "matriculas": 928,
+    "ingressos": 187,
+    "concluintes": 172,
+    "n_cursos": 11,
+    "n_ies": 10
+  },
+  {
+    "nome": "Caucaia",
+    "slug": "CAUCAIA",
+    "cod_ibge": "2303709",
+    "vagas_total": 265,
+    "matriculas": 146,
+    "ingressos": 50,
+    "concluintes": 9,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Sobral",
+    "slug": "SOBRAL",
+    "cod_ibge": "2312908",
+    "vagas_total": 130,
+    "matriculas": 71,
+    "ingressos": 21,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Maracanaú",
+    "slug": "MARACANAU",
+    "cod_ibge": "2307650",
+    "vagas_total": 100,
+    "matriculas": 45,
+    "ingressos": 0,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juazeiro do Norte",
+    "slug": "JUAZEIRO_DO_NORTE",
+    "cod_ibge": "2307304",
+    "vagas_total": 80,
+    "matriculas": 237,
+    "ingressos": 32,
+    "concluintes": 30,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Russas",
+    "slug": "RUSSAS",
+    "cod_ibge": "2311801",
+    "vagas_total": 62,
+    "matriculas": 152,
+    "ingressos": 34,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 30,
+    "matriculas": 144,
+    "ingressos": 23,
+    "concluintes": 19,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

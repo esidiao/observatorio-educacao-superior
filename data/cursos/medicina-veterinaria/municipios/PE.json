@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 1293,
+    "matriculas": 2031,
+    "ingressos": 543,
+    "concluintes": 273,
+    "n_cursos": 4,
+    "n_ies": 3
+  },
+  {
+    "nome": "Caruaru",
+    "slug": "CARUARU",
+    "cod_ibge": "2604106",
+    "vagas_total": 864,
+    "matriculas": 748,
+    "ingressos": 296,
+    "concluintes": 83,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Garanhuns",
+    "slug": "GARANHUNS",
+    "cod_ibge": "2606002",
+    "vagas_total": 474,
+    "matriculas": 705,
+    "ingressos": 217,
+    "concluintes": 149,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Serra Talhada",
+    "slug": "SERRA_TALHADA",
+    "cod_ibge": "2613909",
+    "vagas_total": 385,
+    "matriculas": 164,
+    "ingressos": 49,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória de Santo Antão",
+    "slug": "VITORIA_DE_SANTO_ANTAO",
+    "cod_ibge": "2616407",
+    "vagas_total": 240,
+    "matriculas": 414,
+    "ingressos": 0,
+    "concluintes": 44,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José do Egito",
+    "slug": "SAO_JOSE_DO_EGITO",
+    "cod_ibge": "2613602",
+    "vagas_total": 110,
+    "matriculas": 65,
+    "ingressos": 32,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Petrolina",
+    "slug": "PETROLINA",
+    "cod_ibge": "2611101",
+    "vagas_total": 50,
+    "matriculas": 50,
+    "ingressos": 46,
+    "concluintes": 49,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaboatão dos Guararapes",
+    "slug": "JABOATAO_DOS_GUARARAPES",
+    "cod_ibge": "2607901",
+    "vagas_total": 33,
+    "matriculas": 63,
+    "ingressos": 33,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

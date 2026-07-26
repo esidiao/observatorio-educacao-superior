@@ -1,0 +1,222 @@
+[
+  {
+    "nome": "Caxias do Sul",
+    "slug": "CAXIAS_DO_SUL",
+    "cod_ibge": "4305108",
+    "vagas_total": 571,
+    "matriculas": 1014,
+    "ingressos": 297,
+    "concluintes": 132,
+    "n_cursos": 5,
+    "n_ies": 4
+  },
+  {
+    "nome": "Canoas",
+    "slug": "CANOAS",
+    "cod_ibge": "4304606",
+    "vagas_total": 430,
+    "matriculas": 414,
+    "ingressos": 248,
+    "concluintes": 28,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Cachoeirinha",
+    "slug": "CACHOEIRINHA",
+    "cod_ibge": "4303103",
+    "vagas_total": 382,
+    "matriculas": 656,
+    "ingressos": 274,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 376,
+    "matriculas": 1623,
+    "ingressos": 363,
+    "concluintes": 272,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Passo Fundo",
+    "slug": "PASSO_FUNDO",
+    "cod_ibge": "4314100",
+    "vagas_total": 281,
+    "matriculas": 836,
+    "ingressos": 217,
+    "concluintes": 108,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Ijuí",
+    "slug": "IJUI",
+    "cod_ibge": "4310207",
+    "vagas_total": 232,
+    "matriculas": 147,
+    "ingressos": 35,
+    "concluintes": 32,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cruz Alta",
+    "slug": "CRUZ_ALTA",
+    "cod_ibge": "4306106",
+    "vagas_total": 206,
+    "matriculas": 254,
+    "ingressos": 51,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campo Bom",
+    "slug": "CAMPO_BOM",
+    "cod_ibge": "4303905",
+    "vagas_total": 182,
+    "matriculas": 160,
+    "ingressos": 35,
+    "concluintes": 33,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santo Ângelo",
+    "slug": "SANTO_ANGELO",
+    "cod_ibge": "4317509",
+    "vagas_total": 153,
+    "matriculas": 516,
+    "ingressos": 107,
+    "concluintes": 87,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Bagé",
+    "slug": "BAGE",
+    "cod_ibge": "4301602",
+    "vagas_total": 135,
+    "matriculas": 407,
+    "ingressos": 95,
+    "concluintes": 54,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Uruguaiana",
+    "slug": "URUGUAIANA",
+    "cod_ibge": "4322400",
+    "vagas_total": 113,
+    "matriculas": 377,
+    "ingressos": 97,
+    "concluintes": 58,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sarandi",
+    "slug": "SARANDI",
+    "cod_ibge": "4320107",
+    "vagas_total": 110,
+    "matriculas": 198,
+    "ingressos": 43,
+    "concluintes": 28,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Capão do Leão",
+    "slug": "CAPAO_DO_LEAO",
+    "cod_ibge": "4304663",
+    "vagas_total": 100,
+    "matriculas": 590,
+    "ingressos": 98,
+    "concluintes": 101,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Maria",
+    "slug": "SANTA_MARIA",
+    "cod_ibge": "4316907",
+    "vagas_total": 94,
+    "matriculas": 486,
+    "ingressos": 92,
+    "concluintes": 58,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santa Cruz do Sul",
+    "slug": "SANTA_CRUZ_DO_SUL",
+    "cod_ibge": "4316808",
+    "vagas_total": 83,
+    "matriculas": 263,
+    "ingressos": 76,
+    "concluintes": 26,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Erechim",
+    "slug": "ERECHIM",
+    "cod_ibge": "4307005",
+    "vagas_total": 77,
+    "matriculas": 222,
+    "ingressos": 57,
+    "concluintes": 42,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santiago",
+    "slug": "SANTIAGO",
+    "cod_ibge": "4317400",
+    "vagas_total": 73,
+    "matriculas": 239,
+    "ingressos": 63,
+    "concluintes": 37,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alegrete",
+    "slug": "ALEGRETE",
+    "cod_ibge": "4300406",
+    "vagas_total": 71,
+    "matriculas": 98,
+    "ingressos": 29,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Getúlio Vargas",
+    "slug": "GETULIO_VARGAS",
+    "cod_ibge": "4308904",
+    "vagas_total": 70,
+    "matriculas": 131,
+    "ingressos": 36,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Frederico Westphalen",
+    "slug": "FREDERICO_WESTPHALEN",
+    "cod_ibge": "4308508",
+    "vagas_total": 60,
+    "matriculas": 177,
+    "ingressos": 44,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

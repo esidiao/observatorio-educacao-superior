@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Rio Largo",
+    "slug": "RIO_LARGO",
+    "cod_ibge": "2707701",
+    "vagas_total": 148,
+    "matriculas": 268,
+    "ingressos": 74,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Arapiraca",
+    "slug": "ARAPIRACA",
+    "cod_ibge": "2700300",
+    "vagas_total": 63,
+    "matriculas": 156,
+    "ingressos": 42,
+    "concluintes": 19,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santana do Ipanema",
+    "slug": "SANTANA_DO_IPANEMA",
+    "cod_ibge": "2708006",
+    "vagas_total": 59,
+    "matriculas": 116,
+    "ingressos": 21,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

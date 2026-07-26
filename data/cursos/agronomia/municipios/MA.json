@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Balsas",
+    "slug": "BALSAS",
+    "cod_ibge": "2101400",
+    "vagas_total": 360,
+    "matriculas": 236,
+    "ingressos": 95,
+    "concluintes": 23,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 131,
+    "matriculas": 452,
+    "ingressos": 99,
+    "concluintes": 46,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Chapadinha",
+    "slug": "CHAPADINHA",
+    "cod_ibge": "2103208",
+    "vagas_total": 106,
+    "matriculas": 366,
+    "ingressos": 73,
+    "concluintes": 31,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Codó",
+    "slug": "CODO",
+    "cod_ibge": "2103307",
+    "vagas_total": 50,
+    "matriculas": 143,
+    "ingressos": 38,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Imperatriz",
+    "slug": "IMPERATRIZ",
+    "cod_ibge": "2105302",
+    "vagas_total": 45,
+    "matriculas": 182,
+    "ingressos": 42,
+    "concluintes": 21,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Raimundo das Mangabeiras",
+    "slug": "SAO_RAIMUNDO_DAS_MANGABEIRAS",
+    "cod_ibge": "2111607",
+    "vagas_total": 45,
+    "matriculas": 206,
+    "ingressos": 43,
+    "concluintes": 41,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Estreito",
+    "slug": "ESTREITO",
+    "cod_ibge": "2104057",
+    "vagas_total": 0,
+    "matriculas": 76,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

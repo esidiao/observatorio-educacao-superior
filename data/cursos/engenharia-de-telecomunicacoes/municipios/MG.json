@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Santa Rita do Sapucaí",
+    "slug": "SANTA_RITA_DO_SAPUCAI",
+    "cod_ibge": "3159605",
+    "vagas_total": 310,
+    "matriculas": 127,
+    "ingressos": 49,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ouro Branco",
+    "slug": "OURO_BRANCO",
+    "cod_ibge": "3145901",
+    "vagas_total": 187,
+    "matriculas": 327,
+    "ingressos": 42,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juiz de Fora",
+    "slug": "JUIZ_DE_FORA",
+    "cod_ibge": "3136702",
+    "vagas_total": 62,
+    "matriculas": 125,
+    "ingressos": 24,
+    "concluintes": 12,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

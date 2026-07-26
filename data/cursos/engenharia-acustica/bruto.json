@@ -1,0 +1,41 @@
+{
+  "ano_censo": "2024",
+  "ufs": {
+    "RS": {
+      "vagas_total": 237,
+      "vagas_presencial": 237,
+      "vagas_ead": 0,
+      "vagas_capital": 0,
+      "pct_ead": 0.0,
+      "n_cursos_presencial": 1,
+      "n_cursos_ead": 0,
+      "n_ies": 1,
+      "municipios_oferta": 1,
+      "ead_polos_municipios": 0,
+      "ead_polos_registros": 0,
+      "mun_ead_only": 0,
+      "ingressos": 15,
+      "matriculas": 100,
+      "matriculas_ead": 0,
+      "concluintes": 5,
+      "taxa_conclusao": 5.0,
+      "pct_mulheres": 13.3,
+      "pct_ppi": 13.3,
+      "pct_financiamento": 0.0,
+      "pct_noturno": 0.0,
+      "pct_rede_publica": 100.0,
+      "HHI": 1.0,
+      "CR2": 1.0,
+      "CR10": 1.0,
+      "municipios_total": 497,
+      "municipios_deserto": 496,
+      "populacao": 10882965,
+      "regiao": "Sul",
+      "capital": "Porto Alegre",
+      "vagas_por_100k": 2.2
+    }
+  },
+  "vagas_por_curso": {
+    "121622": 237
+  }
+}

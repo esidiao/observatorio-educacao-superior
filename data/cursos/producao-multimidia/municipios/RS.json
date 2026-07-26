@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Porto Alegre",
+    "slug": "PORTO_ALEGRE",
+    "cod_ibge": "4314902",
+    "vagas_total": 172,
+    "matriculas": 141,
+    "ingressos": 65,
+    "concluintes": 23,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "São Leopoldo",
+    "slug": "SAO_LEOPOLDO",
+    "cod_ibge": "4318705",
+    "vagas_total": 142,
+    "matriculas": 44,
+    "ingressos": 19,
+    "concluintes": 6,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Alvorada",
+    "slug": "ALVORADA",
+    "cod_ibge": "4300604",
+    "vagas_total": 35,
+    "matriculas": 75,
+    "ingressos": 32,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

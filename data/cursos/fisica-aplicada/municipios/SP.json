@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "São Carlos",
+    "slug": "SAO_CARLOS",
+    "cod_ibge": "3548906",
+    "vagas_total": 120,
+    "matriculas": 315,
+    "ingressos": 78,
+    "concluintes": 47,
+    "n_cursos": 3,
+    "n_ies": 1
+  },
+  {
+    "nome": "Bauru",
+    "slug": "BAURU",
+    "cod_ibge": "3506003",
+    "vagas_total": 62,
+    "matriculas": 205,
+    "ingressos": 0,
+    "concluintes": 18,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José do Rio Preto",
+    "slug": "SAO_JOSE_DO_RIO_PRETO",
+    "cod_ibge": "3549805",
+    "vagas_total": 30,
+    "matriculas": 40,
+    "ingressos": 0,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

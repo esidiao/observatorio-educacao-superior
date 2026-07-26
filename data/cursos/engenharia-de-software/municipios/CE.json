@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Russas",
+    "slug": "RUSSAS",
+    "cod_ibge": "2311801",
+    "vagas_total": 109,
+    "matriculas": 422,
+    "ingressos": 106,
+    "concluintes": 39,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Fortaleza",
+    "slug": "FORTALEZA",
+    "cod_ibge": "2304400",
+    "vagas_total": 70,
+    "matriculas": 30,
+    "ingressos": 35,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Quixadá",
+    "slug": "QUIXADA",
+    "cod_ibge": "2311306",
+    "vagas_total": 60,
+    "matriculas": 243,
+    "ingressos": 56,
+    "concluintes": 29,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

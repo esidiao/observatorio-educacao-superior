@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Igarassu",
+    "slug": "IGARASSU",
+    "cod_ibge": "2606804",
+    "vagas_total": 227,
+    "matriculas": 492,
+    "ingressos": 213,
+    "concluintes": 244,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Recife",
+    "slug": "RECIFE",
+    "cod_ibge": "2611606",
+    "vagas_total": 150,
+    "matriculas": 221,
+    "ingressos": 57,
+    "concluintes": 59,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

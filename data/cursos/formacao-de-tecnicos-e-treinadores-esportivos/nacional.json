@@ -1,0 +1,77 @@
+{
+  "metadados": {
+    "curso": "Formação de técnicos e treinadores esportivos",
+    "slug": "formacao-de-tecnicos-e-treinadores-esportivos",
+    "cine_rotulo": "Formação de técnicos e treinadores esportivos",
+    "area_cine": "Serviços",
+    "versao_censo": "2024",
+    "ciclo_enade": null,
+    "data_extracao": "2026-07-26",
+    "cobertura": null,
+    "fontes": {
+      "censo": {
+        "nome": "Microdados do Censo da Educação Superior",
+        "orgao": "INEP/MEC",
+        "ano": 2024,
+        "url": "https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados"
+      },
+      "cpc": null,
+      "populacao": {
+        "nome": "Estimativas populacionais",
+        "orgao": "IBGE",
+        "ano": 2024
+      }
+    }
+  },
+  "ufs": {
+    "SP": {
+      "vagas_total": 18,
+      "vagas_presencial": 11,
+      "vagas_ead": 7,
+      "vagas_capital": 11,
+      "pct_ead": 38.9,
+      "n_cursos_presencial": 2,
+      "n_cursos_ead": 1,
+      "n_ies": 1,
+      "municipios_oferta": 1,
+      "ead_polos_municipios": 1,
+      "ead_polos_registros": 1,
+      "mun_ead_only": 0,
+      "ingressos": 11,
+      "matriculas": 18,
+      "matriculas_ead": 31,
+      "concluintes": 7,
+      "taxa_conclusao": 38.9,
+      "pct_mulheres": 27.3,
+      "pct_ppi": 36.4,
+      "pct_financiamento": 9.1,
+      "pct_noturno": 100.0,
+      "pct_rede_publica": 0.0,
+      "HHI": 1.0,
+      "CR2": 1.0,
+      "CR10": 1.0,
+      "municipios_total": 645,
+      "municipios_deserto": 644,
+      "populacao": 45973194,
+      "regiao": "Sudeste",
+      "capital": "São Paulo",
+      "vagas_por_100k": 0.0,
+      "CC": null,
+      "ENADE": null,
+      "IDD": null,
+      "CPC_cont": null,
+      "vagas_avaliadas": null,
+      "cpc_org_didatico": null,
+      "cpc_infraestrutura": null,
+      "cpc_oportunidade": null,
+      "pct_doc_mestres": null,
+      "pct_doc_doutores": null,
+      "pct_doc_regime": null,
+      "n_cursos_avaliados": null,
+      "concluintes_avaliados": null,
+      "ICT": 0.9992,
+      "E": 0.0008,
+      "IAF": null
+    }
+  }
+}

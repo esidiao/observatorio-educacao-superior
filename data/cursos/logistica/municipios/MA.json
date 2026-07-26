@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "São Luís",
+    "slug": "SAO_LUIS",
+    "cod_ibge": "2111300",
+    "vagas_total": 243,
+    "matriculas": 142,
+    "ingressos": 64,
+    "concluintes": 62,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Paço do Lumiar",
+    "slug": "PACO_DO_LUMIAR",
+    "cod_ibge": "2107506",
+    "vagas_total": 200,
+    "matriculas": 65,
+    "ingressos": 27,
+    "concluintes": 14,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

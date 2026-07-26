@@ -1,0 +1,123 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 440,
+    "matriculas": 64,
+    "ingressos": 2,
+    "concluintes": 24,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Bernardo do Campo",
+    "slug": "SAO_BERNARDO_DO_CAMPO",
+    "cod_ibge": "3548708",
+    "vagas_total": 299,
+    "matriculas": 307,
+    "ingressos": 74,
+    "concluintes": 85,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Sorocaba",
+    "slug": "SOROCABA",
+    "cod_ibge": "3552205",
+    "vagas_total": 281,
+    "matriculas": 36,
+    "ingressos": 10,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campinas",
+    "slug": "CAMPINAS",
+    "cod_ibge": "3509502",
+    "vagas_total": 200,
+    "matriculas": 685,
+    "ingressos": 133,
+    "concluintes": 97,
+    "n_cursos": 3,
+    "n_ies": 2
+  },
+  {
+    "nome": "Pirassununga",
+    "slug": "PIRASSUNUNGA",
+    "cod_ibge": "3539301",
+    "vagas_total": 148,
+    "matriculas": 485,
+    "ingressos": 77,
+    "concluintes": 63,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José do Rio Preto",
+    "slug": "SAO_JOSE_DO_RIO_PRETO",
+    "cod_ibge": "3549805",
+    "vagas_total": 144,
+    "matriculas": 162,
+    "ingressos": 27,
+    "concluintes": 32,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Fernandópolis",
+    "slug": "FERNANDOPOLIS",
+    "cod_ibge": "3515509",
+    "vagas_total": 100,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Buri",
+    "slug": "BURI",
+    "cod_ibge": "3508009",
+    "vagas_total": 69,
+    "matriculas": 144,
+    "ingressos": 21,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jundiaí",
+    "slug": "JUNDIAI",
+    "cod_ibge": "3525904",
+    "vagas_total": 42,
+    "matriculas": 19,
+    "ingressos": 0,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Matão",
+    "slug": "MATAO",
+    "cod_ibge": "3529302",
+    "vagas_total": 41,
+    "matriculas": 120,
+    "ingressos": 40,
+    "concluintes": 9,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Caetano do Sul",
+    "slug": "SAO_CAETANO_DO_SUL",
+    "cod_ibge": "3548807",
+    "vagas_total": 41,
+    "matriculas": 42,
+    "ingressos": 15,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

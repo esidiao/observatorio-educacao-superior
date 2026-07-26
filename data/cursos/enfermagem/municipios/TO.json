@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "Palmas",
+    "slug": "PALMAS",
+    "cod_ibge": "1721000",
+    "vagas_total": 2054,
+    "matriculas": 1527,
+    "ingressos": 538,
+    "concluintes": 107,
+    "n_cursos": 7,
+    "n_ies": 7
+  },
+  {
+    "nome": "Araguaína",
+    "slug": "ARAGUAINA",
+    "cod_ibge": "1702109",
+    "vagas_total": 252,
+    "matriculas": 467,
+    "ingressos": 146,
+    "concluintes": 46,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Colinas do Tocantins",
+    "slug": "COLINAS_DO_TOCANTINS",
+    "cod_ibge": "1705508",
+    "vagas_total": 200,
+    "matriculas": 12,
+    "ingressos": 1,
+    "concluintes": 10,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Augustinópolis",
+    "slug": "AUGUSTINOPOLIS",
+    "cod_ibge": "1702554",
+    "vagas_total": 166,
+    "matriculas": 296,
+    "ingressos": 59,
+    "concluintes": 38,
+    "n_cursos": 2,
+    "n_ies": 2
+  },
+  {
+    "nome": "Gurupi",
+    "slug": "GURUPI",
+    "cod_ibge": "1709500",
+    "vagas_total": 160,
+    "matriculas": 188,
+    "ingressos": 19,
+    "concluintes": 45,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Porto Nacional",
+    "slug": "PORTO_NACIONAL",
+    "cod_ibge": "1718204",
+    "vagas_total": 127,
+    "matriculas": 356,
+    "ingressos": 73,
+    "concluintes": 60,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Guaraí",
+    "slug": "GUARAI",
+    "cod_ibge": "1709302",
+    "vagas_total": 60,
+    "matriculas": 120,
+    "ingressos": 22,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Natal",
+    "slug": "NATAL",
+    "cod_ibge": "2408102",
+    "vagas_total": 55,
+    "matriculas": 86,
+    "ingressos": 42,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Nova Cruz",
+    "slug": "NOVA_CRUZ",
+    "cod_ibge": "2408300",
+    "vagas_total": 48,
+    "matriculas": 54,
+    "ingressos": 28,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Macau",
+    "slug": "MACAU",
+    "cod_ibge": "2407203",
+    "vagas_total": 40,
+    "matriculas": 47,
+    "ingressos": 19,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

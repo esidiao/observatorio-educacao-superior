@@ -1,0 +1,90 @@
+[
+  {
+    "nome": "Guarulhos",
+    "slug": "GUARULHOS",
+    "cod_ibge": "3518800",
+    "vagas_total": 185,
+    "matriculas": 138,
+    "ingressos": 124,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marília",
+    "slug": "MARILIA",
+    "cod_ibge": "3529005",
+    "vagas_total": 155,
+    "matriculas": 115,
+    "ingressos": 98,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ourinhos",
+    "slug": "OURINHOS",
+    "cod_ibge": "3534708",
+    "vagas_total": 142,
+    "matriculas": 24,
+    "ingressos": 37,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araraquara",
+    "slug": "ARARAQUARA",
+    "cod_ibge": "3503208",
+    "vagas_total": 113,
+    "matriculas": 160,
+    "ingressos": 104,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Presidente Prudente",
+    "slug": "PRESIDENTE_PRUDENTE",
+    "cod_ibge": "3541406",
+    "vagas_total": 113,
+    "matriculas": 75,
+    "ingressos": 71,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Rio Claro",
+    "slug": "RIO_CLARO",
+    "cod_ibge": "3543907",
+    "vagas_total": 101,
+    "matriculas": 53,
+    "ingressos": 71,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 71,
+    "matriculas": 25,
+    "ingressos": 64,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ribeirão Preto",
+    "slug": "RIBEIRAO_PRETO",
+    "cod_ibge": "3543402",
+    "vagas_total": 1,
+    "matriculas": 150,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 0,
+    "n_ies": 1
+  }
+]

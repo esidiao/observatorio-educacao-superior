@@ -1,0 +1,189 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 286,
+    "matriculas": 471,
+    "ingressos": 251,
+    "concluintes": 41,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Itatiba",
+    "slug": "ITATIBA",
+    "cod_ibge": "3523404",
+    "vagas_total": 123,
+    "matriculas": 27,
+    "ingressos": 30,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Franca",
+    "slug": "FRANCA",
+    "cod_ibge": "3516200",
+    "vagas_total": 116,
+    "matriculas": 218,
+    "ingressos": 99,
+    "concluintes": 25,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "São José dos Campos",
+    "slug": "SAO_JOSE_DOS_CAMPOS",
+    "cod_ibge": "3549904",
+    "vagas_total": 96,
+    "matriculas": 170,
+    "ingressos": 87,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jacareí",
+    "slug": "JACAREI",
+    "cod_ibge": "3524402",
+    "vagas_total": 92,
+    "matriculas": 125,
+    "ingressos": 92,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cotia",
+    "slug": "COTIA",
+    "cod_ibge": "3513009",
+    "vagas_total": 87,
+    "matriculas": 168,
+    "ingressos": 87,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Itapira",
+    "slug": "ITAPIRA",
+    "cod_ibge": "3522604",
+    "vagas_total": 87,
+    "matriculas": 135,
+    "ingressos": 81,
+    "concluintes": 15,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Osasco",
+    "slug": "OSASCO",
+    "cod_ibge": "3534401",
+    "vagas_total": 84,
+    "matriculas": 164,
+    "ingressos": 87,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Araras",
+    "slug": "ARARAS",
+    "cod_ibge": "3503307",
+    "vagas_total": 82,
+    "matriculas": 170,
+    "ingressos": 80,
+    "concluintes": 22,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Indaiatuba",
+    "slug": "INDAIATUBA",
+    "cod_ibge": "3520509",
+    "vagas_total": 82,
+    "matriculas": 58,
+    "ingressos": 77,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Matão",
+    "slug": "MATAO",
+    "cod_ibge": "3529302",
+    "vagas_total": 82,
+    "matriculas": 129,
+    "ingressos": 79,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Diadema",
+    "slug": "DIADEMA",
+    "cod_ibge": "3513801",
+    "vagas_total": 81,
+    "matriculas": 165,
+    "ingressos": 81,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaú",
+    "slug": "JAU",
+    "cod_ibge": "3525300",
+    "vagas_total": 80,
+    "matriculas": 76,
+    "ingressos": 71,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Marília",
+    "slug": "MARILIA",
+    "cod_ibge": "3529005",
+    "vagas_total": 80,
+    "matriculas": 43,
+    "ingressos": 68,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Praia Grande",
+    "slug": "PRAIA_GRANDE",
+    "cod_ibge": "3541000",
+    "vagas_total": 80,
+    "matriculas": 127,
+    "ingressos": 78,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Votorantim",
+    "slug": "VOTORANTIM",
+    "cod_ibge": "3557006",
+    "vagas_total": 80,
+    "matriculas": 125,
+    "ingressos": 78,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Registro",
+    "slug": "REGISTRO",
+    "cod_ibge": "3542602",
+    "vagas_total": 72,
+    "matriculas": 138,
+    "ingressos": 69,
+    "concluintes": 20,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

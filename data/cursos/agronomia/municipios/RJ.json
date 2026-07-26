@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "Seropédica",
+    "slug": "SEROPEDICA",
+    "cod_ibge": "3305554",
+    "vagas_total": 222,
+    "matriculas": 629,
+    "ingressos": 139,
+    "concluintes": 70,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pinheiral",
+    "slug": "PINHEIRAL",
+    "cod_ibge": "3303955",
+    "vagas_total": 100,
+    "matriculas": 106,
+    "ingressos": 42,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Campos dos Goytacazes",
+    "slug": "CAMPOS_DOS_GOYTACAZES",
+    "cod_ibge": "3301009",
+    "vagas_total": 51,
+    "matriculas": 156,
+    "ingressos": 36,
+    "concluintes": 13,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

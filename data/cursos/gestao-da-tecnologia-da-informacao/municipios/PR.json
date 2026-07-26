@@ -1,0 +1,57 @@
+[
+  {
+    "nome": "Curitiba",
+    "slug": "CURITIBA",
+    "cod_ibge": "4106902",
+    "vagas_total": 187,
+    "matriculas": 102,
+    "ingressos": 47,
+    "concluintes": 35,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Campina Grande do Sul",
+    "slug": "CAMPINA_GRANDE_DO_SUL",
+    "cod_ibge": "4104006",
+    "vagas_total": 100,
+    "matriculas": 20,
+    "ingressos": 0,
+    "concluintes": 8,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Colombo",
+    "slug": "COLOMBO",
+    "cod_ibge": "4105805",
+    "vagas_total": 100,
+    "matriculas": 10,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cruzeiro do Oeste",
+    "slug": "CRUZEIRO_DO_OESTE",
+    "cod_ibge": "4106605",
+    "vagas_total": 53,
+    "matriculas": 22,
+    "ingressos": 13,
+    "concluintes": 1,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Pinhais",
+    "slug": "PINHAIS",
+    "cod_ibge": "4119152",
+    "vagas_total": 41,
+    "matriculas": 105,
+    "ingressos": 40,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

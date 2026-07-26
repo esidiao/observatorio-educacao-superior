@@ -1,0 +1,79 @@
+[
+  {
+    "nome": "São Paulo",
+    "slug": "SAO_PAULO",
+    "cod_ibge": "3550308",
+    "vagas_total": 246,
+    "matriculas": 100,
+    "ingressos": 56,
+    "concluintes": 11,
+    "n_cursos": 3,
+    "n_ies": 3
+  },
+  {
+    "nome": "Mairiporã",
+    "slug": "MAIRIPORA",
+    "cod_ibge": "3528502",
+    "vagas_total": 100,
+    "matriculas": 5,
+    "ingressos": 2,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Mogi Guaçu",
+    "slug": "MOGI_GUACU",
+    "cod_ibge": "3530706",
+    "vagas_total": 80,
+    "matriculas": 0,
+    "ingressos": 0,
+    "concluintes": 0,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Santos",
+    "slug": "SANTOS",
+    "cod_ibge": "3548500",
+    "vagas_total": 60,
+    "matriculas": 104,
+    "ingressos": 36,
+    "concluintes": 4,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Engenheiro Coelho",
+    "slug": "ENGENHEIRO_COELHO",
+    "cod_ibge": "3515152",
+    "vagas_total": 40,
+    "matriculas": 22,
+    "ingressos": 7,
+    "concluintes": 3,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Franca",
+    "slug": "FRANCA",
+    "cod_ibge": "3516200",
+    "vagas_total": 35,
+    "matriculas": 23,
+    "ingressos": 11,
+    "concluintes": 5,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Jaboticabal",
+    "slug": "JABOTICABAL",
+    "cod_ibge": "3524303",
+    "vagas_total": 0,
+    "matriculas": 2,
+    "ingressos": 0,
+    "concluintes": 2,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

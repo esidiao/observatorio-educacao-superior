@@ -1,0 +1,68 @@
+[
+  {
+    "nome": "São Francisco do Conde",
+    "slug": "SAO_FRANCISCO_DO_CONDE",
+    "cod_ibge": "2929206",
+    "vagas_total": 110,
+    "matriculas": 124,
+    "ingressos": 2,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Ilhéus",
+    "slug": "ILHEUS",
+    "cod_ibge": "2913606",
+    "vagas_total": 70,
+    "matriculas": 111,
+    "ingressos": 54,
+    "concluintes": 11,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Cachoeira",
+    "slug": "CACHOEIRA",
+    "cod_ibge": "2904902",
+    "vagas_total": 52,
+    "matriculas": 107,
+    "ingressos": 19,
+    "concluintes": 23,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Vitória da Conquista",
+    "slug": "VITORIA_DA_CONQUISTA",
+    "cod_ibge": "2933307",
+    "vagas_total": 52,
+    "matriculas": 181,
+    "ingressos": 36,
+    "concluintes": 18,
+    "n_cursos": 1,
+    "n_ies": 1
+  },
+  {
+    "nome": "Juazeiro",
+    "slug": "JUAZEIRO",
+    "cod_ibge": "2918407",
+    "vagas_total": 40,
+    "matriculas": 10,
+    "ingressos": 29,
+    "concluintes": 10,
+    "n_cursos": 2,
+    "n_ies": 1
+  },
+  {
+    "nome": "Salvador",
+    "slug": "SALVADOR",
+    "cod_ibge": "2927408",
+    "vagas_total": 33,
+    "matriculas": 105,
+    "ingressos": 14,
+    "concluintes": 36,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]

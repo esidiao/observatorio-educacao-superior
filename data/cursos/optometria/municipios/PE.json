@@ -1,0 +1,13 @@
+[
+  {
+    "nome": "Paulista",
+    "slug": "PAULISTA",
+    "cod_ibge": "2610707",
+    "vagas_total": 125,
+    "matriculas": 306,
+    "ingressos": 60,
+    "concluintes": 62,
+    "n_cursos": 1,
+    "n_ies": 1
+  }
+]

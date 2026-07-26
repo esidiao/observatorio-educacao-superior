@@ -1,0 +1,24 @@
+[
+  {
+    "nome": "Teresina",
+    "slug": "TERESINA",
+    "cod_ibge": "2211001",
+    "vagas_total": 954,
+    "matriculas": 657,
+    "ingressos": 221,
+    "concluintes": 46,
+    "n_cursos": 6,
+    "n_ies": 6
+  },
+  {
+    "nome": "Parnaíba",
+    "slug": "PARNAIBA",
+    "cod_ibge": "2207702",
+    "vagas_total": 129,
+    "matriculas": 343,
+    "ingressos": 97,
+    "concluintes": 22,
+    "n_cursos": 2,
+    "n_ies": 2
+  }
+]
