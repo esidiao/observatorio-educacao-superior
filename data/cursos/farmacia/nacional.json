@@ -95,7 +95,7 @@
       "ICT": 0.9773,
       "E": 0.0227,
       "IAF": 25.8,
-      "cobertura": null
+      "cobertura": 7.0
     },
     "AL": {
       "vagas_total": 1636,
@@ -159,7 +159,7 @@
       "ICT": 0.8359,
       "E": 0.1641,
       "IAF": 49.3,
-      "cobertura": null
+      "cobertura": 36.0
     },
     "AM": {
       "vagas_total": 8188,
@@ -223,7 +223,7 @@
       "ICT": 0.9436,
       "E": 0.0564,
       "IAF": 17.0,
-      "cobertura": null
+      "cobertura": 2.7
     },
     "AP": {
       "vagas_total": 679,
@@ -287,7 +287,7 @@
       "ICT": 0.9688,
       "E": 0.0312,
       "IAF": 22.3,
-      "cobertura": null
+      "cobertura": 4.0
     },
     "BA": {
       "vagas_total": 11882,
@@ -363,7 +363,7 @@
       "ICT": 0.6957,
       "E": 0.3043,
       "IAF": 40.8,
-      "cobertura": null
+      "cobertura": 13.2
     },
     "CE": {
       "vagas_total": 25285,
@@ -427,7 +427,7 @@
       "ICT": 0.7774,
       "E": 0.2226,
       "IAF": 27.5,
-      "cobertura": null
+      "cobertura": 15.8
     },
     "DF": {
       "vagas_total": 15050,
@@ -503,7 +503,7 @@
       "ICT": 0.5,
       "E": 0.5,
       "IAF": 35.3,
-      "cobertura": null
+      "cobertura": 1.0
     },
     "ES": {
       "vagas_total": 3536,
@@ -567,7 +567,7 @@
       "ICT": 0.5642,
       "E": 0.4358,
       "IAF": 48.2,
-      "cobertura": null
+      "cobertura": 6.9
     },
     "GO": {
       "vagas_total": 8887,
@@ -631,7 +631,7 @@
       "ICT": 0.6998,
       "E": 0.3002,
       "IAF": 40.7,
-      "cobertura": null
+      "cobertura": 10.8
     },
     "MA": {
       "vagas_total": 7021,
@@ -695,7 +695,7 @@
       "ICT": 0.8341,
       "E": 0.1659,
       "IAF": 27.3,
-      "cobertura": null
+      "cobertura": 16.4
     },
     "MG": {
       "vagas_total": 10718,
@@ -771,7 +771,7 @@
       "ICT": 0.5819,
       "E": 0.4181,
       "IAF": 52.3,
-      "cobertura": null
+      "cobertura": 18.3
     },
     "MS": {
       "vagas_total": 10480,
@@ -835,7 +835,7 @@
       "ICT": 0.887,
       "E": 0.113,
       "IAF": 19.9,
-      "cobertura": null
+      "cobertura": 19.3
     },
     "MT": {
       "vagas_total": 4606,
@@ -899,7 +899,7 @@
       "ICT": 0.5051,
       "E": 0.4949,
       "IAF": 38.4,
-      "cobertura": null
+      "cobertura": 5.1
     },
     "PA": {
       "vagas_total": 6067,
@@ -975,7 +975,7 @@
       "ICT": 0.7182,
       "E": 0.2818,
       "IAF": 34.5,
-      "cobertura": null
+      "cobertura": 9.5
     },
     "PB": {
       "vagas_total": 3166,
@@ -1039,7 +1039,7 @@
       "ICT": 0.7214,
       "E": 0.2786,
       "IAF": 49.0,
-      "cobertura": null
+      "cobertura": 27.7
     },
     "PE": {
       "vagas_total": 34739,
@@ -1115,7 +1115,7 @@
       "ICT": 0.6697,
       "E": 0.3303,
       "IAF": 25.6,
-      "cobertura": null
+      "cobertura": 9.2
     },
     "PI": {
       "vagas_total": 2256,
@@ -1179,7 +1179,7 @@
       "ICT": 0.8554,
       "E": 0.1446,
       "IAF": 39.1,
-      "cobertura": null
+      "cobertura": 32.8
     },
     "PR": {
       "vagas_total": 36200,
@@ -1255,7 +1255,7 @@
       "ICT": 0.634,
       "E": 0.366,
       "IAF": 39.7,
-      "cobertura": null
+      "cobertura": 18.4
     },
     "RJ": {
       "vagas_total": 65521,
@@ -1331,7 +1331,7 @@
       "ICT": 0.5791,
       "E": 0.4209,
       "IAF": 52.7,
-      "cobertura": null
+      "cobertura": 4.7
     },
     "RN": {
       "vagas_total": 1465,
@@ -1395,7 +1395,7 @@
       "ICT": 0.8186,
       "E": 0.1814,
       "IAF": 48.1,
-      "cobertura": null
+      "cobertura": 66.5
     },
     "RO": {
       "vagas_total": 2942,
@@ -1459,7 +1459,7 @@
       "ICT": 0.5765,
       "E": 0.4235,
       "IAF": 39.4,
-      "cobertura": null
+      "cobertura": 5.2
     },
     "RR": {
       "vagas_total": 1079,
@@ -1523,7 +1523,7 @@
       "ICT": 0.9667,
       "E": 0.0333,
       "IAF": 20.2,
-      "cobertura": null
+      "cobertura": 3.0
     },
     "RS": {
       "vagas_total": 4190,
@@ -1599,7 +1599,7 @@
       "ICT": 0.5272,
       "E": 0.4728,
       "IAF": 58.0,
-      "cobertura": null
+      "cobertura": 17.9
     },
     "SC": {
       "vagas_total": 17355,
@@ -1663,7 +1663,7 @@
       "ICT": 0.4926,
       "E": 0.5074,
       "IAF": 37.4,
-      "cobertura": null
+      "cobertura": 11.3
     },
     "SE": {
       "vagas_total": 1375,
@@ -1727,7 +1727,7 @@
       "ICT": 0.8971,
       "E": 0.1029,
       "IAF": 35.9,
-      "cobertura": null
+      "cobertura": 16.0
     },
     "SP": {
       "vagas_total": 130447,
@@ -1803,7 +1803,7 @@
       "ICT": 0.6443,
       "E": 0.3557,
       "IAF": 50.8,
-      "cobertura": null
+      "cobertura": 8.8
     },
     "TO": {
       "vagas_total": 811,
@@ -1867,7 +1867,7 @@
       "ICT": 0.7735,
       "E": 0.2265,
       "IAF": 31.6,
-      "cobertura": null
+      "cobertura": 17.8
     }
   }
 }
