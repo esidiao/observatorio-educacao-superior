@@ -5,7 +5,7 @@
 {% block content %}
 
 <section class="hero">
-  <p class="hero-eyebrow">{{ cursos|length }} cursos · 27 estados · Censo INEP {{ versao_censo }}</p>
+  <p class="hero-eyebrow">{{ resumo_cursos|length }} cursos · 27 estados · Censo INEP {{ versao_censo }}</p>
   <h1 class="hero-title">Quem o Brasil forma, onde e com que qualidade?</h1>
   <p class="hero-lead">
     Um retrato da educação superior brasileira a partir de dados oficiais: onde cada
@@ -24,23 +24,52 @@
   </div>
 </section>
 
-<h2 class="section-title">Cursos no observatório</h2>
-<div class="areas-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-bottom:32px">
-  {% for c in resumo_cursos %}
-  <a class="curso-card" href="curso/{{ c.slug }}/index.html">
-    <h3>{{ c.nome }}</h3>
-    <p class="curso-area">{{ c.area_cine }}</p>
-    <div class="curso-nums">
-      <span><strong>{{ "{:,}".format(c.vagas_total).replace(',','.') }}</strong> vagas</span>
-      <span><strong>{{ c.pct_ead }}%</strong> EaD</span>
-      <span><strong>{{ c.municipios_oferta }}</strong> municípios</span>
-    </div>
-    {% if not c.tem_qualidade %}
-    <p class="curso-aviso">Sem ciclo ENADE publicado — qualidade sem dados</p>
-    {% endif %}
-  </a>
-  {% endfor %}
+<h2 class="section-title" id="catalogo">Cursos no observatório</h2>
+<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:16px">
+  Todos os {{ resumo_cursos|length }} rótulos CINE do Censo, agrupados pela área geral
+  da classificação. A lista é o que o Censo declara — inclusive cursos minúsculos, que
+  aparecem com os números que têm.
+</p>
+
+<div class="catalogo-controles">
+  <input type="search" id="filtro-curso" placeholder="Filtrar por nome do curso…"
+         oninput="filtrarCatalogo()" aria-label="Filtrar cursos por nome">
+  <select id="filtro-area" onchange="filtrarCatalogo()" aria-label="Filtrar por área CINE">
+    <option value="">Todas as áreas</option>
+    {% for area, itens in areas %}
+    <option value="{{ area }}">{{ area }} ({{ itens|length }})</option>
+    {% endfor %}
+  </select>
+  <span id="filtro-contador" class="filtro-contador"></span>
 </div>
+
+{% for area, itens in areas %}
+<section class="area-bloco" data-area="{{ area }}">
+  <h3 class="area-titulo">
+    {{ area }}
+    <span class="area-meta">{{ itens|length }} cursos · {{ "{:,}".format(itens|sum(attribute='vagas_total')).replace(',','.') }} vagas</span>
+  </h3>
+  <div class="areas-grid">
+    {% for c in itens %}
+    <a class="curso-card" href="curso/{{ c.slug }}/index.html" data-nome="{{ c.nome|lower }}">
+      <h3>{{ c.nome }}</h3>
+      <p class="curso-area">{{ c.area_especifica or c.area_cine }}{% if c.graus %} · {{ c.graus|join(', ') }}{% endif %}</p>
+      <div class="curso-nums">
+        <span><strong>{{ "{:,}".format(c.vagas_total).replace(',','.') }}</strong> vagas</span>
+        {% if c.pct_ead is not none %}<span><strong>{{ c.pct_ead }}%</strong> EaD</span>{% endif %}
+        <span><strong>{{ c.municipios_oferta }}</strong> municípios</span>
+        <span><strong>{{ c.n_ufs }}</strong> UFs</span>
+      </div>
+      {% if not c.tem_qualidade %}
+      <p class="curso-aviso">Sem ciclo ENADE publicado — qualidade sem dados</p>
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+
+<p id="catalogo-vazio" class="catalogo-vazio" hidden>Nenhum curso corresponde ao filtro.</p>
 
 <h2 class="section-title">O que este observatório não faz</h2>
 <p style="font-size:0.92rem;line-height:1.7;color:var(--text);max-width:75ch;margin-bottom:14px">
@@ -55,7 +84,47 @@
   EaD, cobertura territorial —, não para ordenar carreiras por mérito.
 </p>
 
+<script>
+// Filtro do catálogo. Com centenas de cartões, esconder no cliente é instantâneo
+// e mantém o site estático — sem índice remoto, sem paginação.
+function filtrarCatalogo() {
+  var termo = document.getElementById('filtro-curso').value
+    .normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+  var area = document.getElementById('filtro-area').value;
+  var visiveis = 0;
+  document.querySelectorAll('.area-bloco').forEach(function (bloco) {
+    var mostrarBloco = !area || bloco.dataset.area === area;
+    var naArea = 0;
+    bloco.querySelectorAll('.curso-card').forEach(function (card) {
+      var nome = card.dataset.nome.normalize('NFD').replace(/[̀-ͯ]/g, '');
+      var bate = mostrarBloco && (!termo || nome.indexOf(termo) >= 0);
+      card.hidden = !bate;
+      if (bate) { naArea++; visiveis++; }
+    });
+    bloco.hidden = naArea === 0;
+  });
+  document.getElementById('filtro-contador').textContent =
+    visiveis + (visiveis === 1 ? ' curso' : ' cursos');
+  document.getElementById('catalogo-vazio').hidden = visiveis > 0;
+}
+document.addEventListener('DOMContentLoaded', filtrarCatalogo);
+</script>
+
 <style>
+.catalogo-controles {
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 22px;
+}
+.catalogo-controles input[type="search"] { flex: 1 1 260px; max-width: 420px; }
+.filtro-contador { font-size: 0.8rem; color: var(--text-muted); }
+.area-bloco { margin-bottom: 30px; }
+.area-titulo {
+  font-family: var(--font-serif); font-size: 1.05rem; color: var(--navy);
+  border-bottom: 1px solid var(--border); padding-bottom: 6px; margin: 0 0 14px;
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: baseline;
+}
+.area-meta { font-family: var(--font-sans); font-size: 0.76rem; color: var(--text-muted); font-weight: 400; }
+.areas-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.catalogo-vazio { text-align: center; padding: 28px; color: var(--text-muted); }
 .curso-card {
   display: block;
   background: var(--surface);

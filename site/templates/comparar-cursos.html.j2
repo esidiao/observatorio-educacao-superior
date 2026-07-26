@@ -26,9 +26,17 @@
 
 <div class="toolbar" style="flex-direction:column;align-items:stretch;gap:10px;margin-bottom:20px">
   <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-    <label style="font-weight:600;color:var(--navy);font-size:0.875rem">Cursos:</label>
-    <div id="curso-chips" style="display:flex;flex-wrap:wrap;gap:6px"></div>
+    <label style="font-weight:600;color:var(--navy);font-size:0.875rem" for="busca-curso">Cursos:</label>
+    <input type="search" id="busca-curso" oninput="renderSugestoes()" autocomplete="off"
+           placeholder="Adicionar curso…" aria-label="Buscar curso para comparar"
+           style="flex:1 1 240px;max-width:340px">
+    <button class="btn outline" style="font-size:0.76rem;padding:4px 10px"
+            onclick="limparCursos()">Limpar</button>
+    <button class="btn outline" style="font-size:0.76rem;padding:4px 10px"
+            onclick="maioresCursos()">6 maiores</button>
   </div>
+  <div id="curso-sugestoes-comp" class="comp-sugestoes" hidden></div>
+  <div id="curso-chips" style="display:flex;flex-wrap:wrap;gap:6px"></div>
   <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
     <label style="font-weight:600;color:var(--navy);font-size:0.875rem">Indicadores:</label>
     <span id="kpi-contador" style="font-size:0.78rem;color:var(--text-muted)"></span>
@@ -65,24 +73,88 @@
 {% endblock %}
 
 {% block scripts %}
+<script src="static/js/comparacao.js"></script>
 <script>
-const CURSOS = {{ cursos_json }};
-const DADOS = {{ comparacao_json }};   // {slug: {BR: {...}, UF: {...}}}
+// window.CURSOS  — catálogo de navegação (slug, nome, área, vagas)
+// window.COMPARACAO — {campos: [...], dados: {slug: {recorte: [valores...]}}}
+// A matriz é colunar: com centenas de cursos × 28 recortes, repetir o nome de
+// cada campo em cada registro multiplicaria o arquivo por várias vezes.
+const CURSOS = window.CURSOS || [];
+const CAMPOS = (window.COMPARACAO || {}).campos || [];
+const DADOS = (window.COMPARACAO || {}).dados || {};
 const UFS = {{ ufs_json }};
+const INDICE = {};
+CAMPOS.forEach((c, i) => { INDICE[c] = i; });
 
-let selCursos = new Set(CURSOS.map(c => c.slug));
+const NOME = {};
+CURSOS.forEach(c => { NOME[c.s] = c.n; });
+
+// Abre com os seis maiores: 353 linhas de tabela não é comparação, é despejo.
+const PADRAO = CURSOS.slice(0, 6).map(c => c.s);
+let selCursos = new Set(PADRAO);
 let selKPIs = new Set(['vagas_total', 'pct_ead', 'ICT', 'IAF', 'n_ies', 'HHI']);
 let recorte = 'BR';
 
 const CATALOGO = (typeof GLOSSARIO !== 'undefined' ? GLOSSARIO : [])
-  .filter(g => CURSOS.some(c => {
-    const d = (DADOS[c.slug] || {})['BR'];
-    return d && d[g.key] !== null && d[g.key] !== undefined;
-  }));
+  .filter(g => INDICE[g.key] !== undefined);
+
+function esc(s) {
+  return String(s).replace(/[&<>"]/g, ch =>
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
+}
+
+function semAcento(s) {
+  return String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+}
 
 function valor(slug, key) {
-  const d = (DADOS[slug] || {})[recorte];
-  return d ? d[key] : null;
+  const linha = (DADOS[slug] || {})[recorte];
+  const i = INDICE[key];
+  if (!linha || i === undefined) return null;
+  const v = linha[i];
+  return v === undefined ? null : v;
+}
+
+function selecionados() {
+  return CURSOS.filter(c => selCursos.has(c.s)).map(c => ({ slug: c.s, nome: c.n }));
+}
+
+function renderSugestoes() {
+  const caixa = document.getElementById('curso-sugestoes-comp');
+  const termo = semAcento(document.getElementById('busca-curso').value.trim());
+  if (!termo) { caixa.hidden = true; caixa.innerHTML = ''; return; }
+  const achados = CURSOS
+    .filter(c => !selCursos.has(c.s) && semAcento(c.n).indexOf(termo) >= 0)
+    .slice(0, 10);
+  if (!achados.length) {
+    caixa.textContent = 'Nenhum curso com esse termo';
+    caixa.hidden = false;
+    return;
+  }
+  caixa.innerHTML = '';
+  achados.forEach(c => {
+    const b = document.createElement('button');
+    b.className = 'btn outline';
+    b.style.cssText = 'padding:3px 10px;font-size:0.78rem';
+    b.textContent = c.n;                      // nome vem do Censo, nunca como HTML
+    b.onclick = () => {
+      selCursos.add(c.s);
+      document.getElementById('busca-curso').value = '';
+      renderSugestoes(); renderCursoChips(); renderTudo();
+    };
+    caixa.appendChild(b);
+  });
+  caixa.hidden = false;
+}
+
+function limparCursos() {
+  selCursos = new Set();
+  renderCursoChips(); renderTudo();
+}
+
+function maioresCursos() {
+  selCursos = new Set(PADRAO);
+  renderCursoChips(); renderTudo();
 }
 
 function renderSeletorUF() {
@@ -93,11 +165,23 @@ function renderSeletorUF() {
 }
 
 function renderCursoChips() {
-  document.getElementById('curso-chips').innerHTML = CURSOS.map(c => {
-    const on = selCursos.has(c.slug);
-    return `<button class="btn outline" onclick="toggleCurso('${c.slug}')"
-      style="padding:4px 12px;font-size:0.8rem;${on ? 'background:var(--blue);color:#fff' : ''}">${c.nome}</button>`;
-  }).join('');
+  const raiz = document.getElementById('curso-chips');
+  raiz.innerHTML = '';
+  const escolhidos = selecionados();
+  if (!escolhidos.length) {
+    raiz.innerHTML = '<span style="font-size:0.8rem;color:var(--text-muted)">'
+      + 'Nenhum curso selecionado — busque acima.</span>';
+    return;
+  }
+  escolhidos.forEach(c => {
+    const b = document.createElement('button');
+    b.className = 'btn';
+    b.style.cssText = 'padding:4px 12px;font-size:0.8rem';
+    b.title = 'Remover da comparação';
+    b.textContent = c.nome + ' ×';
+    b.onclick = () => { selCursos.delete(c.slug); renderCursoChips(); renderTudo(); };
+    raiz.appendChild(b);
+  });
 }
 
 function renderKpiChips() {
@@ -118,10 +202,6 @@ function renderKpiChips() {
   document.getElementById('kpi-contador').textContent = `(${selKPIs.size} selecionados)`;
 }
 
-function toggleCurso(slug) {
-  selCursos.has(slug) ? selCursos.delete(slug) : selCursos.add(slug);
-  renderCursoChips(); renderTudo();
-}
 function toggleKPI(key) {
   selKPIs.has(key) ? selKPIs.delete(key) : selKPIs.add(key);
   renderKpiChips(); renderTudo();
@@ -133,7 +213,7 @@ function preset(cat) {
 
 function linhasCSV() {
   const keys = [...selKPIs];
-  return CURSOS.filter(c => selCursos.has(c.slug)).map(c => {
+  return selecionados().map(c => {
     const linha = { curso: c.nome, recorte };
     keys.forEach(k => { linha[k] = valor(c.slug, k); });
     return linha;
@@ -141,7 +221,7 @@ function linhasCSV() {
 }
 
 function renderTabela() {
-  const cursos = CURSOS.filter(c => selCursos.has(c.slug));
+  const cursos = selecionados();
   const keys = [...selKPIs];
   const vazio = !cursos.length || !keys.length;
   document.getElementById('msg-vazio').style.display = vazio ? 'block' : 'none';
@@ -157,12 +237,12 @@ function renderTabela() {
       if (v === null || v === undefined) return '<td class="sem-dado">sem dados</td>';
       return `<td>${fmtIndicador(k, v)}</td>`;
     }).join('');
-    return `<tr><td><a href="curso/${c.slug}/index.html"><strong>${c.nome}</strong></a></td>${celulas}</tr>`;
+    return `<tr><td><a href="curso/${c.slug}/index.html"><strong>${esc(c.nome)}</strong></a></td>${celulas}</tr>`;
   }).join('');
 }
 
 function renderBarras() {
-  const cursos = CURSOS.filter(c => selCursos.has(c.slug));
+  const cursos = selecionados();
   const keys = [...selKPIs];
   const raiz = document.getElementById('barras-norm');
   if (!cursos.length || !keys.length) { raiz.innerHTML = ''; return; }
@@ -175,11 +255,11 @@ function renderBarras() {
       const n = normalizar(k, v, valores);
       if (n === null) {
         return `<div style="display:flex;align-items:center;gap:10px;margin-bottom:5px">
-          <span style="width:150px;font-size:0.8rem;flex-shrink:0">${c.nome}</span>
+          <span style="width:150px;font-size:0.8rem;flex-shrink:0">${esc(c.nome)}</span>
           <span class="sem-dado" style="font-size:0.78rem">sem dados</span></div>`;
       }
       return `<div style="display:flex;align-items:center;gap:10px;margin-bottom:5px">
-        <span style="width:150px;font-size:0.8rem;flex-shrink:0">${c.nome}</span>
+        <span style="width:150px;font-size:0.8rem;flex-shrink:0">${esc(c.nome)}</span>
         <span style="flex:1;background:var(--border);border-radius:4px;height:16px;position:relative;max-width:420px">
           <span style="position:absolute;inset:0 auto 0 0;width:${(n * 100).toFixed(1)}%;background:${PALETA[i % PALETA.length]};border-radius:4px"></span>
         </span>

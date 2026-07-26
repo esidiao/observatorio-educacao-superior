@@ -768,6 +768,53 @@ tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-a
 .curso-chip.comparar { color: var(--accent); border-color: var(--accent); }
 .curso-chip.comparar:hover { background: var(--accent); color: #fff; }
 
+/* Busca de curso: o catálogo tem centenas de entradas, então a navegação é
+   por busca. A lista de sugestões flutua sobre o conteúdo. */
+.curso-busca { position: relative; flex: 1 1 260px; max-width: 380px; }
+.curso-busca input[type="search"] { width: 100%; font-size: 0.84rem; }
+.curso-sugestoes {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  z-index: 40;
+  margin: 0;
+  padding: 4px 0;
+  list-style: none;
+  max-height: 320px;
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(22, 48, 79, 0.16);
+}
+.curso-sugestoes li a {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  padding: 7px 12px;
+  text-decoration: none;
+  color: var(--text);
+}
+.curso-sugestoes li a:hover,
+.curso-sugestoes li.foco a { background: var(--accent-soft); text-decoration: none; }
+.curso-sugestoes .nome { font-size: 0.84rem; font-weight: 600; color: var(--navy); }
+.curso-sugestoes .meta { font-size: 0.72rem; color: var(--text-muted); }
+.curso-sugestoes .vazio { padding: 8px 12px; font-size: 0.8rem; color: var(--text-muted); }
+
+/* Sugestões da página de comparação — em linha, não flutuantes: ali o usuário
+   monta um conjunto, não navega para fora. */
+.comp-sugestoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  padding: 8px 10px;
+  background: var(--accent-soft);
+  border-radius: 8px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
 /* Valor ausente — nunca confundir com zero */
 .sem-dado { color: var(--nodata); font-style: italic; }
 
