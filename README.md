@@ -35,7 +35,11 @@ site/
   templates/         Páginas
   static/            CSS, JS (INDICADOR_META + GLOSSARIO)
   dist/              Site gerado — NÃO versionar
-tests/               Portão de integridade e coerência do catálogo
+tests/
+  test_validacao.py  Integridade dos dados e âncoras de regressão
+  test_catalogo.py   Coerência entre GLOSSARIO e INDICADOR_META
+  test_seguranca.py  CSP, JS inline, recursos externos, rastreio, contraste AA
+  test_site_gerado.py  Cobertura de páginas e invariantes do HTML publicado
 ```
 
 ## Rodar localmente
@@ -67,6 +71,8 @@ existem no Censo — hoje 353. Os campos de curadoria humana (`cobertura` e um
 python etl/indices.py --autoteste
 python tests/test_validacao.py
 python tests/test_catalogo.py
+python tests/test_seguranca.py
+python tests/test_site_gerado.py   # depois de gerar o site
 ```
 
 ### Gerar o site
@@ -75,7 +81,17 @@ python tests/test_catalogo.py
 python site/build.py
 ```
 
-Abra `site/dist/index.html`.
+Abra `site/dist/index.html` — o site funciona por `file://`, sem servidor.
+
+Para publicar, informe a URL pública, que habilita `sitemap.xml`, `robots.txt` e
+os caminhos absolutos da página de erro:
+
+```bash
+python site/build.py --base-url https://usuario.github.io/observatorio-educacao-superior
+```
+
+Sem `--base-url` o sitemap não é gerado — um sitemap com URL inventada é pior que
+sitemap nenhum.
 
 ## O catálogo de cursos
 
@@ -155,3 +171,28 @@ um campus, e fundir os dois num único número inflaria a leitura de cobertura t
 Cores: `--navy #16304F` · `--blue #2E5496` · `--gold #B07D22` · sem dados `#C9CDD2`
 Escalas divergentes: sempre **RdBu** (nunca RdYlGn — regra de acessibilidade para daltonismo)
 `lang="pt-BR"` · contraste WCAG AA
+
+## Privacidade, segurança e acessibilidade
+
+O site não coleta nada: sem cookies, sem `localStorage`, sem analytics e sem
+recursos de terceiros. A restrição é técnica, não só declarada — a
+Content-Security-Policy de cada página bloqueia qualquer carregamento externo, e
+`tests/test_seguranca.py` reprova o build se um recurso de fora aparecer. Os dados
+publicados são agregados por curso, UF e município; nenhum registro individual de
+pessoa é usado. A página `privacidade.html` explica isso nos termos da LGPD.
+
+Decisões que valem registro:
+
+- **`script-src 'self'`, sem `'unsafe-inline'`.** Todo JavaScript vive em arquivo
+  próprio e os dados por página vão em `<script type="application/json">`, que não
+  é executável. Handlers no markup (`onclick=`) estão proibidos por teste.
+- **`style-src` ainda admite `'unsafe-inline'`**, porque o layout usa atributos
+  `style=` em vários pontos. É um risco muito menor que o equivalente em script, e
+  está explícito aqui em vez de escondido.
+- **Autoescape do Jinja precisa incluir `j2`.** `select_autoescape` casa pelo
+  sufixo do arquivo; como todo template termina em `.j2`, uma lista com apenas
+  `html`/`xml` desliga o escape em todas as páginas parecendo protegê-las. Há teste
+  para isso.
+- **Contraste WCAG AA.** Cores de traço e de texto são tokens distintos:
+  `--gold`/`--nodata` desenham bordas e barras; `--gold-texto`/`--nodata-texto` são
+  as versões legíveis. "Sem dados" é conteúdo, não decoração — precisa ser lido.

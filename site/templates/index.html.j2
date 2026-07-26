@@ -2,6 +2,10 @@
 
 {% block title %}Observatório Nacional da Educação Superior{% endblock %}
 
+{% block scripts %}
+<script src="static/js/pagina-index.js"></script>
+{% endblock %}
+
 {% block content %}
 
 <section class="hero">
@@ -33,14 +37,14 @@
 
 <div class="catalogo-controles">
   <input type="search" id="filtro-curso" placeholder="Filtrar por nome do curso…"
-         oninput="filtrarCatalogo()" aria-label="Filtrar cursos por nome">
-  <select id="filtro-area" onchange="filtrarCatalogo()" aria-label="Filtrar por área CINE">
+         aria-label="Filtrar cursos por nome" aria-describedby="filtro-contador">
+  <select id="filtro-area" aria-label="Filtrar por área CINE">
     <option value="">Todas as áreas</option>
     {% for area, itens in areas %}
     <option value="{{ area }}">{{ area }} ({{ itens|length }})</option>
     {% endfor %}
   </select>
-  <span id="filtro-contador" class="filtro-contador"></span>
+  <span id="filtro-contador" class="filtro-contador" role="status" aria-live="polite"></span>
 </div>
 
 {% for area, itens in areas %}
@@ -52,7 +56,7 @@
   <div class="areas-grid">
     {% for c in itens %}
     <a class="curso-card" href="curso/{{ c.slug }}/index.html" data-nome="{{ c.nome|lower }}">
-      <h3>{{ c.nome }}</h3>
+      <h4>{{ c.nome }}</h4>
       <p class="curso-area">{{ c.area_especifica or c.area_cine }}{% if c.graus %} · {{ c.graus|join(', ') }}{% endif %}</p>
       <div class="curso-nums">
         <span><strong>{{ "{:,}".format(c.vagas_total).replace(',','.') }}</strong> vagas</span>
@@ -83,32 +87,6 @@
   entre cursos serve para revelar padrões estruturais — concentração, migração para
   EaD, cobertura territorial —, não para ordenar carreiras por mérito.
 </p>
-
-<script>
-// Filtro do catálogo. Com centenas de cartões, esconder no cliente é instantâneo
-// e mantém o site estático — sem índice remoto, sem paginação.
-function filtrarCatalogo() {
-  var termo = document.getElementById('filtro-curso').value
-    .normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
-  var area = document.getElementById('filtro-area').value;
-  var visiveis = 0;
-  document.querySelectorAll('.area-bloco').forEach(function (bloco) {
-    var mostrarBloco = !area || bloco.dataset.area === area;
-    var naArea = 0;
-    bloco.querySelectorAll('.curso-card').forEach(function (card) {
-      var nome = card.dataset.nome.normalize('NFD').replace(/[̀-ͯ]/g, '');
-      var bate = mostrarBloco && (!termo || nome.indexOf(termo) >= 0);
-      card.hidden = !bate;
-      if (bate) { naArea++; visiveis++; }
-    });
-    bloco.hidden = naArea === 0;
-  });
-  document.getElementById('filtro-contador').textContent =
-    visiveis + (visiveis === 1 ? ' curso' : ' cursos');
-  document.getElementById('catalogo-vazio').hidden = visiveis > 0;
-}
-document.addEventListener('DOMContentLoaded', filtrarCatalogo);
-</script>
 
 <style>
 .catalogo-controles {
@@ -142,7 +120,7 @@ document.addEventListener('DOMContentLoaded', filtrarCatalogo);
   border-color: var(--accent);
   text-decoration: none;
 }
-.curso-card h3 {
+.curso-card h4 {
   font-family: var(--font-serif);
   font-size: 1.2rem;
   color: var(--navy);
@@ -151,7 +129,7 @@ document.addEventListener('DOMContentLoaded', filtrarCatalogo);
 .curso-area { font-size: 0.76rem; color: var(--text-muted); margin: 0 0 12px; }
 .curso-nums { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 0.82rem; color: var(--text-muted); }
 .curso-nums strong { color: var(--navy); font-variant-numeric: tabular-nums; }
-.curso-aviso { font-size: 0.74rem; color: var(--gold); margin: 10px 0 0; font-weight: 600; }
+.curso-aviso { font-size: 0.74rem; color: var(--gold-texto); margin: 10px 0 0; font-weight: 600; }
 </style>
 
 {% endblock %}

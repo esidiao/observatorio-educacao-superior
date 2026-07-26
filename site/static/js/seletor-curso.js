@@ -40,13 +40,17 @@
     var lista = document.getElementById('curso-sugestoes');
     var chip = document.getElementById('curso-atual-chip');
     var cursos = window.CURSOS || [];
-    var depth = window.DEPTH || '';
+    // depth e curso atual vêm de data-* no <body>: um <script> inline aqui
+    // obrigaria a CSP a liberar 'unsafe-inline' em script-src.
+    var depth = document.body.dataset.depth || '';
+    var cursoAtual = document.body.dataset.cursoAtual || '';
+    var aviso = document.getElementById('curso-busca-resultado');
     if (!input || !lista || !cursos.length) return;
 
     input.placeholder = 'Buscar entre ' + cursos.length + ' cursos do Censo…';
 
-    if (window.CURSO_ATUAL) {
-      var atual = cursos.filter(function (c) { return c.s === window.CURSO_ATUAL; })[0];
+    if (cursoAtual) {
+      var atual = cursos.filter(function (c) { return c.s === cursoAtual; })[0];
       if (atual) { chip.textContent = atual.n; chip.hidden = false; }
     }
 
@@ -65,10 +69,11 @@
         lista.innerHTML = '<li class="vazio">Nenhum curso com esse termo</li>';
         lista.hidden = false;
         input.setAttribute('aria-expanded', 'true');
+        if (aviso) aviso.textContent = 'Nenhum curso encontrado';
         return;
       }
       lista.innerHTML = visiveis.map(function (c, i) {
-        return '<li role="option" data-i="' + i + '" id="curso-op-' + i + '">' +
+        return '<li role="option" aria-selected="false" data-i="' + i + '" id="curso-op-' + i + '">' +
           '<a href="' + depth + 'curso/' + c.s + '/index.html">' +
           '<span class="nome"></span><span class="meta"></span></a></li>';
       }).join('');
@@ -81,12 +86,18 @@
       }
       lista.hidden = false;
       input.setAttribute('aria-expanded', 'true');
+      if (aviso) {
+        aviso.textContent = visiveis.length === 1
+          ? '1 curso encontrado, use as setas para navegar'
+          : visiveis.length + ' cursos encontrados, use as setas para navegar';
+      }
     }
 
     function marcar() {
       var itens = lista.querySelectorAll('li');
       for (var i = 0; i < itens.length; i++) {
         itens[i].classList.toggle('foco', i === foco);
+        itens[i].setAttribute('aria-selected', i === foco ? 'true' : 'false');
       }
       input.setAttribute('aria-activedescendant', foco >= 0 ? 'curso-op-' + foco : '');
     }

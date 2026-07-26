@@ -26,12 +26,15 @@ O build também processa um curso por vez: manter todos os `nacional.json` e os
 municípios de 353 cursos em memória ao mesmo tempo custaria centenas de MB sem
 necessidade.
 """
+import argparse
 import json
 import shutil
 from datetime import date
 from pathlib import Path
+from urllib.parse import quote
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+from markupsafe import Markup
 
 REPO = Path(__file__).parent.parent
 DATA = REPO / "data"
@@ -124,6 +127,26 @@ def campos_comparaveis(registro):
             if not k.startswith("_") and not isinstance(v, (dict, list))]
 
 
+def json_seguro(dados):
+    """JSON para embutir em <script>, neutralizando o que fecharia a tag.
+
+    `</script>` dentro de uma string de dado encerraria o bloco e o resto do JSON
+    viraria HTML. Os separadores de linha U+2028/U+2029 são válidos em JSON e
+    quebram o parser de JavaScript, então também saem escapados.
+    """
+    bruto = json.dumps(dados, ensure_ascii=False)
+    fugas = {
+        "<": "\\u003c",
+        ">": "\\u003e",
+        "&": "\\u0026",
+        "\u2028": "\\u2028",
+        "\u2029": "\\u2029",
+    }
+    for ch, fuga in fugas.items():
+        bruto = bruto.replace(ch, fuga)
+    return Markup(bruto)
+
+
 def _fmt(valor, casas):
     if valor is None:
         return None
@@ -131,12 +154,26 @@ def _fmt(valor, casas):
 
 
 def main():
+    parser = argparse.ArgumentParser(description="Gera o site estático")
+    parser.add_argument(
+        "--base-url",
+        help="URL pública do site (ex.: https://usuario.github.io/repo). Sem ela, "
+             "sitemap.xml e robots.txt não são gerados — um sitemap com URL "
+             "inventada é pior que sitemap nenhum.")
+    args = parser.parse_args()
+    base_url = (args.base_url or "").rstrip("/")
+
     if DIST.exists():
         shutil.rmtree(DIST)
     DIST.mkdir(parents=True)
 
-    env = Environment(loader=FileSystemLoader(str(SITE / "templates")),
-                      autoescape=select_autoescape(["html", "xml"]))
+    # ATENÇÃO: select_autoescape casa pelo SUFIXO do arquivo. Como todo template
+    # aqui termina em ".j2", uma lista sem "j2" desliga o escape em 100% das
+    # páginas — parece protegido e não está. "j2" precisa estar na lista.
+    env = Environment(
+        loader=FileSystemLoader(str(SITE / "templates")),
+        autoescape=select_autoescape(enabled_extensions=("html", "xml", "j2"),
+                                     default_for_string=True, default=True))
     env.globals.update(
         fmt1=lambda v: _fmt(v, 1), fmt2=lambda v: _fmt(v, 2),
         fmt3=lambda v: _fmt(v, 3), fmt4=lambda v: _fmt(v, 4),
@@ -177,17 +214,19 @@ def main():
 
         html = tpl_curso.render(
             **ctx_base, depth="../../", curso_atual=c["slug"],
-            meta=meta, total=c["total"], tem_qualidade=tem_qualidade,
-            dados_json=json.dumps(ufs, ensure_ascii=False),
-            meta_json=json.dumps(meta, ensure_ascii=False))
+            meta=meta, total=c["total"], tem_qualidade=tem_qualidade, n_ufs=len(ufs),
+            dados_json=json_seguro(ufs),
+            meta_json=json_seguro(meta))
         (destino / "index.html").write_text(html, encoding="utf-8")
 
+        siglas = sorted(ufs)
         for sigla, d in ufs.items():
             html_uf = tpl_uf.render(
                 **ctx_base, depth="../../../", curso_atual=c["slug"],
                 meta=meta, sigla=sigla, nome_uf=NOME_UF[sigla], d=d,
+                ufs_curso=siglas,
                 municipios=c["municipios"].get(sigla, []),
-                dados_uf_json=json.dumps(d, ensure_ascii=False))
+                dados_uf_json=json_seguro(d))
             (destino / "uf" / f"{sigla}.html").write_text(html_uf, encoding="utf-8")
 
         # Matriz de comparação, colunar. Os campos vêm do primeiro curso lido e
@@ -247,7 +286,7 @@ def main():
         encoding="utf-8")
     html = env.get_template("comparar-cursos.html.j2").render(
         **ctx_base, depth="", curso_atual=None,
-        ufs_json=json.dumps(ufs_disponiveis, ensure_ascii=False))
+        ufs_json=json_seguro(ufs_disponiveis))
     (DIST / "comparar-cursos.html").write_text(html, encoding="utf-8")
     tam = (DIST / "static" / "js" / "comparacao.js").stat().st_size / 1024 / 1024
     print(f"[OK] comparar-cursos.html — {len(comparacao)} cursos × "
@@ -272,6 +311,45 @@ def main():
         **ctx_base, depth="", curso_atual=None, cursos_meta=cursos_meta)
     (DIST / "metodologia.html").write_text(html, encoding="utf-8")
     print("[OK] metodologia.html")
+
+    # ── Privacidade (LGPD) ───────────────────────────────────────────────────
+    html = env.get_template("privacidade.html.j2").render(
+        **ctx_base, depth="", curso_atual=None)
+    (DIST / "privacidade.html").write_text(html, encoding="utf-8")
+    print("[OK] privacidade.html")
+
+    # ── 404 ──────────────────────────────────────────────────────────────────
+    # O 404 é servido para QUALQUER caminho inexistente, inclusive profundos como
+    # /curso/xxx/uf/ZZ.html. Links relativos quebrariam ali, então esta página usa
+    # caminhos a partir da raiz pública — que só se conhece com --base-url.
+    raiz_publica = "/"
+    if base_url:
+        from urllib.parse import urlparse
+        caminho = urlparse(base_url).path.rstrip("/")
+        raiz_publica = (caminho + "/") if caminho else "/"
+    html = env.get_template("404.html.j2").render(
+        **ctx_base, depth=raiz_publica, curso_atual=None, n_cursos=len(resumo))
+    (DIST / "404.html").write_text(html, encoding="utf-8")
+    print(f"[OK] 404.html (raiz pública {raiz_publica})")
+
+    # ── Sitemap e robots ─────────────────────────────────────────────────────
+    if base_url:
+        urls = sorted(
+            base_url + "/" + p.relative_to(DIST).as_posix()
+            for p in DIST.rglob("*.html") if p.name != "404.html")
+        linhas = ['<?xml version="1.0" encoding="UTF-8"?>',
+                  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
+        for u in urls:
+            linhas.append("  <url><loc>" + quote(u, safe=":/") + "</loc>"
+                          "<lastmod>" + data_extracao + "</lastmod></url>")
+        linhas.append("</urlset>")
+        (DIST / "sitemap.xml").write_text("\n".join(linhas) + "\n", encoding="utf-8")
+        (DIST / "robots.txt").write_text(
+            "User-agent: *\nAllow: /\nSitemap: " + base_url + "/sitemap.xml\n",
+            encoding="utf-8")
+        print("[OK] sitemap.xml — " + str(len(urls)) + " URLs · robots.txt")
+    else:
+        print("[INFO] Sem --base-url: sitemap.xml e robots.txt não gerados.")
 
     paginas = list(DIST.rglob("*.html"))
     peso = sum(p.stat().st_size for p in DIST.rglob("*") if p.is_file()) / 1024 / 1024

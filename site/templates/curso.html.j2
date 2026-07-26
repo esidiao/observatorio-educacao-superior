@@ -11,7 +11,7 @@
 {% block content %}
 
 <section class="hero">
-  <p class="hero-eyebrow">{{ meta.area_cine }} · 27 estados · Censo INEP {{ meta.versao_censo }}</p>
+  <p class="hero-eyebrow">{{ meta.area_cine }} · {{ n_ufs }} {{ 'estado' if n_ufs == 1 else 'estados' }} com oferta · Censo INEP {{ meta.versao_censo }}</p>
   <h1 class="hero-title">{{ meta.curso }} no Brasil</h1>
   <p class="hero-lead">
     Como a oferta de {{ meta.curso }} se distribui pelo território, com que qualidade
@@ -29,8 +29,9 @@
 <div class="update-bar" style="background:#FFF8E6;border-color:#E8D9A8">
   <strong>Sem ciclo ENADE disponível para {{ meta.curso }}.</strong>&nbsp;
   Os indicadores de qualidade (ENADE, IDD, CPC, IAF) aparecem como “sem dados”.
-  O ENADE é trienal e reveza as áreas — publicaremos assim que o ciclo
-  {% if meta.ciclo_enade %}{{ meta.ciclo_enade }}{% endif %} for divulgado pelo INEP.
+  O ENADE é trienal e reveza as áreas avaliadas{% if meta.ciclo_enade %}; o ciclo de
+  referência deste curso é {{ meta.ciclo_enade }} e ainda não foi divulgado pelo INEP{% else %},
+  e este curso não está em nenhum ciclo publicado{% endif %}. Nenhum conceito é estimado.
 </div>
 {% endif %}
 
@@ -70,15 +71,16 @@
 
 <h2 class="section-title">Indicadores por unidade federativa</h2>
 <div class="toolbar" style="margin-bottom:12px;gap:10px;flex-wrap:wrap;align-items:center">
-  <label style="font-size:0.85rem;font-weight:600;color:var(--navy)">Ordenar por:</label>
-  <select id="sel-ordem" onchange="renderTabela()" style="font-size:0.85rem"></select>
+  <label for="sel-ordem" style="font-size:0.85rem;font-weight:600;color:var(--navy)">Ordenar por:</label>
+  <select id="sel-ordem" style="font-size:0.85rem"></select>
   <span style="flex:1"></span>
-  <button class="btn outline" onclick="exportarCSV(linhasCSV(), '{{ meta.slug }}_ufs.csv')" style="font-size:0.78rem;padding:5px 10px">↓ CSV</button>
-  <button class="btn outline" onclick="exportarJSON(DADOS, '{{ meta.slug }}_ufs.json')" style="font-size:0.78rem;padding:5px 10px">↓ JSON</button>
+  <button type="button" class="btn outline" id="btn-csv" style="font-size:0.78rem;padding:5px 10px">↓ CSV</button>
+  <button type="button" class="btn outline" id="btn-json" style="font-size:0.78rem;padding:5px 10px">↓ JSON</button>
 </div>
 
 <div class="tabela-wrap">
   <table id="tabela-ufs">
+    <caption class="sr-only">Indicadores de {{ meta.curso }} por unidade federativa. Clique no cabeçalho para ordenar.</caption>
     <thead><tr id="thead-row"></tr></thead>
     <tbody id="tbody-ufs"></tbody>
   </table>
@@ -86,65 +88,11 @@
 
 {% endblock %}
 
+{% block dados %}
+<script type="application/json" id="dados-ufs">{{ dados_json }}</script>
+<script type="application/json" id="dados-meta">{{ meta_json }}</script>
+{% endblock %}
+
 {% block scripts %}
-<script>
-const DADOS = {{ dados_json }};
-const META = {{ meta_json }};
-const COLUNAS = ['vagas_total','vagas_presencial','vagas_ead','pct_ead','municipios_oferta',
-                 'municipios_deserto','ead_polos_municipios','n_ies','ICT','E','IAF','vagas_por_100k'];
-
-let ordem = 'vagas_total', dir = 'desc';
-
-function linhasCSV() {
-  return Object.entries(DADOS).map(([uf, d]) => {
-    const linha = { UF: uf };
-    COLUNAS.forEach(c => { linha[c] = d[c]; });
-    return linha;
-  });
-}
-
-function renderSeletorOrdem() {
-  const sel = document.getElementById('sel-ordem');
-  sel.innerHTML = COLUNAS.map(c => `<option value="${c}">${rotuloIndicador(c)}</option>`).join('');
-  sel.value = ordem;
-}
-
-function renderTabela() {
-  const sel = document.getElementById('sel-ordem');
-  if (sel && sel.value) ordem = sel.value;
-
-  const thead = document.getElementById('thead-row');
-  thead.innerHTML = '<th>UF</th>' + COLUNAS.map(c =>
-    `<th title="${rotuloIndicador(c)}">${rotuloIndicador(c)}</th>`).join('');
-
-  const entradas = Object.entries(DADOS).sort((a, b) => {
-    const va = a[1][ordem], vb = b[1][ordem];
-    if (va === null || va === undefined) return 1;
-    if (vb === null || vb === undefined) return -1;
-    return dir === 'desc' ? vb - va : va - vb;
-  });
-
-  const dominios = {};
-  COLUNAS.forEach(c => {
-    const vs = Object.values(DADOS).map(d => d[c]).filter(v => v !== null && v !== undefined);
-    dominios[c] = vs.length ? { min: Math.min(...vs), max: Math.max(...vs) } : null;
-  });
-
-  const tbody = document.getElementById('tbody-ufs');
-  tbody.innerHTML = entradas.map(([uf, d]) => {
-    const celulas = COLUNAS.map(c => {
-      const v = d[c];
-      if (v === null || v === undefined) return '<td class="sem-dado">sem dados</td>';
-      const cor = getCor(c, v, dominios[c]);
-      return `<td style="border-left:3px solid ${cor}">${fmtIndicador(c, v)}</td>`;
-    }).join('');
-    return `<tr><td><a href="uf/${uf}.html"><span class="uf-tag">${uf}</span></a></td>${celulas}</tr>`;
-  }).join('');
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  renderSeletorOrdem();
-  renderTabela();
-});
-</script>
+<script src="../../static/js/pagina-curso.js"></script>
 {% endblock %}

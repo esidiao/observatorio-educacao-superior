@@ -23,7 +23,8 @@
 <h2 class="section-title">Fontes</h2>
 <div class="tabela-wrap">
   <table>
-    <thead><tr><th>Fonte</th><th>Órgão</th><th>O que fornece</th></tr></thead>
+    <caption class="sr-only">Fontes oficiais utilizadas e o que cada uma fornece.</caption>
+    <thead><tr><th scope="col">Fonte</th><th scope="col">Órgão</th><th scope="col">O que fornece</th></tr></thead>
     <tbody>
       <tr><td>Microdados do Censo da Educação Superior {{ versao_censo }}</td><td>INEP/MEC</td>
           <td>Vagas, cursos, IES, municípios, matrículas, ingressantes, concluintes e perfil dos ingressantes</td></tr>
@@ -65,7 +66,8 @@
 <h2 class="section-title">Fórmulas</h2>
 <div class="tabela-wrap">
   <table>
-    <thead><tr><th>Índice</th><th>Fórmula</th><th>Direção</th></tr></thead>
+    <caption class="sr-only">Fórmula e direção de leitura de cada índice.</caption>
+    <thead><tr><th scope="col">Índice</th><th scope="col">Fórmula</th><th scope="col">Direção</th></tr></thead>
     <tbody>
       <tr><td>ICT — Concentração Territorial</td>
           <td>½·(vagas na capital / vagas presenciais) + ½·(1 − municípios com oferta / municípios da UF)</td>
@@ -95,7 +97,8 @@
 </p>
 <div class="tabela-wrap">
   <table>
-    <thead><tr><th>Curso</th><th>Ciclo de referência</th><th>Qualidade disponível</th></tr></thead>
+    <caption class="sr-only">Ciclo ENADE de referência e disponibilidade de indicadores de qualidade por curso.</caption>
+    <thead><tr><th scope="col">Curso</th><th scope="col">Ciclo de referência</th><th scope="col">Qualidade disponível</th></tr></thead>
     <tbody>
       {% for c in cursos_meta %}
       <tr>

@@ -170,39 +170,64 @@ function renderGlossario() {
     if (!itens.length) return;
     html += `<div class="glossario-cat"><div class="glossario-cat-titulo">${cat}</div><div class="glossario-cards">`;
     itens.forEach(g => {
-      html += `<div class="gloss-card" id="gloss-${g.key}" tabindex="0" onclick="this.classList.toggle('aberto')"
-                    onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.classList.toggle('aberto')}">
-        <div class="gloss-head">
+      // <button> em vez de div[tabindex]: o verbete abre e fecha, então precisa
+      // do papel e do estado que o leitor de tela já sabe anunciar.
+      html += `<button type="button" class="gloss-card" id="gloss-${g.key}" aria-expanded="false">
+        <span class="gloss-head">
           <span class="gloss-sigla">${g.sigla}</span>
           <span class="gloss-nome">${g.nome}</span>
-          <span class="gloss-toggle">+</span>
-        </div>
-        <div class="gloss-body">
-          <p>${g.oque}</p>
-          <div class="gloss-meta">
+          <span class="gloss-toggle" aria-hidden="true">+</span>
+        </span>
+        <span class="gloss-body">
+          <span class="gloss-oque">${g.oque}</span>
+          <span class="gloss-meta">
             <span>${g.escala}</span>
             <span>${DIR_ROTULO[g.dir] || ''}</span>
             <span>${g.fonte}</span>
-          </div>
-        </div>
-      </div>`;
+          </span>
+        </span>
+      </button>`;
     });
     html += '</div></div>';
   });
   raiz.innerHTML = html;
+
+  // Delegação em vez de onclick no markup — sem isso a CSP precisaria liberar
+  // 'unsafe-inline' em script-src, que é justamente o que queremos evitar.
+  raiz.addEventListener('click', function (e) {
+    const card = e.target.closest('.gloss-card');
+    if (!card) return;
+    const aberto = card.getAttribute('aria-expanded') === 'true';
+    card.setAttribute('aria-expanded', aberto ? 'false' : 'true');
+    card.classList.toggle('aberto', !aberto);
+  });
 }
 
 function filtrarGlossario(termo) {
-  const t = (termo || '').trim().toLowerCase();
+  const t = (termo || '').trim().normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  let visiveisTotal = 0;
   document.querySelectorAll('.gloss-card').forEach(card => {
-    const texto = card.textContent.toLowerCase();
-    card.style.display = !t || texto.includes(t) ? '' : 'none';
+    const texto = card.textContent.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+    const bate = !t || texto.includes(t);
+    card.hidden = !bate;
+    if (bate) visiveisTotal++;
   });
   document.querySelectorAll('.glossario-cat').forEach(bloco => {
-    const visiveis = [...bloco.querySelectorAll('.gloss-card')]
-      .some(c => c.style.display !== 'none');
-    bloco.style.display = visiveis ? '' : 'none';
+    bloco.hidden = ![...bloco.querySelectorAll('.gloss-card')].some(c => !c.hidden);
   });
+  const aviso = document.getElementById('glossario-resultado');
+  if (aviso) {
+    aviso.textContent = visiveisTotal === 1
+      ? '1 indicador encontrado'
+      : visiveisTotal + ' indicadores encontrados';
+  }
 }
+
+document.addEventListener('DOMContentLoaded', function () {
+  const filtro = document.getElementById('glossario-filtro');
+  if (filtro) {
+    filtro.addEventListener('input', function () { filtrarGlossario(this.value); });
+  }
+});
 
 document.addEventListener('DOMContentLoaded', renderGlossario);

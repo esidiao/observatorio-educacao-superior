@@ -18,33 +18,32 @@
 </p>
 
 <div class="toolbar" style="gap:10px;margin-bottom:14px;align-items:center;flex-wrap:wrap">
-  <label style="font-weight:600;color:var(--navy);font-size:0.875rem">Recorte:</label>
-  <select id="sel-uf" onchange="renderTudo()" style="font-size:0.875rem"></select>
+  <label for="sel-uf" style="font-weight:600;color:var(--navy);font-size:0.875rem">Recorte:</label>
+  <select id="sel-uf" style="font-size:0.875rem"></select>
   <span style="flex:1"></span>
-  <button class="btn outline" onclick="exportarCSV(linhasCSV(), 'comparacao_cursos.csv')" style="font-size:0.78rem;padding:5px 10px">↓ CSV</button>
+  <button type="button" class="btn outline" id="btn-csv-comp" style="font-size:0.78rem;padding:5px 10px">↓ CSV</button>
 </div>
 
 <div class="toolbar" style="flex-direction:column;align-items:stretch;gap:10px;margin-bottom:20px">
   <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
     <label style="font-weight:600;color:var(--navy);font-size:0.875rem" for="busca-curso">Cursos:</label>
-    <input type="search" id="busca-curso" oninput="renderSugestoes()" autocomplete="off"
+    <input type="search" id="busca-curso" autocomplete="off"
            placeholder="Adicionar curso…" aria-label="Buscar curso para comparar"
            style="flex:1 1 240px;max-width:340px">
-    <button class="btn outline" style="font-size:0.76rem;padding:4px 10px"
-            onclick="limparCursos()">Limpar</button>
-    <button class="btn outline" style="font-size:0.76rem;padding:4px 10px"
-            onclick="maioresCursos()">6 maiores</button>
+    <button type="button" class="btn outline btn-mini" id="btn-limpar">Limpar</button>
+    <button type="button" class="btn outline btn-mini" id="btn-maiores">6 maiores</button>
   </div>
+  <p id="comp-aviso" class="sr-only" role="status" aria-live="polite"></p>
   <div id="curso-sugestoes-comp" class="comp-sugestoes" hidden></div>
   <div id="curso-chips" style="display:flex;flex-wrap:wrap;gap:6px"></div>
   <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
     <label style="font-weight:600;color:var(--navy);font-size:0.875rem">Indicadores:</label>
     <span id="kpi-contador" style="font-size:0.78rem;color:var(--text-muted)"></span>
     <span style="flex:1"></span>
-    <button class="btn outline" style="font-size:0.76rem;padding:4px 10px" onclick="preset('Território')">Território</button>
-    <button class="btn outline" style="font-size:0.76rem;padding:4px 10px" onclick="preset('Qualidade')">Qualidade</button>
-    <button class="btn outline" style="font-size:0.76rem;padding:4px 10px" onclick="preset('Capacidade')">Capacidade</button>
-    <button class="btn outline" style="font-size:0.76rem;padding:4px 10px" onclick="preset('Mercado')">Mercado</button>
+    <button type="button" class="btn outline btn-mini" data-preset="Território">Território</button>
+    <button type="button" class="btn outline btn-mini" data-preset="Qualidade">Qualidade</button>
+    <button type="button" class="btn outline btn-mini" data-preset="Capacidade">Capacidade</button>
+    <button type="button" class="btn outline btn-mini" data-preset="Mercado">Mercado</button>
   </div>
   <div id="kpi-chips"></div>
 </div>
@@ -52,12 +51,13 @@
 <h2 class="section-title">Tabela comparativa</h2>
 <div class="tabela-wrap">
   <table id="tabela-comp">
+    <caption class="sr-only">Indicadores dos cursos selecionados no recorte territorial escolhido.</caption>
     <thead><tr id="comp-thead"></tr></thead>
     <tbody id="comp-tbody"></tbody>
   </table>
 </div>
 
-<div id="msg-vazio" style="text-align:center;padding:32px;color:var(--text-muted);display:none">
+<div id="msg-vazio" style="text-align:center;padding:32px;color:var(--text-muted)" hidden>
   Selecione ao menos um curso e um indicador.
 </div>
 
@@ -74,216 +74,5 @@
 
 {% block scripts %}
 <script src="static/js/comparacao.js"></script>
-<script>
-// window.CURSOS  — catálogo de navegação (slug, nome, área, vagas)
-// window.COMPARACAO — {campos: [...], dados: {slug: {recorte: [valores...]}}}
-// A matriz é colunar: com centenas de cursos × 28 recortes, repetir o nome de
-// cada campo em cada registro multiplicaria o arquivo por várias vezes.
-const CURSOS = window.CURSOS || [];
-const CAMPOS = (window.COMPARACAO || {}).campos || [];
-const DADOS = (window.COMPARACAO || {}).dados || {};
-const UFS = {{ ufs_json }};
-const INDICE = {};
-CAMPOS.forEach((c, i) => { INDICE[c] = i; });
-
-const NOME = {};
-CURSOS.forEach(c => { NOME[c.s] = c.n; });
-
-// Abre com os seis maiores: 353 linhas de tabela não é comparação, é despejo.
-const PADRAO = CURSOS.slice(0, 6).map(c => c.s);
-let selCursos = new Set(PADRAO);
-let selKPIs = new Set(['vagas_total', 'pct_ead', 'ICT', 'IAF', 'n_ies', 'HHI']);
-let recorte = 'BR';
-
-const CATALOGO = (typeof GLOSSARIO !== 'undefined' ? GLOSSARIO : [])
-  .filter(g => INDICE[g.key] !== undefined);
-
-function esc(s) {
-  return String(s).replace(/[&<>"]/g, ch =>
-    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
-}
-
-function semAcento(s) {
-  return String(s).normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
-}
-
-function valor(slug, key) {
-  const linha = (DADOS[slug] || {})[recorte];
-  const i = INDICE[key];
-  if (!linha || i === undefined) return null;
-  const v = linha[i];
-  return v === undefined ? null : v;
-}
-
-function selecionados() {
-  return CURSOS.filter(c => selCursos.has(c.s)).map(c => ({ slug: c.s, nome: c.n }));
-}
-
-function renderSugestoes() {
-  const caixa = document.getElementById('curso-sugestoes-comp');
-  const termo = semAcento(document.getElementById('busca-curso').value.trim());
-  if (!termo) { caixa.hidden = true; caixa.innerHTML = ''; return; }
-  const achados = CURSOS
-    .filter(c => !selCursos.has(c.s) && semAcento(c.n).indexOf(termo) >= 0)
-    .slice(0, 10);
-  if (!achados.length) {
-    caixa.textContent = 'Nenhum curso com esse termo';
-    caixa.hidden = false;
-    return;
-  }
-  caixa.innerHTML = '';
-  achados.forEach(c => {
-    const b = document.createElement('button');
-    b.className = 'btn outline';
-    b.style.cssText = 'padding:3px 10px;font-size:0.78rem';
-    b.textContent = c.n;                      // nome vem do Censo, nunca como HTML
-    b.onclick = () => {
-      selCursos.add(c.s);
-      document.getElementById('busca-curso').value = '';
-      renderSugestoes(); renderCursoChips(); renderTudo();
-    };
-    caixa.appendChild(b);
-  });
-  caixa.hidden = false;
-}
-
-function limparCursos() {
-  selCursos = new Set();
-  renderCursoChips(); renderTudo();
-}
-
-function maioresCursos() {
-  selCursos = new Set(PADRAO);
-  renderCursoChips(); renderTudo();
-}
-
-function renderSeletorUF() {
-  const sel = document.getElementById('sel-uf');
-  sel.innerHTML = '<option value="BR">Brasil (todas as UFs)</option>'
-    + UFS.map(uf => `<option value="${uf}">${uf}</option>`).join('');
-  sel.value = recorte;
-}
-
-function renderCursoChips() {
-  const raiz = document.getElementById('curso-chips');
-  raiz.innerHTML = '';
-  const escolhidos = selecionados();
-  if (!escolhidos.length) {
-    raiz.innerHTML = '<span style="font-size:0.8rem;color:var(--text-muted)">'
-      + 'Nenhum curso selecionado — busque acima.</span>';
-    return;
-  }
-  escolhidos.forEach(c => {
-    const b = document.createElement('button');
-    b.className = 'btn';
-    b.style.cssText = 'padding:4px 12px;font-size:0.8rem';
-    b.title = 'Remover da comparação';
-    b.textContent = c.nome + ' ×';
-    b.onclick = () => { selCursos.delete(c.slug); renderCursoChips(); renderTudo(); };
-    raiz.appendChild(b);
-  });
-}
-
-function renderKpiChips() {
-  const ordem = ['Território', 'Qualidade', 'Capacidade', 'Acesso & equidade', 'Mercado'];
-  let html = '';
-  ordem.forEach(cat => {
-    const itens = CATALOGO.filter(g => g.cat === cat);
-    if (!itens.length) return;
-    html += `<div style="margin-bottom:8px"><div style="font-size:0.68rem;text-transform:uppercase;letter-spacing:0.06em;color:var(--gold);font-weight:700;margin-bottom:5px">${cat}</div><div style="display:flex;flex-wrap:wrap;gap:6px">`;
-    itens.forEach(g => {
-      const on = selKPIs.has(g.key);
-      html += `<button class="btn outline" onclick="toggleKPI('${g.key}')" title="${g.nome}"
-        style="padding:3px 9px;font-size:0.76rem;${on ? 'background:var(--blue);color:#fff' : ''}">${g.sigla}</button>`;
-    });
-    html += '</div></div>';
-  });
-  document.getElementById('kpi-chips').innerHTML = html;
-  document.getElementById('kpi-contador').textContent = `(${selKPIs.size} selecionados)`;
-}
-
-function toggleKPI(key) {
-  selKPIs.has(key) ? selKPIs.delete(key) : selKPIs.add(key);
-  renderKpiChips(); renderTudo();
-}
-function preset(cat) {
-  selKPIs = new Set(CATALOGO.filter(g => g.cat === cat).map(g => g.key));
-  renderKpiChips(); renderTudo();
-}
-
-function linhasCSV() {
-  const keys = [...selKPIs];
-  return selecionados().map(c => {
-    const linha = { curso: c.nome, recorte };
-    keys.forEach(k => { linha[k] = valor(c.slug, k); });
-    return linha;
-  });
-}
-
-function renderTabela() {
-  const cursos = selecionados();
-  const keys = [...selKPIs];
-  const vazio = !cursos.length || !keys.length;
-  document.getElementById('msg-vazio').style.display = vazio ? 'block' : 'none';
-  document.getElementById('tabela-comp').style.display = vazio ? 'none' : '';
-  if (vazio) return;
-
-  document.getElementById('comp-thead').innerHTML =
-    '<th>Curso</th>' + keys.map(k => `<th title="${rotuloIndicador(k)}">${rotuloIndicador(k)}</th>`).join('');
-
-  document.getElementById('comp-tbody').innerHTML = cursos.map(c => {
-    const celulas = keys.map(k => {
-      const v = valor(c.slug, k);
-      if (v === null || v === undefined) return '<td class="sem-dado">sem dados</td>';
-      return `<td>${fmtIndicador(k, v)}</td>`;
-    }).join('');
-    return `<tr><td><a href="curso/${c.slug}/index.html"><strong>${esc(c.nome)}</strong></a></td>${celulas}</tr>`;
-  }).join('');
-}
-
-function renderBarras() {
-  const cursos = selecionados();
-  const keys = [...selKPIs];
-  const raiz = document.getElementById('barras-norm');
-  if (!cursos.length || !keys.length) { raiz.innerHTML = ''; return; }
-
-  const PALETA = ['#2E5496', '#B07D22', '#3F6B2E', '#B23A2E', '#8B5CF6', '#06B6D4'];
-  raiz.innerHTML = keys.map(k => {
-    const valores = cursos.map(c => valor(c.slug, k));
-    const barras = cursos.map((c, i) => {
-      const v = valores[i];
-      const n = normalizar(k, v, valores);
-      if (n === null) {
-        return `<div style="display:flex;align-items:center;gap:10px;margin-bottom:5px">
-          <span style="width:150px;font-size:0.8rem;flex-shrink:0">${esc(c.nome)}</span>
-          <span class="sem-dado" style="font-size:0.78rem">sem dados</span></div>`;
-      }
-      return `<div style="display:flex;align-items:center;gap:10px;margin-bottom:5px">
-        <span style="width:150px;font-size:0.8rem;flex-shrink:0">${esc(c.nome)}</span>
-        <span style="flex:1;background:var(--border);border-radius:4px;height:16px;position:relative;max-width:420px">
-          <span style="position:absolute;inset:0 auto 0 0;width:${(n * 100).toFixed(1)}%;background:${PALETA[i % PALETA.length]};border-radius:4px"></span>
-        </span>
-        <span style="font-size:0.8rem;font-weight:600;width:90px;text-align:right">${fmtIndicador(k, v)}</span>
-      </div>`;
-    }).join('');
-    return `<div style="margin-bottom:20px">
-      <div style="font-size:0.85rem;font-weight:700;color:var(--navy);margin-bottom:8px">${rotuloIndicador(k)}</div>
-      ${barras}</div>`;
-  }).join('');
-}
-
-function renderTudo() {
-  const sel = document.getElementById('sel-uf');
-  if (sel && sel.value) recorte = sel.value;
-  renderTabela();
-  renderBarras();
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-  renderSeletorUF();
-  renderCursoChips();
-  renderKpiChips();
-  renderTudo();
-});
-</script>
+<script src="static/js/pagina-comparar.js"></script>
 {% endblock %}

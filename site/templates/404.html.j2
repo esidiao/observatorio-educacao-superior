@@ -1,0 +1,27 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Página não encontrada — Observatório Nacional da Educação Superior{% endblock %}
+{% block meta_description %}O endereço solicitado não existe neste observatório.{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<span class="active">Página não encontrada</span>
+{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+  <p class="hero-eyebrow">Erro 404</p>
+  <h1 class="hero-title">Esta página não existe</h1>
+  <p class="hero-lead">
+    O endereço pode ter mudado, ou o curso procurado não tem esse identificador.
+    O catálogo cobre os {{ n_cursos }} rótulos CINE do Censo — use a busca no topo,
+    que encontra qualquer um deles pelo nome.
+  </p>
+  <div class="hero-cta">
+    <a class="btn" href="index.html#catalogo">Ver todos os cursos</a>
+    <a class="btn outline" href="comparar-cursos.html">Comparar cursos</a>
+  </div>
+</section>
+
+{% endblock %}

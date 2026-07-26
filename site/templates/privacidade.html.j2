@@ -1,0 +1,104 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Privacidade e dados pessoais — Observatório Nacional da Educação Superior{% endblock %}
+{% block meta_description %}Como este observatório trata dados pessoais: não coleta, não usa cookies, não usa rastreadores e publica apenas estatísticas agregadas de fontes oficiais.{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<span class="active">Privacidade</span>
+{% endblock %}
+
+{% block content %}
+
+<h1 class="section-title" style="margin-bottom:6px">Privacidade e dados pessoais</h1>
+<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:24px">
+  Esta página descreve o tratamento de dados pessoais no sentido da
+  <strong>Lei 13.709/2018 (LGPD)</strong>. Última revisão: {{ data_extracao }}.
+</p>
+
+<h2 class="section-title">O que este site coleta sobre você</h2>
+<p class="texto-corrido">
+  <strong>Nada.</strong> Este é um site estático: um conjunto de arquivos HTML servidos
+  como estão. Não há formulário, login, carrinho, comentário ou qualquer campo cujo
+  conteúdo saia do seu navegador.
+</p>
+<ul class="lista-privacidade">
+  <li><strong>Sem cookies.</strong> Nenhum cookie é gravado, de sessão ou persistente.</li>
+  <li><strong>Sem armazenamento local.</strong> Não usamos <code>localStorage</code>,
+      <code>sessionStorage</code> nem IndexedDB. Os filtros e seleções que você faz
+      existem só na memória da aba e somem ao fechá-la.</li>
+  <li><strong>Sem analytics e sem rastreadores.</strong> Não há Google Analytics, pixel,
+      tag manager, mapa de calor ou teste A/B.</li>
+  <li><strong>Sem recursos de terceiros.</strong> Fontes, folhas de estilo, scripts e
+      imagens são servidos do próprio domínio. Nenhuma requisição sai para outro
+      servidor enquanto você navega, então nenhum terceiro recebe seu IP por
+      causa deste site.</li>
+  <li><strong>Sem compartilhamento.</strong> Não havendo coleta, não há transferência,
+      venda ou uso secundário de dado nenhum.</li>
+</ul>
+<p class="texto-corrido">
+  A restrição é técnica, não apenas uma promessa: cada página declara uma
+  <em>Content Security Policy</em> que bloqueia conexões e carregamentos para fora
+  do próprio domínio. Se algum recurso externo fosse acrescentado por engano, o
+  navegador o bloquearia.
+</p>
+
+<h2 class="section-title">Os dados que o site publica</h2>
+<p class="texto-corrido">
+  Todos os números vêm de bases públicas do <strong>INEP/MEC</strong> (Censo da Educação
+  Superior e ENADE/CPC) e do <strong>IBGE</strong>, divulgadas como dados abertos.
+</p>
+<p class="texto-corrido">
+  O recorte utilizado é o <strong>cadastro de cursos</strong>, cuja unidade de registro é
+  o curso de uma instituição em um município — não a pessoa. O que se publica aqui são
+  contagens e médias por curso, unidade federativa e município: vagas, matrículas,
+  ingressantes, concluintes, número de instituições e conceitos de avaliação.
+  <strong>Nenhum registro individual de estudante, docente ou servidor é utilizado ou
+  publicado</strong>, e não há campo que permita identificar uma pessoa natural,
+  direta ou indiretamente.
+</p>
+<p class="texto-corrido">
+  Indicadores de perfil (percentual de mulheres, de pretos, pardos e indígenas, de
+  bolsistas FIES/PROUNI) são <strong>agregados já publicados pelo INEP no nível do
+  curso</strong>, nunca reconstruídos a partir de pessoas. São dados estatísticos, e
+  não dados pessoais sensíveis na acepção do art. 5º, II da LGPD.
+</p>
+
+<h2 class="section-title">Hospedagem</h2>
+<p class="texto-corrido">
+  O site é servido como conteúdo estático. O provedor de hospedagem pode registrar,
+  por conta própria, dados técnicos de acesso (endereço IP, data e hora, agente de
+  usuário) em <em>logs</em> de servidor — prática comum de infraestrutura, para
+  segurança e operação, que independe deste projeto e não é acessada por ele.
+  Consulte a política de privacidade do provedor para os detalhes desse tratamento.
+</p>
+
+<h2 class="section-title">Seus direitos</h2>
+<p class="texto-corrido">
+  Os arts. 17 a 22 da LGPD asseguram, entre outros, os direitos de confirmação,
+  acesso, correção, anonimização, portabilidade e eliminação de dados pessoais.
+  Como este site não coleta nem trata dados pessoais, não há o que confirmar,
+  corrigir ou eliminar a seu respeito aqui.
+</p>
+<p class="texto-corrido">
+  Se você identificar algum dado que considere pessoal ou identificável em qualquer
+  página, abra uma <em>issue</em> no repositório do projeto descrevendo o caso. Correções
+  de dado também são bem-vindas por lá — o código e os dados publicados são abertos e
+  auditáveis.
+</p>
+
+<h2 class="section-title">Reuso</h2>
+<p class="texto-corrido">
+  Os dados originais são públicos e permanecem sob os termos de seus órgãos produtores
+  (INEP/MEC e IBGE). Ao reutilizar os números daqui, cite a fonte primária e o ano do
+  levantamento — o Censo é anual e o ENADE é trienal por área, então um recorte sem
+  data é um recorte sem sentido.
+</p>
+
+<style>
+.texto-corrido { font-size: 0.92rem; line-height: 1.75; color: var(--text); max-width: 75ch; margin-bottom: 14px; }
+.lista-privacidade { max-width: 75ch; margin: 0 0 16px 1.1rem; padding: 0; }
+.lista-privacidade li { font-size: 0.92rem; line-height: 1.7; color: var(--text); margin-bottom: 8px; }
+</style>
+
+{% endblock %}

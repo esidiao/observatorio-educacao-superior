@@ -17,15 +17,31 @@
   <span class="uf-tag" style="font-size:1rem;padding:4px 12px">{{ sigla }}</span>
   <span style="font-size:0.82rem;color:var(--text-muted)">{{ d.regiao }} · capital {{ d.capital }}</span>
   <span style="flex:1"></span>
-  <button class="btn outline" onclick="exportarJSON(DADOS_UF, '{{ meta.slug }}_{{ sigla }}.json')" style="font-size:0.8rem;padding:6px 12px">↓ JSON</button>
+  <button type="button" class="btn outline" id="btn-json-uf"
+          data-arquivo="{{ meta.slug }}_{{ sigla }}.json"
+          style="font-size:0.8rem;padding:6px 12px">↓ JSON</button>
 </div>
+
+{# Sem isto, a página de UF é um beco: dá para entrar e só voltar. #}
+{% if ufs_curso|length > 1 %}
+<nav class="uf-navegacao" aria-label="Outras unidades federativas com oferta de {{ meta.curso }}">
+  <span class="uf-navegacao-rotulo">{{ meta.curso }} em:</span>
+  {% for sig in ufs_curso %}
+  {%- if sig == sigla %}
+  <span class="uf-nav-item atual" aria-current="page">{{ sig }}</span>
+  {%- else %}
+  <a class="uf-nav-item" href="{{ sig }}.html" aria-label="{{ meta.curso }} em {{ sig }}">{{ sig }}</a>
+  {%- endif %}
+  {% endfor %}
+</nav>
+{% endif %}
 
 <h2 class="section-title">Indicadores principais</h2>
 <div class="kpi-grid">
 
   {% macro kpi(valor, rotulo, fonte, classe='') %}
   <div class="kpi-card {{ classe }}{% if valor is none %} nodata{% endif %}">
-    <div class="kpi-valor">{% if valor is not none %}{{ valor }}{% else %}<span class="sem-dado">—</span>{% endif %}</div>
+    <div class="kpi-valor">{% if valor is not none %}{{ valor }}{% else %}<span class="sem-dado"><span aria-hidden="true">—</span><span class="sr-only">sem dados</span></span>{% endif %}</div>
     <div class="kpi-label">{{ rotulo }}</div>
     <div class="kpi-fonte">{{ fonte }}</div>
   </div>
@@ -89,14 +105,18 @@
 <h2 class="section-title">Municípios com oferta presencial ({{ municipios|length }})</h2>
 <div class="tabela-wrap">
   <table>
+    <caption class="sr-only">Municípios de {{ nome_uf }} com oferta presencial de {{ meta.curso }}, ordenados por número de vagas.</caption>
     <thead>
-      <tr><th>#</th><th>Município</th><th>Vagas</th><th>Matrículas</th><th>Cursos</th><th>IES</th></tr>
+      <tr>
+        <th scope="col">#</th><th scope="col">Município</th><th scope="col">Vagas</th>
+        <th scope="col">Matrículas</th><th scope="col">Cursos</th><th scope="col">IES</th>
+      </tr>
     </thead>
     <tbody>
       {% for m in municipios %}
       <tr>
         <td style="color:var(--text-muted);width:40px">{{ loop.index }}</td>
-        <td>{{ m.nome }}</td>
+        <th scope="row" style="font-weight:600">{{ m.nome }}</th>
         <td>{{ "{:,}".format(m.vagas_total).replace(',','.') }}</td>
         <td>{{ "{:,}".format(m.matriculas).replace(',','.') }}</td>
         <td>{{ m.n_cursos }}</td>
@@ -110,6 +130,10 @@
 
 {% endblock %}
 
+{% block dados %}
+<script type="application/json" id="dados-uf">{{ dados_uf_json }}</script>
+{% endblock %}
+
 {% block scripts %}
-<script>const DADOS_UF = {{ dados_uf_json }};</script>
+<script src="../../../static/js/pagina-uf.js"></script>
 {% endblock %}

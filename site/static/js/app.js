@@ -123,7 +123,10 @@ function exportarCSV(linhas, nomeArquivo) {
   if (!linhas || !linhas.length) return;
   const cols = Object.keys(linhas[0]);
   const escapar = v => {
-    const s = v === null || v === undefined ? '' : String(v);
+    let s = v === null || v === undefined ? '' : String(v);
+    // Injeção de fórmula: uma célula iniciada por = + - @ ou tab vira fórmula ao
+    // abrir o CSV no Excel/Calc. O apóstrofo à frente força leitura como texto.
+    if (/^[=+\-@\t\r]/.test(s)) s = "'" + s;
     return /[";\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
   };
   const csv = [cols.join(';')]

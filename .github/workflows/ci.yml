@@ -33,12 +33,11 @@ jobs:
       - name: "Coerência do catálogo de indicadores"
         run: python tests/test_catalogo.py
 
+      - name: "Segurança, acessibilidade e privacidade"
+        run: python tests/test_seguranca.py
+
       - name: "Gerar site estático"
         run: python site/build.py
 
-      - name: "Conferir páginas geradas"
-        run: |
-          echo "Páginas: $(find site/dist -name '*.html' | wc -l)"
-          test -f site/dist/index.html
-          test -f site/dist/comparar-cursos.html
-          test -f site/dist/metodologia.html
+      - name: "Conferir o site gerado"
+        run: python tests/test_site_gerado.py

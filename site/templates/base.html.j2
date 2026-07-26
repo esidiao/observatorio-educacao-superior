@@ -6,7 +6,7 @@
   <title>{% block title %}Observatório Nacional da Educação Superior{% endblock %}</title>
   <meta name="description" content="{% block meta_description %}Indicadores de acesso territorial, qualidade, capacidade e concentração da educação superior brasileira, por curso e por unidade federativa, a partir de dados oficiais do INEP e do IBGE.{% endblock %}">
 
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#15314F">
@@ -19,7 +19,9 @@
   <link rel="stylesheet" href="{{ depth }}static/css/style.css">
   {% block head_extra %}{% endblock %}
 </head>
-<body>
+<body data-depth="{{ depth }}" data-curso-atual="{{ curso_atual or '' }}">
+
+<a class="pular-para-conteudo" href="#conteudo">Pular para o conteúdo</a>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
@@ -66,13 +68,13 @@
     <ul id="curso-sugestoes" class="curso-sugestoes" role="listbox" hidden></ul>
   </div>
   <span id="curso-atual-chip" class="curso-chip ativo" hidden></span>
+  <p id="curso-busca-resultado" class="sr-only" role="status" aria-live="polite"></p>
   <span style="flex:1"></span>
   <a href="{{ depth }}index.html#catalogo" class="curso-chip">Todos os cursos</a>
   <a href="{{ depth }}comparar-cursos.html" class="curso-chip comparar"><svg class="ic"><use href="#i-swap"/></svg> Comparar</a>
 </div>
-<script>window.DEPTH = {{ depth | tojson }}; window.CURSO_ATUAL = {{ curso_atual | tojson }};</script>
 
-<main>
+<main id="conteudo" tabindex="-1">
   {% block content %}{% endblock %}
 
   <section id="glossario" class="glossario" aria-label="Glossário de indicadores">
@@ -83,14 +85,16 @@
     </p>
     <div class="glossario-busca">
       <input type="search" id="glossario-filtro" placeholder="Buscar indicador (ex.: ICT, EaD, desertos, qualidade…)"
-             oninput="filtrarGlossario(this.value)" aria-label="Buscar indicador">
+             aria-label="Buscar indicador" aria-describedby="glossario-resultado">
     </div>
+    <p id="glossario-resultado" class="sr-only" role="status" aria-live="polite"></p>
     <div id="glossario-lista" class="glossario-lista"></div>
   </section>
 </main>
 
 <footer class="site-footer">
   <p>Observatório Nacional da Educação Superior · Fontes: INEP (Censo da Educação Superior {{ versao_censo }} e ENADE/CPC), IBGE</p>
+  <p style="margin-top:6px"><a href="{{ depth }}privacidade.html">Privacidade e dados pessoais</a> · <a href="{{ depth }}metodologia.html">Metodologia</a></p>
   <p style="margin-top:6px;opacity:0.85">
     Nenhum indicador é estimado. Sem fonte para um recorte, o valor aparece como
     <strong>sem dados</strong> — nunca como um número inventado.
@@ -101,6 +105,7 @@
 <script src="{{ depth }}static/js/app.js"></script>
 <script src="{{ depth }}static/js/glossario.js"></script>
 <script src="{{ depth }}static/js/seletor-curso.js"></script>
+{% block dados %}{% endblock %}
 {% block scripts %}{% endblock %}
 </body>
 </html>

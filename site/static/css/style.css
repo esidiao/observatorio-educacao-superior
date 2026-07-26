@@ -9,7 +9,9 @@
   --gold:  #B07D22;
 
   /* Estado: sem dados */
-  --nodata: #C9CDD2;
+  --nodata: #C9CDD2;          /* traço/preenchimento — não usar como texto */
+  --gold-texto: #8C6119;      /* dourado legível: 5,47 sobre branco */
+  --nodata-texto: #667079;    /* "sem dados" legível: 5,05 sobre branco */
 
   /* SWOT */
   --swot-strength:    #3F6B2E;
@@ -302,7 +304,7 @@ main { padding: 24px 32px; max-width: 1280px; margin: 0 auto; }
 
 .kpi-card.critico .kpi-valor  { color: var(--swot-weakness); }
 .kpi-card.bom .kpi-valor      { color: var(--swot-strength); }
-.kpi-card.nodata .kpi-valor   { color: var(--nodata); font-size: 1rem; }
+.kpi-card.nodata .kpi-valor   { color: var(--nodata-texto); font-size: 1rem; }
 
 /* Interatividade: cartões clicáveis levam ao glossário */
 .kpi-card {
@@ -321,7 +323,7 @@ main { padding: 24px 32px; max-width: 1280px; margin: 0 auto; }
   position: absolute;
   top: 7px; right: 9px;
   font-size: 0.78rem;
-  color: var(--nodata);
+  color: var(--nodata-texto);
   transition: color 0.12s;
 }
 .kpi-card.kpi-clicavel:hover::after { color: var(--blue); }
@@ -355,7 +357,7 @@ main { padding: 24px 32px; max-width: 1280px; margin: 0 auto; }
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--gold);
+  color: var(--gold-texto);
   margin-bottom: 10px;
 }
 .glossario-cards {
@@ -365,6 +367,11 @@ main { padding: 24px 32px; max-width: 1280px; margin: 0 auto; }
 }
 
 .gloss-card {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  color: inherit;
   background: var(--surface);
   border: 1px solid var(--border);
   border-left: 4px solid var(--blue);
@@ -376,7 +383,7 @@ main { padding: 24px 32px; max-width: 1280px; margin: 0 auto; }
 .gloss-card:hover { box-shadow: 0 3px 12px rgba(22,48,79,0.08); }
 .gloss-card:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
 
-.gloss-head { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.gloss-head { display: flex; width: 100%; align-items: baseline; gap: 8px; flex-wrap: wrap; }
 .gloss-sigla {
   font-family: var(--font-mono);
   font-weight: 700;
@@ -395,12 +402,13 @@ main { padding: 24px 32px; max-width: 1280px; margin: 0 auto; }
 .gloss-card.aberto .gloss-toggle { transform: rotate(45deg); }
 
 .gloss-body {
+  display: block;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.25s ease, margin 0.25s ease;
 }
 .gloss-card.aberto .gloss-body { max-height: 320px; margin-top: 10px; }
-.gloss-body p { font-size: 0.85rem; line-height: 1.55; color: var(--text); }
+.gloss-oque { display: block; font-size: 0.85rem; line-height: 1.55; color: var(--text); }
 .gloss-meta {
   display: flex;
   flex-wrap: wrap;
@@ -418,7 +426,7 @@ main { padding: 24px 32px; max-width: 1280px; margin: 0 auto; }
 }
 .gloss-card.flash { animation: glossFlash 1.6s ease; }
 
-.nav-glossario { color: var(--gold) !important; font-weight: 600; }
+.nav-glossario { color: var(--gold-texto) !important; font-weight: 600; }
 
 /* ============================================================
    MAPA
@@ -540,14 +548,14 @@ tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-a
 }
 
 .nodata-cell {
-  color: var(--nodata);
+  color: var(--nodata-texto);
   font-style: italic;
   font-size: 0.8rem;
 }
 
 /* Valência de indicadores */
 .val-bom   { color: var(--swot-strength); font-weight: 600; }
-.val-medio { color: var(--gold); font-weight: 600; }
+.val-medio { color: var(--gold-texto); font-weight: 600; }
 .val-ruim  { color: var(--swot-weakness); font-weight: 600; }
 
 /* ============================================================
@@ -821,8 +829,138 @@ tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-a
 }
 
 /* Valor ausente — nunca confundir com zero */
-.sem-dado { color: var(--nodata); font-style: italic; }
+.sem-dado { color: var(--nodata-texto); font-style: italic; }
 
 @media (max-width: 640px) {
   .seletor-curso { padding: 8px 16px; }
+}
+
+/* ============================================================
+   ACESSIBILIDADE — complementos da auditoria
+   ============================================================ */
+
+/* Primeiro elemento focável da página: sem ele, quem navega por teclado
+   atravessa o cabeçalho e o seletor de curso a cada nova página. */
+.pular-para-conteudo {
+  position: absolute;
+  left: 8px;
+  top: -60px;
+  z-index: 100;
+  padding: 10px 16px;
+  background: var(--navy);
+  color: #fff;
+  border-radius: 0 0 8px 8px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: top 0.15s;
+}
+.pular-para-conteudo:focus { top: 0; color: #fff; text-decoration: none; }
+
+/* O alvo do salto recebe foco programático; a borda de foco ali é ruído. */
+main:focus { outline: none; }
+
+/* Movimento é preferência, não decoração obrigatória: quem sinaliza redução
+   sofre com transform e transição (enjoo, distração, gatilho vestibular). */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .curso-card:hover { transform: none; }
+}
+
+/* ============================================================
+   NAVEGAÇÃO ENTRE UFs DE UM CURSO
+   ============================================================ */
+.uf-navegacao {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 12px;
+  margin-bottom: 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.uf-navegacao-rotulo {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--text-muted);
+  margin-right: 4px;
+}
+.uf-nav-item {
+  display: inline-block;
+  min-width: 34px;
+  padding: 3px 8px;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  font-weight: 700;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  color: var(--blue);
+  text-decoration: none;
+}
+.uf-nav-item:hover { background: var(--accent-soft); border-color: var(--accent); text-decoration: none; }
+.uf-nav-item.atual { background: var(--navy); border-color: var(--navy); color: #fff; }
+
+/* ============================================================
+   TABELAS ORDENÁVEIS E CONTROLES COMPACTOS
+   ============================================================ */
+.th-ordenar {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  text-align: inherit;
+  white-space: nowrap;
+}
+.th-ordenar:hover { text-decoration: underline; }
+
+.btn-mini { padding: 4px 10px; font-size: 0.78rem; }
+.chips-vazio { font-size: 0.8rem; color: var(--text-muted); }
+
+.kpi-grupo { margin-bottom: 8px; }
+.kpi-grupo-titulo {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--gold-texto);
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.kpi-grupo-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+
+/* ============================================================
+   BARRAS DE PERFIL RELATIVO (comparação)
+   ============================================================ */
+.barra-bloco { margin-bottom: 20px; }
+.barra-titulo { font-size: 0.85rem; font-weight: 700; color: var(--navy); margin-bottom: 8px; }
+.barra-linha { display: flex; align-items: center; gap: 10px; margin-bottom: 5px; }
+.barra-nome { width: 150px; flex-shrink: 0; font-size: 0.8rem; }
+.barra-trilho {
+  flex: 1;
+  max-width: 420px;
+  height: 16px;
+  position: relative;
+  background: var(--border);
+  border-radius: 4px;
+}
+.barra-preenche { position: absolute; inset: 0 auto 0 0; border-radius: 4px; }
+.barra-valor {
+  width: 90px;
+  text-align: right;
+  font-size: 0.8rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+@media (max-width: 640px) {
+  .barra-nome { width: 100px; }
+  .barra-valor { width: 70px; }
 }
