@@ -650,3 +650,27 @@ deles, `etl/ingestao.py` avisa antes de o número errado chegar ao site.
 A regra que emerge das três correções desta natureza (densidade regional inflada
 pela EaD contada na sede, "sem IGC" que se lia como nota baixa, e o PPI): **o erro
 raramente está na conta — está em quem entrou no denominador.**
+
+## Varredura de acessibilidade
+
+A auditoria manual de acessibilidade foi feita quando o site tinha seis tipos de
+página. Hoje tem vinte. `tests/test_site_gerado.py` passou a varrer um exemplar de
+cada tipo, verificando hierarquia de títulos, `<caption>` e `scope` nas tabelas,
+rótulo em todo controle de formulário, e `<title>` ou `aria-hidden` em todo SVG.
+
+A varredura encontrou um problema: o ícone decorativo de livro no título "Entenda
+os indicadores" não tinha `aria-hidden`, e o leitor de tela o anunciava como
+gráfico anônimo no meio do cabeçalho — em todas as 10 mil páginas. Corrigido nos
+quatro ícones do template base.
+
+**O teste passou pelo motivo errado antes de passar pelo motivo certo.** As regex
+foram escritas com `` através de uma camada de escape a mais, e o `` virou um
+caractere *backspace* literal (``) no arquivo. `<th([^>]*)>` não casa com
+nada, então as checagens de tabela e de controle rodavam sem verificar coisa
+alguma — e o teste dava verde. Só apareceu porque, ao tentar provar que o teste
+pegava um problema real, ele não pegou.
+
+Por isso cada checagem foi verificada por sabotagem: quebrar de propósito o
+`scope`, o `caption`, o nível de título, o `aria-hidden` e o rótulo de um controle,
+e confirmar que o teste reprova em cada caso. **Teste que nunca falhou não é teste
+que passa — é teste não verificado.**

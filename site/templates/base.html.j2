@@ -42,7 +42,7 @@
 </header>
 
 <nav class="navbar" aria-label="Navegação">
-  <a href="{{ depth }}index.html" class="nav-home" title="Página inicial" aria-label="Início"><svg class="ic"><use href="#i-home"/></svg></a>
+  <a href="{{ depth }}index.html" class="nav-home" title="Página inicial" aria-label="Início"><svg class="ic" aria-hidden="true"><use href="#i-home"/></svg></a>
   <span class="breadcrumb-trail">
     {% block breadcrumb %}{% endblock %}
   </span>
@@ -65,7 +65,7 @@
     <span class="sep">·</span>
     <a href="{{ depth }}metodologia.html" style="color:var(--text-muted);font-size:0.82rem">Metodologia</a>
     <span class="sep">·</span>
-    <a href="#glossario" class="nav-glossario" style="font-size:0.82rem"><svg class="ic"><use href="#i-book"/></svg> Entenda os indicadores</a>
+    <a href="#glossario" class="nav-glossario" style="font-size:0.82rem"><svg class="ic" aria-hidden="true"><use href="#i-book"/></svg> Entenda os indicadores</a>
   </span>
   <div style="flex:1"></div>
   <span style="font-size:0.78rem;color:var(--text-muted)">Dados: {{ data_extracao }}</span>
@@ -85,14 +85,14 @@
   <p id="curso-busca-resultado" class="sr-only" role="status" aria-live="polite"></p>
   <span style="flex:1"></span>
   <a href="{{ depth }}index.html#catalogo" class="curso-chip">Todos os cursos</a>
-  <a href="{{ depth }}comparar-cursos.html" class="curso-chip comparar"><svg class="ic"><use href="#i-swap"/></svg> Comparar</a>
+  <a href="{{ depth }}comparar-cursos.html" class="curso-chip comparar"><svg class="ic" aria-hidden="true"><use href="#i-swap"/></svg> Comparar</a>
 </div>
 
 <main id="conteudo" tabindex="-1">
   {% block content %}{% endblock %}
 
   <section id="glossario" class="glossario" aria-label="Glossário de indicadores">
-    <h2 class="section-title"><svg class="ic" style="color:var(--accent)"><use href="#i-book"/></svg> Entenda os indicadores</h2>
+    <h2 class="section-title"><svg class="ic" style="color:var(--accent)" aria-hidden="true"><use href="#i-book"/></svg> Entenda os indicadores</h2>
     <p class="glossario-intro">
       Cada indicador explica <strong>o que mede</strong>, sua <strong>escala</strong>,
       se <strong>maior ou menor é melhor</strong> e a <strong>fonte oficial</strong>.

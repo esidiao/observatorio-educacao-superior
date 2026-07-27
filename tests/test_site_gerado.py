@@ -157,6 +157,69 @@ def test_exportacao_de_figuras():
                f"{rel}: tem figura mas não carrega o exportador")
 
 
+# Um exemplar de cada TIPO de página. Varrer 10 mil arquivos iguais não acrescenta;
+# o que importa é que nenhum tipo novo entre sem passar pelas mesmas regras.
+TIPOS_DE_PAGINA = [
+    "index.html", "estados.html", "regioes.html", "redes.html", "acesso.html",
+    "municipios.html", "instituicoes.html", "rankings.html", "api.html",
+    "metodologia.html", "privacidade.html", "comparar-cursos.html",
+    "comparar-estados.html", "comparar-instituicoes.html", "404.html",
+]
+
+
+def test_acessibilidade_das_paginas():
+    """Varredura de acessibilidade sobre o HTML publicado.
+
+    A auditoria manual foi feita quando o site tinha seis tipos de página; hoje
+    tem vinte. Sem este teste, cada tipo novo pode reintroduzir um salto de
+    título, uma tabela sem escopo ou um ícone que o leitor de tela anuncia como
+    gráfico anônimo — e ninguém percebe, porque a tela continua bonita.
+    """
+    alvos = [DIST / n for n in TIPOS_DE_PAGINA]
+    alvos += list((DIST / "curso").glob("*/index.html"))[:1]
+    alvos += list((DIST / "curso").glob("*/uf/*.html"))[:1]
+    alvos += list((DIST / "uf").glob("*.html"))[:1]
+    alvos += list((DIST / "municipio").glob("*.html"))[:1]
+    alvos += list((DIST / "instituicao").glob("*.html"))[:1]
+
+    for pagina in alvos:
+        if not pagina.exists():
+            continue
+        rel = pagina.relative_to(DIST).as_posix()
+        html = pagina.read_text(encoding="utf-8")
+        m = re.search(r"<main[^>]*>(.*)</main>", html, re.S)
+        main = m.group(1) if m else html
+
+        niveis = [int(n) for n in re.findall(r"<h([1-6])[\s>]", main)]
+        checar(bool(niveis), f"{rel}: nenhum título no conteúdo")
+        if niveis:
+            checar(niveis[0] == 1, f"{rel}: primeiro título é h{niveis[0]}, não h1")
+            checar(niveis.count(1) == 1,
+                   f"{rel}: {niveis.count(1)} elementos h1 — deve haver exatamente um")
+            saltos = [f"h{a}->h{b}" for a, b in zip(niveis, niveis[1:]) if b - a > 1]
+            checar(not saltos, f"{rel}: salto de nível de título ({saltos[:2]})")
+
+        for i, tabela in enumerate(re.findall(r"<table[^>]*>.*?</table>", main, re.S), 1):
+            checar("<caption" in tabela, f"{rel}: tabela {i} sem <caption>")
+            cabecalhos = re.findall(r"<th\b([^>]*)>", tabela)
+            sem_scope = [c for c in cabecalhos if "scope=" not in c]
+            checar(not sem_scope,
+                   f"{rel}: tabela {i} com {len(sem_scope)} th sem scope")
+
+        for campo in re.findall(r"<(?:input|select|textarea)\b([^>]*)>", main):
+            tem_id = re.search(r'id="([^"]+)"', campo)
+            rotulado = ("aria-label=" in campo or "aria-labelledby=" in campo
+                        or (tem_id and f'for="{tem_id.group(1)}"' in main))
+            checar(rotulado or 'type="hidden"' in campo,
+                   f"{rel}: controle sem rótulo — {campo.strip()[:50]}")
+
+        # SVG é conteúdo (precisa de <title>) ou decoração (precisa de
+        # aria-hidden). O que não é nenhum dos dois vira "gráfico" anônimo.
+        for svg in re.findall(r"<svg\b[^>]*>.*?</svg>", main, re.S):
+            checar('aria-hidden="true"' in svg[:200] or "<title" in svg,
+                   f"{rel}: svg sem <title> e sem aria-hidden")
+
+
 def test_404_com_caminhos_absolutos():
     """O 404 é servido para qualquer endereço, inclusive profundo.
 
@@ -189,6 +252,7 @@ def main():
     test_paineis_territoriais_e_institucionais()
     test_comparacoes_e_indices()
     test_exportacao_de_figuras()
+    test_acessibilidade_das_paginas()
     test_404_com_caminhos_absolutos()
 
     if falhas:
