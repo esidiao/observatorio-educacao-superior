@@ -35,6 +35,23 @@
 </div>
 {% endif %}
 
+
+{% if leituras %}
+<section class="leituras" aria-labelledby="tit-leituras">
+  <h2 class="section-title" id="tit-leituras">Leitura dos números</h2>
+  <p class="leituras-aviso">
+    Frases calculadas a partir dos dados desta página, por regra fixa. Descrevem
+    variação, participação e posição — nunca causa. Cada número pode ser conferido
+    nas tabelas abaixo.
+  </p>
+  <ul class="leituras-lista">
+    {% for l in leituras %}
+    <li class="leitura {{ l.tipo }}">{{ l.texto }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
 <h2 class="section-title">Panorama nacional</h2>
 <div class="kpi-grid">
   <div class="kpi-card">
@@ -68,6 +85,66 @@
     <div class="kpi-fonte">Censo INEP + IBGE</div>
   </div>
 </div>
+
+{% if mapa %}
+<h2 class="section-title">Distribuição territorial</h2>
+<div class="figura">
+  {{ mapa }}
+  <p class="figura-nota">
+    Cores por quantil, não por intervalo igual: em dado territorial brasileiro São
+    Paulo achataria todo o resto numa faixa só. Os valores exatos estão na tabela.
+  </p>
+</div>
+{% endif %}
+
+{% if grafico_serie %}
+<h2 class="section-title">Evolução</h2>
+<div class="figura">
+  {{ grafico_serie }}
+  <p class="figura-nota">
+    Série do Censo em {{ anos_serie|join(', ') }}. O eixo começa em zero.
+    A diferença de matrículas entre anos <strong>não é evasão</strong>: são estoques
+    de anos diferentes, não o acompanhamento de uma mesma turma.
+  </p>
+</div>
+{% endif %}
+
+{% if top_ies %}
+<h2 class="section-title">Quem oferta</h2>
+<div class="figura">
+  {{ grafico_ies }}
+</div>
+<div class="tabela-wrap">
+  <table>
+    <caption class="sr-only">Dez instituições com mais matrículas no curso.</caption>
+    <thead>
+      <tr>
+        <th scope="col">Instituição</th><th scope="col">Rede</th>
+        <th scope="col">Organização</th><th scope="col">UF</th>
+        <th scope="col">Matrículas</th><th scope="col">Vagas</th>
+        <th scope="col">% Doutores (IES)</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for i in top_ies %}
+      <tr>
+        <th scope="row" style="font-weight:600">{{ i.nome }}</th>
+        <td>{{ i.rede }}</td>
+        <td>{{ i.organizacao or '—' }}</td>
+        <td>{{ i.uf_sede }}</td>
+        <td>{{ milhar(i.matriculas) }}</td>
+        <td>{{ milhar(i.vagas) }}</td>
+        <td>{% if i.pct_doutores is not none %}{{ fmt1(i.pct_doutores) }}%{% else %}<span class="sem-dado">sem dados</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<p class="figura-nota">
+  O percentual de doutores é do corpo docente da instituição inteira, não do curso.
+  O Censo não permite rateio por curso, e inventar um seria estimativa.
+</p>
+{% endif %}
 
 <h2 class="section-title">Indicadores por unidade federativa</h2>
 <div class="toolbar" style="margin-bottom:12px;gap:10px;flex-wrap:wrap;align-items:center">

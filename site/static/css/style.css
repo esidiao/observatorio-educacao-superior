@@ -964,3 +964,70 @@ main:focus { outline: none; }
   .barra-nome { width: 100px; }
   .barra-valor { width: 70px; }
 }
+
+/* ============================================================
+   FIGURAS: MAPAS E GRÁFICOS (SVG gerado no build)
+   ============================================================ */
+.figura {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 16px;
+  margin-bottom: 26px;
+}
+.figura svg { display: block; width: 100%; height: auto; max-width: 620px; margin: 0 auto; }
+.figura-nota {
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 12px auto 0;
+  max-width: 70ch;
+}
+.mapa-legenda {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 0.74rem;
+  color: var(--text-muted);
+}
+.mapa-legenda .chave { display: inline-flex; align-items: center; gap: 5px; }
+.mapa-legenda .chave i {
+  width: 13px;
+  height: 13px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  display: inline-block;
+}
+.mapa-nota { font-size: 0.78rem; color: var(--gold-texto); text-align: center; margin-top: 8px; }
+
+/* ============================================================
+   LEITURAS AUTOMÁTICAS
+   ============================================================ */
+.leituras {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--blue);
+  border-radius: 10px;
+  padding: 18px 22px;
+  margin-bottom: 28px;
+}
+.leituras .section-title { margin-top: 0; }
+.leituras-aviso {
+  font-size: 0.78rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+  max-width: 72ch;
+  margin-bottom: 14px;
+}
+.leituras-lista { margin: 0; padding-left: 1.1rem; }
+.leitura {
+  font-size: 0.94rem;
+  line-height: 1.65;
+  color: var(--text);
+  margin-bottom: 9px;
+}
+.leitura.atencao::marker { color: var(--gold-texto); }
+.leitura.sem-dado { color: var(--text-muted); font-style: normal; }
+.leitura.sem-dado::marker { color: var(--nodata-texto); }

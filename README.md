@@ -24,14 +24,21 @@ etl/                 Pipeline (Python)
   referencias.py     Malha municipal, capitais, população — referências IBGE
   indices.py         Fórmulas canônicas + portão de qualidade (GO gate)
   catalogo.py        Microdados → data/cursos.json (todos os rótulos CINE)
+  serie.py           Acumula uma edição do Censo na série histórica por curso
+  instituicoes.py    Camada institucional (IES, organização, corpo docente)
+  malha.py           Baixa e versiona a malha do IBGE (UFs e centroides)
   ingestao.py        Microdados do Censo → agregados por curso/UF/município
   qualidade.py       Planilha CPC/ENADE → conceitos por curso/UF
   consolidar.py      Junta tudo, calcula índices, reporta nulos
 data/
   cursos.json        Catálogo gerado (rótulo CINE, área, ciclo ENADE, cobertura)
-  cursos/<slug>/     Dados por curso: bruto, qualidade, cobertura, nacional
+  cursos/<slug>/     Por curso: bruto, qualidade, cobertura, nacional, serie
+  instituicoes.json  2.561 IES com oferta no catálogo
+  geo/               Malha do IBGE: fronteiras de UF e centroides municipais
 site/
   build.py           Gerador estático (Jinja2)
+  graficos.py        Mapas e gráficos em SVG, gerados no build
+  insights.py        Leituras automáticas por regra — nunca por LLM
   templates/         Páginas
   static/            CSS, JS (INDICADOR_META + GLOSSARIO)
   dist/              Site gerado — NÃO versionar
@@ -196,3 +203,47 @@ Decisões que valem registro:
 - **Contraste WCAG AA.** Cores de traço e de texto são tokens distintos:
   `--gold`/`--nodata` desenham bordas e barras; `--gold-texto`/`--nodata-texto` são
   as versões legíveis. "Sem dados" é conteúdo, não decoração — precisa ser lido.
+
+## Leituras automáticas, e por que não são geradas por IA
+
+Cada página traz frases calculadas a partir dos próprios números — variação da
+série, participação, concentração, posição. Elas são escritas por regra
+(`site/insights.py`), com template, e não por modelo de linguagem.
+
+A razão é o princípio do projeto. Um observatório que se recusa a estimar um
+indicador não pode publicar, ao lado do número auditável, um parágrafo que
+ninguém consegue auditar. Texto de LLM sobre dado quantitativo erra de formas
+caras — inverte o sinal de uma variação, cita um número que não está na tabela e,
+sobretudo, atribui causa onde o dado só mostra coincidência temporal. Publicado,
+esse parágrafo herda a aparência de autoridade do resto do site.
+
+As regras são estritas: só se afirma o que foi calculado, com o número à vista;
+descreve-se variação, participação e posição, nunca causa; exige-se base mínima
+(variação só a partir de 100 unidades, senão "2 vagas viraram 6" vira "crescimento
+de 200%"); e cala-se quando não há material.
+
+## Mapas e gráficos
+
+Tudo é SVG gerado no build, sem biblioteca de visualização. A CSP proíbe recurso
+de terceiro, e SVG estático imprime bem, funciona por `file://`, não custa
+JavaScript e é lido por leitor de tela quando descrito. O preço é a ausência de
+interatividade, compensada pela tabela exata ao lado de cada figura.
+
+O coroplético usa **quantil**, não intervalo igual: em dado territorial brasileiro
+São Paulo sozinho achataria as outras 26 UFs numa faixa só. O mapa municipal usa
+**pontos**, não polígonos — a pergunta é "onde existe oferta", e ponto responde
+isso com 150 KB em vez de vários MB. Área do círculo proporcional ao valor, nunca
+o raio, que exageraria a diferença ao quadrado. A série temporal começa o eixo em
+zero.
+
+## Série histórica: o que ela não autoriza dizer
+
+A série cobre as edições do Censo já ingeridas (hoje 2023 e 2024). Ela mostra
+**variação de estoque**, e isso não é evasão. O Censo é um retrato anual: a
+diferença de matrículas entre dois anos mistura quem entrou, saiu, trancou e
+concluiu, sem acompanhar os mesmos estudantes. Evasão e permanência exigem coorte
+— os indicadores de fluxo do INEP, publicados à parte e ainda não ingeridos aqui.
+Enquanto não estiverem, esses indicadores não existem no observatório.
+
+Pelo mesmo motivo o corpo docente aparece só no nível da instituição: o Censo
+informa docentes por IES, não por curso, e ratear seria inventar.

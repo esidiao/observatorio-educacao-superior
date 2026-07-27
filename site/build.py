@@ -45,6 +45,9 @@ import sys
 sys.path.insert(0, str(REPO / "etl"))
 from referencias import NOME_UF  # noqa: E402
 
+import insights  # noqa: E402
+from graficos import barras, coropletico, pontos_municipais, serie_temporal  # noqa: E402
+
 # Somáveis no agregado nacional; os demais são recalculados ou omitidos.
 SOMAVEIS = [
     "vagas_total", "vagas_presencial", "vagas_ead", "vagas_capital",
@@ -102,6 +105,61 @@ def agregar_nacional(ufs):
     if total.get("matriculas"):
         total["taxa_conclusao"] = round(100 * (total["concluintes"] or 0) / total["matriculas"], 1)
     return total
+
+
+def carregar_geo():
+    """Malha do IBGE, versionada por etl/malha.py. Ausente → site sem mapas,
+    nunca mapa incompleto: um mapa com UFs faltando se lê como ausência de dado."""
+    ufs, pontos = {}, {}
+    caminho = DATA / "geo" / "ufs.json"
+    if caminho.exists():
+        with open(caminho, encoding="utf-8") as f:
+            ufs = json.load(f)["ufs"]
+    caminho = DATA / "geo" / "municipios.json"
+    if caminho.exists():
+        with open(caminho, encoding="utf-8") as f:
+            pontos = json.load(f)["pontos"]
+    return ufs, pontos
+
+
+def carregar_instituicoes():
+    caminho = DATA / "instituicoes.json"
+    if not caminho.exists():
+        return {}
+    with open(caminho, encoding="utf-8") as f:
+        return json.load(f)["instituicoes"]
+
+
+def carregar_serie(slug):
+    caminho = DATA / "cursos" / slug / "serie.json"
+    if not caminho.exists():
+        return None
+    with open(caminho, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def ies_do_curso(instituicoes, slug, limite=10):
+    """Instituições que ofertam o curso, da maior para a menor em matrículas."""
+    lista = []
+    for co, ies in instituicoes.items():
+        oferta = ies.get("oferta", {}).get(slug)
+        if not oferta or not oferta.get("matriculas"):
+            continue
+        lista.append({
+            "co_ies": co,
+            "nome": ies["nome"],
+            "sigla": ies.get("sigla"),
+            "rede": ies.get("rede"),
+            "organizacao": ies.get("organizacao"),
+            "uf_sede": ies.get("uf_sede"),
+            "pct_doutores": ies.get("pct_doutores"),
+            "matriculas": oferta["matriculas"],
+            "vagas": oferta.get("vagas"),
+            "concluintes": oferta.get("concluintes"),
+            "cursos": oferta.get("cursos"),
+        })
+    lista.sort(key=lambda x: -x["matriculas"])
+    return lista[:limite]
 
 
 def carregar_curso(c):
@@ -184,6 +242,15 @@ def main():
     with open(DATA / "cursos.json", encoding="utf-8") as f:
         catalogo = json.load(f)["cursos"]
 
+    malha_ufs, centroides = carregar_geo()
+    instituicoes = carregar_instituicoes()
+    if not malha_ufs:
+        print("[AVISO] data/geo/ufs.json ausente — páginas sairão sem mapa. "
+              "Rode python etl/malha.py.")
+    if not instituicoes:
+        print("[AVISO] data/instituicoes.json ausente — sem camada institucional. "
+              "Rode python etl/instituicoes.py.")
+
     data_extracao = str(date.today())
     versao_censo = None
     # Acumuladores enxutos: só o que as páginas-índice precisam, nunca os dados
@@ -212,20 +279,79 @@ def main():
         destino = DIST / "curso" / c["slug"]
         (destino / "uf").mkdir(parents=True, exist_ok=True)
 
+        serie = carregar_serie(c["slug"])
+        top_ies = ies_do_curso(instituicoes, c["slug"])
+
+        mapa = ""
+        if malha_ufs:
+            mapa = Markup(coropletico(
+                malha_ufs,
+                {uf: d.get("vagas_total") for uf, d in ufs.items()},
+                titulo=f"Vagas de {c['nome']} por unidade federativa",
+                descricao=(f"Mapa do Brasil com as 27 unidades federativas coloridas "
+                           f"pelo total de vagas de {c['nome']}. Os valores exatos "
+                           f"estão na tabela abaixo."),
+                unidade=" vagas", nomes_uf=NOME_UF))
+
+        grafico_serie = ""
+        if serie and len(serie.get("anos", {})) >= 2:
+            anos = sorted(serie["anos"])
+            grafico_serie = Markup(serie_temporal(
+                anos,
+                [{"nome": "Vagas totais",
+                  "valores": [serie["anos"][a]["BR"].get("vagas_total") for a in anos]},
+                 {"nome": "Matrículas presenciais",
+                  "valores": [serie["anos"][a]["BR"].get("matriculas") for a in anos]}],
+                titulo=f"Evolução de {c['nome']} no Brasil",
+                descricao=("Linhas de vagas totais e matrículas presenciais ao longo "
+                           "das edições do Censo disponíveis.")))
+
+        grafico_ies = ""
+        if top_ies:
+            grafico_ies = Markup(barras(
+                [{"nome": i["sigla"] or i["nome"], "valor": i["matriculas"]}
+                 for i in top_ies],
+                titulo=f"Instituições com mais matrículas em {c['nome']}",
+                descricao="Barras horizontais das dez maiores em matrículas.",
+                unidade=" matrículas"))
+
+        leituras = insights.do_curso(c["nome"], c["total"], ufs, serie, top_ies)
+
         html = tpl_curso.render(
             **ctx_base, depth="../../", curso_atual=c["slug"],
             meta=meta, total=c["total"], tem_qualidade=tem_qualidade, n_ufs=len(ufs),
+            mapa=mapa, grafico_serie=grafico_serie, grafico_ies=grafico_ies,
+            top_ies=top_ies, leituras=leituras,
+            anos_serie=sorted(serie["anos"]) if serie else [],
             dados_json=json_seguro(ufs),
             meta_json=json_seguro(meta))
         (destino / "index.html").write_text(html, encoding="utf-8")
 
         siglas = sorted(ufs)
         for sigla, d in ufs.items():
+            municipios_uf = c["municipios"].get(sigla, [])
+            mapa_uf = ""
+            if centroides and municipios_uf:
+                mapa_uf = Markup(pontos_municipais(
+                    centroides,
+                    [{"nome": m["nome"], "cod_ibge": m.get("cod_ibge"),
+                      "valor": m.get("vagas_total")} for m in municipios_uf],
+                    titulo=f"Municípios de {NOME_UF[sigla]} com oferta de {c['nome']}",
+                    descricao=("Cada círculo é um município com oferta presencial; a "
+                               "área é proporcional ao número de vagas."),
+                    contorno_ufs={sigla: malha_ufs[sigla]} if sigla in malha_ufs else None))
+
+            serie_uf = None
+            if serie:
+                serie_uf = {a: v["ufs"][sigla] for a, v in serie["anos"].items()
+                            if sigla in v.get("ufs", {})}
+
             html_uf = tpl_uf.render(
                 **ctx_base, depth="../../../", curso_atual=c["slug"],
                 meta=meta, sigla=sigla, nome_uf=NOME_UF[sigla], d=d,
-                ufs_curso=siglas,
-                municipios=c["municipios"].get(sigla, []),
+                ufs_curso=siglas, mapa_uf=mapa_uf,
+                leituras=insights.da_uf(NOME_UF[sigla], d, serie_uf),
+                municipios=municipios_uf,
                 dados_uf_json=json_seguro(d))
             (destino / "uf" / f"{sigla}.html").write_text(html_uf, encoding="utf-8")
 

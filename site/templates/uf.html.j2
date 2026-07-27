@@ -36,6 +36,23 @@
 </nav>
 {% endif %}
 
+
+{% if leituras %}
+<section class="leituras" aria-labelledby="tit-leituras">
+  <h2 class="section-title" id="tit-leituras">Leitura dos números</h2>
+  <p class="leituras-aviso">
+    Frases calculadas a partir dos dados desta página, por regra fixa. Descrevem
+    variação, participação e posição — nunca causa. Cada número pode ser conferido
+    nas tabelas abaixo.
+  </p>
+  <ul class="leituras-lista">
+    {% for l in leituras %}
+    <li class="leitura {{ l.tipo }}">{{ l.texto }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}
+
 <h2 class="section-title">Indicadores principais</h2>
 <div class="kpi-grid">
 
@@ -100,6 +117,18 @@
   {{ kpi(pct(d.CR2), 'CR2 (2 maiores)', 'Censo ' ~ meta.versao_censo) }}
   {{ kpi(pct(d.CR10), 'CR10 (10 maiores)', 'Censo ' ~ meta.versao_censo) }}
 </div>
+
+{% if mapa_uf %}
+<h2 class="section-title">Onde há oferta</h2>
+<div class="figura">
+  {{ mapa_uf }}
+  <p class="figura-nota">
+    Cada círculo é um município com oferta presencial; a área é proporcional às
+    vagas. Polos EaD não aparecem — polo não é campus, e fundir os dois inflaria a
+    leitura de cobertura territorial.
+  </p>
+</div>
+{% endif %}
 
 {% if municipios %}
 <h2 class="section-title">Municípios com oferta presencial ({{ municipios|length }})</h2>
