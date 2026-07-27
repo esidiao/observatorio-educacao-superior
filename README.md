@@ -28,6 +28,7 @@ etl/                 Pipeline (Python)
   baixar_censo.py    Baixa edições do INEP e alimenta a série (um ano por vez)
   instituicoes.py    Camada institucional (IES, organização, corpo docente)
   igc.py             Índice Geral de Cursos do INEP, por instituição
+  fluxo.py           Evasão, conclusão e retenção por coorte (INEP)
   malha.py           Baixa e versiona a malha do IBGE (UFs e centroides)
   ingestao.py        Microdados do Censo → agregados por curso/UF/município
   qualidade.py       Planilha CPC/ENADE → conceitos por curso/UF
@@ -37,6 +38,7 @@ data/
   cursos/<slug>/     Por curso: bruto, qualidade, cobertura, nacional, serie
   instituicoes.json  2.561 IES com oferta no catálogo
   igc.json           IGC por instituição (fonte e calendário distintos do Censo)
+  fluxo.json         Taxas de coorte por UF, 2010–2024
   geo/               Malha do IBGE: fronteiras de UF e centroides municipais
 site/
   build.py           Gerador estático (Jinja2)
@@ -353,3 +355,34 @@ template recebe `Undefined`, e `Undefined is not none` é verdadeiro no Jinja, o
 que mandaria justamente quem não tem IGC para o ramo "tem avaliação". E os
 formatadores passaram a converter qualquer coisa não numérica em "sem dados", em
 vez de estourar no meio do build.
+
+## Evasão: o indicador que o Censo não produz
+
+Durante todo o desenvolvimento este observatório se recusou a falar em evasão, e
+a recusa estava certa: o Censo é um retrato anual de estoque, e a diferença de
+matrículas entre dois anos mistura quem entrou, saiu, trancou e concluiu, sem
+seguir ninguém. Agora existe a fonte correta.
+
+```bash
+python etl/fluxo.py --fluxo caminho/indicadores_fluxo_UF_2010_2024.zip
+```
+
+Os Indicadores de Fluxo do INEP acompanham **coortes de ingressantes** ao longo do
+tempo e produzem evasão, conclusão, retenção e permanência. São os únicos números
+do site que seguem as mesmas pessoas — todo o resto é estoque. Cobrem 27 UFs e as
+coortes de 2010-2011 a 2023-2024, com recorte por sexo, cor/raça e faixa etária.
+
+**Limite de agregação, que decide onde eles podem aparecer.** O INEP publica por
+unidade federativa, não por curso nem por instituição. Por isso a seção existe nos
+painéis estaduais e em lugar nenhum mais. Ratear a taxa de um estado entre seus
+cursos seria a estimativa que este projeto recusa: cursos têm perfis de evasão
+radicalmente diferentes, e a média estadual não descreve nenhum deles.
+
+**Séries de comprimentos diferentes.** Evasão é publicada desde a coorte
+2010-2011; conclusão, retenção e permanência só desde 2016-2017. O gráfico desenha
+as três no mesmo eixo com o buraco à vista, em vez de recortar todas ao menor
+período comum — o que esconderia uma década de dado que existe.
+
+**Ponto percentual não é percentual.** A leitura automática diz "subiu 7,9 pontos
+percentuais", nunca "subiu 7,9%": sobre uma base de 11,7%, a segunda formulação
+significaria 12,6%, um número diferente e errado.

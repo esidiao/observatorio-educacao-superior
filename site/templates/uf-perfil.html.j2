@@ -36,6 +36,7 @@
   </p>
   <ul class="leituras-lista">
     {% for l in leituras %}<li class="leitura {{ l.tipo }}">{{ l.texto }}</li>{% endfor %}
+    {% for l in leituras_fluxo %}<li class="leitura {{ l.tipo }}">{{ l.texto }}</li>{% endfor %}
   </ul>
 </section>
 {% endif %}
@@ -49,6 +50,72 @@
     a área é proporcional às vagas. Polos EaD não aparecem — polo não é campus.
   </p>
 </div>
+{% endif %}
+
+{% if fluxo %}
+<h2 class="section-title">Trajetória dos estudantes</h2>
+<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:14px">
+  Estes são os <strong>únicos indicadores do observatório que acompanham as mesmas
+  pessoas ao longo do tempo</strong>. Todo o resto do site vem do Censo, que é um
+  retrato anual de estoque e por isso não permite falar em evasão. Aqui o INEP segue
+  uma coorte de ingressantes até o desfecho.
+</p>
+
+{% set ultima = coortes_fluxo[-1] %}
+<div class="kpi-grid">
+  {% macro kpi_fluxo(reg, rotulo, critico=false) %}
+  <div class="kpi-card{% if reg is none or reg.total is none %} nodata{% elif critico %} critico{% endif %}">
+    <div class="kpi-valor">{% if reg and reg.total is not none %}{{ fmt1(reg.total) }}%{% else %}<span class="sem-dado"><span aria-hidden="true">—</span><span class="sr-only">sem dados</span></span>{% endif %}</div>
+    <div class="kpi-label">{{ rotulo }}</div>
+    <div class="kpi-fonte">coorte {{ ultima }}</div>
+  </div>
+  {% endmacro %}
+  {{ kpi_fluxo(fluxo[ultima].evasao, 'Evasão', true) }}
+  {{ kpi_fluxo(fluxo[ultima].conclusao, 'Conclusão') }}
+  {{ kpi_fluxo(fluxo[ultima].retencao, 'Retenção') }}
+  {{ kpi_fluxo(fluxo[ultima].permanencia, 'Permanência') }}
+</div>
+
+{% if grafico_fluxo %}
+<div class="figura">
+  {{ grafico_fluxo }}
+  <p class="figura-nota">
+    As séries têm comprimentos diferentes de propósito: a evasão é publicada desde
+    a coorte 2010-2011, e conclusão e retenção desde 2016-2017. Recortar todas ao
+    menor período comum esconderia uma década de dado que existe.
+  </p>
+</div>
+{% endif %}
+
+<div class="tabela-wrap">
+  <table>
+    <caption class="sr-only">Taxas de coorte por recorte demográfico, coorte {{ ultima }}.</caption>
+    <thead>
+      <tr>
+        <th scope="col">Indicador</th><th scope="col">Total</th>
+        <th scope="col">Mulheres</th><th scope="col">Homens</th>
+        <th scope="col">Pretos, pardos e indígenas</th><th scope="col">Demais</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for chave, rotulo in [('evasao','Evasão'), ('conclusao','Conclusão'), ('retencao','Retenção'), ('permanencia','Permanência')] %}
+      {% set reg = fluxo[ultima][chave] %}
+      <tr>
+        <th scope="row" style="font-weight:600">{{ rotulo }}</th>
+        {% for campo in ['total','feminino','masculino','ppi','nao_ppi'] %}
+        <td>{% if reg and reg[campo] is not none %}{{ fmt1(reg[campo]) }}%{% else %}<span class="sem-dado">sem dados</span>{% endif %}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<p class="figura-nota">
+  Taxas por unidade federativa, somando todos os cursos. <strong>O INEP não publica
+  estes indicadores por curso nem por instituição</strong>, e ratear a taxa estadual
+  entre os cursos seria estimativa — cursos têm perfis de evasão radicalmente
+  diferentes, e a média do estado não descreve nenhum deles.
+</p>
 {% endif %}
 
 <h2 class="section-title">Distribuição por área do conhecimento</h2>

@@ -193,6 +193,54 @@ def da_uf(nome_uf, resumo, serie_uf=None):
     return frases
 
 
+def do_fluxo(nome_uf, fluxo_uf):
+    """Leituras das taxas de coorte — os únicos números do observatório que
+    acompanham as mesmas pessoas ao longo do tempo."""
+    frases = []
+    if not fluxo_uf:
+        return frases
+    coortes = sorted(fluxo_uf)
+
+    com_evasao = [c for c in coortes if fluxo_uf[c].get("evasao", {}).get("total") is not None]
+    if com_evasao:
+        ultimo = com_evasao[-1]
+        atual = fluxo_uf[ultimo]["evasao"]["total"]
+        frase = (f"Na coorte {ultimo}, {_pct(atual)} dos ingressantes em "
+                 f"{nome_uf} evadiram. Diferente das demais taxas do site, esta "
+                 f"acompanha as mesmas pessoas ao longo do tempo.")
+        if len(com_evasao) >= 2:
+            primeiro = com_evasao[0]
+            antes = fluxo_uf[primeiro]["evasao"]["total"]
+            if antes:
+                delta = atual - antes
+                if abs(delta) >= 1:
+                    verbo = "subiu" if delta > 0 else "caiu"
+                    # Diferença entre dois percentuais é medida em PONTOS, não em
+                    # percentual: "subiu 7,9%" sobre 11,7% seria 12,6%, outro número.
+                    pontos = f"{abs(delta):.1f}".replace(".", ",")
+                    frase += (f" Em {primeiro} era {_pct(antes)} — {verbo} "
+                              f"{pontos} pontos percentuais.")
+        frases.append(_frase(frase, "atencao" if atual >= 20 else "neutro"))
+
+        # Recorte por sexo, quando a diferença é grande o bastante para não ser ruído.
+        reg = fluxo_uf[ultimo]["evasao"]
+        f_, m = reg.get("feminino"), reg.get("masculino")
+        if f_ is not None and m is not None and abs(m - f_) >= 2:
+            maior, menor = ("homens", "mulheres") if m > f_ else ("mulheres", "homens")
+            frases.append(_frase(
+                f"A evasão é maior entre {maior} ({_pct(max(m, f_))}) do que entre "
+                f"{menor} ({_pct(min(m, f_))}) na coorte {ultimo}."))
+
+    com_conclusao = [c for c in coortes
+                     if fluxo_uf[c].get("conclusao", {}).get("total") is not None]
+    if com_conclusao:
+        ultimo = com_conclusao[-1]
+        frases.append(_frase(
+            f"A taxa de conclusão da coorte {ultimo} é "
+            f"{_pct(fluxo_uf[ultimo]['conclusao']['total'])}."))
+    return frases
+
+
 def do_municipio(nome, uf, dados, posicao=None, total_uf=None):
     """Leituras da página de um município."""
     frases = []

@@ -165,6 +165,15 @@ def carregar_instituicoes():
     return instituicoes
 
 
+def carregar_fluxo():
+    """Taxas de coorte do INEP, por UF. Ausente → painéis sem a seção."""
+    caminho = DATA / "fluxo.json"
+    if not caminho.exists():
+        return {}
+    with open(caminho, encoding="utf-8") as f:
+        return json.load(f)
+
+
 def carregar_serie(slug):
     caminho = DATA / "cursos" / slug / "serie.json"
     if not caminho.exists():
@@ -296,6 +305,7 @@ def main():
         catalogo = json.load(f)["cursos"]
 
     acumulado = agregados.Acumulador()
+    fluxo = carregar_fluxo()
     malha_ufs, centroides = carregar_geo()
     instituicoes = carregar_instituicoes()
     if not malha_ufs:
@@ -539,15 +549,40 @@ def main():
                 titulo=f"Municípios de {NOME_UF[sigla]} com oferta presencial",
                 descricao="Círculos proporcionais às vagas presenciais somadas.",
                 contorno_ufs={sigla: malha_ufs[sigla]}))
+        fluxo_uf = (fluxo.get("ufs") or {}).get(sigla, {})
+        grafico_fluxo = ""
+        if fluxo_uf:
+            # Cada indicador tem sua própria janela de coortes: evasão começa em
+            # 2010, os demais em 2016. Desenhar tudo no mesmo eixo com buracos é
+            # mais honesto que recortar todos ao menor denominador comum.
+            coortes = sorted(fluxo_uf)
+            series = []
+            for chave, rotulo in (("evasao", "Evasão"), ("conclusao", "Conclusão"),
+                                  ("retencao", "Retenção")):
+                valores = [fluxo_uf.get(c, {}).get(chave, {}).get("total")
+                           for c in coortes]
+                if any(v is not None for v in valores):
+                    series.append({"nome": rotulo, "valores": valores})
+            if series:
+                grafico_fluxo = Markup(serie_temporal(
+                    coortes, series,
+                    titulo=f"Taxas de coorte em {NOME_UF[sigla]}",
+                    descricao=("Evasão, conclusão e retenção de ingressantes "
+                               "acompanhados ao longo do tempo pelo INEP."),
+                    casas=1))
+
         html = tpl_uf_perfil.render(
             **ctx_base, depth="../", curso_atual=None, sigla=sigla,
+            fluxo=fluxo_uf, grafico_fluxo=grafico_fluxo,
+            coortes_fluxo=sorted(fluxo_uf),
             nome_uf=NOME_UF[sigla], u=u, municipios=muns, mapa=mapa,
             n_cursos_uf=len(u["cursos"]),
             grafico_areas=Markup(barras(
                 [{"nome": a, "valor": v} for a, v in u["areas"].items()],
                 titulo=f"Vagas por área do conhecimento em {NOME_UF[sigla]}",
                 descricao="Áreas gerais da classificação CINE.", unidade=" vagas")),
-            leituras=insights.da_uf(NOME_UF[sigla], u))
+            leituras=insights.da_uf(NOME_UF[sigla], u),
+            leituras_fluxo=insights.do_fluxo(NOME_UF[sigla], fluxo_uf))
         (DIST / "uf" / f"{sigla}.html").write_text(html, encoding="utf-8")
     print(f"[OK] uf/ — {len(acumulado.ufs)} painéis estaduais")
 
