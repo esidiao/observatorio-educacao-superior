@@ -762,6 +762,96 @@ def main():
     (DIST / "instituicoes.html").write_text(html, encoding="utf-8")
     print("[OK] instituicoes.html")
 
+    # ── Regiões ──────────────────────────────────────────────────────────────
+    # A desigualdade regional é a moldura de quase toda discussão sobre acesso ao
+    # ensino superior, e até aqui só dava para montá-la de cabeça a partir das 27
+    # UFs. Soma-se o que soma; nº de IES e municípios já vêm contados por UF sem
+    # duplicidade entre elas, então aqui a soma é legítima.
+    ORDEM_REGIOES = ["Norte", "Nordeste", "Centro-Oeste", "Sudeste", "Sul"]
+    por_regiao = {}
+    for sigla, u in acumulado.ufs.items():
+        nome = REGIAO_UF.get(sigla)
+        if not nome:
+            continue
+        alvo = por_regiao.setdefault(nome, {
+            "nome": nome, "ufs": [],
+            "vagas_total": 0, "vagas_presencial": 0, "vagas_ead": 0,
+            "matriculas": 0, "n_ies": 0, "municipios_oferta": 0,
+            "municipios_total": 0, "populacao": 0,
+        })
+        alvo["ufs"].append(sigla)
+        for campo in ("vagas_total", "vagas_presencial", "vagas_ead", "matriculas",
+                      "n_ies", "municipios_oferta", "municipios_total", "populacao"):
+            alvo[campo] += u.get(campo) or 0
+
+    for r in por_regiao.values():
+        r["ufs"].sort()
+        if r["populacao"]:
+            r["vagas_por_100k"] = round(100000 * r["vagas_total"] / r["populacao"], 1)
+            # Densidade presencial: a régua honesta para acesso local, porque a
+            # vaga EaD é contada onde está a mantenedora, não o estudante.
+            r["presencial_por_100k"] = round(
+                100000 * r["vagas_presencial"] / r["populacao"], 1)
+        if r["municipios_total"]:
+            r["pct_cobertura"] = round(
+                100 * r["municipios_oferta"] / r["municipios_total"], 1)
+
+    regioes = [por_regiao[n] for n in ORDEM_REGIOES if n in por_regiao]
+
+    mapa_regiao = ""
+    if malha_ufs and regioes:
+        # Cada UF pintada com o valor da REGIÃO dela: o mapa mostra o bloco, não o
+        # estado. A nota da figura diz isso, para ninguém ler como dado estadual.
+        valor_por_uf = {}
+        for r in regioes:
+            for sigla in r["ufs"]:
+                valor_por_uf[sigla] = r.get("presencial_por_100k")
+        mapa_regiao = Markup(coropletico(
+            malha_ufs, valor_por_uf,
+            titulo="Vagas presenciais por 100 mil habitantes, por região",
+            descricao=("Mapa do Brasil com cada unidade federativa pintada pelo "
+                       "valor da sua região, não pelo próprio."),
+            unidade=" vagas/100 mil", casas=1, nomes_uf=NOME_UF))
+
+    grafico_densidade = Markup(barras(
+        [{"nome": r["nome"], "valor": r.get("presencial_por_100k")} for r in regioes],
+        titulo="Vagas presenciais por 100 mil habitantes",
+        descricao=("Barras horizontais das cinco regiões por densidade de oferta "
+                   "presencial — a régua de acesso local."),
+        unidade=" / 100 mil", casas=1)) if regioes else ""
+
+    fluxo_regioes = fluxo.get("regioes") or {}
+    grafico_evasao_regiao = ""
+    coorte_inicial = ""
+    if fluxo_regioes:
+        coortes_r = sorted({c for v in fluxo_regioes.values() for c in v})
+        coorte_inicial = coortes_r[0] if coortes_r else ""
+        series_r = []
+        for nome in ORDEM_REGIOES:
+            v = fluxo_regioes.get(nome)
+            if not v:
+                continue
+            valores = [(v.get(c, {}).get("evasao") or {}).get("total") for c in coortes_r]
+            if any(x is not None for x in valores):
+                series_r.append({"nome": nome, "valores": valores})
+        if series_r:
+            grafico_evasao_regiao = Markup(serie_temporal(
+                coortes_r, series_r,
+                titulo="Evasão por região, por coorte",
+                descricao=("Cinco linhas, uma por região, do percentual de "
+                           "ingressantes que evadiram."),
+                casas=1))
+
+    html = env.get_template("regioes.html.j2").render(
+        **ctx_base, depth="", curso_atual=None, regioes=regioes,
+        n_cursos=len(resumo), mapa=mapa_regiao,
+        grafico_densidade=grafico_densidade,
+        grafico_evasao=grafico_evasao_regiao,
+        coorte_inicial=coorte_inicial,
+        leituras=insights.das_regioes(regioes, fluxo_regioes))
+    (DIST / "regioes.html").write_text(html, encoding="utf-8")
+    print(f"[OK] regioes.html — {len(regioes)} regiões")
+
     # ── Comparação entre estados e entre instituições ────────────────────────
     # Um script genérico serve os dois: a necessidade é a mesma (escolher itens,
     # escolher campos, ver tabela e barras), e duas cópias divergiriam.

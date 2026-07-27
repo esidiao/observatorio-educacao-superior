@@ -515,3 +515,33 @@ A descoberta da URL real veio da API do dados.gov.br; os dados em si estão num
 OData público do MEC, que não exige chave. Ou seja: a chave foi útil para achar e
 verificar, não para baixar.
 
+
+## Regiões, e o artefato que a página desfez
+
+`regioes.html` soma os 353 cursos pelas cinco regiões — a moldura de quase toda
+discussão sobre acesso ao ensino superior, e que até então só dava para montar de
+cabeça a partir das 27 UFs. Traz também a evasão por região, do arquivo regional
+do INEP.
+
+Ao construí-la apareceu um artefato sério, que vale registrar porque afeta
+qualquer leitura territorial deste observatório. Medida pela **capacidade total**,
+a densidade de oferta ia de 16.069 vagas por 100 mil habitantes no Sul a 5.941 no
+Nordeste — 2,7 vezes de diferença. Medida pela **oferta presencial**, vai de 2.655
+no Centro-Oeste a 2.021 no Sul: **1,3 vez**.
+
+A diferença inteira era a EaD contada na sede da mantenedora. O Sul não forma
+proporcionalmente mais gente; ele abriga empresas de ensino a distância cujos
+estudantes estão espalhados pelo país. A página passou a usar a densidade
+presencial no mapa, no gráfico e na leitura automática, e mantém a coluna total na
+tabela para quem quiser ver as duas.
+
+Isso reforça uma regra que já valia no projeto e agora tem um caso concreto:
+**vaga EaD é dado de empresa, não de território.** Onde a pergunta é sobre acesso
+local, a régua tem de ser presencial.
+
+Duas correções de redação nas leituras automáticas que a página também expôs: um
+`.replace(".", ",")` aplicado à frase inteira transformava os separadores de
+milhar em vírgula ("16,069" em vez de "16.069"), e uma comparação de convergência
+sem limiar anunciava "caiu de 2,7 para 2,7 pontos" por diferença de arredondamento.
+A frase de convergência agora exige meio ponto de diferença para existir — e, com
+o dado real, ela corretamente não aparece.

@@ -81,8 +81,15 @@ def numero(valor):
         return None
 
 
-def ler_aba(caminho, aba):
-    """Uma aba → {sigla_uf: {coorte: {total, recortes...}}}."""
+def ler_aba(caminho, aba, chaves=None):
+    """Uma aba → {chave: {coorte: {total, recortes...}}}.
+
+    `chaves` mapeia o nome da linha para o identificador de saída. Para o arquivo
+    de UF são os nomes dos estados; para o de região, os nomes das regiões. O
+    layout é o mesmo nos dois — mesma célula mesclada de ano, mesma coluna de
+    total —, então parametrizar evita uma segunda cópia que divergiria.
+    """
+    chaves = chaves or SIGLA_POR_NOME
     df = pd.read_excel(caminho, sheet_name=aba, header=None, skiprows=LINHA_DADOS)
     saida, orfas = {}, set()
     coorte_atual = None
@@ -97,7 +104,7 @@ def ler_aba(caminho, aba):
         if not coorte_atual or nome_uf is None or str(nome_uf).strip().lower() == "nan":
             continue
 
-        sigla = SIGLA_POR_NOME.get(norm(nome_uf))
+        sigla = chaves.get(norm(nome_uf))
         if not sigla:
             orfas.add(str(nome_uf).strip())
             continue
@@ -137,6 +144,8 @@ def main():
                         help="ZIP ou XLSX dos indicadores de fluxo por UF")
     parser.add_argument("--nacional",
                         help="ZIP ou XLSX dos indicadores de fluxo do Brasil")
+    parser.add_argument("--regiao",
+                        help="ZIP ou XLSX dos indicadores de fluxo por região")
     parser.add_argument("--saida", default=str(DATA / "fluxo.json"))
     args = parser.parse_args()
 
@@ -196,6 +205,28 @@ def main():
                     nacional.setdefault(coorte, {})[chave] = total
         print(f"[OK] Brasil: {len(nacional)} coortes")
 
+    regioes = {}
+    if args.regiao:
+        caminho_reg = Path(args.regiao)
+        if caminho_reg.suffix.lower() == ".zip":
+            with zipfile.ZipFile(caminho_reg) as z:
+                nome = next((n for n in z.namelist() if n.lower().endswith(".xlsx")), None)
+                destino = caminho_reg.parent / Path(nome).name
+                with z.open(nome) as origem, open(destino, "wb") as saida_arq:
+                    saida_arq.write(origem.read())
+                caminho_reg = destino
+        nomes_regiao = {norm(r): r for r in
+                        ("Norte", "Nordeste", "Centro-Oeste", "Sudeste", "Sul")}
+        disponiveis_reg = pd.ExcelFile(caminho_reg).sheet_names
+        for aba, chave in ABAS.items():
+            if aba not in disponiveis_reg:
+                continue
+            dados, _ = ler_aba(caminho_reg, aba, nomes_regiao)
+            for regiao, por_coorte in dados.items():
+                for coorte, registro in por_coorte.items():
+                    regioes.setdefault(regiao, {}).setdefault(coorte, {})[chave] = registro
+        print(f"[OK] Regiões: {len(regioes)}")
+
     with open(args.saida, "w", encoding="utf-8") as f:
         json.dump({
             "_nota": ("Taxas de coorte do INEP, por UNIDADE FEDERATIVA. Não existem "
@@ -210,6 +241,7 @@ def main():
             },
             "coortes": sorted(coortes),
             "brasil": dict(sorted(nacional.items())),
+            "regioes": regioes,
             "ufs": indicadores,
         }, f, ensure_ascii=False, indent=1)
 

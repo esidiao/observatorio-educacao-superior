@@ -1,0 +1,128 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Regiões — Observatório Nacional da Educação Superior{% endblock %}
+{% block meta_description %}A educação superior brasileira pelas cinco regiões: capacidade, alcance territorial, densidade por habitante e trajetória dos estudantes.{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<span class="active">Regiões</span>
+{% endblock %}
+
+{% block content %}
+
+<h1 class="section-title" style="margin-bottom:6px">A educação superior pelas cinco regiões</h1>
+<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:8px">
+  A desigualdade regional é a moldura de quase toda discussão sobre acesso ao ensino
+  superior no Brasil. Esta página soma os {{ n_cursos }} cursos do catálogo por
+  região, para que a comparação seja possível sem precisar montá-la de cabeça a
+  partir das 27 unidades federativas.
+</p>
+<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:22px">
+  <strong>Uma ressalva que muda a leitura:</strong> as vagas a distância são
+  registradas na sede da mantenedora. Regiões que concentram mantenedoras de EaD
+  aparecem grandes em capacidade mesmo quando os estudantes estão em outras. Onde
+  isso importa, olhe a coluna presencial e o número de municípios atendidos.
+</p>
+
+{% if leituras %}
+<section class="leituras" aria-labelledby="tit-leituras">
+  <h2 class="section-title" id="tit-leituras">Leitura dos números</h2>
+  <p class="leituras-aviso">
+    Frases calculadas por regra a partir dos dados desta página — variação,
+    participação e posição, nunca causa.
+  </p>
+  <ul class="leituras-lista">
+    {% for l in leituras %}<li class="leitura {{ l.tipo }}">{{ l.texto }}</li>{% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if mapa %}
+<h2 class="section-title">Vagas presenciais por 100 mil habitantes</h2>
+<div class="figura">
+  {{ mapa }}
+  <p class="figura-nota">
+    Cada unidade federativa é pintada com o valor da <strong>sua região</strong>, não
+    com o próprio — o mapa mostra o bloco regional, não o estado. Para o dado
+    estadual, veja <a href="{{ depth }}estados.html">Estados</a>.
+    A régua é a oferta <strong>presencial</strong>: incluir a EaD colocaria o Sul no
+    topo por abrigar mantenedoras de ensino a distância, não por formar mais gente
+    ali. Medida assim, a diferença entre a região mais e a menos servida é de 1,3
+    vez; pela capacidade total pareceria 2,7 vezes.
+  </p>
+</div>
+{% endif %}
+
+<h2 class="section-title">Comparativo regional</h2>
+<div class="tabela-wrap">
+  <table>
+    <caption class="sr-only">Indicadores agregados das cinco regiões.</caption>
+    <thead>
+      <tr>
+        <th scope="col">Região</th><th scope="col">Vagas</th>
+        <th scope="col">Presenciais</th><th scope="col">EaD</th>
+        <th scope="col">Matrículas</th><th scope="col">IES</th>
+        <th scope="col">Municípios atendidos</th><th scope="col">Cobertura</th>
+        <th scope="col">Vagas / 100 mil hab.</th><th scope="col">Presenciais / 100 mil hab.</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for r in regioes %}
+      <tr>
+        <th scope="row" style="font-weight:600">{{ r.nome }}</th>
+        <td>{{ milhar(r.vagas_total) }}</td>
+        <td>{{ milhar(r.vagas_presencial) }}</td>
+        <td>{{ milhar(r.vagas_ead) }}</td>
+        <td>{{ milhar(r.matriculas) }}</td>
+        <td>{{ milhar(r.n_ies) }}</td>
+        <td>{{ milhar(r.municipios_oferta) }} de {{ milhar(r.municipios_total) }}</td>
+        <td>{{ fmt1(r.pct_cobertura) }}%</td>
+        <td>{{ fmt1(r.vagas_por_100k) }}</td>
+        <td><strong>{{ fmt1(r.presencial_por_100k) }}</strong></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<p class="figura-nota">
+  "Cobertura" é a fração dos municípios da região com ao menos um curso presencial
+  do catálogo. Índices por curso — ICT, IAF, HHI — não aparecem: são definidos curso
+  a curso, e a média deles entre cursos diferentes não significa nada.
+</p>
+
+{% if grafico_densidade %}
+<h2 class="section-title">Densidade de oferta</h2>
+<div class="figura">{{ grafico_densidade }}</div>
+{% endif %}
+
+{% if grafico_evasao %}
+<h2 class="section-title">Evasão por região</h2>
+<div class="figura">
+  {{ grafico_evasao }}
+  <p class="figura-nota">
+    Coortes de ingressantes acompanhadas pelo INEP. As cinco regiões subiram juntas
+    desde {{ coorte_inicial }}, e a distância entre a de maior e a de menor evasão
+    permaneceu praticamente a mesma — o problema piorou em bloco, sem que nenhuma
+    região se descolasse das outras.
+  </p>
+</div>
+{% endif %}
+
+<h2 class="section-title">Estados de cada região</h2>
+<div class="areas-grid">
+  {% for r in regioes %}
+  <div class="curso-card" style="cursor:default">
+    <h3 style="font-family:var(--font-serif);font-size:1.1rem;color:var(--navy);margin:0 0 8px">{{ r.nome }}</h3>
+    <p style="font-size:0.8rem;color:var(--text-muted);margin:0 0 10px">
+      {{ r.ufs|length }} unidades federativas
+    </p>
+    <div style="display:flex;flex-wrap:wrap;gap:5px">
+      {% for uf in r.ufs %}
+      <a class="uf-nav-item" href="{{ depth }}uf/{{ uf }}.html">{{ uf }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}

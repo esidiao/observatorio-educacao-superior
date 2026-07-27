@@ -211,6 +211,77 @@ def do_brasil(painel, serie_brasil, fluxo_brasil):
     return frases
 
 
+def das_regioes(regioes, fluxo_regioes):
+    """Leituras da página regional — onde a desigualdade territorial aparece."""
+    frases = []
+    if not regioes:
+        return frases
+
+    # Densidade medida sobre a oferta PRESENCIAL. A capacidade total inclui vagas
+    # EaD registradas na sede da mantenedora — o Sul aparece com 16 mil vagas por
+    # 100 mil habitantes não porque forme mais gente, mas porque abriga
+    # mantenedoras de ensino a distância. Para falar de acesso local, presencial é
+    # a única régua honesta.
+    com_densidade = [r for r in regioes if r.get("presencial_por_100k")]
+    if len(com_densidade) >= 2:
+        maior = max(com_densidade, key=lambda r: r["presencial_por_100k"])
+        menor = min(com_densidade, key=lambda r: r["presencial_por_100k"])
+        razao = maior["presencial_por_100k"] / menor["presencial_por_100k"]
+        frases.append(_frase(
+            f"Em oferta presencial, {maior['nome']} tem "
+            f"{_milhar(maior['presencial_por_100k'])} vagas por 100 mil habitantes "
+            f"contra {_milhar(menor['presencial_por_100k'])} do {menor['nome']} — "
+            f"{_pct(razao, 1).rstrip('%')} vezes mais. A capacidade total distorce "
+            f"essa comparação, porque a vaga EaD é contada na sede da mantenedora.",
+            "atencao" if razao >= 1.5 else "neutro"))
+
+    com_cobertura = [r for r in regioes if r.get("pct_cobertura") is not None]
+    if len(com_cobertura) >= 2:
+        maior = max(com_cobertura, key=lambda r: r["pct_cobertura"])
+        menor = min(com_cobertura, key=lambda r: r["pct_cobertura"])
+        frases.append(_frase(
+            f"A oferta presencial alcança {_pct(maior['pct_cobertura'])} dos municípios "
+            f"do {maior['nome']} e {_pct(menor['pct_cobertura'])} dos do {menor['nome']}.",
+            "atencao"))
+
+    total = sum(r["vagas_total"] for r in regioes)
+    if total:
+        maior = max(regioes, key=lambda r: r["vagas_total"])
+        frases.append(_frase(
+            f"{maior['nome']} concentra {_pct(100 * maior['vagas_total'] / total)} de "
+            f"toda a capacidade do país. Boa parte é vaga a distância registrada na "
+            f"sede da mantenedora, que fica onde a empresa é, não onde o estudante está."))
+
+    if fluxo_regioes:
+        ultimos = {}
+        primeiros = {}
+        for nome, v in fluxo_regioes.items():
+            cs = sorted(c for c in v if (v[c].get("evasao") or {}).get("total") is not None)
+            if cs:
+                primeiros[nome] = v[cs[0]]["evasao"]["total"]
+                ultimos[nome] = v[cs[-1]]["evasao"]["total"]
+        if len(ultimos) >= 2:
+            pior = max(ultimos, key=ultimos.get)
+            melhor = min(ultimos, key=ultimos.get)
+            frases.append(_frase(
+                f"Na última coorte, a evasão vai de {_pct(ultimos[melhor])} no "
+                f"{melhor} a {_pct(ultimos[pior])} no {pior}.", "atencao"))
+            # Convergência: a distância entre extremos encolheu, mas para pior.
+            antes = max(primeiros.values()) - min(primeiros.values())
+            agora = max(ultimos.values()) - min(ultimos.values())
+            # Meio ponto de diferença: abaixo disso a "convergência" é ruído de
+            # arredondamento, e a frase sairia dizendo "caiu de 2,7 para 2,7".
+            if abs(antes - agora) >= 0.5:
+                verbo = "encolheu" if antes > agora else "aumentou"
+                fecho = (" — as regiões convergiram, mas todas pioraram."
+                         if antes > agora else " — a desigualdade regional cresceu.")
+                frases.append(_frase(
+                    f"A distância entre a região de maior e a de menor evasão {verbo} "
+                    f"de {_pct(antes).rstrip('%')} para {_pct(agora).rstrip('%')} "
+                    f"pontos" + fecho))
+    return frases
+
+
 def da_uf(nome_uf, resumo, serie_uf=None):
     """Leituras do painel de uma unidade federativa."""
     frases = []
