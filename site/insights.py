@@ -211,6 +211,69 @@ def do_brasil(painel, serie_brasil, fluxo_brasil):
     return frases
 
 
+def das_redes(comparativo, serie_brasil, anos, categorias):
+    """Leituras da página de redes."""
+    frases = []
+    por_rotulo = {l["rotulo"]: l for l in comparativo}
+
+    mat = por_rotulo.get("Matrículas")
+    ies = por_rotulo.get("Instituições")
+    if mat and mat.get("pct") is not None and ies and ies.get("pct") is not None:
+        frases.append(_frase(
+            f"A rede pública é {_pct(ies['pct'])} das instituições e responde por "
+            f"{_pct(mat['pct'])} das matrículas nos cursos acompanhados.",
+            "atencao"))
+
+    ead = por_rotulo.get("Vagas a distância")
+    pres = por_rotulo.get("Vagas presenciais")
+    if ead and pres and ead.get("pct") is not None and pres.get("pct") is not None:
+        frases.append(_frase(
+            f"Na oferta presencial a participação pública é {_pct(pres['pct'])}; "
+            f"na oferta a distância, {_pct(ead['pct'])}. A expansão da EaD é um "
+            f"fenômeno da rede privada."))
+
+    if len(anos) >= 2:
+        a, b = serie_brasil[anos[0]], serie_brasil[anos[-1]]
+        pub_a, pub_b = a.get("vagas_publicas") or 0, b.get("vagas_publicas") or 0
+        priv_a = (a.get("vagas_total") or 0) - pub_a
+        priv_b = (b.get("vagas_total") or 0) - pub_b
+        var_pub = _variacao(pub_a, pub_b)
+        var_priv = _variacao(priv_a, priv_b)
+        if var_pub is not None and var_priv is not None:
+            frases.append(_frase(
+                f"Entre {anos[0]} e {anos[-1]}, a capacidade da rede pública "
+                f"{'cresceu' if var_pub > 0 else 'recuou'} {_pct(abs(var_pub))} e a da "
+                f"privada {'cresceu' if var_priv > 0 else 'recuou'} {_pct(abs(var_priv))}.",
+                "atencao" if abs(var_priv - var_pub) > 20 else "neutro"))
+        if a.get("vagas_total") and b.get("vagas_total"):
+            antes = 100 * pub_a / a["vagas_total"]
+            agora = 100 * pub_b / b["vagas_total"]
+            if abs(antes - agora) >= 0.5:
+                pontos = f"{abs(antes - agora):.1f}".replace(".", ",")
+                frases.append(_frase(
+                    f"A fatia pública da capacidade passou de {_pct(antes)} para "
+                    f"{_pct(agora)} — {'perda' if agora < antes else 'ganho'} de "
+                    f"{pontos} pontos percentuais."))
+
+    dout = por_rotulo.get("% Doutores (média entre IES)")
+    if dout and dout.get("publica") is not None and dout.get("privada") is not None:
+        frases.append(_frase(
+            f"Na média entre instituições, {_pct(dout['publica'])} do corpo docente "
+            f"da rede pública tem doutorado, contra {_pct(dout['privada'])} da "
+            f"privada. Média simples, não ponderada por tamanho."))
+
+    pos = por_rotulo.get("Instituições com pós stricto sensu")
+    if pos and pos.get("publica") is not None and ies:
+        if ies.get("publica"):
+            taxa_pub = 100 * pos["publica"] / ies["publica"]
+            taxa_priv = (100 * pos["privada"] / ies["privada"]) if ies.get("privada") else None
+            if taxa_priv is not None:
+                frases.append(_frase(
+                    f"{_pct(taxa_pub)} das instituições públicas mantêm pós-graduação "
+                    f"stricto sensu, contra {_pct(taxa_priv)} das privadas."))
+    return frases
+
+
 def das_regioes(regioes, fluxo_regioes):
     """Leituras da página regional — onde a desigualdade territorial aparece."""
     frases = []

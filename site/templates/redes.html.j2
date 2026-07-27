@@ -1,0 +1,161 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Rede pública e privada — Observatório Nacional da Educação Superior{% endblock %}
+{% block meta_description %}Como se dividem capacidade, matrículas, corpo docente e pós-graduação entre a rede pública e a privada na educação superior brasileira.{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<span class="active">Redes</span>
+{% endblock %}
+
+{% block content %}
+
+<h1 class="section-title" style="margin-bottom:6px">Rede pública e rede privada</h1>
+<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:8px">
+  Depois do território, é a segunda moldura de qualquer discussão sobre educação
+  superior no Brasil. Até aqui o recorte existia como filtro; nesta página ele vira
+  comparação, com a série de {{ anos_br|first }} a {{ anos_br|last }} para mostrar se
+  a proporção mudou.
+</p>
+<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:22px">
+  <strong>Onde as 28 instituições de categoria "Especial" entram:</strong> o Censo as
+  classifica fora dos três códigos de rede pública (federal, estadual, municipal), e
+  por isso elas caem no lado privado nos totais desta página. A tabela por categoria
+  mostra a linha delas separada, para ninguém precisar adivinhar.
+</p>
+
+{% if leituras %}
+<section class="leituras" aria-labelledby="tit-leituras">
+  <h2 class="section-title" id="tit-leituras">Leitura dos números</h2>
+  <p class="leituras-aviso">
+    Frases calculadas por regra a partir dos dados desta página — variação,
+    participação e posição, nunca causa.
+  </p>
+  <ul class="leituras-lista">
+    {% for l in leituras %}<li class="leitura {{ l.tipo }}">{{ l.texto }}</li>{% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if grafico_serie %}
+<h2 class="section-title">Evolução da capacidade por rede</h2>
+<div class="figura">
+  {{ grafico_serie }}
+  <p class="figura-nota">
+    Vagas somadas de todos os cursos do catálogo, por edição do Censo. O eixo começa
+    em zero. "Pública" reúne federal, estadual e municipal.
+  </p>
+  <p class="figura-nota">
+    <strong>A série e a tabela abaixo divergem em algumas décimas</strong>, e a
+    diferença é real, não erro: a série soma as vagas curso a curso a partir do
+    Censo de cada ano, enquanto a tabela soma a partir do cadastro de instituições.
+    Uma instituição sem vaga declarada em nenhum curso do catálogo entra numa
+    contagem e não na outra. Preferimos mostrar as duas a escolher uma e esconder
+    a discrepância.
+  </p>
+</div>
+{% endif %}
+
+<h2 class="section-title">Retrato atual</h2>
+<div class="tabela-wrap">
+  <table>
+    <caption class="sr-only">Comparativo entre rede pública e privada.</caption>
+    <thead>
+      <tr>
+        <th scope="col">Indicador</th><th scope="col">Pública</th>
+        <th scope="col">Privada</th><th scope="col">Participação pública</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for l in comparativo %}
+      <tr>
+        <th scope="row" style="font-weight:600">{{ l.rotulo }}</th>
+        <td>{% if l.publica is not none %}{{ l.fmt_publica }}{% else %}<span class="sem-dado">sem dados</span>{% endif %}</td>
+        <td>{% if l.privada is not none %}{{ l.fmt_privada }}{% else %}<span class="sem-dado">sem dados</span>{% endif %}</td>
+        <td>{% if l.pct is not none %}{{ fmt1(l.pct) }}%{% else %}—{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<p class="figura-nota">
+  Corpo docente, IGC e pós-graduação são da <strong>instituição inteira</strong>, não
+  dos cursos acompanhados. Percentuais de titulação são médias simples entre as
+  instituições de cada rede — não ponderadas por tamanho, para que uma única
+  universidade gigante não defina o número da rede toda.
+</p>
+
+<h2 class="section-title">Por categoria administrativa</h2>
+<div class="tabela-wrap">
+  <table>
+    <caption class="sr-only">Instituições, matrículas e vagas por categoria administrativa.</caption>
+    <thead>
+      <tr>
+        <th scope="col">Categoria</th><th scope="col">Instituições</th>
+        <th scope="col">Matrículas</th><th scope="col">Vagas</th>
+        <th scope="col">% Doutores (média)</th><th scope="col">Com pós stricto sensu</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for c in categorias %}
+      <tr>
+        <th scope="row" style="font-weight:600">{{ c.nome }}</th>
+        <td>{{ milhar(c.n) }}</td>
+        <td>{{ milhar(c.matriculas) }}</td>
+        <td>{{ milhar(c.vagas) }}</td>
+        <td>{% if c.pct_doutores is not none %}{{ fmt1(c.pct_doutores) }}%{% else %}<span class="sem-dado">sem dados</span>{% endif %}</td>
+        <td>{{ milhar(c.com_pos) }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<h2 class="section-title">Por organização acadêmica</h2>
+{% if grafico_organizacao %}
+<div class="figura">
+  {{ grafico_organizacao }}
+  <p class="figura-nota">
+    Matrículas nos cursos acompanhados, por tipo de instituição. Universidade,
+    centro universitário e faculdade têm prerrogativas regulatórias distintas —
+    autonomia para abrir cursos, exigência de pós-graduação e de pesquisa.
+  </p>
+</div>
+{% endif %}
+<div class="tabela-wrap">
+  <table>
+    <caption class="sr-only">Instituições e matrículas por organização acadêmica e rede.</caption>
+    <thead>
+      <tr>
+        <th scope="col">Organização</th><th scope="col">Instituições</th>
+        <th scope="col">Públicas</th><th scope="col">Privadas</th>
+        <th scope="col">Matrículas</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for o in organizacoes %}
+      <tr>
+        <th scope="row" style="font-weight:600">{{ o.nome }}</th>
+        <td>{{ milhar(o.n) }}</td>
+        <td>{{ milhar(o.publicas) }}</td>
+        <td>{{ milhar(o.privadas) }}</td>
+        <td>{{ milhar(o.matriculas) }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<h2 class="section-title">Participação pública por estado</h2>
+{% if mapa %}
+<div class="figura">
+  {{ mapa }}
+  <p class="figura-nota">
+    Percentual da capacidade instalada que pertence à rede pública, por unidade
+    federativa. Escala divergente: azul onde a rede pública pesa mais, vermelho onde
+    a privada domina.
+  </p>
+</div>
+{% endif %}
+
+{% endblock %}

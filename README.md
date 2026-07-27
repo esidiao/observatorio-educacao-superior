@@ -561,3 +561,35 @@ sozinho, longe deste site.
 
 O PNG sai em dobro da resolução de tela, porque gráfico citado costuma ir para
 slide ou relatório. A barra de exportação some na impressão.
+
+## Redes: pública contra privada
+
+`redes.html` transforma em análise o recorte que antes só existia como filtro:
+série de capacidade por rede (2016–2024), retrato atual em onze indicadores,
+quebra por categoria administrativa e por organização acadêmica, e mapa da
+participação pública por UF.
+
+O que os números mostram, e é uma leitura que só a reunião das camadas permite:
+a rede pública é **11,3% das instituições**, responde por **19,7% das matrículas**
+e **3,8% das vagas** — mas detém **49% dos docentes** e **83% dos programas de
+pós-graduação stricto sensu**. A distância entre as duas primeiras e as duas
+últimas é a distância entre ensinar em escala e produzir pesquisa.
+
+A EaD é o que explica boa parte disso: a participação pública é **15,5% na oferta
+presencial e 0,6% na oferta a distância**. Entre 2016 e 2024 a capacidade pública
+cresceu 32,4% e a privada 132,6%; a fatia pública caiu de 7,1% para 4,2%.
+
+Três decisões de método na página:
+
+**Médias de titulação são simples, não ponderadas.** Ponderar por matrículas faria
+uma única universidade gigante definir o número da rede inteira, que é o oposto do
+que a comparação quer mostrar.
+
+**As 28 instituições de categoria "Especial"** ficam do lado privado nos totais,
+porque o Censo as classifica fora dos três códigos de rede pública. A tabela por
+categoria mostra a linha delas separada, para ninguém precisar adivinhar.
+
+**A série e a tabela divergem em algumas décimas**, e a página diz isso em vez de
+esconder: a série soma curso a curso a partir do Censo de cada ano, a tabela soma
+a partir do cadastro de instituições, e uma IES sem vaga declarada em nenhum curso
+do catálogo entra numa contagem e não na outra.

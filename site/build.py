@@ -380,13 +380,13 @@ def main():
             for ano, dados in serie.get("anos", {}).items():
                 alvo = serie_brasil.setdefault(
                     ano, {"vagas_total": 0, "vagas_presencial": 0,
-                          "vagas_ead": 0, "matriculas": 0})
+                          "vagas_ead": 0, "matriculas": 0, "vagas_publicas": 0})
                 for campo in alvo:
                     alvo[campo] += dados["BR"].get(campo) or 0
                 for sigla, d in (dados.get("ufs") or {}).items():
                     alvo_uf = serie_por_uf.setdefault(sigla, {}).setdefault(
                         ano, {"vagas_total": 0, "vagas_presencial": 0,
-                              "vagas_ead": 0, "matriculas": 0})
+                              "vagas_ead": 0, "matriculas": 0, "vagas_publicas": 0})
                     for campo in alvo_uf:
                         alvo_uf[campo] += d.get(campo) or 0
         top_todas_ies = ies_do_curso(instituicoes, c["slug"], limite=None)
@@ -761,6 +761,140 @@ def main():
         ufs=sorted({i["uf_sede"] for i in lista_ies if i.get("uf_sede")}))
     (DIST / "instituicoes.html").write_text(html, encoding="utf-8")
     print("[OK] instituicoes.html")
+
+    # A participação pública por UF é média ponderada por vagas, já calculada
+    # por curso. Aqui se usa a do maior curso de cada UF como referência? Não:
+    # recalcula-se pelo próprio agregado, para não depender de um curso só.
+    ufs_para_rede = {}
+    for sigla, u in acumulado.ufs.items():
+        ultimo = sorted(serie_por_uf.get(sigla, {}))
+        if ultimo:
+            u["vagas_publicas"] = serie_por_uf[sigla][ultimo[-1]].get("vagas_publicas")
+        if u.get('vagas_total'):
+            ufs_para_rede[sigla] = {
+                'pct_rede_publica': round(
+                    100 * (u.get('vagas_publicas') or 0) / u['vagas_total'], 1)
+                if u.get('vagas_publicas') is not None else None}
+
+    # ── Redes: pública contra privada ────────────────────────────────────────
+    def media(valores):
+        """Média simples, ignorando ausentes. Simples de propósito: ponderar por
+        matrículas faria uma única universidade gigante definir o número da rede
+        inteira, que é o oposto do que a comparação quer mostrar."""
+        limpos = [v for v in valores if v is not None]
+        return round(sum(limpos) / len(limpos), 1) if limpos else None
+
+    lista_todas = list(instituicoes.values())
+    publicas = [i for i in lista_todas if i.get("rede") == "Pública"]
+    privadas = [i for i in lista_todas if i.get("rede") == "Privada"]
+
+    def soma(grupo, campo):
+        return sum(i.get(campo) or 0 for i in grupo)
+
+    def linha(rotulo, valor_pub, valor_priv, sufixo="", casas=0):
+        total = (valor_pub or 0) + (valor_priv or 0)
+        def formatar(v):
+            if v is None:
+                return None
+            if casas:
+                return f"{v:.{casas}f}".replace(".", ",") + sufixo
+            return f"{round(v):,}".replace(",", ".") + sufixo
+        return {
+            "rotulo": rotulo, "publica": valor_pub, "privada": valor_priv,
+            "fmt_publica": formatar(valor_pub), "fmt_privada": formatar(valor_priv),
+            "pct": round(100 * valor_pub / total, 1) if total and not casas else None,
+        }
+
+    comparativo = [
+        linha("Instituições", len(publicas), len(privadas)),
+        linha("Matrículas", soma(publicas, "matriculas"), soma(privadas, "matriculas")),
+        linha("Vagas", soma(publicas, "vagas"), soma(privadas, "vagas")),
+        linha("Vagas presenciais", soma(publicas, "vagas_presencial"),
+              soma(privadas, "vagas_presencial")),
+        linha("Vagas a distância", soma(publicas, "vagas_ead"),
+              soma(privadas, "vagas_ead")),
+        linha("Docentes", soma(publicas, "docentes"), soma(privadas, "docentes")),
+        linha("% Doutores (média entre IES)", media([i.get("pct_doutores") for i in publicas]),
+              media([i.get("pct_doutores") for i in privadas]), "%", 1),
+        linha("% Regime integral (média)", media([i.get("pct_regime_integral") for i in publicas]),
+              media([i.get("pct_regime_integral") for i in privadas]), "%", 1),
+        linha("IGC médio", media([i.get("igc_continuo") for i in publicas]),
+              media([i.get("igc_continuo") for i in privadas]), "", 2),
+        linha("Instituições com pós stricto sensu",
+              sum(1 for i in publicas if i.get("pos_programas")),
+              sum(1 for i in privadas if i.get("pos_programas"))),
+        linha("Programas de pós", soma(publicas, "pos_programas"),
+              soma(privadas, "pos_programas")),
+    ]
+
+    por_categoria = {}
+    for i in lista_todas:
+        c = i.get("categoria") or "Não declarada"
+        alvo = por_categoria.setdefault(c, {"nome": c, "n": 0, "matriculas": 0,
+                                            "vagas": 0, "com_pos": 0, "_dout": []})
+        alvo["n"] += 1
+        alvo["matriculas"] += i.get("matriculas") or 0
+        alvo["vagas"] += i.get("vagas") or 0
+        if i.get("pos_programas"):
+            alvo["com_pos"] += 1
+        alvo["_dout"].append(i.get("pct_doutores"))
+    categorias = []
+    for c in sorted(por_categoria.values(), key=lambda x: -x["matriculas"]):
+        c["pct_doutores"] = media(c.pop("_dout"))
+        categorias.append(c)
+
+    por_org = {}
+    for i in lista_todas:
+        o = i.get("organizacao") or "Não declarada"
+        alvo = por_org.setdefault(o, {"nome": o, "n": 0, "publicas": 0,
+                                      "privadas": 0, "matriculas": 0})
+        alvo["n"] += 1
+        alvo["matriculas"] += i.get("matriculas") or 0
+        if i.get("rede") == "Pública":
+            alvo["publicas"] += 1
+        else:
+            alvo["privadas"] += 1
+    organizacoes = sorted(por_org.values(), key=lambda x: -x["matriculas"])
+
+    grafico_serie_rede = ""
+    if len(anos_br) >= 2 and any(serie_brasil[a].get("vagas_publicas") for a in anos_br):
+        grafico_serie_rede = Markup(serie_temporal(
+            anos_br,
+            [{"nome": "Rede pública",
+              "valores": [serie_brasil[a].get("vagas_publicas") for a in anos_br]},
+             {"nome": "Rede privada",
+              "valores": [serie_brasil[a]["vagas_total"]
+                          - (serie_brasil[a].get("vagas_publicas") or 0)
+                          for a in anos_br]}],
+            titulo="Capacidade por rede no Brasil",
+            descricao=("Duas linhas comparando as vagas da rede pública e da rede "
+                       "privada ao longo das edições do Censo.")))
+
+    grafico_org = Markup(barras(
+        [{"nome": o["nome"], "valor": o["matriculas"]} for o in organizacoes],
+        titulo="Matrículas por organização acadêmica",
+        descricao="Barras horizontais por tipo de instituição.",
+        unidade=" matrículas")) if organizacoes else ""
+
+    mapa_rede = ""
+    if malha_ufs:
+        pct_por_uf = {s: (u.get("pct_rede_publica")) for s, u in ufs_para_rede.items()}
+        if any(v is not None for v in pct_por_uf.values()):
+            mapa_rede = Markup(coropletico(
+                malha_ufs, pct_por_uf,
+                titulo="Participação da rede pública na capacidade, por UF",
+                descricao=("Mapa do Brasil colorido pelo percentual da capacidade "
+                           "que pertence à rede pública."),
+                unidade="%", casas=1, divergente=True, nomes_uf=NOME_UF))
+
+    html = env.get_template("redes.html.j2").render(
+        **ctx_base, depth="", curso_atual=None,
+        comparativo=comparativo, categorias=categorias, organizacoes=organizacoes,
+        anos_br=anos_br, grafico_serie=grafico_serie_rede,
+        grafico_organizacao=grafico_org, mapa=mapa_rede,
+        leituras=insights.das_redes(comparativo, serie_brasil, anos_br, categorias))
+    (DIST / "redes.html").write_text(html, encoding="utf-8")
+    print(f"[OK] redes.html — {len(categorias)} categorias, {len(organizacoes)} organizações")
 
     # ── Regiões ──────────────────────────────────────────────────────────────
     # A desigualdade regional é a moldura de quase toda discussão sobre acesso ao
