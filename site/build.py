@@ -33,7 +33,7 @@ from datetime import date
 from pathlib import Path
 from urllib.parse import quote
 
-from jinja2 import Environment, FileSystemLoader, select_autoescape
+from jinja2 import Environment, FileSystemLoader, Undefined, select_autoescape
 from markupsafe import Markup
 
 REPO = Path(__file__).parent.parent
@@ -124,11 +124,45 @@ def carregar_geo():
 
 
 def carregar_instituicoes():
+    """Camada do Censo, enriquecida com o IGC quando este já foi ingerido.
+
+    Os dois vêm de fontes e calendários distintos e por isso moram em arquivos
+    separados — ver etl/igc.py. A fusão acontece aqui, na leitura, para que
+    reingerir o Censo nunca apague dado de avaliação.
+    """
     caminho = DATA / "instituicoes.json"
     if not caminho.exists():
         return {}
     with open(caminho, encoding="utf-8") as f:
-        return json.load(f)["instituicoes"]
+        instituicoes = json.load(f)["instituicoes"]
+
+    # Campos de avaliação existem em TODA instituição, com None quando ausentes.
+    # Sem isso, quem não tem IGC chega ao template como Undefined, e `is not none`
+    # é verdadeiro para Undefined — o painel entraria no ramo "tem avaliação" para
+    # justamente quem não tem.
+    CAMPOS_IGC = ("igc_continuo", "igc_faixa", "cursos_com_cpc",
+                  "conceito_graduacao", "conceito_mestrado", "conceito_doutorado",
+                  "igc_ano")
+
+    caminho_igc = DATA / "igc.json"
+    if not caminho_igc.exists():
+        for ies in instituicoes.values():
+            ies.update({c: None for c in CAMPOS_IGC})
+        return instituicoes
+    with open(caminho_igc, encoding="utf-8") as f:
+        igc = json.load(f)["instituicoes"]
+    casadas = 0
+    for co, ies in instituicoes.items():
+        ies.update({c: None for c in CAMPOS_IGC})
+        dados = igc.get(co)
+        if dados:
+            ies.update({k: v for k, v in dados.items() if k != "ano"})
+            ies["igc_ano"] = dados.get("ano")
+            casadas += 1
+    print(f"[INFO] IGC casado em {casadas} de {len(instituicoes)} instituições "
+          f"({100 * casadas / len(instituicoes):.0f}%) — o resto não teve curso "
+          f"avaliado no triênio.")
+    return instituicoes
 
 
 def carregar_serie(slug):
@@ -206,10 +240,26 @@ def json_seguro(dados):
     return Markup(bruto)
 
 
-def _fmt(valor, casas):
-    if valor is None:
+def _numero(valor):
+    """None para qualquer coisa que não seja número.
+
+    Inclui o Undefined do Jinja: campo ausente num dicionário não é None, é
+    Undefined, e formatá-lo levanta TypeError no meio do build. Tratar aqui, uma
+    vez, evita ter que lembrar disso em cada template.
+    """
+    if valor is None or isinstance(valor, bool) or isinstance(valor, Undefined):
         return None
-    return f"{valor:.{casas}f}".replace(".", ",")
+    try:
+        return float(valor)
+    except (TypeError, ValueError):
+        return None
+
+
+def _fmt(valor, casas):
+    numero = _numero(valor)
+    if numero is None:
+        return None
+    return f"{numero:.{casas}f}".replace(".", ",")
 
 
 def main():
@@ -236,8 +286,10 @@ def main():
     env.globals.update(
         fmt1=lambda v: _fmt(v, 1), fmt2=lambda v: _fmt(v, 2),
         fmt3=lambda v: _fmt(v, 3), fmt4=lambda v: _fmt(v, 4),
-        milhar=lambda v: None if v is None else f"{v:,}".replace(",", "."),
-        pct=lambda v: None if v is None else f"{v * 100:.1f}".replace(".", ",") + "%",
+        milhar=lambda v: (None if _numero(v) is None
+                          else f"{round(_numero(v)):,}".replace(",", ".")),
+        pct=lambda v: (None if _numero(v) is None
+                       else f"{_numero(v) * 100:.1f}".replace(".", ",") + "%"),
     )
 
     with open(DATA / "cursos.json", encoding="utf-8") as f:

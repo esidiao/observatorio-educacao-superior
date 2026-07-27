@@ -36,6 +36,38 @@
 </section>
 {% endif %}
 
+{% if ies.igc_continuo is not none or ies.igc_faixa is not none %}
+<h2 class="section-title">Avaliação institucional</h2>
+<div class="kpi-grid">
+  {% macro kpi_aval(valor, rotulo, fonte) %}
+  <div class="kpi-card{% if valor is none %} nodata{% endif %}">
+    <div class="kpi-valor">{% if valor is not none %}{{ valor }}{% else %}<span class="sem-dado"><span aria-hidden="true">—</span><span class="sr-only">sem dados</span></span>{% endif %}</div>
+    <div class="kpi-label">{{ rotulo }}</div>
+    <div class="kpi-fonte">{{ fonte }}</div>
+  </div>
+  {% endmacro %}
+  {{ kpi_aval(fmt2(ies.igc_continuo), 'IGC (contínuo)', 'INEP ' ~ (ies.igc_ano or '')) }}
+  {{ kpi_aval(ies.igc_faixa, 'IGC (faixa 1–5)', 'INEP ' ~ (ies.igc_ano or '')) }}
+  {{ kpi_aval(ies.cursos_com_cpc, 'Cursos com CPC no triênio', 'base do IGC') }}
+  {{ kpi_aval(fmt2(ies.conceito_graduacao), 'Conceito médio da graduação', 'INEP') }}
+  {{ kpi_aval(fmt2(ies.conceito_mestrado), 'Conceito médio do mestrado', 'CAPES, via INEP') }}
+  {{ kpi_aval(fmt2(ies.conceito_doutorado), 'Conceito médio do doutorado', 'CAPES, via INEP') }}
+</div>
+<p class="figura-nota">
+  O IGC resume os CPC dos cursos avaliados no triênio, ponderados por matrículas, e
+  combina com os conceitos da pós-graduação. É da <strong>instituição inteira</strong>:
+  uma nota alta não garante que um curso específico seja bom, nem o contrário.
+</p>
+{% else %}
+<h2 class="section-title">Avaliação institucional</h2>
+<p class="figura-nota" style="margin-left:0">
+  <strong>Esta instituição não tem IGC publicado.</strong> O índice só existe para
+  quem teve cursos avaliados no triênio do ENADE — instituição nova, ou cujas áreas
+  não entraram no rodízio, fica sem. Isso é <strong>ausência de avaliação, não
+  avaliação ruim</strong>, e por isso nenhum valor é estimado aqui.
+</p>
+{% endif %}
+
 <h2 class="section-title">Corpo docente</h2>
 <div class="kpi-grid">
   {% macro kpi(valor, rotulo, fonte) %}
@@ -59,10 +91,11 @@
   não a relação de nenhuma turma.
 </p>
 <p class="figura-nota">
-  IGC, Conceito Institucional, situação de recredenciamento e data da última avaliação
-  <strong>não constam</strong>: vêm do e-MEC e dos Indicadores de Qualidade do INEP,
-  bases que este observatório ainda não ingeriu. Preferimos a ausência declarada a um
-  campo vazio que se leia como falha de coleta.
+  O <strong>Conceito Institucional (CI)</strong>, a situação de credenciamento e a data
+  da última avaliação continuam ausentes: vêm de avaliação in loco registrada no e-MEC,
+  que não tem base aberta com download estável. O IGC acima <strong>não substitui o
+  CI</strong> — um é índice calculado sobre CPC e pós-graduação, o outro é nota de
+  comissão que visitou a instituição. Preferimos a ausência declarada à aproximação.
 </p>
 
 {% if grafico %}

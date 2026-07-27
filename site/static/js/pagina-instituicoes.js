@@ -10,13 +10,15 @@
     var rede = document.getElementById('filtro-rede').value;
     var org = document.getElementById('filtro-org').value;
     var uf = document.getElementById('filtro-uf-ies').value;
+    var igc = document.getElementById('filtro-igc').value;
     var visiveis = 0;
 
     document.querySelectorAll('#tabela-ies tbody tr').forEach(function (tr) {
       var bate = (!termo || sem(tr.dataset.nome).indexOf(termo) >= 0)
         && (!rede || tr.dataset.rede === rede)
         && (!org || tr.dataset.org === org)
-        && (!uf || tr.dataset.uf === uf);
+        && (!uf || tr.dataset.uf === uf)
+        && (!igc || tr.dataset.igc === igc);
       tr.hidden = !bate;
       if (bate) visiveis++;
     });
@@ -28,7 +30,8 @@
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    var campos = ['filtro-ies', 'filtro-rede', 'filtro-org', 'filtro-uf-ies']
+    var campos = ['filtro-ies', 'filtro-rede', 'filtro-org', 'filtro-uf-ies',
+                  'filtro-igc']
       .map(function (id) { return document.getElementById(id); });
     if (campos.some(function (c) { return !c; })) return;
     campos[0].addEventListener('input', filtrar);

@@ -219,6 +219,20 @@ def da_instituicao(ies):
         f"{ies.get('categoria', '').lower() or ''}".strip() +
         f", sediada em {ies.get('municipio_sede')} ({ies.get('uf_sede')})."))
 
+    if ies.get("igc_continuo") is not None:
+        faixa = ies.get("igc_faixa")
+        frase = f"IGC contínuo de {ies['igc_continuo']:.2f}".replace(".", ",")
+        if faixa:
+            frase += f", faixa {faixa} de 5"
+        if ies.get("cursos_com_cpc"):
+            frase += f", calculado sobre {ies['cursos_com_cpc']} curso(s) com CPC no triênio"
+        frases.append(_frase(frase + ". É índice da instituição inteira, não de um curso."))
+    else:
+        frases.append(_frase(
+            "Sem IGC publicado: nenhum curso desta instituição foi avaliado no "
+            "triênio do ENADE. É ausência de avaliação, não avaliação ruim.",
+            "sem-dado"))
+
     if ies.get("pct_doutores") is not None:
         frases.append(_frase(
             f"{_pct(ies['pct_doutores'])} do corpo docente tem doutorado e "

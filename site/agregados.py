@@ -153,6 +153,14 @@ def rankings(instituicoes, ufs, municipios, catalogo_por_slug, limite=20):
          "campo": "pct_doutores",
          "itens": top(ies, "pct_doutores", com_docentes()), "tipo": "ies",
          "unidade": "% doutores", "casas": 1},
+        {"id": "ies-igc", "titulo": "Instituições por IGC contínuo",
+         "nota": ("Índice Geral de Cursos do INEP, da instituição inteira. Só "
+                  "aparecem as que tiveram cursos avaliados no triênio — ficar de "
+                  "fora é ausência de avaliação, não avaliação ruim."),
+         "campo": "igc_continuo",
+         "itens": top(ies, "igc_continuo",
+                      lambda i: i.get("igc_continuo") is not None),
+         "tipo": "ies", "unidade": "IGC", "casas": 2},
         {"id": "ies-territorio", "titulo": "Instituições por alcance territorial",
          "nota": "Número de municípios com oferta presencial.",
          "campo": "municipios", "itens": top(ies, "municipios"), "tipo": "ies",

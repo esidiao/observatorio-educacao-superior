@@ -40,6 +40,9 @@ const INDICADOR_META = {
   n_cursos_avaliados:   { label: 'Cursos avaliados',    dec: 0, min: null, max: null, maiorMelhor: null },
   concluintes_avaliados:{ label: 'Concluintes avaliados', dec: 0, min: null, max: null, maiorMelhor: null },
 
+  igc_continuo:         { label: 'IGC',                 dec: 2, min: 0, max: 5,   maiorMelhor: true  },
+  igc_faixa:            { label: 'IGC (faixa)',         dec: 0, min: 1, max: 5,   maiorMelhor: true  },
+
   // Capacidade
   vagas_total:          { label: 'Vagas totais',        dec: 0, min: null, max: null, maiorMelhor: null },
   vagas_presencial:     { label: 'Vagas presenciais',   dec: 0, min: null, max: null, maiorMelhor: null },

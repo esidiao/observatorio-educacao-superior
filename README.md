@@ -27,6 +27,7 @@ etl/                 Pipeline (Python)
   serie.py           Acumula uma edição do Censo na série histórica por curso
   baixar_censo.py    Baixa edições do INEP e alimenta a série (um ano por vez)
   instituicoes.py    Camada institucional (IES, organização, corpo docente)
+  igc.py             Índice Geral de Cursos do INEP, por instituição
   malha.py           Baixa e versiona a malha do IBGE (UFs e centroides)
   ingestao.py        Microdados do Censo → agregados por curso/UF/município
   qualidade.py       Planilha CPC/ENADE → conceitos por curso/UF
@@ -35,6 +36,7 @@ data/
   cursos.json        Catálogo gerado (rótulo CINE, área, ciclo ENADE, cobertura)
   cursos/<slug>/     Por curso: bruto, qualidade, cobertura, nacional, serie
   instituicoes.json  2.561 IES com oferta no catálogo
+  igc.json           IGC por instituição (fonte e calendário distintos do Censo)
   geo/               Malha do IBGE: fronteiras de UF e centroides municipais
 site/
   build.py           Gerador estático (Jinja2)
@@ -317,3 +319,37 @@ atravessando o buraco desenharia uma tendência que ninguém mediu.
 sede sem UF carrega as vagas, polo com UF tem zero. Sem essa checagem, um ano cujo
 arquivo tivesse outra estrutura apareceria com EaD zerada e produziria um
 crescimento inteiramente falso.
+
+## IGC: o que ele é e o que ele não é
+
+`etl/igc.py` ingere o Índice Geral de Cursos do INEP, indexado pelo código da IES
+— a mesma chave do Censo, então o casamento é exato, sem heurística sobre nome.
+Cobre **1.913 das 2.561 instituições (75%)**.
+
+```bash
+python etl/igc.py --igc caminho/IGC_2023.xlsx
+```
+
+Fica em arquivo separado de propósito: o IGC vem de outra fonte, com outro
+calendário e outro ciclo (é trienal, sobre os CPC dos três últimos anos).
+Misturá-lo ao `instituicoes.json` faria uma reingestão do Censo apagar dado de
+avaliação. O build funde os dois na leitura.
+
+**IGC não é Conceito Institucional.** Um é índice calculado sobre CPC e
+pós-graduação; o outro é nota de comissão que visitou a instituição. CI, situação
+de credenciamento e data da última avaliação continuam ausentes — estão no e-MEC,
+que não tem base aberta com download estável — e as páginas dizem isso em vez de
+aproximar um pelo outro.
+
+**Ausência de IGC é ausência de avaliação, não avaliação ruim.** Instituição nova,
+ou cujas áreas não entraram no rodízio do ENADE, fica sem. O caso mais eloquente é
+a USP, que não tem IGC na planilha de 2023: o painel dela diz exatamente isso, em
+vez de exibir um vazio que se leia como nota baixa. Pelo mesmo motivo, o ranking
+por IGC declara na chamada que só lista quem foi avaliado.
+
+Duas armadilhas técnicas que isso expôs e que ficaram tratadas: campos de
+avaliação existem em **toda** instituição com `None` quando ausentes — sem isso o
+template recebe `Undefined`, e `Undefined is not none` é verdadeiro no Jinja, o
+que mandaria justamente quem não tem IGC para o ramo "tem avaliação". E os
+formatadores passaram a converter qualquer coisa não numérica em "sem dados", em
+vez de estourar no meio do build.
