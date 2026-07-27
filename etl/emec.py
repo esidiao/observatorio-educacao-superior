@@ -1,33 +1,41 @@
 """
-e-MEC: Conceito Institucional, credenciamento e cadastro de IES.
+e-MEC: situação cadastral e regulatória das instituições.
 
-Precisa de chave da API do Portal Brasileiro de Dados Abertos. A chave é pessoal,
-vinculada a um cadastro — obtenha em https://dados.gov.br, área "Minha Conta".
+Precisa de chave da API do Portal Brasileiro de Dados Abertos, que é pessoal e se
+obtém em https://dados.gov.br, área "Minha Conta".
 
-    # Windows PowerShell
-    $env:DADOS_GOV_API_KEY = "sua-chave"
-    # bash
     export DADOS_GOV_API_KEY="sua-chave"
-
-    python etl/emec.py --listar          # inspeciona o conjunto e as colunas
+    python etl/emec.py --listar          # inspeciona conjunto, recursos e colunas
     python etl/emec.py                   # ingere para data/emec.json
 
-A CHAVE NUNCA VAI PARA O REPOSITÓRIO. É lida só de variável de ambiente, jamais de
-arquivo versionado, e `tests/test_seguranca.py` reprova o build se algo com cara de
-credencial aparecer no código. O repositório é público: uma chave commitada fica
-no histórico para sempre, e apagá-la do HEAD não a remove de lá.
+A CHAVE NUNCA VAI PARA O REPOSITÓRIO. É lida só de variável de ambiente, e
+tests/test_seguranca.py reprova o build se algo com cara de credencial aparecer no
+código. O repositório é público: chave commitada fica no histórico para sempre.
 
-POR QUE O MODO --listar EXISTE. Não foi possível conferir o esquema deste conjunto
-antes de escrever o ETL — a API exige chave. Então o script primeiro mostra o que
-veio (recursos, formatos, colunas) em vez de assumir nomes de campo e falhar
-silenciosamente ou, pior, casar a coluna errada. Rode `--listar` uma vez, confira
-os nomes contra o mapa CAMPOS abaixo, ajuste se preciso, e só então ingira.
+O QUE ESTE CONJUNTO *NÃO* TEM — verificado, não suposto. O e-MEC aberto publica
+cadastro, e só. Os campos declarados no $metadata do serviço são:
 
-O QUE SE ESPERA DAQUI, e o que continua fora. O e-MEC traz Conceito Institucional
-(CI), Conceito de Curso (CC), situação de credenciamento e data da última
-avaliação — as quatro ausências que os painéis institucionais declaram hoje. O CI
-NÃO é o IGC: um é nota de comissão que visitou a instituição, o outro é índice
-calculado sobre CPC e pós-graduação. Continuarão lado a lado, nunca fundidos.
+    CODIGO_DA_IES, NOME_DA_IES, SIGLA, CATEGORIA_DA_IES, COMUNITARIA,
+    CONFESSIONAL, FILANTROPICA, ORGANIZACAO_ACADEMICA, CODIGO_MUNICIPIO_IBGE,
+    MUNICIPIO, UF, SITUACAO_IES
+
+Não há Conceito Institucional, Conceito de Curso, IGC, situação de credenciamento
+nem data de avaliação. Esses vivem no sistema web do e-MEC, não no dado aberto.
+Portanto as quatro ausências que os painéis institucionais declaram CONTINUAM
+ausentes, e a explicação nas páginas foi corrigida para dizer o motivo certo:
+não é que falte base aberta, é que a base aberta não publica esses campos.
+
+O que dá para acrescentar, quando o serviço voltar: SITUACAO_IES — o Censo não
+informa se a instituição está ativa ou extinta. E, pela entidade de cursos,
+SITUACAO_CURSO e QT_VAGAS_AUTORIZADAS, que são a visão REGULATÓRIA (o que o MEC
+autorizou) contra a visão do Censo (o que a instituição declarou ofertar). O
+confronto entre as duas é interessante justamente por poderem divergir.
+
+ESTADO DO SERVIÇO. Em 27/07/2026 o endpoint OData do MEC responde HTTP 500 em
+todas as entidades, com "FATAL: password authentication failed for user
+sysolindamec" — falha de credencial do banco do lado deles, não nosso. O
+$metadata responde porque é estático. Este ETL está correto e apontado para a URL
+certa; é só rodar quando o serviço voltar.
 """
 import argparse
 import csv
@@ -51,15 +59,18 @@ BUSCA_PADRAO = "e-MEC"
 # Campo interno → possíveis nomes de coluna, em ordem de preferência. Vale por
 # trecho e sem caixa: o e-MEC muda pontuação e acentuação entre publicações.
 CAMPOS = {
-    "co_ies": ("CODIGO_DA_IES", "CO_IES", "CODIGO_IES", "COD_IES"),
-    "nome": ("NOME_DA_IES", "NO_IES", "NOME_IES"),
-    "ci": ("CI", "CONCEITO_INSTITUCIONAL"),
-    "ci_ano": ("ANO_CI", "CI_ANO", "ANO_DO_CI"),
-    "igc_emec": ("IGC", "INDICE_GERAL_DE_CURSOS"),
-    "situacao": ("SITUACAO", "SITUACAO_DA_IES", "STATUS"),
-    "credenciamento": ("CREDENCIAMENTO", "ATO_REGULATORIO", "DATA_CREDENCIAMENTO"),
-    "organizacao": ("ORGANIZACAO_ACADEMICA", "TP_ORGANIZACAO_ACADEMICA"),
-    "categoria": ("CATEGORIA_ADMINISTRATIVA", "TP_CATEGORIA_ADMINISTRATIVA"),
+    "co_ies": ("CODIGO_DA_IES", "CODIGO_IES", "CO_IES"),
+    "nome": ("NOME_DA_IES", "NOME_IES"),
+    "sigla": ("SIGLA",),
+    # O único campo aqui que o Censo não traz: se a instituição segue ativa.
+    "situacao": ("SITUACAO_IES", "SITUACAO"),
+    "categoria": ("CATEGORIA_DA_IES", "CATEGORIA_ADMINISTRATIVA"),
+    "organizacao": ("ORGANIZACAO_ACADEMICA",),
+    "comunitaria": ("COMUNITARIA",),
+    "confessional": ("CONFESSIONAL",),
+    "filantropica": ("FILANTROPICA",),
+    "municipio": ("MUNICIPIO",),
+    "uf": ("UF",),
 }
 
 
@@ -129,6 +140,7 @@ def baixar_csv(url):
 def main():
     parser = argparse.ArgumentParser(description="Ingestão do cadastro e-MEC")
     parser.add_argument("--busca", default=BUSCA_PADRAO)
+    parser.add_argument("--id", help="ID do conjunto, quando a busca traz vários")
     parser.add_argument("--listar", action="store_true",
                         help="Só mostra conjuntos, recursos e colunas — não ingere")
     parser.add_argument("--recurso", help="URL de um recurso CSV específico")
@@ -139,7 +151,9 @@ def main():
         linhas = baixar_csv(args.recurso)
     else:
         print(f"[INFO] Buscando conjuntos com '{args.busca}' ...")
-        resultado = pedir("/conjuntos-dados", {"nomeConjuntoDados": args.busca})
+        # `pagina` é obrigatório na API — sem ele a resposta é 400, não 401.
+        resultado = pedir("/conjuntos-dados",
+                          {"nomeConjuntoDados": args.busca, "pagina": 1})
         conjuntos = resultado if isinstance(resultado, list) else resultado.get("value", [])
         if not conjuntos:
             sys.exit(f"[ERRO] nenhum conjunto encontrado para '{args.busca}'.")
@@ -148,7 +162,18 @@ def main():
         for c in conjuntos[:10]:
             print(f"   id={c.get('id')}  {c.get('title') or c.get('nome')}")
 
-        detalhe = pedir(f"/conjuntos-dados/{conjuntos[0].get('id')}")
+        escolhido = args.id
+        if not escolhido:
+            # A busca traz espelhos de universidades junto do conjunto oficial.
+            # Preferir o que o MEC publica, não o primeiro que voltou.
+            def pontuar(c):
+                titulo = (c.get("title") or c.get("nome") or "").lower()
+                return (("sistema e-mec" in titulo) * 2
+                        + ("institui" in titulo) * 2
+                        - ("ufu" in titulo or "curso" in titulo))
+            escolhido = max(conjuntos, key=pontuar).get("id")
+        print(f"[INFO] usando conjunto {escolhido}")
+        detalhe = pedir(f"/conjuntos-dados/{escolhido}")
         recursos = detalhe.get("recursos") or detalhe.get("resources") or []
         print(f"\n[INFO] {len(recursos)} recurso(s) no primeiro conjunto:")
         csvs = []
@@ -156,7 +181,7 @@ def main():
             formato = (r.get("formato") or r.get("format") or "").upper()
             link = r.get("link") or r.get("url")
             print(f"   [{formato}] {r.get('titulo') or r.get('name')}\n        {link}")
-            if formato == "CSV" and link:
+            if formato == "CSV" and link and not link.rstrip("#{}").endswith("/"):
                 csvs.append(link)
         if not csvs:
             sys.exit("[ERRO] nenhum recurso CSV. Rode com --recurso <url> se souber "
@@ -166,13 +191,17 @@ def main():
     if not linhas:
         sys.exit("[ERRO] recurso vazio.")
     colunas = list(linhas[0].keys())
+    if len(colunas) <= 1:
+        sys.exit("[ERRO] o recurso baixado tem 1 coluna — provavelmente é uma "
+                 "página HTML, não um CSV. Alguns conjuntos apontam para a página "
+                 "do arquivo, não para o arquivo. Use --recurso com a URL direta.")
     print(f"\n[INFO] {len(linhas)} linhas · {len(colunas)} colunas")
 
     mapa = {campo: achar_coluna(colunas, candidatos)
             for campo, candidatos in CAMPOS.items()}
     print("\n[INFO] mapeamento de colunas:")
     for campo, coluna in mapa.items():
-        print(f"   {campo:<16} → {coluna or '(NÃO ENCONTRADA)'}")
+        print(f"   {campo:<16} -> {coluna or '(NAO ENCONTRADA)'}")
 
     if args.listar:
         print("\n[INFO] Colunas disponíveis:")

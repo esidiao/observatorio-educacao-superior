@@ -475,38 +475,43 @@ O índice de municípios (`municipios.html`) fechou uma lacuna de navegação: a
 pela página da UF. A numeração da lista é recalculada a cada filtro — deixar o
 número original faria a lista filtrada começar em "37", como se faltassem itens.
 
-## e-MEC: pronto, aguardando chave
+## e-MEC: o que a chave revelou
 
-`etl/emec.py` está escrito e aguarda apenas a credencial. O Portal Brasileiro de
-Dados Abertos exige chave por requisição, no header `chave-api-dados-abertos`, e a
-chave é **pessoal** — vinculada a um cadastro. Obtenha em
-[dados.gov.br](https://dados.gov.br), área "Minha Conta", e exporte na sessão:
+`etl/emec.py` está implementado e funcionando. A chave de API do Portal Brasileiro
+de Dados Abertos permitiu **verificar** o que antes era suposição — e o resultado
+foi o oposto do esperado.
 
 ```bash
 export DADOS_GOV_API_KEY="sua-chave"
-python etl/emec.py --listar    # inspeciona conjunto, recursos e colunas
-python etl/emec.py             # ingere para data/emec.json
+python etl/emec.py --listar --id 07f78ae9-e781-41bf-b88c-6f3bd2ab4326
 ```
 
-**A chave nunca entra no repositório.** É lida só de variável de ambiente, e
-`tests/test_seguranca.py` reprova o build se algo com cara de credencial aparecer
-no código. O repositório é público: chave commitada fica no histórico para sempre,
-e removê-la do HEAD não a apaga de lá — o remédio seria reescrever o histórico e
-rotacionar a chave.
+**O conjunto aberto do e-MEC não tem os conceitos de avaliação.** Os campos que o
+serviço declara no próprio `$metadata` são:
 
-**Por que existe o modo `--listar`.** Não foi possível conferir o esquema do
-conjunto antes de escrever o ETL, porque a API exige chave. Em vez de assumir
-nomes de coluna e arriscar casar o campo errado em silêncio, o script mostra o que
-veio e o mapeamento que encontrou; só depois de conferir é que se ingere. Se a
-coluna de código da IES não aparecer, ele **para** em vez de cair para casamento
-por nome — heurística de nome é exatamente o que este projeto recusa.
+    CODIGO_DA_IES, NOME_DA_IES, SIGLA, CATEGORIA_DA_IES, COMUNITARIA,
+    CONFESSIONAL, FILANTROPICA, ORGANIZACAO_ACADEMICA, CODIGO_MUNICIPIO_IBGE,
+    MUNICIPIO, UF, SITUACAO_IES
 
-## Séries por estado
+Nada de Conceito Institucional, Conceito de Curso, IGC, credenciamento ou data de
+avaliação. Esses vivem no sistema web do e-MEC, não no dado aberto. As quatro
+ausências que os painéis declaram **continuam**, e o texto das páginas foi
+corrigido para dizer o motivo certo: não é falta de acesso, é ausência na fonte
+aberta.
 
-Os painéis estaduais ganharam a evolução da capacidade, 2016–2024. O dado já
-existia: `serie.json` sempre trouxe o recorte por UF, e faltava somá-lo entre
-cursos — o que o build faz no mesmo laço que já lê cada arquivo.
+**O serviço também está fora.** O endpoint OData do MEC responde HTTP 500 em todas
+as entidades, com `FATAL: password authentication failed for user "sysolindamec"`
+— falha de credencial do banco do lado deles. O `$metadata` responde porque é
+estático, e foi por isso que deu para inspecionar os campos mesmo com o serviço
+caído.
 
-Uma ressalva que a página carrega: as vagas EaD são registradas na sede da
-mantenedora. Um estado com muitas mantenedoras de ensino a distância aparece
-grande nessa série mesmo que os estudantes estejam espalhados por outros estados.
+**O que ainda vale ingerir quando voltar:** `SITUACAO_IES`, que o Censo não traz —
+se a instituição segue ativa ou foi extinta. E, pela entidade de cursos,
+`SITUACAO_CURSO` e `QT_VAGAS_AUTORIZADAS`: a visão **regulatória** (o que o MEC
+autorizou) contra a do Censo (o que a instituição declarou ofertar). O confronto
+interessa justamente porque as duas podem divergir.
+
+A descoberta da URL real veio da API do dados.gov.br; os dados em si estão num
+OData público do MEC, que não exige chave. Ou seja: a chave foi útil para achar e
+verificar, não para baixar.
+
