@@ -155,6 +155,62 @@ def do_curso(nome, total, ufs, serie=None, top_ies=None):
     return frases
 
 
+def do_brasil(painel, serie_brasil, fluxo_brasil):
+    """Leituras do painel executivo nacional."""
+    frases = []
+    anos = sorted(serie_brasil)
+
+    if len(anos) >= 2:
+        a, b = serie_brasil[anos[0]], serie_brasil[anos[-1]]
+        var_ead = _variacao(a["vagas_ead"], b["vagas_ead"])
+        var_pres = _variacao(a["vagas_presencial"], b["vagas_presencial"])
+        if var_ead is not None and var_pres is not None:
+            frases.append(_frase(
+                f"Entre {anos[0]} e {anos[-1]}, a capacidade a distância passou de "
+                f"{_milhar(a['vagas_ead'])} para {_milhar(b['vagas_ead'])} vagas "
+                f"({_pct(abs(var_ead))} de {'alta' if var_ead > 0 else 'queda'}), "
+                f"enquanto a presencial foi de {_milhar(a['vagas_presencial'])} para "
+                f"{_milhar(b['vagas_presencial'])} "
+                f"({_pct(abs(var_pres))} de {'alta' if var_pres > 0 else 'queda'}).",
+                "atencao"))
+
+    if fluxo_brasil:
+        coortes = sorted(fluxo_brasil)
+        com_evasao = [c for c in coortes if fluxo_brasil[c].get("evasao") is not None]
+        if len(com_evasao) >= 2:
+            antes = fluxo_brasil[com_evasao[0]]["evasao"]
+            agora = fluxo_brasil[com_evasao[-1]]["evasao"]
+            pontos = f"{abs(agora - antes):.1f}".replace(".", ",")
+            frases.append(_frase(
+                f"A evasão nacional foi de {_pct(antes)} na coorte {com_evasao[0]} "
+                f"para {_pct(agora)} na coorte {com_evasao[-1]} — "
+                f"{'alta' if agora > antes else 'queda'} de {pontos} pontos "
+                f"percentuais.", "atencao" if agora > antes else "neutro"))
+        com_conc = [c for c in coortes if fluxo_brasil[c].get("conclusao") is not None]
+        if len(com_conc) >= 2:
+            antes = fluxo_brasil[com_conc[0]]["conclusao"]
+            agora = fluxo_brasil[com_conc[-1]]["conclusao"]
+            if abs(agora - antes) >= 1:
+                pontos = f"{abs(agora - antes):.1f}".replace(".", ",")
+                frases.append(_frase(
+                    f"A conclusão passou de {_pct(antes)} para {_pct(agora)} entre as "
+                    f"coortes {com_conc[0]} e {com_conc[-1]}, "
+                    f"{'ganho' if agora > antes else 'perda'} de {pontos} pontos."))
+
+    if painel.get("municipios"):
+        frases.append(_frase(
+            f"A oferta presencial existe em {_milhar(painel['municipios'])} dos 5.570 "
+            f"municípios — {_pct(100 * painel['municipios'] / 5570)} do território "
+            f"municipal concentra toda a graduação presencial acompanhada aqui."))
+
+    if painel.get("ies") and painel.get("ies_com_pos"):
+        frases.append(_frase(
+            f"Das {_milhar(painel['ies'])} instituições acompanhadas, "
+            f"{_milhar(painel['ies_com_pos'])} mantêm pós-graduação stricto sensu "
+            f"e {_milhar(painel.get('ies_com_igc') or 0)} têm IGC publicado."))
+    return frases
+
+
 def da_uf(nome_uf, resumo, serie_uf=None):
     """Leituras do painel de uma unidade federativa."""
     frases = []

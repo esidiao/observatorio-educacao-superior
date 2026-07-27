@@ -347,6 +347,9 @@ def main():
     # Acumuladores enxutos: só o que as páginas-índice precisam, nunca os dados
     # completos de todos os cursos ao mesmo tempo.
     resumo, cursos_meta, comparacao, campos = [], [], {}, None
+    # Série nacional: soma dos cursos, ano a ano. Feita na passagem pelo laço,
+    # que já lê cada serie.json — evita uma segunda varredura de 353 arquivos.
+    serie_brasil = {}
     ufs_disponiveis, agregado = set(), {"vagas_total": 0, "matriculas": 0, "n_cursos": 0}
     pulados = []
 
@@ -371,6 +374,13 @@ def main():
         (destino / "uf").mkdir(parents=True, exist_ok=True)
 
         serie = carregar_serie(c["slug"])
+        if serie:
+            for ano, dados in serie.get("anos", {}).items():
+                alvo = serie_brasil.setdefault(
+                    ano, {"vagas_total": 0, "vagas_presencial": 0,
+                          "vagas_ead": 0, "matriculas": 0})
+                for campo in alvo:
+                    alvo[campo] += dados["BR"].get(campo) or 0
         top_todas_ies = ies_do_curso(instituicoes, c["slug"], limite=None)
         top_ies = top_todas_ies[:10]
 
@@ -524,9 +534,65 @@ def main():
     areas = sorted(por_area.items(),
                    key=lambda kv: -sum(x["vagas_total"] or 0 for x in kv[1]))
 
+    anos_br = sorted(serie_brasil)
+    grafico_modalidade = ""
+    if len(anos_br) >= 2:
+        grafico_modalidade = Markup(serie_temporal(
+            anos_br,
+            [{"nome": "Vagas presenciais",
+              "valores": [serie_brasil[a]["vagas_presencial"] for a in anos_br]},
+             {"nome": "Vagas a distancia",
+              "valores": [serie_brasil[a]["vagas_ead"] for a in anos_br]}],
+            titulo="Capacidade presencial e a distancia no Brasil",
+            descricao=("Duas linhas comparando a evolucao das vagas presenciais e "
+                       "a distancia, somando todos os cursos do catalogo.")))
+
+    fluxo_br = fluxo.get("brasil") or {}
+    grafico_evasao = ""
+    if len(fluxo_br) >= 2:
+        coortes_br = sorted(fluxo_br)
+        series_fluxo = []
+        for chave, rotulo in (("evasao", "Evasao"), ("conclusao", "Conclusao")):
+            valores = [fluxo_br[c].get(chave) for c in coortes_br]
+            if any(v is not None for v in valores):
+                series_fluxo.append({"nome": rotulo, "valores": valores})
+        if series_fluxo:
+            grafico_evasao = Markup(serie_temporal(
+                coortes_br, series_fluxo,
+                titulo="Evasao e conclusao de coortes no Brasil",
+                descricao=("Percentual de ingressantes que evadiram e que concluiram, "
+                           "por coorte acompanhada pelo INEP."),
+                casas=1))
+
+    ultimo_ano = anos_br[-1] if anos_br else None
+    pct_ead_br = None
+    if ultimo_ano and serie_brasil[ultimo_ano]["vagas_total"]:
+        pct_ead_br = round(100 * serie_brasil[ultimo_ano]["vagas_ead"]
+                           / serie_brasil[ultimo_ano]["vagas_total"], 1)
+
+    painel = {
+        "vagas": agregado["vagas_total"],
+        "matriculas": agregado["matriculas"],
+        "cursos": agregado["n_cursos"],
+        "ies": len(instituicoes),
+        "municipios": len(acumulado.municipios),
+        "pct_ead": pct_ead_br,
+        "evasao": fluxo_br[sorted(fluxo_br)[-1]].get("evasao") if fluxo_br else None,
+        "conclusao": next(
+            (fluxo_br[c].get("conclusao") for c in sorted(fluxo_br, reverse=True)
+             if fluxo_br[c].get("conclusao") is not None), None) if fluxo_br else None,
+        "coorte": sorted(fluxo_br)[-1] if fluxo_br else None,
+        "ies_com_pos": sum(1 for i in instituicoes.values() if i.get("pos_programas")),
+        "ies_com_igc": sum(1 for i in instituicoes.values()
+                           if i.get("igc_faixa") is not None),
+    }
+
     html = env.get_template("index.html.j2").render(
         **ctx_base, depth="", curso_atual=None,
-        resumo_cursos=resumo, areas=areas, agregado=agregado)
+        resumo_cursos=resumo, areas=areas, agregado=agregado,
+        painel=painel, anos_br=anos_br,
+        grafico_modalidade=grafico_modalidade, grafico_evasao=grafico_evasao,
+        leituras=insights.do_brasil(painel, serie_brasil, fluxo_br))
     (DIST / "index.html").write_text(html, encoding="utf-8")
     print("[OK] index.html")
 

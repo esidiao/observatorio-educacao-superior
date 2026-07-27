@@ -110,10 +110,33 @@ def ler_aba(caminho, aba):
     return saida, orfas
 
 
+def ler_nacional(caminho, aba):
+    """Arquivo do Brasil: mesmo conteúdo, layout diferente do de UF.
+
+    Aqui não há coluna de unidade federativa, e o recorte de cor/raça é mais
+    detalhado. Para o painel nacional interessa só o total por coorte, então esta
+    leitura é deliberadamente mínima — os recortes demográficos continuam nas
+    páginas estaduais, onde há espaço para explicá-los.
+    """
+    df = pd.read_excel(caminho, sheet_name=aba, header=None, skiprows=LINHA_DADOS)
+    saida = {}
+    for _, linha in df.iterrows():
+        valores = linha.tolist()
+        coorte = str(valores[0]).strip() if valores else ""
+        if not re.match(r"^\d{4}-\d{4}$", coorte):
+            continue
+        total = numero(valores[1]) if len(valores) > 1 else None
+        if total is not None:
+            saida[coorte] = total
+    return saida
+
+
 def main():
     parser = argparse.ArgumentParser(description="Ingestão dos indicadores de fluxo")
     parser.add_argument("--fluxo", required=True,
                         help="ZIP ou XLSX dos indicadores de fluxo por UF")
+    parser.add_argument("--nacional",
+                        help="ZIP ou XLSX dos indicadores de fluxo do Brasil")
     parser.add_argument("--saida", default=str(DATA / "fluxo.json"))
     args = parser.parse_args()
 
@@ -154,6 +177,25 @@ def main():
     if faltando:
         print(f"[AVISO] sem dados de fluxo: {', '.join(faltando)}")
 
+    # O total nacional NÃO é a média das UFs: é ponderado pelos estudantes de
+    # cada uma. Por isso vem do arquivo do Brasil, não de um cálculo local.
+    nacional = {}
+    if args.nacional:
+        caminho_br = Path(args.nacional)
+        if caminho_br.suffix.lower() == ".zip":
+            with zipfile.ZipFile(caminho_br) as z:
+                nome = next((n for n in z.namelist() if n.lower().endswith(".xlsx")), None)
+                destino = caminho_br.parent / Path(nome).name
+                with z.open(nome) as origem, open(destino, "wb") as saida_arq:
+                    saida_arq.write(origem.read())
+                caminho_br = destino
+        disponiveis_br = pd.ExcelFile(caminho_br).sheet_names
+        for aba, chave in ABAS.items():
+            if aba in disponiveis_br:
+                for coorte, total in ler_nacional(caminho_br, aba).items():
+                    nacional.setdefault(coorte, {})[chave] = total
+        print(f"[OK] Brasil: {len(nacional)} coortes")
+
     with open(args.saida, "w", encoding="utf-8") as f:
         json.dump({
             "_nota": ("Taxas de coorte do INEP, por UNIDADE FEDERATIVA. Não existem "
@@ -167,6 +209,7 @@ def main():
                 "permanencia": "ainda vinculados ao curso",
             },
             "coortes": sorted(coortes),
+            "brasil": dict(sorted(nacional.items())),
             "ufs": indicadores,
         }, f, ensure_ascii=False, indent=1)
 

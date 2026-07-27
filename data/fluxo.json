@@ -22,6 +22,74 @@
   "2022-2023",
   "2023-2024"
  ],
+ "brasil": {
+  "2010-2011": {
+   "evasao": 11.3
+  },
+  "2011-2012": {
+   "evasao": 11.1
+  },
+  "2012-2013": {
+   "evasao": 11.6
+  },
+  "2013-2014": {
+   "evasao": 11.5
+  },
+  "2014-2015": {
+   "evasao": 11.8
+  },
+  "2015-2016": {
+   "evasao": 13.4
+  },
+  "2016-2017": {
+   "evasao": 12.2,
+   "conclusao": 69.3,
+   "retencao": 31.5,
+   "permanencia": 82.7
+  },
+  "2017-2018": {
+   "evasao": 13.6,
+   "conclusao": 69.2,
+   "retencao": 30.1,
+   "permanencia": 80.8
+  },
+  "2018-2019": {
+   "evasao": 14.1,
+   "conclusao": 68.0,
+   "retencao": 29.6,
+   "permanencia": 80.2
+  },
+  "2019-2020": {
+   "evasao": 12.9,
+   "conclusao": 68.5,
+   "retencao": 32.1,
+   "permanencia": 81.6
+  },
+  "2020-2021": {
+   "evasao": 13.5,
+   "conclusao": 63.9,
+   "retencao": 36.1,
+   "permanencia": 80.8
+  },
+  "2021-2022": {
+   "evasao": 15.8,
+   "conclusao": 63.3,
+   "retencao": 34.4,
+   "permanencia": 76.3
+  },
+  "2022-2023": {
+   "evasao": 16.0,
+   "conclusao": 65.8,
+   "retencao": 32.9,
+   "permanencia": 76.9
+  },
+  "2023-2024": {
+   "evasao": 17.5,
+   "conclusao": 64.9,
+   "retencao": 32.6,
+   "permanencia": 75.3
+  }
+ },
  "ufs": {
   "AC": {
    "2010-2011": {

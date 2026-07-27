@@ -421,3 +421,38 @@ simplesmente não tem — diferente da ausência de IGC, que significa "não foi
 avaliada". As duas ausências são semanticamente distintas e o site as distingue.
 O caso da USP torna isso visível: sem IGC publicado, e com 259 programas de pós,
 221 deles com doutorado.
+
+## Painel executivo
+
+A home abre com o sistema de educação superior em números — capacidade, alcance
+territorial, modalidade e trajetória — mais duas séries: presencial contra EaD
+(2016–2024) e evasão contra conclusão por coorte (2010–2024).
+
+O total nacional de fluxo **não é a média das UFs**: é ponderado pelos estudantes
+de cada uma, e por isso vem do arquivo do Brasil publicado pelo INEP, não de um
+cálculo local sobre os 27 estados. Já a série de capacidade é somada dos cursos
+durante o próprio laço do build, que já lê cada `serie.json` — evita uma segunda
+varredura de 353 arquivos.
+
+O que o painel mostra hoje, e que só ficou visível com as quatro fontes reunidas:
+a capacidade a distância saiu de 4,3 para 18,6 milhões de vagas entre 2016 e 2024
+(+327,6%) enquanto a presencial recuou 17,4%; a evasão nacional subiu 6,2 pontos
+percentuais desde a coorte 2010-2011; e a conclusão perdeu 4,4 pontos desde
+2016-2017.
+
+## Sobre o e-MEC, com precisão
+
+Afirmei em versões anteriores desta documentação que o e-MEC "não tem base
+aberta". A afirmação era forte demais. O que se verifica:
+
+- existe um conjunto "Sistema e-MEC — Instituições de Educação Superior do Brasil"
+  registrado no dados.gov.br;
+- a API daquele portal responde **401** sem chave de acesso;
+- o portal `dadosabertos.mec.gov.br` responde **403** a requisição programática;
+- Conceito Institucional (CI) e Conceito de Curso (CC) **não** estão no diretório
+  de resultados do INEP, onde CPC e IDD estão e de onde este projeto já baixa.
+
+Ou seja: a barreira é de credencial, não de inexistência. Obter chave de API é
+decisão de quem mantém o observatório, porque a chave fica vinculada a uma
+identidade. Enquanto isso, CI e credenciamento seguem declarados como ausentes nas
+páginas — o que continua correto.

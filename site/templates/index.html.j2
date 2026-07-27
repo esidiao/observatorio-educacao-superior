@@ -28,6 +28,66 @@
   </div>
 </section>
 
+<h2 class="section-title">Painel executivo</h2>
+<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:16px">
+  O sistema de educação superior brasileiro em números, nos recortes que este
+  observatório consegue sustentar com fonte oficial.
+</p>
+
+<div class="kpi-grid">
+  {% macro kpi_br(valor, rotulo, fonte, classe='') %}
+  <div class="kpi-card {{ classe }}{% if valor is none %} nodata{% endif %}">
+    <div class="kpi-valor">{% if valor is not none %}{{ valor }}{% else %}<span class="sem-dado"><span aria-hidden="true">—</span><span class="sr-only">sem dados</span></span>{% endif %}</div>
+    <div class="kpi-label">{{ rotulo }}</div>
+    <div class="kpi-fonte">{{ fonte }}</div>
+  </div>
+  {% endmacro %}
+  {{ kpi_br(milhar(painel.vagas), 'Vagas', 'Censo ' ~ versao_censo) }}
+  {{ kpi_br(milhar(painel.matriculas), 'Matrículas presenciais', 'Censo ' ~ versao_censo) }}
+  {{ kpi_br(milhar(painel.cursos), 'Cursos (rótulos CINE)', 'Censo ' ~ versao_censo) }}
+  {{ kpi_br(milhar(painel.ies), 'Instituições', 'Censo ' ~ versao_censo) }}
+  {{ kpi_br(milhar(painel.municipios), 'Municípios com oferta presencial', 'de 5.570') }}
+  {{ kpi_br((fmt1(painel.pct_ead) ~ '%') if painel.pct_ead is not none else none, 'Da capacidade é EaD', 'Censo ' ~ versao_censo) }}
+  {{ kpi_br((fmt1(painel.evasao) ~ '%') if painel.evasao is not none else none, 'Evasão', 'coorte ' ~ (painel.coorte or ''), 'critico') }}
+  {{ kpi_br((fmt1(painel.conclusao) ~ '%') if painel.conclusao is not none else none, 'Conclusão', 'coorte acompanhada') }}
+</div>
+
+{% if leituras %}
+<section class="leituras" aria-labelledby="tit-leituras">
+  <h2 class="section-title" id="tit-leituras">Leitura dos números</h2>
+  <p class="leituras-aviso">
+    Frases calculadas por regra a partir dos dados desta página. Descrevem variação,
+    participação e posição — nunca causa, e nunca por modelo de linguagem.
+  </p>
+  <ul class="leituras-lista">
+    {% for l in leituras %}<li class="leitura {{ l.tipo }}">{{ l.texto }}</li>{% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if grafico_modalidade %}
+<div class="figura">
+  {{ grafico_modalidade }}
+  <p class="figura-nota">
+    Vagas somadas de todos os cursos do catálogo, por edição do Censo
+    ({{ anos_br|first }}–{{ anos_br|last }}). As vagas EaD são registradas na sede da
+    mantenedora, não no polo — ver a metodologia.
+  </p>
+</div>
+{% endif %}
+
+{% if grafico_evasao %}
+<div class="figura">
+  {{ grafico_evasao }}
+  <p class="figura-nota">
+    Estes são os <strong>únicos indicadores do site que acompanham as mesmas
+    pessoas</strong>: o INEP segue coortes de ingressantes até o desfecho. Todo o
+    resto vem do Censo, que é retrato anual de estoque. As séries têm comprimentos
+    diferentes porque a evasão é publicada desde 2010 e a conclusão desde 2016.
+  </p>
+</div>
+{% endif %}
+
 <h2 class="section-title" id="catalogo">Cursos no observatório</h2>
 <p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:16px">
   Todos os {{ resumo_cursos|length }} rótulos CINE do Censo, agrupados pela área geral
