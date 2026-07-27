@@ -1,0 +1,192 @@
+{
+ "campos": [
+  "vagas_total",
+  "vagas_presencial",
+  "vagas_ead",
+  "matriculas",
+  "matriculas_ead",
+  "ingressos",
+  "concluintes",
+  "n_ies",
+  "municipios_oferta",
+  "vagas_publicas"
+ ],
+ "anos": {
+  "2023": {
+   "BR": {
+    "vagas_total": 356,
+    "vagas_presencial": 356,
+    "vagas_ead": 0,
+    "matriculas": 1218,
+    "matriculas_ead": 0,
+    "ingressos": 228,
+    "concluintes": 130,
+    "n_ies": 6,
+    "municipios_oferta": 6,
+    "vagas_publicas": 356
+   },
+   "ufs": {
+    "AM": {
+     "vagas_total": 40,
+     "vagas_presencial": 40,
+     "vagas_ead": 0,
+     "matriculas": 153,
+     "matriculas_ead": 0,
+     "ingressos": 43,
+     "concluintes": 5,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 40
+    },
+    "PA": {
+     "vagas_total": 37,
+     "vagas_presencial": 37,
+     "vagas_ead": 0,
+     "matriculas": 133,
+     "matriculas_ead": 0,
+     "ingressos": 31,
+     "concluintes": 18,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 37
+    },
+    "PE": {
+     "vagas_total": 3,
+     "vagas_presencial": 3,
+     "vagas_ead": 0,
+     "matriculas": 76,
+     "matriculas_ead": 0,
+     "ingressos": 0,
+     "concluintes": 2,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 3
+    },
+    "RJ": {
+     "vagas_total": 112,
+     "vagas_presencial": 112,
+     "vagas_ead": 0,
+     "matriculas": 415,
+     "matriculas_ead": 0,
+     "ingressos": 71,
+     "concluintes": 44,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 112
+    },
+    "SC": {
+     "vagas_total": 121,
+     "vagas_presencial": 121,
+     "vagas_ead": 0,
+     "matriculas": 225,
+     "matriculas_ead": 0,
+     "ingressos": 54,
+     "concluintes": 24,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 121
+    },
+    "SP": {
+     "vagas_total": 43,
+     "vagas_presencial": 43,
+     "vagas_ead": 0,
+     "matriculas": 216,
+     "matriculas_ead": 0,
+     "ingressos": 29,
+     "concluintes": 37,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 43
+    }
+   }
+  },
+  "2024": {
+   "BR": {
+    "vagas_total": 404,
+    "vagas_presencial": 404,
+    "vagas_ead": 0,
+    "matriculas": 1192,
+    "matriculas_ead": 0,
+    "ingressos": 230,
+    "concluintes": 136,
+    "n_ies": 6,
+    "municipios_oferta": 6,
+    "vagas_publicas": 404
+   },
+   "ufs": {
+    "AM": {
+     "vagas_total": 47,
+     "vagas_presencial": 47,
+     "vagas_ead": 0,
+     "matriculas": 146,
+     "matriculas_ead": 0,
+     "ingressos": 27,
+     "concluintes": 8,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 47
+    },
+    "PA": {
+     "vagas_total": 37,
+     "vagas_presencial": 37,
+     "vagas_ead": 0,
+     "matriculas": 124,
+     "matriculas_ead": 0,
+     "ingressos": 29,
+     "concluintes": 9,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 37
+    },
+    "PE": {
+     "vagas_total": 20,
+     "vagas_presencial": 20,
+     "vagas_ead": 0,
+     "matriculas": 97,
+     "matriculas_ead": 0,
+     "ingressos": 15,
+     "concluintes": 5,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 20
+    },
+    "RJ": {
+     "vagas_total": 114,
+     "vagas_presencial": 114,
+     "vagas_ead": 0,
+     "matriculas": 422,
+     "matriculas_ead": 0,
+     "ingressos": 84,
+     "concluintes": 41,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 114
+    },
+    "SC": {
+     "vagas_total": 132,
+     "vagas_presencial": 132,
+     "vagas_ead": 0,
+     "matriculas": 212,
+     "matriculas_ead": 0,
+     "ingressos": 33,
+     "concluintes": 42,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 132
+    },
+    "SP": {
+     "vagas_total": 54,
+     "vagas_presencial": 54,
+     "vagas_ead": 0,
+     "matriculas": 191,
+     "matriculas_ead": 0,
+     "ingressos": 42,
+     "concluintes": 31,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 54
+    }
+   }
+  }
+ }
+}

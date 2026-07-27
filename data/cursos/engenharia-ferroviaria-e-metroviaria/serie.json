@@ -1,0 +1,120 @@
+{
+ "campos": [
+  "vagas_total",
+  "vagas_presencial",
+  "vagas_ead",
+  "matriculas",
+  "matriculas_ead",
+  "ingressos",
+  "concluintes",
+  "n_ies",
+  "municipios_oferta",
+  "vagas_publicas"
+ ],
+ "anos": {
+  "2023": {
+   "BR": {
+    "vagas_total": 410,
+    "vagas_presencial": 410,
+    "vagas_ead": 0,
+    "matriculas": 239,
+    "matriculas_ead": 0,
+    "ingressos": 66,
+    "concluintes": 10,
+    "n_ies": 3,
+    "municipios_oferta": 3,
+    "vagas_publicas": 410
+   },
+   "ufs": {
+    "MG": {
+     "vagas_total": 45,
+     "vagas_presencial": 45,
+     "vagas_ead": 0,
+     "matriculas": 52,
+     "matriculas_ead": 0,
+     "ingressos": 13,
+     "concluintes": 1,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 45
+    },
+    "PA": {
+     "vagas_total": 48,
+     "vagas_presencial": 48,
+     "vagas_ead": 0,
+     "matriculas": 112,
+     "matriculas_ead": 0,
+     "ingressos": 30,
+     "concluintes": 5,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 48
+    },
+    "SC": {
+     "vagas_total": 317,
+     "vagas_presencial": 317,
+     "vagas_ead": 0,
+     "matriculas": 75,
+     "matriculas_ead": 0,
+     "ingressos": 23,
+     "concluintes": 4,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 317
+    }
+   }
+  },
+  "2024": {
+   "BR": {
+    "vagas_total": 266,
+    "vagas_presencial": 266,
+    "vagas_ead": 0,
+    "matriculas": 246,
+    "matriculas_ead": 0,
+    "ingressos": 64,
+    "concluintes": 11,
+    "n_ies": 3,
+    "municipios_oferta": 3,
+    "vagas_publicas": 266
+   },
+   "ufs": {
+    "MG": {
+     "vagas_total": 60,
+     "vagas_presencial": 60,
+     "vagas_ead": 0,
+     "matriculas": 68,
+     "matriculas_ead": 0,
+     "ingressos": 15,
+     "concluintes": 1,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 60
+    },
+    "PA": {
+     "vagas_total": 39,
+     "vagas_presencial": 39,
+     "vagas_ead": 0,
+     "matriculas": 108,
+     "matriculas_ead": 0,
+     "ingressos": 29,
+     "concluintes": 5,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 39
+    },
+    "SC": {
+     "vagas_total": 167,
+     "vagas_presencial": 167,
+     "vagas_ead": 0,
+     "matriculas": 70,
+     "matriculas_ead": 0,
+     "ingressos": 20,
+     "concluintes": 5,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 167
+    }
+   }
+  }
+ }
+}

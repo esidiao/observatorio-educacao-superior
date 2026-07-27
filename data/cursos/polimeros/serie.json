@@ -1,0 +1,108 @@
+{
+ "campos": [
+  "vagas_total",
+  "vagas_presencial",
+  "vagas_ead",
+  "matriculas",
+  "matriculas_ead",
+  "ingressos",
+  "concluintes",
+  "n_ies",
+  "municipios_oferta",
+  "vagas_publicas"
+ ],
+ "anos": {
+  "2023": {
+   "BR": {
+    "vagas_total": 502,
+    "vagas_presencial": 502,
+    "vagas_ead": 0,
+    "matriculas": 551,
+    "matriculas_ead": 0,
+    "ingressos": 241,
+    "concluintes": 122,
+    "n_ies": 7,
+    "municipios_oferta": 6,
+    "vagas_publicas": 382
+   },
+   "ufs": {
+    "RJ": {
+     "vagas_total": 0,
+     "vagas_presencial": 0,
+     "vagas_ead": 0,
+     "matriculas": 1,
+     "matriculas_ead": 0,
+     "ingressos": 0,
+     "concluintes": 1,
+     "n_ies": 0,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "RS": {
+     "vagas_total": 0,
+     "vagas_presencial": 0,
+     "vagas_ead": 0,
+     "matriculas": 1,
+     "matriculas_ead": 0,
+     "ingressos": 0,
+     "concluintes": 1,
+     "n_ies": 0,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "SP": {
+     "vagas_total": 502,
+     "vagas_presencial": 502,
+     "vagas_ead": 0,
+     "matriculas": 549,
+     "matriculas_ead": 0,
+     "ingressos": 241,
+     "concluintes": 120,
+     "n_ies": 5,
+     "municipios_oferta": 4,
+     "vagas_publicas": 382
+    }
+   }
+  },
+  "2024": {
+   "BR": {
+    "vagas_total": 557,
+    "vagas_presencial": 557,
+    "vagas_ead": 0,
+    "matriculas": 527,
+    "matriculas_ead": 0,
+    "ingressos": 267,
+    "concluintes": 124,
+    "n_ies": 6,
+    "municipios_oferta": 5,
+    "vagas_publicas": 447
+   },
+   "ufs": {
+    "RJ": {
+     "vagas_total": 0,
+     "vagas_presencial": 0,
+     "vagas_ead": 0,
+     "matriculas": 0,
+     "matriculas_ead": 0,
+     "ingressos": 0,
+     "concluintes": 0,
+     "n_ies": 0,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "SP": {
+     "vagas_total": 557,
+     "vagas_presencial": 557,
+     "vagas_ead": 0,
+     "matriculas": 527,
+     "matriculas_ead": 0,
+     "ingressos": 267,
+     "concluintes": 124,
+     "n_ies": 5,
+     "municipios_oferta": 4,
+     "vagas_publicas": 447
+    }
+   }
+  }
+ }
+}

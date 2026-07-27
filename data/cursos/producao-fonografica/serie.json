@@ -1,0 +1,192 @@
+{
+ "campos": [
+  "vagas_total",
+  "vagas_presencial",
+  "vagas_ead",
+  "matriculas",
+  "matriculas_ead",
+  "ingressos",
+  "concluintes",
+  "n_ies",
+  "municipios_oferta",
+  "vagas_publicas"
+ ],
+ "anos": {
+  "2023": {
+   "BR": {
+    "vagas_total": 1503,
+    "vagas_presencial": 1503,
+    "vagas_ead": 0,
+    "matriculas": 917,
+    "matriculas_ead": 0,
+    "ingressos": 425,
+    "concluintes": 175,
+    "n_ies": 13,
+    "municipios_oferta": 12,
+    "vagas_publicas": 190
+   },
+   "ufs": {
+    "BA": {
+     "vagas_total": 110,
+     "vagas_presencial": 110,
+     "vagas_ead": 0,
+     "matriculas": 26,
+     "matriculas_ead": 0,
+     "ingressos": 8,
+     "concluintes": 1,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 110
+    },
+    "MG": {
+     "vagas_total": 10,
+     "vagas_presencial": 10,
+     "vagas_ead": 0,
+     "matriculas": 9,
+     "matriculas_ead": 0,
+     "ingressos": 10,
+     "concluintes": 0,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "PE": {
+     "vagas_total": 80,
+     "vagas_presencial": 80,
+     "vagas_ead": 0,
+     "matriculas": 15,
+     "matriculas_ead": 0,
+     "ingressos": 0,
+     "concluintes": 9,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "RJ": {
+     "vagas_total": 521,
+     "vagas_presencial": 521,
+     "vagas_ead": 0,
+     "matriculas": 277,
+     "matriculas_ead": 0,
+     "ingressos": 113,
+     "concluintes": 40,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "RS": {
+     "vagas_total": 90,
+     "vagas_presencial": 90,
+     "vagas_ead": 0,
+     "matriculas": 64,
+     "matriculas_ead": 0,
+     "ingressos": 26,
+     "concluintes": 10,
+     "n_ies": 1,
+     "municipios_oferta": 2,
+     "vagas_publicas": 0
+    },
+    "SP": {
+     "vagas_total": 692,
+     "vagas_presencial": 692,
+     "vagas_ead": 0,
+     "matriculas": 526,
+     "matriculas_ead": 0,
+     "ingressos": 268,
+     "concluintes": 115,
+     "n_ies": 8,
+     "municipios_oferta": 6,
+     "vagas_publicas": 80
+    }
+   }
+  },
+  "2024": {
+   "BR": {
+    "vagas_total": 1485,
+    "vagas_presencial": 1485,
+    "vagas_ead": 0,
+    "matriculas": 850,
+    "matriculas_ead": 0,
+    "ingressos": 391,
+    "concluintes": 204,
+    "n_ies": 13,
+    "municipios_oferta": 11,
+    "vagas_publicas": 175
+   },
+   "ufs": {
+    "BA": {
+     "vagas_total": 93,
+     "vagas_presencial": 93,
+     "vagas_ead": 0,
+     "matriculas": 31,
+     "matriculas_ead": 0,
+     "ingressos": 10,
+     "concluintes": 5,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 93
+    },
+    "MG": {
+     "vagas_total": 17,
+     "vagas_presencial": 17,
+     "vagas_ead": 0,
+     "matriculas": 17,
+     "matriculas_ead": 0,
+     "ingressos": 17,
+     "concluintes": 4,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "PE": {
+     "vagas_total": 94,
+     "vagas_presencial": 94,
+     "vagas_ead": 0,
+     "matriculas": 16,
+     "matriculas_ead": 0,
+     "ingressos": 15,
+     "concluintes": 1,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "RJ": {
+     "vagas_total": 651,
+     "vagas_presencial": 651,
+     "vagas_ead": 0,
+     "matriculas": 224,
+     "matriculas_ead": 0,
+     "ingressos": 69,
+     "concluintes": 52,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "RS": {
+     "vagas_total": 50,
+     "vagas_presencial": 50,
+     "vagas_ead": 0,
+     "matriculas": 62,
+     "matriculas_ead": 0,
+     "ingressos": 15,
+     "concluintes": 8,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "SP": {
+     "vagas_total": 580,
+     "vagas_presencial": 580,
+     "vagas_ead": 0,
+     "matriculas": 500,
+     "matriculas_ead": 0,
+     "ingressos": 265,
+     "concluintes": 134,
+     "n_ies": 7,
+     "municipios_oferta": 6,
+     "vagas_publicas": 82
+    }
+   }
+  }
+ }
+}

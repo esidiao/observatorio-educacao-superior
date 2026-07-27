@@ -1,0 +1,108 @@
+{
+ "campos": [
+  "vagas_total",
+  "vagas_presencial",
+  "vagas_ead",
+  "matriculas",
+  "matriculas_ead",
+  "ingressos",
+  "concluintes",
+  "n_ies",
+  "municipios_oferta",
+  "vagas_publicas"
+ ],
+ "anos": {
+  "2023": {
+   "BR": {
+    "vagas_total": 1544,
+    "vagas_presencial": 1244,
+    "vagas_ead": 300,
+    "matriculas": 412,
+    "matriculas_ead": 4,
+    "ingressos": 164,
+    "concluintes": 75,
+    "n_ies": 7,
+    "municipios_oferta": 4,
+    "vagas_publicas": 0
+   },
+   "ufs": {
+    "MG": {
+     "vagas_total": 900,
+     "vagas_presencial": 900,
+     "vagas_ead": 0,
+     "matriculas": 3,
+     "matriculas_ead": 0,
+     "ingressos": 0,
+     "concluintes": 3,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "PR": {
+     "vagas_total": 644,
+     "vagas_presencial": 344,
+     "vagas_ead": 300,
+     "matriculas": 403,
+     "matriculas_ead": 4,
+     "ingressos": 164,
+     "concluintes": 71,
+     "n_ies": 3,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "SP": {
+     "vagas_total": 0,
+     "vagas_presencial": 0,
+     "vagas_ead": 0,
+     "matriculas": 6,
+     "matriculas_ead": 0,
+     "ingressos": 0,
+     "concluintes": 1,
+     "n_ies": 0,
+     "municipios_oferta": 2,
+     "vagas_publicas": 0
+    }
+   }
+  },
+  "2024": {
+   "BR": {
+    "vagas_total": 682,
+    "vagas_presencial": 372,
+    "vagas_ead": 310,
+    "matriculas": 420,
+    "matriculas_ead": 11,
+    "ingressos": 172,
+    "concluintes": 58,
+    "n_ies": 4,
+    "municipios_oferta": 2,
+    "vagas_publicas": 0
+   },
+   "ufs": {
+    "PR": {
+     "vagas_total": 682,
+     "vagas_presencial": 372,
+     "vagas_ead": 310,
+     "matriculas": 420,
+     "matriculas_ead": 11,
+     "ingressos": 172,
+     "concluintes": 58,
+     "n_ies": 3,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "SP": {
+     "vagas_total": 0,
+     "vagas_presencial": 0,
+     "vagas_ead": 0,
+     "matriculas": 0,
+     "matriculas_ead": 0,
+     "ingressos": 0,
+     "concluintes": 0,
+     "n_ies": 0,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    }
+   }
+  }
+ }
+}
