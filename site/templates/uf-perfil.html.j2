@@ -52,6 +52,19 @@
 </div>
 {% endif %}
 
+{% if grafico_serie_uf %}
+<h2 class="section-title">Evolução da capacidade</h2>
+<div class="figura">
+  {{ grafico_serie_uf }}
+  <p class="figura-nota">
+    Vagas somadas de todos os cursos do catálogo no estado, de
+    {{ anos_serie_uf|first }} a {{ anos_serie_uf|last }}. As vagas a distância são
+    registradas na sede da mantenedora — um estado com muitas mantenedoras de EaD
+    aparece grande aqui mesmo que os estudantes estejam em outros estados.
+  </p>
+</div>
+{% endif %}
+
 {% if fluxo %}
 <h2 class="section-title">Trajetória dos estudantes</h2>
 <p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:14px">

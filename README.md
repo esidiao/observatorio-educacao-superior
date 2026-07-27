@@ -30,6 +30,7 @@ etl/                 Pipeline (Python)
   igc.py             Índice Geral de Cursos do INEP, por instituição
   fluxo.py           Evasão, conclusão e retenção por coorte (INEP)
   capes.py           Pós-graduação stricto sensu e conceitos CAPES
+  emec.py            Conceito Institucional e credenciamento — exige chave de API
   malha.py           Baixa e versiona a malha do IBGE (UFs e centroides)
   ingestao.py        Microdados do Censo → agregados por curso/UF/município
   qualidade.py       Planilha CPC/ENADE → conceitos por curso/UF
@@ -473,3 +474,39 @@ O índice de municípios (`municipios.html`) fechou uma lacuna de navegação: a
 1.119 páginas municipais existiam desde antes, mas só eram alcançáveis descendo
 pela página da UF. A numeração da lista é recalculada a cada filtro — deixar o
 número original faria a lista filtrada começar em "37", como se faltassem itens.
+
+## e-MEC: pronto, aguardando chave
+
+`etl/emec.py` está escrito e aguarda apenas a credencial. O Portal Brasileiro de
+Dados Abertos exige chave por requisição, no header `chave-api-dados-abertos`, e a
+chave é **pessoal** — vinculada a um cadastro. Obtenha em
+[dados.gov.br](https://dados.gov.br), área "Minha Conta", e exporte na sessão:
+
+```bash
+export DADOS_GOV_API_KEY="sua-chave"
+python etl/emec.py --listar    # inspeciona conjunto, recursos e colunas
+python etl/emec.py             # ingere para data/emec.json
+```
+
+**A chave nunca entra no repositório.** É lida só de variável de ambiente, e
+`tests/test_seguranca.py` reprova o build se algo com cara de credencial aparecer
+no código. O repositório é público: chave commitada fica no histórico para sempre,
+e removê-la do HEAD não a apaga de lá — o remédio seria reescrever o histórico e
+rotacionar a chave.
+
+**Por que existe o modo `--listar`.** Não foi possível conferir o esquema do
+conjunto antes de escrever o ETL, porque a API exige chave. Em vez de assumir
+nomes de coluna e arriscar casar o campo errado em silêncio, o script mostra o que
+veio e o mapeamento que encontrou; só depois de conferir é que se ingere. Se a
+coluna de código da IES não aparecer, ele **para** em vez de cair para casamento
+por nome — heurística de nome é exatamente o que este projeto recusa.
+
+## Séries por estado
+
+Os painéis estaduais ganharam a evolução da capacidade, 2016–2024. O dado já
+existia: `serie.json` sempre trouxe o recorte por UF, e faltava somá-lo entre
+cursos — o que o build faz no mesmo laço que já lê cada arquivo.
+
+Uma ressalva que a página carrega: as vagas EaD são registradas na sede da
+mantenedora. Um estado com muitas mantenedoras de ensino a distância aparece
+grande nessa série mesmo que os estudantes estejam espalhados por outros estados.

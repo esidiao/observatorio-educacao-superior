@@ -118,6 +118,37 @@ def test_sem_rastreamento():
                               f"privacidade.html")
 
 
+def test_sem_credencial_versionada():
+    """Chave de API não pode entrar no repositório.
+
+    Este repositório é público: uma chave commitada fica no histórico para
+    sempre, e removê-la do HEAD não a apaga de lá — o remédio seria reescrever
+    o histórico e rotacionar a chave. Melhor nunca deixar entrar.
+    """
+    padroes = [
+        (re.compile(r"DADOS_GOV_API_KEY\s*=\s*['\"][^'\"]{8,}"), "chave do dados.gov.br"),
+        (re.compile(r"chave-api-dados-abertos['\"]?\s*[:=]\s*['\"][^'\"]{8,}"), "header com chave"),
+        (re.compile(r"(?i)(api[_-]?key|secret|token|senha|password)\s*[:=]\s*['\"][A-Za-z0-9_\-]{16,}"),
+         "credencial literal"),
+    ]
+    alvos = list((REPO / "etl").glob("*.py")) + list((REPO / "site").glob("*.py"))         + list((REPO / "tests").glob("*.py")) + list(STATIC.glob("**/*.js"))         + list(TEMPLATES.glob("*.j2")) + list((REPO / ".github").glob("**/*.yml"))
+    # Exemplos de uso na documentação usam valor obviamente fictício. Ignorar
+    # esses casos mantém o teste útil: um teste que grita em falso é desligado,
+    # e aí deixa de proteger de verdade.
+    marcadores = ("sua-chave", "sua_chave", "your-key", "your_key", "exemplo",
+                  "coloque", "xxxx", "<", "trocar", "changeme")
+    for arq in alvos:
+        texto = arq.read_text(encoding="utf-8")
+        for padrao, rotulo in padroes:
+            for achado in padrao.finditer(texto):
+                trecho = achado.group(0).lower()
+                if any(m in trecho for m in marcadores):
+                    continue
+                falhas.append(f"{arq.name}: {rotulo} aparentemente literal no código "
+                              f"— use variável de ambiente")
+                break
+
+
 def test_acessibilidade_base():
     base = (TEMPLATES / "base.html.j2").read_text(encoding="utf-8")
     checar('lang="pt-BR"' in base, "sem lang=\"pt-BR\" no <html>")
@@ -168,6 +199,7 @@ def main():
     test_csp()
     test_sem_recursos_externos()
     test_sem_rastreamento()
+    test_sem_credencial_versionada()
     test_acessibilidade_base()
     test_contraste_tokens()
 

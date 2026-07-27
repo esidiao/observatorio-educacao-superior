@@ -11,3 +11,8 @@ desktop.ini
 # gitignore diferencia caixa.
 .censo-tmp/
 *.csv
+
+# Credenciais: a chave do dados.gov.br é pessoal e o repositório é público.
+.env
+*.key
+segredos.json

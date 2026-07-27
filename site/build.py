@@ -350,6 +350,8 @@ def main():
     # Série nacional: soma dos cursos, ano a ano. Feita na passagem pelo laço,
     # que já lê cada serie.json — evita uma segunda varredura de 353 arquivos.
     serie_brasil = {}
+    # Mesma soma, quebrada por UF: alimenta a série dos painéis estaduais.
+    serie_por_uf = {}
     ufs_disponiveis, agregado = set(), {"vagas_total": 0, "matriculas": 0, "n_cursos": 0}
     pulados = []
 
@@ -381,6 +383,12 @@ def main():
                           "vagas_ead": 0, "matriculas": 0})
                 for campo in alvo:
                     alvo[campo] += dados["BR"].get(campo) or 0
+                for sigla, d in (dados.get("ufs") or {}).items():
+                    alvo_uf = serie_por_uf.setdefault(sigla, {}).setdefault(
+                        ano, {"vagas_total": 0, "vagas_presencial": 0,
+                              "vagas_ead": 0, "matriculas": 0})
+                    for campo in alvo_uf:
+                        alvo_uf[campo] += d.get(campo) or 0
         top_todas_ies = ies_do_curso(instituicoes, c["slug"], limite=None)
         top_ies = top_todas_ies[:10]
 
@@ -642,6 +650,20 @@ def main():
                 titulo=f"Municípios de {NOME_UF[sigla]} com oferta presencial",
                 descricao="Círculos proporcionais às vagas presenciais somadas.",
                 contorno_ufs={sigla: malha_ufs[sigla]}))
+        serie_uf = serie_por_uf.get(sigla, {})
+        grafico_serie_uf = ""
+        if len(serie_uf) >= 2:
+            anos_uf = sorted(serie_uf)
+            grafico_serie_uf = Markup(serie_temporal(
+                anos_uf,
+                [{"nome": "Vagas presenciais",
+                  "valores": [serie_uf[a]["vagas_presencial"] for a in anos_uf]},
+                 {"nome": "Vagas a distancia",
+                  "valores": [serie_uf[a]["vagas_ead"] for a in anos_uf]}],
+                titulo=f"Capacidade presencial e a distancia em {NOME_UF[sigla]}",
+                descricao=("Vagas somadas de todos os cursos do catalogo no estado, "
+                           "por edicao do Censo.")))
+
         fluxo_uf = (fluxo.get("ufs") or {}).get(sigla, {})
         grafico_fluxo = ""
         if fluxo_uf:
@@ -667,6 +689,8 @@ def main():
         html = tpl_uf_perfil.render(
             **ctx_base, depth="../", curso_atual=None, sigla=sigla,
             fluxo=fluxo_uf, grafico_fluxo=grafico_fluxo,
+            grafico_serie_uf=grafico_serie_uf,
+            anos_serie_uf=sorted(serie_uf),
             coortes_fluxo=sorted(fluxo_uf),
             nome_uf=NOME_UF[sigla], u=u, municipios=muns, mapa=mapa,
             n_cursos_uf=len(u["cursos"]),
