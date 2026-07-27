@@ -116,6 +116,302 @@
     }
    }
   },
+  "2018": {
+   "BR": {
+    "vagas_total": 223,
+    "vagas_presencial": 223,
+    "vagas_ead": 0,
+    "matriculas": 334,
+    "matriculas_ead": 0,
+    "ingressos": 72,
+    "concluintes": 26,
+    "n_ies": 6,
+    "municipios_oferta": 5,
+    "vagas_publicas": 168
+   },
+   "ufs": {
+    "CE": {
+     "vagas_total": 39,
+     "vagas_presencial": 39,
+     "vagas_ead": 0,
+     "matriculas": 89,
+     "matriculas_ead": 0,
+     "ingressos": 26,
+     "concluintes": 5,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 39
+    },
+    "RJ": {
+     "vagas_total": 26,
+     "vagas_presencial": 26,
+     "vagas_ead": 0,
+     "matriculas": 124,
+     "matriculas_ead": 0,
+     "ingressos": 10,
+     "concluintes": 8,
+     "n_ies": 2,
+     "municipios_oferta": 1,
+     "vagas_publicas": 26
+    },
+    "RS": {
+     "vagas_total": 158,
+     "vagas_presencial": 158,
+     "vagas_ead": 0,
+     "matriculas": 121,
+     "matriculas_ead": 0,
+     "ingressos": 36,
+     "concluintes": 13,
+     "n_ies": 2,
+     "municipios_oferta": 3,
+     "vagas_publicas": 103
+    }
+   }
+  },
+  "2019": {
+   "BR": {
+    "vagas_total": 253,
+    "vagas_presencial": 253,
+    "vagas_ead": 0,
+    "matriculas": 350,
+    "matriculas_ead": 0,
+    "ingressos": 100,
+    "concluintes": 35,
+    "n_ies": 6,
+    "municipios_oferta": 5,
+    "vagas_publicas": 195
+   },
+   "ufs": {
+    "CE": {
+     "vagas_total": 44,
+     "vagas_presencial": 44,
+     "vagas_ead": 0,
+     "matriculas": 88,
+     "matriculas_ead": 0,
+     "ingressos": 24,
+     "concluintes": 7,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 44
+    },
+    "RJ": {
+     "vagas_total": 48,
+     "vagas_presencial": 48,
+     "vagas_ead": 0,
+     "matriculas": 131,
+     "matriculas_ead": 0,
+     "ingressos": 21,
+     "concluintes": 14,
+     "n_ies": 2,
+     "municipios_oferta": 1,
+     "vagas_publicas": 48
+    },
+    "RS": {
+     "vagas_total": 161,
+     "vagas_presencial": 161,
+     "vagas_ead": 0,
+     "matriculas": 131,
+     "matriculas_ead": 0,
+     "ingressos": 55,
+     "concluintes": 14,
+     "n_ies": 2,
+     "municipios_oferta": 3,
+     "vagas_publicas": 103
+    }
+   }
+  },
+  "2020": {
+   "BR": {
+    "vagas_total": 236,
+    "vagas_presencial": 236,
+    "vagas_ead": 0,
+    "matriculas": 436,
+    "matriculas_ead": 0,
+    "ingressos": 140,
+    "concluintes": 29,
+    "n_ies": 7,
+    "municipios_oferta": 6,
+    "vagas_publicas": 182
+   },
+   "ufs": {
+    "CE": {
+     "vagas_total": 34,
+     "vagas_presencial": 34,
+     "vagas_ead": 0,
+     "matriculas": 82,
+     "matriculas_ead": 0,
+     "ingressos": 23,
+     "concluintes": 7,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 34
+    },
+    "PR": {
+     "vagas_total": 18,
+     "vagas_presencial": 18,
+     "vagas_ead": 0,
+     "matriculas": 62,
+     "matriculas_ead": 0,
+     "ingressos": 17,
+     "concluintes": 6,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 18
+    },
+    "RJ": {
+     "vagas_total": 57,
+     "vagas_presencial": 57,
+     "vagas_ead": 0,
+     "matriculas": 155,
+     "matriculas_ead": 0,
+     "ingressos": 53,
+     "concluintes": 11,
+     "n_ies": 2,
+     "municipios_oferta": 1,
+     "vagas_publicas": 57
+    },
+    "RS": {
+     "vagas_total": 127,
+     "vagas_presencial": 127,
+     "vagas_ead": 0,
+     "matriculas": 137,
+     "matriculas_ead": 0,
+     "ingressos": 47,
+     "concluintes": 5,
+     "n_ies": 2,
+     "municipios_oferta": 3,
+     "vagas_publicas": 73
+    }
+   }
+  },
+  "2021": {
+   "BR": {
+    "vagas_total": 216,
+    "vagas_presencial": 216,
+    "vagas_ead": 0,
+    "matriculas": 425,
+    "matriculas_ead": 0,
+    "ingressos": 112,
+    "concluintes": 30,
+    "n_ies": 7,
+    "municipios_oferta": 6,
+    "vagas_publicas": 159
+   },
+   "ufs": {
+    "CE": {
+     "vagas_total": 20,
+     "vagas_presencial": 20,
+     "vagas_ead": 0,
+     "matriculas": 87,
+     "matriculas_ead": 0,
+     "ingressos": 19,
+     "concluintes": 3,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 20
+    },
+    "PR": {
+     "vagas_total": 17,
+     "vagas_presencial": 17,
+     "vagas_ead": 0,
+     "matriculas": 55,
+     "matriculas_ead": 0,
+     "ingressos": 13,
+     "concluintes": 2,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 17
+    },
+    "RJ": {
+     "vagas_total": 51,
+     "vagas_presencial": 51,
+     "vagas_ead": 0,
+     "matriculas": 149,
+     "matriculas_ead": 0,
+     "ingressos": 31,
+     "concluintes": 5,
+     "n_ies": 2,
+     "municipios_oferta": 1,
+     "vagas_publicas": 51
+    },
+    "RS": {
+     "vagas_total": 128,
+     "vagas_presencial": 128,
+     "vagas_ead": 0,
+     "matriculas": 134,
+     "matriculas_ead": 0,
+     "ingressos": 49,
+     "concluintes": 20,
+     "n_ies": 2,
+     "municipios_oferta": 3,
+     "vagas_publicas": 71
+    }
+   }
+  },
+  "2022": {
+   "BR": {
+    "vagas_total": 255,
+    "vagas_presencial": 255,
+    "vagas_ead": 0,
+    "matriculas": 376,
+    "matriculas_ead": 0,
+    "ingressos": 97,
+    "concluintes": 50,
+    "n_ies": 7,
+    "municipios_oferta": 6,
+    "vagas_publicas": 198
+   },
+   "ufs": {
+    "CE": {
+     "vagas_total": 33,
+     "vagas_presencial": 33,
+     "vagas_ead": 0,
+     "matriculas": 85,
+     "matriculas_ead": 0,
+     "ingressos": 21,
+     "concluintes": 8,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 33
+    },
+    "PR": {
+     "vagas_total": 15,
+     "vagas_presencial": 15,
+     "vagas_ead": 0,
+     "matriculas": 54,
+     "matriculas_ead": 0,
+     "ingressos": 15,
+     "concluintes": 21,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 15
+    },
+    "RJ": {
+     "vagas_total": 51,
+     "vagas_presencial": 51,
+     "vagas_ead": 0,
+     "matriculas": 133,
+     "matriculas_ead": 0,
+     "ingressos": 25,
+     "concluintes": 10,
+     "n_ies": 2,
+     "municipios_oferta": 1,
+     "vagas_publicas": 51
+    },
+    "RS": {
+     "vagas_total": 156,
+     "vagas_presencial": 156,
+     "vagas_ead": 0,
+     "matriculas": 104,
+     "matriculas_ead": 0,
+     "ingressos": 36,
+     "concluintes": 11,
+     "n_ies": 2,
+     "municipios_oferta": 3,
+     "vagas_publicas": 99
+    }
+   }
+  },
   "2023": {
    "BR": {
     "vagas_total": 248,

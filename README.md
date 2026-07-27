@@ -25,6 +25,7 @@ etl/                 Pipeline (Python)
   indices.py         Fórmulas canônicas + portão de qualidade (GO gate)
   catalogo.py        Microdados → data/cursos.json (todos os rótulos CINE)
   serie.py           Acumula uma edição do Censo na série histórica por curso
+  baixar_censo.py    Baixa edições do INEP e alimenta a série (um ano por vez)
   instituicoes.py    Camada institucional (IES, organização, corpo docente)
   malha.py           Baixa e versiona a malha do IBGE (UFs e centroides)
   ingestao.py        Microdados do Censo → agregados por curso/UF/município
@@ -239,7 +240,21 @@ zero.
 
 ## Série histórica: o que ela não autoriza dizer
 
-A série cobre as edições do Censo já ingeridas (hoje 2023 e 2024). Ela mostra
+A série cobre **2016 a 2024**, nove edições do Censo. Para estendê-la ou
+reconstruí-la:
+
+```bash
+python etl/baixar_censo.py --anos 2016 2017 2018 2019 2020 2021 2022
+```
+
+O script pega uma edição por vez, extrai só os dois CSVs necessários, alimenta a
+série e descarta — sem o descarte, nove edições ocupariam mais de um giga em disco
+para produzir treze megabytes de série. Dá para voltar até 2016 porque o INEP
+reclassificou as edições antigas na CINE e republicou, então o match exato de
+rótulo vale para trás sem gambiarra. (2015 responde de forma instável no servidor
+do INEP; quando entrar, é só rodar o comando com `--anos 2015`.)
+
+Ela mostra
 **variação de estoque**, e isso não é evasão. O Censo é um retrato anual: a
 diferença de matrículas entre dois anos mistura quem entrou, saiu, trancou e
 concluiu, sem acompanhar os mesmos estudantes. Evasão e permanência exigem coorte
@@ -286,3 +301,19 @@ completos e a série histórica. Sem chave, sem cota, sem cadastro.
 Não é uma API dinâmica — não há parâmetro de consulta nem paginação. Em troca,
 nada quebra, nada tem limite de requisição e tudo é reproduzível: o conteúdo de
 cada endereço só muda quando o observatório é reconstruído.
+
+### Três armadilhas da série, e como estão tratadas
+
+**Base zero.** Curso que não tinha EaD e passou a ter não gera variação
+percentual — gera uma data de início. "Cresceu 28.600%" é pior que não dizer
+nada; a leitura automática diz que não existia, em que ano apareceu e onde
+chegou.
+
+**Ano ausente.** Rótulo CINE que não existe numa edição vira ponto ausente, nunca
+zero, e a linha do gráfico só liga anos consecutivos com dado. Uma linha única
+atravessando o buraco desenharia uma tendência que ninguém mediu.
+
+**Estrutura da EaD.** Verificado que a separação sede/polo é a mesma desde 2016 —
+sede sem UF carrega as vagas, polo com UF tem zero. Sem essa checagem, um ano cujo
+arquivo tivesse outra estrutura apareceria com EaD zerada e produziria um
+crescimento inteiramente falso.

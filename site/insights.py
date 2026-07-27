@@ -76,12 +76,24 @@ def do_curso(nome, total, ufs, serie=None, top_ies=None):
                           f"sentidos opostos.")
             frases.append(_frase(frase, "atencao" if var_vagas > 15 else "neutro"))
 
-        var_ead = _variacao(a.get("vagas_ead"), b.get("vagas_ead"))
+        ead_antes, ead_depois = a.get("vagas_ead") or 0, b.get("vagas_ead") or 0
+        var_ead = _variacao(ead_antes, ead_depois)
         if var_ead is not None and abs(var_ead) >= 5:
             verbo = "avançou" if var_ead > 0 else "recuou"
             frases.append(_frase(
                 f"A capacidade a distância {verbo} {_pct(abs(var_ead))} de "
                 f"{primeiro} para {ultimo}."))
+        elif not ead_antes and ead_depois >= 1000:
+            # Partir do zero não tem variação percentual — tem uma data de início.
+            # Dizer "cresceu 28.600%" seria pior que não dizer nada; dizer que não
+            # existia e passou a existir é o fato, e costuma ser o mais importante
+            # da série inteira.
+            estreia = next((ano for ano in anos
+                            if (serie["anos"][ano]["BR"].get("vagas_ead") or 0) > 0), None)
+            frases.append(_frase(
+                f"Não havia oferta a distância de {nome} em {primeiro}"
+                + (f"; ela aparece em {estreia} " if estreia else "; ")
+                + f"e chega a {_milhar(ead_depois)} vagas em {ultimo}.", "atencao"))
 
     # ── Modalidade ───────────────────────────────────────────────────────────
     pct_ead = total.get("pct_ead")

@@ -5,3 +5,9 @@ __pycache__/
 desktop.ini
 *.CSV
 *.zip
+
+# Área de trabalho de etl/baixar_censo.py: zips e CSVs de centenas de MB.
+# O padrão *.CSV não bastava — os arquivos extraídos saem em minúsculas, e
+# gitignore diferencia caixa.
+.censo-tmp/
+*.csv
