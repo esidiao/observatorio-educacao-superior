@@ -1031,3 +1031,12 @@ main:focus { outline: none; }
 .leitura.atencao::marker { color: var(--gold-texto); }
 .leitura.sem-dado { color: var(--text-muted); font-style: normal; }
 .leitura.sem-dado::marker { color: var(--nodata-texto); }
+
+/* Subtítulo da entidade nas tabelas de comparação (região, rede, UF). */
+.comp-sub {
+  display: block;
+  font-size: 0.72rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  margin-top: 2px;
+}

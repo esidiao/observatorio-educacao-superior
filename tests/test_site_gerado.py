@@ -117,6 +117,24 @@ def test_paineis_territoriais_e_institucionais():
     checar(len(ufs) == 27, f"{len(ufs)} painéis estaduais (esperados 27)")
 
 
+def test_comparacoes_e_indices():
+    """As três comparações e os índices navegáveis."""
+    for nome in ("comparar-cursos.html", "comparar-estados.html",
+                 "comparar-instituicoes.html", "municipios.html",
+                 "static/js/comparaveis-estados.js",
+                 "static/js/comparaveis-instituicoes.js"):
+        checar((DIST / nome).exists(), f"{nome} não foi gerado")
+
+    # Todo município listado no índice precisa ter página — senão o índice
+    # oferece links para o vazio, que é pior que não listar.
+    indice = DIST / "municipios.html"
+    if indice.exists():
+        alvos = re.findall(r'href="municipio/([^"]+)"', indice.read_text(encoding="utf-8"))
+        faltando = [a for a in alvos if not (DIST / "municipio" / a).exists()]
+        checar(not faltando,
+               f"{len(faltando)} municípios listados sem página: {faltando[:5]}")
+
+
 def test_404_com_caminhos_absolutos():
     """O 404 é servido para qualquer endereço, inclusive profundo.
 
@@ -147,6 +165,7 @@ def main():
     test_csp_publicada()
     test_dados_embutidos_nao_fecham_script()
     test_paineis_territoriais_e_institucionais()
+    test_comparacoes_e_indices()
     test_404_com_caminhos_absolutos()
 
     if falhas:

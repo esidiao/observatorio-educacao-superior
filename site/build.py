@@ -738,6 +738,109 @@ def main():
     (DIST / "instituicoes.html").write_text(html, encoding="utf-8")
     print("[OK] instituicoes.html")
 
+    # ── Comparação entre estados e entre instituições ────────────────────────
+    # Um script genérico serve os dois: a necessidade é a mesma (escolher itens,
+    # escolher campos, ver tabela e barras), e duas cópias divergiriam.
+    def publicar_comparaveis(nome_arquivo, tipo, rotulo, campos, itens):
+        conteudo = {"tipo": tipo, "rotulo_entidade": rotulo,
+                    "campos": campos, "itens": itens}
+        (DIST / "static" / "js" / nome_arquivo).write_text(
+            "window.COMPARAVEIS=" + json.dumps(conteudo, ensure_ascii=False,
+                                               separators=(",", ":")) + ";",
+            encoding="utf-8")
+
+    campos_uf = [
+        {"k": "vagas_total", "rotulo": "Vagas"},
+        {"k": "vagas_presencial", "rotulo": "Vagas presenciais"},
+        {"k": "vagas_ead", "rotulo": "Vagas EaD"},
+        {"k": "matriculas", "rotulo": "Matrículas presenciais"},
+        {"k": "n_ies", "rotulo": "Instituições"},
+        {"k": "municipios_oferta", "rotulo": "Municípios com oferta"},
+        {"k": "municipios_deserto", "rotulo": "Municípios sem oferta"},
+        {"k": "vagas_por_100k", "rotulo": "Vagas / 100 mil hab.", "casas": 1},
+        {"k": "pct_ead", "rotulo": "% EaD", "casas": 1, "unidade": "%"},
+        {"k": "evasao", "rotulo": "Evasão (coorte)", "casas": 1, "unidade": "%"},
+        {"k": "conclusao", "rotulo": "Conclusão (coorte)", "casas": 1, "unidade": "%"},
+        {"k": "retencao", "rotulo": "Retenção (coorte)", "casas": 1, "unidade": "%"},
+    ]
+    itens_uf = []
+    for u in lista_ufs:
+        sigla = u["sigla"]
+        do_fluxo = (fluxo.get("ufs") or {}).get(sigla, {})
+        ultima = sorted(do_fluxo)[-1] if do_fluxo else None
+        linha = []
+        for c in campos_uf:
+            if c["k"] in ("evasao", "conclusao", "retencao"):
+                reg = (do_fluxo.get(ultima) or {}).get(c["k"]) if ultima else None
+                linha.append(reg.get("total") if reg else None)
+            else:
+                linha.append(u.get(c["k"]))
+        itens_uf.append({"id": sigla, "nome": u["nome"], "sub": u.get("regiao"),
+                         "url": f"uf/{sigla}.html", "v": linha})
+    publicar_comparaveis("comparaveis-estados.js", "estados", "Estado",
+                         campos_uf, itens_uf)
+    html = env.get_template("comparar-entidades.html.j2").render(
+        **ctx_base, depth="", curso_atual=None,
+        titulo="Comparar estados",
+        descricao=("Confronte unidades federativas em capacidade, alcance "
+                   "territorial e trajetória dos estudantes."),
+        ressalva=("Índices por curso — ICT, IAF, HHI — não entram: são definidos "
+                  "curso a curso, e a média deles entre cursos diferentes não "
+                  "significa nada. As taxas de coorte são da última publicada."),
+        rotulo_entidade="Estados", arquivo_dados="comparaveis-estados.js")
+    (DIST / "comparar-estados.html").write_text(html, encoding="utf-8")
+    print(f"[OK] comparar-estados.html — {len(itens_uf)} estados")
+
+    campos_ies = [
+        {"k": "matriculas", "rotulo": "Matrículas"},
+        {"k": "vagas", "rotulo": "Vagas"},
+        {"k": "vagas_presencial", "rotulo": "Vagas presenciais"},
+        {"k": "vagas_ead", "rotulo": "Vagas EaD"},
+        {"k": "n_cursos_catalogo", "rotulo": "Cursos acompanhados"},
+        {"k": "municipios", "rotulo": "Municípios com oferta"},
+        {"k": "docentes", "rotulo": "Docentes"},
+        {"k": "pct_doutores", "rotulo": "% Doutores", "casas": 1, "unidade": "%"},
+        {"k": "pct_regime_integral", "rotulo": "% Regime integral", "casas": 1,
+         "unidade": "%"},
+        {"k": "alunos_por_docente", "rotulo": "Alunos por docente", "casas": 1},
+        {"k": "igc_continuo", "rotulo": "IGC (1–5)", "casas": 2},
+        {"k": "pos_programas", "rotulo": "Programas de pós"},
+        {"k": "pos_conceito_medio", "rotulo": "Conceito CAPES (1–7)", "casas": 2},
+    ]
+    itens_ies = []
+    for i in lista_ies:
+        sub = " · ".join(x for x in (i.get("organizacao"), i.get("rede"),
+                                     i.get("uf_sede")) if x)
+        itens_ies.append({
+            "id": i["co_ies"], "nome": i["nome"], "sub": sub,
+            "url": f"instituicao/{i['co_ies']}.html",
+            "v": [i.get(c["k"]) for c in campos_ies],
+        })
+    publicar_comparaveis("comparaveis-instituicoes.js", "instituicoes",
+                         "Instituição", campos_ies, itens_ies)
+    html = env.get_template("comparar-entidades.html.j2").render(
+        **ctx_base, depth="", curso_atual=None,
+        titulo="Comparar instituições",
+        descricao=("Confronte instituições em capacidade, corpo docente, avaliação "
+                   "e pós-graduação."),
+        ressalva=("Escalas não se misturam: o IGC vai de 1 a 5 e o conceito CAPES "
+                  "de 1 a 7, sobre objetos diferentes. Corpo docente e IGC são da "
+                  "instituição inteira, nunca de um curso. Ausência de IGC significa "
+                  "não avaliada; ausência de pós significa que não há programa."),
+        rotulo_entidade="Instituições", arquivo_dados="comparaveis-instituicoes.js")
+    (DIST / "comparar-instituicoes.html").write_text(html, encoding="utf-8")
+    print(f"[OK] comparar-instituicoes.html — {len(itens_ies)} instituições")
+
+    # ── Índice de municípios ─────────────────────────────────────────────────
+    lista_mun = sorted(acumulado.municipios.values(),
+                       key=lambda m: -m["vagas_total"])
+    html = env.get_template("municipios.html.j2").render(
+        **ctx_base, depth="", curso_atual=None, municipios=lista_mun,
+        total=len(lista_mun),
+        ufs=sorted({m["uf"] for m in lista_mun}))
+    (DIST / "municipios.html").write_text(html, encoding="utf-8")
+    print(f"[OK] municipios.html — {len(lista_mun)} municípios")
+
     # ── Rankings ─────────────────────────────────────────────────────────────
     por_slug = {r["slug"]: r for r in resumo}
     listas = agregados.rankings(instituicoes, acumulado.ufs, acumulado.municipios,

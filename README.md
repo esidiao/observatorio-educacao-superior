@@ -456,3 +456,20 @@ Ou seja: a barreira é de credencial, não de inexistência. Obter chave de API 
 decisão de quem mantém o observatório, porque a chave fica vinculada a uma
 identidade. Enquanto isso, CI e credenciamento seguem declarados como ausentes nas
 páginas — o que continua correto.
+
+## Três comparações, um script
+
+O site compara cursos, estados e instituições. A comparação de cursos nasceu antes
+e tem lógica própria — recorte territorial, presets de indicador. As outras duas
+têm exatamente a mesma necessidade (escolher itens, escolher campos, ver tabela e
+barras), então usam um único script parametrizado por
+`window.COMPARAVEIS`. Duas cópias quase idênticas divergiriam na primeira correção.
+
+O que **não** entra na comparação entre estados: ICT, IAF e HHI. São índices
+definidos curso a curso, e a média deles entre cursos diferentes não significa
+nada. As taxas de coorte entram, sempre da última publicada.
+
+O índice de municípios (`municipios.html`) fechou uma lacuna de navegação: as
+1.119 páginas municipais existiam desde antes, mas só eram alcançáveis descendo
+pela página da UF. A numeração da lista é recalculada a cada filtro — deixar o
+número original faria a lista filtrada começar em "37", como se faltassem itens.
