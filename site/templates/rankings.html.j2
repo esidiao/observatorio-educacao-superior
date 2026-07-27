@@ -1,0 +1,84 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Rankings — Observatório Nacional da Educação Superior{% endblock %}
+{% block meta_description %}Listas ordenadas de instituições, estados, municípios e cursos por matrículas, vagas, alcance territorial e titulação docente, com a régua de cada ordenação declarada.{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<span class="active">Rankings</span>
+{% endblock %}
+
+{% block content %}
+
+<h1 class="section-title" style="margin-bottom:6px">Rankings</h1>
+<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:8px">
+  Cada lista declara <strong>por qual campo ordena</strong>. Isso não é formalidade:
+  ranking sem régua explícita é a forma mais fácil de enganar com dado verdadeiro —
+  "a maior universidade do país" muda inteiramente conforme a régua seja matrícula,
+  vaga, número de cursos ou corpo docente, e as quatro respostas são diferentes.
+</p>
+<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:24px">
+  Não há ranking de qualidade agregada, e a ausência é deliberada. Só 28 dos
+  {{ n_cursos }} cursos têm ciclo ENADE publicado; ordenar instituições por uma nota
+  que existe para uma fração da oferta produziria um pódio que diz mais sobre quem foi
+  avaliado do que sobre quem é bom.
+</p>
+
+<nav class="rank-indice" aria-label="Índice de rankings">
+  {% for r in listas %}
+  <a href="#{{ r.id }}">{{ r.titulo }}</a>
+  {% endfor %}
+</nav>
+
+{% for r in listas %}
+<section class="rank-bloco" id="{{ r.id }}">
+  <h2 class="section-title">{{ r.titulo }}</h2>
+  <p class="figura-nota" style="margin:0 0 12px">{{ r.nota }}</p>
+  <div class="tabela-wrap">
+    <table>
+      <caption class="sr-only">{{ r.titulo }} — {{ r.nota }}</caption>
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">{{ r.rotulo_item }}</th>
+          {% if r.tipo == 'ies' %}<th scope="col">Rede</th><th scope="col">UF</th>{% endif %}
+          {% if r.tipo == 'municipio' %}<th scope="col">UF</th>{% endif %}
+          {% if r.tipo == 'curso' %}<th scope="col">Área</th>{% endif %}
+          <th scope="col">{{ r.unidade }}</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for i in r.itens %}
+        <tr>
+          <td style="color:var(--text-muted);width:40px">{{ loop.index }}</td>
+          <th scope="row" style="font-weight:600">
+            {% if i.url %}<a href="{{ depth }}{{ i.url }}">{{ i.rotulo }}</a>
+            {% else %}{{ i.rotulo }}{% endif %}
+          </th>
+          {% if r.tipo == 'ies' %}<td>{{ i.rede or '—' }}</td><td>{{ i.uf_sede or '—' }}</td>{% endif %}
+          {% if r.tipo == 'municipio' %}<td>{{ i.uf }}</td>{% endif %}
+          {% if r.tipo == 'curso' %}<td style="font-size:0.82rem;color:var(--text-muted)">{{ i.area_cine or '—' }}</td>{% endif %}
+          <td>{% if r.casas %}{{ fmt1(i.valor) }}{% else %}{{ milhar(i.valor) }}{% endif %}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</section>
+{% endfor %}
+
+<style>
+.rank-indice {
+  display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px;
+  padding: 12px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.rank-indice a {
+  font-size: 0.78rem; padding: 4px 10px; border: 1px solid var(--border);
+  border-radius: 14px; text-decoration: none; color: var(--navy);
+}
+.rank-indice a:hover { background: var(--accent-soft); border-color: var(--accent); text-decoration: none; }
+.rank-bloco { margin-bottom: 34px; scroll-margin-top: 20px; }
+</style>
+
+{% endblock %}

@@ -47,7 +47,13 @@
     {% block breadcrumb %}{% endblock %}
   </span>
   <span class="nav-menu">
-    <a href="{{ depth }}comparar-cursos.html" style="color:var(--text-muted);font-size:0.82rem">Comparar cursos</a>
+    <a href="{{ depth }}comparar-cursos.html" style="color:var(--text-muted);font-size:0.82rem">Comparar</a>
+    <span class="sep">·</span>
+    <a href="{{ depth }}estados.html" style="color:var(--text-muted);font-size:0.82rem">Estados</a>
+    <span class="sep">·</span>
+    <a href="{{ depth }}instituicoes.html" style="color:var(--text-muted);font-size:0.82rem">Instituições</a>
+    <span class="sep">·</span>
+    <a href="{{ depth }}rankings.html" style="color:var(--text-muted);font-size:0.82rem">Rankings</a>
     <span class="sep">·</span>
     <a href="{{ depth }}metodologia.html" style="color:var(--text-muted);font-size:0.82rem">Metodologia</a>
     <span class="sep">·</span>
@@ -94,7 +100,7 @@
 
 <footer class="site-footer">
   <p>Observatório Nacional da Educação Superior · Fontes: INEP (Censo da Educação Superior {{ versao_censo }} e ENADE/CPC), IBGE</p>
-  <p style="margin-top:6px"><a href="{{ depth }}privacidade.html">Privacidade e dados pessoais</a> · <a href="{{ depth }}metodologia.html">Metodologia</a></p>
+  <p style="margin-top:6px"><a href="{{ depth }}privacidade.html">Privacidade e dados pessoais</a> · <a href="{{ depth }}api.html">Dados abertos</a> · <a href="{{ depth }}metodologia.html">Metodologia</a></p>
   <p style="margin-top:6px;opacity:0.85">
     Nenhum indicador é estimado. Sem fonte para um recorte, o valor aparece como
     <strong>sem dados</strong> — nunca como um número inventado.

@@ -1,0 +1,76 @@
+{% extends "base.html.j2" %}
+
+{% block title %}{{ m.nome }} ({{ m.uf }}) — Observatório Nacional da Educação Superior{% endblock %}
+{% block meta_description %}Educação superior em {{ m.nome }} ({{ m.uf }}): {{ milhar(m.vagas_total) }} vagas presenciais, {{ milhar(m.matriculas) }} matrículas e {{ m.cursos|length }} cursos (Censo INEP {{ versao_censo }}).{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<a href="{{ depth }}uf/{{ m.uf }}.html">{{ nome_uf }}</a>
+<span class="sep">›</span>
+<span class="active">{{ m.nome }}</span>
+{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+  <p class="hero-eyebrow">{{ nome_uf }} · Censo INEP {{ versao_censo }}</p>
+  <h1 class="hero-title">{{ m.nome }}</h1>
+  <p class="hero-lead">
+    Oferta presencial de ensino superior no município. A modalidade a distância não
+    entra aqui: no Censo, as vagas EaD pertencem à sede da mantenedora, não ao polo.
+  </p>
+  <div class="hero-stats">
+    <div class="lede"><span class="lede-num">{{ milhar(m.vagas_total) }}</span><span class="lede-lab">vagas presenciais</span></div>
+    <div class="lede"><span class="lede-num">{{ milhar(m.matriculas) }}</span><span class="lede-lab">matrículas</span></div>
+    <div class="lede"><span class="lede-num">{{ milhar(m.concluintes) }}</span><span class="lede-lab">concluintes</span></div>
+    <div class="lede"><span class="lede-num">{{ m.cursos|length }}</span><span class="lede-lab">cursos distintos</span></div>
+  </div>
+</section>
+
+{% if leituras %}
+<section class="leituras" aria-labelledby="tit-leituras">
+  <h2 class="section-title" id="tit-leituras">Leitura dos números</h2>
+  <ul class="leituras-lista">
+    {% for l in leituras %}<li class="leitura {{ l.tipo }}">{{ l.texto }}</li>{% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if grafico %}
+<h2 class="section-title">Cursos com mais vagas</h2>
+<div class="figura">{{ grafico }}</div>
+{% endif %}
+
+<h2 class="section-title">Todos os cursos no município ({{ m.cursos|length }})</h2>
+<div class="tabela-wrap">
+  <table>
+    <caption class="sr-only">Cursos com oferta presencial em {{ m.nome }}.</caption>
+    <thead>
+      <tr>
+        <th scope="col">#</th><th scope="col">Curso</th>
+        <th scope="col">Vagas</th><th scope="col">Matrículas</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for c in m.cursos %}
+      <tr>
+        <td style="color:var(--text-muted);width:40px">{{ loop.index }}</td>
+        <th scope="row" style="font-weight:600">
+          <a href="{{ depth }}curso/{{ c.slug }}/uf/{{ m.uf }}.html">{{ c.nome }}</a>
+        </th>
+        <td>{{ milhar(c.vagas) }}</td>
+        <td>{{ milhar(c.matriculas) }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<p class="figura-nota">
+  O Censo informa o número de instituições por curso, não a lista de instituições do
+  município. Por isso aqui consta um <strong>piso</strong> de {{ m.n_ies_minimo }}
+  instituição(ões) — o maior valor observado entre os cursos —, e não um total: somar
+  contaria a mesma instituição uma vez por curso que ela oferta.
+</p>
+
+{% endblock %}

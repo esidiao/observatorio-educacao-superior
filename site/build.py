@@ -43,8 +43,9 @@ DIST = SITE / "dist"
 
 import sys
 sys.path.insert(0, str(REPO / "etl"))
-from referencias import NOME_UF  # noqa: E402
+from referencias import CAPITAIS, NOME_UF, REGIAO_UF  # noqa: E402
 
+import agregados  # noqa: E402
 import insights  # noqa: E402
 from graficos import barras, coropletico, pontos_municipais, serie_temporal  # noqa: E402
 
@@ -159,7 +160,7 @@ def ies_do_curso(instituicoes, slug, limite=10):
             "cursos": oferta.get("cursos"),
         })
     lista.sort(key=lambda x: -x["matriculas"])
-    return lista[:limite]
+    return lista[:limite] if limite else lista
 
 
 def carregar_curso(c):
@@ -242,6 +243,7 @@ def main():
     with open(DATA / "cursos.json", encoding="utf-8") as f:
         catalogo = json.load(f)["cursos"]
 
+    acumulado = agregados.Acumulador()
     malha_ufs, centroides = carregar_geo()
     instituicoes = carregar_instituicoes()
     if not malha_ufs:
@@ -280,7 +282,8 @@ def main():
         (destino / "uf").mkdir(parents=True, exist_ok=True)
 
         serie = carregar_serie(c["slug"])
-        top_ies = ies_do_curso(instituicoes, c["slug"])
+        top_todas_ies = ies_do_curso(instituicoes, c["slug"], limite=None)
+        top_ies = top_todas_ies[:10]
 
         mapa = ""
         if malha_ufs:
@@ -330,6 +333,12 @@ def main():
         siglas = sorted(ufs)
         for sigla, d in ufs.items():
             municipios_uf = c["municipios"].get(sigla, [])
+            # Acumula para os painéis territoriais, que somam através dos cursos.
+            acumulado.somar_uf(sigla, c, d, municipios_uf,
+                               {i["co_ies"] for i in top_todas_ies
+                                if sigla in (instituicoes[i["co_ies"]].get("ufs") or [])})
+            for m in municipios_uf:
+                acumulado.somar_municipio(sigla, c, m)
             mapa_uf = ""
             if centroides and municipios_uf:
                 mapa_uf = Markup(pontos_municipais(
@@ -457,6 +466,189 @@ def main():
         **ctx_base, depth=raiz_publica, curso_atual=None, n_cursos=len(resumo))
     (DIST / "404.html").write_text(html, encoding="utf-8")
     print(f"[OK] 404.html (raiz pública {raiz_publica})")
+
+    # ── Painéis territoriais e institucionais ────────────────────────────────
+    acumulado.fechar()
+    for sigla, u in acumulado.ufs.items():
+        u["regiao"] = REGIAO_UF.get(sigla)
+        u["capital"] = CAPITAIS.get(sigla)
+
+    (DIST / "uf").mkdir(parents=True, exist_ok=True)
+    tpl_uf_perfil = env.get_template("uf-perfil.html.j2")
+    for sigla, u in sorted(acumulado.ufs.items()):
+        muns = sorted((m for (s, _), m in acumulado.municipios.items() if s == sigla),
+                      key=lambda m: -m["vagas_total"])
+        mapa = ""
+        if centroides and muns and sigla in malha_ufs:
+            mapa = Markup(pontos_municipais(
+                centroides,
+                [{"nome": m["nome"], "cod_ibge": m.get("cod_ibge"),
+                  "valor": m["vagas_total"]} for m in muns],
+                titulo=f"Municípios de {NOME_UF[sigla]} com oferta presencial",
+                descricao="Círculos proporcionais às vagas presenciais somadas.",
+                contorno_ufs={sigla: malha_ufs[sigla]}))
+        html = tpl_uf_perfil.render(
+            **ctx_base, depth="../", curso_atual=None, sigla=sigla,
+            nome_uf=NOME_UF[sigla], u=u, municipios=muns, mapa=mapa,
+            n_cursos_uf=len(u["cursos"]),
+            grafico_areas=Markup(barras(
+                [{"nome": a, "valor": v} for a, v in u["areas"].items()],
+                titulo=f"Vagas por área do conhecimento em {NOME_UF[sigla]}",
+                descricao="Áreas gerais da classificação CINE.", unidade=" vagas")),
+            leituras=insights.da_uf(NOME_UF[sigla], u))
+        (DIST / "uf" / f"{sigla}.html").write_text(html, encoding="utf-8")
+    print(f"[OK] uf/ — {len(acumulado.ufs)} painéis estaduais")
+
+    lista_ufs = [{**u, "sigla": s, "nome": NOME_UF[s]}
+                 for s, u in acumulado.ufs.items()]
+    lista_ufs.sort(key=lambda u: -u["vagas_total"])
+    mapa_br = ""
+    if malha_ufs:
+        mapa_br = Markup(coropletico(
+            malha_ufs, {s: u["vagas_total"] for s, u in acumulado.ufs.items()},
+            titulo="Vagas por unidade federativa, somando todos os cursos",
+            descricao="Mapa do Brasil colorido pelo total de vagas de cada UF.",
+            unidade=" vagas", nomes_uf=NOME_UF))
+    html = env.get_template("estados.html.j2").render(
+        **ctx_base, depth="", curso_atual=None, ufs=lista_ufs, mapa=mapa_br,
+        n_cursos=len(resumo))
+    (DIST / "estados.html").write_text(html, encoding="utf-8")
+    print("[OK] estados.html")
+
+    (DIST / "municipio").mkdir(parents=True, exist_ok=True)
+    tpl_mun = env.get_template("municipio.html.j2")
+    for (sigla, slug), m in acumulado.municipios.items():
+        html = tpl_mun.render(
+            **ctx_base, depth="../", curso_atual=None, m=m,
+            nome_uf=NOME_UF[sigla],
+            grafico=Markup(barras(
+                [{"nome": c["nome"], "valor": c["vagas"]} for c in m["cursos"]],
+                titulo=f"Cursos com mais vagas em {m['nome']}",
+                descricao="Barras horizontais por vagas presenciais.",
+                unidade=" vagas")),
+            leituras=insights.do_municipio(m["nome"], sigla, m))
+        (DIST / "municipio" / f"{sigla}-{slug}.html").write_text(html, encoding="utf-8")
+    print(f"[OK] municipio/ — {len(acumulado.municipios)} municípios")
+
+    (DIST / "instituicao").mkdir(parents=True, exist_ok=True)
+    tpl_ies = env.get_template("instituicao.html.j2")
+    nome_do_slug = {c["slug"]: c["nome"] for c in catalogo}
+    for co, ies in instituicoes.items():
+        oferta = sorted(
+            ({"slug": s, "nome": nome_do_slug.get(s, s), **v}
+             for s, v in ies.get("oferta", {}).items()),
+            key=lambda x: -(x.get("matriculas") or 0))
+        html = tpl_ies.render(
+            **ctx_base, depth="../", curso_atual=None, ies=ies, oferta=oferta,
+            grafico=Markup(barras(
+                [{"nome": o["nome"], "valor": o["matriculas"]} for o in oferta],
+                titulo=f"Cursos de {ies['nome']} por matrículas",
+                descricao="Barras horizontais por matrículas.",
+                unidade=" matrículas")),
+            leituras=insights.da_instituicao(ies))
+        (DIST / "instituicao" / f"{co}.html").write_text(html, encoding="utf-8")
+    print(f"[OK] instituicao/ — {len(instituicoes)} painéis institucionais")
+
+    lista_ies = sorted(instituicoes.values(), key=lambda i: -(i["matriculas"] or 0))
+    html = env.get_template("instituicoes.html.j2").render(
+        **ctx_base, depth="", curso_atual=None, instituicoes=lista_ies,
+        total=len(lista_ies),
+        organizacoes=sorted({i["organizacao"] for i in lista_ies if i.get("organizacao")}),
+        ufs=sorted({i["uf_sede"] for i in lista_ies if i.get("uf_sede")}))
+    (DIST / "instituicoes.html").write_text(html, encoding="utf-8")
+    print("[OK] instituicoes.html")
+
+    # ── Rankings ─────────────────────────────────────────────────────────────
+    por_slug = {r["slug"]: r for r in resumo}
+    listas = agregados.rankings(instituicoes, acumulado.ufs, acumulado.municipios,
+                                por_slug)
+    for r in listas:
+        r["rotulo_item"] = {"ies": "Instituição", "uf": "Estado",
+                            "municipio": "Município", "curso": "Curso"}[r["tipo"]]
+        itens = []
+        for i in r["itens"]:
+            if r["tipo"] == "ies":
+                item = {"rotulo": i["nome"], "url": f"instituicao/{i['co_ies']}.html",
+                        "rede": i.get("rede"), "uf_sede": i.get("uf_sede")}
+            elif r["tipo"] == "uf":
+                item = {"rotulo": NOME_UF[i["sigla"]], "url": f"uf/{i['sigla']}.html"}
+            elif r["tipo"] == "municipio":
+                item = {"rotulo": i["nome"], "uf": i["uf"],
+                        "url": f"municipio/{i['uf']}-{i['slug']}.html"}
+            else:
+                item = {"rotulo": i["nome"], "url": f"curso/{i['slug']}/index.html",
+                        "area_cine": i.get("area_cine")}
+            item["valor"] = i.get(r["campo"])
+            itens.append(item)
+        r["itens"] = itens
+    html = env.get_template("rankings.html.j2").render(
+        **ctx_base, depth="", curso_atual=None, listas=listas, n_cursos=len(resumo))
+    (DIST / "rankings.html").write_text(html, encoding="utf-8")
+    print(f"[OK] rankings.html — {len(listas)} listas")
+
+    # ── API de dados abertos ─────────────────────────────────────────────────
+    api = DIST / "api" / "v1"
+    (api / "curso").mkdir(parents=True, exist_ok=True)
+    endpoints = []
+
+    def publicar(caminho, dados, descricao):
+        destino = api / caminho
+        destino.parent.mkdir(parents=True, exist_ok=True)
+        destino.write_text(json.dumps(dados, ensure_ascii=False), encoding="utf-8")
+        kb = destino.stat().st_size / 1024
+        endpoints.append({
+            "caminho": f"api/v1/{caminho}",
+            "descricao": descricao,
+            "tamanho": f"{kb / 1024:.1f} MB" if kb > 1024 else f"{kb:.0f} KB",
+        })
+
+    publicar("cursos.json",
+             {"metadados": {"censo": versao_censo, "extracao": data_extracao,
+                            "total": len(resumo)}, "cursos": resumo},
+             "Catálogo com os totais nacionais de cada curso")
+    publicar("estados.json",
+             {"metadados": {"censo": versao_censo, "extracao": data_extracao},
+              "ufs": {s: {k: v for k, v in u.items() if k != "cursos"}
+                      for s, u in acumulado.ufs.items()}},
+             "Totais por unidade federativa, somando todos os cursos")
+    publicar("municipios.json",
+             {"metadados": {"censo": versao_censo, "extracao": data_extracao},
+              "municipios": [{k: v for k, v in m.items() if k != "cursos"}
+                             for m in acumulado.municipios.values()]},
+             "Totais por município com oferta presencial")
+    publicar("instituicoes.json",
+             {"metadados": {"censo": versao_censo, "extracao": data_extracao,
+                            "aviso": ("corpo docente é da instituição inteira, "
+                                      "nunca rateado por curso")},
+              "instituicoes": [{k: v for k, v in i.items() if k != "oferta"}
+                               for i in instituicoes.values()]},
+             "Instituições com organização, categoria e corpo docente")
+    endpoints.append({
+        "caminho": "api/v1/curso/&lt;slug&gt;.json",
+        "descricao": "Indicadores completos de um curso, por UF",
+        "tamanho": "varia",
+    })
+    endpoints.append({
+        "caminho": "api/v1/curso/&lt;slug&gt;/serie.json",
+        "descricao": "Série histórica do curso, por edição do Censo",
+        "tamanho": "varia",
+    })
+    for entrada in catalogo:
+        origem = DATA / "cursos" / entrada["slug"] / "nacional.json"
+        if origem.exists():
+            shutil.copyfile(origem, api / "curso" / f"{entrada['slug']}.json")
+        origem = DATA / "cursos" / entrada["slug"] / "serie.json"
+        if origem.exists():
+            destino = api / "curso" / entrada["slug"] / "serie.json"
+            destino.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copyfile(origem, destino)
+    print(f"[OK] api/v1/ — {len(endpoints)} endpoints documentados")
+
+    html = env.get_template("api.html.j2").render(
+        **ctx_base, depth="", curso_atual=None, endpoints=endpoints,
+        base_exemplo=base_url or "https://exemplo.org")
+    (DIST / "api.html").write_text(html, encoding="utf-8")
+    print("[OK] api.html")
 
     # ── Sitemap e robots ─────────────────────────────────────────────────────
     if base_url:

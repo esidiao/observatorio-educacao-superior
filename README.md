@@ -38,6 +38,7 @@ data/
 site/
   build.py           Gerador estático (Jinja2)
   graficos.py        Mapas e gráficos em SVG, gerados no build
+  agregados.py       Somas entre cursos — painéis de UF e de município
   insights.py        Leituras automáticas por regra — nunca por LLM
   templates/         Páginas
   static/            CSS, JS (INDICADOR_META + GLOSSARIO)
@@ -247,3 +248,41 @@ Enquanto não estiverem, esses indicadores não existem no observatório.
 
 Pelo mesmo motivo o corpo docente aparece só no nível da instituição: o Censo
 informa docentes por IES, não por curso, e ratear seria inventar.
+
+## Painéis territoriais e institucionais
+
+As páginas de curso respondem "onde está este curso". Os painéis respondem o
+contrário:
+
+- `estados.html` e `uf/<UF>.html` — o que existe no estado somando os 353 cursos;
+- `municipio/<UF>-<slug>.html` — os 1.119 municípios com oferta presencial;
+- `instituicoes.html` e `instituicao/<código>.html` — as 2.561 IES;
+- `rankings.html` — 12 listas, cada uma declarando por qual campo ordena.
+
+Três coisas **não somam** entre cursos e são tratadas à parte: número de IES e de
+municípios (a mesma instituição e o mesmo município aparecem em vários cursos, e
+somar os contaria repetidamente — guarda-se o conjunto e conta-se no fim), e os
+índices ICT, IAF e HHI, que são definidos por curso. Média de HHI de Medicina com
+HHI de Pedagogia não significa nada: são mercados diferentes. Por isso os painéis
+territoriais não os exibem, e a página do curso continua sendo o lugar deles.
+
+Na página de município aparece um **piso** de instituições, não um total: o Censo
+informa quantas IES ofertam cada curso ali, não quais. Somar contaria a mesma
+instituição uma vez por curso que ela oferta.
+
+Rankings sempre declaram a régua. Não é formalidade: "a maior universidade do
+país" tem quatro respostas diferentes conforme a régua seja matrícula, vaga,
+número de cursos ou corpo docente. E não há ranking de qualidade agregada — só 28
+dos 353 cursos têm ciclo ENADE publicado, e ordenar instituições por uma nota que
+existe para uma fração da oferta produziria um pódio que diz mais sobre quem foi
+avaliado do que sobre quem é bom.
+
+## Dados abertos
+
+`api.html` documenta endpoints JSON estáticos em `api/v1/`: catálogo de cursos,
+totais por UF e por município, camada institucional e, por curso, os indicadores
+completos e a série histórica. Sem chave, sem cota, sem cadastro.
+
+Não é uma API dinâmica — não há parâmetro de consulta nem paginação. Em troca,
+nada quebra, nada tem limite de requisição e tudo é reproduzível: o conteúdo de
+cada endereço só muda quando o observatório é reconstruído.

@@ -1,0 +1,123 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Educação superior em {{ nome_uf }} ({{ sigla }}) — Observatório Nacional{% endblock %}
+{% block meta_description %}Panorama da educação superior em {{ nome_uf }}: {{ milhar(u.vagas_total) }} vagas, {{ u.n_ies }} instituições, {{ u.municipios_oferta }} municípios com oferta presencial e distribuição por área do conhecimento (Censo INEP {{ versao_censo }}).{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<a href="{{ depth }}uf/index.html">Estados</a>
+<span class="sep">›</span>
+<span class="active">{{ nome_uf }}</span>
+{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+  <p class="hero-eyebrow">{{ u.regiao or '' }} · capital {{ u.capital or '' }} · Censo INEP {{ versao_censo }}</p>
+  <h1 class="hero-title">Educação superior em {{ nome_uf }}</h1>
+  <p class="hero-lead">
+    O que existe no estado somando todos os {{ n_cursos_uf }} cursos que este
+    observatório acompanha — capacidade, alcance territorial e distribuição por área.
+  </p>
+  <div class="hero-stats">
+    <div class="lede"><span class="lede-num">{{ milhar(u.vagas_total) }}</span><span class="lede-lab">vagas</span></div>
+    <div class="lede"><span class="lede-num">{{ milhar(u.matriculas) }}</span><span class="lede-lab">matrículas presenciais</span></div>
+    <div class="lede"><span class="lede-num">{{ u.n_ies }}</span><span class="lede-lab">instituições</span></div>
+    <div class="lede"><span class="lede-num accent-neg">{{ u.municipios_deserto }}</span><span class="lede-lab">municípios sem oferta presencial</span></div>
+  </div>
+</section>
+
+{% if leituras %}
+<section class="leituras" aria-labelledby="tit-leituras">
+  <h2 class="section-title" id="tit-leituras">Leitura dos números</h2>
+  <p class="leituras-aviso">
+    Frases calculadas a partir dos dados desta página, por regra fixa. Descrevem
+    variação, participação e posição — nunca causa.
+  </p>
+  <ul class="leituras-lista">
+    {% for l in leituras %}<li class="leitura {{ l.tipo }}">{{ l.texto }}</li>{% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if mapa %}
+<h2 class="section-title">Onde há oferta presencial</h2>
+<div class="figura">
+  {{ mapa }}
+  <p class="figura-nota">
+    Cada círculo é um município com oferta presencial de algum curso do catálogo;
+    a área é proporcional às vagas. Polos EaD não aparecem — polo não é campus.
+  </p>
+</div>
+{% endif %}
+
+<h2 class="section-title">Distribuição por área do conhecimento</h2>
+<div class="figura">
+  {{ grafico_areas }}
+  <p class="figura-nota">Áreas gerais da classificação CINE, por vagas totais.</p>
+</div>
+
+<h2 class="section-title">Cursos com maior capacidade no estado</h2>
+<div class="tabela-wrap">
+  <table>
+    <caption class="sr-only">Cursos ordenados por vagas em {{ nome_uf }}.</caption>
+    <thead>
+      <tr>
+        <th scope="col">#</th><th scope="col">Curso</th><th scope="col">Área</th>
+        <th scope="col">Vagas</th><th scope="col">Matrículas presenciais</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for c in u.cursos[:30] %}
+      <tr>
+        <td style="color:var(--text-muted);width:40px">{{ loop.index }}</td>
+        <th scope="row" style="font-weight:600">
+          <a href="{{ depth }}curso/{{ c.slug }}/uf/{{ sigla }}.html">{{ c.nome }}</a>
+        </th>
+        <td style="font-size:0.82rem;color:var(--text-muted)">{{ c.area }}</td>
+        <td>{{ milhar(c.vagas) }}</td>
+        <td>{{ milhar(c.matriculas) }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<p class="figura-nota">
+  {{ u.cursos|length }} cursos com oferta no estado; a tabela mostra os 30 maiores.
+</p>
+
+{% if municipios %}
+<h2 class="section-title">Municípios com oferta ({{ municipios|length }})</h2>
+<div class="tabela-wrap">
+  <table>
+    <caption class="sr-only">Municípios de {{ nome_uf }} com oferta presencial.</caption>
+    <thead>
+      <tr>
+        <th scope="col">#</th><th scope="col">Município</th><th scope="col">Vagas</th>
+        <th scope="col">Matrículas</th><th scope="col">Cursos</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for m in municipios[:40] %}
+      <tr>
+        <td style="color:var(--text-muted);width:40px">{{ loop.index }}</td>
+        <th scope="row" style="font-weight:600">
+          <a href="{{ depth }}municipio/{{ sigla }}-{{ m.slug }}.html">{{ m.nome }}</a>
+        </th>
+        <td>{{ milhar(m.vagas_total) }}</td>
+        <td>{{ milhar(m.matriculas) }}</td>
+        <td>{{ milhar(m.n_cursos) }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}
+
+<p class="figura-nota">
+  Índices como ICT, IAF e HHI não aparecem aqui de propósito: são definidos por
+  curso, e a média deles entre cursos diferentes não significa nada — Medicina e
+  Pedagogia são mercados distintos. Para vê-los, entre na página do curso.
+</p>
+
+{% endblock %}

@@ -99,6 +99,24 @@ def test_dados_embutidos_nao_fecham_script():
                 falhas.append(f"{rel}: JSON embutido inválido ({e})")
 
 
+def test_paineis_territoriais_e_institucionais():
+    """Painel de UF, município e IES: a ausência de um é silenciosa sem checagem."""
+    for nome in ("estados.html", "instituicoes.html", "rankings.html", "api.html",
+                 "api/v1/cursos.json", "api/v1/estados.json",
+                 "api/v1/municipios.json", "api/v1/instituicoes.json"):
+        checar((DIST / nome).exists(), f"{nome} não foi gerado")
+
+    caminho = DATA / "instituicoes.json"
+    if caminho.exists():
+        ies = json.loads(caminho.read_text(encoding="utf-8"))["instituicoes"]
+        faltando = [co for co in list(ies)[:60]
+                    if not (DIST / "instituicao" / f"{co}.html").exists()]
+        checar(not faltando, f"painéis institucionais ausentes: {faltando[:5]}")
+
+    ufs = {p.stem for p in (DIST / "uf").glob("*.html")} if (DIST / "uf").exists() else set()
+    checar(len(ufs) == 27, f"{len(ufs)} painéis estaduais (esperados 27)")
+
+
 def test_404_com_caminhos_absolutos():
     """O 404 é servido para qualquer endereço, inclusive profundo.
 
@@ -128,6 +146,7 @@ def main():
     test_sem_recursos_externos()
     test_csp_publicada()
     test_dados_embutidos_nao_fecham_script()
+    test_paineis_territoriais_e_institucionais()
     test_404_com_caminhos_absolutos()
 
     if falhas:

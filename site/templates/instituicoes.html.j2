@@ -1,0 +1,74 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Instituições — Observatório Nacional da Educação Superior{% endblock %}
+{% block meta_description %}As {{ total }} instituições de ensino superior com oferta dos cursos acompanhados, por rede, organização acadêmica e unidade federativa.{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<span class="active">Instituições</span>
+{% endblock %}
+
+{% block scripts %}
+<script src="static/js/pagina-instituicoes.js"></script>
+{% endblock %}
+
+{% block content %}
+
+<h1 class="section-title" style="margin-bottom:6px">Instituições</h1>
+<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:20px">
+  As {{ total }} instituições que ofertam algum dos cursos acompanhados. Os números
+  de cada uma cobrem apenas esses cursos, não toda a sua atividade — e o corpo
+  docente, ao contrário, é sempre da instituição inteira.
+</p>
+
+<div class="catalogo-controles">
+  <input type="search" id="filtro-ies" placeholder="Buscar instituição pelo nome ou sigla…"
+         aria-label="Buscar instituição" aria-describedby="contador-ies">
+  <select id="filtro-rede" aria-label="Filtrar por rede">
+    <option value="">Toda rede</option>
+    <option value="Pública">Pública</option>
+    <option value="Privada">Privada</option>
+  </select>
+  <select id="filtro-org" aria-label="Filtrar por organização acadêmica">
+    <option value="">Toda organização</option>
+    {% for o in organizacoes %}<option value="{{ o }}">{{ o }}</option>{% endfor %}
+  </select>
+  <select id="filtro-uf-ies" aria-label="Filtrar por unidade federativa da sede">
+    <option value="">Toda UF</option>
+    {% for uf in ufs %}<option value="{{ uf }}">{{ uf }}</option>{% endfor %}
+  </select>
+  <span id="contador-ies" class="filtro-contador" role="status" aria-live="polite"></span>
+</div>
+
+<div class="tabela-wrap">
+  <table id="tabela-ies">
+    <caption class="sr-only">Instituições ordenadas por matrículas nos cursos acompanhados.</caption>
+    <thead>
+      <tr>
+        <th scope="col">Instituição</th><th scope="col">Rede</th>
+        <th scope="col">Organização</th><th scope="col">UF</th>
+        <th scope="col">Matrículas</th><th scope="col">Cursos</th>
+        <th scope="col">% Doutores</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for i in instituicoes %}
+      <tr data-nome="{{ (i.nome ~ ' ' ~ (i.sigla or ''))|lower }}" data-rede="{{ i.rede }}"
+          data-org="{{ i.organizacao or '' }}" data-uf="{{ i.uf_sede or '' }}">
+        <th scope="row" style="font-weight:600">
+          <a href="instituicao/{{ i.co_ies }}.html">{{ i.nome }}</a>
+        </th>
+        <td>{{ i.rede }}</td>
+        <td style="font-size:0.82rem">{{ i.organizacao or '—' }}</td>
+        <td>{{ i.uf_sede or '—' }}</td>
+        <td>{{ milhar(i.matriculas) }}</td>
+        <td>{{ i.n_cursos_catalogo }}</td>
+        <td>{% if i.pct_doutores is not none %}{{ fmt1(i.pct_doutores) }}%{% else %}<span class="sem-dado">sem dados</span>{% endif %}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<p id="ies-vazio" class="catalogo-vazio" hidden>Nenhuma instituição corresponde ao filtro.</p>
+
+{% endblock %}

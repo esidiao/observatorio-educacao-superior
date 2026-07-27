@@ -1,0 +1,57 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Estados — Observatório Nacional da Educação Superior{% endblock %}
+{% block meta_description %}Panorama da educação superior nas 27 unidades federativas: vagas, matrículas, instituições e municípios atendidos.{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<span class="active">Estados</span>
+{% endblock %}
+
+{% block content %}
+
+<h1 class="section-title" style="margin-bottom:6px">Educação superior por estado</h1>
+<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:20px">
+  Cada painel soma todos os {{ n_cursos }} cursos do catálogo naquele estado.
+  Índices por curso (ICT, IAF, HHI) não aparecem aqui: a média deles entre cursos
+  diferentes não significa nada.
+</p>
+
+{% if mapa %}
+<div class="figura">
+  {{ mapa }}
+  <p class="figura-nota">
+    Vagas totais por unidade federativa, somando todos os cursos. Cores por quantil.
+  </p>
+</div>
+{% endif %}
+
+<div class="tabela-wrap">
+  <table>
+    <caption class="sr-only">Unidades federativas por vagas totais.</caption>
+    <thead>
+      <tr>
+        <th scope="col">UF</th><th scope="col">Estado</th><th scope="col">Vagas</th>
+        <th scope="col">Matrículas</th><th scope="col">IES</th>
+        <th scope="col">Municípios c/ oferta</th><th scope="col">Desertos</th>
+        <th scope="col">Vagas / 100 mil hab.</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for uf in ufs %}
+      <tr>
+        <th scope="row"><a href="uf/{{ uf.sigla }}.html"><span class="uf-tag">{{ uf.sigla }}</span></a></th>
+        <td style="font-weight:600"><a href="uf/{{ uf.sigla }}.html">{{ uf.nome }}</a></td>
+        <td>{{ milhar(uf.vagas_total) }}</td>
+        <td>{{ milhar(uf.matriculas) }}</td>
+        <td>{{ milhar(uf.n_ies) }}</td>
+        <td>{{ milhar(uf.municipios_oferta) }}</td>
+        <td>{{ milhar(uf.municipios_deserto) }}</td>
+        <td>{{ fmt1(uf.vagas_por_100k) }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}

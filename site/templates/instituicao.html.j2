@@ -1,0 +1,105 @@
+{% extends "base.html.j2" %}
+
+{% block title %}{{ ies.nome }} — Observatório Nacional da Educação Superior{% endblock %}
+{% block meta_description %}{{ ies.nome }}: {{ milhar(ies.matriculas) }} matrículas, {{ milhar(ies.vagas) }} vagas e {{ ies.n_cursos_catalogo }} cursos acompanhados (Censo INEP {{ versao_censo }}).{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<a href="{{ depth }}instituicoes.html">Instituições</a>
+<span class="sep">›</span>
+<span class="active">{{ ies.sigla or ies.nome }}</span>
+{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+  <p class="hero-eyebrow">{{ ies.organizacao or 'Instituição' }} · {{ ies.categoria or '' }} · Censo INEP {{ versao_censo }}</p>
+  <h1 class="hero-title">{{ ies.nome }}</h1>
+  <p class="hero-lead">
+    Sediada em {{ ies.municipio_sede }} ({{ ies.uf_sede }}). Os números abaixo cobrem
+    apenas os cursos acompanhados por este observatório, não toda a instituição.
+  </p>
+  <div class="hero-stats">
+    <div class="lede"><span class="lede-num">{{ milhar(ies.matriculas) }}</span><span class="lede-lab">matrículas</span></div>
+    <div class="lede"><span class="lede-num">{{ milhar(ies.vagas) }}</span><span class="lede-lab">vagas</span></div>
+    <div class="lede"><span class="lede-num">{{ ies.n_cursos_catalogo }}</span><span class="lede-lab">cursos acompanhados</span></div>
+    <div class="lede"><span class="lede-num">{{ ies.municipios }}</span><span class="lede-lab">municípios com oferta</span></div>
+  </div>
+</section>
+
+{% if leituras %}
+<section class="leituras" aria-labelledby="tit-leituras">
+  <h2 class="section-title" id="tit-leituras">Leitura dos números</h2>
+  <ul class="leituras-lista">
+    {% for l in leituras %}<li class="leitura {{ l.tipo }}">{{ l.texto }}</li>{% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+<h2 class="section-title">Corpo docente</h2>
+<div class="kpi-grid">
+  {% macro kpi(valor, rotulo, fonte) %}
+  <div class="kpi-card{% if valor is none %} nodata{% endif %}">
+    <div class="kpi-valor">{% if valor is not none %}{{ valor }}{% else %}<span class="sem-dado"><span aria-hidden="true">—</span><span class="sr-only">sem dados</span></span>{% endif %}</div>
+    <div class="kpi-label">{{ rotulo }}</div>
+    <div class="kpi-fonte">{{ fonte }}</div>
+  </div>
+  {% endmacro %}
+  {{ kpi(milhar(ies.docentes), 'Docentes', 'instituição inteira') }}
+  {{ kpi((fmt1(ies.pct_doutores) ~ '%') if ies.pct_doutores is not none else none, '% Doutores', 'sobre o total de docentes') }}
+  {{ kpi((fmt1(ies.pct_mestres) ~ '%') if ies.pct_mestres is not none else none, '% Mestres', 'sobre o total de docentes') }}
+  {{ kpi((fmt1(ies.pct_regime_integral) ~ '%') if ies.pct_regime_integral is not none else none, '% Regime integral', 'sobre o total de docentes') }}
+  {{ kpi(milhar(ies.tecnicos), 'Técnicos', 'instituição inteira') }}
+  {{ kpi(fmt1(ies.alunos_por_docente), 'Alunos por docente', 'referência de porte') }}
+</div>
+<p class="figura-nota">
+  <strong>Todos os números de docentes são da instituição inteira</strong>, não de um
+  curso. O Censo declara corpo docente por IES, e ratear por curso seria inventar um
+  número que a fonte não sustenta. Por isso "alunos por docente" é referência de porte,
+  não a relação de nenhuma turma.
+</p>
+<p class="figura-nota">
+  IGC, Conceito Institucional, situação de recredenciamento e data da última avaliação
+  <strong>não constam</strong>: vêm do e-MEC e dos Indicadores de Qualidade do INEP,
+  bases que este observatório ainda não ingeriu. Preferimos a ausência declarada a um
+  campo vazio que se leia como falha de coleta.
+</p>
+
+{% if grafico %}
+<h2 class="section-title">Cursos ofertados</h2>
+<div class="figura">{{ grafico }}</div>
+{% endif %}
+
+<div class="tabela-wrap">
+  <table>
+    <caption class="sr-only">Cursos ofertados pela instituição, por matrículas.</caption>
+    <thead>
+      <tr>
+        <th scope="col">Curso</th><th scope="col">Vagas</th>
+        <th scope="col">Matrículas</th><th scope="col">Concluintes</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for c in oferta %}
+      <tr>
+        <th scope="row" style="font-weight:600">
+          <a href="{{ depth }}curso/{{ c.slug }}/index.html">{{ c.nome }}</a>
+        </th>
+        <td>{{ milhar(c.vagas) }}</td>
+        <td>{{ milhar(c.matriculas) }}</td>
+        <td>{{ milhar(c.concluintes) }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+{% if ies.ufs %}
+<h2 class="section-title">Presença territorial</h2>
+<p class="figura-nota" style="margin-left:0">
+  Oferta presencial em {{ ies.ufs|length }} unidade(s) federativa(s):
+  {{ ies.ufs|join(', ') }}.
+</p>
+{% endif %}
+
+{% endblock %}

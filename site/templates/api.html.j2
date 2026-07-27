@@ -1,0 +1,82 @@
+{% extends "base.html.j2" %}
+
+{% block title %}API de dados abertos — Observatório Nacional da Educação Superior{% endblock %}
+{% block meta_description %}Endpoints JSON estáticos com os dados tratados do observatório: catálogo de cursos, indicadores por UF e município, série histórica e camada institucional.{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<span class="active">Dados abertos</span>
+{% endblock %}
+
+{% block content %}
+
+<h1 class="section-title" style="margin-bottom:6px">Dados abertos</h1>
+<p class="texto-corrido">
+  Todos os dados tratados estão disponíveis como JSON, no mesmo formato que alimenta
+  as páginas. Não há chave, cota nem cadastro: são arquivos estáticos servidos pelo
+  mesmo domínio, com CORS liberado pela hospedagem.
+</p>
+<p class="texto-corrido">
+  <strong>Não é uma API dinâmica.</strong> Não há parâmetros de consulta, paginação
+  nem filtros no servidor — baixe o recorte que interessa e filtre do seu lado. A
+  contrapartida é que nada quebra, nada tem limite de requisições e tudo é
+  reproduzível: o conteúdo de cada endereço só muda quando o observatório é
+  reconstruído.
+</p>
+
+<h2 class="section-title">Endpoints</h2>
+<div class="tabela-wrap">
+  <table>
+    <caption class="sr-only">Endpoints disponíveis e o que cada um retorna.</caption>
+    <thead>
+      <tr><th scope="col">Endereço</th><th scope="col">Conteúdo</th><th scope="col">Tamanho</th></tr>
+    </thead>
+    <tbody>
+      {% for e in endpoints %}
+      <tr>
+        <th scope="row" style="font-weight:600">
+          <a href="{{ depth }}{{ e.caminho }}"><code>/{{ e.caminho }}</code></a>
+        </th>
+        <td>{{ e.descricao }}</td>
+        <td>{{ e.tamanho }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+
+<h2 class="section-title">Exemplo</h2>
+<pre class="bloco-codigo"><code>curl -s {{ base_exemplo }}/api/v1/curso/farmacia.json | jq '.ufs.GO.vagas_total'
+curl -s {{ base_exemplo }}/api/v1/curso/farmacia/serie.json | jq '.anos'</code></pre>
+
+<h2 class="section-title">Licença e citação</h2>
+<p class="texto-corrido">
+  Os dados originais são públicos e permanecem sob os termos de seus órgãos
+  produtores — INEP/MEC (Censo da Educação Superior e ENADE/CPC) e IBGE (malha
+  territorial e estimativas populacionais). O tratamento aqui é aberto e auditável
+  no repositório.
+</p>
+<p class="texto-corrido">
+  Ao reutilizar, cite a fonte primária <strong>e o ano do levantamento</strong>. O
+  Censo é anual e o ENADE é trienal por área: um número sem data é um número sem
+  sentido. Cada arquivo traz o ano em <code>metadados</code>.
+</p>
+
+<h2 class="section-title">O que a API não tem</h2>
+<p class="texto-corrido">
+  Pelos mesmos motivos que o site: não há indicadores de evasão ou permanência
+  (exigem acompanhamento de coorte, não estoque anual), nem IGC, Conceito
+  Institucional ou dados de recredenciamento (são do e-MEC, base ainda não
+  ingerida). Campos ausentes são ausentes — nenhum vem preenchido por estimativa.
+</p>
+
+<style>
+.texto-corrido { font-size: 0.92rem; line-height: 1.75; color: var(--text); max-width: 75ch; margin-bottom: 14px; }
+.bloco-codigo {
+  background: var(--navy); color: #E8EDF4; padding: 14px 16px; border-radius: 8px;
+  overflow-x: auto; font-size: 0.82rem; line-height: 1.6; max-width: 75ch;
+}
+.bloco-codigo code { font-family: var(--font-mono); }
+</style>
+
+{% endblock %}
