@@ -12,6 +12,34 @@
   "vagas_publicas"
  ],
  "anos": {
+  "2017": {
+   "BR": {
+    "vagas_total": 160,
+    "vagas_presencial": 160,
+    "vagas_ead": 0,
+    "matriculas": 28,
+    "matriculas_ead": 0,
+    "ingressos": 0,
+    "concluintes": 28,
+    "n_ies": 1,
+    "municipios_oferta": 1,
+    "vagas_publicas": 0
+   },
+   "ufs": {
+    "MT": {
+     "vagas_total": 160,
+     "vagas_presencial": 160,
+     "vagas_ead": 0,
+     "matriculas": 28,
+     "matriculas_ead": 0,
+     "ingressos": 0,
+     "concluintes": 28,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    }
+   }
+  },
   "2023": {
    "BR": {
     "vagas_total": 1661,

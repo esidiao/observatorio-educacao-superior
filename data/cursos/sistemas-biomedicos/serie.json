@@ -12,6 +12,110 @@
   "vagas_publicas"
  ],
  "anos": {
+  "2016": {
+   "BR": {
+    "vagas_total": 567,
+    "vagas_presencial": 567,
+    "vagas_ead": 0,
+    "matriculas": 637,
+    "matriculas_ead": 0,
+    "ingressos": 356,
+    "concluintes": 89,
+    "n_ies": 5,
+    "municipios_oferta": 5,
+    "vagas_publicas": 385
+   },
+   "ufs": {
+    "AL": {
+     "vagas_total": 60,
+     "vagas_presencial": 60,
+     "vagas_ead": 0,
+     "matriculas": 153,
+     "matriculas_ead": 0,
+     "ingressos": 53,
+     "concluintes": 33,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 60
+    },
+    "PR": {
+     "vagas_total": 30,
+     "vagas_presencial": 30,
+     "vagas_ead": 0,
+     "matriculas": 4,
+     "matriculas_ead": 0,
+     "ingressos": 0,
+     "concluintes": 0,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "SP": {
+     "vagas_total": 477,
+     "vagas_presencial": 477,
+     "vagas_ead": 0,
+     "matriculas": 480,
+     "matriculas_ead": 0,
+     "ingressos": 303,
+     "concluintes": 56,
+     "n_ies": 3,
+     "municipios_oferta": 3,
+     "vagas_publicas": 325
+    }
+   }
+  },
+  "2017": {
+   "BR": {
+    "vagas_total": 549,
+    "vagas_presencial": 549,
+    "vagas_ead": 0,
+    "matriculas": 559,
+    "matriculas_ead": 0,
+    "ingressos": 283,
+    "concluintes": 79,
+    "n_ies": 5,
+    "municipios_oferta": 5,
+    "vagas_publicas": 321
+   },
+   "ufs": {
+    "AL": {
+     "vagas_total": 0,
+     "vagas_presencial": 0,
+     "vagas_ead": 0,
+     "matriculas": 94,
+     "matriculas_ead": 0,
+     "ingressos": 0,
+     "concluintes": 13,
+     "n_ies": 0,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "PR": {
+     "vagas_total": 40,
+     "vagas_presencial": 40,
+     "vagas_ead": 0,
+     "matriculas": 5,
+     "matriculas_ead": 0,
+     "ingressos": 4,
+     "concluintes": 1,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "SP": {
+     "vagas_total": 509,
+     "vagas_presencial": 509,
+     "vagas_ead": 0,
+     "matriculas": 460,
+     "matriculas_ead": 0,
+     "ingressos": 279,
+     "concluintes": 65,
+     "n_ies": 3,
+     "municipios_oferta": 3,
+     "vagas_publicas": 321
+    }
+   }
+  },
   "2023": {
    "BR": {
     "vagas_total": 2129,

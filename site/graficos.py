@@ -254,11 +254,21 @@ def serie_temporal(anos, series, titulo, descricao, largura=560, altura=240,
                  f'font-size="10" fill="#6B7280">{esc(ano)}</text>')
     for k, s in enumerate(series):
         cor = paleta[k % len(paleta)]
-        pontos = [(px(i), py(v)) for i, v in enumerate(s["valores"]) if v is not None]
-        if len(pontos) > 1:
-            p.append(f'<polyline points="{" ".join(f"{x:.1f},{y:.1f}" for x, y in pontos)}" '
-                     f'fill="none" stroke="{cor}" stroke-width="2.5" '
-                     f'stroke-linejoin="round"/>')
+        # Traços só entre anos CONSECUTIVOS com dado. Uma linha única atravessando
+        # um ano ausente desenharia uma tendência que ninguém mediu — e curso que
+        # não existia numa edição do Censo tem ponto ausente, não zero.
+        trecho = []
+        for i, v in enumerate(s["valores"]):
+            if v is None:
+                if len(trecho) > 1:
+                    p.append(f'<polyline points="{" ".join(trecho)}" fill="none" '
+                             f'stroke="{cor}" stroke-width="2.5" stroke-linejoin="round"/>')
+                trecho = []
+                continue
+            trecho.append(f"{px(i):.1f},{py(v):.1f}")
+        if len(trecho) > 1:
+            p.append(f'<polyline points="{" ".join(trecho)}" fill="none" '
+                     f'stroke="{cor}" stroke-width="2.5" stroke-linejoin="round"/>')
         for i, v in enumerate(s["valores"]):
             if v is None:
                 continue

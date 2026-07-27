@@ -102,9 +102,18 @@
 <div class="figura">
   {{ grafico_serie }}
   <p class="figura-nota">
-    Série do Censo em {{ anos_serie|join(', ') }}. O eixo começa em zero.
-    A diferença de matrículas entre anos <strong>não é evasão</strong>: são estoques
-    de anos diferentes, não o acompanhamento de uma mesma turma.
+    Série do Censo em {{ anos_serie|join(', ') }}. O eixo começa em zero, e a linha
+    só liga anos consecutivos com dado — curso que não existia numa edição tem ponto
+    ausente, não zero.
+  </p>
+  <p class="figura-nota">
+    Três ressalvas de leitura. A diferença de matrículas entre anos
+    <strong>não é evasão</strong>: são estoques de anos diferentes, não o
+    acompanhamento de uma mesma turma. A classificação CINE foi aplicada
+    retroativamente pelo INEP às edições antigas, então o recorte do curso é o
+    mesmo em toda a série, mas a nomenclatura original daquele ano podia ser outra.
+    E os anos de 2020 e 2021 carregam o efeito da pandemia sobre matrícula e
+    conclusão — o dado é o que o Censo registrou, sem ajuste.
   </p>
 </div>
 {% endif %}

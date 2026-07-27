@@ -12,6 +12,62 @@
   "vagas_publicas"
  ],
  "anos": {
+  "2016": {
+   "BR": {
+    "vagas_total": 62,
+    "vagas_presencial": 62,
+    "vagas_ead": 0,
+    "matriculas": 328,
+    "matriculas_ead": 0,
+    "ingressos": 62,
+    "concluintes": 43,
+    "n_ies": 1,
+    "municipios_oferta": 1,
+    "vagas_publicas": 62
+   },
+   "ufs": {
+    "SP": {
+     "vagas_total": 62,
+     "vagas_presencial": 62,
+     "vagas_ead": 0,
+     "matriculas": 328,
+     "matriculas_ead": 0,
+     "ingressos": 62,
+     "concluintes": 43,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 62
+    }
+   }
+  },
+  "2017": {
+   "BR": {
+    "vagas_total": 65,
+    "vagas_presencial": 65,
+    "vagas_ead": 0,
+    "matriculas": 332,
+    "matriculas_ead": 0,
+    "ingressos": 64,
+    "concluintes": 35,
+    "n_ies": 1,
+    "municipios_oferta": 1,
+    "vagas_publicas": 65
+   },
+   "ufs": {
+    "SP": {
+     "vagas_total": 65,
+     "vagas_presencial": 65,
+     "vagas_ead": 0,
+     "matriculas": 332,
+     "matriculas_ead": 0,
+     "ingressos": 64,
+     "concluintes": 35,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 65
+    }
+   }
+  },
   "2023": {
    "BR": {
     "vagas_total": 415,

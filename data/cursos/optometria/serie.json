@@ -12,6 +12,134 @@
   "vagas_publicas"
  ],
  "anos": {
+  "2016": {
+   "BR": {
+    "vagas_total": 412,
+    "vagas_presencial": 412,
+    "vagas_ead": 0,
+    "matriculas": 569,
+    "matriculas_ead": 0,
+    "ingressos": 322,
+    "concluintes": 73,
+    "n_ies": 3,
+    "municipios_oferta": 3,
+    "vagas_publicas": 150
+   },
+   "ufs": {
+    "PE": {
+     "vagas_total": 100,
+     "vagas_presencial": 100,
+     "vagas_ead": 0,
+     "matriculas": 94,
+     "matriculas_ead": 0,
+     "ingressos": 94,
+     "concluintes": 0,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "SC": {
+     "vagas_total": 150,
+     "vagas_presencial": 150,
+     "vagas_ead": 0,
+     "matriculas": 195,
+     "matriculas_ead": 0,
+     "ingressos": 137,
+     "concluintes": 17,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 150
+    },
+    "SP": {
+     "vagas_total": 162,
+     "vagas_presencial": 162,
+     "vagas_ead": 0,
+     "matriculas": 280,
+     "matriculas_ead": 0,
+     "ingressos": 91,
+     "concluintes": 56,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    }
+   }
+  },
+  "2017": {
+   "BR": {
+    "vagas_total": 2594,
+    "vagas_presencial": 585,
+    "vagas_ead": 2009,
+    "matriculas": 764,
+    "matriculas_ead": 77,
+    "ingressos": 392,
+    "concluintes": 97,
+    "n_ies": 4,
+    "municipios_oferta": 4,
+    "vagas_publicas": 0
+   },
+   "ufs": {
+    "CE": {
+     "vagas_total": 218,
+     "vagas_presencial": 218,
+     "vagas_ead": 0,
+     "matriculas": 72,
+     "matriculas_ead": 0,
+     "ingressos": 81,
+     "concluintes": 0,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "PE": {
+     "vagas_total": 106,
+     "vagas_presencial": 106,
+     "vagas_ead": 0,
+     "matriculas": 167,
+     "matriculas_ead": 0,
+     "ingressos": 92,
+     "concluintes": 0,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "RJ": {
+     "vagas_total": 0,
+     "vagas_presencial": 0,
+     "vagas_ead": 0,
+     "matriculas": 0,
+     "matriculas_ead": 77,
+     "ingressos": 0,
+     "concluintes": 0,
+     "n_ies": 0,
+     "municipios_oferta": 0,
+     "vagas_publicas": 0
+    },
+    "SC": {
+     "vagas_total": 90,
+     "vagas_presencial": 90,
+     "vagas_ead": 0,
+     "matriculas": 203,
+     "matriculas_ead": 0,
+     "ingressos": 63,
+     "concluintes": 31,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    },
+    "SP": {
+     "vagas_total": 2180,
+     "vagas_presencial": 171,
+     "vagas_ead": 2009,
+     "matriculas": 322,
+     "matriculas_ead": 0,
+     "ingressos": 156,
+     "concluintes": 66,
+     "n_ies": 1,
+     "municipios_oferta": 1,
+     "vagas_publicas": 0
+    }
+   }
+  },
   "2023": {
    "BR": {
     "vagas_total": 12100,
