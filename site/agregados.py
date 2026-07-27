@@ -161,6 +161,13 @@ def rankings(instituicoes, ufs, municipios, catalogo_por_slug, limite=20):
          "itens": top(ies, "igc_continuo",
                       lambda i: i.get("igc_continuo") is not None),
          "tipo": "ies", "unidade": "IGC", "casas": 2},
+        {"id": "ies-pos", "titulo": "Instituições por programas de pós-graduação",
+         "nota": ("Programas stricto sensu em funcionamento (CAPES). Descreve a "
+                  "face de pesquisa, não a graduação — e o conceito CAPES, de 1 a 7, "
+                  "não se compara ao IGC."),
+         "campo": "pos_programas",
+         "itens": top(ies, "pos_programas", lambda i: i.get("pos_programas")),
+         "tipo": "ies", "unidade": "programas"},
         {"id": "ies-territorio", "titulo": "Instituições por alcance territorial",
          "nota": "Número de municípios com oferta presencial.",
          "campo": "municipios", "itens": top(ies, "municipios"), "tipo": "ies",

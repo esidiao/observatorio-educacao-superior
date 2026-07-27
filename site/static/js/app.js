@@ -43,6 +43,9 @@ const INDICADOR_META = {
   igc_continuo:         { label: 'IGC',                 dec: 2, min: 0, max: 5,   maiorMelhor: true  },
   igc_faixa:            { label: 'IGC (faixa)',         dec: 0, min: 1, max: 5,   maiorMelhor: true  },
 
+  pos_programas:        { label: 'Programas de pós',   dec: 0, min: null, max: null, maiorMelhor: null },
+  pos_conceito_medio:   { label: 'Conceito CAPES',      dec: 2, min: 1, max: 7,   maiorMelhor: true  },
+
   // Capacidade
   vagas_total:          { label: 'Vagas totais',        dec: 0, min: null, max: null, maiorMelhor: null },
   vagas_presencial:     { label: 'Vagas presenciais',   dec: 0, min: null, max: null, maiorMelhor: null },

@@ -144,6 +144,33 @@ def carregar_instituicoes():
                   "conceito_graduacao", "conceito_mestrado", "conceito_doutorado",
                   "igc_ano")
 
+    # Pós-graduação: ausência aqui é FATO (não tem programa), não dado faltante.
+    CAMPOS_CAPES = ("pos_programas", "pos_conceito_medio", "pos_conceito_maximo",
+                    "pos_por_grau", "pos_areas", "pos_ano")
+    for ies in instituicoes.values():
+        ies.update({c: None for c in CAMPOS_CAPES})
+    caminho_capes = DATA / "capes.json"
+    if caminho_capes.exists():
+        with open(caminho_capes, encoding="utf-8") as f:
+            bruto = json.load(f)
+        capes, ano_capes = bruto["instituicoes"], bruto.get("ano_base")
+        com_pos = 0
+        for co, ies in instituicoes.items():
+            d = capes.get(co)
+            if not d:
+                continue
+            ies.update({
+                "pos_programas": d["programas"],
+                "pos_conceito_medio": d["conceito_medio"],
+                "pos_conceito_maximo": d["conceito_maximo"],
+                "pos_por_grau": d["por_grau"],
+                "pos_areas": d["areas"],
+                "pos_ano": ano_capes,
+            })
+            com_pos += 1
+        print(f"[INFO] Pós-graduação stricto sensu em {com_pos} instituições "
+              f"(as demais não têm programa — fato, não lacuna).")
+
     caminho_igc = DATA / "igc.json"
     if not caminho_igc.exists():
         for ies in instituicoes.values():

@@ -29,6 +29,7 @@ etl/                 Pipeline (Python)
   instituicoes.py    Camada institucional (IES, organização, corpo docente)
   igc.py             Índice Geral de Cursos do INEP, por instituição
   fluxo.py           Evasão, conclusão e retenção por coorte (INEP)
+  capes.py           Pós-graduação stricto sensu e conceitos CAPES
   malha.py           Baixa e versiona a malha do IBGE (UFs e centroides)
   ingestao.py        Microdados do Censo → agregados por curso/UF/município
   qualidade.py       Planilha CPC/ENADE → conceitos por curso/UF
@@ -39,6 +40,7 @@ data/
   instituicoes.json  2.561 IES com oferta no catálogo
   igc.json           IGC por instituição (fonte e calendário distintos do Censo)
   fluxo.json         Taxas de coorte por UF, 2010–2024
+  capes.json         Programas de pós stricto sensu por instituição
   geo/               Malha do IBGE: fronteiras de UF e centroides municipais
 site/
   build.py           Gerador estático (Jinja2)
@@ -386,3 +388,36 @@ período comum — o que esconderia uma década de dado que existe.
 **Ponto percentual não é percentual.** A leitura automática diz "subiu 7,9 pontos
 percentuais", nunca "subiu 7,9%": sobre uma base de 11,7%, a segunda formulação
 significaria 12,6%, um número diferente e errado.
+
+## Pós-graduação: a face de pesquisa das instituições
+
+```bash
+python etl/capes.py --programas caminho/br-capes-colsucup-prog-2024.csv
+```
+
+Dados abertos da CAPES (Plataforma Sucupira). A junção é **exata, não heurística**:
+o campo `CD_ENTIDADE_EMEC` da CAPES é o mesmo código de instituição usado pelo
+INEP. Medido antes de escrever qualquer código: 353 das 375 IES da CAPES casam
+pelo código, e as 22 restantes são entidades sem graduação nos rótulos
+acompanhados. Ficam de fora por não terem onde aparecer, não por falha de
+casamento.
+
+Cobre 351 das 2.561 instituições do observatório, das quais 247 oferecem
+doutorado.
+
+Três ressalvas que aparecem na própria página:
+
+**Escalas não se misturam.** O conceito CAPES vai de 1 a 7; o IGC e o CPC vão de
+1 a 5. Avaliam objetos diferentes — programa de pós, instituição e curso de
+graduação. Somar, mediar ou ranquear os três juntos não significaria nada, e por
+isso não há nenhum indicador composto entre eles.
+
+**Isto não descreve a graduação.** Doutorado nota 7 numa área não diz nada sobre a
+graduação em outra. A seção existe para responder "que pesquisa esta instituição
+faz", que é outra pergunta.
+
+**Ausência aqui é fato, não lacuna.** Instituição sem programa stricto sensu
+simplesmente não tem — diferente da ausência de IGC, que significa "não foi
+avaliada". As duas ausências são semanticamente distintas e o site as distingue.
+O caso da USP torna isso visível: sem IGC publicado, e com 259 programas de pós,
+221 deles com doutorado.

@@ -281,6 +281,19 @@ def da_instituicao(ies):
             "triênio do ENADE. É ausência de avaliação, não avaliação ruim.",
             "sem-dado"))
 
+    if ies.get("pos_programas"):
+        graus = ies.get("pos_por_grau") or {}
+        doutorado = sum(n for g, n in graus.items() if "DOUTORADO" in g.upper())
+        frase = (f"Mantém {ies['pos_programas']} programa(s) de pós-graduação "
+                 f"stricto sensu")
+        if doutorado:
+            frase += f", {doutorado} deles com doutorado"
+        if ies.get("pos_conceito_medio"):
+            media = f"{ies['pos_conceito_medio']:.2f}".replace(".", ",")
+            frase += (f". O conceito CAPES médio é {media}, numa escala de 1 a 7 "
+                      f"que não se compara ao IGC")
+        frases.append(_frase(frase + "."))
+
     if ies.get("pct_doutores") is not None:
         frases.append(_frase(
             f"{_pct(ies['pct_doutores'])} do corpo docente tem doutorado e "

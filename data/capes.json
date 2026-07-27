@@ -1,0 +1,7950 @@
+{
+ "_nota": "Conceito CAPES vai de 1 a 7 e NÃO é comparável ao IGC nem ao CPC (1 a 5) — escalas diferentes sobre objetos diferentes. Descreve a pós-graduação stricto sensu, não os cursos de graduação acompanhados. Ausência significa que a instituição não tem programa stricto sensu, o que é um fato sobre ela e não dado faltante.",
+ "ano_base": "2024",
+ "instituicoes": {
+  "699": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE RONDÔNIA",
+   "programas": 18,
+   "programas_com_conceito": 15,
+   "conceito_medio": 3.53,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 14,
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 3,
+    "LINGUÍSTICA E LITERATURA": 2,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "ENSINO": 2,
+    "EDUCAÇÃO": 2,
+    "BIODIVERSIDADE": 1,
+    "FILOSOFIA": 1,
+    "GEOGRAFIA": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "PSICOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 16,
+    "PROFISSIONAL": 2
+   }
+  },
+  "549": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO ACRE",
+   "programas": 15,
+   "programas_com_conceito": 15,
+   "conceito_medio": 3.53,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 10,
+    "MESTRADO/DOUTORADO": 4,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENSINO": 2,
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "MEDICINA II": 1,
+    "EDUCAÇÃO": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "ARTES": 1,
+    "GEOGRAFIA": 1,
+    "BIODIVERSIDADE": 1,
+    "SAÚDE COLETIVA": 1,
+    "CIÊNCIAS AMBIENTAIS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 14,
+    "PROFISSIONAL": 1
+   }
+  },
+  "20342": {
+   "nome_capes": "FIOCRUZ ( RONDÔNIA )",
+   "programas": 43,
+   "programas_com_conceito": 43,
+   "conceito_medio": 4.88,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 25,
+    "MESTRADO PROFISSIONAL": 11,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 4,
+    "MESTRADO": 2,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "SAÚDE COLETIVA": 16,
+    "INTERDISCIPLINAR": 7,
+    "MEDICINA II": 5,
+    "CIÊNCIAS BIOLÓGICAS III": 4,
+    "MEDICINA I": 2,
+    "CIÊNCIAS BIOLÓGICAS II": 2,
+    "FARMÁCIA": 2,
+    "BIODIVERSIDADE": 1,
+    "HISTÓRIA": 1,
+    "MEDICINA VETERINÁRIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 28,
+    "PROFISSIONAL": 15
+   }
+  },
+  "4594": {
+   "nome_capes": "FACULDADE CATÓLICA DE RONDÔNIA",
+   "programas": 1,
+   "programas_com_conceito": 0,
+   "conceito_medio": null,
+   "conceito_maximo": null,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "4": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO AMAZONAS",
+   "programas": 38,
+   "programas_com_conceito": 33,
+   "conceito_medio": 3.76,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 18,
+    "MESTRADO": 15,
+    "MESTRADO PROFISSIONAL": 5
+   },
+   "areas": {
+    "CIÊNCIAS AMBIENTAIS": 3,
+    "ENSINO": 2,
+    "ENGENHARIAS III": 2,
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "SERVIÇO SOCIAL": 1,
+    "GEOCIÊNCIAS": 1,
+    "PSICOLOGIA": 1,
+    "QUÍMICA": 1,
+    "GEOGRAFIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 33,
+    "PROFISSIONAL": 5
+   }
+  },
+  "NI": {
+   "nome_capes": "INSTITUTO NACIONAL DE PESQUISAS DA AMAZÔNIA",
+   "programas": 97,
+   "programas_com_conceito": 90,
+   "conceito_medio": 4.28,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 39,
+    "MESTRADO/DOUTORADO": 38,
+    "MESTRADO": 16,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 3,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 11,
+    "BIODIVERSIDADE": 10,
+    "MEDICINA I": 9,
+    "CIÊNCIAS AGRÁRIAS I": 6,
+    "GEOCIÊNCIAS": 5,
+    "SAÚDE COLETIVA": 5,
+    "ASTRONOMIA / FÍSICA": 5,
+    "BIOTECNOLOGIA": 4,
+    "CIÊNCIAS BIOLÓGICAS I": 3,
+    "CIÊNCIAS AMBIENTAIS": 3
+   },
+   "modalidades": {
+    "ACADÊMICO": 55,
+    "PROFISSIONAL": 42
+   }
+  },
+  "1812": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO AMAZONAS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "669": {
+   "nome_capes": "UNIVERSIDADE NILTON LINS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "3172": {
+   "nome_capes": "UNIVERSIDADE DO ESTADO DO AMAZONAS",
+   "programas": 14,
+   "programas_com_conceito": 11,
+   "conceito_medio": 3.73,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 8,
+    "MESTRADO PROFISSIONAL": 4,
+    "MESTRADO/DOUTORADO": 2
+   },
+   "areas": {
+    "MEDICINA II": 2,
+    "INTERDISCIPLINAR": 2,
+    "GEOGRAFIA": 1,
+    "SAÚDE COLETIVA": 1,
+    "ENGENHARIAS IV": 1,
+    "DIREITO": 1,
+    "EDUCAÇÃO": 1,
+    "MEDICINA I": 1,
+    "BIOTECNOLOGIA": 1,
+    "ENFERMAGEM": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 10,
+    "PROFISSIONAL": 4
+   }
+  },
+  "789": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE RORAIMA",
+   "programas": 10,
+   "programas_com_conceito": 9,
+   "conceito_medio": 3.56,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 7,
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 3,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "ANTROPOLOGIA / ARQUEOLOGIA": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "GEOGRAFIA": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 9,
+    "PROFISSIONAL": 1
+   }
+  },
+  "5077": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DE RORAIMA",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 2,
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "EDUCAÇÃO": 1,
+    "INTERDISCIPLINAR": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 2,
+    "PROFISSIONAL": 2
+   }
+  },
+  "830": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO AMAPÁ",
+   "programas": 12,
+   "programas_com_conceito": 10,
+   "conceito_medio": 3.4,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 8,
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO/DOUTORADO": 2
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 2,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 1,
+    "BIODIVERSIDADE": 1,
+    "HISTÓRIA": 1,
+    "FARMÁCIA": 1,
+    "DIREITO": 1,
+    "EDUCAÇÃO": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "GEOGRAFIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 10,
+    "PROFISSIONAL": 2
+   }
+  },
+  "569": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO PARÁ",
+   "programas": 92,
+   "programas_com_conceito": 86,
+   "conceito_medio": 4.19,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 45,
+    "MESTRADO": 22,
+    "MESTRADO PROFISSIONAL": 19,
+    "DOUTORADO": 5,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 9,
+    "ENGENHARIAS I": 5,
+    "BIODIVERSIDADE": 5,
+    "ENSINO": 4,
+    "ENGENHARIAS III": 4,
+    "EDUCAÇÃO": 4,
+    "FARMÁCIA": 4,
+    "CIÊNCIAS AMBIENTAIS": 4,
+    "PSICOLOGIA": 3,
+    "GEOCIÊNCIAS": 3
+   },
+   "modalidades": {
+    "ACADÊMICO": 72,
+    "PROFISSIONAL": 20
+   }
+  },
+  "590": {
+   "nome_capes": "UNIVERSIDADE FEDERAL RURAL DA AMAZÔNIA",
+   "programas": 7,
+   "programas_com_conceito": 7,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 5,
+    "MESTRADO": 2
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "MEDICINA VETERINÁRIA": 2,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "BIOTECNOLOGIA": 1,
+    "BIODIVERSIDADE": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 7
+   }
+  },
+  "383": {
+   "nome_capes": "UNIVERSIDADE DA AMAZÔNIA",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 3.6,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 2,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4,
+    "PROFISSIONAL": 1
+   }
+  },
+  "38": {
+   "nome_capes": "UNIVERSIDADE DO ESTADO DO PARÁ",
+   "programas": 15,
+   "programas_com_conceito": 12,
+   "conceito_medio": 3.58,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 5,
+    "MESTRADO/DOUTORADO": 5,
+    "MESTRADO": 4,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENSINO": 4,
+    "INTERDISCIPLINAR": 2,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1,
+    "ARTES": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "GEOGRAFIA": 1,
+    "MEDICINA III": 1,
+    "ENFERMAGEM": 1,
+    "EDUCAÇÃO": 1,
+    "CIÊNCIAS BIOLÓGICAS III": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 9,
+    "PROFISSIONAL": 6
+   }
+  },
+  "1813": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO PARÁ",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENGENHARIAS II": 1,
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "15059": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO OESTE DO PARÁ",
+   "programas": 11,
+   "programas_com_conceito": 8,
+   "conceito_medio": 3.25,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 9,
+    "DOUTORADO": 1,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "CIÊNCIAS AMBIENTAIS": 2,
+    "INTERDISCIPLINAR": 2,
+    "MEDICINA VETERINÁRIA": 1,
+    "CIÊNCIAS BIOLÓGICAS II": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "ANTROPOLOGIA / ARQUEOLOGIA": 1,
+    "BIODIVERSIDADE": 1,
+    "MEDICINA I": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 11
+   }
+  },
+  "792": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO DO ESTADO DO PARÁ",
+   "programas": 4,
+   "programas_com_conceito": 3,
+   "conceito_medio": 3.67,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 3,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "ODONTOLOGIA": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "ENSINO": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 3,
+    "ACADÊMICO": 1
+   }
+  },
+  "18440": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO SUL E SUDESTE DO PARÁ",
+   "programas": 8,
+   "programas_com_conceito": 6,
+   "conceito_medio": 3.33,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 7,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 2,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "HISTÓRIA": 1,
+    "ENSINO": 1,
+    "GEOGRAFIA": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "QUÍMICA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 7,
+    "PROFISSIONAL": 1
+   }
+  },
+  "3849": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO TOCANTINS",
+   "programas": 23,
+   "programas_com_conceito": 22,
+   "conceito_medio": 3.73,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 12,
+    "MESTRADO PROFISSIONAL": 5,
+    "MESTRADO/DOUTORADO": 4,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 3,
+    "INTERDISCIPLINAR": 3,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 2,
+    "EDUCAÇÃO": 2,
+    "ENSINO": 1,
+    "CIÊNCIA DE ALIMENTOS": 1,
+    "BIODIVERSIDADE": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "BIOTECNOLOGIA": 1,
+    "GEOGRAFIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 16,
+    "PROFISSIONAL": 7
+   }
+  },
+  "29118": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO NORTE DO TOCANTINS",
+   "programas": 7,
+   "programas_com_conceito": 6,
+   "conceito_medio": 3.83,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 4,
+    "MESTRADO/DOUTORADO": 3
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "GEOGRAFIA": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "ENSINO": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "MEDICINA VETERINÁRIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 7
+   }
+  },
+  "548": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO MARANHÃO",
+   "programas": 43,
+   "programas_com_conceito": 41,
+   "conceito_medio": 3.61,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO": 25,
+    "MESTRADO/DOUTORADO": 12,
+    "MESTRADO PROFISSIONAL": 4,
+    "DOUTORADO": 2
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 4,
+    "EDUCAÇÃO": 3,
+    "LINGUÍSTICA E LITERATURA": 2,
+    "COMPUTAÇÃO": 2,
+    "SOCIOLOGIA": 2,
+    "QUÍMICA": 2,
+    "CIÊNCIAS AMBIENTAIS": 2,
+    "COMUNICAÇÃO E INFORMAÇÃO": 2,
+    "MEDICINA I": 1,
+    "BIODIVERSIDADE": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 39,
+    "PROFISSIONAL": 4
+   }
+  },
+  "568": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DO MARANHÃO",
+   "programas": 14,
+   "programas_com_conceito": 13,
+   "conceito_medio": 3.85,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 7,
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "MEDICINA VETERINÁRIA": 2,
+    "INTERDISCIPLINAR": 1,
+    "COMPUTAÇÃO": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "HISTÓRIA": 1,
+    "ANTROPOLOGIA / ARQUEOLOGIA": 1,
+    "GEOGRAFIA": 1,
+    "BIODIVERSIDADE": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 10,
+    "PROFISSIONAL": 4
+   }
+  },
+  "600": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO MARANHÃO - CAMPUS MONTE CASTELO",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 3
+   },
+   "areas": {
+    "MATERIAIS": 1,
+    "QUÍMICA": 1,
+    "ENGENHARIAS III": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3
+   }
+  },
+  "823": {
+   "nome_capes": "UNIVERSIDADE CEUMA",
+   "programas": 6,
+   "programas_com_conceito": 5,
+   "conceito_medio": 3.6,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 3,
+    "MESTRADO PROFISSIONAL": 2,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "ODONTOLOGIA": 2,
+    "DIREITO": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "INTERDISCIPLINAR": 1,
+    "SAÚDE COLETIVA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4,
+    "PROFISSIONAL": 2
+   }
+  },
+  "1885": {
+   "nome_capes": "UNIDADE DE ENSINO SUPERIOR DOM BOSCO",
+   "programas": 1,
+   "programas_com_conceito": 0,
+   "conceito_medio": null,
+   "conceito_maximo": null,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "5": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO PIAUÍ",
+   "programas": 34,
+   "programas_com_conceito": 33,
+   "conceito_medio": 3.82,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 18,
+    "MESTRADO": 14,
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "ANTROPOLOGIA / ARQUEOLOGIA": 2,
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "INTERDISCIPLINAR": 2,
+    "BIODIVERSIDADE": 1,
+    "MEDICINA III": 1,
+    "ENGENHARIAS IV": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 1,
+    "SAÚDE COLETIVA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 32,
+    "PROFISSIONAL": 2
+   }
+  },
+  "756": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DO PIAUÍ",
+   "programas": 3,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 3
+   },
+   "areas": {
+    "LINGUÍSTICA E LITERATURA": 1,
+    "QUÍMICA": 1,
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3
+   }
+  },
+  "1820": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO PIAUÍ",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "GEOGRAFIA": 1,
+    "MATERIAIS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "1563": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO UNINOVAFAPI",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENFERMAGEM": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "2397": {
+   "nome_capes": "FUCAPE BUSINESS SCHOOL - MARANHÃO",
+   "programas": 5,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.5,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO": 1,
+    "MESTRADO/DOUTORADO": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 5
+   },
+   "modalidades": {
+    "PROFISSIONAL": 3,
+    "ACADÊMICO": 2
+   }
+  },
+  "23410": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DA REGIÃO TOCANTINA DO MARANHÃO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "LINGUÍSTICA E LITERATURA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "583": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO CEARÁ",
+   "programas": 74,
+   "programas_com_conceito": 72,
+   "conceito_medio": 4.53,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 48,
+    "MESTRADO": 16,
+    "MESTRADO PROFISSIONAL": 9,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 5,
+    "CIÊNCIAS BIOLÓGICAS II": 4,
+    "ENGENHARIAS I": 4,
+    "MEDICINA I": 3,
+    "CIÊNCIAS AGRÁRIAS I": 3,
+    "ECONOMIA": 3,
+    "MEDICINA II": 3,
+    "ENGENHARIAS IV": 3,
+    "LINGUÍSTICA E LITERATURA": 3,
+    "COMPUTAÇÃO": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 64,
+    "PROFISSIONAL": 10
+   }
+  },
+  "555": {
+   "nome_capes": "UNIVERSIDADE DE FORTALEZA",
+   "programas": 11,
+   "programas_com_conceito": 11,
+   "conceito_medio": 4.45,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 5,
+    "MESTRADO/DOUTORADO": 5,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "DIREITO": 2,
+    "MEDICINA I": 1,
+    "ARQUITETURA, URBANISMO E DESIGN": 1,
+    "ENFERMAGEM": 1,
+    "COMPUTAÇÃO": 1,
+    "PSICOLOGIA": 1,
+    "SAÚDE COLETIVA": 1,
+    "ODONTOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 6,
+    "PROFISSIONAL": 5
+   }
+  },
+  "29": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DO CEARÁ",
+   "programas": 25,
+   "programas_com_conceito": 23,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 11,
+    "MESTRADO": 7,
+    "MESTRADO PROFISSIONAL": 5,
+    "DOUTORADO": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 4,
+    "SAÚDE COLETIVA": 2,
+    "EDUCAÇÃO": 2,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 2,
+    "SERVIÇO SOCIAL": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "GEOCIÊNCIAS": 1,
+    "MEDICINA III": 1,
+    "NUTRIÇÃO": 1,
+    "LINGUÍSTICA E LITERATURA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 19,
+    "PROFISSIONAL": 6
+   }
+  },
+  "95": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL VALE DO ACARAÚ",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 3.33,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 3
+   },
+   "areas": {
+    "GEOGRAFIA": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "FILOSOFIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3
+   }
+  },
+  "746": {
+   "nome_capes": "UNIVERSIDADE REGIONAL DO CARIRI",
+   "programas": 6,
+   "programas_com_conceito": 5,
+   "conceito_medio": 3.8,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 4,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "ENFERMAGEM": 1,
+    "ECONOMIA": 1,
+    "EDUCAÇÃO": 1,
+    "CIÊNCIAS BIOLÓGICAS II": 1,
+    "BIODIVERSIDADE": 1,
+    "LINGUÍSTICA E LITERATURA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 5,
+    "PROFISSIONAL": 1
+   }
+  },
+  "1807": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO CEARÁ",
+   "programas": 9,
+   "programas_com_conceito": 8,
+   "conceito_medio": 3.38,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 7,
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "ENSINO": 2,
+    "INTERDISCIPLINAR": 2,
+    "ENGENHARIAS I": 1,
+    "CIÊNCIA DE ALIMENTOS": 1,
+    "ARTES": 1,
+    "COMPUTAÇÃO": 1,
+    "ENGENHARIAS IV": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 7,
+    "PROFISSIONAL": 2
+   }
+  },
+  "15497": {
+   "nome_capes": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
+   "programas": 6,
+   "programas_com_conceito": 6,
+   "conceito_medio": 3.17,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 5,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 2,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "ENGENHARIAS I": 1,
+    "ANTROPOLOGIA / ARQUEOLOGIA": 1,
+    "ENFERMAGEM": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 6
+   }
+  },
+  "1060062": {
+   "nome_capes": "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA - CAMPUS MALÊS",
+   "programas": 1,
+   "programas_com_conceito": 0,
+   "conceito_medio": null,
+   "conceito_maximo": null,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "LINGUÍSTICA E LITERATURA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "1556": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO SETE DE SETEMBRO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "1735": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO DOUTOR LEÃO SAMPAIO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "2111": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO INTA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "MEDICINA II": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "18759": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO CARIRI",
+   "programas": 4,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 3,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "MEDICINA II": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "25277": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO DELTA DO PARNAÍBA",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.25,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "BIOTECNOLOGIA": 1,
+    "PSICOLOGIA": 1,
+    "MEDICINA I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "570": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
+   "programas": 79,
+   "programas_com_conceito": 79,
+   "conceito_medio": 4.24,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 42,
+    "MESTRADO": 18,
+    "MESTRADO PROFISSIONAL": 17,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 4,
+    "ENGENHARIAS III": 4,
+    "SAÚDE COLETIVA": 4,
+    "INTERDISCIPLINAR": 4,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 4,
+    "ENSINO": 4,
+    "CIÊNCIAS BIOLÓGICAS II": 3,
+    "GEOGRAFIA": 3,
+    "ARQUITETURA, URBANISMO E DESIGN": 2,
+    "COMPUTAÇÃO": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 61,
+    "PROFISSIONAL": 18
+   }
+  },
+  "71": {
+   "nome_capes": "UNIVERSIDADE DO ESTADO DO RIO GRANDE DO NORTE",
+   "programas": 14,
+   "programas_com_conceito": 14,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 12,
+    "MESTRADO/DOUTORADO": 2
+   },
+   "areas": {
+    "LINGUÍSTICA E LITERATURA": 2,
+    "ENSINO": 2,
+    "MEDICINA II": 1,
+    "INTERDISCIPLINAR": 1,
+    "ECONOMIA": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "SERVIÇO SOCIAL": 1,
+    "COMPUTAÇÃO": 1,
+    "EDUCAÇÃO": 1,
+    "GEOGRAFIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 14
+   }
+  },
+  "589": {
+   "nome_capes": "UNIVERSIDADE FEDERAL RURAL DO SEMI-ÁRIDO",
+   "programas": 11,
+   "programas_com_conceito": 11,
+   "conceito_medio": 3.82,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO": 8,
+    "MESTRADO/DOUTORADO": 3
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "BIODIVERSIDADE": 1,
+    "MATERIAIS": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "DIREITO": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "INTERDISCIPLINAR": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "ENGENHARIAS IV": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 11
+   }
+  },
+  "718": {
+   "nome_capes": "UNIVERSIDADE POTIGUAR",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.75,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO/DOUTORADO": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "PSICOLOGIA": 1,
+    "BIOTECNOLOGIA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 3,
+    "ACADÊMICO": 1
+   }
+  },
+  "1082": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO RIO GRANDE DO NORTE",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1,
+    "ACADÊMICO": 1
+   }
+  },
+  "1895": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO CHRISTUS",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.75,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 2,
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "DIREITO": 1,
+    "MEDICINA III": 1,
+    "ENSINO": 1,
+    "ODONTOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 2,
+    "PROFISSIONAL": 2
+   }
+  },
+  "18478": {
+   "nome_capes": "FACULDADE PAULO PICANÇO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ODONTOLOGIA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "21088": {
+   "nome_capes": "FACULDADE RODOLFO TEÓFILO",
+   "programas": 1,
+   "programas_com_conceito": 0,
+   "conceito_medio": null,
+   "conceito_maximo": null,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "MEDICINA I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "579": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DA PARAÍBA - CAMPUS JOÃO PESSOA",
+   "programas": 60,
+   "programas_com_conceito": 59,
+   "conceito_medio": 4.2,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 36,
+    "MESTRADO": 16,
+    "MESTRADO PROFISSIONAL": 7,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 4,
+    "COMUNICAÇÃO E INFORMAÇÃO": 3,
+    "PSICOLOGIA": 3,
+    "ENGENHARIAS III": 3,
+    "LINGUÍSTICA E LITERATURA": 3,
+    "BIODIVERSIDADE": 3,
+    "INTERDISCIPLINAR": 2,
+    "EDUCAÇÃO": 2,
+    "ECONOMIA": 2,
+    "ARTES": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 53,
+    "PROFISSIONAL": 7
+   }
+  },
+  "352": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO DE JOÃO PESSOA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "550": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DA PARAÍBA",
+   "programas": 17,
+   "programas_com_conceito": 16,
+   "conceito_medio": 3.56,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 9,
+    "MESTRADO/DOUTORADO": 4,
+    "MESTRADO PROFISSIONAL": 3,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENSINO": 2,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "MEDICINA I": 1,
+    "SERVIÇO SOCIAL": 1,
+    "ENGENHARIAS I": 1,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "ODONTOLOGIA": 1,
+    "SAÚDE COLETIVA": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 13,
+    "PROFISSIONAL": 4
+   }
+  },
+  "1166": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DA PARAÍBA",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "COMPUTAÇÃO": 1,
+    "ENGENHARIAS IV": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1,
+    "ACADÊMICO": 1
+   }
+  },
+  "2564": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE",
+   "programas": 28,
+   "programas_com_conceito": 28,
+   "conceito_medio": 3.89,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO": 13,
+    "MESTRADO/DOUTORADO": 12,
+    "DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENGENHARIAS II": 3,
+    "CIÊNCIAS AGRÁRIAS I": 3,
+    "CIÊNCIAS AMBIENTAIS": 3,
+    "MATEMÁTICA / PROBABILIDADE E ESTATÍSTICA": 2,
+    "ENGENHARIAS III": 1,
+    "GEOCIÊNCIAS": 1,
+    "HISTÓRIA": 1,
+    "BIOTECNOLOGIA": 1,
+    "ENGENHARIAS I": 1,
+    "ARQUITETURA, URBANISMO E DESIGN": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 27,
+    "PROFISSIONAL": 1
+   }
+  },
+  "580": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
+   "programas": 79,
+   "programas_com_conceito": 78,
+   "conceito_medio": 4.54,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 54,
+    "MESTRADO": 18,
+    "MESTRADO PROFISSIONAL": 4,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 3
+   },
+   "areas": {
+    "ENGENHARIAS III": 4,
+    "MEDICINA II": 4,
+    "BIODIVERSIDADE": 4,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 4,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 3,
+    "CIÊNCIAS BIOLÓGICAS I": 3,
+    "EDUCAÇÃO": 3,
+    "ECONOMIA": 3,
+    "INTERDISCIPLINAR": 3,
+    "PSICOLOGIA": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 72,
+    "PROFISSIONAL": 7
+   }
+  },
+  "11": {
+   "nome_capes": "UNIVERSIDADE CATÓLICA DE PERNAMBUCO",
+   "programas": 10,
+   "programas_com_conceito": 9,
+   "conceito_medio": 3.89,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 5,
+    "MESTRADO PROFISSIONAL": 3,
+    "MESTRADO": 2
+   },
+   "areas": {
+    "CIÊNCIAS DA RELIGIÃO E TEOLOGIA": 2,
+    "DIREITO": 2,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "HISTÓRIA": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "FILOSOFIA": 1,
+    "ENGENHARIAS II": 1,
+    "PSICOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 7,
+    "PROFISSIONAL": 3
+   }
+  },
+  "587": {
+   "nome_capes": "UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO",
+   "programas": 31,
+   "programas_com_conceito": 29,
+   "conceito_medio": 4.24,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 17,
+    "MESTRADO": 12,
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 8,
+    "MEDICINA VETERINÁRIA": 3,
+    "BIODIVERSIDADE": 3,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "EDUCAÇÃO": 2,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 2,
+    "ENGENHARIAS IV": 1,
+    "CIÊNCIA DE ALIMENTOS": 1,
+    "ENGENHARIAS I": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 29,
+    "PROFISSIONAL": 2
+   }
+  },
+  "409": {
+   "nome_capes": "UNIVERSIDADE DE PERNAMBUCO",
+   "programas": 17,
+   "programas_com_conceito": 17,
+   "conceito_medio": 4.12,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 10,
+    "MESTRADO": 3,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 2,
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 3,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 2,
+    "EDUCAÇÃO": 2,
+    "COMPUTAÇÃO": 1,
+    "ODONTOLOGIA": 1,
+    "PSICOLOGIA": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "ENGENHARIAS IV": 1,
+    "ENFERMAGEM": 1,
+    "CIÊNCIAS BIOLÓGICAS I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 13,
+    "PROFISSIONAL": 4
+   }
+  },
+  "1809": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE PERNAMBUCO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIAS AMBIENTAIS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "1255": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO FBV WYDEN",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "19327": {
+   "nome_capes": "CENTRO DE ESTUDOS E SISTEMAS AVANÇADOS DO RECIFE - PERNAMBUCO",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ARQUITETURA, URBANISMO E DESIGN": 1,
+    "COMPUTAÇÃO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "3984": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO VALE DO SÃO FRANCISCO",
+   "programas": 14,
+   "programas_com_conceito": 13,
+   "conceito_medio": 3.69,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 8,
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL": 2,
+    "DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 4,
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "ANTROPOLOGIA / ARQUEOLOGIA": 2,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "FARMÁCIA": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1,
+    "PSICOLOGIA": 1,
+    "MATERIAIS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 11,
+    "PROFISSIONAL": 3
+   }
+  },
+  "3615": {
+   "nome_capes": "FACULDADE PERNAMBUCANA DE SAÚDE",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "ENSINO": 1,
+    "PSICOLOGIA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "1753": {
+   "nome_capes": "FACULDADE DE ENFERMAGEM NOVA ESPERANÇA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENFERMAGEM": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "577": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE ALAGOAS",
+   "programas": 39,
+   "programas_com_conceito": 36,
+   "conceito_medio": 3.89,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO": 20,
+    "MESTRADO/DOUTORADO": 14,
+    "MESTRADO PROFISSIONAL": 3,
+    "DOUTORADO": 2
+   },
+   "areas": {
+    "ENSINO": 3,
+    "CIÊNCIAS AGRÁRIAS I": 3,
+    "ENGENHARIAS I": 2,
+    "ENGENHARIAS II": 2,
+    "COMPUTAÇÃO": 1,
+    "GEOGRAFIA": 1,
+    "INTERDISCIPLINAR": 1,
+    "NUTRIÇÃO": 1,
+    "ANTROPOLOGIA / ARQUEOLOGIA": 1,
+    "HISTÓRIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 36,
+    "PROFISSIONAL": 3
+   }
+  },
+  "3160": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE ALAGOAS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIAS AMBIENTAIS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "32": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DE CIÊNCIAS DA SAÚDE DE ALAGOAS",
+   "programas": 2,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "EDUCAÇÃO": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "5242": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DE ALAGOAS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "621": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO CESMAC",
+   "programas": 3,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1,
+    "ODONTOLOGIA": 1,
+    "CIÊNCIAS AMBIENTAIS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2,
+    "ACADÊMICO": 1
+   }
+  },
+  "3631": {
+   "nome_capes": "FACULDADE DAMAS DA INSTRUÇÃO CRISTÃ",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "25275": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO AGRESTE DE PERNAMBUCO",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 3,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4
+   }
+  },
+  "3": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE SERGIPE",
+   "programas": 48,
+   "programas_com_conceito": 47,
+   "conceito_medio": 3.87,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO": 25,
+    "MESTRADO/DOUTORADO": 19,
+    "MESTRADO PROFISSIONAL": 3,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 3,
+    "ENGENHARIAS I": 3,
+    "COMUNICAÇÃO E INFORMAÇÃO": 2,
+    "ENSINO": 2,
+    "ENGENHARIAS II": 2,
+    "ECONOMIA": 2,
+    "MEDICINA I": 2,
+    "ANTROPOLOGIA / ARQUEOLOGIA": 2,
+    "CIÊNCIAS BIOLÓGICAS III": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 45,
+    "PROFISSIONAL": 3
+   }
+  },
+  "398": {
+   "nome_capes": "UNIVERSIDADE TIRADENTES",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 5.2,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 5
+   },
+   "areas": {
+    "BIOTECNOLOGIA": 1,
+    "INTERDISCIPLINAR": 1,
+    "EDUCAÇÃO": 1,
+    "ENGENHARIAS II": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 5
+   }
+  },
+  "3183": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SERGIPE",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "4530": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO DE MACEIÓ",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "578": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DA BAHIA",
+   "programas": 77,
+   "programas_com_conceito": 74,
+   "conceito_medio": 4.41,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 57,
+    "MESTRADO PROFISSIONAL": 10,
+    "MESTRADO": 7,
+    "DOUTORADO": 3
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 9,
+    "ARTES": 6,
+    "SAÚDE COLETIVA": 4,
+    "ENGENHARIAS III": 3,
+    "GEOCIÊNCIAS": 3,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 3,
+    "COMUNICAÇÃO E INFORMAÇÃO": 3,
+    "MATEMÁTICA / PROBABILIDADE E ESTATÍSTICA": 3,
+    "MEDICINA I": 2,
+    "CIÊNCIAS BIOLÓGICAS III": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 67,
+    "PROFISSIONAL": 10
+   }
+  },
+  "666": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DE FEIRA DE SANTANA",
+   "programas": 19,
+   "programas_com_conceito": 18,
+   "conceito_medio": 3.83,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 9,
+    "MESTRADO/DOUTORADO": 6,
+    "MESTRADO PROFISSIONAL": 4
+   },
+   "areas": {
+    "ENSINO": 2,
+    "SAÚDE COLETIVA": 2,
+    "BIODIVERSIDADE": 2,
+    "LINGUÍSTICA E LITERATURA": 2,
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "INTERDISCIPLINAR": 1,
+    "HISTÓRIA": 1,
+    "FARMÁCIA": 1,
+    "GEOGRAFIA": 1,
+    "ENFERMAGEM": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 15,
+    "PROFISSIONAL": 4
+   }
+  },
+  "519": {
+   "nome_capes": "UNIVERSIDADE CATÓLICA DO SALVADOR",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.75,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 2,
+    "DIREITO": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4
+   }
+  },
+  "40": {
+   "nome_capes": "UNIVERSIDADE DO ESTADO DA BAHIA",
+   "programas": 23,
+   "programas_com_conceito": 19,
+   "conceito_medio": 3.58,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 13,
+    "MESTRADO PROFISSIONAL": 6,
+    "MESTRADO/DOUTORADO": 4
+   },
+   "areas": {
+    "EDUCAÇÃO": 5,
+    "LINGUÍSTICA E LITERATURA": 4,
+    "HISTÓRIA": 3,
+    "INTERDISCIPLINAR": 3,
+    "ENSINO": 2,
+    "QUÍMICA": 1,
+    "SAÚDE COLETIVA": 1,
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "GEOGRAFIA": 1,
+    "BIODIVERSIDADE": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 17,
+    "PROFISSIONAL": 6
+   }
+  },
+  "688": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DO SUDOESTE DA BAHIA",
+   "programas": 17,
+   "programas_com_conceito": 16,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO": 9,
+    "MESTRADO/DOUTORADO": 8
+   },
+   "areas": {
+    "LINGUÍSTICA E LITERATURA": 2,
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "INTERDISCIPLINAR": 2,
+    "ENSINO": 2,
+    "ENFERMAGEM": 1,
+    "GEOGRAFIA": 1,
+    "EDUCAÇÃO": 1,
+    "BIODIVERSIDADE": 1,
+    "QUÍMICA": 1,
+    "CIÊNCIA DE ALIMENTOS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 17
+   }
+  },
+  "24": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DE SANTA CRUZ",
+   "programas": 19,
+   "programas_com_conceito": 19,
+   "conceito_medio": 4.05,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 9,
+    "MESTRADO": 8,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "BIODIVERSIDADE": 3,
+    "INTERDISCIPLINAR": 2,
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "EDUCAÇÃO": 1,
+    "MATERIAIS": 1,
+    "HISTÓRIA": 1,
+    "MEDICINA II": 1,
+    "ENFERMAGEM": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "QUÍMICA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 17,
+    "PROFISSIONAL": 2
+   }
+  },
+  "534": {
+   "nome_capes": "ESCOLA BAHIANA DE MEDICINA E SAÚDE PÚBLICA",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 3.33,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "MEDICINA I": 1,
+    "PSICOLOGIA": 1,
+    "MEDICINA II": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2,
+    "ACADÊMICO": 1
+   }
+  },
+  "599": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DA BAHIA",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1,
+    "MATERIAIS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "385": {
+   "nome_capes": "UNIVERSIDADE SALVADOR",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.75,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 2,
+    "MESTRADO/DOUTORADO": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "COMPUTAÇÃO": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "INTERDISCIPLINAR": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "4503": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO RECÔNCAVO DA BAHIA",
+   "programas": 14,
+   "programas_com_conceito": 14,
+   "conceito_medio": 3.79,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 6,
+    "MESTRADO PROFISSIONAL": 6,
+    "MESTRADO/DOUTORADO": 2
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 4,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "EDUCAÇÃO": 1,
+    "ENSINO": 1,
+    "HISTÓRIA": 1,
+    "ANTROPOLOGIA / ARQUEOLOGIA": 1,
+    "SAÚDE COLETIVA": 1,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 1,
+    "SERVIÇO SOCIAL": 1,
+    "SOCIOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 8,
+    "PROFISSIONAL": 6
+   }
+  },
+  "3962": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO SENAI CIMATEC",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.75,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO/DOUTORADO": 1,
+    "DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 3,
+    "QUÍMICA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 3,
+    "ACADÊMICO": 1
+   }
+  },
+  "2474": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO MARIA MILZA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIAS AMBIENTAIS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "18506": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO OESTE DA BAHIA",
+   "programas": 7,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 6,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "ENSINO": 1,
+    "MEDICINA II": 1,
+    "QUÍMICA": 1,
+    "FARMÁCIA": 1,
+    "INTERDISCIPLINAR": 1,
+    "MATERIAIS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 6,
+    "PROFISSIONAL": 1
+   }
+  },
+  "14509": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA BAIANO",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "CIÊNCIAS AMBIENTAIS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "18812": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO SUL DA BAHIA",
+   "programas": 8,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.75,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 5,
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 3,
+    "CIÊNCIAS AMBIENTAIS": 2,
+    "ARTES": 1,
+    "ENGENHARIAS I": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 7,
+    "PROFISSIONAL": 1
+   }
+  },
+  "573": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO ESPÍRITO SANTO",
+   "programas": 56,
+   "programas_com_conceito": 55,
+   "conceito_medio": 4.27,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 35,
+    "MESTRADO": 14,
+    "MESTRADO PROFISSIONAL": 5,
+    "DOUTORADO": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 6,
+    "ENSINO": 3,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 3,
+    "ENGENHARIAS I": 3,
+    "SAÚDE COLETIVA": 2,
+    "PSICOLOGIA": 2,
+    "EDUCAÇÃO": 2,
+    "CIÊNCIAS BIOLÓGICAS II": 2,
+    "ASTRONOMIA / FÍSICA": 2,
+    "LINGUÍSTICA E LITERATURA": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 50,
+    "PROFISSIONAL": 6
+   }
+  },
+  "1808": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO ESPÍRITO SANTO",
+   "programas": 8,
+   "programas_com_conceito": 8,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 6,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ENSINO": 3,
+    "COMPUTAÇÃO": 1,
+    "ENGENHARIAS IV": 1,
+    "ENGENHARIAS II": 1,
+    "INTERDISCIPLINAR": 1,
+    "CIÊNCIAS AGRÁRIAS I": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 7,
+    "ACADÊMICO": 1
+   }
+  },
+  "1142": {
+   "nome_capes": "FACULDADE DE DIREITO DE VITÓRIA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "664": {
+   "nome_capes": "UNIVERSIDADE VILA VELHA",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 3,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "ARQUITETURA, URBANISMO E DESIGN": 1,
+    "INTERDISCIPLINAR": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "SOCIOLOGIA": 1,
+    "FARMÁCIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4,
+    "PROFISSIONAL": 1
+   }
+  },
+  "501": {
+   "nome_capes": "ESCOLA SUPERIOR DE CIÊNCIAS DA SANTA CASA DE MISERICÓRDIA DE VITÓRIA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "SERVIÇO SOCIAL": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "2652": {
+   "nome_capes": "FACULDADE UNIDA DE VITÓRIA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIAS DA RELIGIÃO E TEOLOGIA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "1514": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO VALE DO CRICARÉ",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "586": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO RIO DE JANEIRO",
+   "programas": 124,
+   "programas_com_conceito": 122,
+   "conceito_medio": 5.14,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 91,
+    "MESTRADO PROFISSIONAL": 22,
+    "MESTRADO": 8,
+    "DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIAS BIOLÓGICAS II": 10,
+    "LINGUÍSTICA E LITERATURA": 7,
+    "ENGENHARIAS II": 7,
+    "ENGENHARIAS I": 6,
+    "MEDICINA II": 5,
+    "ARQUITETURA, URBANISMO E DESIGN": 5,
+    "ARTES": 5,
+    "ENSINO": 4,
+    "ENGENHARIAS III": 4,
+    "BIODIVERSIDADE": 4
+   },
+   "modalidades": {
+    "ACADÊMICO": 101,
+    "PROFISSIONAL": 23
+   }
+  },
+  "574": {
+   "nome_capes": "UNIVERSIDADE FEDERAL RURAL DO RIO DE JANEIRO",
+   "programas": 32,
+   "programas_com_conceito": 30,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 15,
+    "MESTRADO": 12,
+    "MESTRADO PROFISSIONAL": 4,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 6,
+    "INTERDISCIPLINAR": 5,
+    "EDUCAÇÃO": 2,
+    "ENGENHARIAS II": 2,
+    "SOCIOLOGIA": 2,
+    "MEDICINA VETERINÁRIA": 2,
+    "QUÍMICA": 1,
+    "GEOCIÊNCIAS": 1,
+    "ECONOMIA": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 28,
+    "PROFISSIONAL": 4
+   }
+  },
+  "572": {
+   "nome_capes": "UNIVERSIDADE FEDERAL FLUMINENSE",
+   "programas": 77,
+   "programas_com_conceito": 77,
+   "conceito_medio": 4.43,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 47,
+    "MESTRADO": 14,
+    "MESTRADO PROFISSIONAL": 12,
+    "DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 8,
+    "ENGENHARIAS III": 5,
+    "ENSINO": 5,
+    "COMUNICAÇÃO E INFORMAÇÃO": 4,
+    "MEDICINA II": 3,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 3,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 3,
+    "MEDICINA VETERINÁRIA": 2,
+    "MEDICINA I": 2,
+    "ODONTOLOGIA": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 64,
+    "PROFISSIONAL": 13
+   }
+  },
+  "547": {
+   "nome_capes": "UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO",
+   "programas": 61,
+   "programas_com_conceito": 60,
+   "conceito_medio": 4.57,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 45,
+    "MESTRADO PROFISSIONAL": 8,
+    "MESTRADO": 6,
+    "DOUTORADO": 2
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 3,
+    "EDUCAÇÃO": 3,
+    "MEDICINA I": 3,
+    "PSICOLOGIA": 3,
+    "LINGUÍSTICA E LITERATURA": 3,
+    "ENGENHARIAS I": 3,
+    "GEOGRAFIA": 2,
+    "GEOCIÊNCIAS": 2,
+    "ARTES": 2,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 53,
+    "PROFISSIONAL": 8
+   }
+  },
+  "528": {
+   "nome_capes": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO DE JANEIRO",
+   "programas": 32,
+   "programas_com_conceito": 32,
+   "conceito_medio": 5.47,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 25,
+    "MESTRADO PROFISSIONAL": 5,
+    "MESTRADO": 2
+   },
+   "areas": {
+    "ENGENHARIAS III": 3,
+    "LINGUÍSTICA E LITERATURA": 2,
+    "ARQUITETURA, URBANISMO E DESIGN": 2,
+    "ENGENHARIAS I": 2,
+    "DIREITO": 2,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 2,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "SERVIÇO SOCIAL": 1,
+    "SOCIOLOGIA": 1,
+    "MATEMÁTICA / PROBABILIDADE E ESTATÍSTICA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 27,
+    "PROFISSIONAL": 5
+   }
+  },
+  "633": {
+   "nome_capes": "INSTITUTO MILITAR DE ENGENHARIA",
+   "programas": 8,
+   "programas_com_conceito": 7,
+   "conceito_medio": 4.14,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO": 4,
+    "MESTRADO/DOUTORADO": 4
+   },
+   "areas": {
+    "ENGENHARIAS II": 2,
+    "ENGENHARIAS III": 1,
+    "ENGENHARIAS I": 1,
+    "INTERDISCIPLINAR": 1,
+    "ENGENHARIAS IV": 1,
+    "QUÍMICA": 1,
+    "COMPUTAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 8
+   }
+  },
+  "26541": {
+   "nome_capes": "INSTITUTO NACIONAL DE MATEMÁTICA PURA E APLICADA",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 5.5,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "MATEMÁTICA / PROBABILIDADE E ESTATÍSTICA": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 1,
+    "PROFISSIONAL": 1
+   }
+  },
+  "1851": {
+   "nome_capes": "FUNDAÇÃO GETULIO VARGAS - RIO DE JANEIRO",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 5.67,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 3
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2,
+    "ACADÊMICO": 1
+   }
+  },
+  "2591": {
+   "nome_capes": "FUNDAÇÃO GETULIO VARGAS - RIO DE JANEIRO",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 6.0,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "ECONOMIA": 2
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1,
+    "ACADÊMICO": 1
+   }
+  },
+  "3614": {
+   "nome_capes": "FUNDAÇÃO GETULIO VARGAS - RIO DE JANEIRO",
+   "programas": 3,
+   "programas_com_conceito": 2,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "HISTÓRIA": 2,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2,
+    "ACADÊMICO": 1
+   }
+  },
+  "13695": {
+   "nome_capes": "FUNDAÇÃO GETULIO VARGAS - RIO DE JANEIRO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "MATEMÁTICA / PROBABILIDADE E ESTATÍSTICA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "2126": {
+   "nome_capes": "FUNDAÇÃO GETULIO VARGAS - RIO DE JANEIRO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "240": {
+   "nome_capes": "UNIVERSIDADE SANTA ÚRSULA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "163": {
+   "nome_capes": "UNIVERSIDADE ESTÁCIO DE SÁ",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 4.4,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "SAÚDE COLETIVA": 1,
+    "EDUCAÇÃO": 1,
+    "ODONTOLOGIA": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 2
+   }
+  },
+  "15": {
+   "nome_capes": "UNIVERSIDADE CATÓLICA DE PETRÓPOLIS",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 2,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "PSICOLOGIA": 1,
+    "INTERDISCIPLINAR": 1,
+    "EDUCAÇÃO": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "693": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO ESTADO DO RIO DE JANEIRO",
+   "programas": 24,
+   "programas_com_conceito": 24,
+   "conceito_medio": 4.08,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 11,
+    "MESTRADO PROFISSIONAL": 9,
+    "MESTRADO": 3,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "ARTES": 4,
+    "ENFERMAGEM": 3,
+    "COMUNICAÇÃO E INFORMAÇÃO": 3,
+    "MEDICINA II": 2,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "DIREITO": 1,
+    "MEDICINA III": 1,
+    "BIODIVERSIDADE": 1,
+    "NUTRIÇÃO": 1,
+    "CIÊNCIAS BIOLÓGICAS I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 15,
+    "PROFISSIONAL": 9
+   }
+  },
+  "593": {
+   "nome_capes": "CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA CELSO SUCKOW DA FONSECA",
+   "programas": 9,
+   "programas_com_conceito": 9,
+   "conceito_medio": 3.89,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO": 4,
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL": 1,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "ENGENHARIAS IV": 2,
+    "INTERDISCIPLINAR": 1,
+    "FILOSOFIA": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "ENGENHARIAS III": 1,
+    "MATERIAIS": 1,
+    "COMPUTAÇÃO": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 8,
+    "PROFISSIONAL": 1
+   }
+  },
+  "663": {
+   "nome_capes": "UNIVERSIDADE SALGADO DE OLIVEIRA",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "PSICOLOGIA": 1,
+    "HISTÓRIA": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3
+   }
+  },
+  "140": {
+   "nome_capes": "UNIVERSIDADE DE VASSOURAS",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 3.33,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 3
+   },
+   "areas": {
+    "MEDICINA III": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "CIÊNCIAS AMBIENTAIS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 3
+   }
+  },
+  "165": {
+   "nome_capes": "UNIVERSIDADE VEIGA DE ALMEIDA",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 3.8,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO": 1,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "ODONTOLOGIA": 2,
+    "INTERDISCIPLINAR": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4,
+    "PROFISSIONAL": 1
+   }
+  },
+  "1153": {
+   "nome_capes": "UNIVERSIDADE CÂNDIDO MENDES",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "ECONOMIA": 1,
+    "SOCIOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 2,
+    "PROFISSIONAL": 1
+   }
+  },
+  "1027": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DO NORTE FLUMINENSE DARCY RIBEIRO",
+   "programas": 15,
+   "programas_com_conceito": 13,
+   "conceito_medio": 4.62,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 13,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 3,
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "SOCIOLOGIA": 1,
+    "ENGENHARIAS I": 1,
+    "GEOCIÊNCIAS": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "CIÊNCIAS BIOLÓGICAS I": 1,
+    "ENGENHARIAS II": 1,
+    "BIODIVERSIDADE": 1,
+    "BIOTECNOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 14,
+    "PROFISSIONAL": 1
+   }
+  },
+  "1030": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO IBMEC",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "ECONOMIA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "472": {
+   "nome_capes": "UNIVERSIDADE DO GRANDE RIO PROFESSOR JOSÉ DE SOUZA HERDY",
+   "programas": 6,
+   "programas_com_conceito": 6,
+   "conceito_medio": 4.17,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO": 1,
+    "MESTRADO PROFISSIONAL": 1,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "ODONTOLOGIA": 2,
+    "CIÊNCIAS BIOLÓGICAS II": 1,
+    "INTERDISCIPLINAR": 1,
+    "ENSINO": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 5,
+    "PROFISSIONAL": 1
+   }
+  },
+  "1120": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA FLUMINENSE",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 3.6,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 4,
+    "DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ARQUITETURA, URBANISMO E DESIGN": 1,
+    "INTERDISCIPLINAR": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "ENGENHARIAS I": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 5
+   }
+  },
+  "330": {
+   "nome_capes": "UNIVERSIDADE IGUAÇU",
+   "programas": 2,
+   "programas_com_conceito": 0,
+   "conceito_medio": null,
+   "conceito_maximo": null,
+   "por_grau": {
+    "MESTRADO": 2
+   },
+   "areas": {
+    "ODONTOLOGIA": 1,
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 2
+   }
+  },
+  "26": {
+   "nome_capes": "ESCOLA NACIONAL DE CIÊNCIAS ESTATÍSTICAS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "4016": {
+   "nome_capes": "INSTITUTO NACIONAL DE EDUCAÇÃO DE SURDOS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "LINGUÍSTICA E LITERATURA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "26778": {
+   "nome_capes": "INSTITUTO BENJAMIN CONSTANT",
+   "programas": 1,
+   "programas_com_conceito": 0,
+   "conceito_medio": null,
+   "conceito_maximo": null,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "21503": {
+   "nome_capes": "COLÉGIO PEDRO II",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "3163": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO RIO DE JANEIRO",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "CIÊNCIA DE ALIMENTOS": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "277": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO AUGUSTO MOTTA",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.5,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1,
+    "CIÊNCIAS AMBIENTAIS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1,
+    "PROFISSIONAL": 1
+   }
+  },
+  "17738": {
+   "nome_capes": "FACULDADE CESGRANRIO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "489": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO DE VOLTA REDONDA",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.5,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "MATERIAIS": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "29252": {
+   "nome_capes": "ESCOLA DE GUERRA NAVAL",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "24522": {
+   "nome_capes": "INSTITUTO NACIONAL DE CARDIOLOGIA",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "SAÚDE COLETIVA": 1,
+    "MEDICINA I": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "5013": {
+   "nome_capes": "UNIVERSIDADE DO ESTADO DO RIO DE JANEIRO - CAMPUS ZONA OESTE",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "MATERIAIS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "802": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO CARIOCA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "21436": {
+   "nome_capes": "ESCOLA DE COMANDO E ESTADO-MAIOR DO EXÉRCITO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "29090": {
+   "nome_capes": "INSTITUTO NACIONAL DE TRAUMATOLOGIA E ORTOPEDIA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIAS BIOLÓGICAS II": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "26135": {
+   "nome_capes": "FUNDAÇÃO DOM CABRAL - ENSINO SUPERIOR",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "12620": {
+   "nome_capes": "FACULDADE SETE LAGOAS",
+   "programas": 1,
+   "programas_com_conceito": 0,
+   "conceito_medio": null,
+   "conceito_maximo": null,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "576": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE JUIZ DE FORA - CAMPUS GOVERNADOR VALADARES",
+   "programas": 35,
+   "programas_com_conceito": 35,
+   "conceito_medio": 4.37,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 22,
+    "MESTRADO": 10,
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 3,
+    "EDUCAÇÃO": 2,
+    "LINGUÍSTICA E LITERATURA": 2,
+    "ENSINO": 1,
+    "QUÍMICA": 1,
+    "ODONTOLOGIA": 1,
+    "ASTRONOMIA / FÍSICA": 1,
+    "HISTÓRIA": 1,
+    "ECONOMIA": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 32,
+    "PROFISSIONAL": 3
+   }
+  },
+  "575": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
+   "programas": 87,
+   "programas_com_conceito": 87,
+   "conceito_medio": 5.32,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 71,
+    "MESTRADO PROFISSIONAL": 8,
+    "MESTRADO": 8
+   },
+   "areas": {
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 4,
+    "CIÊNCIAS BIOLÓGICAS II": 4,
+    "INTERDISCIPLINAR": 4,
+    "ENGENHARIAS I": 4,
+    "ENGENHARIAS II": 4,
+    "COMUNICAÇÃO E INFORMAÇÃO": 3,
+    "CIÊNCIAS BIOLÓGICAS III": 3,
+    "FARMÁCIA": 3,
+    "SAÚDE COLETIVA": 3,
+    "CIÊNCIAS BIOLÓGICAS I": 3
+   },
+   "modalidades": {
+    "ACADÊMICO": 79,
+    "PROFISSIONAL": 8
+   }
+  },
+  "8": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE VIÇOSA",
+   "programas": 44,
+   "programas_com_conceito": 44,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 30,
+    "MESTRADO": 9,
+    "MESTRADO PROFISSIONAL": 5
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 18,
+    "BIODIVERSIDADE": 3,
+    "ECONOMIA": 2,
+    "HISTÓRIA": 1,
+    "CIÊNCIAS BIOLÓGICAS I": 1,
+    "MATEMÁTICA / PROBABILIDADE E ESTATÍSTICA": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1,
+    "ENGENHARIAS I": 1,
+    "GEOGRAFIA": 1,
+    "CIÊNCIA DE ALIMENTOS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 39,
+    "PROFISSIONAL": 5
+   }
+  },
+  "598": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE ITAJUBÁ",
+   "programas": 14,
+   "programas_com_conceito": 14,
+   "conceito_medio": 3.93,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 6,
+    "MESTRADO/DOUTORADO": 5,
+    "MESTRADO PROFISSIONAL": 3
+   },
+   "areas": {
+    "ENGENHARIAS III": 3,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "INTERDISCIPLINAR": 1,
+    "ENGENHARIAS I": 1,
+    "ENGENHARIAS IV": 1,
+    "MATEMÁTICA / PROBABILIDADE E ESTATÍSTICA": 1,
+    "QUÍMICA": 1,
+    "ENGENHARIAS II": 1,
+    "ASTRONOMIA / FÍSICA": 1,
+    "COMPUTAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 11,
+    "PROFISSIONAL": 3
+   }
+  },
+  "592": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE LAVRAS",
+   "programas": 40,
+   "programas_com_conceito": 39,
+   "conceito_medio": 4.51,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 22,
+    "MESTRADO": 11,
+    "MESTRADO PROFISSIONAL": 7
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 18,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 2,
+    "ENSINO": 2,
+    "CIÊNCIA DE ALIMENTOS": 2,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "INTERDISCIPLINAR": 2,
+    "FILOSOFIA": 1,
+    "EDUCAÇÃO": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "ENGENHARIAS IV": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 33,
+    "PROFISSIONAL": 7
+   }
+  },
+  "17": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE UBERLÂNDIA",
+   "programas": 47,
+   "programas_com_conceito": 46,
+   "conceito_medio": 4.5,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 29,
+    "MESTRADO": 11,
+    "MESTRADO PROFISSIONAL": 7
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 3,
+    "BIODIVERSIDADE": 2,
+    "ENGENHARIAS IV": 2,
+    "CIÊNCIAS BIOLÓGICAS I": 2,
+    "GEOGRAFIA": 2,
+    "LINGUÍSTICA E LITERATURA": 2,
+    "BIOTECNOLOGIA": 2,
+    "ARTES": 2,
+    "MEDICINA I": 2,
+    "EDUCAÇÃO": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 40,
+    "PROFISSIONAL": 7
+   }
+  },
+  "6": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE OURO PRETO",
+   "programas": 32,
+   "programas_com_conceito": 30,
+   "conceito_medio": 4.1,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 14,
+    "MESTRADO": 13,
+    "MESTRADO PROFISSIONAL": 5
+   },
+   "areas": {
+    "ENGENHARIAS I": 5,
+    "ENSINO": 2,
+    "ENGENHARIAS II": 2,
+    "ENGENHARIAS III": 2,
+    "ENGENHARIAS IV": 2,
+    "BIOTECNOLOGIA": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "QUÍMICA": 1,
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 27,
+    "PROFISSIONAL": 5
+   }
+  },
+  "338": {
+   "nome_capes": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS",
+   "programas": 16,
+   "programas_com_conceito": 15,
+   "conceito_medio": 4.67,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 13,
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "CIÊNCIAS DA RELIGIÃO E TEOLOGIA": 2,
+    "ODONTOLOGIA": 2,
+    "GEOGRAFIA": 1,
+    "SOCIOLOGIA": 1,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "BIODIVERSIDADE": 1,
+    "PSICOLOGIA": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "COMPUTAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 14,
+    "PROFISSIONAL": 2
+   }
+  },
+  "513": {
+   "nome_capes": "UNIVERSIDADE VALE DO RIO DOCE",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "596": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DOS VALES DO JEQUITINHONHA E MUCURI",
+   "programas": 20,
+   "programas_com_conceito": 20,
+   "conceito_medio": 3.55,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 7,
+    "MESTRADO": 7,
+    "MESTRADO/DOUTORADO": 6
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 4,
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "EDUCAÇÃO": 1,
+    "ODONTOLOGIA": 1,
+    "CIÊNCIA DE ALIMENTOS": 1,
+    "SAÚDE COLETIVA": 1,
+    "FARMÁCIA": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "NUTRIÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 13,
+    "PROFISSIONAL": 7
+   }
+  },
+  "595": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE ALFENAS",
+   "programas": 20,
+   "programas_com_conceito": 20,
+   "conceito_medio": 3.55,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 12,
+    "MESTRADO/DOUTORADO": 7,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENGENHARIAS II": 2,
+    "GEOGRAFIA": 1,
+    "ECONOMIA": 1,
+    "ENFERMAGEM": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1,
+    "MEDICINA II": 1,
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "EDUCAÇÃO": 1,
+    "BIOTECNOLOGIA": 1,
+    "QUÍMICA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 19,
+    "PROFISSIONAL": 1
+   }
+  },
+  "597": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO TRIÂNGULO MINEIRO",
+   "programas": 12,
+   "programas_com_conceito": 11,
+   "conceito_medio": 3.82,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 6,
+    "MESTRADO/DOUTORADO": 5,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 2,
+    "MEDICINA II": 2,
+    "CIÊNCIAS BIOLÓGICAS II": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "ENSINO": 1,
+    "PSICOLOGIA": 1,
+    "INTERDISCIPLINAR": 1,
+    "ENFERMAGEM": 1,
+    "MATERIAIS": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 11,
+    "PROFISSIONAL": 1
+   }
+  },
+  "367": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DE MONTES CLAROS",
+   "programas": 15,
+   "programas_com_conceito": 14,
+   "conceito_medio": 3.93,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO": 6,
+    "MESTRADO/DOUTORADO": 4,
+    "MESTRADO PROFISSIONAL": 4,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 5,
+    "BIODIVERSIDADE": 2,
+    "BIOTECNOLOGIA": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "HISTÓRIA": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "ECONOMIA": 1,
+    "GEOGRAFIA": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 10,
+    "PROFISSIONAL": 5
+   }
+  },
+  "30": {
+   "nome_capes": "UNIVERSIDADE PROFESSOR EDSON ANTÔNIO VELANO",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 3.8,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO": 1,
+    "MESTRADO/DOUTORADO": 1,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "MEDICINA II": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 2
+   }
+  },
+  "1128": {
+   "nome_capes": "UNIVERSIDADE DE ITAÚNA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "107": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE SÃO JOÃO DEL-REI",
+   "programas": 24,
+   "programas_com_conceito": 23,
+   "conceito_medio": 3.91,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO": 18,
+    "MESTRADO/DOUTORADO": 6
+   },
+   "areas": {
+    "ARTES": 2,
+    "INTERDISCIPLINAR": 2,
+    "ENGENHARIAS II": 2,
+    "MATERIAIS": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "COMPUTAÇÃO": 1,
+    "ENFERMAGEM": 1,
+    "ENGENHARIAS IV": 1,
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "PSICOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 24
+   }
+  },
+  "594": {
+   "nome_capes": "CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA DE MINAS GERAIS",
+   "programas": 10,
+   "programas_com_conceito": 9,
+   "conceito_medio": 3.78,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 4,
+    "MESTRADO": 4,
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "ENGENHARIAS II": 2,
+    "INTERDISCIPLINAR": 2,
+    "ENGENHARIAS I": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "ENGENHARIAS III": 1,
+    "ENGENHARIAS IV": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 8,
+    "PROFISSIONAL": 2
+   }
+  },
+  "27": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO UNINCOR",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "1036": {
+   "nome_capes": "UNIVERSIDADE DO ESTADO DE MINAS GERAIS",
+   "programas": 7,
+   "programas_com_conceito": 6,
+   "conceito_medio": 3.67,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 3,
+    "MESTRADO": 2,
+    "MESTRADO/DOUTORADO": 2
+   },
+   "areas": {
+    "ARTES": 2,
+    "EDUCAÇÃO": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "ARQUITETURA, URBANISMO E DESIGN": 1,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4,
+    "PROFISSIONAL": 3
+   }
+  },
+  "849": {
+   "nome_capes": "FACULDADE JESUÍTA DE FILOSOFIA E TEOLOGIA",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2
+   },
+   "areas": {
+    "FILOSOFIA": 1,
+    "CIÊNCIAS DA RELIGIÃO E TEOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 2
+   }
+  },
+  "351": {
+   "nome_capes": "FACULDADE DE CIÊNCIAS MÉDICAS DE MINAS GERAIS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "MEDICINA I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "143": {
+   "nome_capes": "UNIVERSIDADE DE UBERABA",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 2,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO/DOUTORADO": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "EDUCAÇÃO": 2,
+    "MEDICINA VETERINÁRIA": 1,
+    "ODONTOLOGIA": 1,
+    "ENGENHARIAS II": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 2
+   }
+  },
+  "638": {
+   "nome_capes": "FACULDADE MILTON CAMPOS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "3188": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO NORTE DE MINAS GERAIS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "MEDICINA VETERINÁRIA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "3279": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO SUDESTE DE MINAS GERAIS",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIA DE ALIMENTOS": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "3189": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MINAS GERAIS",
+   "programas": 2,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "3165": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO TRIÂNGULO MINEIRO",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIA DE ALIMENTOS": 1,
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 3
+   }
+  },
+  "1557": {
+   "nome_capes": "UNIVERSIDADE FUMEC",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.75,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ENGENHARIAS I": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "DIREITO": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "126": {
+   "nome_capes": "INSTITUTO NACIONAL DE TELECOMUNICAÇÕES",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "ENGENHARIAS IV": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "22103": {
+   "nome_capes": "FACULDADE DE SAÚDE SANTA CASA BH",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "MEDICINA I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "4218": {
+   "nome_capes": "FACULDADE PEDRO LEOPOLDO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "1586": {
+   "nome_capes": "UNIVERSIDADE DO VALE DO SAPUCAÍ",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.5,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "MEDICINA III": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1,
+    "ACADÊMICO": 1
+   }
+  },
+  "1666": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO UNIHORIZONTES",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "171": {
+   "nome_capes": "FACULDADE DE DIREITO DO SUL DE MINAS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "4358": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO SUL DE MINAS GERAIS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIA DE ALIMENTOS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "2849": {
+   "nome_capes": "ESCOLA SUPERIOR DOM HELDER CÂMARA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "2636": {
+   "nome_capes": "FACULDADE DINÂMICA DO VALE DO PIRANGA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "3368": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO DO SUL DE MINAS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "4962": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO DE SETE LAGOAS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "BIOTECNOLOGIA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "7": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE SÃO CARLOS",
+   "programas": 56,
+   "programas_com_conceito": 53,
+   "conceito_medio": 4.55,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 35,
+    "MESTRADO": 12,
+    "MESTRADO PROFISSIONAL": 9
+   },
+   "areas": {
+    "ENGENHARIAS III": 4,
+    "INTERDISCIPLINAR": 4,
+    "EDUCAÇÃO": 4,
+    "COMUNICAÇÃO E INFORMAÇÃO": 3,
+    "CIÊNCIAS AMBIENTAIS": 3,
+    "BIOTECNOLOGIA": 2,
+    "ENGENHARIAS I": 2,
+    "MATEMÁTICA / PROBABILIDADE E ESTATÍSTICA": 2,
+    "ENSINO": 2,
+    "COMPUTAÇÃO": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 47,
+    "PROFISSIONAL": 9
+   }
+  },
+  "55": {
+   "nome_capes": "UNIVERSIDADE DE SÃO PAULO",
+   "programas": 259,
+   "programas_com_conceito": 258,
+   "conceito_medio": 5.34,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 207,
+    "MESTRADO PROFISSIONAL": 25,
+    "MESTRADO": 13,
+    "DOUTORADO": 13,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "MEDICINA I": 16,
+    "MEDICINA II": 14,
+    "LINGUÍSTICA E LITERATURA": 13,
+    "MEDICINA III": 13,
+    "INTERDISCIPLINAR": 12,
+    "CIÊNCIAS AGRÁRIAS I": 11,
+    "ENGENHARIAS I": 9,
+    "ENFERMAGEM": 9,
+    "ODONTOLOGIA": 9,
+    "MEDICINA VETERINÁRIA": 8
+   },
+   "modalidades": {
+    "ACADÊMICO": 233,
+    "PROFISSIONAL": 26
+   }
+  },
+  "54": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DE CAMPINAS",
+   "programas": 79,
+   "programas_com_conceito": 78,
+   "conceito_medio": 5.49,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 67,
+    "MESTRADO PROFISSIONAL": 7,
+    "MESTRADO": 3,
+    "DOUTORADO": 2
+   },
+   "areas": {
+    "MEDICINA I": 7,
+    "ODONTOLOGIA": 7,
+    "INTERDISCIPLINAR": 6,
+    "MATEMÁTICA / PROBABILIDADE E ESTATÍSTICA": 4,
+    "CIÊNCIA DE ALIMENTOS": 4,
+    "LINGUÍSTICA E LITERATURA": 3,
+    "ARTES": 3,
+    "ENGENHARIAS III": 3,
+    "SAÚDE COLETIVA": 2,
+    "EDUCAÇÃO": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 72,
+    "PROFISSIONAL": 7
+   }
+  },
+  "56": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL PAULISTA JÚLIO DE MESQUITA FILHO",
+   "programas": 128,
+   "programas_com_conceito": 128,
+   "conceito_medio": 4.94,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 104,
+    "MESTRADO PROFISSIONAL": 13,
+    "MESTRADO": 7,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 3,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 11,
+    "ODONTOLOGIA": 7,
+    "INTERDISCIPLINAR": 7,
+    "BIODIVERSIDADE": 6,
+    "MEDICINA VETERINÁRIA": 5,
+    "EDUCAÇÃO": 5,
+    "LINGUÍSTICA E LITERATURA": 5,
+    "ENGENHARIAS III": 5,
+    "GEOGRAFIA": 4,
+    "ENSINO": 4
+   },
+   "modalidades": {
+    "ACADÊMICO": 112,
+    "PROFISSIONAL": 16
+   }
+  },
+  "546": {
+   "nome_capes": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DE SÃO PAULO",
+   "programas": 27,
+   "programas_com_conceito": 26,
+   "conceito_medio": 4.42,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 20,
+    "MESTRADO PROFISSIONAL": 4,
+    "MESTRADO": 3
+   },
+   "areas": {
+    "EDUCAÇÃO": 4,
+    "LINGUÍSTICA E LITERATURA": 3,
+    "PSICOLOGIA": 3,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "CIÊNCIAS DA RELIGIÃO E TEOLOGIA": 2,
+    "INTERDISCIPLINAR": 2,
+    "SERVIÇO SOCIAL": 1,
+    "MATERIAIS": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 23,
+    "PROFISSIONAL": 4
+   }
+  },
+  "19": {
+   "nome_capes": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DE CAMPINAS",
+   "programas": 8,
+   "programas_com_conceito": 8,
+   "conceito_medio": 4.12,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 5,
+    "MESTRADO": 3
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 2,
+    "DIREITO": 1,
+    "EDUCAÇÃO": 1,
+    "ARQUITETURA, URBANISMO E DESIGN": 1,
+    "PSICOLOGIA": 1,
+    "ENGENHARIAS I": 1,
+    "CIÊNCIAS DA RELIGIÃO E TEOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 8
+   }
+  },
+  "266": {
+   "nome_capes": "UNIVERSIDADE METODISTA DE PIRACICABA",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.5,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2
+   },
+   "areas": {
+    "EDUCAÇÃO": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 2
+   }
+  },
+  "521": {
+   "nome_capes": "UNIVERSIDADE DE MOGI DAS CRUZES",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 2,
+    "BIOTECNOLOGIA": 1,
+    "ENGENHARIAS IV": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "591": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE SÃO PAULO",
+   "programas": 63,
+   "programas_com_conceito": 62,
+   "conceito_medio": 4.53,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 47,
+    "MESTRADO": 11,
+    "MESTRADO PROFISSIONAL": 4,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "MEDICINA III": 10,
+    "MEDICINA II": 9,
+    "MEDICINA I": 7,
+    "INTERDISCIPLINAR": 3,
+    "ENSINO": 3,
+    "BIODIVERSIDADE": 2,
+    "BIOTECNOLOGIA": 2,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 2,
+    "CIÊNCIAS BIOLÓGICAS II": 2,
+    "CIÊNCIAS BIOLÓGICAS I": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 58,
+    "PROFISSIONAL": 5
+   }
+  },
+  "602": {
+   "nome_capes": "INSTITUTO TECNOLÓGICO DE AERONÁUTICA",
+   "programas": 9,
+   "programas_com_conceito": 8,
+   "conceito_medio": 4.38,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 6,
+    "MESTRADO PROFISSIONAL": 3
+   },
+   "areas": {
+    "ENGENHARIAS III": 4,
+    "ENGENHARIAS IV": 1,
+    "ENGENHARIAS I": 1,
+    "COMPUTAÇÃO": 1,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 1,
+    "ASTRONOMIA / FÍSICA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 6,
+    "PROFISSIONAL": 3
+   }
+  },
+  "2129": {
+   "nome_capes": "FUNDAÇÃO GETULIO VARGAS - SÃO PAULO",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 6.0,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ECONOMIA": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 1,
+    "PROFISSIONAL": 1
+   }
+  },
+  "151": {
+   "nome_capes": "FUNDAÇÃO GETULIO VARGAS - SÃO PAULO",
+   "programas": 6,
+   "programas_com_conceito": 6,
+   "conceito_medio": 5.17,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 3,
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 6
+   },
+   "modalidades": {
+    "PROFISSIONAL": 4,
+    "ACADÊMICO": 2
+   }
+  },
+  "167": {
+   "nome_capes": "UNIVERSIDADE METODISTA DE SÃO PAULO",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 4
+   },
+   "areas": {
+    "EDUCAÇÃO": 1,
+    "CIÊNCIAS DA RELIGIÃO E TEOLOGIA": 1,
+    "PSICOLOGIA": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4
+   }
+  },
+  "415": {
+   "nome_capes": "FACULDADE DE CIÊNCIAS MÉDICAS DA SANTA CASA DE SÃO PAULO",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "SAÚDE COLETIVA": 2,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1,
+    "MEDICINA III": 1,
+    "MEDICINA I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 2
+   }
+  },
+  "227": {
+   "nome_capes": "UNIVERSIDADE CATÓLICA DE SANTOS",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.75,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "DIREITO": 1,
+    "EDUCAÇÃO": 1,
+    "PSICOLOGIA": 1,
+    "SAÚDE COLETIVA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "665": {
+   "nome_capes": "UNIVERSIDADE DE TAUBATÉ",
+   "programas": 9,
+   "programas_com_conceito": 9,
+   "conceito_medio": 3.67,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 4,
+    "MESTRADO": 3,
+    "MESTRADO/DOUTORADO": 2
+   },
+   "areas": {
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 2,
+    "CIÊNCIAS AMBIENTAIS": 2,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "INTERDISCIPLINAR": 1,
+    "ENGENHARIAS III": 1,
+    "ODONTOLOGIA": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 5,
+    "PROFISSIONAL": 4
+   }
+  },
+  "22": {
+   "nome_capes": "UNIVERSIDADE PRESBITERIANA MACKENZIE",
+   "programas": 12,
+   "programas_com_conceito": 11,
+   "conceito_medio": 5.18,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 8,
+    "MESTRADO PROFISSIONAL": 3,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 3,
+    "INTERDISCIPLINAR": 2,
+    "ARQUITETURA, URBANISMO E DESIGN": 1,
+    "COMPUTAÇÃO": 1,
+    "ECONOMIA": 1,
+    "MATERIAIS": 1,
+    "DIREITO": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "ENGENHARIAS IV": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 8,
+    "PROFISSIONAL": 4
+   }
+  },
+  "93": {
+   "nome_capes": "FACULDADE DE MEDICINA DE JUNDIAÍ",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "MEDICINA I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "1878": {
+   "nome_capes": "CENTRO UNIVERSITARIO DA FEI",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.75,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 2,
+    "MESTRADO/DOUTORADO": 2
+   },
+   "areas": {
+    "ENGENHARIAS III": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "ENGENHARIAS IV": 1,
+    "ENGENHARIAS II": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4
+   }
+  },
+  "737": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO SÃO CAMILO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "NUTRIÇÃO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "431": {
+   "nome_capes": "FACULDADE DE MEDICINA DE MARÍLIA",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 2
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1,
+    "ACADÊMICO": 1
+   }
+  },
+  "149": {
+   "nome_capes": "FACULDADE DE MEDICINA DE SÃO JOSÉ DO RIO PRETO",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 2,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "ENFERMAGEM": 1,
+    "PSICOLOGIA": 1,
+    "MEDICINA I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3
+   }
+  },
+  "208": {
+   "nome_capes": "UNIVERSIDADE DE RIBEIRÃO PRETO",
+   "programas": 6,
+   "programas_com_conceito": 6,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO": 1,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "ENGENHARIAS I": 2,
+    "BIOTECNOLOGIA": 1,
+    "ENSINO": 1,
+    "DIREITO": 1,
+    "ODONTOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 5,
+    "PROFISSIONAL": 1
+   }
+  },
+  "420": {
+   "nome_capes": "UNIVERSIDADE DE MARÍLIA",
+   "programas": 4,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.5,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO": 1,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "DIREITO": 1,
+    "MEDICINA VETERINÁRIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 2,
+    "PROFISSIONAL": 2
+   }
+  },
+  "670": {
+   "nome_capes": "UNIVERSIDADE SÃO FRANCISCO",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 5.67,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3
+   },
+   "areas": {
+    "PSICOLOGIA": 1,
+    "MEDICINA I": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3
+   }
+  },
+  "275": {
+   "nome_capes": "UNIVERSIDADE DO VALE DO PARAÍBA",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENGENHARIAS IV": 1,
+    "ASTRONOMIA / FÍSICA": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "MATERIAIS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "417": {
+   "nome_capes": "UNIVERSIDADE CIDADE DE SÃO PAULO",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.5,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "EDUCAÇÃO": 2,
+    "ASTRONOMIA / FÍSICA": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "271": {
+   "nome_capes": "UNIVERSIDADE DO OESTE PAULISTA",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 4.2,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 4,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "MEDICINA II": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "EDUCAÇÃO": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "CIÊNCIAS AGRÁRIAS I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 5
+   }
+  },
+  "319": {
+   "nome_capes": "UNIVERSIDADE BRASIL",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 3,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "ENGENHARIAS IV": 2,
+    "INTERDISCIPLINAR": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 3,
+    "ACADÊMICO": 1
+   }
+  },
+  "458": {
+   "nome_capes": "UNIVERSIDADE IBIRAPUERA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "322": {
+   "nome_capes": "UNIVERSIDADE PAULISTA",
+   "programas": 6,
+   "programas_com_conceito": 5,
+   "conceito_medio": 4.6,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 5,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENGENHARIAS III": 1,
+    "ODONTOLOGIA": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "PSICOLOGIA": 1,
+    "MEDICINA VETERINÁRIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 5,
+    "PROFISSIONAL": 1
+   }
+  },
+  "150": {
+   "nome_capes": "UNIVERSIDADE DE SOROCABA",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.25,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "EDUCAÇÃO": 1,
+    "FARMÁCIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "790": {
+   "nome_capes": "FACULDADE ISRAELITA DE CIÊNCIAS DA SAÚDE ALBERT EINSTEIN",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 3.67,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "MEDICINA I": 1,
+    "ENFERMAGEM": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2,
+    "ACADÊMICO": 1
+   }
+  },
+  "203": {
+   "nome_capes": "UNIVERSIDADE SÃO JUDAS TADEU",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.75,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENGENHARIAS I": 1,
+    "ARQUITETURA, URBANISMO E DESIGN": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1,
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "375": {
+   "nome_capes": "UNIVERSIDADE SANTO AMARO",
+   "programas": 4,
+   "programas_com_conceito": 3,
+   "conceito_medio": 3.67,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 2,
+    "MESTRADO/DOUTORADO": 2
+   },
+   "areas": {
+    "MEDICINA II": 1,
+    "ODONTOLOGIA": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4
+   }
+  },
+  "221": {
+   "nome_capes": "UNIVERSIDADE CRUZEIRO DO SUL",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.25,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENSINO": 2,
+    "MEDICINA I": 1,
+    "ODONTOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "244": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO FIEO",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "DIREITO": 1,
+    "PSICOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 2
+   }
+  },
+  "124": {
+   "nome_capes": "UNIVERSIDADE DE ARARAQUARA",
+   "programas": 6,
+   "programas_com_conceito": 6,
+   "conceito_medio": 3.83,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 4,
+    "MESTRADO/DOUTORADO": 2
+   },
+   "areas": {
+    "ENGENHARIAS III": 1,
+    "BIOTECNOLOGIA": 1,
+    "ODONTOLOGIA": 1,
+    "DIREITO": 1,
+    "INTERDISCIPLINAR": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 4,
+    "ACADÊMICO": 2
+   }
+  },
+  "1810": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SÃO PAULO",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ENSINO": 1,
+    "ENGENHARIAS III": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1,
+    "ACADÊMICO": 1
+   }
+  },
+  "952": {
+   "nome_capes": "UNIVERSIDADE SANTA CECÍLIA",
+   "programas": 5,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.25,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 2,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO/DOUTORADO": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "BIODIVERSIDADE": 2,
+    "ENGENHARIAS III": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 2
+   }
+  },
+  "316": {
+   "nome_capes": "UNIVERSIDADE NOVE DE JULHO",
+   "programas": 10,
+   "programas_com_conceito": 10,
+   "conceito_medio": 4.9,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 8,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "EDUCAÇÃO": 2,
+    "MEDICINA I": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1,
+    "INTERDISCIPLINAR": 1,
+    "MEDICINA II": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 8,
+    "PROFISSIONAL": 2
+   }
+  },
+  "496": {
+   "nome_capes": "UNIVERSIDADE DE FRANCA",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.25,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "LINGUÍSTICA E LITERATURA": 1,
+    "QUÍMICA": 1,
+    "INTERDISCIPLINAR": 1,
+    "MEDICINA VETERINÁRIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4
+   }
+  },
+  "213": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO ÁLVARES PENTEADO",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1,
+    "ACADÊMICO": 1
+   }
+  },
+  "60": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO MUNICIPAL DE FRANCA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "953": {
+   "nome_capes": "UNIVERSIDADE METROPOLITANA DE SANTOS",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 3.33,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ENSINO": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "MEDICINA II": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2,
+    "ACADÊMICO": 1
+   }
+  },
+  "997": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO DE BAURU",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "466": {
+   "nome_capes": "UNIVERSIDADE ANHEMBI MORUMBI",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 4,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "ENGENHARIAS IV": 1,
+    "ARQUITETURA, URBANISMO E DESIGN": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 5
+   }
+  },
+  "376": {
+   "nome_capes": "UNIVERSIDADE ANHANGUERA DE SÃO PAULO",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.25,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ENSINO": 2,
+    "FARMÁCIA": 1,
+    "BIOTECNOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "605": {
+   "nome_capes": "UNIVERSIDADE MUNICIPAL DE SÃO CAETANO DO SUL",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO/DOUTORADO": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "ENSINO": 1,
+    "EDUCAÇÃO": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 3,
+    "ACADÊMICO": 1
+   }
+  },
+  "3529": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO EURÍPEDES DE MARÍLIA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "224": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO FMABC",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "MEDICINA I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "15401": {
+   "nome_capes": "FACULDADE FIPECAFI",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "1043": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO DA FUNDAÇÃO HERMÍNIO OMETTO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ODONTOLOGIA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "481": {
+   "nome_capes": "UNIVERSIDADE UNIVERSUS VERITAS GUARULHOS",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.25,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ODONTOLOGIA": 2,
+    "ENFERMAGEM": 1,
+    "CIÊNCIAS AMBIENTAIS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "2368": {
+   "nome_capes": "FACULDADE SÃO LEOPOLDO MANDIC",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 4.33,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1,
+    "MESTRADO": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ODONTOLOGIA": 2,
+    "MEDICINA III": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 2,
+    "PROFISSIONAL": 1
+   }
+  },
+  "1365": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO ADVENTISTA DE SÃO PAULO",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "1161": {
+   "nome_capes": "INSPER INSTITUTO DE ENSINO E PESQUISA",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.25,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "ECONOMIA": 2,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2
+   },
+   "modalidades": {
+    "PROFISSIONAL": 3,
+    "ACADÊMICO": 1
+   }
+  },
+  "1752": {
+   "nome_capes": "FACULDADE AUTÔNOMA DE DIREITO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "636": {
+   "nome_capes": "ESCOLA SUPERIOR DE PROPAGANDA E MARKETING",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 4.67,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 2,
+    "PROFISSIONAL": 1
+   }
+  },
+  "374": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO DAS FACULDADES METROPOLITANAS UNIDAS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "4925": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO ABC",
+   "programas": 26,
+   "programas_com_conceito": 26,
+   "conceito_medio": 4.15,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 19,
+    "MESTRADO": 7
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 6,
+    "ENGENHARIAS IV": 3,
+    "ENGENHARIAS III": 2,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 2,
+    "MATEMÁTICA / PROBABILIDADE E ESTATÍSTICA": 1,
+    "QUÍMICA": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "ECONOMIA": 1,
+    "ENGENHARIAS II": 1,
+    "COMPUTAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 26
+   }
+  },
+  "2128": {
+   "nome_capes": "FUNDAÇÃO GETULIO VARGAS - ESCOLA DE DIREITO DE SÃO PAULO",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.5,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "DIREITO": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 1,
+    "PROFISSIONAL": 1
+   }
+  },
+  "1520": {
+   "nome_capes": "FACULDADE FIA DE ADMINISTRAÇÃO E NEGÓCIOS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "1273": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO CAMPO LIMPO PAULISTA",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "COMPUTAÇÃO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1,
+    "ACADÊMICO": 1
+   }
+  },
+  "21509": {
+   "nome_capes": "INSTITUTO DE ENSINO E PESQUISA DO HOSPITAL SÍRIO-LIBANÊS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "MEDICINA I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "738": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO TERESA D´ÁVILA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ARQUITETURA, URBANISMO E DESIGN": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "162": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO BELAS ARTES DE SÃO PAULO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ARQUITETURA, URBANISMO E DESIGN": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "905": {
+   "nome_capes": "FACULDADE ESCOLA PAULISTA DE DIREITO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "1438": {
+   "nome_capes": "FACULDADES DE CAMPINAS",
+   "programas": 1,
+   "programas_com_conceito": 0,
+   "conceito_medio": null,
+   "conceito_maximo": null,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "944": {
+   "nome_capes": "ESCOLA SUPERIOR DE PROPAGANDA E MARKETING DO RIO DE JANEIRO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "1616": {
+   "nome_capes": "FACULDADE ANGEL VIANNA",
+   "programas": 1,
+   "programas_com_conceito": 0,
+   "conceito_medio": null,
+   "conceito_maximo": null,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ARTES": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "20682": {
+   "nome_capes": "FACULDADE IDOR DE CIÊNCIAS MÉDICAS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "MEDICINA II": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "4829": {
+   "nome_capes": "ESCOLA SUPERIOR DE ARTES CÉLIA HELENA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ARTES": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "26235": {
+   "nome_capes": "INSTITUTO BRASILEIRO DE DIREITO TRIBUTÁRIO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "24554": {
+   "nome_capes": "INSTITUTO BRASILEIRO DE ESTUDOS TRIBUTÁRIOS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "59": {
+   "nome_capes": "FACULDADE DE DIREITO DE FRANCA",
+   "programas": 1,
+   "programas_com_conceito": 0,
+   "conceito_medio": null,
+   "conceito_maximo": null,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "17672": {
+   "nome_capes": "INSTITUTO BRASILEIRO DE ENSINO, DESENVOLVIMENTO E PESQUISA DE SÃO PAULO",
+   "programas": 3,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 3
+   },
+   "areas": {
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 1,
+    "ECONOMIA": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 3
+   }
+  },
+  "571": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO PARANÁ",
+   "programas": 80,
+   "programas_com_conceito": 79,
+   "conceito_medio": 4.7,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 62,
+    "MESTRADO": 10,
+    "MESTRADO PROFISSIONAL": 7,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "BIODIVERSIDADE": 5,
+    "CIÊNCIAS BIOLÓGICAS II": 4,
+    "ENGENHARIAS III": 4,
+    "ENGENHARIAS I": 4,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 4,
+    "CIÊNCIAS AMBIENTAIS": 3,
+    "CIÊNCIAS BIOLÓGICAS I": 3,
+    "CIÊNCIAS AGRÁRIAS I": 3,
+    "BIOTECNOLOGIA": 2,
+    "ECONOMIA": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 73,
+    "PROFISSIONAL": 7
+   }
+  },
+  "9": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DE LONDRINA",
+   "programas": 43,
+   "programas_com_conceito": 43,
+   "conceito_medio": 4.42,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 31,
+    "MESTRADO": 8,
+    "DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "LINGUÍSTICA E LITERATURA": 3,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 2,
+    "PSICOLOGIA": 2,
+    "MEDICINA II": 2,
+    "QUÍMICA": 2,
+    "COMUNICAÇÃO E INFORMAÇÃO": 2,
+    "ENGENHARIAS IV": 2,
+    "MEDICINA VETERINÁRIA": 2,
+    "FILOSOFIA": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 41,
+    "PROFISSIONAL": 2
+   }
+  },
+  "10": {
+   "nome_capes": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DO PARANÁ",
+   "programas": 16,
+   "programas_com_conceito": 16,
+   "conceito_medio": 4.94,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 14,
+    "MESTRADO": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 3,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "ENGENHARIAS III": 2,
+    "ODONTOLOGIA": 1,
+    "DIREITO": 1,
+    "COMPUTAÇÃO": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "EDUCAÇÃO": 1,
+    "MEDICINA I": 1,
+    "FILOSOFIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 15,
+    "PROFISSIONAL": 1
+   }
+  },
+  "57": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DE MARINGÁ",
+   "programas": 45,
+   "programas_com_conceito": 45,
+   "conceito_medio": 4.38,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 30,
+    "MESTRADO": 11,
+    "MESTRADO PROFISSIONAL": 4
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 4,
+    "FARMÁCIA": 3,
+    "ENGENHARIAS I": 2,
+    "CIÊNCIAS BIOLÓGICAS II": 2,
+    "BIODIVERSIDADE": 2,
+    "INTERDISCIPLINAR": 2,
+    "CIÊNCIA DE ALIMENTOS": 2,
+    "ENGENHARIAS III": 2,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 41,
+    "PROFISSIONAL": 4
+   }
+  },
+  "730": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DE PONTA GROSSA",
+   "programas": 21,
+   "programas_com_conceito": 20,
+   "conceito_medio": 4.1,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 13,
+    "MESTRADO": 7,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 4,
+    "ENGENHARIAS II": 1,
+    "ENSINO": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "ASTRONOMIA / FÍSICA": 1,
+    "HISTÓRIA": 1,
+    "FARMÁCIA": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "GEOGRAFIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 20,
+    "PROFISSIONAL": 1
+   }
+  },
+  "588": {
+   "nome_capes": "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
+   "programas": 51,
+   "programas_com_conceito": 49,
+   "conceito_medio": 3.76,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO": 27,
+    "MESTRADO PROFISSIONAL": 10,
+    "MESTRADO/DOUTORADO": 10,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 2,
+    "DOUTORADO": 2
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 6,
+    "ENGENHARIAS IV": 5,
+    "ENSINO": 5,
+    "ENGENHARIAS I": 5,
+    "COMPUTAÇÃO": 4,
+    "ENGENHARIAS III": 4,
+    "ENGENHARIAS II": 3,
+    "CIÊNCIAS AMBIENTAIS": 3,
+    "LINGUÍSTICA E LITERATURA": 2,
+    "CIÊNCIAS AGRÁRIAS I": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 39,
+    "PROFISSIONAL": 12
+   }
+  },
+  "353": {
+   "nome_capes": "FACULDADE EVANGÉLICA MACKENZIE DO PARANÁ",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "MEDICINA III": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "1126": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DO CENTRO-OESTE",
+   "programas": 14,
+   "programas_com_conceito": 14,
+   "conceito_medio": 3.86,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 8,
+    "MESTRADO": 4,
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "HISTÓRIA": 1,
+    "MATERIAIS": 1,
+    "ENGENHARIAS I": 1,
+    "QUÍMICA": 1,
+    "INTERDISCIPLINAR": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "BIODIVERSIDADE": 1,
+    "EDUCAÇÃO": 1,
+    "LINGUÍSTICA E LITERATURA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 12,
+    "PROFISSIONAL": 2
+   }
+  },
+  "609": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ",
+   "programas": 33,
+   "programas_com_conceito": 33,
+   "conceito_medio": 4.24,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 17,
+    "MESTRADO": 14,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 4,
+    "CIÊNCIAS AGRÁRIAS I": 3,
+    "ENSINO": 2,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 2,
+    "EDUCAÇÃO": 2,
+    "CIÊNCIAS AMBIENTAIS": 2,
+    "GEOGRAFIA": 2,
+    "MEDICINA I": 1,
+    "COMPUTAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 31,
+    "PROFISSIONAL": 2
+   }
+  },
+  "355": {
+   "nome_capes": "UNIVERSIDADE TUIUTI DO PARANÁ",
+   "programas": 4,
+   "programas_com_conceito": 3,
+   "conceito_medio": 4.33,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO": 2
+   },
+   "areas": {
+    "EDUCAÇÃO": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1,
+    "PSICOLOGIA": 1,
+    "ODONTOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4
+   }
+  },
+  "1042": {
+   "nome_capes": "UNIVERSIDADE POSITIVO",
+   "programas": 6,
+   "programas_com_conceito": 6,
+   "conceito_medio": 4.17,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "DOUTORADO": 1,
+    "MESTRADO": 1,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ODONTOLOGIA": 2,
+    "DIREITO": 1,
+    "BIOTECNOLOGIA": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4,
+    "PROFISSIONAL": 2
+   }
+  },
+  "298": {
+   "nome_capes": "UNIVERSIDADE PITÁGORAS UNOPAR ANHANGUERA",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1,
+    "ENSINO": 1,
+    "MEDICINA VETERINÁRIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 2,
+    "PROFISSIONAL": 1
+   }
+  },
+  "437": {
+   "nome_capes": "UNIVERSIDADE PARANAENSE",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.25,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "DIREITO": 1,
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "FARMÁCIA": 1,
+    "MEDICINA VETERINÁRIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "1419": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO CURITIBA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "1196": {
+   "nome_capes": "UNIVERSIDADE CESUMAR",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.25,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO": 2
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 2,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4
+   }
+  },
+  "15015": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DO NORTE DO PARANÁ",
+   "programas": 6,
+   "programas_com_conceito": 5,
+   "conceito_medio": 3.4,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 2,
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO/DOUTORADO": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "DIREITO": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1,
+    "EDUCAÇÃO": 1,
+    "ENFERMAGEM": 1,
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 3
+   }
+  },
+  "14724": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO PARANÁ",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "1232": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO CAMPOS DE ANDRADE",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "LINGUÍSTICA E LITERATURA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "3602": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO AUTÔNOMO DO BRASIL",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "2787": {
+   "nome_capes": "FACULDADES PEQUENO PRÍNCIPE",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "MEDICINA II": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 2
+   }
+  },
+  "1430": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO INGÁ",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ODONTOLOGIA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "18046": {
+   "nome_capes": "FACULDADE ILAPEO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ODONTOLOGIA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "15001": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DA INTEGRAÇÃO LATINO-AMERICANA",
+   "programas": 12,
+   "programas_com_conceito": 12,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 10,
+    "MESTRADO/DOUTORADO": 2
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 2,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 2,
+    "BIODIVERSIDADE": 1,
+    "ECONOMIA": 1,
+    "ENGENHARIAS I": 1,
+    "HISTÓRIA": 1,
+    "CIÊNCIAS BIOLÓGICAS II": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "ASTRONOMIA / FÍSICA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 12
+   }
+  },
+  "1491": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO INTERNACIONAL",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "DIREITO": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1,
+    "PROFISSIONAL": 1
+   }
+  },
+  "918": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO UNIVEL",
+   "programas": 1,
+   "programas_com_conceito": 0,
+   "conceito_medio": null,
+   "conceito_maximo": null,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "2141": {
+   "nome_capes": "FACULDADES BATISTA DO PARANÁ",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIAS DA RELIGIÃO E TEOLOGIA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "18492": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DO PARANÁ",
+   "programas": 9,
+   "programas_com_conceito": 7,
+   "conceito_medio": 3.29,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 8,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ARTES": 4,
+    "ENSINO": 2,
+    "INTERDISCIPLINAR": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "HISTÓRIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 8,
+    "PROFISSIONAL": 1
+   }
+  },
+  "3797": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO GUAIRACÁ",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "585": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE SANTA CATARINA",
+   "programas": 77,
+   "programas_com_conceito": 75,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 56,
+    "MESTRADO": 12,
+    "MESTRADO PROFISSIONAL": 7,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "ENGENHARIAS III": 4,
+    "LINGUÍSTICA E LITERATURA": 4,
+    "CIÊNCIAS BIOLÓGICAS II": 4,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 4,
+    "INTERDISCIPLINAR": 3,
+    "ENFERMAGEM": 3,
+    "ENGENHARIAS I": 3,
+    "ENGENHARIAS IV": 3,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 3,
+    "CIÊNCIAS AGRÁRIAS I": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 69,
+    "PROFISSIONAL": 8
+   }
+  },
+  "43": {
+   "nome_capes": "UNIVERSIDADE DO ESTADO DE SANTA CATARINA",
+   "programas": 29,
+   "programas_com_conceito": 29,
+   "conceito_medio": 4.28,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 19,
+    "MESTRADO": 5,
+    "MESTRADO PROFISSIONAL": 4,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ARTES": 3,
+    "CIÊNCIAS AGRÁRIAS I": 3,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 2,
+    "ARQUITETURA, URBANISMO E DESIGN": 2,
+    "ENSINO": 1,
+    "QUÍMICA": 1,
+    "COMPUTAÇÃO": 1,
+    "ENGENHARIAS I": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 24,
+    "PROFISSIONAL": 5
+   }
+  },
+  "81": {
+   "nome_capes": "UNIVERSIDADE DA REGIÃO DE JOINVILLE",
+   "programas": 6,
+   "programas_com_conceito": 5,
+   "conceito_medio": 4.2,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 2,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "ARQUITETURA, URBANISMO E DESIGN": 1,
+    "ENGENHARIAS II": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4,
+    "PROFISSIONAL": 2
+   }
+  },
+  "83": {
+   "nome_capes": "UNIVERSIDADE DO VALE DO ITAJAÍ",
+   "programas": 12,
+   "programas_com_conceito": 12,
+   "conceito_medio": 4.42,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 6,
+    "MESTRADO PROFISSIONAL": 5,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 3,
+    "DIREITO": 2,
+    "INTERDISCIPLINAR": 2,
+    "PSICOLOGIA": 1,
+    "FARMÁCIA": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "COMPUTAÇÃO": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 7,
+    "PROFISSIONAL": 5
+   }
+  },
+  "76": {
+   "nome_capes": "UNIVERSIDADE REGIONAL DE BLUMENAU",
+   "programas": 13,
+   "programas_com_conceito": 13,
+   "conceito_medio": 3.92,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 6,
+    "MESTRADO/DOUTORADO": 4,
+    "MESTRADO PROFISSIONAL": 3
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "ENSINO": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "ENGENHARIAS IV": 1,
+    "SAÚDE COLETIVA": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "BIODIVERSIDADE": 1,
+    "DIREITO": 1,
+    "QUÍMICA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 10,
+    "PROFISSIONAL": 3
+   }
+  },
+  "82": {
+   "nome_capes": "UNIVERSIDADE DO OESTE DE SANTA CATARINA",
+   "programas": 6,
+   "programas_com_conceito": 6,
+   "conceito_medio": 4.17,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO": 2,
+    "MESTRADO PROFISSIONAL": 1,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "DIREITO": 1,
+    "EDUCAÇÃO": 1,
+    "INTERDISCIPLINAR": 1,
+    "MEDICINA VETERINÁRIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 5,
+    "PROFISSIONAL": 1
+   }
+  },
+  "494": {
+   "nome_capes": "UNIVERSIDADE DO SUL DE SANTA CATARINA",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.5,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 4
+   },
+   "areas": {
+    "LINGUÍSTICA E LITERATURA": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "MEDICINA II": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4
+   }
+  },
+  "441": {
+   "nome_capes": "UNIVERSIDADE DO CONTESTADO",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 3.33,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "ENGENHARIAS I": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2,
+    "ACADÊMICO": 1
+   }
+  },
+  "3162": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 3.33,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 3
+   },
+   "areas": {
+    "MEDICINA II": 1,
+    "ENGENHARIAS IV": 1,
+    "GEOCIÊNCIAS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 3
+   }
+  },
+  "5036": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA CATARINENSE",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 3.67,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "EDUCAÇÃO": 1,
+    "MEDICINA VETERINÁRIA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2,
+    "ACADÊMICO": 1
+   }
+  },
+  "482": {
+   "nome_capes": "UNIVERSIDADE DO EXTREMO SUL CATARINENSE",
+   "programas": 7,
+   "programas_com_conceito": 7,
+   "conceito_medio": 4.43,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 5,
+    "MESTRADO": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "DIREITO": 1,
+    "MEDICINA I": 1,
+    "ENGENHARIAS II": 1,
+    "EDUCAÇÃO": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "INTERDISCIPLINAR": 1,
+    "SAÚDE COLETIVA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 6,
+    "PROFISSIONAL": 1
+   }
+  },
+  "3151": {
+   "nome_capes": "UNIVERSIDADE COMUNITÁRIA DA REGIÃO DE CHAPECÓ",
+   "programas": 6,
+   "programas_com_conceito": 6,
+   "conceito_medio": 4.33,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO": 2,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 2,
+    "EDUCAÇÃO": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "DIREITO": 1,
+    "CIÊNCIAS AMBIENTAIS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 5,
+    "PROFISSIONAL": 1
+   }
+  },
+  "1189": {
+   "nome_capes": "UNIVERSIDADE DO PLANALTO CATARINENSE",
+   "programas": 3,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 2,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 2,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3
+   }
+  },
+  "15121": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DA FRONTEIRA SUL",
+   "programas": 16,
+   "programas_com_conceito": 15,
+   "conceito_medio": 3.53,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 11,
+    "MESTRADO/DOUTORADO": 4,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 3,
+    "CIÊNCIAS AMBIENTAIS": 2,
+    "EDUCAÇÃO": 2,
+    "MEDICINA VETERINÁRIA": 1,
+    "CIÊNCIA DE ALIMENTOS": 1,
+    "GEOGRAFIA": 1,
+    "FILOSOFIA": 1,
+    "ENSINO": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "HISTÓRIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 15,
+    "PROFISSIONAL": 1
+   }
+  },
+  "2896": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO SATC",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENGENHARIAS II": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "3840": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO FACVEST",
+   "programas": 1,
+   "programas_com_conceito": 0,
+   "conceito_medio": null,
+   "conceito_maximo": null,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "2573": {
+   "nome_capes": "FACULDADE TEOLÓGICA SUL AMERICANA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIAS DA RELIGIÃO E TEOLOGIA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "1797": {
+   "nome_capes": "FACULDADES LONDRINA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "686906": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO PARANÁ - CAMPUS PALMAS",
+   "programas": 1,
+   "programas_com_conceito": 0,
+   "conceito_medio": null,
+   "conceito_maximo": null,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "581": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO RIO GRANDE DO SUL",
+   "programas": 89,
+   "programas_com_conceito": 89,
+   "conceito_medio": 5.39,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 72,
+    "MESTRADO": 11,
+    "MESTRADO PROFISSIONAL": 5,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "MEDICINA I": 5,
+    "CIÊNCIAS BIOLÓGICAS II": 4,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 4,
+    "SAÚDE COLETIVA": 3,
+    "PSICOLOGIA": 3,
+    "ARTES": 3,
+    "INTERDISCIPLINAR": 3,
+    "CIÊNCIAS AGRÁRIAS I": 3,
+    "ENSINO": 3,
+    "MEDICINA VETERINÁRIA": 3
+   },
+   "modalidades": {
+    "ACADÊMICO": 84,
+    "PROFISSIONAL": 5
+   }
+  },
+  "582": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE SANTA MARIA",
+   "programas": 57,
+   "programas_com_conceito": 55,
+   "conceito_medio": 4.6,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 35,
+    "MESTRADO": 15,
+    "MESTRADO PROFISSIONAL": 6,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 8,
+    "INTERDISCIPLINAR": 6,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 3,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 2,
+    "ENGENHARIAS III": 2,
+    "CIÊNCIAS BIOLÓGICAS II": 2,
+    "ENFERMAGEM": 2,
+    "EDUCAÇÃO": 2,
+    "ENGENHARIAS I": 2,
+    "BIODIVERSIDADE": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 50,
+    "PROFISSIONAL": 7
+   }
+  },
+  "634": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE PELOTAS",
+   "programas": 44,
+   "programas_com_conceito": 44,
+   "conceito_medio": 4.61,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 33,
+    "MESTRADO": 8,
+    "MESTRADO PROFISSIONAL": 3
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 7,
+    "INTERDISCIPLINAR": 3,
+    "CIÊNCIA DE ALIMENTOS": 2,
+    "ENSINO": 2,
+    "GEOCIÊNCIAS": 1,
+    "ASTRONOMIA / FÍSICA": 1,
+    "CIÊNCIAS BIOLÓGICAS II": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "SAÚDE COLETIVA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 41,
+    "PROFISSIONAL": 3
+   }
+  },
+  "12": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO RIO GRANDE",
+   "programas": 30,
+   "programas_com_conceito": 29,
+   "conceito_medio": 4.24,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO": 14,
+    "MESTRADO/DOUTORADO": 14,
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "ENSINO": 2,
+    "ENGENHARIAS III": 2,
+    "EDUCAÇÃO": 2,
+    "INTERDISCIPLINAR": 2,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "BIODIVERSIDADE": 2,
+    "GEOGRAFIA": 1,
+    "ENFERMAGEM": 1,
+    "DIREITO": 1,
+    "GEOCIÊNCIAS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 28,
+    "PROFISSIONAL": 2
+   }
+  },
+  "21": {
+   "nome_capes": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DO RIO GRANDE DO SUL",
+   "programas": 20,
+   "programas_com_conceito": 20,
+   "conceito_medio": 5.95,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 20
+   },
+   "areas": {
+    "DIREITO": 2,
+    "CIÊNCIAS DA RELIGIÃO E TEOLOGIA": 1,
+    "ENGENHARIAS II": 1,
+    "PSICOLOGIA": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "COMPUTAÇÃO": 1,
+    "ECONOMIA": 1,
+    "INTERDISCIPLINAR": 1,
+    "SOCIOLOGIA": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 20
+   }
+  },
+  "18": {
+   "nome_capes": "UNIVERSIDADE CATÓLICA DE PELOTAS",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.25,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "MEDICINA I": 1,
+    "SAÚDE COLETIVA": 1,
+    "ENGENHARIAS IV": 1,
+    "SERVIÇO SOCIAL": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "14": {
+   "nome_capes": "UNIVERSIDADE DO VALE DO RIO DOS SINOS",
+   "programas": 14,
+   "programas_com_conceito": 14,
+   "conceito_medio": 4.79,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 8,
+    "MESTRADO PROFISSIONAL": 4,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "EDUCAÇÃO": 2,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "DIREITO": 2,
+    "ENGENHARIAS III": 1,
+    "FILOSOFIA": 1,
+    "COMPUTAÇÃO": 1,
+    "NUTRIÇÃO": 1,
+    "ENGENHARIAS I": 1,
+    "ENGENHARIAS IV": 1,
+    "ARQUITETURA, URBANISMO E DESIGN": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 8,
+    "PROFISSIONAL": 6
+   }
+  },
+  "13": {
+   "nome_capes": "UNIVERSIDADE DE CAXIAS DO SUL",
+   "programas": 17,
+   "programas_com_conceito": 16,
+   "conceito_medio": 4.06,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 9,
+    "MESTRADO PROFISSIONAL": 6,
+    "MESTRADO": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "DIREITO": 1,
+    "ENGENHARIAS III": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "ENGENHARIAS I": 1,
+    "EDUCAÇÃO": 1,
+    "MATERIAIS": 1,
+    "HISTÓRIA": 1,
+    "PSICOLOGIA": 1,
+    "MEDICINA I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 10,
+    "PROFISSIONAL": 7
+   }
+  },
+  "20": {
+   "nome_capes": "UNIVERSIDADE DE PASSO FUNDO",
+   "programas": 15,
+   "programas_com_conceito": 15,
+   "conceito_medio": 4.13,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 8,
+    "MESTRADO": 4,
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "EDUCAÇÃO": 1,
+    "DIREITO": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "HISTÓRIA": 1,
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "ENSINO": 1,
+    "ODONTOLOGIA": 1,
+    "ENGENHARIAS I": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "COMPUTAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 12,
+    "PROFISSIONAL": 3
+   }
+  },
+  "423": {
+   "nome_capes": "UNIVERSIDADE REGIONAL INTEGRADA DO ALTO URUGUAI E DAS MISSÕES",
+   "programas": 6,
+   "programas_com_conceito": 6,
+   "conceito_medio": 3.83,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1,
+    "EDUCAÇÃO": 1,
+    "BIODIVERSIDADE": 1,
+    "CIÊNCIA DE ALIMENTOS": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4,
+    "PROFISSIONAL": 2
+   }
+  },
+  "1041": {
+   "nome_capes": "UNIVERSIDADE DO VALE DO TAQUARI",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 4.4,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ENSINO": 2,
+    "BIOTECNOLOGIA": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "MEDICINA I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4,
+    "PROFISSIONAL": 1
+   }
+  },
+  "717": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE CIÊNCIAS DA SAÚDE DE PORTO ALEGRE",
+   "programas": 11,
+   "programas_com_conceito": 11,
+   "conceito_medio": 3.73,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 5,
+    "MESTRADO": 4,
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "MEDICINA I": 2,
+    "MEDICINA II": 2,
+    "PSICOLOGIA": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1,
+    "CIÊNCIAS BIOLÓGICAS I": 1,
+    "ENFERMAGEM": 1,
+    "ENSINO": 1,
+    "INTERDISCIPLINAR": 1,
+    "NUTRIÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 9,
+    "PROFISSIONAL": 2
+   }
+  },
+  "1382": {
+   "nome_capes": "FACULDADE EST",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.5,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIAS DA RELIGIÃO E TEOLOGIA": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 1,
+    "PROFISSIONAL": 1
+   }
+  },
+  "13452": {
+   "nome_capes": "INSTITUTO DE CARDIOLOGIA DO RIO GRANDE DO SUL",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "MEDICINA I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "295": {
+   "nome_capes": "UNIVERSIDADE DE SANTA CRUZ DO SUL",
+   "programas": 9,
+   "programas_com_conceito": 9,
+   "conceito_medio": 4.56,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 6,
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "EDUCAÇÃO": 1,
+    "ENGENHARIAS III": 1,
+    "INTERDISCIPLINAR": 1,
+    "ENGENHARIAS I": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "PSICOLOGIA": 1,
+    "DIREITO": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 7,
+    "PROFISSIONAL": 2
+   }
+  },
+  "641": {
+   "nome_capes": "UNIVERSIDADE LA SALLE",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 4.6,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 3,
+    "EDUCAÇÃO": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4,
+    "PROFISSIONAL": 1
+   }
+  },
+  "15958": {
+   "nome_capes": "HOSPITAL DE CLÍNICAS DE PORTO ALEGRE",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "MEDICINA II": 1,
+    "MEDICINA I": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "532": {
+   "nome_capes": "UNIVERSIDADE REGIONAL DO NOROESTE DO ESTADO DO RIO GRANDE DO SUL",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 4.2,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 4,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "EDUCAÇÃO": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "INTERDISCIPLINAR": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 5
+   }
+  },
+  "1578": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA SUL-RIO-GRANDENSE",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 3.67,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENGENHARIAS I": 1,
+    "EDUCAÇÃO": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 3
+   }
+  },
+  "446": {
+   "nome_capes": "UNIVERSIDADE DE CRUZ ALTA",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 3.67,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 3
+   },
+   "modalidades": {
+    "ACADÊMICO": 2,
+    "PROFISSIONAL": 1
+   }
+  },
+  "426": {
+   "nome_capes": "UNIVERSIDADE FRANCISCANA",
+   "programas": 6,
+   "programas_com_conceito": 6,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO": 2,
+    "MESTRADO/DOUTORADO": 2
+   },
+   "areas": {
+    "ENSINO": 3,
+    "ENFERMAGEM": 1,
+    "MEDICINA II": 1,
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 4,
+    "PROFISSIONAL": 2
+   }
+  },
+  "23": {
+   "nome_capes": "UNIVERSIDADE FEEVALE",
+   "programas": 9,
+   "programas_com_conceito": 9,
+   "conceito_medio": 4.33,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO": 4,
+    "MESTRADO/DOUTORADO": 3,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 3,
+    "MATERIAIS": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "FARMÁCIA": 1,
+    "PSICOLOGIA": 1,
+    "CIÊNCIAS AMBIENTAIS": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 7,
+    "PROFISSIONAL": 2
+   }
+  },
+  "448": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO RITTER DOS REIS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "601": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO RIO GRANDE DO SUL",
+   "programas": 4,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 4
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 2,
+    "EDUCAÇÃO": 1,
+    "ENGENHARIAS II": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 4
+   }
+  },
+  "3336": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DO RIO GRANDE DO SUL",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.25,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 3,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1,
+    "CIÊNCIA DE ALIMENTOS": 1,
+    "EDUCAÇÃO": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 4
+   }
+  },
+  "5322": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DO PAMPA",
+   "programas": 18,
+   "programas_com_conceito": 17,
+   "conceito_medio": 3.76,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 7,
+    "MESTRADO PROFISSIONAL": 7,
+    "MESTRADO/DOUTORADO": 4
+   },
+   "areas": {
+    "EDUCAÇÃO": 2,
+    "INTERDISCIPLINAR": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "FARMÁCIA": 1,
+    "COMPUTAÇÃO": 1,
+    "MATERIAIS": 1,
+    "SERVIÇO SOCIAL": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 11,
+    "PROFISSIONAL": 7
+   }
+  },
+  "2383": {
+   "nome_capes": "FACULDADE ATITUS EDUCAÇÃO PASSO FUNDO",
+   "programas": 7,
+   "programas_com_conceito": 6,
+   "conceito_medio": 3.83,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 6,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "ODONTOLOGIA": 2,
+    "ENGENHARIAS I": 1,
+    "PSICOLOGIA": 1,
+    "DIREITO": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "ARQUITETURA, URBANISMO E DESIGN": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 7
+   }
+  },
+  "5285": {
+   "nome_capes": "FACULDADES INTEGRADAS DE TAQUARA",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "15032": {
+   "nome_capes": "UNIVERSIDADE ALTO VALE DO RIO DO PEIXE",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "EDUCAÇÃO": 1,
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1,
+    "ACADÊMICO": 1
+   }
+  },
+  "22090": {
+   "nome_capes": "FACULDADE DE CIÊNCIAS DA SAÚDE DO GRUPO HOSPITALAR CONCEIÇÃO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "SAÚDE COLETIVA": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "3523": {
+   "nome_capes": "FACULDADE DE DIREITO DA FUNDAÇÃO ESCOLA SUPERIOR DO MINISTÉRIO PÚBLICO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "1": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE MATO GROSSO",
+   "programas": 40,
+   "programas_com_conceito": 37,
+   "conceito_medio": 3.89,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 23,
+    "MESTRADO/DOUTORADO": 14,
+    "MESTRADO PROFISSIONAL": 3
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 3,
+    "BIODIVERSIDADE": 3,
+    "INTERDISCIPLINAR": 2,
+    "CIÊNCIAS AMBIENTAIS": 2,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 2,
+    "ENSINO": 2,
+    "ASTRONOMIA / FÍSICA": 1,
+    "PSICOLOGIA": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 37,
+    "PROFISSIONAL": 3
+   }
+  },
+  "719": {
+   "nome_capes": "UNIVERSIDADE DO ESTADO DE MATO GROSSO CARLOS ALBERTO REYES MALDONADO",
+   "programas": 13,
+   "programas_com_conceito": 13,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 7,
+    "MESTRADO/DOUTORADO": 4,
+    "DOUTORADO": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "LINGUÍSTICA E LITERATURA": 3,
+    "ENSINO": 2,
+    "CIÊNCIAS AMBIENTAIS": 2,
+    "BIOTECNOLOGIA": 1,
+    "GEOGRAFIA": 1,
+    "BIODIVERSIDADE": 1,
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "EDUCAÇÃO": 1,
+    "INTERDISCIPLINAR": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 12,
+    "PROFISSIONAL": 1
+   }
+  },
+  "3164": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MATO GROSSO",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 2,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIA DE ALIMENTOS": 1,
+    "QUÍMICA": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 2,
+    "PROFISSIONAL": 1
+   }
+  },
+  "780": {
+   "nome_capes": "UNIVERSIDADE DE CUIABÁ",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 3,
+    "MESTRADO/DOUTORADO": 1,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "ODONTOLOGIA": 2,
+    "INTERDISCIPLINAR": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "MEDICINA VETERINÁRIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 5
+   }
+  },
+  "794": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO DE VÁRZEA GRANDE",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ARQUITETURA, URBANISMO E DESIGN": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "694": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL",
+   "programas": 40,
+   "programas_com_conceito": 39,
+   "conceito_medio": 3.97,
+   "conceito_maximo": 6,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 23,
+    "MESTRADO": 13,
+    "MESTRADO PROFISSIONAL": 4
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 3,
+    "BIODIVERSIDADE": 3,
+    "EDUCAÇÃO": 3,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "COMPUTAÇÃO": 2,
+    "ENSINO": 2,
+    "ENGENHARIAS I": 2,
+    "GEOGRAFIA": 2,
+    "ENFERMAGEM": 2,
+    "LINGUÍSTICA E LITERATURA": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 36,
+    "PROFISSIONAL": 4
+   }
+  },
+  "387": {
+   "nome_capes": "UNIVERSIDADE CATÓLICA DOM BOSCO",
+   "programas": 5,
+   "programas_com_conceito": 5,
+   "conceito_medio": 4.8,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 5
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "PSICOLOGIA": 1,
+    "EDUCAÇÃO": 1,
+    "BIOTECNOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 5
+   }
+  },
+  "671": {
+   "nome_capes": "UNIVERSIDADE ANHANGUERA",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.75,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "ODONTOLOGIA": 1,
+    "ENSINO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "1028": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DE MATO GROSSO DO SUL",
+   "programas": 12,
+   "programas_com_conceito": 10,
+   "conceito_medio": 3.6,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 7,
+    "MESTRADO PROFISSIONAL": 3,
+    "MESTRADO/DOUTORADO": 2
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "EDUCAÇÃO": 2,
+    "ENSINO": 2,
+    "CIÊNCIAS AMBIENTAIS": 2,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "GEOGRAFIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 9,
+    "PROFISSIONAL": 3
+   }
+  },
+  "4504": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DA GRANDE DOURADOS",
+   "programas": 22,
+   "programas_com_conceito": 21,
+   "conceito_medio": 3.9,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 11,
+    "MESTRADO/DOUTORADO": 10,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 4,
+    "QUÍMICA": 2,
+    "BIODIVERSIDADE": 2,
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "PSICOLOGIA": 1,
+    "EDUCAÇÃO": 1,
+    "NUTRIÇÃO": 1,
+    "CIÊNCIA DE ALIMENTOS": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "ANTROPOLOGIA / ARQUEOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 22
+   }
+  },
+  "25352": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE RONDONÓPOLIS",
+   "programas": 6,
+   "programas_com_conceito": 5,
+   "conceito_medio": 3.2,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 6
+   },
+   "areas": {
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "INTERDISCIPLINAR": 1,
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "GEOGRAFIA": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 6
+   }
+  },
+  "584": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE GOIÁS",
+   "programas": 57,
+   "programas_com_conceito": 54,
+   "conceito_medio": 4.37,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 37,
+    "MESTRADO": 14,
+    "MESTRADO PROFISSIONAL": 5,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "ENSINO": 3,
+    "INTERDISCIPLINAR": 3,
+    "FARMÁCIA": 3,
+    "DIREITO": 2,
+    "ENGENHARIAS III": 2,
+    "BIODIVERSIDADE": 2,
+    "MEDICINA II": 2,
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 2,
+    "ENGENHARIAS I": 2
+   },
+   "modalidades": {
+    "ACADÊMICO": 52,
+    "PROFISSIONAL": 5
+   }
+  },
+  "527": {
+   "nome_capes": "PONTIFÍCIA UNIVERSIDADE CATÓLICA DE GOIÁS",
+   "programas": 11,
+   "programas_com_conceito": 11,
+   "conceito_medio": 3.91,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 6,
+    "MESTRADO": 5
+   },
+   "areas": {
+    "ENGENHARIAS III": 1,
+    "HISTÓRIA": 1,
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "INTERDISCIPLINAR": 1,
+    "SERVIÇO SOCIAL": 1,
+    "PSICOLOGIA": 1,
+    "ENFERMAGEM": 1,
+    "CIÊNCIAS BIOLÓGICAS I": 1,
+    "EDUCAÇÃO": 1,
+    "CIÊNCIAS DA RELIGIÃO E TEOLOGIA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 11
+   }
+  },
+  "3974": {
+   "nome_capes": "UNIVERSIDADE DE RIO VERDE",
+   "programas": 2,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1,
+    "PROFISSIONAL": 1
+   }
+  },
+  "1811": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE GOIÁS",
+   "programas": 3,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 1,
+    "ENSINO": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2,
+    "ACADÊMICO": 1
+   }
+  },
+  "384": {
+   "nome_capes": "UNIVERSIDADE EVANGÉLICA DE GOIÁS",
+   "programas": 4,
+   "programas_com_conceito": 4,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 2,
+    "MESTRADO": 1,
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ODONTOLOGIA": 1,
+    "CIÊNCIAS AMBIENTAIS": 1,
+    "FARMÁCIA": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3,
+    "PROFISSIONAL": 1
+   }
+  },
+  "1303": {
+   "nome_capes": "INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA GOIANO",
+   "programas": 13,
+   "programas_com_conceito": 12,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 9,
+    "MESTRADO": 2,
+    "MESTRADO/DOUTORADO": 2
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 6,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "ENGENHARIAS I": 1,
+    "CIÊNCIA DE ALIMENTOS": 1,
+    "ENSINO": 1,
+    "BIODIVERSIDADE": 1,
+    "CIÊNCIAS AMBIENTAIS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 9,
+    "ACADÊMICO": 4
+   }
+  },
+  "47": {
+   "nome_capes": "UNIVERSIDADE ESTADUAL DE GOIÁS",
+   "programas": 16,
+   "programas_com_conceito": 15,
+   "conceito_medio": 3.67,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 12,
+    "MESTRADO PROFISSIONAL": 3,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 4,
+    "HISTÓRIA": 2,
+    "CIÊNCIAS AMBIENTAIS": 2,
+    "CIÊNCIAS AGRÁRIAS I": 2,
+    "ZOOTECNIA / RECURSOS PESQUEIROS": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "QUÍMICA": 1,
+    "ENSINO": 1,
+    "GEOGRAFIA": 1,
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 13,
+    "PROFISSIONAL": 3
+   }
+  },
+  "1493": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO ALVES FARIA",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "PLANEJAMENTO URBANO E REGIONAL / DEMOGRAFIA": 1,
+    "DIREITO": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2,
+    "ACADÊMICO": 1
+   }
+  },
+  "4259": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO MAIS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "EDUCAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "25274": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE CATALÃO",
+   "programas": 9,
+   "programas_com_conceito": 9,
+   "conceito_medio": 3.56,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 5,
+    "MESTRADO PROFISSIONAL": 2,
+    "MESTRADO/DOUTORADO": 1,
+    "DOUTORADO": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 2,
+    "ENGENHARIAS III": 1,
+    "HISTÓRIA": 1,
+    "GEOGRAFIA": 1,
+    "EDUCAÇÃO": 1,
+    "LINGUÍSTICA E LITERATURA": 1,
+    "MATERIAIS": 1,
+    "QUÍMICA": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 7,
+    "PROFISSIONAL": 2
+   }
+  },
+  "25282": {
+   "nome_capes": "UNIVERSIDADE FEDERAL DE JATAÍ",
+   "programas": 8,
+   "programas_com_conceito": 6,
+   "conceito_medio": 3.67,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 7,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "CIÊNCIAS AGRÁRIAS I": 1,
+    "QUÍMICA": 1,
+    "EDUCAÇÃO": 1,
+    "GEOGRAFIA": 1,
+    "BIODIVERSIDADE": 1,
+    "MEDICINA VETERINÁRIA": 1,
+    "INTERDISCIPLINAR": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 8
+   }
+  },
+  "2": {
+   "nome_capes": "UNIVERSIDADE DE BRASÍLIA",
+   "programas": 90,
+   "programas_com_conceito": 88,
+   "conceito_medio": 4.74,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 70,
+    "MESTRADO PROFISSIONAL": 10,
+    "MESTRADO": 9,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "INTERDISCIPLINAR": 10,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 4,
+    "PSICOLOGIA": 4,
+    "LINGUÍSTICA E LITERATURA": 4,
+    "ENGENHARIAS I": 4,
+    "CIÊNCIAS AGRÁRIAS I": 3,
+    "BIODIVERSIDADE": 3,
+    "ENGENHARIAS IV": 3,
+    "ENGENHARIAS III": 3,
+    "ARTES": 3
+   },
+   "modalidades": {
+    "ACADÊMICO": 79,
+    "PROFISSIONAL": 11
+   }
+  },
+  "403": {
+   "nome_capes": "UNIVERSIDADE CATÓLICA DE BRASÍLIA",
+   "programas": 10,
+   "programas_com_conceito": 10,
+   "conceito_medio": 4.6,
+   "conceito_maximo": 7,
+   "por_grau": {
+    "MESTRADO/DOUTORADO": 6,
+    "MESTRADO PROFISSIONAL": 3,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ECONOMIA": 2,
+    "INTERDISCIPLINAR": 2,
+    "PSICOLOGIA": 1,
+    "EDUCAÇÃO": 1,
+    "EDUCAÇÃO FÍSICA, FISIOTERAPIA, FONOAUDIOLOGIA E TERAPIA OCUPACIONAL": 1,
+    "BIOTECNOLOGIA": 1,
+    "DIREITO": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 7,
+    "PROFISSIONAL": 3
+   }
+  },
+  "402": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO DE BRASÍLIA",
+   "programas": 3,
+   "programas_com_conceito": 3,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO": 2,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "PSICOLOGIA": 1,
+    "ARQUITETURA, URBANISMO E DESIGN": 1,
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 3
+   }
+  },
+  "17617": {
+   "nome_capes": "ESCOLA NACIONAL DE ADMINISTRAÇÃO PÚBLICA",
+   "programas": 3,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2,
+    "DOUTORADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 3
+   },
+   "modalidades": {
+    "PROFISSIONAL": 3
+   }
+  },
+  "12247": {
+   "nome_capes": "INSTITUTO BRASILEIRO DE ENSINO, DESENVOLVIMENTO E PESQUISA DE BRASÍLIA",
+   "programas": 6,
+   "programas_com_conceito": 4,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 3,
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO": 1,
+    "MESTRADO/DOUTORADO": 1
+   },
+   "areas": {
+    "DIREITO": 2,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1,
+    "COMUNICAÇÃO E INFORMAÇÃO": 1,
+    "ECONOMIA": 1,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 4,
+    "ACADÊMICO": 2
+   }
+  },
+  "2048": {
+   "nome_capes": "FUNDAÇÃO DE ENSINO E PESQUISA EM CIÊNCIAS DA SAÚDE",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ENFERMAGEM": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "1060": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO DO INSTITUTO DE EDUCAÇÃO SUPERIOR DE BRASÍLIA",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 2
+   },
+   "areas": {
+    "DIREITO": 1,
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 2
+   }
+  },
+  "3223": {
+   "nome_capes": "UNIVERSIDADE DO DISTRITO FEDERAL - ESCOLA SUPERIOR DE CIÊNCIAS DA SAÚDE",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "MEDICINA I": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "518": {
+   "nome_capes": "CENTRO UNIVERSITÁRIO DO DISTRITO FEDERAL",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 4.0,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "ACADÊMICO": 1
+   }
+  },
+  "17161": {
+   "nome_capes": "CENTRO DE FORMAÇÃO, TREINAMENTO E APERFEIÇOAMENTO",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 5.0,
+   "conceito_maximo": 5,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "19320": {
+   "nome_capes": "FUNDAÇÃO GETULIO VARGAS - BRASÍLIA",
+   "programas": 2,
+   "programas_com_conceito": 2,
+   "conceito_medio": 3.5,
+   "conceito_maximo": 4,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL/DOUTORADO PROFISSIONAL": 1,
+    "MESTRADO": 1
+   },
+   "areas": {
+    "ECONOMIA": 1,
+    "CIÊNCIA POLÍTICA E RELAÇÕES INTERNACIONAIS": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1,
+    "ACADÊMICO": 1
+   }
+  },
+  "25817": {
+   "nome_capes": "ESCOLA NACIONAL DE FORMAÇÃO E APERFEIÇOAMENTO DE MAGISTRADOS",
+   "programas": 1,
+   "programas_com_conceito": 1,
+   "conceito_medio": 3.0,
+   "conceito_maximo": 3,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "DIREITO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  },
+  "17615": {
+   "nome_capes": "INSTITUTO SERZEDELLO CORRÊA",
+   "programas": 1,
+   "programas_com_conceito": 0,
+   "conceito_medio": null,
+   "conceito_maximo": null,
+   "por_grau": {
+    "MESTRADO PROFISSIONAL": 1
+   },
+   "areas": {
+    "ADMINISTRAÇÃO PÚBLICA E DE EMPRESAS, CIÊNCIAS CONTÁBEIS E TURISMO": 1
+   },
+   "modalidades": {
+    "PROFISSIONAL": 1
+   }
+  }
+ }
+}

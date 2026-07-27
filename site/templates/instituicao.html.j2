@@ -68,6 +68,50 @@
 </p>
 {% endif %}
 
+{% if ies.pos_programas %}
+<h2 class="section-title">Pós-graduação stricto sensu</h2>
+<div class="kpi-grid">
+  {% macro kpi_pos(valor, rotulo, fonte) %}
+  <div class="kpi-card{% if valor is none %} nodata{% endif %}">
+    <div class="kpi-valor">{% if valor is not none %}{{ valor }}{% else %}<span class="sem-dado"><span aria-hidden="true">—</span><span class="sr-only">sem dados</span></span>{% endif %}</div>
+    <div class="kpi-label">{{ rotulo }}</div>
+    <div class="kpi-fonte">{{ fonte }}</div>
+  </div>
+  {% endmacro %}
+  {{ kpi_pos(ies.pos_programas, 'Programas', 'CAPES ' ~ (ies.pos_ano or '')) }}
+  {{ kpi_pos(fmt2(ies.pos_conceito_medio), 'Conceito médio (1–7)', 'média entre programas') }}
+  {{ kpi_pos(ies.pos_conceito_maximo, 'Melhor conceito', 'escala CAPES 1–7') }}
+  {% for grau, n in (ies.pos_por_grau or {}).items() %}
+  {{ kpi_pos(n, grau|capitalize, 'programas') }}
+  {% endfor %}
+</div>
+{% if ies.pos_areas %}
+<p class="figura-nota">
+  Áreas de avaliação com mais programas:
+  {% for area, n in ies.pos_areas.items() %}{{ area }} ({{ n }}){% if not loop.last %} · {% endif %}{% endfor %}.
+</p>
+{% endif %}
+<p class="figura-nota">
+  <strong>O conceito CAPES vai de 1 a 7 e não se compara ao IGC nem ao CPC</strong>,
+  que vão de 1 a 5. São escalas distintas sobre objetos distintos: uma avalia
+  programa de pós-graduação, as outras avaliam graduação e instituição. Somar ou
+  ranquear as três juntas não significaria nada.
+</p>
+<p class="figura-nota">
+  Esta seção descreve a face de <strong>pesquisa</strong> da instituição, não os
+  cursos de graduação acompanhados pelo observatório. Doutorado nota 7 numa área
+  não diz nada sobre a graduação em outra.
+</p>
+{% else %}
+<h2 class="section-title">Pós-graduação stricto sensu</h2>
+<p class="figura-nota" style="margin-left:0">
+  Esta instituição <strong>não mantém programa de pós-graduação stricto sensu</strong>
+  em funcionamento na coleta da CAPES. Ao contrário da ausência de IGC, isto não é
+  dado faltante: é um fato sobre a instituição. Das 2.561 acompanhadas aqui, 351
+  têm programa.
+</p>
+{% endif %}
+
 <h2 class="section-title">Corpo docente</h2>
 <div class="kpi-grid">
   {% macro kpi(valor, rotulo, fonte) %}
