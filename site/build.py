@@ -344,6 +344,7 @@ def main():
               "Rode python etl/instituicoes.py.")
 
     data_extracao = str(date.today())
+    ano_corrente = date.today().year
     versao_censo = None
     # Acumuladores enxutos: só o que as páginas-índice precisam, nunca os dados
     # completos de todos os cursos ao mesmo tempo.
@@ -371,7 +372,8 @@ def main():
         tem_qualidade = any(u.get("ENADE") is not None for u in ufs.values())
         if versao_censo is None:
             versao_censo = meta["versao_censo"]
-        ctx_base = {"versao_censo": versao_censo, "data_extracao": data_extracao}
+        ctx_base = {"versao_censo": versao_censo, "data_extracao": data_extracao,
+                    "ano_corrente": ano_corrente}
 
         destino = DIST / "curso" / c["slug"]
         (destino / "uf").mkdir(parents=True, exist_ok=True)
@@ -511,7 +513,8 @@ def main():
         print(f"[PULADOS] {len(pulados)} cursos sem nacional.json: "
               f"{', '.join(pulados[:8])}{' …' if len(pulados) > 8 else ''}")
 
-    ctx_base = {"versao_censo": versao_censo, "data_extracao": data_extracao}
+    ctx_base = {"versao_censo": versao_censo, "data_extracao": data_extracao,
+                "ano_corrente": ano_corrente}
     resumo.sort(key=lambda r: -(r["vagas_total"] or 0))
     ufs_disponiveis = sorted(ufs_disponiveis)
 
@@ -616,6 +619,30 @@ def main():
         **ctx_base, depth="", curso_atual=None, cursos_meta=cursos_meta)
     (DIST / "metodologia.html").write_text(html, encoding="utf-8")
     print("[OK] metodologia.html")
+
+    # ── Autoria e direitos ───────────────────────────────────────────────────
+    html = env.get_template("autor.html.j2").render(
+        **ctx_base, depth="", curso_atual=None)
+    (DIST / "autor.html").write_text(html, encoding="utf-8")
+    print("[OK] autor.html")
+
+    # O registro de anterioridade é gerado por etl/registro_autoral.py e apenas
+    # lido aqui. Ausente, a página sai sem a seção de integridade em vez de
+    # inventar um hash — que seria o oposto do que a seção prova.
+    registro = None
+    caminho_registro = DATA / "registro_autoral.json"
+    if caminho_registro.exists():
+        with open(caminho_registro, encoding="utf-8") as f:
+            registro = json.load(f)
+        shutil.copyfile(caminho_registro, DIST / "registro_autoral.json")
+    else:
+        print("[AVISO] data/registro_autoral.json ausente — a página de direitos "
+              "sairá sem a seção de integridade. Rode python etl/registro_autoral.py.")
+
+    html = env.get_template("aviso-legal.html.j2").render(
+        **ctx_base, depth="", curso_atual=None, registro=registro)
+    (DIST / "aviso-legal.html").write_text(html, encoding="utf-8")
+    print("[OK] aviso-legal.html")
 
     # ── Privacidade (LGPD) ───────────────────────────────────────────────────
     html = env.get_template("privacidade.html.j2").render(

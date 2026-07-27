@@ -28,6 +28,9 @@
     <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h5v-6h4v6h5V10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
     <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM19 3v18M8 7h7M8 11h7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
     <symbol id="i-swap" viewBox="0 0 24 24"><path d="M7 7h13M7 7l3-3M7 7l3 3M17 17H4M17 17l-3-3M17 17l-3 3" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M4 7l8 6 8-6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="M2 8l10-4 10 4-10 4zM6 11v5c0 1 3 2 6 2s6-1 6-2v-5M22 8v6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   </defs>
 </svg>
 
@@ -64,6 +67,8 @@
     <a href="{{ depth }}rankings.html" style="color:var(--text-muted);font-size:0.82rem">Rankings</a>
     <span class="sep">·</span>
     <a href="{{ depth }}metodologia.html" style="color:var(--text-muted);font-size:0.82rem">Metodologia</a>
+    <span class="sep">·</span>
+    <a href="{{ depth }}autor.html" style="color:var(--text-muted);font-size:0.82rem">Sobre o Autor</a>
     <span class="sep">·</span>
     <a href="#glossario" class="nav-glossario" style="font-size:0.82rem"><svg class="ic" aria-hidden="true"><use href="#i-book"/></svg> Entenda os indicadores</a>
   </span>
@@ -108,7 +113,21 @@
 
 <footer class="site-footer">
   <p>Observatório Nacional da Educação Superior · Fontes: INEP (Censo da Educação Superior {{ versao_censo }} e ENADE/CPC), IBGE</p>
-  <p style="margin-top:6px"><a href="{{ depth }}privacidade.html">Privacidade e dados pessoais</a> · <a href="{{ depth }}api.html">Dados abertos</a> · <a href="{{ depth }}metodologia.html">Metodologia</a></p>
+  <p style="margin-top:6px">
+    © {{ ano_corrente }} <strong>Edson Sidião de Souza Júnior</strong> · Todos os direitos reservados ·
+    Obra protegida pelas Leis nº 9.610/1998 e nº 9.609/1998 ·
+    <a href="{{ depth }}aviso-legal.html">Direitos Autorais e Condições de Uso</a>
+  </p>
+  <p style="margin-top:6px">
+    <a href="{{ depth }}autor.html">Sobre o Autor</a> ·
+    <a href="{{ depth }}privacidade.html">Privacidade e dados pessoais</a> ·
+    <a href="{{ depth }}api.html">Dados abertos</a> ·
+    <a href="{{ depth }}metodologia.html">Metodologia</a>
+  </p>
+  <p style="margin-top:6px;opacity:0.85">
+    Dados primários de fontes oficiais públicas; o tratamento, os indicadores e a
+    análise são obra autoral original.
+  </p>
   <p style="margin-top:6px;opacity:0.85">
     Nenhum indicador é estimado. Sem fonte para um recorte, o valor aparece como
     <strong>sem dados</strong> — nunca como um número inventado.
