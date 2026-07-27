@@ -42,8 +42,9 @@ DATA = REPO / "data"
 COLUNAS = [
     "NU_ANO_CENSO", "SG_UF", "NO_MUNICIPIO", "CO_MUNICIPIO", "IN_CAPITAL",
     "CO_IES", "CO_CURSO", "NO_CURSO", "NO_CINE_ROTULO", "TP_REDE", "TP_MODALIDADE_ENSINO",
-    "QT_VG_TOTAL", "QT_VG_TOTAL_NOTURNO", "QT_CURSO",
-    "QT_ING", "QT_ING_FEM", "QT_ING_PRETA", "QT_ING_PARDA", "QT_ING_INDIGENA",
+    "QT_VG_TOTAL", "QT_VG_TOTAL_DIURNO", "QT_VG_TOTAL_NOTURNO", "QT_CURSO",
+    "QT_ING", "QT_ING_FEM", "QT_ING_MASC",
+    "QT_ING_PRETA", "QT_ING_PARDA", "QT_ING_INDIGENA",
     "QT_ING_BRANCA", "QT_ING_AMARELA", "QT_ING_CORND",
     "QT_ING_FIES", "QT_ING_PROUNII", "QT_ING_PROUNIP",
     "QT_MAT", "QT_CONC",
@@ -64,6 +65,15 @@ def _pct(parte, todo):
     if not todo:
         return None
     return round(100 * parte / todo, 1)
+
+
+# Denominadores dos quais os percentuais dependem, auditados um a um contra o
+# Censo 2024: sexo e turno FECHAM exatamente; cor/raça NÃO fecha, porque tem a
+# categoria "não declarada" — e foi essa diferença que produziu o erro de 6,4
+# pontos no pct_ppi, corrigido depois. Se uma edição futura do Censo criar
+# categoria não declarada em sexo ou turno, estes contadores avisam antes de o
+# número errado chegar ao site.
+DISCREPANCIAS = {"sexo": 0, "turno": 0}
 
 
 def agregar_uf(presencial, ead_sede, ead_polo):
@@ -88,6 +98,9 @@ def agregar_uf(presencial, ead_sede, ead_polo):
     muns_pres_norm = {normalizar_nome(m) for m in muns_presencial}
 
     ingressos = int(presencial["QT_ING"].sum())
+    fem = int(presencial["QT_ING_FEM"].sum())
+    if ingressos and fem + int(presencial["QT_ING_MASC"].sum()) != ingressos:
+        DISCREPANCIAS["sexo"] += 1
     matriculas_presencial = int(presencial["QT_MAT"].sum())
     matriculas_ead = int(ead_polo["QT_MAT"].sum())
     concluintes = int(presencial["QT_CONC"].sum())
@@ -97,6 +110,12 @@ def agregar_uf(presencial, ead_sede, ead_polo):
     vagas_por_ies = {str(ies): int(sub["QT_VG_TOTAL"].sum())
                      for ies, sub in capacidade.groupby("CO_IES")}
     vagas_por_ies = {k: v for k, v in vagas_por_ies.items() if v > 0}
+
+    noturno = int(presencial["QT_VG_TOTAL_NOTURNO"].sum())
+    if (vagas_presencial
+            and int(presencial["QT_VG_TOTAL_DIURNO"].sum()) + noturno
+            != vagas_presencial):
+        DISCREPANCIAS["turno"] += 1
 
     ppi = int(presencial["QT_ING_PRETA"].sum() + presencial["QT_ING_PARDA"].sum()
               + presencial["QT_ING_INDIGENA"].sum())
@@ -129,11 +148,11 @@ def agregar_uf(presencial, ead_sede, ead_polo):
         "matriculas_ead": matriculas_ead,
         "concluintes": concluintes,
         "taxa_conclusao": _pct(concluintes, matriculas_presencial),
-        "pct_mulheres": _pct(int(presencial["QT_ING_FEM"].sum()), ingressos),
+        "pct_mulheres": _pct(fem, ingressos),
         "pct_ppi": _pct(ppi, cor_declarada),
         "pct_cor_nao_declarada": _pct(cor_nao_declarada, ingressos),
         "pct_financiamento": _pct(financiamento, ingressos),
-        "pct_noturno": _pct(int(presencial["QT_VG_TOTAL_NOTURNO"].sum()), vagas_presencial),
+        "pct_noturno": _pct(noturno, vagas_presencial),
         "pct_rede_publica": _pct(
             int(capacidade[capacidade["TP_REDE"] == REDE_PUBLICA]["QT_VG_TOTAL"].sum()),
             vagas_total),
@@ -268,6 +287,14 @@ def main():
         for uf, lista in municipios.items():
             with open(destino / "municipios" / f"{uf}.json", "w", encoding="utf-8") as f:
                 json.dump(lista, f, ensure_ascii=False, indent=2)
+
+    for nome, n in DISCREPANCIAS.items():
+        if n:
+            print(f"[ATENÇÃO] {n} agregações em que o denominador de {nome} não "
+                  f"fecha. No Censo 2024 estes fechavam exatamente — se uma edição "
+                  f"nova criou categoria 'não declarado', o percentual "
+                  f"correspondente precisa dividir por quem declarou, como já se "
+                  f"faz com cor/raça.")
 
     print("\n[OK] Ingestão concluída.")
 

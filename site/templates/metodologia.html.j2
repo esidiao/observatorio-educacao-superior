@@ -119,4 +119,75 @@
   <li>Os indicadores de perfil (gênero, cor/raça, financiamento) referem-se aos ingressantes presenciais.</li>
 </ul>
 
+
+<h2 class="section-title">Auditoria de denominadores</h2>
+<p class="texto-metodo">
+  Todo percentual depende de duas escolhas: o que entra no numerador e o que entra
+  no denominador. A segunda é a que passa despercebida — e foi onde este
+  observatório encontrou seu erro mais consequente. Por isso os denominadores foram
+  auditados um a um contra os microdados, e o resultado está aqui.
+</p>
+<div class="tabela-wrap">
+  <table>
+    <caption class="sr-only">Auditoria dos denominadores de cada percentual.</caption>
+    <thead>
+      <tr><th scope="col">Indicador</th><th scope="col">Denominador</th><th scope="col">Fecha?</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">% Mulheres</th>
+        <td>Ingressantes presenciais</td>
+        <td><strong>Sim.</strong> Feminino + masculino = total, exatamente. Não há
+        categoria "não declarado" para sexo no Censo 2024.</td>
+      </tr>
+      <tr>
+        <th scope="row">% Vagas noturnas</th>
+        <td>Vagas presenciais</td>
+        <td><strong>Sim.</strong> Diurno + noturno = total de vagas presenciais,
+        exatamente.</td>
+      </tr>
+      <tr>
+        <th scope="row">% Pretos, pardos e indígenas</th>
+        <td>Ingressantes que <strong>declararam</strong> cor</td>
+        <td><strong>Não fechava.</strong> Cor tem a categoria "não declarada", que
+        representa 14,4% nacionalmente. Dividir pelo total jogava quem não respondeu
+        no mesmo balde de quem não é PPI, e subestimava o indicador em 6,4 pontos
+        percentuais. Corrigido — e a fatia sem declaração passou a ser publicada
+        junto, como medida da incerteza.</td>
+      </tr>
+      <tr>
+        <th scope="row">% FIES/PROUNI</th>
+        <td>Ingressantes presenciais</td>
+        <td><strong>Sim.</strong> FIES e PROUNI são mutuamente exclusivos por lei, e
+        PROUNI integral e parcial também, então somar os três não conta ninguém duas
+        vezes.</td>
+      </tr>
+      <tr>
+        <th scope="row">% EaD e % Rede pública</th>
+        <td>Vagas totais</td>
+        <td><strong>Sim.</strong> Presencial + EaD = total; pública + privada = total.</td>
+      </tr>
+      <tr>
+        <th scope="row">Taxa de conclusão</th>
+        <td>Matrículas do mesmo ano</td>
+        <td><strong>Fecha, mas não é o que o nome sugere.</strong> É razão entre dois
+        estoques do mesmo ano, não acompanhamento de turma. A conclusão de coorte,
+        que segue as mesmas pessoas, está nos painéis estaduais e vem dos
+        Indicadores de Fluxo do INEP.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<p class="texto-metodo">
+  Os dois fechamentos que valem hoje — sexo e turno — são <strong>verificados a cada
+  ingestão</strong>. Se uma edição futura do Censo criar categoria "não declarado"
+  em algum deles, o ETL avisa antes de o número errado chegar ao site, e o
+  percentual correspondente terá de passar a dividir por quem declarou, como já se
+  faz com cor e raça.
+</p>
+
+<style>
+.texto-metodo { font-size: 0.92rem; line-height: 1.75; color: var(--text); max-width: 75ch; margin-bottom: 14px; }
+</style>
+
 {% endblock %}

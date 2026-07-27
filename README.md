@@ -624,3 +624,29 @@ build, porque o percentual sozinho perde o denominador que o torna interpretáve
 Os gráficos por curso usam piso de 5.000 ingressantes. Curso pequeno faz percentual
 oscilar demais para significar algo — 40 mulheres entre 60 ingressantes viram
 "66,7%" e lideram qualquer ranking.
+
+## Auditoria de denominadores
+
+Depois de encontrar o erro do PPI, auditei todos os percentuais do pipeline contra
+os microdados, em vez de esperar o próximo aparecer. O resultado está publicado na
+página de metodologia e resumido aqui:
+
+| Indicador | Denominador | Fecha? |
+|---|---|---|
+| % Mulheres | Ingressantes presenciais | Sim — F+M = total, exato |
+| % Vagas noturnas | Vagas presenciais | Sim — diurno+noturno = total, exato |
+| % PPI | Quem **declarou** cor | **Não fechava** — corrigido, 6,4 pontos |
+| % FIES/PROUNI | Ingressantes presenciais | Sim — programas mutuamente exclusivos |
+| % EaD, % Rede pública | Vagas totais | Sim |
+| Taxa de conclusão | Matrículas do mesmo ano | Fecha, mas não é coorte |
+
+O PPI era o único quebrado. Isso é um resultado útil justamente por ser negativo:
+os demais percentuais podem ser lidos sem ressalva de denominador.
+
+Os dois fechamentos exatos — sexo e turno — passaram a ser **verificados a cada
+ingestão**. Se uma edição futura do Censo criar categoria "não declarado" em algum
+deles, `etl/ingestao.py` avisa antes de o número errado chegar ao site.
+
+A regra que emerge das três correções desta natureza (densidade regional inflada
+pela EaD contada na sede, "sem IGC" que se lia como nota baixa, e o PPI): **o erro
+raramente está na conta — está em quem entrou no denominador.**
