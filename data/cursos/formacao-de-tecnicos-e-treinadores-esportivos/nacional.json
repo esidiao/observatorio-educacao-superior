@@ -6,7 +6,7 @@
     "area_cine": "Serviços",
     "versao_censo": "2024",
     "ciclo_enade": null,
-    "data_extracao": "2026-07-26",
+    "data_extracao": "2026-07-27",
     "cobertura": null,
     "fontes": {
       "censo": {
@@ -43,7 +43,8 @@
       "concluintes": 7,
       "taxa_conclusao": 38.9,
       "pct_mulheres": 27.3,
-      "pct_ppi": 36.4,
+      "pct_ppi": 80.0,
+      "pct_cor_nao_declarada": 54.5,
       "pct_financiamento": 9.1,
       "pct_noturno": 100.0,
       "pct_rede_publica": 0.0,

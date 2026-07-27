@@ -6,7 +6,7 @@
     "area_cine": "Engenharia, produção e construção",
     "versao_censo": "2024",
     "ciclo_enade": null,
-    "data_extracao": "2026-07-26",
+    "data_extracao": "2026-07-27",
     "cobertura": null,
     "fontes": {
       "censo": {
@@ -44,6 +44,7 @@
       "taxa_conclusao": 3.1,
       "pct_mulheres": 30.8,
       "pct_ppi": 51.3,
+      "pct_cor_nao_declarada": 0.0,
       "pct_financiamento": 0.0,
       "pct_noturno": 0.0,
       "pct_rede_publica": 100.0,
@@ -92,7 +93,8 @@
       "concluintes": 0,
       "taxa_conclusao": 0.0,
       "pct_mulheres": 0.0,
-      "pct_ppi": 0.0,
+      "pct_ppi": null,
+      "pct_cor_nao_declarada": 100.0,
       "pct_financiamento": 0.0,
       "pct_noturno": 0.0,
       "pct_rede_publica": 100.0,

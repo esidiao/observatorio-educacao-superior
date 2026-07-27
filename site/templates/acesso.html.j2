@@ -1,0 +1,149 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Acesso e equidade — Observatório Nacional da Educação Superior{% endblock %}
+{% block meta_description %}Quem entra na educação superior brasileira: perfil de gênero, cor e raça, financiamento estudantil e turno, por curso e por unidade federativa.{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<span class="active">Acesso e equidade</span>
+{% endblock %}
+
+{% block content %}
+
+<h1 class="section-title" style="margin-bottom:6px">Quem entra</h1>
+<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:8px">
+  Território responde onde há oferta; rede responde quem oferece. Esta página
+  responde a terceira pergunta: <strong>quem de fato ingressa</strong>. Todos os
+  números aqui são de <strong>ingressantes presenciais</strong> — o Censo não
+  desagrega perfil dos ingressantes de EaD por curso da mesma forma, e misturar as
+  duas modalidades produziria um número que não descreve nenhuma.
+</p>
+
+<div class="kpi-grid">
+  {% macro kpi_ac(valor, rotulo, fonte, classe='') %}
+  <div class="kpi-card {{ classe }}{% if valor is none %} nodata{% endif %}">
+    <div class="kpi-valor">{% if valor is not none %}{{ valor }}{% else %}<span class="sem-dado"><span aria-hidden="true">—</span><span class="sr-only">sem dados</span></span>{% endif %}</div>
+    <div class="kpi-label">{{ rotulo }}</div>
+    <div class="kpi-fonte">{{ fonte }}</div>
+  </div>
+  {% endmacro %}
+  {{ kpi_ac(milhar(painel.ingressos), 'Ingressantes presenciais', 'Censo ' ~ versao_censo) }}
+  {{ kpi_ac((fmt1(painel.pct_mulheres) ~ '%') if painel.pct_mulheres is not none else none, 'Mulheres', 'sobre ingressantes') }}
+  {{ kpi_ac((fmt1(painel.pct_ppi) ~ '%') if painel.pct_ppi is not none else none, 'Pretos, pardos e indígenas', 'sobre quem declarou cor') }}
+  {{ kpi_ac((fmt1(painel.pct_cor_nao_declarada) ~ '%') if painel.pct_cor_nao_declarada is not none else none, 'Não declararam cor', 'incerteza do número ao lado', 'critico') }}
+  {{ kpi_ac((fmt1(painel.pct_financiamento) ~ '%') if painel.pct_financiamento is not none else none, 'Com FIES ou PROUNI', 'sobre ingressantes') }}
+  {{ kpi_ac((fmt1(painel.pct_noturno) ~ '%') if painel.pct_noturno is not none else none, 'Vagas noturnas', 'sobre vagas presenciais') }}
+</div>
+
+<div class="leituras" style="border-left-color:var(--gold)">
+  <h2 class="section-title" style="margin-top:0">Uma correção que este observatório fez</h2>
+  <p style="font-size:0.92rem;line-height:1.7;color:var(--text);max-width:75ch;margin-bottom:12px">
+    Até esta versão, o percentual de pretos, pardos e indígenas era calculado sobre
+    <strong>todos</strong> os ingressantes. Mas o Censo tem uma quarta resposta além
+    das categorias de cor: <em>não declarada</em>. Dividir por todos joga quem não
+    respondeu no mesmo balde de quem não é PPI, e subestima o indicador.
+  </p>
+  <p style="font-size:0.92rem;line-height:1.7;color:var(--text);max-width:75ch;margin-bottom:12px">
+    Nacionalmente são <strong>{{ fmt1(painel.pct_cor_nao_declarada) }}%</strong> sem
+    declaração, e a conta muda de <strong>37,9% para 44,3%</strong> — 6,4 pontos
+    percentuais. Em alguns estados a diferença passa de 10 pontos.
+  </p>
+  <p style="font-size:0.92rem;line-height:1.7;color:var(--text);max-width:75ch">
+    O site passou a dividir pelo total de <strong>quem declarou</strong>, e a exibir
+    sempre ao lado a fatia sem declaração — que é a medida da incerteza daquele
+    número. Onde a não-declaração é alta, o percentual de PPI é menos firme, e o
+    leitor precisa ver as duas coisas juntas.
+  </p>
+</div>
+
+{% if leituras %}
+<section class="leituras" aria-labelledby="tit-leituras">
+  <h2 class="section-title" id="tit-leituras">Leitura dos números</h2>
+  <p class="leituras-aviso">
+    Frases calculadas por regra a partir dos dados desta página — variação,
+    participação e posição, nunca causa.
+  </p>
+  <ul class="leituras-lista">
+    {% for l in leituras %}<li class="leitura {{ l.tipo }}">{{ l.texto }}</li>{% endfor %}
+  </ul>
+</section>
+{% endif %}
+
+{% if mapa_ppi %}
+<h2 class="section-title">Pretos, pardos e indígenas por estado</h2>
+<div class="figura">
+  {{ mapa_ppi }}
+  <p class="figura-nota">
+    Percentual dos ingressantes presenciais que se declararam pretos, pardos ou
+    indígenas, sobre quem declarou cor. A composição da população varia muito entre
+    estados — este mapa mostra quem ingressa, não sobre-representação ou
+    sub-representação, que exigiria comparar com a população de cada UF.
+  </p>
+</div>
+{% endif %}
+
+{% if mapa_nd %}
+<h2 class="section-title">Onde a cor não é declarada</h2>
+<div class="figura">
+  {{ mapa_nd }}
+  <p class="figura-nota">
+    Fatia dos ingressantes que não declarou cor ou raça. É um indicador de
+    <strong>qualidade do dado</strong>, não de perfil: quanto mais alto, menos firme
+    é a leitura do mapa anterior naquele estado.
+  </p>
+</div>
+{% endif %}
+
+<h2 class="section-title">Gênero por curso</h2>
+<div class="figura">
+  {{ grafico_mulheres }}
+  <p class="figura-nota">
+    Os dez cursos com maior participação feminina entre os ingressantes, e os dez com
+    menor, entre cursos com pelo menos {{ milhar(minimo_ingressos) }} ingressantes —
+    abaixo disso o percentual oscila demais para significar algo.
+  </p>
+</div>
+
+<h2 class="section-title">Cor e raça por curso</h2>
+<div class="figura">
+  {{ grafico_ppi }}
+  <p class="figura-nota">
+    Mesma régua de tamanho mínimo. O percentual é sobre quem declarou cor.
+  </p>
+</div>
+
+<h2 class="section-title">Perfil dos maiores cursos</h2>
+<div class="tabela-wrap">
+  <table>
+    <caption class="sr-only">Perfil de acesso dos cursos com mais ingressantes.</caption>
+    <thead>
+      <tr>
+        <th scope="col">Curso</th><th scope="col">Ingressantes</th>
+        <th scope="col">% Mulheres</th><th scope="col">% PPI</th>
+        <th scope="col">% Sem declaração</th><th scope="col">% FIES/PROUNI</th>
+        <th scope="col">% Noturno</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for c in cursos %}
+      <tr>
+        <th scope="row" style="font-weight:600">
+          <a href="{{ depth }}curso/{{ c.slug }}/index.html">{{ c.nome }}</a>
+        </th>
+        <td>{{ milhar(c.ingressos) }}</td>
+        <td>{{ fmt1(c.pct_mulheres) }}%</td>
+        <td>{{ fmt1(c.pct_ppi) }}%</td>
+        <td>{{ fmt1(c.pct_cor_nao_declarada) }}%</td>
+        <td>{{ fmt1(c.pct_financiamento) }}%</td>
+        <td>{{ fmt1(c.pct_noturno) }}%</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+<p class="figura-nota">
+  Os 30 cursos com mais ingressantes presenciais. Percentuais são médias ponderadas
+  pelos ingressantes de cada UF, não médias simples entre estados.
+</p>
+
+{% endblock %}

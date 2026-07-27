@@ -211,6 +211,51 @@ def do_brasil(painel, serie_brasil, fluxo_brasil):
     return frases
 
 
+def do_acesso(painel, maior_mul, menor_mul, maior_ppi, menor_ppi, perfil_uf):
+    """Leituras da página de acesso e equidade."""
+    frases = []
+
+    if painel.get("pct_mulheres") is not None:
+        frases.append(_frase(
+            f"{_pct(painel['pct_mulheres'])} dos ingressantes presenciais são "
+            f"mulheres. A média nacional esconde extremos: {maior_mul[0]['nome']} "
+            f"tem {_pct(maior_mul[0]['pct_mulheres'])} e {menor_mul[0]['nome']}, "
+            f"{_pct(menor_mul[0]['pct_mulheres'])}."
+            if maior_mul and menor_mul else
+            f"{_pct(painel['pct_mulheres'])} dos ingressantes presenciais são mulheres."))
+
+    if painel.get("pct_ppi") is not None and painel.get("pct_cor_nao_declarada") is not None:
+        frases.append(_frase(
+            f"{_pct(painel['pct_ppi'])} dos ingressantes que declararam cor são "
+            f"pretos, pardos ou indígenas. {_pct(painel['pct_cor_nao_declarada'])} "
+            f"não declararam — quanto maior essa fatia, menos firme é o número "
+            f"anterior.", "atencao"))
+
+    if maior_ppi and menor_ppi:
+        frases.append(_frase(
+            f"Entre os cursos grandes, {maior_ppi[0]['nome']} tem "
+            f"{_pct(maior_ppi[0]['pct_ppi'])} de ingressantes pretos, pardos e "
+            f"indígenas e {menor_ppi[0]['nome']}, {_pct(menor_ppi[0]['pct_ppi'])}.",
+            "atencao"))
+
+    if painel.get("pct_financiamento") is not None:
+        frases.append(_frase(
+            f"{_pct(painel['pct_financiamento'])} dos ingressantes entraram com FIES "
+            f"ou PROUNI. O número cobre só a oferta presencial."))
+
+    if perfil_uf:
+        nd = {s: a["nd"] for s, a in perfil_uf.items() if a.get("nd") is not None}
+        if len(nd) >= 2:
+            pior = max(nd, key=nd.get)
+            melhor = min(nd, key=nd.get)
+            frases.append(_frase(
+                f"A não-declaração de cor varia de {_pct(nd[melhor])} em {melhor} a "
+                f"{_pct(nd[pior])} em {pior}. É diferença de preenchimento do Censo, "
+                f"não de perfil da população — e limita a comparação entre estados.",
+                "sem-dado"))
+    return frases
+
+
 def das_redes(comparativo, serie_brasil, anos, categorias):
     """Leituras da página de redes."""
     frases = []

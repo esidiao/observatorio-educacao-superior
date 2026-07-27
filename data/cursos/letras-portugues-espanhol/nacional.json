@@ -6,7 +6,7 @@
     "area_cine": "Artes e humanidades",
     "versao_censo": "2024",
     "ciclo_enade": null,
-    "data_extracao": "2026-07-26",
+    "data_extracao": "2026-07-27",
     "cobertura": null,
     "fontes": {
       "censo": {
@@ -43,7 +43,8 @@
       "concluintes": 26,
       "taxa_conclusao": 9.7,
       "pct_mulheres": 78.8,
-      "pct_ppi": 39.4,
+      "pct_ppi": 57.8,
+      "pct_cor_nao_declarada": 31.8,
       "pct_financiamento": 0.0,
       "pct_noturno": 23.4,
       "pct_rede_publica": 100.0,
@@ -93,6 +94,7 @@
       "taxa_conclusao": 30.8,
       "pct_mulheres": null,
       "pct_ppi": null,
+      "pct_cor_nao_declarada": null,
       "pct_financiamento": null,
       "pct_noturno": 0.0,
       "pct_rede_publica": 100.0,

@@ -6,7 +6,7 @@
     "area_cine": "Agricultura, silvicultura, pesca e veterinária",
     "versao_censo": "2024",
     "ciclo_enade": null,
-    "data_extracao": "2026-07-26",
+    "data_extracao": "2026-07-27",
     "cobertura": null,
     "fontes": {
       "censo": {
@@ -44,6 +44,7 @@
       "taxa_conclusao": 20.0,
       "pct_mulheres": 20.0,
       "pct_ppi": 60.0,
+      "pct_cor_nao_declarada": 0.0,
       "pct_financiamento": 0.0,
       "pct_noturno": 0.0,
       "pct_rede_publica": 100.0,
@@ -92,7 +93,8 @@
       "concluintes": 60,
       "taxa_conclusao": 12.8,
       "pct_mulheres": 47.8,
-      "pct_ppi": 30.1,
+      "pct_ppi": 31.5,
+      "pct_cor_nao_declarada": 4.4,
       "pct_financiamento": 0.0,
       "pct_noturno": 0.0,
       "pct_rede_publica": 100.0,

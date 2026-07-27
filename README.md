@@ -593,3 +593,34 @@ categoria mostra a linha delas separada, para ninguém precisar adivinhar.
 esconder: a série soma curso a curso a partir do Censo de cada ano, a tabela soma
 a partir do cadastro de instituições, e uma IES sem vaga declarada em nenhum curso
 do catálogo entra numa contagem e não na outra.
+
+## Acesso e equidade, e uma correção de denominador
+
+`acesso.html` responde a terceira pergunta do observatório, depois de território e
+rede: **quem de fato ingressa**. Perfil de gênero, cor e raça, financiamento
+estudantil e turno, por curso e por UF. Tudo sobre **ingressantes presenciais** —
+o Censo não desagrega o perfil dos ingressantes de EaD por curso da mesma forma, e
+misturar as duas modalidades produziria um número que não descreve nenhuma.
+
+Construir a página revelou um defeito no indicador que o site já publicava. O
+percentual de pretos, pardos e indígenas era calculado sobre **todos** os
+ingressantes. Mas o Censo tem uma quarta resposta além das categorias de cor —
+`QT_ING_CORND`, não declarada — e dividir por todos joga quem não respondeu no
+mesmo balde de quem não é PPI.
+
+O tamanho do erro: **14,4% dos ingressantes não declaram cor**, e o número muda de
+**37,9% para 44,3%** — 6,4 pontos percentuais. Em Goiás a diferença é de 11 pontos
+(41,9% para 52,9%), porque lá a não-declaração chega a 20,8%.
+
+O indicador passou a ser calculado sobre quem declarou, e `pct_cor_nao_declarada`
+acompanha-o sempre — é a medida da incerteza daquele número. Onde a não-declaração
+é alta, o percentual de PPI é menos firme. A variação entre estados é grande, de
+6,7% no Espírito Santo a 25,6% em Rondônia, o que **limita a comparação entre UFs**
+e por isso ganhou mapa próprio, rotulado como indicador de qualidade do dado.
+
+Um teste novo trava a regressão: `pct_ppi` sem `pct_cor_nao_declarada` reprova o
+build, porque o percentual sozinho perde o denominador que o torna interpretável.
+
+Os gráficos por curso usam piso de 5.000 ingressantes. Curso pequeno faz percentual
+oscilar demais para significar algo — 40 mulheres entre 60 ingressantes viram
+"66,7%" e lideram qualquer ranking.

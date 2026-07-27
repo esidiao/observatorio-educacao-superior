@@ -65,6 +65,7 @@ const INDICADOR_META = {
   // Acesso & equidade
   pct_mulheres:         { label: '% Mulheres',          dec: 1, min: 0, max: 100, maiorMelhor: null },
   pct_ppi:              { label: '% Pretos/pardos/ind.',dec: 1, min: 0, max: 100, maiorMelhor: null },
+  pct_cor_nao_declarada:{ label: '% Cor não declarada', dec: 1, min: 0, max: 100, maiorMelhor: false },
   pct_financiamento:    { label: '% FIES/PROUNI',       dec: 1, min: 0, max: 100, maiorMelhor: null },
   pct_noturno:          { label: '% Vagas noturnas',    dec: 1, min: 0, max: 100, maiorMelhor: null },
   pct_rede_publica:     { label: '% Rede pública',      dec: 1, min: 0, max: 100, maiorMelhor: null },

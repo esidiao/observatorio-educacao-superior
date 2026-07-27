@@ -44,6 +44,7 @@ COLUNAS = [
     "CO_IES", "CO_CURSO", "NO_CURSO", "NO_CINE_ROTULO", "TP_REDE", "TP_MODALIDADE_ENSINO",
     "QT_VG_TOTAL", "QT_VG_TOTAL_NOTURNO", "QT_CURSO",
     "QT_ING", "QT_ING_FEM", "QT_ING_PRETA", "QT_ING_PARDA", "QT_ING_INDIGENA",
+    "QT_ING_BRANCA", "QT_ING_AMARELA", "QT_ING_CORND",
     "QT_ING_FIES", "QT_ING_PROUNII", "QT_ING_PROUNIP",
     "QT_MAT", "QT_CONC",
 ]
@@ -99,6 +100,14 @@ def agregar_uf(presencial, ead_sede, ead_polo):
 
     ppi = int(presencial["QT_ING_PRETA"].sum() + presencial["QT_ING_PARDA"].sum()
               + presencial["QT_ING_INDIGENA"].sum())
+    # Cor/raça tem uma quarta resposta além das categorias: não declarada. Dividir
+    # o PPI pelo total de ingressantes joga quem não declarou no denominador como
+    # se fosse "não PPI", e subestima. Nacionalmente são 14,4% sem declaração, e a
+    # diferença entre as duas contas é de 6,4 pontos percentuais — grande demais
+    # para deixar implícita. Aqui o percentual é sobre quem DECLAROU, e a fatia sem
+    # declaração vai junto, para o leitor saber sobre que base está olhando.
+    cor_nao_declarada = int(presencial["QT_ING_CORND"].sum())
+    cor_declarada = ingressos - cor_nao_declarada
     financiamento = int(presencial["QT_ING_FIES"].sum() + presencial["QT_ING_PROUNII"].sum()
                         + presencial["QT_ING_PROUNIP"].sum())
 
@@ -121,7 +130,8 @@ def agregar_uf(presencial, ead_sede, ead_polo):
         "concluintes": concluintes,
         "taxa_conclusao": _pct(concluintes, matriculas_presencial),
         "pct_mulheres": _pct(int(presencial["QT_ING_FEM"].sum()), ingressos),
-        "pct_ppi": _pct(ppi, ingressos),
+        "pct_ppi": _pct(ppi, cor_declarada),
+        "pct_cor_nao_declarada": _pct(cor_nao_declarada, ingressos),
         "pct_financiamento": _pct(financiamento, ingressos),
         "pct_noturno": _pct(int(presencial["QT_VG_TOTAL_NOTURNO"].sum()), vagas_presencial),
         "pct_rede_publica": _pct(

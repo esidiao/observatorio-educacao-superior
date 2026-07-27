@@ -69,7 +69,8 @@ PONDERADOS_POR_AVALIADOS = [
 ]
 # Médias ponderadas pelos ingressantes (perfil de acesso).
 PONDERADOS_POR_INGRESSOS = [
-    "pct_mulheres", "pct_ppi", "pct_financiamento", "pct_noturno", "taxa_conclusao",
+    "pct_mulheres", "pct_ppi", "pct_cor_nao_declarada", "pct_financiamento",
+    "pct_noturno", "taxa_conclusao",
 ]
 
 
@@ -488,6 +489,12 @@ def main():
             "municipios_oferta": c["total"]["municipios_oferta"],
             "n_ufs": len(ufs),
             "tem_qualidade": tem_qualidade,
+            "ingressos": c["total"].get("ingressos"),
+            "pct_mulheres": c["total"].get("pct_mulheres"),
+            "pct_ppi": c["total"].get("pct_ppi"),
+            "pct_cor_nao_declarada": c["total"].get("pct_cor_nao_declarada"),
+            "pct_financiamento": c["total"].get("pct_financiamento"),
+            "pct_noturno": c["total"].get("pct_noturno"),
         })
         cursos_meta.append({"nome": c["nome"], "ciclo_enade": meta.get("ciclo_enade"),
                             "tem_qualidade": tem_qualidade})
@@ -775,6 +782,110 @@ def main():
                 'pct_rede_publica': round(
                     100 * (u.get('vagas_publicas') or 0) / u['vagas_total'], 1)
                 if u.get('vagas_publicas') is not None else None}
+
+    # ── Acesso e equidade ────────────────────────────────────────────────────
+    # Curso pequeno faz percentual oscilar demais para significar algo: 40 mulheres
+    # entre 60 ingressantes vira "66,7%" e lidera qualquer ranking. O piso vale
+    # para os dois gráficos e está declarado na página.
+    MINIMO_INGRESSOS = 5000
+
+    com_perfil = [r for r in resumo
+                  if (r.get("ingressos") or 0) >= MINIMO_INGRESSOS
+                  and r.get("pct_mulheres") is not None]
+
+    def extremos(campo, n=10):
+        base = [r for r in com_perfil if r.get(campo) is not None]
+        base.sort(key=lambda r: -r[campo])
+        return base[:n], base[-n:][::-1]
+
+    def acumular_ponderado(campo):
+        """Média nacional ponderada pelos ingressantes de cada curso."""
+        num = den = 0.0
+        for r in resumo:
+            v, p = r.get(campo), r.get("ingressos")
+            if v is None or not p:
+                continue
+            num += v * p
+            den += p
+        return round(num / den, 1) if den else None
+
+    painel_acesso = {
+        "ingressos": sum(r.get("ingressos") or 0 for r in resumo),
+        "pct_mulheres": acumular_ponderado("pct_mulheres"),
+        "pct_ppi": acumular_ponderado("pct_ppi"),
+        "pct_cor_nao_declarada": acumular_ponderado("pct_cor_nao_declarada"),
+        "pct_financiamento": acumular_ponderado("pct_financiamento"),
+        "pct_noturno": acumular_ponderado("pct_noturno"),
+    }
+
+    # Perfil por UF: média ponderada pelos ingressantes, somando os cursos.
+    perfil_uf = {}
+    for entrada in catalogo:
+        caminho_nac = DATA / "cursos" / entrada["slug"] / "nacional.json"
+        if not caminho_nac.exists():
+            continue
+        with open(caminho_nac, encoding="utf-8") as f:
+            for sigla, d in json.load(f)["ufs"].items():
+                ing = d.get("ingressos") or 0
+                if not ing:
+                    continue
+                alvo = perfil_uf.setdefault(sigla, {"ing": 0, "ppi": 0.0, "nd": 0.0,
+                                                    "mul": 0.0})
+                alvo["ing"] += ing
+                for chave, campo in (("ppi", "pct_ppi"), ("nd", "pct_cor_nao_declarada"),
+                                     ("mul", "pct_mulheres")):
+                    if d.get(campo) is not None:
+                        alvo[chave] += d[campo] * ing
+    for sigla, a in perfil_uf.items():
+        for chave in ("ppi", "nd", "mul"):
+            a[chave] = round(a[chave] / a["ing"], 1) if a["ing"] else None
+
+    mapa_ppi = mapa_nd = ""
+    if malha_ufs and perfil_uf:
+        mapa_ppi = Markup(coropletico(
+            malha_ufs, {s: a["ppi"] for s, a in perfil_uf.items()},
+            titulo="Ingressantes pretos, pardos e indígenas, por UF",
+            descricao=("Mapa do Brasil colorido pelo percentual de ingressantes "
+                       "presenciais que se declararam pretos, pardos ou indígenas."),
+            unidade="%", casas=1, nomes_uf=NOME_UF))
+        mapa_nd = Markup(coropletico(
+            malha_ufs, {s: a["nd"] for s, a in perfil_uf.items()},
+            titulo="Ingressantes sem declaração de cor, por UF",
+            descricao=("Mapa do Brasil colorido pela fatia de ingressantes que não "
+                       "declarou cor ou raça — medida da incerteza do mapa anterior."),
+            unidade="%", casas=1, divergente=True, nomes_uf=NOME_UF))
+
+    maior_mul, menor_mul = extremos("pct_mulheres")
+    maior_ppi, menor_ppi = extremos("pct_ppi")
+
+    def barras_extremos(maiores, menores, campo, titulo, descricao):
+        itens = ([{"nome": r["nome"], "valor": r[campo]} for r in maiores]
+                 + [{"nome": r["nome"], "valor": r[campo]} for r in menores])
+        return Markup(barras(itens, titulo=titulo, descricao=descricao,
+                             unidade="%", casas=1, maximo_itens=len(itens)))
+
+    grafico_mulheres = barras_extremos(
+        maior_mul, menor_mul, "pct_mulheres",
+        "Participação feminina entre ingressantes, por curso",
+        "Dez cursos com maior e dez com menor participação feminina.")
+    grafico_ppi = barras_extremos(
+        maior_ppi, menor_ppi, "pct_ppi",
+        "Ingressantes pretos, pardos e indígenas, por curso",
+        "Dez cursos com maior e dez com menor percentual.")
+
+    maiores_cursos = sorted([r for r in resumo if r.get("ingressos")],
+                            key=lambda r: -(r["ingressos"] or 0))[:30]
+
+    html = env.get_template("acesso.html.j2").render(
+        **ctx_base, depth="", curso_atual=None,
+        painel=painel_acesso, cursos=maiores_cursos,
+        minimo_ingressos=MINIMO_INGRESSOS,
+        mapa_ppi=mapa_ppi, mapa_nd=mapa_nd,
+        grafico_mulheres=grafico_mulheres, grafico_ppi=grafico_ppi,
+        leituras=insights.do_acesso(painel_acesso, maior_mul, menor_mul,
+                                    maior_ppi, menor_ppi, perfil_uf))
+    (DIST / "acesso.html").write_text(html, encoding="utf-8")
+    print(f"[OK] acesso.html — {len(com_perfil)} cursos acima do piso de ingressantes")
 
     # ── Redes: pública contra privada ────────────────────────────────────────
     def media(valores):

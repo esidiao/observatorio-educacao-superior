@@ -6,7 +6,7 @@
     "area_cine": "Educação",
     "versao_censo": "2024",
     "ciclo_enade": null,
-    "data_extracao": "2026-07-26",
+    "data_extracao": "2026-07-27",
     "cobertura": null,
     "fontes": {
       "censo": {
@@ -43,7 +43,8 @@
       "concluintes": 18,
       "taxa_conclusao": 14.3,
       "pct_mulheres": 35.7,
-      "pct_ppi": 46.4,
+      "pct_ppi": 48.1,
+      "pct_cor_nao_declarada": 3.6,
       "pct_financiamento": 0.0,
       "pct_noturno": 100.0,
       "pct_rede_publica": 100.0,

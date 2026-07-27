@@ -114,8 +114,15 @@ def test_curso(curso):
                 checar(0 <= u[campo] <= 1, f"{ctx}: {campo} fora de 0–1 ({u[campo]})")
         if u.get("CR2") is not None and u.get("CR10") is not None:
             checar(u["CR2"] <= u["CR10"] + 1e-9, f"{ctx}: CR2 > CR10")
-        for campo in ("pct_ead", "pct_mulheres", "pct_ppi", "pct_financiamento",
-                      "pct_noturno", "pct_rede_publica"):
+        # O PPI é calculado sobre quem DECLAROU cor; se algum dia o denominador
+        # voltar a ser o total de ingressantes, o par abaixo deixa de fechar e o
+        # teste avisa antes de publicar.
+        if u.get("pct_ppi") is not None and u.get("pct_cor_nao_declarada") is None:
+            falhas.append(f"{ctx}: pct_ppi sem pct_cor_nao_declarada — o percentual "
+                          f"perde o denominador que o torna interpretável")
+
+        for campo in ("pct_ead", "pct_mulheres", "pct_ppi", "pct_cor_nao_declarada",
+                      "pct_financiamento", "pct_noturno", "pct_rede_publica"):
             if u.get(campo) is not None:
                 checar(0 <= u[campo] <= 100, f"{ctx}: {campo} fora de 0–100 ({u[campo]})")
 
