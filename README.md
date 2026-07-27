@@ -545,3 +545,19 @@ milhar em vírgula ("16,069" em vez de "16.069"), e uma comparação de converg�
 sem limiar anunciava "caiu de 2,7 para 2,7 pontos" por diferença de arredondamento.
 A frase de convergência agora exige meio ponto de diferença para existir — e, com
 o dado real, ela corretamente não aparece.
+
+## Exportação de figuras
+
+Todo mapa e gráfico ganha uma barra com **SVG** e **PNG**, montada por
+`static/js/exportar-figura.js`. Sem biblioteca: a CSP proíbe recurso de terceiro,
+e a conversão cabe em poucas linhas com `XMLSerializer` e `canvas`.
+
+Um cuidado que não é óbvio e que só aparece depois de exportar: as figuras são
+geradas no build **sem `font-family`**, herdando a tipografia da página pelo CSS.
+Um SVG salvo assim abre com a fonte padrão de quem abrir, e o PNG rasteriza com
+serifa genérica — os rótulos mudam de largura e passam a colidir. Por isso a cópia
+exportada recebe fonte e fundo brancos próprios: o arquivo precisa ser legível
+sozinho, longe deste site.
+
+O PNG sai em dobro da resolução de tela, porque gráfico citado costuma ir para
+slide ou relatório. A barra de exportação some na impressão.

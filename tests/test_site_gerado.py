@@ -135,6 +135,28 @@ def test_comparacoes_e_indices():
                f"{len(faltando)} municípios listados sem página: {faltando[:5]}")
 
 
+def test_exportacao_de_figuras():
+    """Página com figura precisa carregar o exportador.
+
+    A barra de download é montada por JS. Se o script deixar de ser incluído, as
+    figuras continuam aparecendo e ninguém nota que o download sumiu — falha
+    silenciosa, que é a pior espécie.
+    """
+    checar((DIST / "static" / "js" / "exportar-figura.js").exists(),
+           "exportar-figura.js não foi gerado")
+    amostras = [DIST / "regioes.html", DIST / "index.html", DIST / "estados.html"]
+    amostras += list((DIST / "curso").glob("*/index.html"))[:3]
+    for pagina in amostras:
+        if not pagina.exists():
+            continue
+        texto = pagina.read_text(encoding="utf-8")
+        if 'class="figura"' not in texto:
+            continue
+        rel = pagina.relative_to(DIST).as_posix()
+        checar("exportar-figura.js" in texto,
+               f"{rel}: tem figura mas não carrega o exportador")
+
+
 def test_404_com_caminhos_absolutos():
     """O 404 é servido para qualquer endereço, inclusive profundo.
 
@@ -166,6 +188,7 @@ def main():
     test_dados_embutidos_nao_fecham_script()
     test_paineis_territoriais_e_institucionais()
     test_comparacoes_e_indices()
+    test_exportacao_de_figuras()
     test_404_com_caminhos_absolutos()
 
     if falhas:

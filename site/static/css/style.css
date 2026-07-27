@@ -1040,3 +1040,23 @@ main:focus { outline: none; }
   color: var(--text-muted);
   margin-top: 2px;
 }
+
+/* Barra de exportação das figuras, montada por JS em cada .figura. */
+.export-barra {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+  padding-top: 10px;
+  border-top: 1px dashed var(--border);
+}
+.export-rotulo {
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+.export-erro { font-size: 0.76rem; color: var(--gold-texto); }
+@media print { .export-barra { display: none; } }
