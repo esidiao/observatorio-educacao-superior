@@ -34,6 +34,8 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
+from rede import abrir
+
 REPO = Path(__file__).parent.parent
 DATA = REPO / "data"
 URL = "https://download.inep.gov.br/microdados/microdados_censo_da_educacao_superior_{ano}.zip"
@@ -61,10 +63,7 @@ def existe(ano):
     ultimo_erro = None
     for tentativa in range(1, TENTATIVAS + 1):
         try:
-            req = urllib.request.Request(
-                URL.format(ano=ano), method="HEAD",
-                headers={"User-Agent": "observatorio-educacao"})
-            with urllib.request.urlopen(req, timeout=120) as r:
+            with abrir(URL.format(ano=ano), timeout=120, metodo="HEAD") as r:
                 return True, int(r.headers.get("Content-Length", 0)) / 1048576
         except urllib.error.HTTPError as e:
             if e.code == 404:

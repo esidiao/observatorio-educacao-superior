@@ -27,9 +27,10 @@ import shutil
 import subprocess
 import sys
 import time
-import urllib.request
 import zipfile
 from pathlib import Path
+
+from rede import abrir
 
 REPO = Path(__file__).parent.parent
 URL = "https://download.inep.gov.br/microdados/microdados_censo_da_educacao_superior_{ano}.zip"
@@ -55,10 +56,7 @@ def baixar(ano, destino):
         marca = "" if tentativa == 1 else f" (tentativa {tentativa}/{TENTATIVAS})"
         print(f"[GET] {url}{marca}")
         try:
-            req = urllib.request.Request(
-                url, headers={"User-Agent": "observatorio-educacao"})
-            with urllib.request.urlopen(req, timeout=900) as resp, \
-                    open(destino, "wb") as saida:
+            with abrir(url, timeout=900) as resp, open(destino, "wb") as saida:
                 baixado = 0
                 while True:
                     bloco = resp.read(1 << 20)
