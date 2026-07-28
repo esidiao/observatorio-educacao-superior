@@ -24,14 +24,24 @@ download de microdado numa conexão que qualquer intermediário poderia substitu
 sem que nada acusasse. Um observatório que publica número oficial não pode ter
 dúvida sobre a procedência do arquivo de onde o número saiu.
 
-Uma armadilha que custou uma execução de CI: `urllib` **embrulha** o erro de
-verificação num `URLError`, e um `except ssl.SSLCertVerificationError` nunca é
-alcançado. É preciso desembrulhar `e.reason`. A primeira versão deste módulo
-caiu nisso, e o sintoma foi silencioso — o remendo simplesmente nunca entrava.
+Como se decide quando remendar. Não se classifica o erro. A primeira versão
+tentava reconhecer "cadeia incompleta" pelo tipo da exceção e falhou duas
+vezes: `urllib` embrulha a falha de verificação num `URLError`, então o
+`except ssl.SSLCertVerificationError` nunca era alcançado; e quando a detecção
+foi corrigida, passou a responder de forma intermitente. Detector que acerta às
+vezes é pior que detector que erra sempre, porque parece funcionar.
+
+O critério de agora é inequívoco: se veio **resposta HTTP**, o TLS funcionou e
+o problema é outro — 404 não se remenda com certificado. Qualquer outra falha
+ganha uma tentativa com a cadeia completada, e se ela também falhar o erro
+relatado é o primeiro. Isso é seguro porque o remendo só acrescenta um elo ao
+conjunto de confiança: certificado expirado, autoassinado ou com nome errado
+continua recusado, e há verificação disso registrada no histórico do projeto.
 """
 import os
 import ssl
 import tempfile
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -39,22 +49,76 @@ import urllib.request
 _REMENDADO = {}          # host -> contexto com a intermediária adicionada
 
 
+# OID 1.3.6.1.5.5.7.48.2 — id-ad-caIssuers, em DER. É o rótulo que precede o
+# endereço do emissor dentro da extensão Authority Information Access.
+_OID_CA_ISSUERS = bytes([0x06, 0x08, 0x2B, 0x06, 0x01, 0x05, 0x05, 0x07, 0x30, 0x02])
+
+
+def _aia_por_varredura(der):
+    """Extrai o endereço do emissor varrendo o DER atrás do OID caIssuers.
+
+    Não é um analisador de ASN.1: é uma varredura por um rótulo de dez bytes
+    seguido de um `uniformResourceIdentifier` (tag 0x86), que é a estrutura que
+    a RFC 5280 garante para este campo. Basta para o que se precisa e não
+    depende de nada além de bytes.
+    """
+    i = der.find(_OID_CA_ISSUERS)
+    if i < 0:
+        return None
+    j = der.find(b"\x86", i, i + 64)      # a URI vem logo depois do OID
+    if j < 0:
+        return None
+    tamanho = der[j + 1]
+    inicio = j + 2
+    if tamanho & 0x80:                     # forma longa: o byte diz quantos
+        octetos = tamanho & 0x7F           # octetos guardam o tamanho real
+        tamanho = int.from_bytes(der[inicio:inicio + octetos], "big")
+        inicio += octetos
+    try:
+        return der[inicio:inicio + tamanho].decode("ascii")
+    except UnicodeDecodeError:
+        return None
+
+
 def _emissor_declarado(host, porta=443):
     """Endereço da intermediária, lido do certificado que o servidor apresenta.
 
     Ler não é confiar: a conexão aqui serve só para obter o certificado, e a
     verificação de verdade acontece depois, no contexto montado com ele.
+
+    Dois caminhos, e o segundo existe porque o primeiro é API privada do
+    CPython — chama-se `_test_decode_cert`, e um nome desses não promete
+    estabilidade nenhuma. Ele é preciso e vem primeiro; a varredura do DER
+    assume quando ele sumir de alguma versão futura. Sem a segunda via, uma
+    atualização de Python quebraria todo o download de microdado, e só se
+    descobriria na próxima vez que alguém rodasse o ETL.
     """
-    pem = ssl.get_server_certificate((host, porta))
-    arquivo = tempfile.NamedTemporaryFile(suffix=".pem", delete=False, mode="w")
+    # O servidor do INEP derruba conexão com frequência conhecida, e derrubá-la
+    # aqui custaria a tentativa inteira de completar a cadeia.
+    pem = None
+    for tentativa in range(3):
+        try:
+            pem = ssl.get_server_certificate((host, porta))
+            break
+        except OSError:
+            if tentativa == 2:
+                raise
+            time.sleep(2 * (tentativa + 1))
+
     try:
-        arquivo.write(pem)
-        arquivo.close()
-        info = ssl._ssl._test_decode_cert(arquivo.name)
-    finally:
-        os.unlink(arquivo.name)
-    enderecos = info.get("caIssuers") or ()
-    return enderecos[0] if enderecos else None
+        arquivo = tempfile.NamedTemporaryFile(suffix=".pem", delete=False, mode="w")
+        try:
+            arquivo.write(pem)
+            arquivo.close()
+            info = ssl._ssl._test_decode_cert(arquivo.name)
+        finally:
+            os.unlink(arquivo.name)
+        enderecos = info.get("caIssuers") or ()
+        if enderecos:
+            return enderecos[0]
+    except (AttributeError, OSError, ValueError):
+        pass
+    return _aia_por_varredura(ssl.PEM_cert_to_DER_cert(pem))
 
 
 def _baixar_intermediaria(endereco):
