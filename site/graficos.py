@@ -108,6 +108,23 @@ def _cor(valor, quebras, paleta):
     return paleta[min(i, len(paleta) - 1)]
 
 
+def _rolavel(svg, rotulo):
+    """Envolve a figura num contêiner que rola na horizontal em tela estreita.
+
+    O viewBox tem 560 unidades de largura. Num celular de 375px a figura cabia
+    inteira porque encolhia para 55% — e um rótulo de eixo de 9 unidades chegava
+    ao olho com 5px, ilegível. Aqui a figura passa a ser exibida em escala 1:1 e
+    quem está no celular arrasta na horizontal. Um gesto lateral é um preço
+    menor do que um gráfico que não se lê.
+
+    O contêiner recebe tabindex para que a rolagem também exista no teclado
+    (WCAG 2.1.1) e um rótulo que diz o que ele contém e como operá-lo.
+    """
+    return (f'<div class="figura-tela" tabindex="0" role="group" '
+            f'aria-label="{esc(rotulo)}. Role na horizontal para ver a figura '
+            f'inteira.">{svg}</div>')
+
+
 def coropletico(malha, valores, titulo, descricao, unidade="",
                 divergente=False, casas=0, largura=560, altura=520,
                 nomes_uf=None):
@@ -154,8 +171,9 @@ def coropletico(malha, valores, titulo, descricao, unidade="",
                 f'fill="{TEXTO if claro else "#FFFFFF"}" aria-hidden="true" '
                 f'pointer-events="none">{sigla}</text>')
     partes.append("</svg>")
-    return "".join(partes) + _legenda(quebras, paleta, unidade, casas,
-                                      tem_nulo=any(v is None for v in valores.values()))
+    legenda = _legenda(quebras, paleta, unidade, casas,
+                       tem_nulo=any(v is None for v in valores.values()))
+    return _rolavel("".join(partes), titulo) + legenda
 
 
 def _legenda(quebras, paleta, unidade, casas, tem_nulo):
@@ -213,7 +231,7 @@ def pontos_municipais(centroides, municipios, titulo, descricao,
     if sem_ponto:
         nota = (f'<p class="mapa-nota">{sem_ponto} município(s) sem coordenada na '
                 f'malha do IBGE não aparecem no mapa — os números da tabela os incluem.</p>')
-    return "".join(partes) + nota
+    return _rolavel("".join(partes), titulo) + nota
 
 
 def serie_temporal(anos, series, titulo, descricao, largura=560, altura=240,
@@ -247,11 +265,11 @@ def serie_temporal(anos, series, titulo, descricao, largura=560, altura=240,
         y = py(v)
         p.append(f'<line x1="{esq}" y1="{y:.1f}" x2="{largura - dir_}" y2="{y:.1f}" '
                  f'stroke="#E5E8EC" stroke-width="1"/>')
-        p.append(f'<text x="{esq - 6}" y="{y + 3:.1f}" text-anchor="end" font-size="9" '
+        p.append(f'<text x="{esq - 6}" y="{y + 3:.1f}" text-anchor="end" font-size="11" '
                  f'fill="#6B7280">{esc(_fmt(v, casas))}</text>')
     for i, ano in enumerate(anos):
         p.append(f'<text x="{px(i):.1f}" y="{altura - 10}" text-anchor="middle" '
-                 f'font-size="10" fill="#6B7280">{esc(ano)}</text>')
+                 f'font-size="11" fill="#6B7280">{esc(ano)}</text>')
     for k, s in enumerate(series):
         cor = paleta[k % len(paleta)]
         # Traços só entre anos CONSECUTIVOS com dado. Uma linha única atravessando
@@ -279,7 +297,8 @@ def serie_temporal(anos, series, titulo, descricao, largura=560, altura=240,
     chaves = "".join(
         f'<span class="chave"><i style="background:{paleta[k % len(paleta)]}"></i>'
         f'{esc(s["nome"])}</span>' for k, s in enumerate(series))
-    return "".join(p) + f'<div class="mapa-legenda">{chaves}</div>'
+    return (_rolavel("".join(p), titulo)
+            + f'<div class="mapa-legenda">{chaves}</div>')
 
 
 def barras(itens, titulo, descricao, unidade="", casas=0, largura=560,
@@ -307,4 +326,4 @@ def barras(itens, titulo, descricao, unidade="", casas=0, largura=560,
                  f'font-size="11" font-weight="600" fill="{TEXTO}">'
                  f'{esc(_fmt(item["valor"], casas))}{esc(unidade)}</text>')
     p.append("</svg>")
-    return "".join(p)
+    return _rolavel("".join(p), titulo)

@@ -16,7 +16,7 @@ DATA = REPO / "data"
 DIST = REPO / "site" / "dist"
 
 # Domínios cuja citação no texto é legítima (links de fonte para o dado oficial).
-FONTES_PERMITIDAS = ("www.gov.br",)
+FONTES_PERMITIDAS = ("www.gov.br", "lattes.cnpq.br")
 
 falhas = []
 
@@ -56,12 +56,19 @@ def test_uma_pagina_por_curso():
 
 def test_sem_recursos_externos():
     """A promessa da página de privacidade tem que valer no HTML publicado."""
-    padrao = re.compile(r'(?:src|href)\s*=\s*"(?:https?:)?//([^/"]+)', re.I)
+    # src busca sozinho; href só depois de um clique. Só o primeiro quebra a
+    # promessa de privacidade sem que ninguém tenha pedido nada.
+    subrecurso = re.compile(r'src\s*=\s*"(?:https?:)?//([^/"]+)', re.I)
+    link = re.compile(r'href\s*=\s*"(?:https?:)?//([^/"]+)', re.I)
     infratores = {}
     for pagina in DIST.rglob("*.html"):
-        for host in padrao.findall(pagina.read_text(encoding="utf-8")):
+        texto = pagina.read_text(encoding="utf-8")
+        rel = pagina.relative_to(DIST).as_posix()
+        for host in subrecurso.findall(texto):
+            infratores.setdefault(f"src→{host}", rel)
+        for host in link.findall(texto):
             if host not in FONTES_PERMITIDAS:
-                infratores.setdefault(host, pagina.relative_to(DIST).as_posix())
+                infratores.setdefault(host, rel)
     checar(not infratores,
            f"páginas carregam recursos de fora: {infratores}")
 

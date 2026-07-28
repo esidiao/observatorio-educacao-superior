@@ -82,15 +82,30 @@ def test_csp():
            "frame-ancestors deveria ser 'none' (proteção contra clickjacking)")
 
 
+# Hospedeiros para os quais um LINK pode apontar. Link não é requisição: nada
+# sai daqui até que a pessoa clique, e clicar é decisão dela. O que a página de
+# privacidade promete — e o que a CSP impõe — é que nenhum SUBRECURSO venha de
+# fora, e essa proibição continua sem exceção alguma.
+DESTINOS_DE_LINK = ("www.gov.br", "lattes.cnpq.br")
+
+
 def test_sem_recursos_externos():
-    """Nenhuma requisição sai do domínio — é o que a página de privacidade promete."""
-    padrao = re.compile(r'(?:src|href)\s*=\s*["\'](https?:)?//', re.I)
+    """Nenhuma requisição automática sai do domínio."""
+    subrecurso = re.compile(r'src\s*=\s*["\'](https?:)?//', re.I)
+    link_externo = re.compile(r'href\s*=\s*["\'](?:https?:)?//([^/"\']+)', re.I)
     for arq in sorted(TEMPLATES.glob("*.j2")) + sorted(STATIC.glob("**/*.js")) \
             + sorted(STATIC.glob("**/*.css")):
         for n, linha in enumerate(arq.read_text(encoding="utf-8").splitlines(), 1):
-            if padrao.search(linha):
-                falhas.append(f"{arq.name}:{n}: recurso externo — a promessa de "
+            if subrecurso.search(linha):
+                falhas.append(f"{arq.name}:{n}: subrecurso externo — a promessa de "
                               f"privacidade e a CSP proíbem")
+            if "<link" in linha.lower() and link_externo.search(linha):
+                falhas.append(f"{arq.name}:{n}: <link> para fora busca recurso "
+                              f"antes de qualquer clique")
+            for host in link_externo.findall(linha):
+                if host not in DESTINOS_DE_LINK:
+                    falhas.append(f"{arq.name}:{n}: link para {host}, fora da "
+                                  f"lista de destinos declarados")
     for arq in sorted(STATIC.glob("**/*.css")):
         for n, linha in enumerate(arq.read_text(encoding="utf-8").splitlines(), 1):
             if re.search(r"@import\s+url\(\s*['\"]?https?:", linha, re.I):

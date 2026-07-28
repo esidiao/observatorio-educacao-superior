@@ -131,6 +131,7 @@ a:hover { text-decoration: underline; }
 
 .navbar a { color: var(--navy); font-weight: 500; }
 .navbar .sep { color: var(--text-muted); }
+.navbar-carimbo { font-size: 0.78rem; color: var(--text-muted); }
 .navbar .active { color: var(--text-muted); }
 
 .ic { width: 1em; height: 1em; vertical-align: -0.13em; display: inline-block; }
@@ -1060,3 +1061,113 @@ main:focus { outline: none; }
 }
 .export-erro { font-size: 0.76rem; color: var(--gold-texto); }
 @media print { .export-barra { display: none; } }
+
+/* ============================================================
+   CELULAR: legibilidade, alvos de toque e figuras
+   ------------------------------------------------------------
+   Bloco escrito depois de medir o site num viewport de 375px. Os três
+   problemas encontrados, e o que cada regra resolve:
+
+   1. As figuras encolhiam para 55% para caber na tela, e com elas os rótulos:
+      texto de 9 a 11 unidades do viewBox chegava ao olho com 5 a 6 pixels.
+      Agora a figura vive num contêiner rolável (.figura-tela, gerado em
+      graficos.py) e é exibida em escala 1:1.
+   2. Alvos de toque abaixo do mínimo: links do menu com 20px de altura,
+      botões de ordenação com 19px, links dentro de tabelas com 19px. O
+      critério 2.5.8 do WCAG 2.2 pede 24x24 CSS; onde o layout permite, aqui
+      se vai a 40px, que é o que a mão pede.
+   3. Corpo de texto secundário entre 11,5px e 12,5px — pequeno demais para
+      leitura ao sol, num aparelho na mão. O piso passa a ser ~13px.
+   ============================================================ */
+
+/* A tela da figura só rola onde precisa; no desktop é um div transparente. */
+.figura-tela { margin: 0 auto; max-width: 620px; }
+.figura-tela:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+
+@media (max-width: 720px) {
+  .figura { padding: 12px; }
+  .figura-tela {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    max-width: none;
+    padding-bottom: 4px;
+  }
+  .figura-tela svg { min-width: 560px; max-width: none; margin: 0; }
+  /* A dica acompanha a rolagem em vez de fugir para a direita. */
+  .figura-tela::after {
+    content: '⇆ arraste para ver a figura inteira';
+    position: sticky;
+    left: 0;
+    display: block;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-top: 6px;
+  }
+
+  /* ── Alvos de toque ───────────────────────────────────────────────────── */
+  .navbar { gap: 4px 8px; }
+  .navbar a, .nav-menu a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 40px;
+    padding: 0 6px;
+  }
+  .nav-home { min-height: 40px; min-width: 40px; justify-content: center; }
+  .btn, .btn.outline {
+    min-height: 40px;
+    padding: 10px 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-mini { min-height: 36px; padding: 8px 12px; }
+  select, input[type="text"], input[type="search"], input[type="number"] {
+    min-height: 42px;
+  }
+  main td a, main th a, .figura-nota a, footer a { padding: 5px 0; display: inline-block; }
+  .export-barra .btn { min-height: 36px; }
+
+  /* ── Piso tipográfico ─────────────────────────────────────────────────── */
+  .kpi-card .kpi-label, .kpi-card .kpi-fonte, .curso-area, .curso-aviso,
+  .uf-tag, .leituras-aviso, .btn, .btn.outline, .btn-mini, .export-barra .btn,
+  .navbar-carimbo, .mapa-legenda, .uf-nav-item,
+  thead th, tbody td, .th-ordenar,
+  .area-meta, .gloss-meta, .glossario-cat-titulo, .header-tag,
+  .hero-eyebrow, .figura-nota, .mapa-nota, .mapa-legenda,
+  .export-rotulo, .chips-vazio, .scroll-hint, .site-footer,
+  .seletor-curso-rotulo, .filtro-contador { font-size: 0.82rem; }
+  .site-footer p, .site-footer a { font-size: 0.82rem; }
+  table { font-size: 0.85rem; }
+}
+
+/* O botão de ordenar cabeçalho é pequeno demais em qualquer largura: 19px de
+   altura reprova no 2.5.8 mesmo no desktop. O acréscimo é vertical e não
+   altera a largura das colunas. */
+.th-ordenar {
+  padding: 5px 2px;
+  min-height: 24px;
+  min-width: 24px;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* O menu tem 12 destinos. Empilhados, ocupavam 161px de altura antes de o
+   conteúdo começar — um terço da tela de um celular gasto em navegação. Numa
+   faixa rolável ele volta a uma linha; o teclado continua alcançando todos os
+   itens, porque o navegador rola o foco para dentro da vista. */
+@media (max-width: 720px) {
+  .navbar { flex-wrap: nowrap; align-items: center; padding: 4px 12px; }
+  .breadcrumb-trail { flex-shrink: 0; }
+  .nav-menu {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    margin-left: 4px;
+    padding-right: 12px;
+    -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 18px), transparent);
+    mask-image: linear-gradient(90deg, #000 calc(100% - 18px), transparent);
+  }
+  .nav-menu::-webkit-scrollbar { display: none; }
+  .nav-menu a { white-space: nowrap; }
+}
