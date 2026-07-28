@@ -203,6 +203,36 @@ def test_sem_rastreamento():
                               f"privacidade.html")
 
 
+def test_verificacao_tls_nunca_desligada():
+    """Nenhum script do ETL pode aceitar certificado sem verificar.
+
+    O servidor de microdados do INEP apresenta a cadeia incompleta, e o atalho
+    para "resolver" isso cabe numa linha: desligar a verificação. Resolveria o
+    sintoma e transformaria todo download de microdado numa conexão que
+    qualquer intermediário poderia substituir sem que nada acusasse — num
+    projeto cuja razão de existir é publicar número oficial com procedência.
+
+    A saída correta está em etl/rede.py: completar a cadeia com a intermediária
+    que o servidor omitiu, mantendo a verificação inteira. Esta checagem existe
+    para que o atalho não volte quando alguém tiver pressa.
+    """
+    proibidos = {
+        "CERT_NONE": "verificação de certificado desligada",
+        "_create_unverified_context": "contexto sem verificação",
+        "check_hostname = False": "checagem de nome do servidor desligada",
+        "check_hostname=False": "checagem de nome do servidor desligada",
+        "verify=False": "verificação desligada (requests)",
+    }
+    for arq in sorted((REPO / "etl").glob("*.py")) + [BUILD]:
+        for n, linha in enumerate(arq.read_text(encoding="utf-8").splitlines(), 1):
+            if linha.lstrip().startswith("#"):
+                continue                 # comentário pode citar para explicar
+            for agulha, o_que in proibidos.items():
+                if agulha in linha:
+                    falhas.append(f"{arq.name}:{n}: {o_que} — ver a nota em "
+                                  f"etl/rede.py sobre por que não")
+
+
 def test_sem_credencial_versionada():
     """Chave de API não pode entrar no repositório.
 
@@ -309,6 +339,7 @@ def main():
     test_acessibilidade_base()
     test_contraste_tokens()
     test_piso_tipografico()
+    test_verificacao_tls_nunca_desligada()
 
     if falhas:
         print(f"[FALHOU] {len(falhas)} problema(s) de segurança/acessibilidade:\n")

@@ -6,30 +6,37 @@ Acesso HTTPS ao servidor do INEP, com a cadeia que ele não envia.
         ...
 
 O problema. `download.inep.gov.br` apresenta **só o certificado folha**: a
-intermediária que o assina ("RNP ICPEdu ... OV TLS CA") não vai junto. Um
-navegador ou uma máquina que já visitou o domínio completam a cadeia sozinhos —
-por cache ou por buscar o emissor — e por isso o download funciona no Windows
-de quem desenvolve. Um runner de CI recém-criado não tem esse cache, e a
-verificação falha com "unable to get local issuer certificate".
+intermediária que o assina ("RNP ICPEdu ... OV TLS CA") não vai junto. Uma
+máquina que já visitou o domínio completa a cadeia sozinha, e por isso o
+download sempre funcionou no Windows de quem desenvolve. Um runner de CI
+recém-criado não tem esse cache, e a verificação falha com "unable to get local
+issuer certificate".
 
 A correção. O próprio certificado folha diz onde está o emissor, no campo
-*Authority Information Access*. Esta função lê esse endereço, baixa a
+*Authority Information Access*. Este módulo lê esse endereço, baixa a
 intermediária e a acrescenta ao conjunto de confiança **junto com** as raízes do
-sistema. A cadeia continua tendo de terminar numa raiz confiável: o que se faz
-aqui é fornecer o elo que o servidor omitiu, não aceitar um elo qualquer.
+sistema. A cadeia continua tendo de terminar numa raiz confiável: fornece-se o
+elo que o servidor omitiu, não se aceita um elo qualquer.
 
 O que NÃO se faz, e a razão. Em nenhuma hipótese se desliga a verificação. O
 atalho existe, cabe em uma linha e resolveria o sintoma — e transformaria todo
 download de microdado numa conexão que qualquer intermediário poderia substituir
 sem que nada acusasse. Um observatório que publica número oficial não pode ter
 dúvida sobre a procedência do arquivo de onde o número saiu.
+
+Uma armadilha que custou uma execução de CI: `urllib` **embrulha** o erro de
+verificação num `URLError`, e um `except ssl.SSLCertVerificationError` nunca é
+alcançado. É preciso desembrulhar `e.reason`. A primeira versão deste módulo
+caiu nisso, e o sintoma foi silencioso — o remendo simplesmente nunca entrava.
 """
 import os
 import ssl
 import tempfile
+import urllib.error
+import urllib.parse
 import urllib.request
 
-_CONTEXTO = None
+_REMENDADO = {}          # host -> contexto com a intermediária adicionada
 
 
 def _emissor_declarado(host, porta=443):
@@ -61,52 +68,58 @@ def _baixar_intermediaria(endereco):
     return ssl.DER_cert_to_PEM_cert(bruto)
 
 
-def contexto(host):
-    """Contexto TLS com as raízes do sistema mais a intermediária ausente.
-
-    Devolve o contexto padrão quando o servidor manda a cadeia completa — a
-    remenda só entra onde faz falta.
-    """
-    global _CONTEXTO
-    if _CONTEXTO is not None:
-        return _CONTEXTO
-
-    padrao = ssl.create_default_context()
-    try:
-        with urllib.request.urlopen(
-                urllib.request.Request(f"https://{host}/", method="HEAD",
-                                       headers={"User-Agent": "observatorio-educacao"}),
-                timeout=60, context=padrao):
-            pass
-        _CONTEXTO = padrao          # cadeia completa: nada a remendar
-        return _CONTEXTO
-    except ssl.SSLCertVerificationError:
-        pass
-    except Exception:               # noqa: BLE001
-        # 404, 403, timeout: a cadeia validou, o recurso é que não existe.
-        _CONTEXTO = padrao
-        return _CONTEXTO
+def contexto_remendado(host, base=None):
+    """Contexto com as raízes de sempre mais a intermediária que faltava."""
+    if host in _REMENDADO:
+        return _REMENDADO[host]
 
     endereco = _emissor_declarado(host)
     if not endereco:
         raise ssl.SSLCertVerificationError(
             f"{host} não valida e o certificado não declara onde está o emissor")
 
-    remendado = ssl.create_default_context()
-    pem = _baixar_intermediaria(endereco)
-    remendado.load_verify_locations(cadata=pem)
+    ctx = base() if base else ssl.create_default_context()
+    ctx.load_verify_locations(cadata=_baixar_intermediaria(endereco))
     print(f"[TLS] {host} não envia a intermediária; obtida em {endereco}")
-    _CONTEXTO = remendado
-    return _CONTEXTO
+    _REMENDADO[host] = ctx
+    return ctx
 
 
-def abrir(url, timeout=900, metodo="GET"):
-    """urlopen com o contexto certo para o host da URL.
+def abrir(url, timeout=900, metodo="GET", base=None):
+    """urlopen que completa a cadeia se — e só se — ela vier incompleta.
 
-    `metodo="HEAD"` serve para perguntar se o arquivo existe e que tamanho tem
-    sem abrir o fluxo de centenas de megabytes.
+    `base` é uma fábrica de contexto, usada nos testes para reproduzir uma
+    máquina sem a intermediária em cache.
     """
-    host = urllib.request.urlparse(url).hostname
+    host = urllib.parse.urlparse(url).hostname
     req = urllib.request.Request(
         url, method=metodo, headers={"User-Agent": "observatorio-educacao"})
-    return urllib.request.urlopen(req, timeout=timeout, context=contexto(host))
+
+    if host in _REMENDADO:
+        return urllib.request.urlopen(req, timeout=timeout,
+                                      context=_REMENDADO[host])
+    try:
+        ctx = base() if base else ssl.create_default_context()
+        return urllib.request.urlopen(req, timeout=timeout, context=ctx)
+    except urllib.error.HTTPError:
+        # Houve resposta HTTP, logo o TLS funcionou. 404 é ausência do arquivo,
+        # não problema de cadeia — remendar aqui não faria sentido.
+        raise
+    except Exception as original:                    # noqa: BLE001
+        # Qualquer outra falha: tenta uma vez com a cadeia completada. Não se
+        # classifica o erro pelo texto ou pelo código — a primeira versão deste
+        # módulo fazia isso e errava de forma intermitente, o que é pior que
+        # errar sempre, porque parece funcionar. O remendo só ACRESCENTA uma
+        # intermediária ao conjunto de confiança; se a cadeia continuar
+        # inválida, a conexão continua sendo recusada.
+        try:
+            ctx = contexto_remendado(host, base)
+        except Exception:                            # noqa: BLE001
+            raise original
+        try:
+            return urllib.request.urlopen(req, timeout=timeout, context=ctx)
+        except urllib.error.HTTPError:
+            raise
+        except Exception:                            # noqa: BLE001
+            # O remendo não resolveu: o erro que importa relatar é o primeiro.
+            raise original
