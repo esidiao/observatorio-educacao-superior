@@ -76,14 +76,15 @@
   <span class="navbar-carimbo">Dados: {{ data_extracao }}</span>
 </nav>
 
-{# O seletor é montado por JS a partir de window.CURSOS (static/js/cursos.js).
+{# A busca é montada por JS a partir de window.INDICE (static/js/indice.js).
    Listar centenas de cursos no HTML de cada página pesaria mais que o site inteiro. #}
-<div class="seletor-curso" aria-label="Selecionar curso">
-  <span class="seletor-curso-rotulo">Curso:</span>
+<div class="seletor-curso" aria-label="Buscar no observatório">
+  <span class="seletor-curso-rotulo">Buscar:</span>
   <div class="curso-busca">
     <input type="search" id="curso-busca" autocomplete="off" role="combobox"
            aria-expanded="false" aria-controls="curso-sugestoes"
-           placeholder="Buscar entre os cursos do Censo…" aria-label="Buscar curso">
+           placeholder="Buscar cursos, instituições, municípios e estados…"
+           aria-label="Buscar no observatório">
     <ul id="curso-sugestoes" class="curso-sugestoes" role="listbox" hidden></ul>
   </div>
   <span id="curso-atual-chip" class="curso-chip ativo" hidden></span>
@@ -134,10 +135,10 @@
   </p>
 </footer>
 
-<script src="{{ depth }}static/js/cursos.js"></script>
 <script src="{{ depth }}static/js/app.js"></script>
 <script src="{{ depth }}static/js/glossario.js"></script>
-<script src="{{ depth }}static/js/seletor-curso.js"></script>
+<script src="{{ depth }}static/js/indice.js"></script>
+<script src="{{ depth }}static/js/busca-global.js"></script>
 <script src="{{ depth }}static/js/exportar-figura.js"></script>
 {% block dados %}{% endblock %}
 {% block scripts %}{% endblock %}

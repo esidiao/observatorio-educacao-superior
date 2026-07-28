@@ -1703,3 +1703,33 @@ main:focus { outline: none; }
 /* O contorno entre unidades federativas é a cor da superfície: no claro
    separa com branco, no escuro separa com o próprio fundo do cartão. */
 .figura svg .g-contorno { stroke: var(--surface); }
+
+/* Selo de tipo nos resultados da busca. A lista mistura curso, instituição,
+   município, estado e página; sem o selo, "Goiás" e "Goiânia" apareceriam
+   lado a lado sem que se soubesse para onde cada um leva. */
+.busca-tipo {
+  display: inline-block;
+  min-width: 78px;
+  margin-right: 8px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  vertical-align: baseline;
+}
+@media (max-width: 1024px) {
+  .busca-tipo { font-size: 0.82rem; min-width: 92px; }
+}
+
+/* A lista de sugestões virou navegação principal do site: é por ela que se
+   chega a instituição, município e estado. No celular a linha inteira precisa
+   ser alvo confortável, não só o texto dentro dela. */
+@media (max-width: 1024px) {
+  #curso-sugestoes a {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 44px;
+  }
+}

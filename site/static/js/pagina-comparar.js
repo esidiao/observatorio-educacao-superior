@@ -1,13 +1,18 @@
 /* Comparação entre cursos.
  *
- * window.CURSOS     — catálogo de navegação (s=slug, n=nome, a=área, v=vagas)
+ * window.INDICE.c   — catálogo de navegação, em listas: [nome, slug, vagas, área]
  * window.COMPARACAO — {campos: [...], dados: {slug: {recorte: [valores...]}}}
  *
  * A matriz é colunar: com centenas de cursos × 28 recortes, repetir o nome de
  * cada campo em cada registro multiplicaria o arquivo por várias vezes.
  */
 (function () {
-  var CURSOS = window.CURSOS || [];
+  // O índice global guarda o curso como lista, para não repetir as chaves
+  // quatro mil vezes no arquivo. Aqui volta a ter nome, porque o resto desta
+  // página foi escrito assim.
+  var CURSOS = (window.INDICE && window.INDICE.c || []).map(function (r) {
+    return { n: r[0], s: r[1], v: r[2], a: r[3] };
+  });
   var CAMPOS = (window.COMPARACAO || {}).campos || [];
   var DADOS = (window.COMPARACAO || {}).dados || {};
   var INDICE = {};

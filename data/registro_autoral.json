@@ -2,11 +2,11 @@
   "obra": "Observatório Nacional da Educação Superior",
   "autor": "Edson Sidião de Souza Júnior",
   "tipo": "Registro de Anterioridade e Integridade (prova de existência)",
-  "selado_em_utc": "2026-07-28T01:30:48+00:00",
+  "selado_em_utc": "2026-07-28T02:23:12+00:00",
   "algoritmo": "SHA-256",
   "n_arquivos": 65,
-  "hash_raiz": "f0883f8cc55ae04a011bfd323ca1990dd5fffa8f93e07f234c8687b54907f912",
-  "git_commit_ancora": "4a25c8e90d82e96d5f29e8bbca80bc59e0d508f4",
+  "hash_raiz": "648a7f6941581fa2b2c5904fa6c643f11d022c43c414def6104da77e416b61dc",
+  "git_commit_ancora": "f8da8fe573cddccd8b816939d648c413e27dff96",
   "fundamento": "Lei 9.610/1998 e Lei 9.609/1998. O hash-raiz é impressão digital única do conjunto; o commit Git ancora a data de forma imutável.",
   "como_verificar": [
     "1. Baixe os arquivos listados em 'arquivos'.",
@@ -111,11 +111,11 @@
     },
     {
       "caminho": "site/build.py",
-      "sha256": "119e5b26f847f050d02e0073e7f179de9e6d150ac194d7af09972b37e5af96ee"
+      "sha256": "2f74de4c0b700dcad3e215805ff136a108d6e7d118fe779b0511ca91160174ef"
     },
     {
       "caminho": "site/graficos.py",
-      "sha256": "4cb910760ffac102a967b7ebcb6cccf7fb471cbf9c7e3c5c565a0a35586054b1"
+      "sha256": "501f417c44ddc8be2cf737fec29a97cf19806aed52b1d615afb67a764928d473"
     },
     {
       "caminho": "site/insights.py",
@@ -123,11 +123,15 @@
     },
     {
       "caminho": "site/static/css/style.css",
-      "sha256": "436e018e573684accd69d904346cb7aec8624c54bf49082c0569db9944fb9aaf"
+      "sha256": "3609e2de11c65e3a18134610044546034e833f944283018727eb7e0a3c27e49a"
     },
     {
       "caminho": "site/static/js/app.js",
       "sha256": "5ca8da35aa4f406124bb01843f0560c21996fdaf460702cba2cb6347fee8c586"
+    },
+    {
+      "caminho": "site/static/js/busca-global.js",
+      "sha256": "71287aa6dcdece7720a4f1e6f8b25932ca4d8e13932278a457829942d471789f"
     },
     {
       "caminho": "site/static/js/exportar-figura.js",
@@ -143,7 +147,7 @@
     },
     {
       "caminho": "site/static/js/pagina-comparar.js",
-      "sha256": "8149e3dbf7559fb5a96221d590fece74742d7b5af34d257f531ed620a2069bb4"
+      "sha256": "de525582729775968098cfb101d6de212035c011171f87e98c627016a1da69d8"
     },
     {
       "caminho": "site/static/js/pagina-curso.js",
@@ -166,96 +170,92 @@
       "sha256": "21a5a89f47a7ecc52a8c157b4051a45cd76b91091a83dd2824a1364bbfbda7a3"
     },
     {
-      "caminho": "site/static/js/seletor-curso.js",
-      "sha256": "31cf5de4dfb994c9dce0a6c3862da97a53758d97b6d3be25da60cfead114157b"
-    },
-    {
       "caminho": "site/templates/404.html.j2",
       "sha256": "4098047989d872361f1ab6acbb74a633ff120bf8996d436c70bbffb91f71ef81"
     },
     {
       "caminho": "site/templates/acesso.html.j2",
-      "sha256": "b7e4302ded5a6cf34fe177993b91b46f4750c721c19842c8b34ddec55bdbedda"
+      "sha256": "ccf0a592835688486d034e1ef1e41de83fd2c209cfc0867ad6a22474136e5b01"
     },
     {
       "caminho": "site/templates/api.html.j2",
-      "sha256": "5f4045b4421ad8ac82b8029bdc09921e7bc781d2ceebae3a78a8bf0e28418a9a"
+      "sha256": "bfeb4e5f594a0cf2b99cf71b8807730a7502096614a5d41871348be5a5621d2c"
     },
     {
       "caminho": "site/templates/autor.html.j2",
-      "sha256": "4de39830b7b5ccb176b7686b3e7c2b27bcd06f757ef145c3e898b98c17b97e03"
+      "sha256": "54c6b6a60a792ca2b8d767e3054888620c11139cf6e50f6e3b6f07030c521e86"
     },
     {
       "caminho": "site/templates/aviso-legal.html.j2",
-      "sha256": "900edd458adc908854dec3b4c50b7c7847e02b1db9b545ad492aaec7ec23368d"
+      "sha256": "992b43ae34f6e094b69a14e02309c40bc9ee12d5f3da0601c4a24e050adefb46"
     },
     {
       "caminho": "site/templates/base.html.j2",
-      "sha256": "ecda74c5bc6f6d4eea41f408687b08286e8d357d8c66987c0f0bfbfa1826eab6"
+      "sha256": "e88ae744581a439d1c6f44b118fde279956a22f1e4c276e5a28dbc242ecdda32"
     },
     {
       "caminho": "site/templates/comparar-cursos.html.j2",
-      "sha256": "eba218b4baaa8a0074bf085ef291f85571fd811d4b4bf429ad861fd64b9fc1ad"
+      "sha256": "21e50c95a2ad316c9d54c885c1443d9fe214bef9fcd9a6eb252d3f60c6e078ac"
     },
     {
       "caminho": "site/templates/comparar-entidades.html.j2",
-      "sha256": "82e87500e955eb1712907e5d8b20a64c05a1cd720913ad7986bfad2f0c214d4c"
+      "sha256": "06873ecc243e2ff19834f611d735b1cfd2fe5b33eb683f4281706e5c38cb0de5"
     },
     {
       "caminho": "site/templates/curso.html.j2",
-      "sha256": "98d505a539e19d9707e07a801c4241c3164625ecb0af3ed40b03baf718200de6"
+      "sha256": "66f43a0afe73bc222ce66ec69fe0942eee8ad97b4346d011181a471da3ee2425"
     },
     {
       "caminho": "site/templates/estados.html.j2",
-      "sha256": "7dac1c37f835d76a4def66d99a81eb055454bbe2abac99c9978a784d65260d25"
+      "sha256": "b5bcbad1a146096d12568b1d101fcbc0d6dfd80991f82c5a64855f5a57cce786"
     },
     {
       "caminho": "site/templates/index.html.j2",
-      "sha256": "1bff2537384e20f06102fd2e53f042766c13a13644856b65ee1c8d49d3d0be50"
+      "sha256": "4a3a55d1eff5b161d7ad54fe8b0aa05205b6a7adeba79f407ea4083404dcbfe9"
     },
     {
       "caminho": "site/templates/instituicao.html.j2",
-      "sha256": "f14cfb0e19518199b116d990753aca260cec68389048b4968452a368feb9380f"
+      "sha256": "0f0980798f6a257acc51c3fa0b31d2b03d6856a36b072e19b1abcfb57b1b83fb"
     },
     {
       "caminho": "site/templates/instituicoes.html.j2",
-      "sha256": "ce74d0f8369d790f102460efb854bfa6941c2c47cd8245a93cabf8b9634d640e"
+      "sha256": "4493da1b9d8e8d43556d78eec39486ac92165bfb7983c45741b462c56e499617"
     },
     {
       "caminho": "site/templates/metodologia.html.j2",
-      "sha256": "a70ec5dac402fd8bca9c6ad6ed8d17c7e6610c1842b07e846754e8c8a3a4c4a4"
+      "sha256": "5c2c0180cf93d6ba4ec9ef4bba081a4345e9810a1eba8f953049433131f3b101"
     },
     {
       "caminho": "site/templates/municipio.html.j2",
-      "sha256": "b43664a02c95c4d7cb4e72ba9555cdd638455583f374ebf0c4cc2705a81e8e5c"
+      "sha256": "fd3a5ec1a2c6cd1caae00a7737d9c7eb975f793d6008aa1e4637a8bf25d012ea"
     },
     {
       "caminho": "site/templates/municipios.html.j2",
-      "sha256": "317434facddbfa4e159feadb7c75dd3d794267f3563f9d6ac9b6d43f8e9fa8be"
+      "sha256": "cb7aa52d0846bce499d76ea90f7995b4e382ba70f5054beeaadc2e11ce347150"
     },
     {
       "caminho": "site/templates/privacidade.html.j2",
-      "sha256": "0c84ff979ce15c9784be82846cc0559b1f7430604465e14a3676abc708b8408e"
+      "sha256": "85bd7fcd4c69f3c0dcb9d8f30a3444eae7e27e2aae8cf2a4675b34dc43753ff4"
     },
     {
       "caminho": "site/templates/rankings.html.j2",
-      "sha256": "fdcdd7649be724755439e3f7968587c0b7e43094c422cd51f8443d13eca26e3b"
+      "sha256": "d3b2b680f77eff645fbcf2d32202b961aba8ab6b4da66c41961be558e6bac89c"
     },
     {
       "caminho": "site/templates/redes.html.j2",
-      "sha256": "27ed25e0f4d84dcf4e58051da1e4ca4cce0ac047b0d15d790dab6eb3bb6232f2"
+      "sha256": "1695357e2d567ea4b6da34b662af2cd37c5a13f1fa38679d99613089b210423a"
     },
     {
       "caminho": "site/templates/regioes.html.j2",
-      "sha256": "a19dc03daf5f60619787275763b8a952b13cf74ea736c51e3d00bd2dd1806823"
+      "sha256": "3fe62691ed0f54ffca5ff54913b9b5a7f7501a1f40e67321ac261f60457b3239"
     },
     {
       "caminho": "site/templates/uf-perfil.html.j2",
-      "sha256": "9a1808773989fee27df1b20a9b0fa986cf78ca38597fc388d84a5a110feec540"
+      "sha256": "f1fd73d6f2913846c884fc539052200f0709536056edb3ea15ef7e6e03e816c5"
     },
     {
       "caminho": "site/templates/uf.html.j2",
-      "sha256": "f4ed63686006eee94462039d3aafed5c6c831ad322d9aa90d7cbfbd074c89665"
+      "sha256": "822290105481c00684611bd23d6062db1078ca6f2318b25ea2fdb88034e82f96"
     },
     {
       "caminho": "tests/test_catalogo.py",
@@ -263,11 +263,11 @@
     },
     {
       "caminho": "tests/test_seguranca.py",
-      "sha256": "3554d2627dee72cb34b1e8a6f49dc06a885edb7358dce6c8877c598ad4c52ce9"
+      "sha256": "84d68c297f62116066a585b8d3eb1133694544b22f3f1ffc7270c2023d3f64b3"
     },
     {
       "caminho": "tests/test_site_gerado.py",
-      "sha256": "8ae8f8d0d46e6738933f1ab857798435746bdbb0f0f66377d1605da53a97ac18"
+      "sha256": "203dd61ec3c2edf4df8422371cc9c7c8a8265924b1358f0f940fd396bd201d94"
     },
     {
       "caminho": "tests/test_validacao.py",
@@ -275,7 +275,7 @@
     },
     {
       "caminho": "tests/test_viewport.py",
-      "sha256": "f3cce01705f2859246ca7b5a26526b655ac217a03fa0af22512544b89a6f7cc5"
+      "sha256": "9ca369647c4af28a3966f822623cdbd062328f8d1128764849e2e6d0bd573d36"
     }
   ]
 }

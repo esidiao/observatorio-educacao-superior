@@ -29,8 +29,21 @@ def checar(condicao, mensagem):
 def test_paginas_obrigatorias():
     for nome in ("index.html", "comparar-cursos.html", "metodologia.html",
                  "privacidade.html", "404.html",
-                 "static/js/cursos.js", "static/js/comparacao.js"):
+                 "autor.html", "aviso-legal.html",
+                 "static/js/indice.js", "static/js/comparacao.js"):
         checar((DIST / nome).exists(), f"{nome} não foi gerado")
+
+    # O índice de busca precisa cobrir os cinco tipos de destino. Se um grupo
+    # sumir do build, a busca continua funcionando — só deixa de achar aquele
+    # tipo, e ninguém percebe até alguém procurar por ele.
+    indice = (DIST / "static" / "js" / "indice.js").read_text(encoding="utf-8")
+    dados = json.loads(indice[len("window.INDICE="):].rstrip(";\n"))
+    for grupo, minimo, o_que in (("c", 300, "cursos"), ("i", 2000, "instituições"),
+                                 ("m", 900, "municípios"), ("u", 26, "estados"),
+                                 ("p", 10, "páginas fixas")):
+        checar(len(dados.get(grupo, [])) >= minimo,
+               f"índice de busca com {len(dados.get(grupo, []))} {o_que}, "
+               f"menos que o mínimo de {minimo}")
 
 
 def test_uma_pagina_por_curso():

@@ -138,9 +138,10 @@ ENADE é trienal e reveza as áreas, isso vale para a grande maioria dos cursos.
 
 Com 353 cursos × 27 UFs, duas coisas mudaram de forma no site:
 
-- a lista de cursos saiu do HTML de cada página e virou `static/js/cursos.js`, carregado
-  uma vez para todo o site — repetida em ~10 mil páginas, ela sozinha pesaria mais que
-  todo o resto;
+- a busca do cabeçalho saiu do HTML de cada página e virou `static/js/indice.js`,
+  carregado uma vez para todo o site — são 4.074 destinos (cursos, instituições,
+  municípios, estados e páginas fixas) e, repetidos em ~10 mil páginas, sozinhos
+  pesariam mais que todo o resto;
 - a matriz de comparação virou `static/js/comparacao.js` em formato colunar (uma lista
   de campos + um vetor de valores por recorte), em vez de objetos com os nomes dos
   campos repetidos por curso e por UF.

@@ -215,6 +215,88 @@ def medir(pagina, contexto, base):
         pag.close()
 
 
+# A lista de sugestoes so existe depois que alguem digita. Fechada, ela e
+# invisivel para a varredura — e e por ela que se chega a instituicao,
+# municipio e estado, entao e navegacao principal, nao enfeite.
+ABRIR_BUSCA = """
+(termo) => {
+  const input = document.getElementById('curso-busca');
+  const lista = document.getElementById('curso-sugestoes');
+  if (!input || !lista) return null;
+  input.value = termo;
+  input.dispatchEvent(new Event('input'));
+  const itens = [...lista.querySelectorAll('li')];
+  const miudos = itens.map(li => li.querySelector('a')).filter(Boolean)
+    .map(a => a.getBoundingClientRect())
+    .filter(r => r.width > 0 && (r.height < 24 || r.width < 24));
+  return {
+    n: itens.length,
+    tipos: [...new Set(itens.map(li => {
+      const s = li.querySelector('.busca-tipo');
+      return s ? s.textContent : '';
+    }))],
+    semRotulo: itens.filter(li => !li.getAttribute('role')).length,
+    miudos: miudos.length,
+    transborda: lista.getBoundingClientRect().right > innerWidth + 1,
+    expandido: input.getAttribute('aria-expanded'),
+  };
+}
+"""
+
+# Termo -> tipo que ele TEM de trazer. Sem isto a checagem so verificava que
+# "algo voltou", e algo sempre volta: numa sabotagem que apagou municipios,
+# estados e paginas do indice, a busca por "goias" seguiu achando uma
+# faculdade com essa palavra no nome, e o portao passou. Portao que nao falha
+# quando o defeito existe nao e portao.
+TERMOS = [
+    ("goias", "Estado"),
+    ("goiania", "Municipio"),
+    ("privac", "Pagina"),
+    ("medicina", "Curso"),
+    ("universidade federal", "Instituicao"),
+]
+
+
+def _sem_acento(s):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", s)
+                   if unicodedata.category(c) != "Mn")
+
+
+def medir_busca(pagina, contexto, base):
+    """A busca do cabecalho, aberta, nas larguras de toque."""
+    for nome, largura, altura in LARGURAS:
+        pag = contexto.new_page()
+        pag.set_viewport_size({"width": largura, "height": altura})
+        pag.goto(f"{base}/{pagina}", wait_until="load", timeout=30000)
+        pag.wait_for_timeout(350)
+        for termo, tipo_esperado in TERMOS:
+            r = pag.evaluate(ABRIR_BUSCA, termo)
+            if r is None:
+                falhas.append(f"{pagina} [{nome}] busca: caixa ausente")
+                break
+            achados = [_sem_acento(x) for x in r["tipos"]]
+            if tipo_esperado not in achados:
+                falhas.append(f"{pagina} [{nome}] busca: '{termo}' nao trouxe "
+                              f"nenhum resultado do tipo {tipo_esperado} "
+                              f"(veio: {', '.join(achados) or 'nada'})")
+        if r is None:
+            pag.close()
+            continue
+        else:
+            if r["semRotulo"]:
+                falhas.append(f"{pagina} [{nome}] busca: {r['semRotulo']} sugestao(oes) "
+                              f"sem role=option")
+            if r["miudos"] and largura <= 1024:
+                falhas.append(f"{pagina} [{nome}] busca: {r['miudos']} sugestao(oes) "
+                              f"com alvo abaixo de {ALVO_MIN}px")
+            if r["transborda"]:
+                falhas.append(f"{pagina} [{nome}] busca: a lista sai da tela")
+            if r["expandido"] != "true":
+                falhas.append(f"{pagina} [{nome}] busca: aria-expanded nao virou true")
+        pag.close()
+
+
 def rodar_axe(pagina, navegador, base, tema):
     """axe nos dois temas.
 
@@ -267,6 +349,7 @@ def main():
             contexto = navegador.new_context()
             for pagina in AMOSTRA:
                 medir(pagina, contexto, base)
+            medir_busca("index.html", contexto, base)
             for tema in ("light", "dark"):
                 for pagina in AMOSTRA_AXE:
                     rodar_axe(pagina, navegador, base, tema)

@@ -9,15 +9,18 @@ Lê data/cursos/<slug>/nacional.json e produz site/dist/ com:
     metodologia.html                  fontes, fórmulas e limites de leitura
     curso/<slug>/index.html           panorama do curso
     curso/<slug>/uf/<UF>.html         detalhe por unidade federativa
-    static/js/cursos.js               catálogo de navegação (window.CURSOS)
+    static/js/indice.js               índice de busca do site (window.INDICE)
     static/js/comparacao.js           matriz curso × recorte (window.COMPARACAO)
 
 Com centenas de cursos no catálogo, duas coisas deixam de caber na forma ingênua:
 
-  · a lista de cursos no cabeçalho. Repetida em cada uma das ~10 mil páginas, ela
-    sozinha pesaria mais que todo o resto do site. Vai para `static/js/cursos.js`,
-    um arquivo só, carregado por <script> (funciona em file://, ao contrário de
-    fetch) e reaproveitado do cache em toda navegação.
+  · o índice de busca do cabeçalho — 353 cursos, 2.561 instituições, 1.119
+    municípios e 27 estados. Repetido em cada uma das ~10 mil páginas, ele
+    sozinho pesaria mais que todo o resto do site. Vai para
+    `static/js/indice.js`, um arquivo só, carregado por <script> (funciona em
+    file://, ao contrário de fetch) e reaproveitado do cache em toda navegação.
+    Cada destino é uma lista, não um objeto: repetir as chaves quatro mil vezes
+    dobraria o arquivo sem acrescentar informação.
   · a matriz de comparação. Em JSON de objetos, os nomes dos campos se repetiriam
     uma vez por curso e por UF. Vai colunar: uma lista de campos e, por recorte,
     um vetor de valores na mesma ordem.
@@ -521,15 +524,6 @@ def main():
     # ── Estáticos ────────────────────────────────────────────────────────────
     shutil.copytree(SITE / "static", DIST / "static")
 
-    # Catálogo de navegação: um arquivo para todo o site, em vez de repetir a
-    # lista de cursos no cabeçalho de cada página.
-    nav = [{"s": r["slug"], "n": r["nome"], "a": r["area_cine"], "v": r["vagas_total"]}
-           for r in resumo]
-    (DIST / "static" / "js" / "cursos.js").write_text(
-        "window.CURSOS=" + json.dumps(nav, ensure_ascii=False, separators=(",", ":")) + ";",
-        encoding="utf-8")
-    print(f"[OK] static/js/cursos.js — {len(nav)} cursos")
-
     # ── Comparação entre cursos ──────────────────────────────────────────────
     (DIST / "static" / "js" / "comparacao.js").write_text(
         "window.COMPARACAO=" + json.dumps(
@@ -795,6 +789,50 @@ def main():
         ufs=sorted({i["uf_sede"] for i in lista_ies if i.get("uf_sede")}))
     (DIST / "instituicoes.html").write_text(html, encoding="utf-8")
     print("[OK] instituicoes.html")
+
+    # ── Índice de busca do site inteiro ──────────────────────────────────────
+    # Até aqui a caixa do cabeçalho só achava curso. Mas existe página para
+    # 2.561 instituições, 1.119 municípios e 27 unidades federativas, e para
+    # chegar a qualquer uma delas era preciso saber DE ANTEMÃO em qual índice
+    # procurar: quem digitava "UFG" ou "Goiânia" não encontrava nada.
+    #
+    # O índice é uma lista de listas, não de objetos: repetir as chaves 4.000
+    # vezes dobraria o arquivo sem acrescentar informação. A ordem de cada
+    # grupo é a de relevância — vagas, matrículas, população atendida — para
+    # que a busca vazia já mostre algo útil.
+    indice = {
+        "c": [[r["nome"], r["slug"], r["vagas_total"] or 0, r["area_cine"]]
+              for r in resumo],
+        "i": [[i["nome"], i["co_ies"], i.get("uf_sede") or "",
+               i.get("sigla") or "", i.get("matriculas") or 0]
+              for i in lista_ies],
+        "m": [[m["nome"], f"{sigla}-{slug}", sigla, m.get("vagas_total") or 0]
+              for (sigla, slug), m in sorted(
+                  acumulado.municipios.items(),
+                  key=lambda kv: -(kv[1].get("vagas_total") or 0))],
+        "u": [[NOME_UF[s], s] for s in ufs_disponiveis],
+        "p": [
+            ["Painel executivo", "index.html"],
+            ["Estados", "estados.html"],
+            ["Regiões", "regioes.html"],
+            ["Redes de ensino", "redes.html"],
+            ["Acesso e equidade", "acesso.html"],
+            ["Municípios", "municipios.html"],
+            ["Instituições", "instituicoes.html"],
+            ["Rankings", "rankings.html"],
+            ["Comparar cursos", "comparar-cursos.html"],
+            ["Dados abertos e API", "api.html"],
+            ["Metodologia", "metodologia.html"],
+            ["Sobre o Autor", "autor.html"],
+            ["Direitos autorais", "aviso-legal.html"],
+            ["Privacidade", "privacidade.html"],
+        ],
+    }
+    bruto = json.dumps(indice, ensure_ascii=False, separators=(",", ":"))
+    (DIST / "static" / "js" / "indice.js").write_text(
+        "window.INDICE=" + bruto + ";", encoding="utf-8")
+    print(f"[OK] static/js/indice.js — {sum(len(v) for v in indice.values())} "
+          f"destinos, {len(bruto) / 1024:.0f} KB")
 
     # A participação pública por UF é média ponderada por vagas, já calculada
     # por curso. Aqui se usa a do maior curso de cada UF como referência? Não:
