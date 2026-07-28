@@ -1,0 +1,73 @@
+name: Vigia do Censo
+
+# Um observatório desatualizado não avisa que está desatualizado: as páginas
+# continuam no ar e os números continuam plausíveis. O risco não é o erro
+# visível, é a defasagem silenciosa. Este fluxo pergunta ao INEP toda semana se
+# saiu edição nova e abre uma issue quando sai.
+#
+# Ele NÃO ingere nada. Uma edição nova reescreve todos os números do site, e
+# essa é decisão de quem assina a obra. O Censo também costuma sair primeiro
+# como prévia e depois consolidado, e ingerir a primeira versão que aparece
+# trocaria dado estável por dado provisório sem que ninguém tivesse decidido.
+
+on:
+  schedule:
+    # Segundas às 9h UTC (6h em Brasília). Semanal basta: o Censo sai uma vez
+    # por ano, e verificar de hora em hora só gastaria requisição.
+    - cron: '0 9 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  verificar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Configurar Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+
+      - name: "Perguntar ao INEP"
+        id: censo
+        run: |
+          set +e
+          python etl/verificar_novo_censo.py --json > relatorio.json
+          echo "codigo=$?" >> "$GITHUB_OUTPUT"
+          set -e
+          cat relatorio.json
+
+      # Código 1 é "não consegui perguntar", e isso precisa aparecer. Tratar
+      # falha de consulta como ausência de novidade seria afirmar, sem ter
+      # verificado, que nada mudou.
+      - name: "Falha ao consultar o servidor do INEP"
+        if: steps.censo.outputs.codigo == '1'
+        run: |
+          echo "::warning::Não foi possível consultar o servidor do INEP."
+          cat relatorio.json
+          exit 1
+
+      # O corpo da issue é montado em Python e gravado em arquivo. Escrevê-lo
+      # em heredoc de shell dentro do YAML indentado transformaria o texto
+      # inteiro em bloco de código, porque markdown lê recuo como <pre>.
+      - name: "Abrir issue quando houver edição nova"
+        if: steps.censo.outputs.codigo == '2'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python .github/scripts/issue_novo_censo.py relatorio.json corpo.md > titulo.txt
+          titulo=$(cat titulo.txt)
+
+          # Uma issue por edição. Sem esta checagem, o agendador abriria uma
+          # nova toda segunda-feira até alguém ingerir o dado.
+          existente=$(gh issue list --state all --search "\"$titulo\" in:title" \
+                        --json number --jq '.[0].number' || true)
+          if [ -n "$existente" ]; then
+            echo "Issue #$existente já existe para essa edição. Nada a fazer."
+            exit 0
+          fi
+          gh issue create --title "$titulo" --body-file corpo.md

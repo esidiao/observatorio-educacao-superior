@@ -26,6 +26,7 @@ etl/                 Pipeline (Python)
   catalogo.py        Microdados → data/cursos.json (todos os rótulos CINE)
   serie.py           Acumula uma edição do Censo na série histórica por curso
   serie_agregada.py  Idem, por unidade federativa e por instituição
+  verificar_novo_censo.py  Pergunta ao INEP se saiu edição mais nova
   baixar_censo.py    Baixa edições do INEP e alimenta a série (um ano por vez)
   instituicoes.py    Camada institucional (IES, organização, corpo docente)
   igc.py             Índice Geral de Cursos do INEP, por instituição
@@ -275,6 +276,23 @@ para produzir treze megabytes de série. Dá para voltar até 2016 porque o INEP
 reclassificou as edições antigas na CINE e republicou, então o match exato de
 rótulo vale para trás sem gambiarra. (2015 responde de forma instável no servidor
 do INEP; quando entrar, é só rodar o comando com `--anos 2015`.)
+
+Um fluxo agendado (`.github/workflows/novo-censo.yml`) pergunta ao INEP toda
+segunda-feira se saiu edição mais nova que a em uso e **abre uma issue** quando
+sai. Ele não ingere nada de propósito: uma edição nova reescreve todos os
+números do site, e o Censo costuma sair primeiro como prévia e depois
+consolidado — ingerir a primeira versão que aparece trocaria dado estável por
+provisório sem que ninguém tivesse decidido. Para verificar à mão:
+
+```bash
+python etl/verificar_novo_censo.py
+```
+
+Falha de consulta não vira silêncio: se o servidor não responder, o fluxo
+reprova em vez de concluir que nada mudou. Um observatório desatualizado não
+avisa que está desatualizado — as páginas continuam no ar e os números
+continuam plausíveis —, e é essa defasagem silenciosa que o vigia existe para
+evitar.
 
 O servidor do INEP derruba a conexão no meio do download com alguma frequência;
 o script tenta quatro vezes com espera crescente. Numa execução das nove edições
