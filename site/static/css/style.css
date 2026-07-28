@@ -8,6 +8,12 @@
   --blue:  #2E5496;
   --gold:  #B07D22;
 
+  /* Papéis separados de --navy e --blue. No claro têm o mesmo valor; no
+     escuro, o texto clareia e a superfície escurece — se fossem um token
+     só, o rodapé ficaria claro dentro de uma página escura. */
+  --forte: #16304F;        /* superfície deliberadamente escura */
+  --acao:  #2E5496;        /* fundo de botão, com texto branco por cima */
+
   /* Estado: sem dados */
   --nodata: #C9CDD2;          /* traço/preenchimento — não usar como texto */
   --gold-texto: #8C6119;      /* dourado legível: 5,47 sobre branco */
@@ -24,6 +30,13 @@
   --accent-soft: #E6F2EE;
   --ouro-fundo: #FFF8E6;
   --ouro-borda: #E8D9A8;
+  --zebra:       #F8F9FB;   /* linha par da tabela */
+  --realce:      #EEF3FB;   /* linha sob o cursor, selo de proveniência */
+  --flash:       #FFF3CD;   /* pisca do verbete recém-aberto */
+  --swot-forca-fundo:  #EAF3E7;
+  --swot-fraq-fundo:   #FAEAE9;
+  --swot-oport-fundo:  #E8EEF8;
+  --swot-ameaca-fundo: #FBF4E7;
 
   /* Superfícies — tom papel quente (editorial) */
   --bg:        #FBFAF8;
@@ -160,7 +173,7 @@ a:hover { text-decoration: underline; }
   display: flex;
   align-items: center;
   gap: 12px;
-  background: linear-gradient(90deg, var(--navy), var(--blue));
+  background: linear-gradient(90deg, var(--forte), var(--acao));
   color: #fff;
   padding: 9px 32px;
   font-size: 0.82rem;
@@ -433,7 +446,7 @@ main { padding: 24px 32px; max-width: 1280px; margin: 0 auto; }
 }
 
 @keyframes glossFlash {
-  0%   { background: #FFF3CD; }
+  0%   { background: var(--flash); }
   100% { background: var(--surface); }
 }
 .gloss-card.flash { animation: glossFlash 1.6s ease; }
@@ -497,7 +510,7 @@ select {
 }
 
 .btn {
-  background: var(--blue);
+  background: var(--acao);
   color: #fff;
   border: none;
   border-radius: 6px;
@@ -509,13 +522,13 @@ select {
   text-decoration: none;
   display: inline-block;
 }
-.btn:hover { background: var(--navy); text-decoration: none; color: #fff; }
+.btn:hover { background: var(--forte); text-decoration: none; color: #fff; }
 .btn.outline {
   background: transparent;
   color: var(--blue);
   border: 1px solid var(--blue);
 }
-.btn.outline:hover { background: var(--blue); color: #fff; }
+.btn.outline:hover { background: var(--acao); color: #fff; }
 
 /* ============================================================
    TABELA DE UFs / MUNICÍPIOS
@@ -534,7 +547,7 @@ table {
   font-size: 0.875rem;
 }
 
-thead { background: var(--navy); color: #fff; }
+thead { background: var(--forte); color: #fff; }
 thead th {
   padding: 10px 12px;
   text-align: left;
@@ -544,13 +557,13 @@ thead th {
   letter-spacing: 0.03em;
 }
 
-tbody tr:nth-child(even) { background: #F8F9FB; }
-tbody tr:hover { background: #EEF3FB; cursor: pointer; }
+tbody tr:nth-child(even) { background: var(--zebra); }
+tbody tr:hover { background: var(--realce); cursor: pointer; }
 tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: middle; }
 
 .uf-tag {
   display: inline-block;
-  background: var(--blue);
+  background: var(--acao);
   color: #fff;
   border-radius: 4px;
   padding: 2px 8px;
@@ -597,13 +610,13 @@ tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-a
 .swot-card ul { padding-left: 18px; }
 .swot-card li { margin-bottom: 5px; }
 
-.swot-strength    { background: #EAF3E7; border-left: 4px solid var(--swot-strength); }
+.swot-strength    { background: var(--swot-forca-fundo); border-left: 4px solid var(--swot-strength); }
 .swot-strength h3 { color: var(--swot-strength); }
-.swot-weakness    { background: #FAEAE9; border-left: 4px solid var(--swot-weakness); }
+.swot-weakness    { background: var(--swot-fraq-fundo); border-left: 4px solid var(--swot-weakness); }
 .swot-weakness h3 { color: var(--swot-weakness); }
-.swot-opportunity { background: #E8EEF8; border-left: 4px solid var(--swot-opportunity); }
+.swot-opportunity { background: var(--swot-oport-fundo); border-left: 4px solid var(--swot-opportunity); }
 .swot-opportunity h3 { color: var(--swot-opportunity); }
-.swot-threat      { background: #FBF4E7; border-left: 4px solid var(--swot-threat); }
+.swot-threat      { background: var(--swot-ameaca-fundo); border-left: 4px solid var(--swot-threat); }
 .swot-threat h3   { color: var(--swot-threat); }
 
 /* ============================================================
@@ -612,7 +625,7 @@ tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-a
 .prov-badge {
   display: inline-block;
   font-size: 0.65rem;
-  background: #EEF3FB;
+  background: var(--realce);
   color: var(--blue);
   border: 1px solid var(--border);
   border-radius: 4px;
@@ -646,7 +659,7 @@ tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-a
 }
 
 .site-footer {
-  background: var(--navy);
+  background: var(--forte);
   color: rgba(255,255,255,0.7);
   padding: 20px 32px;
   font-size: 0.78rem;
@@ -682,9 +695,9 @@ tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-a
   table th:first-child, table td:first-child {
     position: sticky; left: 0; z-index: 2;
   }
-  thead th:first-child { background: var(--navy); }
+  thead th:first-child { background: var(--forte); }
   tbody td:first-child { background: var(--surface); box-shadow: 1px 0 0 var(--border); }
-  tbody tr:nth-child(even) td:first-child { background: #F8F9FB; }
+  tbody tr:nth-child(even) td:first-child { background: var(--zebra); }
 
   /* Dica de rolagem (inserida por JS em tabelas que transbordam) */
   .scroll-hint {
@@ -790,7 +803,7 @@ tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-a
   transition: background 0.12s, color 0.12s, border-color 0.12s;
 }
 .curso-chip:hover { background: var(--accent-soft); border-color: var(--accent); text-decoration: none; }
-.curso-chip.ativo { background: var(--blue); border-color: var(--blue); color: #fff; }
+.curso-chip.ativo { background: var(--acao); border-color: var(--acao); color: #fff; }
 .curso-chip.comparar { color: var(--accent); border-color: var(--accent); }
 .curso-chip.comparar:hover { background: var(--accent); color: #fff; }
 
@@ -865,7 +878,7 @@ tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-a
   top: -60px;
   z-index: 100;
   padding: 10px 16px;
-  background: var(--navy);
+  background: var(--forte);
   color: #fff;
   border-radius: 0 0 8px 8px;
   font-size: 0.9rem;
@@ -924,7 +937,7 @@ main:focus { outline: none; }
   text-decoration: none;
 }
 .uf-nav-item:hover { background: var(--accent-soft); border-color: var(--accent); text-decoration: none; }
-.uf-nav-item.atual { background: var(--navy); border-color: var(--navy); color: #fff; }
+.uf-nav-item.atual { background: var(--forte); border-color: var(--forte); color: #fff; }
 
 /* ============================================================
    TABELAS ORDENÁVEIS E CONTROLES COMPACTOS
@@ -1369,7 +1382,7 @@ main:focus { outline: none; }
 /* ── api ─────────────────────────────────────────── */
 .texto-corrido { font-size: 0.92rem; line-height: 1.75; color: var(--text); max-width: 75ch; margin-bottom: 14px; }
 .bloco-codigo {
-  background: var(--navy); color: #E8EDF4; padding: 14px 16px; border-radius: 8px;
+  background: var(--forte); color: #E8EDF4; padding: 14px 16px; border-radius: 8px;
   overflow-x: auto; font-size: 0.82rem; line-height: 1.6; max-width: 75ch;
 }
 .bloco-codigo code { font-family: var(--font-mono); }
@@ -1609,3 +1622,84 @@ main:focus { outline: none; }
 }
 .rank-indice a:hover { background: var(--accent-soft); border-color: var(--accent); text-decoration: none; }
 .rank-bloco { margin-bottom: 34px; scroll-margin-top: 20px; }
+
+/* ============================================================
+   TEMA ESCURO
+   ------------------------------------------------------------
+   Segue a preferência do sistema, e só ela. Não há botão de alternar porque
+   um botão útil precisa lembrar da escolha, lembrar exige localStorage, e a
+   página de privacidade promete que este site não grava nada no navegador.
+   Entre um recurso a mais e uma promessa mantida, fica a promessa.
+
+   As cores de DADO não mudam. A escala do coroplético, as séries e as barras
+   são a informação; se elas trocassem de tom conforme a hora do dia, duas
+   leituras da mesma figura deixariam de ser comparáveis. O que muda é o
+   neutro: fundo, texto, borda, eixo e grade.
+   ============================================================ */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg:        #12171E;
+    --surface:   #1A2029;
+    --border:    #2C3540;
+    --text:      #E8ECF2;
+    --text-muted:#9AA7B8;
+
+    --navy:  #C3D5EE;        /* papel de texto: clareia */
+    --forte: #0B1017;        /* papel de superfície: escurece */
+    --blue:  #8AB4E8;        /* link */
+    --acao:  #3A6FBF;        /* fundo de botão: branco por cima ainda passa */
+    --gold:  #D9A94A;
+    --gold-texto: #E0B45C;
+
+    --accent:      #4FC7A8;
+    --accent-soft: #14322B;
+
+    --nodata:       #4A535E;
+    --nodata-texto: #97A2AF;
+
+    --ouro-fundo: #2A2312;
+    --ouro-borda: #4A3E1C;
+
+    --swot-strength:    #86BF70;
+    --swot-weakness:    #E88478;
+    --swot-opportunity: #8AB4E8;
+    --swot-threat:      #D9AE55;
+
+    /* Superfícies de realce. No claro são lavagens quase brancas; no escuro
+       precisam ser lavagens quase pretas, senão o texto claro cai sobre
+       fundo claro — foi o que o axe apontou na zebra das tabelas. */
+    --zebra:       #171D25;
+    --realce:      #1F2A38;
+    --flash:       #3A3117;
+    --swot-forca-fundo:  #17251A;
+    --swot-fraq-fundo:   #2A1A18;
+    --swot-oport-fundo:  #17222F;
+    --swot-ameaca-fundo: #2A2417;
+  }
+
+  /* A sombra do cartão desaparece sobre fundo escuro; a borda faz o trabalho. */
+  .curso-card:hover, .kpi-card:hover {
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+  }
+
+  /* A foto do autor perde o brilho de estúdio quando a página é escura. */
+  .autor-foto img { filter: brightness(0.92); }
+}
+
+/* ============================================================
+   FIGURAS E O TEMA
+   ------------------------------------------------------------
+   As figuras são geradas no build, com as cores escritas nos atributos de
+   apresentação. Isso é de propósito: cada figura pode ser exportada em SVG e
+   PNG, e o arquivo exportado sai da página — longe desta folha e do tema de
+   quem abrir. Ali o literal é a única cor que existe.
+
+   Na página, a regra CSS vence o atributo, e só o neutro acompanha o tema.
+   ============================================================ */
+.figura svg .g-texto { fill: var(--text); }
+.figura svg .g-eixo { fill: var(--text-muted); }
+.figura svg .g-grade { stroke: var(--border); }
+.figura svg .g-base { fill: var(--surface); stroke: var(--border); }
+/* O contorno entre unidades federativas é a cor da superfície: no claro
+   separa com branco, no escuro separa com o próprio fundo do cartão. */
+.figura svg .g-contorno { stroke: var(--surface); }

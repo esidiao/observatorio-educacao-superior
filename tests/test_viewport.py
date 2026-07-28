@@ -21,8 +21,9 @@ O que se checa, e onde:
                             (WCAG 2.2, 2.5.8), com a isenção de link em frase
     escala da figura        celular — o SVG não pode ser reduzido a ponto de
                             apagar os próprios rótulos
-    axe-core                celular — regras wcag2a e wcag2aa que só existem
-                            no DOM montado: papéis, foco, contraste em contexto
+    axe-core                celular, nos temas claro E escuro — regras wcag2a
+                            e wcag2aa que só existem no DOM montado: papéis,
+                            foco, e o contraste calculado sobre o fundo real
 
 O servidor local é obrigatório: sobre file:// os caminhos absolutos da página
 de 404 não resolvem, e o navegador trata cada arquivo como origem distinta, o
@@ -214,9 +215,18 @@ def medir(pagina, contexto, base):
         pag.close()
 
 
-def rodar_axe(pagina, contexto, base):
+def rodar_axe(pagina, navegador, base, tema):
+    """axe nos dois temas.
+
+    O layout não muda com o tema, então a medição de transbordo e de alvo roda
+    uma vez só. O contraste muda inteiro: cada token tem dois valores, e o
+    portão de tokens confere a paleta declarada — não o que sobra depois de a
+    cor cair sobre o fundo real de cada elemento. Só axe vê isso, e só vê no
+    tema que estiver ativo.
+    """
     from axe_core_python.sync_playwright import Axe
 
+    contexto = navegador.new_context(color_scheme=tema)
     pag = contexto.new_page()
     pag.set_viewport_size({"width": 375, "height": 812})
     pag.goto(f"{base}/{pagina}", wait_until="load", timeout=30000)
@@ -226,9 +236,10 @@ def rodar_axe(pagina, contexto, base):
                                               "wcag21aa", "wcag22aa"]}})
     for v in resultado.get("violations", []):
         alvos = "; ".join(a["target"][0] for a in v["nodes"][:2])
-        falhas.append(f"{pagina} [axe/{v['impact']}] {v['id']}: "
+        falhas.append(f"{pagina} [axe/{tema}/{v['impact']}] {v['id']}: "
                       f"{v['help']} — {alvos}")
     pag.close()
+    contexto.close()
 
 
 def main():
@@ -256,8 +267,9 @@ def main():
             contexto = navegador.new_context()
             for pagina in AMOSTRA:
                 medir(pagina, contexto, base)
-            for pagina in AMOSTRA_AXE:
-                rodar_axe(pagina, contexto, base)
+            for tema in ("light", "dark"):
+                for pagina in AMOSTRA_AXE:
+                    rodar_axe(pagina, navegador, base, tema)
             navegador.close()
     finally:
         encerrar()
@@ -269,7 +281,8 @@ def main():
         return 1
     print(f"[PASSOU] {len(AMOSTRA)} tipos de página em {len(LARGURAS)} larguras: "
           f"sem transbordo, sem texto abaixo de {PISO_PX}px, sem alvo abaixo de "
-          f"{ALVO_MIN}px, figuras em escala; axe limpo em {len(AMOSTRA_AXE)}.")
+          f"{ALVO_MIN}px, figuras em escala; axe limpo em {len(AMOSTRA_AXE)} "
+          f"páginas, nos temas claro e escuro.")
     return 0
 
 

@@ -149,7 +149,8 @@ def coropletico(malha, valores, titulo, descricao, unidade="",
         v = valores.get(sigla)
         rotulo = f"{nomes_uf.get(sigla, sigla)}: {_fmt(v, casas)}{unidade if v is not None else ''}"
         partes.append(
-            f'<path d="{_caminho(malha[sigla], proj)}" fill="{_cor(v, quebras, paleta)}" '
+            f'<path class="g-contorno" d="{_caminho(malha[sigla], proj)}" '
+            f'fill="{_cor(v, quebras, paleta)}" '
             f'stroke="{CONTORNO}" stroke-width="0.6"><title>{esc(rotulo)}</title></path>')
         # Sigla no centro da UF, para leitura sem interação.
         pontos = []
@@ -226,7 +227,7 @@ def pontos_municipais(centroides, municipios, titulo, descricao,
     if contorno_ufs:
         for sigla in sorted(contorno_ufs):
             partes.append(f'<path d="{_caminho(contorno_ufs[sigla], proj)}" '
-                          f'fill="#F2F4F7" stroke="#D9DEE5" stroke-width="0.6"/>')
+                          f'class="g-base" fill="#F2F4F7" stroke="#D9DEE5" stroke-width="0.6"/>')
     sem_ponto = 0
     for m in sorted(municipios, key=lambda x: -(x.get("valor") or 0)):
         ponto = centroides.get(str(m.get("cod_ibge")))
@@ -277,12 +278,12 @@ def serie_temporal(anos, series, titulo, descricao, largura=560, altura=240,
         v = topo * i / 3
         y = py(v)
         p.append(f'<line x1="{esq}" y1="{y:.1f}" x2="{largura - dir_}" y2="{y:.1f}" '
-                 f'stroke="#E5E8EC" stroke-width="1"/>')
+                 f'class="g-grade" stroke="#E5E8EC" stroke-width="1"/>')
         p.append(f'<text x="{esq - 6}" y="{y + 3:.1f}" text-anchor="end" font-size="11" '
-                 f'fill="#6B7280">{esc(_fmt(v, casas))}</text>')
+                 f'class="g-eixo" fill="#6B7280">{esc(_fmt(v, casas))}</text>')
     for i, ano in enumerate(anos):
         p.append(f'<text x="{px(i):.1f}" y="{altura - 10}" text-anchor="middle" '
-                 f'font-size="11" fill="#6B7280">{esc(ano)}</text>')
+                 f'font-size="11" class="g-eixo" fill="#6B7280">{esc(ano)}</text>')
     for k, s in enumerate(series):
         cor = paleta[k % len(paleta)]
         # Traços só entre anos CONSECUTIVOS com dado. Uma linha única atravessando
@@ -332,11 +333,11 @@ def barras(itens, titulo, descricao, unidade="", casas=0, largura=560,
         y = i * altura_barra + 4
         w = max(1.5, largura_barra * item["valor"] / maior)
         p.append(f'<text x="0" y="{y + altura_barra / 2 + 3:.1f}" font-size="11" '
-                 f'fill="{TEXTO}">{esc(item["nome"][:30])}</text>')
+                 f'class="g-texto" fill="{TEXTO}">{esc(item["nome"][:30])}</text>')
         p.append(f'<rect x="{rotulo_px}" y="{y:.1f}" width="{w:.1f}" '
                  f'height="{altura_barra - 7}" fill="#2E5496" rx="2"/>')
         p.append(f'<text x="{rotulo_px + w + 6:.1f}" y="{y + altura_barra / 2 + 3:.1f}" '
-                 f'font-size="11" font-weight="600" fill="{TEXTO}">'
+                 f'font-size="11" font-weight="600" class="g-texto" fill="{TEXTO}">'
                  f'{esc(_fmt(item["valor"], casas))}{esc(unidade)}</text>')
     p.append("</svg>")
     return _rolavel("".join(p), titulo)

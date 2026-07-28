@@ -258,17 +258,35 @@ def test_contraste_tokens():
         maior, menor = max(la, lb), min(la, lb)
         return (maior + 0.05) / (menor + 0.05)
 
-    tokens = dict(re.findall(r"(--[\w-]+):\s*(#[0-9A-Fa-f]{6})", css))
-    fundo = tokens.get("--bg", "#FFFFFF")
-    for nome in ("--text", "--text-muted", "--gold-texto", "--nodata-texto",
-                 "--navy", "--blue"):
-        cor = tokens.get(nome)
-        if not cor:
-            falhas.append(f"token {nome} ausente em style.css")
-            continue
-        r = razao(cor, fundo)
-        checar(r >= 4.5, f"{nome} ({cor}) tem contraste {r:.2f}:1 sobre {fundo} — "
-                         f"WCAG AA exige 4,5:1 para texto")
+    # Dois temas, duas verificações. Um dicionário só sobre o arquivo inteiro
+    # deixaria o tema escuro sobrescrever o claro e só um dos dois seria
+    # conferido — provavelmente o que ninguém está olhando.
+    claro = re.search(r":root\s*\{(.*?)\}", css, re.S)
+    escuro = re.search(r"prefers-color-scheme: dark\).*?:root\s*\{(.*?)\}", css, re.S)
+    temas = [("claro", claro.group(1) if claro else "")]
+    if escuro:
+        # No escuro só se redeclara o que muda; o resto herda do claro.
+        temas.append(("escuro", (claro.group(1) if claro else "") + escuro.group(1)))
+
+    for tema, bloco in temas:
+        tokens = dict(re.findall(r"(--[\w-]+):\s*(#[0-9A-Fa-f]{6})", bloco))
+        fundo = tokens.get("--bg", "#FFFFFF")
+        for nome in ("--text", "--text-muted", "--gold-texto", "--nodata-texto",
+                     "--navy", "--blue"):
+            cor = tokens.get(nome)
+            if not cor:
+                falhas.append(f"token {nome} ausente no tema {tema}")
+                continue
+            r = razao(cor, fundo)
+            checar(r >= 4.5,
+                   f"[{tema}] {nome} ({cor}) tem contraste {r:.2f}:1 sobre "
+                   f"{fundo} — WCAG AA exige 4,5:1 para texto")
+        # Botão: o texto é branco, e é o fundo que precisa ser escuro o bastante.
+        acao = tokens.get("--acao")
+        if acao:
+            r = razao("#FFFFFF", acao)
+            checar(r >= 4.5, f"[{tema}] branco sobre --acao ({acao}) dá "
+                             f"{r:.2f}:1 — o rótulo do botão não se lê")
 
     # Os tokens de traço não podem voltar a ser usados como cor de texto.
     for bruto in ("var(--gold)", "var(--nodata)"):
