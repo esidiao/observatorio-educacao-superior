@@ -26,28 +26,57 @@ import argparse
 import shutil
 import subprocess
 import sys
+import time
 import urllib.request
 import zipfile
 from pathlib import Path
 
 REPO = Path(__file__).parent.parent
 URL = "https://download.inep.gov.br/microdados/microdados_censo_da_educacao_superior_{ano}.zip"
+TENTATIVAS = 4
 
 
 def baixar(ano, destino):
+    """Baixa uma edição, com retentativa.
+
+    O servidor do INEP derruba a conexão no meio do download com alguma
+    frequência, e sem retentativa uma queda custa a edição inteira. Numa
+    execução de nove anos isso apareceu como um padrão que parecia
+    significativo — só os anos ímpares chegavam — e não era: 2016, 2018, 2020 e
+    2022 estavam lá, com zip válido, e caíram por acaso. Falha intermitente
+    lida como falha sistemática faz procurar defeito onde não há.
+
+    O arquivo parcial é apagado antes de cada tentativa: retomar de onde parou
+    exigiria confiar no cabeçalho Range do servidor, e um zip truncado que
+    parece completo é pior que um download refeito.
+    """
     url = URL.format(ano=ano)
-    print(f"[GET] {url}")
-    req = urllib.request.Request(url, headers={"User-Agent": "observatorio-educacao"})
-    with urllib.request.urlopen(req, timeout=900) as resp, open(destino, "wb") as saida:
-        baixado = 0
-        while True:
-            bloco = resp.read(1 << 20)
-            if not bloco:
-                break
-            saida.write(bloco)
-            baixado += len(bloco)
-            print(f"\r      {baixado / 1048576:.0f} MB", end="", flush=True)
-    print()
+    for tentativa in range(1, TENTATIVAS + 1):
+        marca = "" if tentativa == 1 else f" (tentativa {tentativa}/{TENTATIVAS})"
+        print(f"[GET] {url}{marca}")
+        try:
+            req = urllib.request.Request(
+                url, headers={"User-Agent": "observatorio-educacao"})
+            with urllib.request.urlopen(req, timeout=900) as resp, \
+                    open(destino, "wb") as saida:
+                baixado = 0
+                while True:
+                    bloco = resp.read(1 << 20)
+                    if not bloco:
+                        break
+                    saida.write(bloco)
+                    baixado += len(bloco)
+                    print(f"\r      {baixado / 1048576:.0f} MB", end="", flush=True)
+            print()
+            return
+        except Exception as e:                       # noqa: BLE001
+            print(f"\n[AVISO] {ano}: {type(e).__name__}: {e}")
+            destino.unlink(missing_ok=True)
+            if tentativa == TENTATIVAS:
+                raise
+            espera = 5 * 2 ** (tentativa - 1)
+            print(f"[INFO] Nova tentativa em {espera}s ...")
+            time.sleep(espera)
 
 
 def extrair(zip_path, ano, pasta):
@@ -93,13 +122,21 @@ def main():
                 print(f"[INFO] {zip_path.name} já baixado, reaproveitando.")
             arquivos = extrair(zip_path, ano, pasta)
 
-            print(f"[RUN] etl/serie.py para {ano} ...")
-            resultado = subprocess.run(
-                [sys.executable, str(REPO / "etl" / "serie.py"),
-                 "--censo", str(arquivos["censo"]), "--ies", str(arquivos["ies"])],
-                cwd=str(REPO / "etl"))
-            if resultado.returncode != 0:
-                falhas.append(f"{ano}: serie.py retornou {resultado.returncode}")
+            # Os dois consumidores da mesma edição, na mesma passada: baixar
+            # 400 MB duas vezes para produzir séries diferentes seria desperdício
+            # de rede e de paciência.
+            erro = False
+            for script in ("serie.py", "serie_agregada.py"):
+                print(f"[RUN] etl/{script} para {ano} ...")
+                resultado = subprocess.run(
+                    [sys.executable, str(REPO / "etl" / script),
+                     "--censo", str(arquivos["censo"]), "--ies", str(arquivos["ies"])],
+                    cwd=str(REPO / "etl"))
+                if resultado.returncode != 0:
+                    falhas.append(f"{ano}: {script} retornou {resultado.returncode}")
+                    erro = True
+                    break
+            if erro:
                 continue
         except Exception as e:                       # noqa: BLE001
             falhas.append(f"{ano}: {type(e).__name__}: {e}")

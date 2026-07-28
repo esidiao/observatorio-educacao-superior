@@ -167,6 +167,61 @@ def test_cobertura_nacional(catalogo):
     checar(not faltando, f"nenhum curso tem dados nestas UFs: {faltando}")
 
 
+ADITIVOS = ("vagas_total", "vagas_presencial", "vagas_ead", "matriculas",
+            "matriculas_ead", "ingressos", "concluintes", "vagas_publicas")
+
+
+def test_series_agregadas():
+    """Série territorial e institucional, quando existem.
+
+    A checagem central é de fechamento: o Brasil tem de ser exatamente a soma
+    das 27 unidades federativas em todo campo aditivo. Se a atribuição da vaga
+    de EaD à sede da mantenedora vazar — indo para o polo, ou para lugar
+    nenhum — a diferença aparece aqui e em nenhum outro lugar, porque cada
+    número isolado continua plausível.
+
+    As contagens de distintos (n_ies, n_cursos, municipios_oferta) ficam de
+    fora de propósito: elas NÃO devem fechar, já que a mesma universidade atua
+    em vários estados. Uma soma que fechasse ali seria o sintoma do erro, não a
+    prova do acerto — por isso o que se cobra delas é só que o total nacional
+    não ultrapasse a soma.
+    """
+    caminho = REPO / "data" / "series" / "ufs.json"
+    if not caminho.exists():
+        return                       # camada opcional, como as demais
+    series = json.loads(caminho.read_text(encoding="utf-8"))["series"]
+
+    checar("BR" in series, "série territorial sem o recorte BR")
+    ufs = [s for s in series if s != "BR"]
+    checar(len(ufs) == 27, f"série territorial com {len(ufs)} UFs (esperadas 27)")
+
+    for ano in sorted(series.get("BR", {})):
+        br = series["BR"][ano]
+        for campo in ADITIVOS:
+            soma = sum(series[u][ano].get(campo) or 0 for u in ufs if ano in series[u])
+            checar(br.get(campo) == soma,
+                   f"série {ano}: BR.{campo} = {br.get(campo)} mas a soma das UFs "
+                   f"dá {soma} — diferença de {(br.get(campo) or 0) - soma}")
+        for campo in ("n_ies", "n_cursos", "municipios_oferta"):
+            soma = sum(series[u][ano].get(campo) or 0 for u in ufs if ano in series[u])
+            checar((br.get(campo) or 0) <= soma,
+                   f"série {ano}: BR.{campo} = {br.get(campo)} é MAIOR que a soma "
+                   f"das UFs ({soma}) — contagem de distintos não pode superá-la")
+
+    caminho_ies = REPO / "data" / "series" / "ies.json"
+    if caminho_ies.exists():
+        ies = json.loads(caminho_ies.read_text(encoding="utf-8"))["series"]
+        checar(len(ies) > 1000, f"série institucional com só {len(ies)} instituições")
+        # Ponto sem oferta alguma não deveria existir: a linha mostraria uma
+        # queda a zero que nunca aconteceu.
+        vazios = [f"{co}/{ano}" for co, anos in ies.items() for ano, d in anos.items()
+                  if not any(d.get(c) for c in ("vagas_total", "matriculas",
+                                                "matriculas_ead"))]
+        checar(not vazios,
+               f"{len(vazios)} ponto(s) da série institucional sem oferta alguma: "
+               f"{vazios[:3]}")
+
+
 def main():
     catalogo = carregar_catalogo()
     test_catalogo_bem_formado(catalogo)
@@ -174,6 +229,7 @@ def main():
         test_curso(curso)
     test_ancoras()
     test_cobertura_nacional(catalogo)
+    test_series_agregadas()
 
     if falhas:
         print(f"[FALHOU] {len(falhas)} problema(s) de integridade:\n")

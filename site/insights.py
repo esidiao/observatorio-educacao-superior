@@ -425,6 +425,26 @@ def da_uf(nome_uf, resumo, serie_uf=None):
                 f"De {anos[0]} a {anos[-1]}, a capacidade total do estado {verbo} "
                 f"{_pct(abs(var))}."))
 
+        # Capacidade e rede podem andar em direções opostas, e quando andam a
+        # leitura muda de sentido: mais vagas com menos instituições e menos
+        # municípios é concentração, não expansão.
+        ini, fim = serie_uf[anos[0]], serie_uf[anos[-1]]
+        n0, n1 = ini.get("n_ies"), fim.get("n_ies")
+        m0, m1 = ini.get("municipios_oferta"), fim.get("municipios_oferta")
+        if None not in (n0, n1, m0, m1) and n0 and m0:
+            if var is not None and var > 5 and n1 < n0 and m1 < m0:
+                frases.append(_frase(
+                    f"No mesmo período, o número de instituições com oferta caiu de "
+                    f"{_milhar(n0)} para {_milhar(n1)} e o de municípios atendidos de "
+                    f"{_milhar(m0)} para {_milhar(m1)}: a capacidade cresceu enquanto "
+                    f"a rede encolheu, o que é concentração, não expansão.",
+                    "atencao"))
+            elif n1 != n0 or m1 != m0:
+                frases.append(_frase(
+                    f"A rede passou de {_milhar(n0)} para {_milhar(n1)} instituições "
+                    f"com oferta e de {_milhar(m0)} para {_milhar(m1)} municípios "
+                    f"atendidos entre {anos[0]} e {anos[-1]}."))
+
     return frases
 
 
@@ -494,7 +514,7 @@ def do_municipio(nome, uf, dados, posicao=None, total_uf=None):
     return frases
 
 
-def da_instituicao(ies):
+def da_instituicao(ies, serie=None):
     """Leituras do painel de uma instituição."""
     frases = []
     frases.append(_frase(
@@ -534,6 +554,37 @@ def da_instituicao(ies):
             f"{_pct(ies['pct_doutores'])} do corpo docente tem doutorado e "
             f"{_pct(ies.get('pct_regime_integral') or 0)} está em regime integral. "
             f"Os percentuais são da instituição inteira, não de um curso específico."))
+
+    if serie and len(serie) >= 2:
+        anos = sorted(serie)
+        ini, fim = serie[anos[0]], serie[anos[-1]]
+        var = _variacao(ini.get("matriculas"), fim.get("matriculas"))
+        if var is not None:
+            verbo = "cresceu" if var > 0 else "recuou"
+            frases.append(_frase(
+                f"Entre {anos[0]} e {anos[-1]}, a matrícula presencial da instituição "
+                f"{verbo} {_pct(abs(var))}. É variação de estoque entre dois retratos "
+                f"anuais — não diz quantos estudantes evadiram nem quantos entraram."))
+
+        # A migração de presencial para EaD é a mudança estrutural mais comum da
+        # última década, e passa despercebida em quem só olha o total.
+        ead0, ead1 = ini.get("matriculas_ead") or 0, fim.get("matriculas_ead") or 0
+        pres1 = fim.get("matriculas") or 0
+        if ead1 > 0 and ead0 == 0:
+            frases.append(_frase(
+                f"A instituição não registrava matrícula a distância em {anos[0]} e "
+                f"registra {_milhar(ead1)} em {anos[-1]}"
+                + (f", contra {_milhar(pres1)} presenciais" if pres1 else "") + ".",
+                "atencao"))
+        elif ead1 and pres1 and ead1 > pres1:
+            frases.append(_frase(
+                f"Em {anos[-1]}, a instituição tem mais matrículas a distância "
+                f"({_milhar(ead1)}) que presenciais ({_milhar(pres1)}).", "atencao"))
+
+        n0, n1 = ini.get("n_cursos"), fim.get("n_cursos")
+        if n0 and n1 and n0 != n1:
+            frases.append(_frase(
+                f"O leque de cursos distintos passou de {n0} para {n1} no período."))
 
     if ies.get("vagas") and ies.get("vagas_ead") is not None and ies["vagas"]:
         pct = 100 * ies["vagas_ead"] / ies["vagas"]

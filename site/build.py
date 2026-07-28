@@ -213,6 +213,20 @@ def carregar_serie(slug):
         return json.load(f)
 
 
+def carregar_serie_agregada(nome):
+    """Série de UF ou de instituição, produzida por etl/serie_agregada.py.
+
+    Camada opcional, como as demais: sem o arquivo, a página sai sem o gráfico
+    de evolução em vez de o build parar. Quem nunca rodou o ETL de série tem um
+    site completo, só sem história.
+    """
+    caminho = DATA / "series" / f"{nome}.json"
+    if not caminho.exists():
+        return {}
+    with open(caminho, encoding="utf-8") as f:
+        return json.load(f).get("series", {})
+
+
 def ies_do_curso(instituicoes, slug, limite=10):
     """Instituições que ofertam o curso, da maior para a menor em matrículas."""
     lista = []
@@ -339,6 +353,18 @@ def main():
     fluxo = carregar_fluxo()
     malha_ufs, centroides = carregar_geo()
     instituicoes = carregar_instituicoes()
+    series_uf = carregar_serie_agregada("ufs")
+    series_ies = carregar_serie_agregada("ies")
+    if series_uf:
+        anos_disp = sorted({a for v in series_uf.values() for a in v})
+        print(f"[INFO] Série territorial: {len(series_uf)} recortes, "
+              f"{anos_disp[0]}–{anos_disp[-1]}")
+    else:
+        print("[AVISO] data/series/ufs.json ausente — os painéis estaduais "
+              "usarão a série somada dos cursos, sem contagem de IES. "
+              "Rode python etl/baixar_censo.py --anos ...")
+    if series_ies:
+        print(f"[INFO] Série institucional: {len(series_ies)} instituições")
     if not malha_ufs:
         print("[AVISO] data/geo/ufs.json ausente — páginas sairão sem mapa. "
               "Rode python etl/malha.py.")
@@ -553,25 +579,25 @@ def main():
             anos_br,
             [{"nome": "Vagas presenciais",
               "valores": [serie_brasil[a]["vagas_presencial"] for a in anos_br]},
-             {"nome": "Vagas a distancia",
+             {"nome": "Vagas a distância",
               "valores": [serie_brasil[a]["vagas_ead"] for a in anos_br]}],
-            titulo="Capacidade presencial e a distancia no Brasil",
+            titulo="Capacidade presencial e a distância no Brasil",
             descricao=("Duas linhas comparando a evolucao das vagas presenciais e "
-                       "a distancia, somando todos os cursos do catalogo.")))
+                       "a distância, somando todos os cursos do catálogo.")))
 
     fluxo_br = fluxo.get("brasil") or {}
     grafico_evasao = ""
     if len(fluxo_br) >= 2:
         coortes_br = sorted(fluxo_br)
         series_fluxo = []
-        for chave, rotulo in (("evasao", "Evasao"), ("conclusao", "Conclusao")):
+        for chave, rotulo in (("evasao", "Evasão"), ("conclusao", "Conclusao")):
             valores = [fluxo_br[c].get(chave) for c in coortes_br]
             if any(v is not None for v in valores):
                 series_fluxo.append({"nome": rotulo, "valores": valores})
         if series_fluxo:
             grafico_evasao = Markup(serie_temporal(
                 coortes_br, series_fluxo,
-                titulo="Evasao e conclusao de coortes no Brasil",
+                titulo="Evasão e conclusão de coortes no Brasil",
                 descricao=("Percentual de ingressantes que evadiram e que concluiram, "
                            "por coorte acompanhada pelo INEP."),
                 casas=1))
@@ -678,19 +704,39 @@ def main():
                 titulo=f"Municípios de {NOME_UF[sigla]} com oferta presencial",
                 descricao="Círculos proporcionais às vagas presenciais somadas.",
                 contorno_ufs={sigla: malha_ufs[sigla]}))
-        serie_uf = serie_por_uf.get(sigla, {})
-        grafico_serie_uf = ""
+        # A série exata, quando existe, vence a somada. As duas dão o mesmo
+        # número para vagas e matrículas — mas só a exata sabe contar
+        # instituições e municípios distintos, porque contagem de distintos não
+        # se soma: a mesma universidade oferta vinte cursos, e somá-los a
+        # contaria vinte vezes.
+        serie_uf = series_uf.get(sigla) or serie_por_uf.get(sigla, {})
+        exata = sigla in series_uf
+        grafico_serie_uf = grafico_rede_uf = ""
+        anos_uf = sorted(serie_uf)
         if len(serie_uf) >= 2:
-            anos_uf = sorted(serie_uf)
             grafico_serie_uf = Markup(serie_temporal(
                 anos_uf,
                 [{"nome": "Vagas presenciais",
-                  "valores": [serie_uf[a]["vagas_presencial"] for a in anos_uf]},
-                 {"nome": "Vagas a distancia",
-                  "valores": [serie_uf[a]["vagas_ead"] for a in anos_uf]}],
-                titulo=f"Capacidade presencial e a distancia em {NOME_UF[sigla]}",
-                descricao=("Vagas somadas de todos os cursos do catalogo no estado, "
-                           "por edicao do Censo.")))
+                  "valores": [serie_uf[a].get("vagas_presencial") for a in anos_uf]},
+                 {"nome": "Vagas a distância",
+                  "valores": [serie_uf[a].get("vagas_ead") for a in anos_uf]}],
+                titulo=f"Capacidade presencial e a distância em {NOME_UF[sigla]}",
+                descricao=("Vagas de todos os cursos do catálogo no estado, "
+                           "por edição do Censo.")))
+            if exata:
+                grafico_rede_uf = Markup(serie_temporal(
+                    anos_uf,
+                    [{"nome": "Instituições com oferta",
+                      "valores": [serie_uf[a].get("n_ies") for a in anos_uf]},
+                     {"nome": "Municípios com oferta",
+                      "valores": [serie_uf[a].get("municipios_oferta")
+                                  for a in anos_uf]},
+                     {"nome": "Cursos distintos",
+                      "valores": [serie_uf[a].get("n_cursos") for a in anos_uf]}],
+                    titulo=f"Rede de oferta em {NOME_UF[sigla]}",
+                    descricao=("Contagens de distintos por edição do Censo: "
+                               "instituicoes com vaga, municipios com oferta "
+                               "presencial e rótulos CINE ofertados.")))
 
         fluxo_uf = (fluxo.get("ufs") or {}).get(sigla, {})
         grafico_fluxo = ""
@@ -718,7 +764,9 @@ def main():
             **ctx_base, depth="../", curso_atual=None, sigla=sigla,
             fluxo=fluxo_uf, grafico_fluxo=grafico_fluxo,
             grafico_serie_uf=grafico_serie_uf,
-            anos_serie_uf=sorted(serie_uf),
+            grafico_rede_uf=grafico_rede_uf,
+            serie_uf_exata=exata,
+            anos_serie_uf=anos_uf,
             coortes_fluxo=sorted(fluxo_uf),
             nome_uf=NOME_UF[sigla], u=u, municipios=muns, mapa=mapa,
             n_cursos_uf=len(u["cursos"]),
@@ -726,7 +774,7 @@ def main():
                 [{"nome": a, "valor": v} for a, v in u["areas"].items()],
                 titulo=f"Vagas por área do conhecimento em {NOME_UF[sigla]}",
                 descricao="Áreas gerais da classificação CINE.", unidade=" vagas")),
-            leituras=insights.da_uf(NOME_UF[sigla], u),
+            leituras=insights.da_uf(NOME_UF[sigla], u, serie_uf),
             leituras_fluxo=insights.do_fluxo(NOME_UF[sigla], fluxo_uf))
         (DIST / "uf" / f"{sigla}.html").write_text(html, encoding="utf-8")
     print(f"[OK] uf/ — {len(acumulado.ufs)} painéis estaduais")
@@ -770,14 +818,42 @@ def main():
             ({"slug": s, "nome": nome_do_slug.get(s, s), **v}
              for s, v in ies.get("oferta", {}).items()),
             key=lambda x: -(x.get("matriculas") or 0))
+        serie_ies = series_ies.get(str(co), {})
+        anos_ies = sorted(serie_ies)
+        grafico_serie_ies = grafico_cursos_ies = ""
+        if len(anos_ies) >= 2:
+            grafico_serie_ies = Markup(serie_temporal(
+                anos_ies,
+                [{"nome": "Vagas", "valores": [serie_ies[a].get("vagas_total")
+                                               for a in anos_ies]},
+                 {"nome": "Matrículas presenciais",
+                  "valores": [serie_ies[a].get("matriculas") for a in anos_ies]},
+                 {"nome": "Matrículas a distância",
+                  "valores": [serie_ies[a].get("matriculas_ead") for a in anos_ies]}],
+                titulo=f"Capacidade e matrículas de {ies['nome']}",
+                descricao="Por edição do Censo da Educação Superior."))
+            grafico_cursos_ies = Markup(serie_temporal(
+                anos_ies,
+                [{"nome": "Cursos distintos",
+                  "valores": [serie_ies[a].get("n_cursos") for a in anos_ies]},
+                 {"nome": "Municípios com oferta",
+                  "valores": [serie_ies[a].get("municipios_oferta")
+                              for a in anos_ies]}],
+                titulo=f"Amplitude da oferta de {ies['nome']}",
+                descricao=("Rótulos CINE distintos e municípios com oferta "
+                           "presencial, por edição do Censo.")))
+
         html = tpl_ies.render(
             **ctx_base, depth="../", curso_atual=None, ies=ies, oferta=oferta,
+            grafico_serie_ies=grafico_serie_ies,
+            grafico_cursos_ies=grafico_cursos_ies,
+            anos_serie_ies=anos_ies,
             grafico=Markup(barras(
                 [{"nome": o["nome"], "valor": o["matriculas"]} for o in oferta],
                 titulo=f"Cursos de {ies['nome']} por matrículas",
                 descricao="Barras horizontais por matrículas.",
                 unidade=" matrículas")),
-            leituras=insights.da_instituicao(ies))
+            leituras=insights.da_instituicao(ies, serie_ies))
         (DIST / "instituicao" / f"{co}.html").write_text(html, encoding="utf-8")
     print(f"[OK] instituicao/ — {len(instituicoes)} painéis institucionais")
 
@@ -1330,6 +1406,24 @@ def main():
               "instituicoes": [{k: v for k, v in i.items() if k != "oferta"}
                                for i in instituicoes.values()]},
              "Instituições com organização, categoria e corpo docente")
+    if series_uf:
+        anos_serie = sorted({a for v in series_uf.values() for a in v})
+        publicar("series/territorial.json",
+                 {"metadados": {"extracao": data_extracao, "anos": anos_serie,
+                                "aviso": ("contagens de distintos — n_ies, n_cursos, "
+                                          "municipios_oferta — não se somam entre "
+                                          "UFs; o total nacional já vem calculado "
+                                          "sobre as linhas, no recorte BR")},
+                  "series": series_uf},
+                 "Série histórica por unidade federativa e Brasil, por edição do Censo")
+    if series_ies:
+        publicar("series/instituicoes.json",
+                 {"metadados": {"extracao": data_extracao,
+                                "aviso": ("ano em que a instituição não teve oferta "
+                                          "fica ausente da série, nunca zerado")},
+                  "series": series_ies},
+                 "Série histórica por instituição, por edição do Censo")
+
     endpoints.append({
         "caminho": "api/v1/curso/&lt;slug&gt;.json",
         "descricao": "Indicadores completos de um curso, por UF",

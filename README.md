@@ -25,6 +25,7 @@ etl/                 Pipeline (Python)
   indices.py         Fórmulas canônicas + portão de qualidade (GO gate)
   catalogo.py        Microdados → data/cursos.json (todos os rótulos CINE)
   serie.py           Acumula uma edição do Censo na série histórica por curso
+  serie_agregada.py  Idem, por unidade federativa e por instituição
   baixar_censo.py    Baixa edições do INEP e alimenta a série (um ano por vez)
   instituicoes.py    Camada institucional (IES, organização, corpo docente)
   igc.py             Índice Geral de Cursos do INEP, por instituição
@@ -42,6 +43,9 @@ data/
   igc.json           IGC por instituição (fonte e calendário distintos do Censo)
   fluxo.json         Taxas de coorte por UF, 2010–2024
   capes.json         Programas de pós stricto sensu por instituição
+  series/            Série histórica 2016–2024
+    ufs.json         27 UFs + Brasil, por edição do Censo
+    ies.json         3.368 instituições, por edição do Censo
   geo/               Malha do IBGE: fronteiras de UF e centroides municipais
 site/
   build.py           Gerador estático (Jinja2)
@@ -255,8 +259,15 @@ A série cobre **2016 a 2024**, nove edições do Censo. Para estendê-la ou
 reconstruí-la:
 
 ```bash
-python etl/baixar_censo.py --anos 2016 2017 2018 2019 2020 2021 2022
+python etl/baixar_censo.py --anos 2016 2017 2018 2019 2020 2021 2022 2023 2024
 ```
+
+Cada edição alimenta **três** séries: por curso (`data/cursos/<slug>/serie.json`),
+por unidade federativa e por instituição (`data/series/`). As duas últimas não
+são deriváveis da primeira: somar os cursos daria certo para vagas e matrículas,
+mas erraria em `n_ies`, `n_cursos` e `municipios_oferta` — a mesma universidade
+oferta vinte cursos, e somá-los a contaria vinte vezes. Contagem de distintos só
+sai com as linhas na mão.
 
 O script pega uma edição por vez, extrai só os dois CSVs necessários, alimenta a
 série e descarta — sem o descarte, nove edições ocupariam mais de um giga em disco
@@ -264,6 +275,12 @@ para produzir treze megabytes de série. Dá para voltar até 2016 porque o INEP
 reclassificou as edições antigas na CINE e republicou, então o match exato de
 rótulo vale para trás sem gambiarra. (2015 responde de forma instável no servidor
 do INEP; quando entrar, é só rodar o comando com `--anos 2015`.)
+
+O servidor do INEP derruba a conexão no meio do download com alguma frequência;
+o script tenta quatro vezes com espera crescente. Numa execução das nove edições
+isso apareceu como um padrão que parecia significativo — só os anos ímpares
+chegavam — e não era: 2016, 2018, 2020 e 2022 estavam lá, com zip válido, e
+caíram por acaso.
 
 Ela mostra
 **variação de estoque**, e isso não é evasão. O Censo é um retrato anual: a

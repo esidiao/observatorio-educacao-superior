@@ -2,11 +2,11 @@
   "obra": "Observatório Nacional da Educação Superior",
   "autor": "Edson Sidião de Souza Júnior",
   "tipo": "Registro de Anterioridade e Integridade (prova de existência)",
-  "selado_em_utc": "2026-07-28T02:23:12+00:00",
+  "selado_em_utc": "2026-07-28T18:55:36+00:00",
   "algoritmo": "SHA-256",
-  "n_arquivos": 65,
-  "hash_raiz": "648a7f6941581fa2b2c5904fa6c643f11d022c43c414def6104da77e416b61dc",
-  "git_commit_ancora": "f8da8fe573cddccd8b816939d648c413e27dff96",
+  "n_arquivos": 66,
+  "hash_raiz": "4d5eb2dd42b0b57a8bd041ac6d0318281abc9b23b5e4e88151da3bdeed08ce02",
+  "git_commit_ancora": "df05773ca413ddd39fab3180354976d07801f028",
   "fundamento": "Lei 9.610/1998 e Lei 9.609/1998. O hash-raiz é impressão digital única do conjunto; o commit Git ancora a data de forma imutável.",
   "como_verificar": [
     "1. Baixe os arquivos listados em 'arquivos'.",
@@ -47,7 +47,7 @@
     },
     {
       "caminho": "etl/baixar_censo.py",
-      "sha256": "d559eda71625198c2e0595c233f74540998a327ea2e87038530d8b689aa11965"
+      "sha256": "b09dde7234fb10567c74141d553a0b0ef0e855e60b7c4d3391f2d412ced39df8"
     },
     {
       "caminho": "etl/capes.py",
@@ -106,12 +106,16 @@
       "sha256": "2cb458aa0587573e8863be1563f40c3685c1ec0e29d1006f74b5725fee53e93f"
     },
     {
+      "caminho": "etl/serie_agregada.py",
+      "sha256": "2d6f8f27b9302aacadb060f2874431cffba0a2b171b760fa75ceda3603e2b21b"
+    },
+    {
       "caminho": "site/agregados.py",
       "sha256": "ce5730b9346a05dd597be19273ed797efeec72b50511ecde36af69743f929d85"
     },
     {
       "caminho": "site/build.py",
-      "sha256": "2f74de4c0b700dcad3e215805ff136a108d6e7d118fe779b0511ca91160174ef"
+      "sha256": "c36315159cc22d8e950e2c148189d74ff66e1dbdf0e6303de7c424a8df99104a"
     },
     {
       "caminho": "site/graficos.py",
@@ -119,7 +123,7 @@
     },
     {
       "caminho": "site/insights.py",
-      "sha256": "8c44ed8e5ac3821350345c056f3e6ba9f70f779e5c426438237f38095b799340"
+      "sha256": "0173768a0f09a8f91c51c1751fae679b3832eb48eadeaee280fd3978aa16c41f"
     },
     {
       "caminho": "site/static/css/style.css",
@@ -215,7 +219,7 @@
     },
     {
       "caminho": "site/templates/instituicao.html.j2",
-      "sha256": "0f0980798f6a257acc51c3fa0b31d2b03d6856a36b072e19b1abcfb57b1b83fb"
+      "sha256": "efe35a64ba45d7baf6ad0f407acf9be683bc00e517acf67f27dc060809811d40"
     },
     {
       "caminho": "site/templates/instituicoes.html.j2",
@@ -251,7 +255,7 @@
     },
     {
       "caminho": "site/templates/uf-perfil.html.j2",
-      "sha256": "f1fd73d6f2913846c884fc539052200f0709536056edb3ea15ef7e6e03e816c5"
+      "sha256": "72b81099920cf3c3bc3824c2b9dcae603a31c4e6399ae1bd6e445eea951a276b"
     },
     {
       "caminho": "site/templates/uf.html.j2",
@@ -271,7 +275,7 @@
     },
     {
       "caminho": "tests/test_validacao.py",
-      "sha256": "713debe8ccb87c0db24b051c578a8dcbdcc80adf06909c26b673a48854adf49c"
+      "sha256": "4d3a13b8dc561ef48d977e743da43925de5be8784726ca56a4f457b45e40f32a"
     },
     {
       "caminho": "tests/test_viewport.py",

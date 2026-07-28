@@ -144,6 +144,39 @@
   CPC e pós-graduação, o outro é nota de comissão que visitou a instituição.
 </p>
 
+{% if grafico_serie_ies %}
+<h2 class="section-title">Evolução da instituição</h2>
+<p class="secao-intro">
+  Capacidade e alunos da instituição em cada edição do Censo, de
+  {{ anos_serie_ies|first }} a {{ anos_serie_ies|last }}.
+</p>
+<div class="figura">
+  {{ grafico_serie_ies }}
+  <p class="figura-nota">
+    Ano em que a instituição não aparece no Censo com nenhuma vaga ou matrícula
+    fica <strong>ausente</strong> da linha, não zerado — zero diria que ela
+    existia e não ofertou nada, o que é uma afirmação diferente de não constar.
+  </p>
+  <p class="figura-nota">
+    A diferença de matrículas entre dois anos <strong>não é evasão</strong>: são
+    estoques de anos diferentes, não o acompanhamento de uma mesma turma. E os
+    anos de 2020 e 2021 carregam o efeito da pandemia sobre matrícula e
+    conclusão — o dado é o que o Censo registrou, sem ajuste.
+  </p>
+</div>
+{% endif %}
+
+{% if grafico_cursos_ies %}
+<div class="figura">
+  {{ grafico_cursos_ies }}
+  <p class="figura-nota">
+    Cursos distintos são rótulos CINE diferentes, não ofertas: a mesma graduação
+    em dois municípios ou dois turnos conta uma vez. Municípios contam a oferta
+    presencial.
+  </p>
+</div>
+{% endif %}
+
 {% if grafico %}
 <h2 class="section-title">Cursos ofertados</h2>
 <div class="figura">{{ grafico }}</div>

@@ -57,10 +57,33 @@
 <div class="figura">
   {{ grafico_serie_uf }}
   <p class="figura-nota">
-    Vagas somadas de todos os cursos do catálogo no estado, de
+    Vagas de todos os cursos do catálogo no estado, de
     {{ anos_serie_uf|first }} a {{ anos_serie_uf|last }}. As vagas a distância são
     registradas na sede da mantenedora — um estado com muitas mantenedoras de EaD
     aparece grande aqui mesmo que os estudantes estejam em outros estados.
+  </p>
+  <p class="figura-nota">
+    A diferença de vagas entre dois anos <strong>não é evasão nem crescimento de
+    matrícula</strong>: são estoques de anos diferentes, e o que muda entre eles
+    inclui curso aberto, curso fechado e mudança de porte da oferta existente.
+  </p>
+</div>
+{% endif %}
+
+{% if grafico_rede_uf %}
+<h2 class="section-title">Evolução da rede</h2>
+<p class="secao-intro">
+  Quantas instituições, quantos municípios e quantos cursos distintos o estado
+  teve em cada edição do Censo. São contagens de entidades diferentes, não somas:
+  uma universidade com vinte cursos conta uma vez.
+</p>
+<div class="figura">
+  {{ grafico_rede_uf }}
+  <p class="figura-nota">
+    Instituição entra na contagem do ano em que teve <strong>vaga</strong> em
+    alguma modalidade — cadastro existente não é oferta existente. Municípios
+    contam a oferta presencial; polos de EaD ficam de fora porque não têm vaga
+    própria registrada no Censo.
   </p>
 </div>
 {% endif %}
