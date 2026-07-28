@@ -14,7 +14,7 @@
 
 {% block content %}
 
-<h1 class="section-title" style="margin-bottom:6px">Instituições</h1>
+<h1 class="section-title esp-b6">Instituições</h1>
 <p class="secao-intro">
   As {{ total }} instituições que ofertam algum dos cursos acompanhados. Os números
   de cada uma cobrem apenas esses cursos, não toda a sua atividade — e o corpo
@@ -66,7 +66,7 @@
       <tr data-nome="{{ (i.nome ~ ' ' ~ (i.sigla or ''))|lower }}" data-rede="{{ i.rede }}"
           data-org="{{ i.organizacao or '' }}" data-uf="{{ i.uf_sede or '' }}"
           data-igc="{{ i.igc_faixa if i.igc_faixa is not none else 'sem' }}">
-        <th scope="row" style="font-weight:600">
+        <th class="t-forte" scope="row">
           <a href="instituicao/{{ i.co_ies }}.html">{{ i.nome }}</a>
         </th>
         <td>{{ i.rede }}</td>

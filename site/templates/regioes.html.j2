@@ -10,7 +10,7 @@
 
 {% block content %}
 
-<h1 class="section-title" style="margin-bottom:6px">A educação superior pelas cinco regiões</h1>
+<h1 class="section-title esp-b6">A educação superior pelas cinco regiões</h1>
 <p class="secao-intro">
   A desigualdade regional é a moldura de quase toda discussão sobre acesso ao ensino
   superior no Brasil. Esta página soma os {{ n_cursos }} cursos do catálogo por
@@ -69,7 +69,7 @@
     <tbody>
       {% for r in regioes %}
       <tr>
-        <th scope="row" style="font-weight:600">{{ r.nome }}</th>
+        <th class="t-forte" scope="row">{{ r.nome }}</th>
         <td>{{ milhar(r.vagas_total) }}</td>
         <td>{{ milhar(r.vagas_presencial) }}</td>
         <td>{{ milhar(r.vagas_ead) }}</td>
@@ -111,12 +111,12 @@
 <h2 class="section-title">Estados de cada região</h2>
 <div class="areas-grid">
   {% for r in regioes %}
-  <div class="curso-card" style="cursor:default">
+  <div class="curso-card sem-clique">
     <h3 class="subtitulo-serif">{{ r.nome }}</h3>
     <p class="nota-fonte">
       {{ r.ufs|length }} unidades federativas
     </p>
-    <div style="display:flex;flex-wrap:wrap;gap:5px">
+    <div class="chips">
       {% for uf in r.ufs %}
       <a class="uf-nav-item" href="{{ depth }}uf/{{ uf }}.html">{{ uf }}</a>
       {% endfor %}

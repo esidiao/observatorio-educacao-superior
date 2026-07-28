@@ -10,7 +10,7 @@
 
 {% block content %}
 
-<h1 class="section-title" style="margin-bottom:6px">Rede pública e rede privada</h1>
+<h1 class="section-title esp-b6">Rede pública e rede privada</h1>
 <p class="secao-intro">
   Depois do território, é a segunda moldura de qualquer discussão sobre educação
   superior no Brasil. Até aqui o recorte existia como filtro; nesta página ele vira
@@ -69,7 +69,7 @@
     <tbody>
       {% for l in comparativo %}
       <tr>
-        <th scope="row" style="font-weight:600">{{ l.rotulo }}</th>
+        <th class="t-forte" scope="row">{{ l.rotulo }}</th>
         <td>{% if l.publica is not none %}{{ l.fmt_publica }}{% else %}<span class="sem-dado">sem dados</span>{% endif %}</td>
         <td>{% if l.privada is not none %}{{ l.fmt_privada }}{% else %}<span class="sem-dado">sem dados</span>{% endif %}</td>
         <td>{% if l.pct is not none %}{{ fmt1(l.pct) }}%{% else %}—{% endif %}</td>
@@ -99,7 +99,7 @@
     <tbody>
       {% for c in categorias %}
       <tr>
-        <th scope="row" style="font-weight:600">{{ c.nome }}</th>
+        <th class="t-forte" scope="row">{{ c.nome }}</th>
         <td>{{ milhar(c.n) }}</td>
         <td>{{ milhar(c.matriculas) }}</td>
         <td>{{ milhar(c.vagas) }}</td>
@@ -135,7 +135,7 @@
     <tbody>
       {% for o in organizacoes %}
       <tr>
-        <th scope="row" style="font-weight:600">{{ o.nome }}</th>
+        <th class="t-forte" scope="row">{{ o.nome }}</th>
         <td>{{ milhar(o.n) }}</td>
         <td>{{ milhar(o.publicas) }}</td>
         <td>{{ milhar(o.privadas) }}</td>

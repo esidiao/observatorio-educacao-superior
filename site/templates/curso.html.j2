@@ -26,7 +26,7 @@
 </section>
 
 {% if not tem_qualidade %}
-<div class="update-bar" style="background:#FFF8E6;border-color:#E8D9A8">
+<div class="update-bar destaque-ouro">
   <strong>Sem ciclo ENADE disponível para {{ meta.curso }}.</strong>&nbsp;
   Os indicadores de qualidade (ENADE, IDD, CPC, IAF) aparecem como “sem dados”.
   O ENADE é trienal e reveza as áreas avaliadas{% if meta.ciclo_enade %}; o ciclo de
@@ -137,7 +137,7 @@
     <tbody>
       {% for i in top_ies %}
       <tr>
-        <th scope="row" style="font-weight:600">{{ i.nome }}</th>
+        <th class="t-forte" scope="row">{{ i.nome }}</th>
         <td>{{ i.rede }}</td>
         <td>{{ i.organizacao or '—' }}</td>
         <td>{{ i.uf_sede }}</td>
@@ -156,10 +156,10 @@
 {% endif %}
 
 <h2 class="section-title">Indicadores por unidade federativa</h2>
-<div class="toolbar" style="margin-bottom:12px;gap:10px;flex-wrap:wrap;align-items:center">
+<div class="toolbar linha-solta esp-b12">
   <label class="rotulo-campo" for="sel-ordem">Ordenar por:</label>
   <select class="texto-menor" id="sel-ordem"></select>
-  <span style="flex:1"></span>
+  <span class="cresce"></span>
   <button type="button" class="btn outline btn-mini" id="btn-csv">↓ CSV</button>
   <button type="button" class="btn outline btn-mini" id="btn-json">↓ JSON</button>
 </div>

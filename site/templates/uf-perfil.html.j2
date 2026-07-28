@@ -114,7 +114,7 @@
       {% for chave, rotulo in [('evasao','Evasão'), ('conclusao','Conclusão'), ('retencao','Retenção'), ('permanencia','Permanência')] %}
       {% set reg = fluxo[ultima][chave] %}
       <tr>
-        <th scope="row" style="font-weight:600">{{ rotulo }}</th>
+        <th class="t-forte" scope="row">{{ rotulo }}</th>
         {% for campo in ['total','feminino','masculino','ppi','nao_ppi'] %}
         <td>{% if reg and reg[campo] is not none %}{{ fmt1(reg[campo]) }}%{% else %}<span class="sem-dado">sem dados</span>{% endif %}</td>
         {% endfor %}
@@ -150,8 +150,8 @@
     <tbody>
       {% for c in u.cursos[:30] %}
       <tr>
-        <td style="color:var(--text-muted);width:40px">{{ loop.index }}</td>
-        <th scope="row" style="font-weight:600">
+        <td class="rank-pos">{{ loop.index }}</td>
+        <th class="t-forte" scope="row">
           <a href="{{ depth }}curso/{{ c.slug }}/uf/{{ sigla }}.html">{{ c.nome }}</a>
         </th>
         <td class="nota-fonte">{{ c.area }}</td>
@@ -180,8 +180,8 @@
     <tbody>
       {% for m in municipios[:40] %}
       <tr>
-        <td style="color:var(--text-muted);width:40px">{{ loop.index }}</td>
-        <th scope="row" style="font-weight:600">
+        <td class="rank-pos">{{ loop.index }}</td>
+        <th class="t-forte" scope="row">
           <a href="{{ depth }}municipio/{{ sigla }}-{{ m.slug }}.html">{{ m.nome }}</a>
         </th>
         <td>{{ milhar(m.vagas_total) }}</td>

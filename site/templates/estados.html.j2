@@ -10,7 +10,7 @@
 
 {% block content %}
 
-<h1 class="section-title" style="margin-bottom:6px">Educação superior por estado</h1>
+<h1 class="section-title esp-b6">Educação superior por estado</h1>
 <p class="secao-intro">
   Cada painel soma todos os {{ n_cursos }} cursos do catálogo naquele estado.
   Índices por curso (ICT, IAF, HHI) não aparecem aqui: a média deles entre cursos
@@ -41,7 +41,7 @@
       {% for uf in ufs %}
       <tr>
         <th scope="row"><a href="uf/{{ uf.sigla }}.html"><span class="uf-tag">{{ uf.sigla }}</span></a></th>
-        <td style="font-weight:600"><a href="uf/{{ uf.sigla }}.html">{{ uf.nome }}</a></td>
+        <td class="t-forte"><a href="uf/{{ uf.sigla }}.html">{{ uf.nome }}</a></td>
         <td>{{ milhar(uf.vagas_total) }}</td>
         <td>{{ milhar(uf.matriculas) }}</td>
         <td>{{ milhar(uf.n_ies) }}</td>

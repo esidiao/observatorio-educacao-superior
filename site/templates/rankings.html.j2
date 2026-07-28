@@ -10,7 +10,7 @@
 
 {% block content %}
 
-<h1 class="section-title" style="margin-bottom:6px">Rankings</h1>
+<h1 class="section-title esp-b6">Rankings</h1>
 <p class="secao-intro">
   Cada lista declara <strong>por qual campo ordena</strong>. Isso não é formalidade:
   ranking sem régua explícita é a forma mais fácil de enganar com dado verdadeiro —
@@ -33,7 +33,7 @@
 {% for r in listas %}
 <section class="rank-bloco" id="{{ r.id }}">
   <h2 class="section-title">{{ r.titulo }}</h2>
-  <p class="figura-nota" style="margin:0 0 12px">{{ r.nota }}</p>
+  <p class="figura-nota esp-t0 esp-b12">{{ r.nota }}</p>
   <div class="tabela-wrap" tabindex="0">
     <table>
       <caption class="sr-only">{{ r.titulo }} — {{ r.nota }}</caption>
@@ -50,8 +50,8 @@
       <tbody>
         {% for i in r.itens %}
         <tr>
-          <td style="color:var(--text-muted);width:40px">{{ loop.index }}</td>
-          <th scope="row" style="font-weight:600">
+          <td class="rank-pos">{{ loop.index }}</td>
+          <th class="t-forte" scope="row">
             {% if i.url %}<a href="{{ depth }}{{ i.url }}">{{ i.rotulo }}</a>
             {% else %}{{ i.rotulo }}{% endif %}
           </th>
@@ -67,18 +67,5 @@
 </section>
 {% endfor %}
 
-<style>
-.rank-indice {
-  display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px;
-  padding: 12px; background: var(--surface); border: 1px solid var(--border);
-  border-radius: 8px;
-}
-.rank-indice a {
-  font-size: 0.82rem; padding: 4px 10px; border: 1px solid var(--border);
-  border-radius: 14px; text-decoration: none; color: var(--navy);
-}
-.rank-indice a:hover { background: var(--accent-soft); border-color: var(--accent); text-decoration: none; }
-.rank-bloco { margin-bottom: 34px; scroll-margin-top: 20px; }
-</style>
 
 {% endblock %}

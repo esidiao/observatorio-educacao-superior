@@ -6,7 +6,7 @@
   <title>{% block title %}Observatório Nacional da Educação Superior{% endblock %}</title>
   <meta name="description" content="{% block meta_description %}Indicadores de acesso territorial, qualidade, capacidade e concentração da educação superior brasileira, por curso e por unidade federativa, a partir de dados oficiais do INEP e do IBGE.{% endblock %}">
 
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; style-src-attr 'none'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#15314F">
@@ -23,7 +23,7 @@
 
 <a class="pular-para-conteudo" href="#conteudo">Pular para o conteúdo</a>
 
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<svg class="pos-abs" width="0" height="0" aria-hidden="true">
   <defs>
     <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11l9-8 9 8M5 10v10h5v-6h4v6h5V10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
     <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM19 3v18M8 7h7M8 11h7" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
@@ -72,7 +72,7 @@
     <span class="sep">·</span>
     <a href="#glossario" class="nav-glossario texto-menor"><svg class="ic" aria-hidden="true"><use href="#i-book"/></svg> Entenda os indicadores</a>
   </span>
-  <div style="flex:1"></div>
+  <div class="cresce"></div>
   <span class="navbar-carimbo">Dados: {{ data_extracao }}</span>
 </nav>
 
@@ -88,7 +88,7 @@
   </div>
   <span id="curso-atual-chip" class="curso-chip ativo" hidden></span>
   <p id="curso-busca-resultado" class="sr-only" role="status" aria-live="polite"></p>
-  <span style="flex:1"></span>
+  <span class="cresce"></span>
   <a href="{{ depth }}index.html#catalogo" class="curso-chip">Todos os cursos</a>
   <a href="{{ depth }}comparar-cursos.html" class="curso-chip comparar"><svg class="ic" aria-hidden="true"><use href="#i-swap"/></svg> Comparar</a>
 </div>
@@ -97,7 +97,7 @@
   {% block content %}{% endblock %}
 
   <section id="glossario" class="glossario" aria-label="Glossário de indicadores">
-    <h2 class="section-title"><svg class="ic" style="color:var(--accent)" aria-hidden="true"><use href="#i-book"/></svg> Entenda os indicadores</h2>
+    <h2 class="section-title"><svg class="ic t-acento" aria-hidden="true"><use href="#i-book"/></svg> Entenda os indicadores</h2>
     <p class="glossario-intro">
       Cada indicador explica <strong>o que mede</strong>, sua <strong>escala</strong>,
       se <strong>maior ou menor é melhor</strong> e a <strong>fonte oficial</strong>.
@@ -113,22 +113,22 @@
 
 <footer class="site-footer">
   <p>Observatório Nacional da Educação Superior · Fontes: INEP (Censo da Educação Superior {{ versao_censo }} e ENADE/CPC), IBGE</p>
-  <p style="margin-top:6px">
+  <p class="esp-t6">
     © {{ ano_corrente }} <strong>Edson Sidião de Souza Júnior</strong> · Todos os direitos reservados ·
     Obra protegida pelas Leis nº 9.610/1998 e nº 9.609/1998 ·
     <a href="{{ depth }}aviso-legal.html">Direitos Autorais e Condições de Uso</a>
   </p>
-  <p style="margin-top:6px">
+  <p class="esp-t6">
     <a href="{{ depth }}autor.html">Sobre o Autor</a> ·
     <a href="{{ depth }}privacidade.html">Privacidade e dados pessoais</a> ·
     <a href="{{ depth }}api.html">Dados abertos</a> ·
     <a href="{{ depth }}metodologia.html">Metodologia</a>
   </p>
-  <p style="margin-top:6px;opacity:0.85">
+  <p class="esp-t6 atenuado">
     Dados primários de fontes oficiais públicas; o tratamento, os indicadores e a
     análise são obra autoral original.
   </p>
-  <p style="margin-top:6px;opacity:0.85">
+  <p class="esp-t6 atenuado">
     Nenhum indicador é estimado. Sem fonte para um recorte, o valor aparece como
     <strong>sem dados</strong> — nunca como um número inventado.
   </p>

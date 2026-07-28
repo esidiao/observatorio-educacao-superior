@@ -8,126 +8,6 @@
 {% endblock %}
 
 {% block head_extra %}
-<style>
-.autor-hero {
-  display: flex;
-  gap: 40px;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin-bottom: 40px;
-}
-.autor-foto {
-  flex-shrink: 0;
-  width: 220px;
-}
-.autor-foto img {
-  width: 220px;
-  height: 220px;
-  object-fit: cover;
-  object-position: center top;
-  border-radius: 50%;
-  border: 4px solid var(--blue);
-  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
-  display: block;
-}
-.autor-foto .lattes-link {
-  display: block;
-  text-align: center;
-  margin-top: 14px;
-  padding: 6px 0;
-  font-size: 0.82rem;
-  color: var(--blue);
-  font-weight: 600;
-  text-decoration: none;
-  letter-spacing: 0.02em;
-}
-.autor-foto .lattes-link:hover { text-decoration: underline; }
-.autor-info { flex: 1; min-width: 260px; }
-.autor-info h2 {
-  font-size: 1.6rem;
-  color: var(--navy);
-  margin-bottom: 4px;
-  font-family: var(--font-display, 'Segoe UI', sans-serif);
-}
-.autor-info .titulo {
-  font-size: 0.95rem;
-  color: var(--blue);
-  font-weight: 600;
-  margin-bottom: 20px;
-  line-height: 1.5;
-}
-.autor-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 22px;
-}
-.autor-tag {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 4px 14px;
-  font-size: 0.82rem;
-  color: var(--navy);
-  font-weight: 600;
-}
-.autor-stats {
-  display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
-  margin-bottom: 8px;
-}
-.autor-stat { text-align: center; }
-.autor-stat .num {
-  font-size: 1.6rem;
-  font-weight: 800;
-  color: var(--blue);
-  display: block;
-  line-height: 1;
-}
-.autor-stat .leg {
-  font-size: 0.82rem;
-  color: var(--text-muted);
-  margin-top: 4px;
-  display: block;
-}
-
-.bio-section { margin-bottom: 28px; }
-.bio-section p {
-  font-size: 0.92rem;
-  line-height: 1.75;
-  color: var(--text);
-  margin-bottom: 14px;
-  text-align: justify;
-}
-
-.areas-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 16px;
-  margin-bottom: 32px;
-}
-.area-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-left: 4px solid var(--blue);
-  border-radius: 8px;
-  padding: 14px 16px;
-}
-.area-card h4 {
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--navy);
-  margin-bottom: 6px;
-}
-.area-card ul {
-  margin: 0;
-  padding-left: 18px;
-  font-size: 0.82rem;
-  color: var(--text-muted);
-  line-height: 1.6;
-}
-</style>
 {% endblock %}
 
 {% block content %}
@@ -250,7 +130,7 @@
 
 <!-- Áreas de atuação -->
 <h2 class="section-title">Áreas de atuação</h2>
-<div class="areas-grid">
+<div class="areas-atuacao">
   <div class="area-card">
     <h4>Avaliação e regulação MEC</h4>
     <ul>
@@ -335,31 +215,5 @@
   </a>
 </div>
 
-<style>
-  .contato-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 14px;
-    margin-bottom: 28px;
-  }
-  .contato-card {
-    display: flex; align-items: center; gap: 14px;
-    background: var(--surface); border: 1px solid var(--border);
-    border-left: 4px solid var(--blue); border-radius: 10px;
-    padding: 16px 18px; text-decoration: none; color: var(--text);
-    transition: transform 0.12s, box-shadow 0.12s, border-color 0.12s;
-  }
-  .contato-card:hover {
-    transform: translateY(-2px); text-decoration: none;
-    box-shadow: 0 6px 18px rgba(22,48,79,0.12); border-color: var(--blue);
-  }
-  .contato-icone { line-height: 1; color: var(--accent); display: inline-flex; }
-  .contato-icone .ic { width: 1.5rem; height: 1.5rem; }
-  .contato-rotulo {
-    display: block; font-size: 0.82rem; text-transform: uppercase;
-    letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 2px;
-  }
-  .contato-valor { display: block; font-size: 1rem; font-weight: 700; color: var(--navy); }
-</style>
 
 {% endblock %}

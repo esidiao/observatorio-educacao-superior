@@ -9,32 +9,6 @@
 
 {% block content %}
 
-<style>
-  .legal-wrap { max-width: 860px; }
-  .legal-wrap h2.section-title { margin-top: 30px; }
-  .legal-wrap p, .legal-wrap li { font-size: 0.92rem; line-height: 1.7; color: var(--text); }
-  .legal-wrap p { margin-bottom: 12px; }
-  .legal-wrap ul, .legal-wrap ol { padding-left: 22px; margin-bottom: 12px; }
-  .legal-wrap li { margin-bottom: 6px; }
-  .legal-callout {
-    background: var(--surface); border: 1px solid var(--border);
-    border-left: 4px solid var(--gold); border-radius: 8px;
-    padding: 16px 18px; margin: 18px 0; font-size: 0.9rem;
-  }
-  .legal-callout strong { color: var(--navy); }
-  .legal-cite {
-    background: #0f1d2e; color: #e8edf5; border-radius: 8px;
-    padding: 16px; font-family: var(--font-mono); font-size: 0.82rem;
-    line-height: 1.6; overflow-x: auto; white-space: pre-wrap;
-  }
-  .legal-lei { font-style: italic; color: var(--text-muted); font-size: 0.85rem; }
-  .legal-sello {
-    display: inline-flex; align-items: center; gap: 10px;
-    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
-    padding: 12px 18px; font-size: 0.85rem; margin-top: 8px;
-  }
-  .legal-sello .sello-c { font-size: 1.6rem; color: var(--navy); font-weight: 700; }
-</style>
 
 <div class="legal-wrap">
 
@@ -147,19 +121,19 @@
   alteração de um único byte em qualquer arquivo modifica o hash-raiz abaixo — o que torna a Obra
   <strong>verificável e à prova de adulteração</strong>.
 </p>
-<div class="legal-callout" style="border-left-color:var(--blue)">
+<div class="legal-callout borda-azul">
   <div class="registro-grade">
     <strong>Obra:</strong><span>{{ registro.obra }}</span>
     <strong>Autor:</strong><span>{{ registro.autor }}</span>
     <strong>Selado em (UTC):</strong><span>{{ registro.selado_em_utc }}</span>
     <strong>Algoritmo:</strong><span>{{ registro.algoritmo }} · {{ registro.n_arquivos }} arquivos</span>
   </div>
-  <div style="margin-top:12px">
+  <div class="esp-t12">
     <div class="nota-fonte">Hash-raiz (impressão digital única da Obra):</div>
     <code class="hash-bloco hash-bloco-raiz">{{ registro.hash_raiz }}</code>
   </div>
   {% if registro.git_commit_ancora %}
-  <div style="margin-top:10px">
+  <div class="esp-t10">
     <div class="nota-fonte">Âncora temporal (commit Git — registro datado e imutável):</div>
     <code class="hash-bloco">{{ registro.git_commit_ancora }}</code>
   </div>
@@ -195,7 +169,7 @@
 </ul>
 <p class="texto-menor">Mais informações em <a href="{{ depth }}autor.html">Sobre o Autor</a>.</p>
 
-<p class="legal-lei" style="margin-top:24px">
+<p class="legal-lei esp-t24">
   Fundamentos legais: Constituição Federal, art. 5º, XXVII e XXVIII; Lei nº 9.610, de 19/02/1998 (Direitos
   Autorais); Lei nº 9.609, de 19/02/1998 (Proteção de Programas de Computador).
 </p>

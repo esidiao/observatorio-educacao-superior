@@ -60,7 +60,7 @@
 </p>
 {% else %}
 <h2 class="section-title">Avaliação institucional</h2>
-<p class="figura-nota" style="margin-left:0">
+<p class="figura-nota esp-l0">
   <strong>Esta instituição não tem IGC publicado.</strong> O índice só existe para
   quem teve cursos avaliados no triênio do ENADE — instituição nova, ou cujas áreas
   não entraram no rodízio, fica sem. Isso é <strong>ausência de avaliação, não
@@ -104,7 +104,7 @@
 </p>
 {% else %}
 <h2 class="section-title">Pós-graduação stricto sensu</h2>
-<p class="figura-nota" style="margin-left:0">
+<p class="figura-nota esp-l0">
   Esta instituição <strong>não mantém programa de pós-graduação stricto sensu</strong>
   em funcionamento na coleta da CAPES. Ao contrário da ausência de IGC, isto não é
   dado faltante: é um fato sobre a instituição. Das 2.561 acompanhadas aqui, 351
@@ -161,7 +161,7 @@
     <tbody>
       {% for c in oferta %}
       <tr>
-        <th scope="row" style="font-weight:600">
+        <th class="t-forte" scope="row">
           <a href="{{ depth }}curso/{{ c.slug }}/index.html">{{ c.nome }}</a>
         </th>
         <td>{{ milhar(c.vagas) }}</td>
@@ -175,7 +175,7 @@
 
 {% if ies.ufs %}
 <h2 class="section-title">Presença territorial</h2>
-<p class="figura-nota" style="margin-left:0">
+<p class="figura-nota esp-l0">
   Oferta presencial em {{ ies.ufs|length }} unidade(s) federativa(s):
   {{ ies.ufs|join(', ') }}.
 </p>

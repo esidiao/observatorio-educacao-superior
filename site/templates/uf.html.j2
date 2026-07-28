@@ -12,11 +12,11 @@
 
 {% block content %}
 
-<div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;flex-wrap:wrap">
+<div class="linha linha-larga esp-b24">
   <h1 class="numero-destaque">{{ meta.curso }} em {{ nome_uf }}</h1>
   <span class="uf-tag uf-tag-grande">{{ sigla }}</span>
   <span class="nota-fonte">{{ d.regiao }} · capital {{ d.capital }}</span>
-  <span style="flex:1"></span>
+  <span class="cresce"></span>
   <button type="button" id="btn-json-uf"
           data-arquivo="{{ meta.slug }}_{{ sigla }}.json"
           class="btn outline btn-mini">↓ JSON</button>
@@ -144,8 +144,8 @@
     <tbody>
       {% for m in municipios %}
       <tr>
-        <td style="color:var(--text-muted);width:40px">{{ loop.index }}</td>
-        <th scope="row" style="font-weight:600">{{ m.nome }}</th>
+        <td class="rank-pos">{{ loop.index }}</td>
+        <th class="t-forte" scope="row">{{ m.nome }}</th>
         <td>{{ "{:,}".format(m.vagas_total).replace(',','.') }}</td>
         <td>{{ "{:,}".format(m.matriculas).replace(',','.') }}</td>
         <td>{{ m.n_cursos }}</td>

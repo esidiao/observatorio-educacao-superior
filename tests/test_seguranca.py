@@ -75,6 +75,12 @@ def test_csp():
            "script-src permite 'unsafe-inline' — todo JS deve viver em arquivo")
     checar("'unsafe-eval'" not in diretivas.get("script-src", ""),
            "script-src permite 'unsafe-eval'")
+    # Estilo injetado não precisa de script para fazer estrago: basta posicionar
+    # um bloco sobre o conteúdo real para que a página diga outra coisa.
+    checar("'unsafe-inline'" not in diretivas.get("style-src", ""),
+           "style-src permite 'unsafe-inline' — todo CSS deve viver em arquivo")
+    checar(diretivas.get("style-src-attr") == "'none'",
+           "sem style-src-attr 'none', o atributo style volta a valer")
     for obrigatoria in ("default-src", "object-src", "base-uri", "frame-ancestors",
                         "form-action"):
         checar(obrigatoria in diretivas, f"CSP sem a diretiva {obrigatoria}")
@@ -131,9 +137,12 @@ def test_piso_tipografico():
     for arq in sorted(TEMPLATES.glob("*.j2")):
         texto = arq.read_text(encoding="utf-8")
         for n, linha in enumerate(texto.splitlines(), 1):
-            if em_atributo.search(linha):
-                falhas.append(f"{arq.name}:{n}: font-size em atributo style — "
-                              f"vence a folha de estilo e escapa do piso do celular")
+            if 'style="' in linha:
+                falhas.append(f"{arq.name}:{n}: atributo style — a CSP não o "
+                              f"aplica mais, e ele venceria a folha se aplicasse")
+        if "<style" in texto:
+            falhas.append(f"{arq.name}: bloco <style> no template — style-src "
+                          f"'self' o bloqueia; o CSS vai para site/static/css")
         for bloco in re.findall(r"<style>(.*?)</style>", texto, re.S):
             for seletor, valor in em_bloco.findall(bloco):
                 if float(valor) < PISO_REM:
@@ -264,7 +273,10 @@ def test_contraste_tokens():
     # Os tokens de traço não podem voltar a ser usados como cor de texto.
     for bruto in ("var(--gold)", "var(--nodata)"):
         for n, linha in enumerate(css.splitlines(), 1):
-            if re.search(r"color:\s*" + re.escape(bruto), linha):
+            # `border-left-color:` contém `color:`. Sem a fronteira à
+            # esquerda, a checagem reprovava uma cor de BORDA, que é
+            # exatamente para o que estes dois tokens existem.
+            if re.search(r"(?:^|[;{\s])color:\s*" + re.escape(bruto), linha):
                 falhas.append(f"style.css:{n}: {bruto} usado como cor de texto — "
                               f"use a variante -texto, que passa no AA")
 

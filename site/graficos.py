@@ -176,6 +176,19 @@ def coropletico(malha, valores, titulo, descricao, unidade="",
     return _rolavel("".join(partes), titulo) + legenda
 
 
+def _amostra(cor):
+    """Quadradinho de cor da legenda, como SVG.
+
+    Em vez de `style="background:..."`: estilo em atributo é o que a
+    Content-Security-Policy deste site proíbe, e `fill` num SVG é atributo de
+    apresentação — fora do alcance de style-src. O aria-hidden existe porque a
+    cor já está dita pelo rótulo ao lado; anunciá-la de novo seria ruído.
+    """
+    return (f'<svg class="chave-cor" width="13" height="13" viewBox="0 0 13 13" '
+            f'aria-hidden="true"><rect width="13" height="13" rx="3" '
+            f'fill="{esc(cor)}"/></svg>')
+
+
 def _legenda(quebras, paleta, unidade, casas, tem_nulo):
     itens = []
     for i, cor in enumerate(paleta):
@@ -185,11 +198,11 @@ def _legenda(quebras, paleta, unidade, casas, tem_nulo):
             rotulo = f"{_fmt(quebras[i - 1], casas)}+"
         else:
             continue
-        itens.append(f'<span class="chave"><i style="background:{cor}"></i>'
+        itens.append(f'<span class="chave">{_amostra(cor)}'
                      f'{esc(rotulo)}{esc(unidade)}</span>')
     if tem_nulo:
         # "Sem dados" é categoria, nunca o degrau mais baixo da escala.
-        itens.append(f'<span class="chave"><i style="background:{SEM_DADO}"></i>'
+        itens.append(f'<span class="chave">{_amostra(SEM_DADO)}'
                      f'sem dados</span>')
     return '<div class="mapa-legenda">' + "".join(itens) + "</div>"
 
@@ -295,7 +308,7 @@ def serie_temporal(anos, series, titulo, descricao, largura=560, altura=240,
                      f'</circle>')
     p.append("</svg>")
     chaves = "".join(
-        f'<span class="chave"><i style="background:{paleta[k % len(paleta)]}"></i>'
+        f'<span class="chave">{_amostra(paleta[k % len(paleta)])}'
         f'{esc(s["nome"])}</span>' for k, s in enumerate(series))
     return (_rolavel("".join(p), titulo)
             + f'<div class="mapa-legenda">{chaves}</div>')

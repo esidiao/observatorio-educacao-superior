@@ -14,7 +14,7 @@
 
 {% block content %}
 
-<h1 class="section-title" style="margin-bottom:6px">Municípios com oferta presencial</h1>
+<h1 class="section-title esp-b6">Municípios com oferta presencial</h1>
 <p class="secao-intro">
   <strong>{{ total }} dos 5.570 municípios brasileiros</strong> — {{ fmt1(100 * total / 5570) }}% —
   têm ao menos um curso presencial entre os acompanhados por este observatório.
@@ -50,8 +50,8 @@
     <tbody>
       {% for m in municipios %}
       <tr data-nome="{{ m.nome|lower }}" data-uf="{{ m.uf }}">
-        <td class="rank" style="color:var(--text-muted);width:52px">{{ loop.index }}</td>
-        <th scope="row" style="font-weight:600">
+        <td class="rank rank-pos rank-pos-larga">{{ loop.index }}</td>
+        <th class="t-forte" scope="row">
           <a href="municipio/{{ m.uf }}-{{ m.slug }}.html">{{ m.nome }}</a>
         </th>
         <td>{{ m.uf }}</td>

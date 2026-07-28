@@ -22,6 +22,8 @@
   /* Acento de identidade (editorial/científico) */
   --accent:    #0E7C66;
   --accent-soft: #E6F2EE;
+  --ouro-fundo: #FFF8E6;
+  --ouro-borda: #E8D9A8;
 
   /* Superfícies — tom papel quente (editorial) */
   --bg:        #FBFAF8;
@@ -1009,9 +1011,12 @@ main:focus { outline: none; }
   color: var(--text-muted);
 }
 .mapa-legenda .chave { display: inline-flex; align-items: center; gap: 5px; }
-.mapa-legenda .chave i {
+.mapa-legenda .chave-cor {
+  /* Tamanho explícito: a amostra virou SVG e passou a ser alcançada por
+     `.figura svg { width: 100% }`, que a inflava de 13 para 40px. */
   width: 13px;
   height: 13px;
+  flex-shrink: 0;
   border-radius: 3px;
   border: 1px solid rgba(0, 0, 0, 0.12);
   display: inline-block;
@@ -1251,6 +1256,7 @@ main:focus { outline: none; }
 .texto-metodo {
   font-size: 0.95rem;
   line-height: 1.75;
+  color: var(--text);
   max-width: 75ch;
   margin-bottom: 14px;
 }
@@ -1299,3 +1305,307 @@ main:focus { outline: none; }
    visível é a contrapartida obrigatória — elemento alcançável sem indicação de
    onde o foco está é pior que elemento inalcançável. */
 .tabela-wrap:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+
+/* ============================================================
+   UTILITÁRIOS MÍNIMOS
+   ------------------------------------------------------------
+   Existem porque `style=` em atributo está proibido: a CSP deixou de aceitar
+   'unsafe-inline' em style-src, e sem essa diretiva um HTML injetado não
+   consegue mais trazer estilo próprio — que é o bastante para sobrepor
+   conteúdo falso a uma página, sem precisar de uma linha de script.
+
+   São 80 atributos convertidos. Duas normalizações deliberadas no caminho: o
+   campo de busca ia a 340px numa página e 360px em outra, e o espaçamento de
+   chips ora era 5px, ora 6px. Diferenças que ninguém decidiu.
+   ============================================================ */
+.t-forte { font-weight: 600; }
+.t-acento { color: var(--accent); }
+.atenuado { opacity: 0.85; }
+.cresce { flex: 1; }
+.pos-abs { position: absolute; }
+.sem-clique { cursor: default; }
+
+.linha { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.linha-larga { gap: 16px; }
+/* Sem `display`: o elemento já é flex por outra classe; aqui só se ajusta. */
+.linha-solta { gap: 10px; flex-wrap: wrap; align-items: center; }
+.coluna-controles {
+  flex-direction: column;
+  align-items: stretch;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.campo-largo { flex: 1 1 240px; max-width: 360px; }
+.estado-vazio { text-align: center; padding: 32px; color: var(--text-muted); }
+.rank-pos { color: var(--text-muted); width: 40px; }
+.rank-pos-larga { width: 52px; }
+.borda-ouro { border-left-color: var(--gold); }
+.borda-azul { border-left-color: var(--blue); }
+.destaque-ouro { background: var(--ouro-fundo); border-color: var(--ouro-borda); }
+
+.esp-t0 { margin-top: 0; }
+.esp-t6 { margin-top: 6px; }
+.esp-t10 { margin-top: 10px; }
+.esp-t12 { margin-top: 12px; }
+.esp-t24 { margin-top: 24px; }
+.esp-t28 { margin-top: 28px; }
+.esp-b6 { margin-bottom: 6px; }
+.esp-b12 { margin-bottom: 12px; }
+.esp-b14 { margin-bottom: 14px; }
+.esp-b24 { margin-bottom: 24px; }
+.esp-l0 { margin-left: 0; }
+
+
+/* ==========================================================
+   ESTILO DE PÁGINA
+   ----------------------------------------------------------
+   Estes blocos viviam em <style> dentro de cada template. Saíram de lá
+   para que a CSP pudesse fechar style-src: enquanto houvesse um <style>
+   na página, 'unsafe-inline' era obrigatório, e com ele qualquer HTML
+   injetado ganhava o direito de trazer o próprio estilo.
+   ========================================================== */
+
+/* ── api ─────────────────────────────────────────── */
+.texto-corrido { font-size: 0.92rem; line-height: 1.75; color: var(--text); max-width: 75ch; margin-bottom: 14px; }
+.bloco-codigo {
+  background: var(--navy); color: #E8EDF4; padding: 14px 16px; border-radius: 8px;
+  overflow-x: auto; font-size: 0.82rem; line-height: 1.6; max-width: 75ch;
+}
+.bloco-codigo code { font-family: var(--font-mono); }
+
+/* ── autor ─────────────────────────────────────────── */
+.autor-hero {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.autor-foto {
+  flex-shrink: 0;
+  width: 220px;
+}
+.autor-foto img {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: 50%;
+  border: 4px solid var(--blue);
+  box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+  display: block;
+}
+.autor-foto .lattes-link {
+  display: block;
+  text-align: center;
+  margin-top: 14px;
+  padding: 6px 0;
+  font-size: 0.82rem;
+  color: var(--blue);
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.autor-foto .lattes-link:hover { text-decoration: underline; }
+.autor-info { flex: 1; min-width: 260px; }
+.autor-info h2 {
+  font-size: 1.6rem;
+  color: var(--navy);
+  margin-bottom: 4px;
+  font-family: var(--font-display, 'Segoe UI', sans-serif);
+}
+.autor-info .titulo {
+  font-size: 0.95rem;
+  color: var(--blue);
+  font-weight: 600;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.autor-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+.autor-tag {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 0.82rem;
+  color: var(--navy);
+  font-weight: 600;
+}
+.autor-stats {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.autor-stat { text-align: center; }
+.autor-stat .num {
+  font-size: 1.6rem;
+  font-weight: 800;
+  color: var(--blue);
+  display: block;
+  line-height: 1;
+}
+.autor-stat .leg {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+  display: block;
+}
+
+.bio-section { margin-bottom: 28px; }
+.bio-section p {
+  font-size: 0.92rem;
+  line-height: 1.75;
+  color: var(--text);
+  margin-bottom: 14px;
+  text-align: justify;
+}
+
+/* Grade das áreas de atuação do autor. O nome mudou de .areas-grid porque a
+   home usa esse nome para outra coisa — a grade de cursos por área CINE — e as
+   duas passaram a dividir a mesma folha. */
+.areas-atuacao {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+.area-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--blue);
+  border-radius: 8px;
+  padding: 14px 16px;
+}
+.area-card h4 {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--navy);
+  margin-bottom: 6px;
+}
+.area-card ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+.contato-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 14px;
+    margin-bottom: 28px;
+  }
+  .contato-card {
+    display: flex; align-items: center; gap: 14px;
+    background: var(--surface); border: 1px solid var(--border);
+    border-left: 4px solid var(--blue); border-radius: 10px;
+    padding: 16px 18px; text-decoration: none; color: var(--text);
+    transition: transform 0.12s, box-shadow 0.12s, border-color 0.12s;
+  }
+  .contato-card:hover {
+    transform: translateY(-2px); text-decoration: none;
+    box-shadow: 0 6px 18px rgba(22,48,79,0.12); border-color: var(--blue);
+  }
+  .contato-icone { line-height: 1; color: var(--accent); display: inline-flex; }
+  .contato-icone .ic { width: 1.5rem; height: 1.5rem; }
+  .contato-rotulo {
+    display: block; font-size: 0.82rem; text-transform: uppercase;
+    letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 2px;
+  }
+  .contato-valor { display: block; font-size: 1rem; font-weight: 700; color: var(--navy); }
+
+/* ── aviso-legal ─────────────────────────────────────────── */
+.legal-wrap { max-width: 860px; }
+  .legal-wrap h2.section-title { margin-top: 30px; }
+  .legal-wrap p, .legal-wrap li { font-size: 0.92rem; line-height: 1.7; color: var(--text); }
+  .legal-wrap p { margin-bottom: 12px; }
+  .legal-wrap ul, .legal-wrap ol { padding-left: 22px; margin-bottom: 12px; }
+  .legal-wrap li { margin-bottom: 6px; }
+  .legal-callout {
+    background: var(--surface); border: 1px solid var(--border);
+    border-left: 4px solid var(--gold); border-radius: 8px;
+    padding: 16px 18px; margin: 18px 0; font-size: 0.9rem;
+  }
+  .legal-callout strong { color: var(--navy); }
+  .legal-cite {
+    background: #0f1d2e; color: #e8edf5; border-radius: 8px;
+    padding: 16px; font-family: var(--font-mono); font-size: 0.82rem;
+    line-height: 1.6; overflow-x: auto; white-space: pre-wrap;
+  }
+  .legal-lei { font-style: italic; color: var(--text-muted); font-size: 0.85rem; }
+  .legal-sello {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 12px 18px; font-size: 0.85rem; margin-top: 8px;
+  }
+  .legal-sello .sello-c { font-size: 1.6rem; color: var(--navy); font-weight: 700; }
+
+/* ── index ─────────────────────────────────────────── */
+.catalogo-controles {
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 22px;
+}
+.catalogo-controles input[type="search"] { flex: 1 1 260px; max-width: 420px; }
+.filtro-contador { font-size: 0.82rem; color: var(--text-muted); }
+.area-bloco { margin-bottom: 30px; }
+.area-titulo {
+  font-family: var(--font-serif); font-size: 1.32rem; color: var(--navy);
+  border-bottom: 1px solid var(--border); padding-bottom: 6px; margin: 0 0 14px;
+  display: flex; flex-wrap: wrap; gap: 10px; align-items: baseline;
+}
+.area-meta { font-family: var(--font-sans); font-size: 0.82rem; color: var(--text-muted); font-weight: 400; }
+.areas-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
+.catalogo-vazio { text-align: center; padding: 28px; color: var(--text-muted); }
+.curso-card {
+  display: block;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--blue);
+  border-radius: 10px;
+  padding: 18px 20px;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 0.12s, box-shadow 0.12s, border-color 0.12s;
+}
+.curso-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(22,48,79,0.12);
+  border-color: var(--accent);
+  text-decoration: none;
+}
+.curso-card h4 {
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  color: var(--navy);
+  margin: 0 0 4px;
+}
+.curso-area { font-size: 0.82rem; color: var(--text-muted); margin: 0 0 12px; }
+.curso-nums { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 0.82rem; color: var(--text-muted); }
+.curso-nums strong { color: var(--navy); font-variant-numeric: tabular-nums; }
+.curso-aviso { font-size: 0.82rem; color: var(--gold-texto); margin: 10px 0 0; font-weight: 600; }
+
+/* ── metodologia ─────────────────────────────────────────── */
+
+/* ── privacidade ─────────────────────────────────────────── */
+.texto-corrido { font-size: 0.92rem; line-height: 1.75; color: var(--text); max-width: 75ch; margin-bottom: 14px; }
+.lista-privacidade { max-width: 75ch; margin: 0 0 16px 1.1rem; padding: 0; }
+.lista-privacidade li { font-size: 0.92rem; line-height: 1.7; color: var(--text); margin-bottom: 8px; }
+
+/* ── rankings ─────────────────────────────────────────── */
+.rank-indice {
+  display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px;
+  padding: 12px; background: var(--surface); border: 1px solid var(--border);
+  border-radius: 8px;
+}
+.rank-indice a {
+  font-size: 0.82rem; padding: 4px 10px; border: 1px solid var(--border);
+  border-radius: 14px; text-decoration: none; color: var(--navy);
+}
+.rank-indice a:hover { background: var(--accent-soft); border-color: var(--accent); text-decoration: none; }
+.rank-bloco { margin-bottom: 34px; scroll-margin-top: 20px; }

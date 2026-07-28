@@ -54,8 +54,8 @@
     <tbody>
       {% for c in m.cursos %}
       <tr>
-        <td style="color:var(--text-muted);width:40px">{{ loop.index }}</td>
-        <th scope="row" style="font-weight:600">
+        <td class="rank-pos">{{ loop.index }}</td>
+        <th class="t-forte" scope="row">
           <a href="{{ depth }}curso/{{ c.slug }}/uf/{{ m.uf }}.html">{{ c.nome }}</a>
         </th>
         <td>{{ milhar(c.vagas) }}</td>

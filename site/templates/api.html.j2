@@ -10,7 +10,7 @@
 
 {% block content %}
 
-<h1 class="section-title" style="margin-bottom:6px">Dados abertos</h1>
+<h1 class="section-title esp-b6">Dados abertos</h1>
 <p class="texto-corrido">
   Todos os dados tratados estão disponíveis como JSON, no mesmo formato que alimenta
   as páginas. Não há chave, cota nem cadastro: são arquivos estáticos servidos pelo
@@ -34,7 +34,7 @@
     <tbody>
       {% for e in endpoints %}
       <tr>
-        <th scope="row" style="font-weight:600">
+        <th class="t-forte" scope="row">
           <a href="{{ depth }}{{ e.caminho }}"><code>/{{ e.caminho }}</code></a>
         </th>
         <td>{{ e.descricao }}</td>
@@ -70,13 +70,5 @@ curl -s {{ base_exemplo }}/api/v1/curso/farmacia/serie.json | jq '.anos'</code><
   ingerida). Campos ausentes são ausentes — nenhum vem preenchido por estimativa.
 </p>
 
-<style>
-.texto-corrido { font-size: 0.92rem; line-height: 1.75; color: var(--text); max-width: 75ch; margin-bottom: 14px; }
-.bloco-codigo {
-  background: var(--navy); color: #E8EDF4; padding: 14px 16px; border-radius: 8px;
-  overflow-x: auto; font-size: 0.82rem; line-height: 1.6; max-width: 75ch;
-}
-.bloco-codigo code { font-family: var(--font-mono); }
-</style>
 
 {% endblock %}
