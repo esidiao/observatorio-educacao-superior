@@ -1,6 +1,6 @@
 /* ============================================================
-   OBSERVATÓRIO NACIONAL DA FORMAÇÃO FARMACÊUTICA
-   Design Tokens — Seção 12 da especificação
+   OBSERVATÓRIO NACIONAL DA EDUCAÇÃO SUPERIOR
+   Tokens de design
    ============================================================ */
 :root {
   /* Cores institucionais */
@@ -1104,8 +1104,14 @@ main:focus { outline: none; }
     margin-top: 6px;
   }
 
-  /* ── Alvos de toque ───────────────────────────────────────────────────── */
   .navbar { gap: 4px 8px; }
+}
+
+/* Alvos de toque e piso tipográfico valem até 1024px, e não só no celular: um
+   tablet é operado com o dedo e segurado à mesma distância. As regras de figura
+   ficaram acima, restritas a 720px, porque só lá a figura não cabe na tela. */
+@media (max-width: 1024px) {
+  /* ── Alvos de toque ───────────────────────────────────────────────────── */
   .navbar a, .nav-menu a {
     display: inline-flex;
     align-items: center;
@@ -1124,7 +1130,12 @@ main:focus { outline: none; }
   select, input[type="text"], input[type="search"], input[type="number"] {
     min-height: 42px;
   }
-  main td a, main th a, .figura-nota a, footer a { padding: 5px 0; display: inline-block; }
+  /* O critério 2.5.8 isenta link dentro de frase — ali o alvo pequeno é
+     consequência do texto, não descuido. Mas link que É o item, sozinho numa
+     linha de lista ou numa célula, é botão com outra roupa e vale a regra. */
+  main td a, main th a, .figura-nota a, footer a,
+  li > a:only-child, p > a:only-child,
+  .lista-contato a { padding: 5px 0; display: inline-block; }
   .export-barra .btn { min-height: 36px; }
 
   /* ── Piso tipográfico ─────────────────────────────────────────────────── */
@@ -1135,7 +1146,12 @@ main:focus { outline: none; }
   .area-meta, .gloss-meta, .glossario-cat-titulo, .header-tag,
   .hero-eyebrow, .figura-nota, .mapa-nota, .mapa-legenda,
   .export-rotulo, .chips-vazio, .scroll-hint, .site-footer,
-  .seletor-curso-rotulo, .filtro-contador { font-size: 0.82rem; }
+  .seletor-curso-rotulo, .filtro-contador,
+  .badge, .barra-nome, .barra-valor, .comp-sub, .comp-sugestoes,
+  .contador-visitas, .export-erro, .kpi-card.kpi-clicavel::after,
+  .kpi-grupo-titulo, .livro-banner, .nodata-cell, .prov-badge,
+  .uf-navegacao-rotulo, .update-bar, .curso-sugestoes .meta,
+  .curso-sugestoes .vazio, .swot-card h3 { font-size: 0.82rem; }
   .site-footer p, .site-footer a { font-size: 0.82rem; }
   table { font-size: 0.85rem; }
 }
@@ -1155,7 +1171,7 @@ main:focus { outline: none; }
    conteúdo começar — um terço da tela de um celular gasto em navegação. Numa
    faixa rolável ele volta a uma linha; o teclado continua alcançando todos os
    itens, porque o navegador rola o foco para dentro da vista. */
-@media (max-width: 720px) {
+@media (max-width: 1024px) {
   .navbar { flex-wrap: nowrap; align-items: center; padding: 4px 12px; }
   .breadcrumb-trail { flex-shrink: 0; }
   .nav-menu {
@@ -1171,3 +1187,81 @@ main:focus { outline: none; }
   .nav-menu::-webkit-scrollbar { display: none; }
   .nav-menu a { white-space: nowrap; }
 }
+
+/* ============================================================
+   TIPOGRAFIA DE APOIO
+   ------------------------------------------------------------
+   Estas classes substituíram 69 atributos `style` espalhados pelos templates.
+   O motivo não é asseio: atributo vence folha de estilo, e enquanto o tamanho
+   do texto morava lá, o piso tipográfico do celular valia para o site inteiro
+   menos para esses 69 elementos. De quebra, o mesmo parágrafo de abertura
+   aparecia com seis margens inferiores diferentes — variação que ninguém
+   decidiu, e que a classe única encerra.
+   ============================================================ */
+
+/* Abertura de seção: diz o que a seção mostra, antes dos números. */
+.secao-intro {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  max-width: 75ch;
+  margin-bottom: 16px;
+}
+
+/* Nota de fonte, ressalva, carimbo de data. */
+.nota-fonte { font-size: 0.82rem; color: var(--text-muted); }
+.nota-fonte-separada {
+  margin-top: 20px;
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+}
+
+/* Rótulo de campo em barra de filtros. */
+.rotulo-campo { font-size: 0.875rem; font-weight: 600; color: var(--navy); }
+
+/* Prosa longa: metodologia e páginas temáticas. A medida de 75ch existe
+   porque linha longa demais faz o olho perder o começo da seguinte. */
+.texto-metodo {
+  font-size: 0.95rem;
+  line-height: 1.75;
+  max-width: 75ch;
+  margin-bottom: 14px;
+}
+.texto-explicativo {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--text);
+  max-width: 75ch;
+  margin-bottom: 14px;
+}
+.texto-explicativo-folgado { margin-bottom: 28px; }
+.texto-explicativo-recuado { line-height: 1.8; margin-bottom: 28px; padding-left: 20px; }
+
+.subtitulo-serif {
+  font-family: var(--font-serif);
+  font-size: 1.1rem;
+  color: var(--navy);
+  margin: 0 0 8px;
+}
+.numero-destaque { font-size: 1.5rem; color: var(--navy); margin-bottom: 4px; }
+.texto-menor { font-size: 0.86rem; }
+
+/* Registro de anterioridade: ficha da obra e impressões digitais. O bloco de
+   hash quebra no meio da palavra de propósito — são 64 caracteres sem espaço,
+   e sem a quebra ele estouraria a largura da tela em qualquer celular. */
+.registro-grade {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 6px 14px;
+  font-size: 0.86rem;
+}
+.hash-bloco {
+  display: block;
+  background: #0F1D2E;
+  color: #CDD8EA;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-size: 0.82rem;
+  word-break: break-all;
+}
+.hash-bloco-raiz { color: #7FE0A8; }
+.uf-tag-grande { font-size: 1rem; padding: 4px 12px; }

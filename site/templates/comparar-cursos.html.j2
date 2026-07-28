@@ -17,22 +17,22 @@
 </nav>
 
 <h1 class="section-title" style="margin-bottom:6px">Comparação entre cursos</h1>
-<p style="font-size:0.9rem;color:var(--text-muted);margin-bottom:20px;max-width:75ch">
+<p class="secao-intro">
   A mesma régua aplicada a cursos diferentes. Escolha o recorte territorial — Brasil
   ou uma UF — e os indicadores que quer confrontar. Indicadores sem fonte para um
   curso aparecem como <span class="sem-dado">sem dados</span>, nunca como zero.
 </p>
 
 <div class="toolbar" style="gap:10px;margin-bottom:14px;align-items:center;flex-wrap:wrap">
-  <label for="sel-uf" style="font-weight:600;color:var(--navy);font-size:0.875rem">Recorte:</label>
-  <select id="sel-uf" style="font-size:0.875rem"></select>
+  <label class="rotulo-campo" for="sel-uf">Recorte:</label>
+  <select class="texto-menor" id="sel-uf"></select>
   <span style="flex:1"></span>
   <button type="button" class="btn outline btn-mini" id="btn-csv-comp">↓ CSV</button>
 </div>
 
 <div class="toolbar" style="flex-direction:column;align-items:stretch;gap:10px;margin-bottom:20px">
   <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-    <label style="font-weight:600;color:var(--navy);font-size:0.875rem" for="busca-curso">Cursos:</label>
+    <label class="rotulo-campo" for="busca-curso">Cursos:</label>
     <input type="search" id="busca-curso" autocomplete="off"
            placeholder="Adicionar curso…" aria-label="Buscar curso para comparar"
            style="flex:1 1 240px;max-width:340px">
@@ -43,8 +43,8 @@
   <div id="curso-sugestoes-comp" class="comp-sugestoes" hidden></div>
   <div id="curso-chips" style="display:flex;flex-wrap:wrap;gap:6px"></div>
   <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
-    <label style="font-weight:600;color:var(--navy);font-size:0.875rem">Indicadores:</label>
-    <span id="kpi-contador" style="font-size:0.78rem;color:var(--text-muted)"></span>
+    <label class="rotulo-campo">Indicadores:</label>
+    <span class="nota-fonte" id="kpi-contador"></span>
     <span style="flex:1"></span>
     <button type="button" class="btn outline btn-mini" data-preset="Território">Território</button>
     <button type="button" class="btn outline btn-mini" data-preset="Qualidade">Qualidade</button>
@@ -68,7 +68,7 @@
 </div>
 
 <h2 class="section-title" style="margin-top:28px">Perfil relativo (normalizado)</h2>
-<p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:12px;max-width:75ch">
+<p class="nota-fonte">
   Cada barra vai de 0 a 1, onde <strong>1 = melhor entre os cursos comparados</strong>
   neste recorte. Indicadores "menor é melhor" são invertidos; os contextuais seguem a
   própria escala. Serve para ver formato, não para ranquear cursos entre si —

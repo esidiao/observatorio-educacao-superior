@@ -13,7 +13,7 @@
 <h1 class="section-title">Metodologia</h1>
 
 <h2 class="section-title" style="margin-top:24px">Princípio inegociável</h2>
-<p style="font-size:0.95rem;line-height:1.75;max-width:75ch;margin-bottom:14px">
+<p class="texto-metodo">
   Nenhum indicador é estimado, interpolado ou preenchido por analogia. Quando não há
   fonte oficial para um recorte, o valor é <code>null</code> e aparece na tela como
   <span class="sem-dado">sem dados</span>. Um vazio explicado é mais útil — e mais
@@ -39,7 +39,7 @@
 </div>
 
 <h2 class="section-title">Seleção dos cursos</h2>
-<p style="font-size:0.95rem;line-height:1.75;max-width:75ch;margin-bottom:14px">
+<p class="texto-metodo">
   Cada curso é identificado pelo rótulo <strong>CINE</strong> do Censo, com
   correspondência <strong>exata</strong> — nunca por trecho de texto. A distinção
   importa: buscar "Medicina" por substring capturaria também "Biomedicina" e
@@ -48,7 +48,7 @@
 </p>
 
 <h2 class="section-title">Tratamento da modalidade a distância</h2>
-<p style="font-size:0.95rem;line-height:1.75;max-width:75ch;margin-bottom:14px">
+<p class="texto-metodo">
   No Censo, a EaD aparece em duas camadas que não podem ser somadas ingenuamente:
   as linhas de <strong>sede</strong> carregam as vagas autorizadas mas não têm UF
   própria; as linhas de <strong>polo</strong> carregam as matrículas distribuídas por
@@ -56,7 +56,7 @@
   mantenedora (via cadastro de IES) e o alcance territorial da EaD é medido pelos
   polos, em indicador separado.
 </p>
-<p style="font-size:0.95rem;line-height:1.75;max-width:75ch;margin-bottom:14px">
+<p class="texto-metodo">
   Por consequência, <strong>"municípios com oferta" conta apenas oferta presencial</strong>.
   Um polo EaD não equivale a um campus, e somar os dois num único número inflaria a
   leitura de cobertura territorial. Os municípios alcançados por polo aparecem em
@@ -82,7 +82,7 @@
     </tbody>
   </table>
 </div>
-<p style="font-size:0.88rem;color:var(--text-muted);max-width:75ch;margin:12px 0 14px">
+<p class="secao-intro">
   As médias de qualidade por UF são <strong>ponderadas pelos concluintes participantes</strong>
   de cada curso: um curso com 300 concluintes não pode pesar igual a um com 8.
   O denominador de V é a capacidade total (presencial + EaD), o mesmo universo coberto
@@ -90,7 +90,7 @@
 </p>
 
 <h2 class="section-title">Ciclo ENADE</h2>
-<p style="font-size:0.95rem;line-height:1.75;max-width:75ch;margin-bottom:14px">
+<p class="texto-metodo">
   O ENADE é trienal e reveza as áreas avaliadas. Um curso fora do ciclo publicado não
   recebe conceitos aqui, e sem conceitos o IAF não é calculado. Isso é esperado e
   explícito, não uma falha de coleta.
@@ -112,7 +112,7 @@
 </div>
 
 <h2 class="section-title" style="margin-top:24px">Limites de leitura</h2>
-<ul style="font-size:0.92rem;line-height:1.8;max-width:75ch;color:var(--text);margin-bottom:28px;padding-left:20px">
+<ul class="texto-explicativo texto-explicativo-recuado">
   <li>Comparar cursos revela padrões estruturais, não hierarquia de mérito entre carreiras.</li>
   <li>A taxa de conclusão é um retrato pontual (concluintes / matriculados no ano), não o acompanhamento de uma coorte.</li>
   <li>Vagas EaD ficam na UF-sede da mantenedora: elas medem capacidade autorizada, não presença local.</li>

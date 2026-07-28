@@ -11,13 +11,13 @@
 {% block content %}
 
 <h1 class="section-title" style="margin-bottom:6px">A educação superior pelas cinco regiões</h1>
-<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:8px">
+<p class="secao-intro">
   A desigualdade regional é a moldura de quase toda discussão sobre acesso ao ensino
   superior no Brasil. Esta página soma os {{ n_cursos }} cursos do catálogo por
   região, para que a comparação seja possível sem precisar montá-la de cabeça a
   partir das 27 unidades federativas.
 </p>
-<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:22px">
+<p class="secao-intro">
   <strong>Uma ressalva que muda a leitura:</strong> as vagas a distância são
   registradas na sede da mantenedora. Regiões que concentram mantenedoras de EaD
   aparecem grandes em capacidade mesmo quando os estudantes estão em outras. Onde
@@ -112,8 +112,8 @@
 <div class="areas-grid">
   {% for r in regioes %}
   <div class="curso-card" style="cursor:default">
-    <h3 style="font-family:var(--font-serif);font-size:1.1rem;color:var(--navy);margin:0 0 8px">{{ r.nome }}</h3>
-    <p style="font-size:0.8rem;color:var(--text-muted);margin:0 0 10px">
+    <h3 class="subtitulo-serif">{{ r.nome }}</h3>
+    <p class="nota-fonte">
       {{ r.ufs|length }} unidades federativas
     </p>
     <div style="display:flex;flex-wrap:wrap;gap:5px">

@@ -15,7 +15,7 @@
 {% block content %}
 
 <h1 class="section-title" style="margin-bottom:6px">Instituições</h1>
-<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:20px">
+<p class="secao-intro">
   As {{ total }} instituições que ofertam algum dos cursos acompanhados. Os números
   de cada uma cobrem apenas esses cursos, não toda a sua atividade — e o corpo
   docente e o IGC, ao contrário, são sempre da instituição inteira.
@@ -70,7 +70,7 @@
           <a href="instituicao/{{ i.co_ies }}.html">{{ i.nome }}</a>
         </th>
         <td>{{ i.rede }}</td>
-        <td style="font-size:0.82rem">{{ i.organizacao or '—' }}</td>
+        <td class="texto-menor">{{ i.organizacao or '—' }}</td>
         <td>{{ i.uf_sede or '—' }}</td>
         <td>{{ milhar(i.matriculas) }}</td>
         <td>{{ i.n_cursos_catalogo }}</td>

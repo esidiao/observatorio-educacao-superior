@@ -112,6 +112,67 @@ def test_sem_recursos_externos():
                 falhas.append(f"{arq.name}:{n}: @import externo no CSS")
 
 
+PISO_REM = 0.82   # 13,1px com raiz de 16px
+
+
+def test_piso_tipografico():
+    """Nenhum texto abaixo de 13px, e nenhum tamanho preso em atributo.
+
+    As duas metades desta checagem são a mesma coisa vista de dois lados. O
+    piso de ~13px veio de medir o site num aparelho de 375px, onde o texto de
+    apoio saía entre 10,9px e 12,5px. E `style=` em atributo vence qualquer
+    folha de estilo, inclusive a media query que estabelece esse piso — foi
+    exatamente assim que 69 elementos escaparam da primeira correção. Um
+    tamanho que mora no atributo é um tamanho que ninguém consegue ajustar
+    depois; por isso ele é barrado aqui, e não só o valor pequeno.
+    """
+    em_atributo = re.compile(r'style="[^"]*font-size:\s*([0-9.]+)rem')
+    em_bloco = re.compile(r"([^{}]+)\{[^{}]*font-size:\s*([0-9.]+)rem")
+    for arq in sorted(TEMPLATES.glob("*.j2")):
+        texto = arq.read_text(encoding="utf-8")
+        for n, linha in enumerate(texto.splitlines(), 1):
+            if em_atributo.search(linha):
+                falhas.append(f"{arq.name}:{n}: font-size em atributo style — "
+                              f"vence a folha de estilo e escapa do piso do celular")
+        for bloco in re.findall(r"<style>(.*?)</style>", texto, re.S):
+            for seletor, valor in em_bloco.findall(bloco):
+                if float(valor) < PISO_REM:
+                    falhas.append(f"{arq.name}: {seletor.strip()[:40]} usa "
+                                  f"{valor}rem, abaixo do piso de {PISO_REM}rem")
+    # Na folha principal o piso não vale para toda largura: no desktop, texto de
+    # apoio menor é legítimo. O que não pode é um seletor ficar pequeno E não ser
+    # elevado pela media query do celular. Então a checagem é relacional — quais
+    # seletores a media query resgata, e quais ficaram de fora dela.
+    for arq in sorted(STATIC.glob("**/*.css")):
+        # Comentário grudado no seletor seguinte vira parte do nome e faz a
+        # comparação falhar sem que nada esteja errado na folha.
+        folha = re.sub(r"/\*.*?\*/", "", arq.read_text(encoding="utf-8"), flags=re.S)
+        resgatados = set()
+        for m in re.finditer(r"@media \(max-width: (\d+)px\)\s*\{", folha):
+            if int(m.group(1)) < 600:      # blocos de ajuste fino, não o piso
+                continue
+            corpo, nivel, i = "", 1, m.end()
+            while i < len(folha) and nivel:
+                nivel += (folha[i] == "{") - (folha[i] == "}")
+                corpo += folha[i]
+                i += 1
+            for seletor, valor in em_bloco.findall(corpo):
+                if float(valor) >= PISO_REM:
+                    resgatados.update(s.strip() for s in seletor.split(","))
+        for seletor, valor in em_bloco.findall(folha):
+            partes = [s.strip() for s in seletor.split(",")]
+            if float(valor) >= PISO_REM:
+                continue
+            # As figuras têm tipografia própria, em unidades do viewBox.
+            if "figura" in seletor:
+                continue
+            orfas = [s for s in partes if s and not s.startswith("/*")
+                     and s not in resgatados]
+            if orfas:
+                falhas.append(f"{arq.name}: {orfas[0][:40]} usa {valor}rem e a "
+                              f"media query do celular não o eleva ao piso")
+
+
 def test_sem_rastreamento():
     """Sem cookies, sem storage, sem analytics — a base da declaração de LGPD."""
     proibidos = {
@@ -217,6 +278,7 @@ def main():
     test_sem_credencial_versionada()
     test_acessibilidade_base()
     test_contraste_tokens()
+    test_piso_tipografico()
 
     if falhas:
         print(f"[FALHOU] {len(falhas)} problema(s) de segurança/acessibilidade:\n")

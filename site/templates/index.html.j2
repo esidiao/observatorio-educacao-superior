@@ -29,7 +29,7 @@
 </section>
 
 <h2 class="section-title">Painel executivo</h2>
-<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:16px">
+<p class="secao-intro">
   O sistema de educação superior brasileiro em números, nos recortes que este
   observatório consegue sustentar com fonte oficial.
 </p>
@@ -89,7 +89,7 @@
 {% endif %}
 
 <h2 class="section-title" id="catalogo">Cursos no observatório</h2>
-<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:16px">
+<p class="secao-intro">
   Todos os {{ resumo_cursos|length }} rótulos CINE do Censo, agrupados pela área geral
   da classificação. A lista é o que o Censo declara — inclusive cursos minúsculos, que
   aparecem com os números que têm.
@@ -136,13 +136,13 @@
 <p id="catalogo-vazio" class="catalogo-vazio" hidden>Nenhum curso corresponde ao filtro.</p>
 
 <h2 class="section-title">O que este observatório não faz</h2>
-<p style="font-size:0.92rem;line-height:1.7;color:var(--text);max-width:75ch;margin-bottom:14px">
+<p class="texto-explicativo">
   Não estima. Quando não existe fonte oficial para um recorte, o indicador aparece
   como <span class="sem-dado">sem dados</span> — nunca como zero nem como uma média
   plausível. O ENADE é trienal e reveza as áreas avaliadas, então cursos fora do
   ciclo vigente simplesmente não têm indicadores de qualidade aqui.
 </p>
-<p style="font-size:0.92rem;line-height:1.7;color:var(--text);max-width:75ch;margin-bottom:28px">
+<p class="texto-explicativo texto-explicativo-folgado">
   Também não trata áreas diferentes como se fossem comparáveis em tudo. A comparação
   entre cursos serve para revelar padrões estruturais — concentração, migração para
   EaD, cobertura territorial —, não para ordenar carreiras por mérito.
@@ -153,14 +153,14 @@
   display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 22px;
 }
 .catalogo-controles input[type="search"] { flex: 1 1 260px; max-width: 420px; }
-.filtro-contador { font-size: 0.8rem; color: var(--text-muted); }
+.filtro-contador { font-size: 0.82rem; color: var(--text-muted); }
 .area-bloco { margin-bottom: 30px; }
 .area-titulo {
-  font-family: var(--font-serif); font-size: 1.05rem; color: var(--navy);
+  font-family: var(--font-serif); font-size: 1.32rem; color: var(--navy);
   border-bottom: 1px solid var(--border); padding-bottom: 6px; margin: 0 0 14px;
   display: flex; flex-wrap: wrap; gap: 10px; align-items: baseline;
 }
-.area-meta { font-family: var(--font-sans); font-size: 0.76rem; color: var(--text-muted); font-weight: 400; }
+.area-meta { font-family: var(--font-sans); font-size: 0.82rem; color: var(--text-muted); font-weight: 400; }
 .areas-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 14px; }
 .catalogo-vazio { text-align: center; padding: 28px; color: var(--text-muted); }
 .curso-card {
@@ -186,10 +186,10 @@
   color: var(--navy);
   margin: 0 0 4px;
 }
-.curso-area { font-size: 0.76rem; color: var(--text-muted); margin: 0 0 12px; }
+.curso-area { font-size: 0.82rem; color: var(--text-muted); margin: 0 0 12px; }
 .curso-nums { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 0.82rem; color: var(--text-muted); }
 .curso-nums strong { color: var(--navy); font-variant-numeric: tabular-nums; }
-.curso-aviso { font-size: 0.74rem; color: var(--gold-texto); margin: 10px 0 0; font-weight: 600; }
+.curso-aviso { font-size: 0.82rem; color: var(--gold-texto); margin: 10px 0 0; font-weight: 600; }
 </style>
 
 {% endblock %}

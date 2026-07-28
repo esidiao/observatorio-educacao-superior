@@ -13,13 +13,13 @@
 {% block content %}
 
 <div style="display:flex;align-items:center;gap:16px;margin-bottom:24px;flex-wrap:wrap">
-  <h1 style="font-size:1.5rem;color:var(--navy)">{{ meta.curso }} em {{ nome_uf }}</h1>
-  <span class="uf-tag" style="font-size:1rem;padding:4px 12px">{{ sigla }}</span>
-  <span style="font-size:0.82rem;color:var(--text-muted)">{{ d.regiao }} · capital {{ d.capital }}</span>
+  <h1 class="numero-destaque">{{ meta.curso }} em {{ nome_uf }}</h1>
+  <span class="uf-tag uf-tag-grande">{{ sigla }}</span>
+  <span class="nota-fonte">{{ d.regiao }} · capital {{ d.capital }}</span>
   <span style="flex:1"></span>
-  <button type="button" class="btn outline" id="btn-json-uf"
+  <button type="button" id="btn-json-uf"
           data-arquivo="{{ meta.slug }}_{{ sigla }}.json"
-          style="font-size:0.8rem;padding:6px 12px">↓ JSON</button>
+          class="btn outline btn-mini">↓ JSON</button>
 </div>
 
 {# Sem isto, a página de UF é um beco: dá para entrar e só voltar. #}
@@ -84,7 +84,7 @@
 
 <h2 class="section-title">Qualidade avaliada</h2>
 {% if d.ENADE is none %}
-<p style="font-size:0.9rem;color:var(--text-muted);margin-bottom:24px">
+<p class="secao-intro">
   <strong>Sem dados de qualidade para {{ meta.curso }}.</strong>
   O ENADE é trienal e reveza as áreas de avaliação; o ciclo aplicável a este curso
   ainda não foi publicado pelo INEP. Nenhum conceito é estimado.

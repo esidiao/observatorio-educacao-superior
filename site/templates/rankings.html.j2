@@ -11,13 +11,13 @@
 {% block content %}
 
 <h1 class="section-title" style="margin-bottom:6px">Rankings</h1>
-<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:8px">
+<p class="secao-intro">
   Cada lista declara <strong>por qual campo ordena</strong>. Isso não é formalidade:
   ranking sem régua explícita é a forma mais fácil de enganar com dado verdadeiro —
   "a maior universidade do país" muda inteiramente conforme a régua seja matrícula,
   vaga, número de cursos ou corpo docente, e as quatro respostas são diferentes.
 </p>
-<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:24px">
+<p class="secao-intro">
   Não há ranking de qualidade agregada, e a ausência é deliberada. Só 28 dos
   {{ n_cursos }} cursos têm ciclo ENADE publicado; ordenar instituições por uma nota
   que existe para uma fração da oferta produziria um pódio que diz mais sobre quem foi
@@ -57,7 +57,7 @@
           </th>
           {% if r.tipo == 'ies' %}<td>{{ i.rede or '—' }}</td><td>{{ i.uf_sede or '—' }}</td>{% endif %}
           {% if r.tipo == 'municipio' %}<td>{{ i.uf }}</td>{% endif %}
-          {% if r.tipo == 'curso' %}<td style="font-size:0.82rem;color:var(--text-muted)">{{ i.area_cine or '—' }}</td>{% endif %}
+          {% if r.tipo == 'curso' %}<td class="nota-fonte">{{ i.area_cine or '—' }}</td>{% endif %}
           <td>{% if r.casas %}{{ fmt1(i.valor) }}{% else %}{{ milhar(i.valor) }}{% endif %}</td>
         </tr>
         {% endfor %}
@@ -74,7 +74,7 @@
   border-radius: 8px;
 }
 .rank-indice a {
-  font-size: 0.78rem; padding: 4px 10px; border: 1px solid var(--border);
+  font-size: 0.82rem; padding: 4px 10px; border: 1px solid var(--border);
   border-radius: 14px; text-decoration: none; color: var(--navy);
 }
 .rank-indice a:hover { background: var(--accent-soft); border-color: var(--accent); text-decoration: none; }

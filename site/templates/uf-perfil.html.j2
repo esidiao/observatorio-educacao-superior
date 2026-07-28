@@ -67,7 +67,7 @@
 
 {% if fluxo %}
 <h2 class="section-title">Trajetória dos estudantes</h2>
-<p style="font-size:0.9rem;color:var(--text-muted);max-width:75ch;margin-bottom:14px">
+<p class="secao-intro">
   Estes são os <strong>únicos indicadores do observatório que acompanham as mesmas
   pessoas ao longo do tempo</strong>. Todo o resto do site vem do Censo, que é um
   retrato anual de estoque e por isso não permite falar em evasão. Aqui o INEP segue
@@ -154,7 +154,7 @@
         <th scope="row" style="font-weight:600">
           <a href="{{ depth }}curso/{{ c.slug }}/uf/{{ sigla }}.html">{{ c.nome }}</a>
         </th>
-        <td style="font-size:0.82rem;color:var(--text-muted)">{{ c.area }}</td>
+        <td class="nota-fonte">{{ c.area }}</td>
         <td>{{ milhar(c.vagas) }}</td>
         <td>{{ milhar(c.matriculas) }}</td>
       </tr>
