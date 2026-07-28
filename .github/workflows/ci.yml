@@ -48,6 +48,17 @@ jobs:
       - name: "Conferir o site gerado"
         run: python tests/test_site_gerado.py
 
+      # O portão de layout precisa de um navegador. Fica depois do build porque
+      # mede o HTML publicado, não o template — é a diferença entre conferir a
+      # receita e provar a comida.
+      - name: "Instalar navegador de teste"
+        run: |
+          pip install -r requirements-dev.txt
+          python -m playwright install --with-deps chromium
+
+      - name: "Layout e acessibilidade em três larguras"
+        run: python tests/test_viewport.py
+
   publicar:
     # Só publica o que passou por todos os portões, e só a partir da main.
     needs: validar-e-construir

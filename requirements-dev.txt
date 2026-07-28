@@ -1,0 +1,14 @@
+# Dependências apenas de teste. Nada aqui chega ao site publicado: o observatório
+# continua sendo HTML, CSS e JS servidos do próprio domínio, sem dependência em
+# tempo de execução. Estas bibliotecas existem para MEDIR o resultado.
+-r requirements.txt
+
+# Navegador de verdade para o portão de layout (tests/test_viewport.py). Os
+# outros portões leem texto; sem um motor de layout não há como ver alvo de
+# toque pequeno, transbordo horizontal ou figura reduzida a ponto de apagar os
+# próprios rótulos.
+playwright>=1.44
+
+# Regras de acessibilidade que só existem no DOM montado: papéis, ordem de
+# foco, contraste calculado sobre o fundo real e não sobre o token.
+axe-core-python>=0.1

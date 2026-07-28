@@ -287,6 +287,15 @@ main { padding: 24px 32px; max-width: 1280px; margin: 0 auto; }
   font-variant-numeric: tabular-nums;
 }
 
+/* "% Pretos/pardos/indígenas" é uma palavra só para o navegador: ele não quebra
+   em barra. O rótulo transbordava o cartão de 138px com 183px de texto, o cartão
+   transbordava a grade, a grade transbordava o main, e a PÁGINA rolava 12px para
+   o lado no tablet. `anywhere` também deixa a trilha da grade encolher, que é a
+   metade da correção que não se vê. */
+.kpi-card .kpi-label, .kpi-card .kpi-fonte, .kpi-card .kpi-valor {
+  overflow-wrap: anywhere;
+}
+
 .kpi-card .kpi-label {
   font-size: 0.72rem;
   color: var(--text-muted);
@@ -642,6 +651,12 @@ tbody td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-a
   text-align: center;
   margin-top: 40px;
 }
+/* Link do rodapé herdava o azul institucional, escrito sobre o azul-marinho do
+   próprio rodapé: 1,4:1 onde o mínimo é 4,5:1. Sublinhado porque, num bloco
+   inteiro de texto claro, só a cor não distingue o que é clicável. */
+.site-footer a { color: #FFFFFF; text-decoration: underline; }
+.site-footer a:hover { color: var(--gold, #D9A94A); }
+
 .contador-visitas {
   margin-top: 10px;
   font-size: 0.72rem;
@@ -1135,7 +1150,14 @@ main:focus { outline: none; }
      linha de lista ou numa célula, é botão com outra roupa e vale a regra. */
   main td a, main th a, .figura-nota a, footer a,
   li > a:only-child, p > a:only-child,
-  .lista-contato a { padding: 5px 0; display: inline-block; }
+  .lista-contato a, .rank-indice a {
+    padding: 5px 0;
+    display: inline-block;
+    /* Municípios como Itu, Jaú e Icó davam alvos de 17 a 21px de largura: o
+       link tem a largura exata da palavra. A altura já vinha do padding; a
+       largura mínima fecha os dois lados do critério. */
+    min-width: 24px;
+  }
   .export-barra .btn { min-height: 36px; }
 
   /* ── Piso tipográfico ─────────────────────────────────────────────────── */
@@ -1175,6 +1197,12 @@ main:focus { outline: none; }
   .navbar { flex-wrap: nowrap; align-items: center; padding: 4px 12px; }
   .breadcrumb-trail { flex-shrink: 0; }
   .nav-menu {
+    /* Sem flex:1 1 0 e min-width:0, o menu não encolhe abaixo do seu conteúdo
+       intrínseco: o contêiner rola por dentro, mas continua reservando a
+       largura de todos os 12 destinos, e o excedente empurra a PÁGINA para o
+       lado. Era esse o transbordo de 12px no tablet. */
+    flex: 1 1 0;
+    min-width: 0;
     flex-wrap: nowrap;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -1265,3 +1293,9 @@ main:focus { outline: none; }
 }
 .hash-bloco-raiz { color: #7FE0A8; }
 .uf-tag-grande { font-size: 1rem; padding: 4px 12px; }
+
+/* Contêiner de tabela que rola na horizontal: recebeu tabindex para que a
+   rolagem exista também no teclado (axe: scrollable-region-focusable). Foco
+   visível é a contrapartida obrigatória — elemento alcançável sem indicação de
+   onde o foco está é pior que elemento inalcançável. */
+.tabela-wrap:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }

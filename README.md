@@ -56,6 +56,8 @@ tests/
   test_catalogo.py   Coerência entre GLOSSARIO e INDICADOR_META
   test_seguranca.py  CSP, JS inline, recursos externos, rastreio, contraste AA
   test_site_gerado.py  Cobertura de páginas e invariantes do HTML publicado
+test_viewport.py     Layout medido em navegador: transbordo, alvo de toque,
+                     piso tipográfico, escala das figuras e axe-core
 ```
 
 ## Rodar localmente
@@ -89,6 +91,7 @@ python tests/test_validacao.py
 python tests/test_catalogo.py
 python tests/test_seguranca.py
 python tests/test_site_gerado.py   # depois de gerar o site
+python tests/test_viewport.py      # idem; exige requirements-dev.txt
 ```
 
 ### Gerar o site

@@ -100,7 +100,7 @@
 </div>
 {% endif %}
 
-<div class="tabela-wrap">
+<div class="tabela-wrap" tabindex="0">
   <table>
     <caption class="sr-only">Taxas de coorte por recorte demográfico, coorte {{ ultima }}.</caption>
     <thead>
@@ -138,7 +138,7 @@
 </div>
 
 <h2 class="section-title">Cursos com maior capacidade no estado</h2>
-<div class="tabela-wrap">
+<div class="tabela-wrap" tabindex="0">
   <table>
     <caption class="sr-only">Cursos ordenados por vagas em {{ nome_uf }}.</caption>
     <thead>
@@ -168,7 +168,7 @@
 
 {% if municipios %}
 <h2 class="section-title">Municípios com oferta ({{ municipios|length }})</h2>
-<div class="tabela-wrap">
+<div class="tabela-wrap" tabindex="0">
   <table>
     <caption class="sr-only">Municípios de {{ nome_uf }} com oferta presencial.</caption>
     <thead>
