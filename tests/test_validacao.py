@@ -222,6 +222,66 @@ def test_series_agregadas():
                f"{vazios[:3]}")
 
 
+def test_perfil_municipal():
+    """População do IBGE e contagem exata de instituições.
+
+    A checagem que importa é de concordância entre dois caminhos independentes.
+    `data/municipios_ies.json` lê o microdado direto; o pipeline principal
+    agrega por curso e depois soma os municípios. As matrículas têm de bater
+    município a município — e batem nos 1.119. Se um dia divergirem, é porque
+    um dos dois passou a contar linha que o outro não conta, e o número que a
+    página mostra deixou de ter uma única definição.
+
+    Também se cobra que a contagem exata nunca seja MENOR que o piso antigo
+    (`n_ies_minimo`, o maior valor entre os cursos). O piso é, por construção,
+    um limite inferior: se a contagem exata ficar abaixo dele, o erro está na
+    contagem, não no piso.
+    """
+    caminho = REPO / "data" / "municipios_ies.json"
+    if not caminho.exists():
+        return                       # camada opcional
+    exato = json.loads(caminho.read_text(encoding="utf-8"))["municipios"]
+
+    pop_caminho = REPO / "data" / "populacao_municipios.json"
+    if pop_caminho.exists():
+        pop = json.loads(pop_caminho.read_text(encoding="utf-8"))
+        checar(len(pop["municipios"]) > 5000,
+               f"população de só {len(pop['municipios'])} municípios "
+               f"(esperados ~5.570)")
+        checar(str(pop.get("ano", "")).isdigit(),
+               f"população sem ano identificável: {pop.get('ano')!r}")
+        sem_pop = [c for c in exato if c not in pop["municipios"]]
+        checar(not sem_pop,
+               f"{len(sem_pop)} município(s) com oferta e sem população: "
+               f"{sem_pop[:3]}")
+
+    api = DATA / ".." / "site" / "dist" / "api" / "v1" / "municipios.json"
+    api = api.resolve()
+    if not api.exists():
+        return                       # site ainda não gerado
+    pipeline = {m["cod_ibge"]: m for m in
+                json.loads(api.read_text(encoding="utf-8"))["municipios"]}
+
+    divergentes, abaixo_do_piso = [], []
+    for codigo, m in pipeline.items():
+        d = exato.get(codigo)
+        if not d:
+            continue
+        if d["matriculas"] != m["matriculas"]:
+            divergentes.append(f"{m['nome']}/{m['uf']}: microdado "
+                               f"{d['matriculas']} vs pipeline {m['matriculas']}")
+        piso = m.get("n_ies_minimo")
+        if piso is not None and d["n_ies"] < piso:
+            abaixo_do_piso.append(f"{m['nome']}/{m['uf']}: exato {d['n_ies']} "
+                                  f"< piso {piso}")
+    checar(not divergentes,
+           f"{len(divergentes)} município(s) com matrículas divergentes entre o "
+           f"microdado e o pipeline: {divergentes[:3]}")
+    checar(not abaixo_do_piso,
+           f"{len(abaixo_do_piso)} município(s) com contagem exata abaixo do "
+           f"piso — impossível por construção: {abaixo_do_piso[:3]}")
+
+
 def main():
     catalogo = carregar_catalogo()
     test_catalogo_bem_formado(catalogo)
@@ -230,6 +290,7 @@ def main():
     test_ancoras()
     test_cobertura_nacional(catalogo)
     test_series_agregadas()
+    test_perfil_municipal()
 
     if falhas:
         print(f"[FALHOU] {len(falhas)} problema(s) de integridade:\n")

@@ -1733,3 +1733,69 @@ main:focus { outline: none; }
     min-height: 44px;
   }
 }
+
+/* ============================================================
+   MAPA MUNICIPAL COM PAINEL
+   ------------------------------------------------------------
+   O painel fica ao lado do mapa no desktop e abaixo dele no celular, onde a
+   figura já ocupa a largura inteira e rola na horizontal. É uma região
+   aria-live: quem usa leitor de tela percorre a tabela e ouve os números
+   mudarem, sem precisar alcançar o desenho.
+   ============================================================ */
+.mapa-com-painel { display: grid; grid-template-columns: 1fr 220px; gap: 16px; }
+/* min-width: 0 porque item de grid não encolhe abaixo do próprio conteúdo por
+   padrão, e o conteúdo aqui é um SVG de 560px que rola por dentro. Sem isto a
+   trilha nasce com 560px, o painel soma 220 e a PÁGINA rola para o lado no
+   celular — o mesmo tropeço que a faixa de navegação já tinha dado em flex. */
+.mapa-com-painel .figura-tela {
+  grid-column: 1;
+  /* min-width: 0 sozinho não bastou: o item continuava nascendo com os 560px do
+     SVG e transbordando a própria trilha de 317px. width: 100% amarra a largura
+     à trilha e devolve o excedente para a rolagem interna, que é onde ele
+     deveria estar desde o começo. */
+  min-width: 0;
+  width: 100%;
+}
+.mapa-com-painel .figura-nota,
+.mapa-com-painel .mapa-nota,
+.mapa-com-painel .mapa-legenda { grid-column: 1 / -1; }
+
+.mapa-painel {
+  grid-column: 2;
+  align-self: start;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 12px 14px;
+}
+.mapa-painel-vazio { font-size: 0.82rem; color: var(--text-muted); margin: 0; }
+.mapa-painel-nome {
+  font-family: var(--font-serif);
+  font-size: 1.02rem;
+  color: var(--navy);
+  margin: 0 0 8px;
+  line-height: 1.2;
+}
+.mapa-painel dl { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; margin: 0; }
+.mapa-painel dt { font-size: 0.82rem; color: var(--text-muted); }
+.mapa-painel dd {
+  margin: 0;
+  font-weight: 600;
+  color: var(--navy);
+  font-variant-numeric: tabular-nums;
+}
+
+/* O ponto apontado ganha contorno, não só cor: quem não distingue as duas
+   tonalidades de azul precisa de outra pista além do matiz. */
+.mapa-ponto { transition: fill-opacity 0.1s; }
+.mapa-ponto.destacado {
+  fill-opacity: 0.95;
+  stroke: var(--gold);
+  stroke-width: 2;
+}
+tr.destacada > * { background: var(--realce); }
+
+@media (max-width: 720px) {
+  .mapa-com-painel { grid-template-columns: 1fr; }
+  .mapa-painel { grid-column: 1; }
+}

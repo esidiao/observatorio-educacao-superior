@@ -297,6 +297,77 @@ def medir_busca(pagina, contexto, base):
         pag.close()
 
 
+# O mapa municipal so mostra numero depois que alguem aponta um municipio.
+# Parado, ele e um desenho — e um desenho passa em qualquer varredura estatica.
+EXERCITAR_MAPA = """
+() => {
+  const pontos = document.querySelectorAll('.mapa-ponto');
+  const painel = document.getElementById('mapa-painel');
+  if (!pontos.length || !painel) return null;
+  const ler = () => ['nome', 'populacao', 'matriculas', 'n_ies', 'n_cursos']
+    .map(c => (painel.querySelector('[data-campo="' + c + '"]') || {}).textContent);
+
+  const antes = ler();
+  pontos[0].dispatchEvent(new MouseEvent('mouseenter', {bubbles: true}));
+  const depoisMapa = ler();
+  const destacados = document.querySelectorAll('.mapa-ponto.destacado').length;
+
+  // Caminho de teclado: a tabela, nao o desenho.
+  const linha = document.querySelector('tr[data-cod]');
+  let depoisTabela = null, pontoDaLinha = 0;
+  if (linha) {
+    const link = linha.querySelector('a');
+    if (link) { link.focus(); link.dispatchEvent(new FocusEvent('focusin', {bubbles: true})); }
+    depoisTabela = ler();
+    pontoDaLinha = document.querySelectorAll(
+      '.mapa-ponto.destacado[data-cod-ibge="' + linha.getAttribute('data-cod') + '"]').length;
+  }
+  return {
+    pontos: pontos.length,
+    comDados: [...pontos].filter(p => p.getAttribute('data-n-ies')).length,
+    antesVazio: antes.slice(1).every(v => v === '—' || v === ''),
+    depoisMapa, destacados, depoisTabela, pontoDaLinha,
+    aoVivo: painel.getAttribute('aria-live'),
+  };
+}
+"""
+
+
+def medir_mapa(pagina, contexto, base):
+    """O mapa municipal, apontado e percorrido pelo teclado."""
+    pag = contexto.new_page()
+    pag.set_viewport_size({"width": 1280, "height": 900})
+    pag.goto(f"{base}/{pagina}", wait_until="load", timeout=30000)
+    pag.wait_for_timeout(350)
+    r = pag.evaluate(EXERCITAR_MAPA)
+    if r is None:
+        falhas.append(f"{pagina} mapa: pontos ou painel ausentes")
+    else:
+        if r["comDados"] < r["pontos"]:
+            falhas.append(f"{pagina} mapa: {r['pontos'] - r['comDados']} ponto(s) "
+                          f"sem os numeros em data-*")
+        if not r["antesVazio"]:
+            falhas.append(f"{pagina} mapa: painel ja vem preenchido antes de "
+                          f"qualquer interacao")
+        vazios = [v for v in r["depoisMapa"][1:] if v in ("—", "", None)]
+        if not r["depoisMapa"][0] or vazios:
+            falhas.append(f"{pagina} mapa: apontar um municipio nao preencheu o "
+                          f"painel ({r['depoisMapa']})")
+        if r["destacados"] != 1:
+            falhas.append(f"{pagina} mapa: {r['destacados']} ponto(s) destacado(s), "
+                          f"esperado 1")
+        if r["depoisTabela"] is None:
+            falhas.append(f"{pagina} mapa: tabela sem data-cod — o caminho de "
+                          f"teclado nao existe")
+        elif not r["pontoDaLinha"]:
+            falhas.append(f"{pagina} mapa: focar a linha da tabela nao destacou o "
+                          f"ponto correspondente")
+        if r["aoVivo"] != "polite":
+            falhas.append(f"{pagina} mapa: painel sem aria-live=polite — leitor de "
+                          f"tela nao anuncia a mudanca")
+    pag.close()
+
+
 def rodar_axe(pagina, navegador, base, tema):
     """axe nos dois temas.
 
@@ -350,6 +421,7 @@ def main():
             for pagina in AMOSTRA:
                 medir(pagina, contexto, base)
             medir_busca("index.html", contexto, base)
+            medir_mapa("uf/GO.html", contexto, base)
             for tema in ("light", "dark"):
                 for pagina in AMOSTRA_AXE:
                     rodar_axe(pagina, navegador, base, tema)

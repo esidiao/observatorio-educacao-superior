@@ -27,6 +27,8 @@ etl/                 Pipeline (Python)
   serie.py           Acumula uma edição do Censo na série histórica por curso
   serie_agregada.py  Idem, por unidade federativa e por instituição
   verificar_novo_censo.py  Pergunta ao INEP se saiu edição mais nova
+  populacao_municipal.py   População por município (IBGE, estimativa anual)
+  municipios_ies.py        Instituições e cursos distintos por município
   baixar_censo.py    Baixa edições do INEP e alimenta a série (um ano por vez)
   instituicoes.py    Camada institucional (IES, organização, corpo docente)
   igc.py             Índice Geral de Cursos do INEP, por instituição
@@ -47,6 +49,8 @@ data/
   series/            Série histórica 2016–2024
     ufs.json         27 UFs + Brasil, por edição do Censo
     ies.json         3.368 instituições, por edição do Censo
+  populacao_municipios.json  População estimada dos 5.571 municípios (IBGE)
+  municipios_ies.json        Contagem exata de IES e cursos por município
   geo/               Malha do IBGE: fronteiras de UF e centroides municipais
 site/
   build.py           Gerador estático (Jinja2)

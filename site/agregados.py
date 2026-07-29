@@ -90,7 +90,7 @@ class Acumulador:
             })
 
     # ── Fechamento ───────────────────────────────────────────────────────────
-    def fechar(self):
+    def fechar(self, perfil=None):
         for sigla, u in self.ufs.items():
             u["n_ies"] = len(u.pop("_ies"))
             u["municipios_oferta"] = len(u.pop("_municipios"))
@@ -104,7 +104,20 @@ class Acumulador:
                 u["pct_ead"] = round(100 * u["vagas_ead"] / u["vagas_total"], 1)
 
         for m in self.municipios.values():
+            # O piso vira reserva. Quando a contagem exata existe, ela vence:
+            # o máximo entre os cursos subestimava São Paulo em mais da metade
+            # (68 contra 155 instituições de verdade).
             m["n_ies_minimo"] = m.pop("_ies_max")
+            extra = (perfil or {}).get(str(m.get("cod_ibge")) or "", {})
+            if extra.get("n_ies") is not None:
+                m["n_ies"] = extra["n_ies"]
+                m["n_cursos_distintos"] = extra.get("n_cursos_distintos")
+                m["n_ofertas"] = extra.get("n_ofertas")
+            if extra.get("populacao") is not None:
+                m["populacao"] = extra["populacao"]
+                if m["matriculas"]:
+                    m["matriculas_por_100k"] = round(
+                        100000 * m["matriculas"] / extra["populacao"], 1)
             m["cursos"].sort(key=lambda c: -c["vagas"])
         return self
 

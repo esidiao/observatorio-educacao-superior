@@ -236,10 +236,26 @@ def pontos_municipais(centroides, municipios, titulo, descricao,
             continue
         x, y = proj(ponto[0], ponto[1])
         r = 1.4 + 9 * math.sqrt((m.get("valor") or 0) / maior)
+        # Os quatro números viajam no proprio circulo, em data-*. Assim o painel
+        # ao lado nao precisa de uma segunda copia dos dados na pagina: ele le do
+        # elemento que a pessoa apontou, e o que se ve e o que esta no HTML.
+        # Nome de atributo com hífen, não com sublinhado: é a convenção de
+        # data-* em HTML, e é o que o CSS e o dataset do JS esperam encontrar.
+        dados = "".join(
+            f' data-{chave.replace("_", "-")}="{esc(m[chave])}"'
+            for chave in ("cod_ibge", "populacao", "matriculas", "n_ies", "n_cursos")
+            if m.get(chave) is not None)
+        # O <title> continua completo: sem JS, o navegador ainda mostra tudo.
+        resumo = f'{esc(m["nome"])}: {_fmt(m.get("valor"))} vagas'
+        for rotulo, chave in (("hab.", "populacao"), ("matrículas", "matriculas"),
+                              ("instituições", "n_ies"), ("cursos distintos", "n_cursos")):
+            if m.get(chave) is not None:
+                resumo += f' · {_fmt(m[chave])} {rotulo}'
         partes.append(
-            f'<circle cx="{x:.1f}" cy="{y:.1f}" r="{r:.1f}" fill="#2E5496" '
-            f'fill-opacity="0.55" stroke="#16304F" stroke-width="0.4">'
-            f'<title>{esc(m["nome"])}: {_fmt(m.get("valor"))}</title></circle>')
+            f'<circle class="mapa-ponto" cx="{x:.1f}" cy="{y:.1f}" r="{r:.1f}" '
+            f'fill="#2E5496" fill-opacity="0.55" stroke="#16304F" '
+            f'stroke-width="0.4"{dados}>'
+            f'<title>{resumo}</title></circle>')
     partes.append("</svg>")
     nota = ""
     if sem_ponto:

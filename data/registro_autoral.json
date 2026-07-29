@@ -2,11 +2,11 @@
   "obra": "Observatório Nacional da Educação Superior",
   "autor": "Edson Sidião de Souza Júnior",
   "tipo": "Registro de Anterioridade e Integridade (prova de existência)",
-  "selado_em_utc": "2026-07-28T18:55:36+00:00",
+  "selado_em_utc": "2026-07-29T02:24:56+00:00",
   "algoritmo": "SHA-256",
-  "n_arquivos": 66,
-  "hash_raiz": "4d5eb2dd42b0b57a8bd041ac6d0318281abc9b23b5e4e88151da3bdeed08ce02",
-  "git_commit_ancora": "df05773ca413ddd39fab3180354976d07801f028",
+  "n_arquivos": 71,
+  "hash_raiz": "9a857047586e834025638475e95a8dc841dcf37da95c3413e43ed01058c9b195",
+  "git_commit_ancora": "753969a585286522a03bb47ba14f3302dfbcc0f3",
   "fundamento": "Lei 9.610/1998 e Lei 9.609/1998. O hash-raiz é impressão digital única do conjunto; o commit Git ancora a data de forma imutável.",
   "como_verificar": [
     "1. Baixe os arquivos listados em 'arquivos'.",
@@ -47,7 +47,7 @@
     },
     {
       "caminho": "etl/baixar_censo.py",
-      "sha256": "b09dde7234fb10567c74141d553a0b0ef0e855e60b7c4d3391f2d412ced39df8"
+      "sha256": "83f854db9d0794b7f57bfd277b7f3803466af9e38a86bdfa2fbd9ce0bc9c190e"
     },
     {
       "caminho": "etl/capes.py",
@@ -90,8 +90,20 @@
       "sha256": "106029a46744fcfa7187b17fde9f140a141d747b36e7d5707a13c506d7f8c9ca"
     },
     {
+      "caminho": "etl/municipios_ies.py",
+      "sha256": "db9b73eca69701fe4daefab35b5d1635ceaeb9424f507894f0894398084e99b3"
+    },
+    {
+      "caminho": "etl/populacao_municipal.py",
+      "sha256": "0f6f8674271d87aa981b2429d8e874b623411c2a1320fcfc39cf0904387a7590"
+    },
+    {
       "caminho": "etl/qualidade.py",
       "sha256": "1f405244bc7dcbd17fdf8c39a0431e6c75e7381c7ab7c84772cbef4d12c803cb"
+    },
+    {
+      "caminho": "etl/rede.py",
+      "sha256": "598020e77aedeb15b564bbe5a20b4fbaf0233dbd1bb9969c55c3cf20b41df727"
     },
     {
       "caminho": "etl/referencias.py",
@@ -110,16 +122,20 @@
       "sha256": "2d6f8f27b9302aacadb060f2874431cffba0a2b171b760fa75ceda3603e2b21b"
     },
     {
+      "caminho": "etl/verificar_novo_censo.py",
+      "sha256": "ce4bb523ffb3784653d541273de1f7f6a47fe0fd5230f77013fd141f596ae5ea"
+    },
+    {
       "caminho": "site/agregados.py",
-      "sha256": "ce5730b9346a05dd597be19273ed797efeec72b50511ecde36af69743f929d85"
+      "sha256": "3c331c32b621a489f38046b097a02585efdcb75c6d0e0b631955a7e1b6c7cbd2"
     },
     {
       "caminho": "site/build.py",
-      "sha256": "c36315159cc22d8e950e2c148189d74ff66e1dbdf0e6303de7c424a8df99104a"
+      "sha256": "d095d8b09cc46d0275e5c4c0b2f44ccf93b2bb4ef5000f747e11f6d39ede4b1f"
     },
     {
       "caminho": "site/graficos.py",
-      "sha256": "501f417c44ddc8be2cf737fec29a97cf19806aed52b1d615afb67a764928d473"
+      "sha256": "d7b6c4f7efba4a411c0ff2196af5cdc6bffc1892856cb0231f60f4086f1ec68b"
     },
     {
       "caminho": "site/insights.py",
@@ -127,7 +143,7 @@
     },
     {
       "caminho": "site/static/css/style.css",
-      "sha256": "3609e2de11c65e3a18134610044546034e833f944283018727eb7e0a3c27e49a"
+      "sha256": "21296c6b393972aa58489d27de79d27a85cc00270fb74aa05c2f4a4102da0f58"
     },
     {
       "caminho": "site/static/js/app.js",
@@ -144,6 +160,10 @@
     {
       "caminho": "site/static/js/glossario.js",
       "sha256": "220fac148b422f61d27957bccb86fa55ec3407b3ffc79b1744b92358f95de16c"
+    },
+    {
+      "caminho": "site/static/js/mapa-municipios.js",
+      "sha256": "fe6d17d7f65216716a29713d5fa9f508dff45cdcb02ea4ba5cfad9b9283ba3a5"
     },
     {
       "caminho": "site/static/js/pagina-comparar-entidades.js",
@@ -231,7 +251,7 @@
     },
     {
       "caminho": "site/templates/municipio.html.j2",
-      "sha256": "fd3a5ec1a2c6cd1caae00a7737d9c7eb975f793d6008aa1e4637a8bf25d012ea"
+      "sha256": "b0f500809abc27c677753d345e5ba9a0a5171a67e743c8746c27b05c74811bb5"
     },
     {
       "caminho": "site/templates/municipios.html.j2",
@@ -255,7 +275,7 @@
     },
     {
       "caminho": "site/templates/uf-perfil.html.j2",
-      "sha256": "72b81099920cf3c3bc3824c2b9dcae603a31c4e6399ae1bd6e445eea951a276b"
+      "sha256": "ae21ff524c041e66c97b22e9032054cf19c8ebdbd2a64c365aa8453e934ed60b"
     },
     {
       "caminho": "site/templates/uf.html.j2",
@@ -267,7 +287,7 @@
     },
     {
       "caminho": "tests/test_seguranca.py",
-      "sha256": "84d68c297f62116066a585b8d3eb1133694544b22f3f1ffc7270c2023d3f64b3"
+      "sha256": "b17c7baab64928588067058907b195d3c831e451e6cd7f348aac9ef53de312eb"
     },
     {
       "caminho": "tests/test_site_gerado.py",
@@ -275,11 +295,11 @@
     },
     {
       "caminho": "tests/test_validacao.py",
-      "sha256": "4d3a13b8dc561ef48d977e743da43925de5be8784726ca56a4f457b45e40f32a"
+      "sha256": "eee2e00f8ae524b3b5408d50ae565c1e977b2c50e27323d38e30ca04cb240d13"
     },
     {
       "caminho": "tests/test_viewport.py",
-      "sha256": "9ca369647c4af28a3966f822623cdbd062328f8d1128764849e2e6d0bd573d36"
+      "sha256": "27f57657871fda1e2000217126e57c11dc18a6dc4d676da6f87ae18074501875"
     }
   ]
 }

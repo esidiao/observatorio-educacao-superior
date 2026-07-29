@@ -23,7 +23,13 @@
     <div class="lede"><span class="lede-num">{{ milhar(m.vagas_total) }}</span><span class="lede-lab">vagas presenciais</span></div>
     <div class="lede"><span class="lede-num">{{ milhar(m.matriculas) }}</span><span class="lede-lab">matrículas</span></div>
     <div class="lede"><span class="lede-num">{{ milhar(m.concluintes) }}</span><span class="lede-lab">concluintes</span></div>
-    <div class="lede"><span class="lede-num">{{ m.cursos|length }}</span><span class="lede-lab">cursos distintos</span></div>
+    {% if m.n_ies %}
+    <div class="lede"><span class="lede-num">{{ milhar(m.n_ies) }}</span><span class="lede-lab">instituições</span></div>
+    {% endif %}
+    <div class="lede"><span class="lede-num">{{ m.n_cursos_distintos or m.cursos|length }}</span><span class="lede-lab">cursos distintos</span></div>
+    {% if m.populacao %}
+    <div class="lede"><span class="lede-num">{{ milhar(m.populacao) }}</span><span class="lede-lab">habitantes ({{ ano_populacao }})</span></div>
+    {% endif %}
   </div>
 </section>
 
@@ -66,11 +72,31 @@
   </table>
 </div>
 
+{% if m.n_ies %}
+<p class="figura-nota">
+  {% if m.n_ies == 1 %}A <strong>instituição</strong> contada acima é
+  {% else %}As <strong>{{ milhar(m.n_ies) }} instituições</strong> contadas acima são
+  {% endif %}códigos de IES distintos com oferta presencial aqui, lidos direto do
+  microdado do Censo —
+  a mesma universidade com vinte cursos conta uma vez. Até a edição anterior deste
+  observatório constava no lugar um <em>piso</em> de {{ m.n_ies_minimo }}, obtido do
+  maior valor entre os cursos; o piso subestimava, e em cidades grandes subestimava
+  muito.
+</p>
+<p class="figura-nota">
+  A tabela acima lista <strong>ofertas</strong>{% if m.n_ofertas %} ({{ milhar(m.n_ofertas) }}
+  no total){% endif %}, e não cursos distintos: a mesma graduação em dois turnos ou
+  dois campi aparece mais de uma vez. Os
+  {{ m.n_cursos_distintos or m.cursos|length }} cursos distintos do topo da página
+  são os rótulos CINE diferentes.
+</p>
+{% else %}
 <p class="figura-nota">
   O Censo informa o número de instituições por curso, não a lista de instituições do
-  município. Por isso aqui consta um <strong>piso</strong> de {{ m.n_ies_minimo }}
-  instituição(ões) — o maior valor observado entre os cursos —, e não um total: somar
-  contaria a mesma instituição uma vez por curso que ela oferta.
+  município. Sem a contagem exata do microdado, aqui consta um <strong>piso</strong>
+  de {{ m.n_ies_minimo }} instituição(ões) — o maior valor observado entre os cursos —,
+  e não um total. Rode <code>etl/municipios_ies.py</code> para a contagem exata.
 </p>
+{% endif %}
 
 {% endblock %}

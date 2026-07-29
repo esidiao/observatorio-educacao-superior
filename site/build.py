@@ -213,6 +213,37 @@ def carregar_serie(slug):
         return json.load(f)
 
 
+def carregar_perfil_municipal():
+    """População do IBGE e contagem exata de instituições, por código IBGE.
+
+    Duas camadas opcionais que respondem o que o pipeline principal não
+    consegue. A população não está no Censo — é outra fonte, de outro ano, e o
+    ano viaja junto com o número até a página. A contagem de instituições exige
+    ler o microdado, porque agregar por curso e somar contaria a mesma
+    universidade uma vez por curso que ela oferta.
+    """
+    perfil = {}
+    caminho = DATA / "populacao_municipios.json"
+    ano_pop = None
+    if caminho.exists():
+        with open(caminho, encoding="utf-8") as f:
+            bruto = json.load(f)
+        ano_pop = bruto.get("ano")
+        for codigo, habitantes in bruto["municipios"].items():
+            perfil.setdefault(codigo, {})["populacao"] = habitantes
+
+    caminho = DATA / "municipios_ies.json"
+    if caminho.exists():
+        with open(caminho, encoding="utf-8") as f:
+            bruto = json.load(f)
+        for codigo, d in bruto["municipios"].items():
+            alvo = perfil.setdefault(codigo, {})
+            alvo["n_ies"] = d["n_ies"]
+            alvo["n_cursos_distintos"] = d["n_cursos_distintos"]
+            alvo["n_ofertas"] = d["n_ofertas"]
+    return perfil, ano_pop
+
+
 def carregar_serie_agregada(nome):
     """Série de UF ou de instituição, produzida por etl/serie_agregada.py.
 
@@ -353,6 +384,17 @@ def main():
     fluxo = carregar_fluxo()
     malha_ufs, centroides = carregar_geo()
     instituicoes = carregar_instituicoes()
+    perfil_municipal, ano_populacao = carregar_perfil_municipal()
+    if perfil_municipal:
+        com_pop = sum(1 for v in perfil_municipal.values() if "populacao" in v)
+        com_ies = sum(1 for v in perfil_municipal.values() if "n_ies" in v)
+        print(f"[INFO] Perfil municipal: {com_pop} com populacao "
+              f"({ano_populacao}), {com_ies} com contagem exata de IES")
+    else:
+        print("[AVISO] data/populacao_municipios.json e municipios_ies.json "
+              "ausentes — o mapa municipal sai sem populacao e sem contagem "
+              "de instituicoes. Rode etl/populacao_municipal.py e "
+              "etl/municipios_ies.py.")
     series_uf = carregar_serie_agregada("ufs")
     series_ies = carregar_serie_agregada("ies")
     if series_uf:
@@ -685,7 +727,7 @@ def main():
     print(f"[OK] 404.html (raiz pública {raiz_publica})")
 
     # ── Painéis territoriais e institucionais ────────────────────────────────
-    acumulado.fechar()
+    acumulado.fechar(perfil_municipal)
     for sigla, u in acumulado.ufs.items():
         u["regiao"] = REGIAO_UF.get(sigla)
         u["capital"] = CAPITAIS.get(sigla)
@@ -700,9 +742,15 @@ def main():
             mapa = Markup(pontos_municipais(
                 centroides,
                 [{"nome": m["nome"], "cod_ibge": m.get("cod_ibge"),
-                  "valor": m["vagas_total"]} for m in muns],
+                  "valor": m["vagas_total"], "populacao": m.get("populacao"),
+                  "matriculas": m.get("matriculas"),
+                  "n_ies": m.get("n_ies"),
+                  "n_cursos": m.get("n_cursos_distintos") or m.get("n_cursos")}
+                 for m in muns],
                 titulo=f"Municípios de {NOME_UF[sigla]} com oferta presencial",
-                descricao="Círculos proporcionais às vagas presenciais somadas.",
+                descricao=("Círculos proporcionais às vagas presenciais. Cada "
+                           "ponto traz população, matrículas, instituições e "
+                           "cursos do município."),
                 contorno_ufs={sigla: malha_ufs[sigla]}))
         # A série exata, quando existe, vence a somada. As duas dão o mesmo
         # número para vagas e matrículas — mas só a exata sabe contar
@@ -765,6 +813,7 @@ def main():
             fluxo=fluxo_uf, grafico_fluxo=grafico_fluxo,
             grafico_serie_uf=grafico_serie_uf,
             grafico_rede_uf=grafico_rede_uf,
+            ano_populacao=ano_populacao,
             serie_uf_exata=exata,
             anos_serie_uf=anos_uf,
             coortes_fluxo=sorted(fluxo_uf),
@@ -800,7 +849,7 @@ def main():
     for (sigla, slug), m in acumulado.municipios.items():
         html = tpl_mun.render(
             **ctx_base, depth="../", curso_atual=None, m=m,
-            nome_uf=NOME_UF[sigla],
+            nome_uf=NOME_UF[sigla], ano_populacao=ano_populacao,
             grafico=Markup(barras(
                 [{"nome": c["nome"], "valor": c["vagas"]} for c in m["cursos"]],
                 titulo=f"Cursos com mais vagas em {m['nome']}",

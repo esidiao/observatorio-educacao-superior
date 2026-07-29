@@ -1,5 +1,8 @@
 {% extends "base.html.j2" %}
 
+{% block scripts %}
+<script src="{{ depth }}static/js/mapa-municipios.js"></script>
+{% endblock %}
 {% block title %}Educação superior em {{ nome_uf }} ({{ sigla }}) — Observatório Nacional{% endblock %}
 {% block meta_description %}Panorama da educação superior em {{ nome_uf }}: {{ milhar(u.vagas_total) }} vagas, {{ u.n_ies }} instituições, {{ u.municipios_oferta }} municípios com oferta presencial e distribuição por área do conhecimento (Censo INEP {{ versao_censo }}).{% endblock %}
 
@@ -43,11 +46,37 @@
 
 {% if mapa %}
 <h2 class="section-title">Onde há oferta presencial</h2>
-<div class="figura">
+<p class="secao-intro">
+  Aponte um município no mapa — ou percorra a tabela abaixo pelo teclado — para
+  ver população, matrículas, instituições e cursos.
+</p>
+<div class="figura mapa-com-painel">
   {{ mapa }}
+  <div class="mapa-painel" id="mapa-painel" role="status" aria-live="polite">
+    <p class="mapa-painel-vazio">Nenhum município selecionado.</p>
+    <div class="mapa-painel-dados" hidden>
+      <p class="mapa-painel-nome" data-campo="nome"></p>
+      <dl>
+        <dt>População</dt><dd data-campo="populacao">—</dd>
+        <dt>Matrículas</dt><dd data-campo="matriculas">—</dd>
+        <dt>Instituições</dt><dd data-campo="n_ies">—</dd>
+        <dt>Cursos distintos</dt><dd data-campo="n_cursos">—</dd>
+      </dl>
+    </div>
+  </div>
   <p class="figura-nota">
     Cada círculo é um município com oferta presencial de algum curso do catálogo;
     a área é proporcional às vagas. Polos EaD não aparecem — polo não é campus.
+  </p>
+  <p class="figura-nota">
+    <strong>Instituições</strong> conta instituições distintas com oferta
+    presencial no município, direto do microdado — a mesma universidade com
+    vinte cursos conta uma vez. <strong>Cursos distintos</strong> são rótulos
+    CINE diferentes: a mesma graduação em dois turnos ou dois campi conta uma
+    vez, e por isso o número é bem menor que o de ofertas listadas na página do
+    município. A <strong>população</strong> é a estimativa do IBGE
+    {% if ano_populacao %}para {{ ano_populacao }}{% endif %}, ano diferente do
+    Censo {{ versao_censo }}: qualquer razão entre os dois mistura dois momentos.
   </p>
 </div>
 {% endif %}
@@ -196,20 +225,22 @@
     <caption class="sr-only">Municípios de {{ nome_uf }} com oferta presencial.</caption>
     <thead>
       <tr>
-        <th scope="col">#</th><th scope="col">Município</th><th scope="col">Vagas</th>
-        <th scope="col">Matrículas</th><th scope="col">Cursos</th>
+        <th scope="col">#</th><th scope="col">Município</th>
+        <th scope="col">População</th><th scope="col">Matrículas</th>
+        <th scope="col">Instituições</th><th scope="col">Cursos distintos</th>
       </tr>
     </thead>
     <tbody>
       {% for m in municipios[:40] %}
-      <tr>
+      <tr{% if m.cod_ibge %} data-cod="{{ m.cod_ibge }}"{% endif %}>
         <td class="rank-pos">{{ loop.index }}</td>
         <th class="t-forte" scope="row">
           <a href="{{ depth }}municipio/{{ sigla }}-{{ m.slug }}.html">{{ m.nome }}</a>
         </th>
-        <td>{{ milhar(m.vagas_total) }}</td>
+        <td>{% if m.populacao %}{{ milhar(m.populacao) }}{% else %}—{% endif %}</td>
         <td>{{ milhar(m.matriculas) }}</td>
-        <td>{{ milhar(m.n_cursos) }}</td>
+        <td>{% if m.n_ies %}{{ milhar(m.n_ies) }}{% else %}—{% endif %}</td>
+        <td>{{ milhar(m.n_cursos_distintos or m.n_cursos) }}</td>
       </tr>
       {% endfor %}
     </tbody>
