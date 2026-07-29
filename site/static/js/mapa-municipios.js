@@ -27,7 +27,8 @@
     var painel = document.getElementById('mapa-painel');
     if (!mapa || !painel) return;
 
-    var pontos = mapa.querySelectorAll('.mapa-ponto');
+    // Circulo ou area: o que importa e carregar o codigo do municipio.
+    var pontos = mapa.querySelectorAll('[data-cod-ibge]');
     if (!pontos.length) return;
 
     var campos = {
@@ -65,7 +66,7 @@
       ativo = cod;
       limparDestaque();
 
-      var ponto = mapa.querySelector('.mapa-ponto[data-cod-ibge="' + cod + '"]');
+      var ponto = mapa.querySelector('[data-cod-ibge="' + cod + '"]');
       if (ponto) ponto.classList.add('destacado');
       if (linhas[cod]) linhas[cod].classList.add('destacada');
 

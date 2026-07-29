@@ -51,7 +51,8 @@ data/
     ies.json         3.368 instituições, por edição do Censo
   populacao_municipios.json  População estimada dos 5.571 municípios (IBGE)
   municipios_ies.json        Contagem exata de IES e cursos por município
-  geo/               Malha do IBGE: fronteiras de UF e centroides municipais
+  geo/               Malha do IBGE: fronteiras de UF, centroides municipais
+    municipios_uf/   e limites de cada município, um arquivo por UF
 site/
   build.py           Gerador estático (Jinja2)
   graficos.py        Mapas e gráficos em SVG, gerados no build

@@ -46,12 +46,25 @@ def _fmt(valor, casas=0):
 
 
 class Projecao:
-    """Equirretangular com correção de cosseno — suficiente para mapa nacional."""
+    """Equirretangular com correcao de cosseno.
 
-    def __init__(self, largura, altura, margem=4):
+    Sem `caixa`, enquadra o Brasil inteiro. Com `caixa` (lon_min, lat_min,
+    lon_max, lat_max), enquadra so aquele trecho — e e o que um mapa estadual
+    precisa: Goias desenhado no enquadramento do pais ocuparia um oitavo da
+    tela, e os limites municipais seriam riscos indistinguiveis.
+
+    O cosseno usa a latitude media DA CAIXA, nao a do pais: e ela que define o
+    quanto um grau de longitude encurta naquela faixa.
+    """
+
+    def __init__(self, largura, altura, margem=4, caixa=None):
         self.margem = margem
-        span_x = (LON_MAX - LON_MIN) * COS_LAT_MEDIA
-        span_y = LAT_MAX - LAT_MIN
+        lon_min, lat_min, lon_max, lat_max = caixa or (
+            LON_MIN, LAT_MIN, LON_MAX, LAT_MAX)
+        self.lon_min, self.lat_max = lon_min, lat_max
+        self.cos_lat = math.cos(math.radians((lat_min + lat_max) / 2))
+        span_x = (lon_max - lon_min) * self.cos_lat
+        span_y = lat_max - lat_min
         util_x, util_y = largura - 2 * margem, altura - 2 * margem
         self.escala = min(util_x / span_x, util_y / span_y)
         # Centraliza a sobra do eixo mais folgado.
@@ -59,9 +72,31 @@ class Projecao:
         self.dy = margem + (util_y - span_y * self.escala) / 2
 
     def __call__(self, lon, lat):
-        x = (lon - LON_MIN) * COS_LAT_MEDIA * self.escala + self.dx
-        y = (LAT_MAX - lat) * self.escala + self.dy
+        x = (lon - self.lon_min) * self.cos_lat * self.escala + self.dx
+        y = (self.lat_max - lat) * self.escala + self.dy
         return x, y
+
+
+def caixa_de(geometrias):
+    """Menor retangulo que contem tudo, com uma folga de 2%."""
+    pontos = []
+    for g in geometrias:
+        coords = g["coords"] if isinstance(g, dict) and "coords" in g else g
+        pilha = [coords]
+        while pilha:
+            atual = pilha.pop()
+            if atual and isinstance(atual[0], (int, float)):
+                pontos.append(atual)
+            else:
+                pilha.extend(atual)
+    if not pontos:
+        return None
+    lons = [p[0] for p in pontos]
+    lats = [p[1] for p in pontos]
+    folga_x = (max(lons) - min(lons)) * 0.02 or 0.1
+    folga_y = (max(lats) - min(lats)) * 0.02 or 0.1
+    return (min(lons) - folga_x, min(lats) - folga_y,
+            max(lons) + folga_x, max(lats) + folga_y)
 
 
 def _caminho(geometria, proj):
@@ -69,11 +104,23 @@ def _caminho(geometria, proj):
     partes = []
 
     def anel(coords):
+        # Vertices que caem no mesmo decimo de pixel viram um so. A malha do
+        # IBGE tem precisao de ~100 m e o mapa tem ~2 km por pixel, entao a
+        # maioria dos pontos e redundante DEPOIS de projetada. Descartar
+        # duplicata de saida nao muda um pixel do desenho e corta o arquivo
+        # quase pela metade — o que importa quando 246 municipios entram na
+        # mesma pagina.
         pontos = []
+        anterior = None
         for lon, lat in coords:
             x, y = proj(lon, lat)
-            pontos.append(f"{x:.1f},{y:.1f}")
-        if pontos:
+            atual = f"{x:.1f},{y:.1f}"
+            if atual != anterior:
+                pontos.append(atual)
+                anterior = atual
+        # Um anel precisa de tres pontos para ter area; com menos, o Z fecha
+        # sobre uma linha e o navegador desenha nada.
+        if len(pontos) >= 3:
             partes.append("M" + "L".join(pontos) + "Z")
 
     if geometria["tipo"] == "Polygon":
@@ -262,6 +309,91 @@ def pontos_municipais(centroides, municipios, titulo, descricao,
         nota = (f'<p class="mapa-nota">{sem_ponto} município(s) sem coordenada na '
                 f'malha do IBGE não aparecem no mapa — os números da tabela os incluem.</p>')
     return _rolavel("".join(partes), titulo) + nota
+
+
+def coropletico_municipal(limites, dados, titulo, descricao, contorno_uf=None,
+                          largura=560, altura=520):
+    """Mapa de um estado com o contorno de cada município.
+
+    Substitui o mapa de círculos proporcionais, e a troca muda o que o mapa diz.
+    O de círculos só desenhava município COM oferta: um estado com trinta pontos
+    parecia um estado com trinta municípios. Com os limites, os 246 municípios de
+    Goiás aparecem, e os que não têm oferta aparecem *como não tendo* — que é a
+    informação territorial que este observatório mais persegue.
+
+    A cor é por MATRÍCULAS POR 100 MIL HABITANTES, não por matrículas. Num mapa
+    de área, pintar valor absoluto premia o município grande: um sertão enorme
+    com uma faculdade fica visualmente mais forte que uma cidade densa com dez.
+    A taxa corrige isso, e é ela que responde "quem está bem servido".
+
+    Município sem oferta não entra na escala: recebe cor própria e uma entrada
+    própria na legenda. Zero de matrícula é um fato — não é o degrau mais baixo
+    de uma escala contínua, e empilhá-lo ali apagaria a diferença entre "pouca
+    oferta" e "nenhuma".
+    """
+    geometrias = [g for g in limites.values()]
+    if contorno_uf:
+        geometrias = geometrias + [contorno_uf]
+    caixa = caixa_de(geometrias)
+    proj = Projecao(largura, altura, caixa=caixa)
+
+    com_oferta = {c: d for c, d in dados.items()
+                  if (d.get("taxa") or 0) > 0 and c in limites}
+    quebras = _faixas([d["taxa"] for d in com_oferta.values()], 5)
+    paleta = AZUL[2:7]
+
+    partes = [
+        f'<svg class="mapa" viewBox="0 0 {largura} {altura}" role="img" '
+        f'xmlns="http://www.w3.org/2000/svg">',
+        f'<title>{esc(titulo)}</title><desc>{esc(descricao)}</desc>',
+    ]
+    sem_oferta = 0
+    for cod, geometria in limites.items():
+        d = dados.get(cod) or {}
+        taxa = d.get("taxa") or 0
+        if taxa > 0:
+            cor = _cor(taxa, quebras, paleta)
+            classe = "mapa-area"
+        else:
+            cor = SEM_DADO
+            # Classe propria para o tema poder escurecer o cinza: sobre pagina
+            # escura, um cinza-claro faz o municipio SEM oferta brilhar mais que
+            # os que tem, invertendo a leitura do mapa.
+            classe = "mapa-area mapa-sem-oferta"
+            sem_oferta += 1
+        atributos = "".join(
+            f' data-{chave.replace("_", "-")}="{esc(d[chave])}"'
+            for chave in ("cod_ibge", "populacao", "matriculas", "n_ies", "n_cursos")
+            if d.get(chave) is not None)
+        resumo = esc(d.get("nome") or "Município")
+        if taxa > 0:
+            resumo += f': {_fmt(d.get("matriculas"))} matrículas'
+            for rotulo, chave in (("hab.", "populacao"), ("instituições", "n_ies"),
+                                  ("cursos distintos", "n_cursos")):
+                if d.get(chave) is not None:
+                    resumo += f' · {_fmt(d[chave])} {rotulo}'
+        else:
+            resumo += ": sem oferta presencial"
+            if d.get("populacao"):
+                resumo += f' · {_fmt(d["populacao"])} hab.'
+        partes.append(
+            f'<path class="{classe}" d="{_caminho(geometria, proj)}" '
+            f'fill="{cor}" stroke="#FFFFFF" stroke-width="0.35"{atributos}>'
+            f'<title>{resumo}</title></path>')
+
+    if contorno_uf:
+        # Contorno do estado por cima: sem ele, a silhueta some no meio das
+        # divisas internas, todas com a mesma espessura.
+        partes.append(f'<path class="g-borda-uf" d="{_caminho(contorno_uf, proj)}" '
+                      f'fill="none" stroke="#16304F" stroke-width="1.1"/>')
+    partes.append("</svg>")
+
+    legenda = _legenda(quebras, paleta, " por 100 mil hab.", 0, tem_nulo=False)
+    if sem_oferta:
+        extra = (f'<span class="chave">{_amostra(SEM_DADO)}'
+                 f'sem oferta presencial ({sem_oferta})</span>')
+        legenda = legenda.replace("</div>", extra + "</div>")
+    return _rolavel("".join(partes), titulo) + legenda
 
 
 def serie_temporal(anos, series, titulo, descricao, largura=560, altura=240,

@@ -50,7 +50,8 @@ from referencias import CAPITAIS, NOME_UF, REGIAO_UF  # noqa: E402
 
 import agregados  # noqa: E402
 import insights  # noqa: E402
-from graficos import barras, coropletico, pontos_municipais, serie_temporal  # noqa: E402
+from graficos import (barras, coropletico, coropletico_municipal,  # noqa: E402
+                      pontos_municipais, serie_temporal)
 
 # Somáveis no agregado nacional; os demais são recalculados ou omitidos.
 SOMAVEIS = [
@@ -125,6 +126,20 @@ def carregar_geo():
         with open(caminho, encoding="utf-8") as f:
             pontos = json.load(f)["pontos"]
     return ufs, pontos
+
+
+def carregar_limites_municipais(sigla):
+    """Limites dos municipios de UMA unidade federativa.
+
+    Carregado por estado, e nao de uma vez: os 27 arquivos somam 2,5 MB, e
+    manter tudo na memoria para desenhar um estado de cada vez seria carregar
+    26 estados a toa. Ausente, o painel cai para o mapa de pontos.
+    """
+    caminho = DATA / "geo" / "municipios_uf" / f"{sigla}.json"
+    if not caminho.exists():
+        return {}
+    with open(caminho, encoding="utf-8") as f:
+        return json.load(f)["municipios"]
 
 
 def carregar_instituicoes():
@@ -737,16 +752,43 @@ def main():
     for sigla, u in sorted(acumulado.ufs.items()):
         muns = sorted((m for (s, _), m in acumulado.municipios.items() if s == sigla),
                       key=lambda m: -m["vagas_total"])
+        # Os quatro números que o mapa e o painel mostram, indexados pelo código
+        # IBGE — a chave que a malha do IBGE também usa.
+        por_codigo = {}
+        for m in muns:
+            if not m.get("cod_ibge"):
+                continue
+            pop = m.get("populacao")
+            por_codigo[str(m["cod_ibge"])] = {
+                "cod_ibge": m["cod_ibge"], "nome": m["nome"],
+                "populacao": pop, "matriculas": m.get("matriculas"),
+                "n_ies": m.get("n_ies"),
+                "n_cursos": m.get("n_cursos_distintos") or m.get("n_cursos"),
+                # A taxa é o que colore o mapa. Sem população não há taxa, e sem
+                # taxa o município fica fora da escala em vez de entrar com um
+                # valor inventado.
+                "taxa": (round(100000 * (m.get("matriculas") or 0) / pop, 1)
+                         if pop else None),
+            }
+
         mapa = ""
-        if centroides and muns and sigla in malha_ufs:
+        limites = carregar_limites_municipais(sigla)
+        if limites and por_codigo:
+            mapa = Markup(coropletico_municipal(
+                limites, por_codigo,
+                titulo=f"Matrículas por 100 mil habitantes em {NOME_UF[sigla]}",
+                descricao=("Cada município do estado, colorido pela taxa de "
+                           "matrículas presenciais por 100 mil habitantes. "
+                           "Municípios sem oferta aparecem em cinza."),
+                contorno_uf=malha_ufs.get(sigla)))
+        elif centroides and muns and sigla in malha_ufs:
+            # Reserva: sem a malha municipal, o mapa de pontos ainda responde
+            # "onde existe oferta" — só não mostra quem ficou de fora.
             mapa = Markup(pontos_municipais(
                 centroides,
-                [{"nome": m["nome"], "cod_ibge": m.get("cod_ibge"),
-                  "valor": m["vagas_total"], "populacao": m.get("populacao"),
-                  "matriculas": m.get("matriculas"),
-                  "n_ies": m.get("n_ies"),
-                  "n_cursos": m.get("n_cursos_distintos") or m.get("n_cursos")}
-                 for m in muns],
+                [{**d, "valor": next(m["vagas_total"] for m in muns
+                                     if str(m.get("cod_ibge")) == cod)}
+                 for cod, d in por_codigo.items()],
                 titulo=f"Municípios de {NOME_UF[sigla]} com oferta presencial",
                 descricao=("Círculos proporcionais às vagas presenciais. Cada "
                            "ponto traz população, matrículas, instituições e "

@@ -2,11 +2,11 @@
   "obra": "Observatório Nacional da Educação Superior",
   "autor": "Edson Sidião de Souza Júnior",
   "tipo": "Registro de Anterioridade e Integridade (prova de existência)",
-  "selado_em_utc": "2026-07-29T02:24:56+00:00",
+  "selado_em_utc": "2026-07-29T07:55:49+00:00",
   "algoritmo": "SHA-256",
   "n_arquivos": 71,
-  "hash_raiz": "9a857047586e834025638475e95a8dc841dcf37da95c3413e43ed01058c9b195",
-  "git_commit_ancora": "753969a585286522a03bb47ba14f3302dfbcc0f3",
+  "hash_raiz": "85d02995cbabac9dff57545ecc9adbf9e6476b2f0636d56ba59dff3b150afc2c",
+  "git_commit_ancora": "ff8d7e35d42672b2a34698d50f83a76a776bb0a0",
   "fundamento": "Lei 9.610/1998 e Lei 9.609/1998. O hash-raiz é impressão digital única do conjunto; o commit Git ancora a data de forma imutável.",
   "como_verificar": [
     "1. Baixe os arquivos listados em 'arquivos'.",
@@ -87,7 +87,7 @@
     },
     {
       "caminho": "etl/malha.py",
-      "sha256": "106029a46744fcfa7187b17fde9f140a141d747b36e7d5707a13c506d7f8c9ca"
+      "sha256": "121cbda978923011c3ab4d7fcd38b06caa48f18e9c992ce2fa0137c78ab0dec6"
     },
     {
       "caminho": "etl/municipios_ies.py",
@@ -131,11 +131,11 @@
     },
     {
       "caminho": "site/build.py",
-      "sha256": "d095d8b09cc46d0275e5c4c0b2f44ccf93b2bb4ef5000f747e11f6d39ede4b1f"
+      "sha256": "e1a3c95861b0be1a21ab5d3bec9df1b40abbce987e0fcd5f8d507fdba733ebe9"
     },
     {
       "caminho": "site/graficos.py",
-      "sha256": "d7b6c4f7efba4a411c0ff2196af5cdc6bffc1892856cb0231f60f4086f1ec68b"
+      "sha256": "6e6064f878ab2de6629dc51546ace045ce04e99a79c90c38a26f98c00591501d"
     },
     {
       "caminho": "site/insights.py",
@@ -143,7 +143,7 @@
     },
     {
       "caminho": "site/static/css/style.css",
-      "sha256": "21296c6b393972aa58489d27de79d27a85cc00270fb74aa05c2f4a4102da0f58"
+      "sha256": "0bcfbf311ab54b91d5832eb74b3a7de368d11bddd6945707bf02b40029ccb0af"
     },
     {
       "caminho": "site/static/js/app.js",
@@ -163,7 +163,7 @@
     },
     {
       "caminho": "site/static/js/mapa-municipios.js",
-      "sha256": "fe6d17d7f65216716a29713d5fa9f508dff45cdcb02ea4ba5cfad9b9283ba3a5"
+      "sha256": "5dcb3d22553474e93bb2120ee097157434a2896e0bec1156debebd5807a00041"
     },
     {
       "caminho": "site/static/js/pagina-comparar-entidades.js",
@@ -275,7 +275,7 @@
     },
     {
       "caminho": "site/templates/uf-perfil.html.j2",
-      "sha256": "ae21ff524c041e66c97b22e9032054cf19c8ebdbd2a64c365aa8453e934ed60b"
+      "sha256": "392deb943acf75788e5900bfb8842330606db35a322a13b458bea58c828be396"
     },
     {
       "caminho": "site/templates/uf.html.j2",
@@ -299,7 +299,7 @@
     },
     {
       "caminho": "tests/test_viewport.py",
-      "sha256": "27f57657871fda1e2000217126e57c11dc18a6dc4d676da6f87ae18074501875"
+      "sha256": "90920485f5f0f9430b686771424871a388417dbffe6c5a6e23ddcf7d6de749b8"
     }
   ]
 }

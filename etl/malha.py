@@ -1,17 +1,23 @@
 """
-Malha geográfica oficial: fronteiras das UFs e centroides municipais.
+Malha geográfica oficial: fronteiras das UFs, centroides e limites municipais.
 
 Uso (raro — só quando a malha do IBGE mudar):
     python etl/malha.py
 
-Baixa da API de malhas do IBGE e grava dois arquivos versionados:
+Baixa da API de malhas do IBGE e grava arquivos versionados:
 
-    data/geo/ufs.json         polígonos das 27 UFs, já simplificados
-    data/geo/municipios.json  um ponto (centroide) por município
+    data/geo/ufs.json               polígonos das 27 UFs, já simplificados
+    data/geo/municipios.json        um ponto (centroide) por município
+    data/geo/municipios_uf/GO.json  limites municipais, um arquivo por UF
 
-Por que centroide e não polígono para município: a malha municipal completa passa
-de vários MB e o mapa municipal deste observatório responde "onde existe oferta",
-não "qual a área do município". Ponto responde isso com uma fração do peso.
+Limite no mapa do estado, ponto no mapa do país — a pergunta é outra em cada
+escala. No painel estadual, o contorno de cada município mostra também os que
+NÃO têm oferta, e é justamente aí que os desertos aparecem; num mapa nacional,
+5.570 polígonos seriam ilegíveis e pesados, e o ponto responde melhor.
+
+Os limites vão recortados por UF de propósito: num arquivo só, a malha do país
+passaria de vários MB e seria lida inteira para desenhar um estado. Recortada,
+cada painel carrega de 100 a 500 KB e nunca toca no resto.
 
 O download acontece AQUI, no ETL, e o resultado é versionado. Em tempo de execução
 o site não busca nada de fora — a Content-Security-Policy proíbe, e a página de
@@ -109,21 +115,35 @@ def malha_ufs():
     return ufs
 
 
-def centroides_municipais():
-    """Percorre UF a UF: a malha municipal do país inteiro numa tacada estoura
-    o tempo limite da API."""
-    pontos = {}
+def malha_municipal():
+    """Centroides E limites, da mesma resposta.
+
+    Percorre UF a UF porque a malha do pais inteiro numa tacada estoura o tempo
+    limite da API. Duas saidas de uma requisicao so: baixar o mesmo estado duas
+    vezes para extrair coisas diferentes seria desperdicio de rede e de
+    paciencia do servidor do IBGE.
+    """
+    pontos, limites = {}, {}
     for codigo, sigla in sorted(UF_POR_CODIGO.items()):
         dados = baixar(f"{API}/estados/{codigo}?{FORMATO}&intrarregiao=municipio")
         n = 0
+        do_estado = {}
         for feicao in dados["features"]:
             cod_mun = str(feicao.get("properties", {}).get("codarea", "")).strip()
-            ponto = centroide(feicao["geometry"])
-            if cod_mun and ponto:
+            if not cod_mun:
+                continue
+            geometria = feicao["geometry"]
+            ponto = centroide(geometria)
+            if ponto:
                 pontos[cod_mun] = ponto
-                n += 1
-        print(f"  {sigla}: {n} municípios")
-    return pontos
+            do_estado[cod_mun] = {
+                "tipo": geometria["type"],
+                "coords": arredondar(geometria["coordinates"]),
+            }
+            n += 1
+        limites[sigla] = do_estado
+        print(f"  {sigla}: {n} municipios")
+    return pontos, limites
 
 
 def main():
@@ -147,8 +167,23 @@ def main():
     if args.so_ufs:
         return
 
-    print("\n== Centroides municipais ==")
-    pontos = centroides_municipais()
+    print("\n== Malha municipal: centroides e limites ==")
+    pontos, limites = malha_municipal()
+
+    destino_lim = GEO / "municipios_uf"
+    destino_lim.mkdir(parents=True, exist_ok=True)
+    total_kb = 0
+    for sigla, do_estado in sorted(limites.items()):
+        arq = destino_lim / f"{sigla}.json"
+        with open(arq, "w", encoding="utf-8") as f:
+            json.dump({"_fonte": "IBGE — malha municipal, qualidade mínima",
+                       "_precisao_graus": 10 ** -PRECISAO,
+                       "municipios": do_estado},
+                      f, ensure_ascii=False, separators=(",", ":"))
+        total_kb += arq.stat().st_size / 1024
+    print(f"[OK] geo/municipios_uf/: {len(limites)} arquivos · "
+          f"{total_kb / 1024:.1f} MB")
+
     destino = GEO / "municipios.json"
     with open(destino, "w", encoding="utf-8") as f:
         json.dump({"_fonte": "IBGE — centroides derivados da malha municipal",

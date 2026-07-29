@@ -1793,9 +1793,29 @@ main:focus { outline: none; }
   stroke: var(--gold);
   stroke-width: 2;
 }
+/* A area destacada muda o CONTORNO, nao o preenchimento: o preenchimento e o
+   dado, e trocá-lo ao passar o mouse faria o mapa mentir enquanto a pessoa o
+   lê. */
+.mapa-area { cursor: pointer; }
+.mapa-area.destacado {
+  stroke: var(--gold);
+  stroke-width: 1.8;
+  paint-order: stroke;
+}
 tr.destacada > * { background: var(--realce); }
 
 @media (max-width: 720px) {
   .mapa-com-painel { grid-template-columns: 1fr; }
   .mapa-painel { grid-column: 1; }
 }
+
+/* Mapa municipal e o tema. As cores da ESCALA não mudam — elas são o dado, e
+   trocá-las por tema quebraria a comparação entre uma leitura de dia e a mesma
+   à noite. Mudam as duas cores que não carregam valor: o cinza do município
+   sem oferta, que sobre página escura precisa recuar em vez de brilhar, e a
+   borda do estado, que precisa continuar visível. */
+.figura svg .mapa-sem-oferta { fill: var(--nodata); }
+.figura svg .g-borda-uf { stroke: var(--navy); }
+/* A divisa entre municípios é da cor da superfície: separa sem competir. */
+.figura svg .mapa-area { stroke: var(--surface); }
+.figura svg .mapa-area.destacado { stroke: var(--gold); }

@@ -301,7 +301,7 @@ def medir_busca(pagina, contexto, base):
 # Parado, ele e um desenho — e um desenho passa em qualquer varredura estatica.
 EXERCITAR_MAPA = """
 () => {
-  const pontos = document.querySelectorAll('.mapa-ponto');
+  const pontos = document.querySelectorAll('.mapa svg [data-cod-ibge], svg.mapa [data-cod-ibge]');
   const painel = document.getElementById('mapa-painel');
   if (!pontos.length || !painel) return null;
   const ler = () => ['nome', 'populacao', 'matriculas', 'n_ies', 'n_cursos']
@@ -310,7 +310,7 @@ EXERCITAR_MAPA = """
   const antes = ler();
   pontos[0].dispatchEvent(new MouseEvent('mouseenter', {bubbles: true}));
   const depoisMapa = ler();
-  const destacados = document.querySelectorAll('.mapa-ponto.destacado').length;
+  const destacados = document.querySelectorAll('[data-cod-ibge].destacado').length;
 
   // Caminho de teclado: a tabela, nao o desenho.
   const linha = document.querySelector('tr[data-cod]');
@@ -320,7 +320,7 @@ EXERCITAR_MAPA = """
     if (link) { link.focus(); link.dispatchEvent(new FocusEvent('focusin', {bubbles: true})); }
     depoisTabela = ler();
     pontoDaLinha = document.querySelectorAll(
-      '.mapa-ponto.destacado[data-cod-ibge="' + linha.getAttribute('data-cod') + '"]').length;
+      '[data-cod-ibge].destacado[data-cod-ibge="' + linha.getAttribute('data-cod') + '"]').length;
   }
   return {
     pontos: pontos.length,
