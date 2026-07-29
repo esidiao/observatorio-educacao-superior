@@ -56,6 +56,7 @@ data/
 site/
   build.py           Gerador estático (Jinja2)
   graficos.py        Mapas e gráficos em SVG, gerados no build
+  marca.py           A marca em SVG, com o mapa vindo da malha do IBGE
   agregados.py       Somas entre cursos — painéis de UF e de município
   insights.py        Leituras automáticas por regra — nunca por LLM
   templates/         Páginas

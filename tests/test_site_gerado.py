@@ -30,7 +30,9 @@ def test_paginas_obrigatorias():
     for nome in ("index.html", "comparar-cursos.html", "metodologia.html",
                  "privacidade.html", "404.html",
                  "autor.html", "aviso-legal.html",
-                 "static/js/indice.js", "static/js/comparacao.js"):
+                 "static/js/indice.js", "static/js/comparacao.js",
+                 "static/img/marca.svg", "static/img/icone.svg",
+                 "static/img/marca-completa.svg"):
         checar((DIST / nome).exists(), f"{nome} não foi gerado")
 
     # O índice de busca precisa cobrir os cinco tipos de destino. Se um grupo
@@ -44,6 +46,37 @@ def test_paginas_obrigatorias():
         checar(len(dados.get(grupo, [])) >= minimo,
                f"índice de busca com {len(dados.get(grupo, []))} {o_que}, "
                f"menos que o mínimo de {minimo}")
+
+
+def test_marca_gerada():
+    """A marca sai da malha do IBGE, e o texto dela tem de estar certo.
+
+    A primeira versão da arte de referência chegou com três erros de digitação
+    — "FUTUPO" por "FUTURO", e "ANALISES" e "EDUCACAO" sem acento. A arte foi
+    corrigida depois, e esta checagem existe para que os erros não voltem por
+    descuido: um erro tipográfico no logotipo se publica em dez mil páginas de
+    uma vez, e some da vista justamente por estar em todas.
+    """
+    caminho = DIST / "static" / "img" / "marca-completa.svg"
+    if not caminho.exists():
+        return
+    svg = caminho.read_text(encoding="utf-8")
+    for esperado in ("OBSERVATÓRIO", "NACIONAL", "DA EDUCAÇÃO SUPERIOR",
+                     "DADOS · ANÁLISES · CONHECIMENTO · FUTURO"):
+        checar(esperado in svg, f"assinatura da marca sem {esperado!r}")
+    for errado in ("FUTUPO", "ANALISES", "EDUCACAO", "SUPER OR"):
+        checar(errado not in svg,
+               f"a marca voltou a trazer o erro {errado!r} da arte original")
+
+    # O mapa dentro da lupa vem da malha; sem pontos, a lente fica vazia e o
+    # símbolo perde justamente o que o liga a este projeto.
+    simbolo = (DIST / "static" / "img" / "marca.svg").read_text(encoding="utf-8")
+    pontos = simbolo.count("<circle")
+    checar(pontos > 300, f"marca com só {pontos} pontos no mapa — a malha "
+                         f"provavelmente não foi lida")
+    icone = (DIST / "static" / "img" / "icone.svg").read_text(encoding="utf-8")
+    checar(len(icone) < 8000,
+           f"ícone com {len(icone)} bytes — pesado demais para 16 pixels de aba")
 
 
 def test_uma_pagina_por_curso():
@@ -265,6 +298,7 @@ def main():
     if not DIST.exists():
         sys.exit("[ERRO] site/dist não existe — rode python site/build.py antes.")
     test_paginas_obrigatorias()
+    test_marca_gerada()
     test_uma_pagina_por_curso()
     test_sem_recursos_externos()
     test_csp_publicada()

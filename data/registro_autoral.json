@@ -2,11 +2,11 @@
   "obra": "Observatório Nacional da Educação Superior",
   "autor": "Edson Sidião de Souza Júnior",
   "tipo": "Registro de Anterioridade e Integridade (prova de existência)",
-  "selado_em_utc": "2026-07-29T07:55:49+00:00",
+  "selado_em_utc": "2026-07-29T08:24:29+00:00",
   "algoritmo": "SHA-256",
   "n_arquivos": 71,
-  "hash_raiz": "85d02995cbabac9dff57545ecc9adbf9e6476b2f0636d56ba59dff3b150afc2c",
-  "git_commit_ancora": "ff8d7e35d42672b2a34698d50f83a76a776bb0a0",
+  "hash_raiz": "12adbfc04a27f056f6f7be59206d3aa8839d16adfddfb1aef383211141a31961",
+  "git_commit_ancora": "685ca26b37c15d6248ee04712ad1252c95a6e6cc",
   "fundamento": "Lei 9.610/1998 e Lei 9.609/1998. O hash-raiz é impressão digital única do conjunto; o commit Git ancora a data de forma imutável.",
   "como_verificar": [
     "1. Baixe os arquivos listados em 'arquivos'.",
@@ -131,7 +131,7 @@
     },
     {
       "caminho": "site/build.py",
-      "sha256": "e1a3c95861b0be1a21ab5d3bec9df1b40abbce987e0fcd5f8d507fdba733ebe9"
+      "sha256": "13fbf11b869ba45026bad9fc69989574a6692a0f03fc8504070909ac5b6342b2"
     },
     {
       "caminho": "site/graficos.py",
@@ -143,7 +143,7 @@
     },
     {
       "caminho": "site/static/css/style.css",
-      "sha256": "0bcfbf311ab54b91d5832eb74b3a7de368d11bddd6945707bf02b40029ccb0af"
+      "sha256": "91369d841a1eff3bdf1432b12b48925293b6ee4f405b3ae88b7ab1fafafb5ec0"
     },
     {
       "caminho": "site/static/js/app.js",
@@ -215,7 +215,7 @@
     },
     {
       "caminho": "site/templates/base.html.j2",
-      "sha256": "e88ae744581a439d1c6f44b118fde279956a22f1e4c276e5a28dbc242ecdda32"
+      "sha256": "e098f8d3c6271ea0c24d602acfc969d00181042c4533c032f22a1c9f127b4374"
     },
     {
       "caminho": "site/templates/comparar-cursos.html.j2",
@@ -291,7 +291,7 @@
     },
     {
       "caminho": "tests/test_site_gerado.py",
-      "sha256": "203dd61ec3c2edf4df8422371cc9c7c8a8265924b1358f0f940fd396bd201d94"
+      "sha256": "caffdf35e27987c78b436f59e96ada7d46847dea8b5587f05f8f777adf82b9d2"
     },
     {
       "caminho": "tests/test_validacao.py",

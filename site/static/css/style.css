@@ -96,7 +96,16 @@ a:hover { text-decoration: underline; }
 
 .brand { display: flex; align-items: center; gap: 13px; text-decoration: none; color: inherit; }
 .brand:hover { text-decoration: none; }
-.brand-mark { display: block; flex-shrink: 0; }
+.brand-mark {
+  display: block;
+  flex-shrink: 0;
+  width: 46px;
+  height: 46px;
+}
+@media (max-width: 720px) {
+  /* No celular o cabecalho ja e apertado; a marca cede espaco para o nome. */
+  .brand-mark { width: 38px; height: 38px; }
+}
 .brand-text { display: flex; flex-direction: column; line-height: 1.12; }
 .brand-name {
   font-family: var(--font-serif);

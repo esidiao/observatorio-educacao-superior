@@ -50,6 +50,7 @@ from referencias import CAPITAIS, NOME_UF, REGIAO_UF  # noqa: E402
 
 import agregados  # noqa: E402
 import insights  # noqa: E402
+import marca  # noqa: E402
 from graficos import (barras, coropletico, coropletico_municipal,  # noqa: E402
                       pontos_municipais, serie_temporal)
 
@@ -605,6 +606,18 @@ def main():
     ufs_disponiveis = sorted(ufs_disponiveis)
 
     # ── Estáticos ────────────────────────────────────────────────────────────
+    # A marca sai daqui, e não de um arquivo mantido à mão: o mapa dentro da
+    # lupa é a malha de data/geo/ufs.json amostrada em pontos. Gerando no
+    # build, marca e mapas do site nunca divergem — se o IBGE revisar a malha,
+    # as duas mudam na mesma execução.
+    img = SITE / "static" / "img"
+    img.mkdir(parents=True, exist_ok=True)
+    (img / "marca.svg").write_text(marca.simbolo(tamanho=96), encoding="utf-8")
+    (img / "marca-completa.svg").write_text(marca.marca_completa(), encoding="utf-8")
+    (img / "icone.svg").write_text(
+        marca.simbolo(32, "icone", passo=3.0, ponto=2.6), encoding="utf-8")
+    print(f"[OK] static/img/ — marca, assinatura e ícone gerados da malha")
+
     shutil.copytree(SITE / "static", DIST / "static")
 
     # ── Comparação entre cursos ──────────────────────────────────────────────

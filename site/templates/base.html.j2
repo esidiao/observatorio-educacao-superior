@@ -15,7 +15,11 @@
   <meta property="og:site_name" content="Observatório Nacional da Educação Superior">
   <meta property="og:title" content="{% block og_title %}Observatório Nacional da Educação Superior{% endblock %}">
   <meta property="og:locale" content="pt_BR">
+  <meta property="og:image" content="{{ depth }}static/img/marca-completa.svg">
+  <meta name="twitter:card" content="summary">
 
+  <link rel="icon" type="image/svg+xml" href="{{ depth }}static/img/icone.svg">
+  <link rel="apple-touch-icon" href="{{ depth }}static/img/icone.svg">
   <link rel="stylesheet" href="{{ depth }}static/css/style.css">
   {% block head_extra %}{% endblock %}
 </head>
@@ -36,6 +40,12 @@
 
 <header class="site-header" role="banner">
   <a href="{{ depth }}index.html" class="brand" aria-label="Página inicial">
+    {# A marca vem de arquivo externo, nao embutida: o SVG tem 16 KB e as
+       ~10 mil paginas o carregam do cache uma vez so. Embutido, custaria
+       160 MB de HTML. alt vazio porque o nome do observatorio esta escrito
+       ao lado — anunciar duas vezes e ruido para quem usa leitor de tela. #}
+    <img class="brand-mark" src="{{ depth }}static/img/marca.svg" alt=""
+         width="46" height="46" decoding="async">
     <span class="brand-text">
       <span class="brand-name">Observatório Nacional</span>
       <span class="brand-sub">da Educação Superior</span>
