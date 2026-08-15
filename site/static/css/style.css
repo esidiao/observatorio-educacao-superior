@@ -1828,3 +1828,8 @@ tr.destacada > * { background: var(--realce); }
 /* A divisa entre municípios é da cor da superfície: separa sem competir. */
 .figura svg .mapa-area { stroke: var(--surface); }
 .figura svg .mapa-area.destacado { stroke: var(--gold); }
+
+/* O município em foco no mapa localizador. Contorno além do preenchimento:
+   num estado com 853 municípios, achar um azul entre cinzas é mais fácil se
+   ele também tiver borda mais grossa que as divisas ao redor. */
+.mapa-alvo { stroke-linejoin: round; }

@@ -71,6 +71,8 @@ AMOSTRA = [
     "curso/medicina/index.html",
     "curso/medicina/uf/GO.html",
     "uf/GO.html",
+    "municipio/GO-GOIANIA.html",
+    "instituicao/584.html",
 ]
 
 # axe é caro: roda no subconjunto que cobre os moldes distintos de conteúdo.

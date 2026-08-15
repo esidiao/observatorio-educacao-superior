@@ -2,11 +2,11 @@
   "obra": "Observatório Nacional da Educação Superior",
   "autor": "Edson Sidião de Souza Júnior",
   "tipo": "Registro de Anterioridade e Integridade (prova de existência)",
-  "selado_em_utc": "2026-08-15T14:22:17+00:00",
+  "selado_em_utc": "2026-08-15T14:49:51+00:00",
   "algoritmo": "SHA-256",
   "n_arquivos": 71,
-  "hash_raiz": "493d4ca82d025aeba63449a4546f443e007450055dbeb5f843aae50d1844bcc5",
-  "git_commit_ancora": "622acd2f6bb10e7d7cbf3e95dddc91dfdd9a03f2",
+  "hash_raiz": "c850a5f2690257ce0343deb7fdf2e5ff7bf67150c1195ee5beda028fdd931aa2",
+  "git_commit_ancora": "30d6a83b3d06dcd0cc26ceade646e5f5d9cadefe",
   "fundamento": "Lei 9.610/1998 e Lei 9.609/1998. O hash-raiz é impressão digital única do conjunto; o commit Git ancora a data de forma imutável.",
   "como_verificar": [
     "1. Baixe os arquivos listados em 'arquivos'.",
@@ -131,11 +131,11 @@
     },
     {
       "caminho": "site/build.py",
-      "sha256": "309f91d8995526b16341170761c980bd95f305c512b184fc73c0f29ca97de8eb"
+      "sha256": "96440500868eae071e98cc3d79b23169ab4b72ace81aadb7a29a0d5860e069eb"
     },
     {
       "caminho": "site/graficos.py",
-      "sha256": "c5dd16f6ff1e326548f00ea40d63d8b252f52731759369017946c0025d5718f2"
+      "sha256": "8edaecce375f5815629fbd0576655f52bb8c8702340130396052171a3149cbc4"
     },
     {
       "caminho": "site/insights.py",
@@ -143,7 +143,7 @@
     },
     {
       "caminho": "site/static/css/style.css",
-      "sha256": "91369d841a1eff3bdf1432b12b48925293b6ee4f405b3ae88b7ab1fafafb5ec0"
+      "sha256": "dde9cd0449f2f3d696db1f56db6874cd5d716ce63c790e9b0a167f1379e1a1b2"
     },
     {
       "caminho": "site/static/js/app.js",
@@ -251,7 +251,7 @@
     },
     {
       "caminho": "site/templates/municipio.html.j2",
-      "sha256": "b0f500809abc27c677753d345e5ba9a0a5171a67e743c8746c27b05c74811bb5"
+      "sha256": "aec3d5c2f18025dda48837d120f43527cabea8f601a952916a3ee04e93fd572f"
     },
     {
       "caminho": "site/templates/municipios.html.j2",
@@ -299,7 +299,7 @@
     },
     {
       "caminho": "tests/test_viewport.py",
-      "sha256": "a754fea8fb174400ae213972e27b96b5f13897939911c5a365bb6eff09d71ef0"
+      "sha256": "6a2efdc0f53039ecc350bec00a456b23d48a54a744ca67846441e4f16543b2d5"
     }
   ]
 }

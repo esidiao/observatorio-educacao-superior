@@ -52,7 +52,7 @@ import agregados  # noqa: E402
 import insights  # noqa: E402
 import marca  # noqa: E402
 from graficos import (CAMPOS_CURSO, barras, base_municipal,  # noqa: E402
-                      coropletico,
+                      coropletico, localizador_municipal,
                       coropletico_municipal,
                       pontos_municipais, serie_temporal)
 
@@ -969,9 +969,22 @@ def main():
 
     (DIST / "municipio").mkdir(parents=True, exist_ok=True)
     tpl_mun = env.get_template("municipio.html.j2")
+    # Os limites ficam em cache por UF: sem isso, a malha de Minas seria lida
+    # 853 vezes, uma por município do estado.
+    limites_por_uf = {}
     for (sigla, slug), m in acumulado.municipios.items():
+        if sigla not in limites_por_uf:
+            limites_por_uf[sigla] = carregar_limites_municipais(sigla)
+        localizador = ""
+        if limites_por_uf[sigla] and m.get("cod_ibge"):
+            localizador = Markup(localizador_municipal(
+                limites_por_uf[sigla], m["cod_ibge"], m["nome"],
+                contorno_uf=malha_ufs.get(sigla),
+                base_href=("../" + bases_municipais[sigla]
+                           if sigla in bases_municipais else None)))
         html = tpl_mun.render(
             **ctx_base, depth="../", curso_atual=None, m=m,
+            localizador=localizador,
             nome_uf=NOME_UF[sigla], ano_populacao=ano_populacao,
             grafico=Markup(barras(
                 [{"nome": c["nome"], "valor": c["vagas"]} for c in m["cursos"]],

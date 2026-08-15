@@ -460,6 +460,55 @@ def coropletico_municipal(limites, dados, titulo, descricao, contorno_uf=None,
     return _rolavel("".join(partes), titulo) + legenda
 
 
+def localizador_municipal(limites, cod_alvo, nome, contorno_uf=None,
+                          base_href=None, largura=560, altura=520):
+    """Onde este município fica dentro do estado.
+
+    A página de um município dizia quantas vagas e quantos cursos ele tem, e
+    não dizia onde ele fica. Para quem procura onde estudar, "onde" é metade da
+    pergunta — e um nome de cidade só localiza quem já conhece o estado.
+
+    Custa quase nada: a base do estado é a mesma imagem que as páginas de curso
+    e o painel territorial já carregaram, e o que esta figura acrescenta é UM
+    caminho, o do município em destaque.
+    """
+    geometria = limites.get(str(cod_alvo))
+    if not geometria:
+        return ""
+    geometrias = list(limites.values())
+    if contorno_uf:
+        geometrias = geometrias + [contorno_uf]
+    proj = Projecao(largura, altura, caixa=caixa_de(geometrias))
+
+    partes = [
+        f'<svg class="mapa" viewBox="0 0 {largura} {altura}" role="img" '
+        f'xmlns="http://www.w3.org/2000/svg">',
+        f'<title>Localização de {esc(nome)} no estado</title>',
+        f'<desc>O município aparece destacado sobre os limites municipais do '
+        f'estado.</desc>',
+    ]
+    if base_href:
+        partes.append(
+            f'<image href="{esc(base_href)}" x="0" y="0" width="{largura}" '
+            f'height="{altura}" class="mapa-base"/>')
+    else:
+        # Sem a base pronta, desenha-se o estado aqui — mais pesado, mas a
+        # página não fica sem o mapa por causa de um arquivo ausente.
+        for g in limites.values():
+            partes.append(f'<path d="{_caminho(g, proj)}" fill="{SEM_DADO}" '
+                          f'stroke="#FFFFFF" stroke-width="0.35"/>')
+        if contorno_uf:
+            partes.append(f'<path d="{_caminho(contorno_uf, proj)}" fill="none" '
+                          f'stroke="#16304F" stroke-width="1.1"/>')
+
+    partes.append(
+        f'<path class="mapa-alvo" d="{_caminho(geometria, proj)}" '
+        f'fill="#2E5496" stroke="#16304F" stroke-width="1.2">'
+        f'<title>{esc(nome)}</title></path>')
+    partes.append("</svg>")
+    return _rolavel("".join(partes), f"Localização de {nome}")
+
+
 def serie_temporal(anos, series, titulo, descricao, largura=560, altura=240,
                    casas=0):
     """Linhas ao longo dos anos. `series` = [{"nome":..., "valores": [...]}].

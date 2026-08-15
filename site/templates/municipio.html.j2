@@ -42,6 +42,17 @@
 </section>
 {% endif %}
 
+{% if localizador %}
+<h2 class="section-title">Onde fica</h2>
+<div class="figura">
+  {{ localizador }}
+  <p class="figura-nota">
+    {{ m.nome }} destacado entre os municípios de {{ nome_uf }}. Os demais
+    aparecem em cinza — a figura localiza, não compara.
+  </p>
+</div>
+{% endif %}
+
 {% if grafico %}
 <h2 class="section-title">Cursos com mais vagas</h2>
 <div class="figura">{{ grafico }}</div>
