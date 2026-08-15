@@ -13,6 +13,41 @@
 (function () {
   var FONTE = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif';
   var ESCALA_PNG = 2;   // dobra a resolução: gráfico citado costuma ir para slide
+  var SVGNS = 'http://www.w3.org/2000/svg';
+  var XLINK = 'http://www.w3.org/1999/xlink';
+
+  // A base dos mapas municipais vive num arquivo à parte, referenciada por
+  // <image> — é a mesma imagem em todas as páginas de um estado, e repeti-la
+  // dentro de cada uma custaria 218 KB vezes 353 cursos só em Minas. Mas um
+  // SVG exportado precisa valer sozinho, longe deste site: sem resolver a
+  // referência, o arquivo sairia com os municípios coloridos boiando no vazio,
+  // sem o contorno do estado e sem os que não têm oferta. Aqui a base é
+  // buscada e embutida antes de serializar.
+  var baseEmCache = {};
+
+  function embutirBase(copia) {
+    var img = copia.querySelector('image');
+    if (!img) return Promise.resolve(copia);
+    var href = img.getAttribute('href') || img.getAttributeNS(XLINK, 'href');
+    if (!href) return Promise.resolve(copia);
+    if (!baseEmCache[href]) {
+      baseEmCache[href] = fetch(href).then(function (r) { return r.text(); });
+    }
+    return baseEmCache[href].then(function (texto) {
+      var doc = new DOMParser().parseFromString(texto, 'image/svg+xml');
+      if (doc.querySelector('parsererror')) return copia;
+      var g = document.createElementNS(SVGNS, 'g');
+      while (doc.documentElement.firstChild) {
+        g.appendChild(doc.documentElement.firstChild);
+      }
+      img.parentNode.replaceChild(g, img);
+      return copia;
+    }).catch(function () {
+      // Falhou a busca: exporta com o <image> como está. O SVG ainda abre no
+      // navegador, só continua dependendo do site — melhor que não exportar.
+      return copia;
+    });
+  }
 
   function preparar(svg) {
     var copia = svg.cloneNode(true);
@@ -38,12 +73,14 @@
     estilo.textContent = 'text{font-family:' + FONTE + '}';
     copia.insertBefore(estilo, copia.firstChild);
 
-    return {
-      texto: '<?xml version="1.0" encoding="UTF-8"?>\n'
-        + new XMLSerializer().serializeToString(copia),
-      largura: largura,
-      altura: altura,
-    };
+    return embutirBase(copia).then(function (pronta) {
+      return {
+        texto: '<?xml version="1.0" encoding="UTF-8"?>\n'
+          + new XMLSerializer().serializeToString(pronta),
+        largura: largura,
+        altura: altura,
+      };
+    });
   }
 
   function nomeArquivo(svg, extensao) {
@@ -66,18 +103,19 @@
   }
 
   function exportarSVG(svg) {
-    var p = preparar(svg);
-    salvar(new Blob([p.texto], { type: 'image/svg+xml;charset=utf-8' }),
-           nomeArquivo(svg, 'svg'));
+    preparar(svg).then(function (p) {
+      salvar(new Blob([p.texto], { type: 'image/svg+xml;charset=utf-8' }),
+             nomeArquivo(svg, 'svg'));
+    });
   }
 
   function exportarPNG(svg, botao) {
-    var p = preparar(svg);
     var img = new Image();
     var rotuloOriginal = botao.textContent;
     botao.disabled = true;
     botao.textContent = 'gerando…';
 
+    preparar(svg).then(function (p) {
     img.onload = function () {
       var canvas = document.createElement('canvas');
       canvas.width = p.largura * ESCALA_PNG;
@@ -101,6 +139,7 @@
     // data: URI em vez de blob: URL — a CSP permite img-src data:, e evita
     // depender de origem para o carregamento da imagem.
     img.src = 'data:image/svg+xml;charset=utf-8,' + encodeURIComponent(p.texto);
+    });
   }
 
   function montarBarra(figura, svg) {

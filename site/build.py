@@ -51,7 +51,9 @@ from referencias import CAPITAIS, NOME_UF, REGIAO_UF  # noqa: E402
 import agregados  # noqa: E402
 import insights  # noqa: E402
 import marca  # noqa: E402
-from graficos import (barras, coropletico, coropletico_municipal,  # noqa: E402
+from graficos import (CAMPOS_CURSO, barras, base_municipal,  # noqa: E402
+                      coropletico,
+                      coropletico_municipal,
                       pontos_municipais, serie_temporal)
 
 # Somáveis no agregado nacional; os demais são recalculados ou omitidos.
@@ -444,6 +446,27 @@ def main():
     ufs_disponiveis, agregado = set(), {"vagas_total": 0, "matriculas": 0, "n_cursos": 0}
     pulados = []
 
+    # ── Base dos mapas municipais, uma por UF ────────────────────────────────
+    # A mesma imagem serve a todas as paginas de um estado: a de cada curso e a
+    # do painel territorial. Servida a parte, o navegador a busca uma vez;
+    # embutida em cada pagina, custaria os 218 KB de Minas multiplicados por
+    # 353 cursos.
+    base_geo = SITE / "static" / "geo"
+    base_geo.mkdir(parents=True, exist_ok=True)
+    bases_municipais = {}
+    for sigla in sorted(malha_ufs):
+        limites_base = carregar_limites_municipais(sigla)
+        if not limites_base:
+            continue
+        (base_geo / f"{sigla}.svg").write_text(
+            base_municipal(limites_base, contorno_uf=malha_ufs.get(sigla)),
+            encoding="utf-8")
+        bases_municipais[sigla] = f"static/geo/{sigla}.svg"
+    if bases_municipais:
+        kb = sum((base_geo / f"{s}.svg").stat().st_size for s in bases_municipais) / 1024
+        print(f"[OK] static/geo/ — {len(bases_municipais)} bases municipais, "
+              f"{kb / 1024:.1f} MB no total")
+
     tpl_curso = env.get_template("curso.html.j2")
     tpl_uf = env.get_template("uf.html.j2")
 
@@ -536,8 +559,47 @@ def main():
                                 if sigla in (instituicoes[i["co_ies"]].get("ufs") or [])})
             for m in municipios_uf:
                 acumulado.somar_municipio(sigla, c, m)
+            # Mapa do curso no estado, com o limite de cada município. A troca
+            # de círculos por áreas muda o que se lê: o mapa de pontos só
+            # desenhava município COM oferta, e um curso presente em quatorze
+            # cidades parecia um estado de quatorze cidades. Com os limites, os
+            # 246 municípios de Goiás aparecem, e os 232 sem este curso
+            # aparecem *como não tendo* — que é a pergunta de quem procura onde
+            # estudar.
             mapa_uf = ""
-            if centroides and municipios_uf:
+            por_codigo_curso = {}
+            for m in municipios_uf:
+                cod = str(m.get("cod_ibge") or "")
+                if not cod:
+                    continue
+                pop = (perfil_municipal.get(cod) or {}).get("populacao")
+                por_codigo_curso[cod] = {
+                    "cod_ibge": cod, "nome": m["nome"], "populacao": pop,
+                    "matriculas": m.get("matriculas"),
+                    "vagas": m.get("vagas_total"),
+                    # n_ies aqui é exato sem esforço: o Censo informa quantas
+                    # instituições ofertam ESTE curso naquele município, e não
+                    # há o problema de dupla contagem do painel territorial.
+                    "n_ies": m.get("n_ies"),
+                    "taxa": (round(100000 * (m.get("matriculas") or 0) / pop, 1)
+                             if pop else None),
+                }
+            limites_uf = carregar_limites_municipais(sigla)
+            if limites_uf and por_codigo_curso:
+                mapa_uf = Markup(coropletico_municipal(
+                    limites_uf, por_codigo_curso,
+                    titulo=(f"Matrículas em {c['nome']} por 100 mil habitantes "
+                            f"em {NOME_UF[sigla]}"),
+                    descricao=(f"Cada município do estado, colorido pela taxa de "
+                               f"matrículas em {c['nome']} por 100 mil habitantes. "
+                               f"Municípios sem o curso aparecem em cinza."),
+                    contorno_uf=malha_ufs.get(sigla),
+                    campos=CAMPOS_CURSO,
+                    base_href="../../../" + bases_municipais[sigla]
+                    if sigla in bases_municipais else None))
+            elif centroides and municipios_uf:
+                # Reserva: sem a malha municipal, o mapa de pontos ainda diz
+                # onde há oferta — só não mostra quem ficou de fora.
                 mapa_uf = Markup(pontos_municipais(
                     centroides,
                     [{"nome": m["nome"], "cod_ibge": m.get("cod_ibge"),
@@ -619,6 +681,7 @@ def main():
     print(f"[OK] static/img/ — marca, assinatura e ícone gerados da malha")
 
     shutil.copytree(SITE / "static", DIST / "static")
+
 
     # ── Comparação entre cursos ──────────────────────────────────────────────
     (DIST / "static" / "js" / "comparacao.js").write_text(
@@ -793,7 +856,12 @@ def main():
                 descricao=("Cada município do estado, colorido pela taxa de "
                            "matrículas presenciais por 100 mil habitantes. "
                            "Municípios sem oferta aparecem em cinza."),
-                contorno_uf=malha_ufs.get(sigla)))
+                contorno_uf=malha_ufs.get(sigla),
+                # O painel estadual mora em /uf/GO.html: sem o "../" o
+                # navegador procura a base em /uf/static/ e recebe 404 —
+                # e o mapa perde justamente os municipios sem oferta.
+                base_href=("../" + bases_municipais[sigla]
+                           if sigla in bases_municipais else None)))
         elif centroides and muns and sigla in malha_ufs:
             # Reserva: sem a malha municipal, o mapa de pontos ainda responde
             # "onde existe oferta" — só não mostra quem ficou de fora.

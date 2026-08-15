@@ -311,8 +311,52 @@ def pontos_municipais(centroides, municipios, titulo, descricao,
     return _rolavel("".join(partes), titulo) + nota
 
 
+# Campos que acompanham cada área, e como cada um se lê na dica nativa. O painel
+# estadual responde "o que existe neste município"; a página de um curso responde
+# "o que existe deste curso aqui". São perguntas diferentes, e os quatro números
+# mudam com elas.
+CAMPOS_TERRITORIO = (("populacao", "hab."), ("n_ies", "instituições"),
+                     ("n_cursos", "cursos distintos"))
+CAMPOS_CURSO = (("populacao", "hab."), ("n_ies", "instituições"),
+                ("vagas", "vagas"))
+
+
+def base_municipal(limites, contorno_uf=None, largura=560, altura=520):
+    """A base do mapa de um estado: todos os municipios, em cinza.
+
+    Sai como arquivo proprio, um por UF, porque e a mesma imagem em todas as
+    paginas daquele estado — a de cada curso e a do painel territorial. Servida
+    uma vez, cacheada uma vez. Embutida em cada pagina, custaria 218 KB
+    multiplicados por 353 cursos so em Minas.
+
+    A projecao e a mesma de `coropletico_municipal` com a mesma caixa, e por
+    isso a sobreposicao encaixa: as duas leem os mesmos limites e a mesma
+    geometria da UF.
+    """
+    geometrias = list(limites.values())
+    if contorno_uf:
+        geometrias = geometrias + [contorno_uf]
+    proj = Projecao(largura, altura, caixa=caixa_de(geometrias))
+
+    partes = [
+        f'<svg viewBox="0 0 {largura} {altura}" width="{largura}" '
+        f'height="{altura}" xmlns="http://www.w3.org/2000/svg" '
+        f'role="img" aria-label="Limites municipais">',
+        f'<g fill="{SEM_DADO}" stroke="#FFFFFF" stroke-width="0.35">',
+    ]
+    for geometria in limites.values():
+        partes.append(f'<path d="{_caminho(geometria, proj)}"/>')
+    partes.append("</g>")
+    if contorno_uf:
+        partes.append(f'<path d="{_caminho(contorno_uf, proj)}" fill="none" '
+                      f'stroke="#16304F" stroke-width="1.1"/>')
+    partes.append("</svg>")
+    return "".join(partes)
+
+
 def coropletico_municipal(limites, dados, titulo, descricao, contorno_uf=None,
-                          largura=560, altura=520):
+                          largura=560, altura=520, campos=CAMPOS_TERRITORIO,
+                          base_href=None):
     """Mapa de um estado com o contorno de cada município.
 
     Substitui o mapa de círculos proporcionais, e a troca muda o que o mapa diz.
@@ -347,8 +391,21 @@ def coropletico_municipal(limites, dados, titulo, descricao, contorno_uf=None,
         f'xmlns="http://www.w3.org/2000/svg">',
         f'<title>{esc(titulo)}</title><desc>{esc(descricao)}</desc>',
     ]
-    sem_oferta = 0
-    for cod, geometria in limites.items():
+    # Com base externa, so os municipios COM dado viram caminho na pagina: os
+    # demais ja estao desenhados na imagem de fundo, identica em todas as
+    # paginas daquele estado. Sem ela, desenha-se tudo aqui.
+    if base_href:
+        partes.append(
+            f'<image href="{esc(base_href)}" x="0" y="0" width="{largura}" '
+            f'height="{altura}" class="mapa-base"/>')
+        alvos = [(c, g) for c, g in limites.items()
+                 if (dados.get(c) or {}).get("taxa")]
+        sem_oferta = len(limites) - len(alvos)
+    else:
+        alvos = list(limites.items())
+        sem_oferta = 0
+
+    for cod, geometria in alvos:
         d = dados.get(cod) or {}
         taxa = d.get("taxa") or 0
         if taxa > 0:
@@ -360,18 +417,25 @@ def coropletico_municipal(limites, dados, titulo, descricao, contorno_uf=None,
             # escura, um cinza-claro faz o municipio SEM oferta brilhar mais que
             # os que tem, invertendo a leitura do mapa.
             classe = "mapa-area mapa-sem-oferta"
-            sem_oferta += 1
+            if not base_href:
+                sem_oferta += 1
+        chaves = ("cod_ibge", "matriculas") + tuple(c for c, _ in campos)
         atributos = "".join(
             f' data-{chave.replace("_", "-")}="{esc(d[chave])}"'
-            for chave in ("cod_ibge", "populacao", "matriculas", "n_ies", "n_cursos")
-            if d.get(chave) is not None)
+            for chave in chaves if d.get(chave) is not None)
         resumo = esc(d.get("nome") or "Município")
         if taxa > 0:
             resumo += f': {_fmt(d.get("matriculas"))} matrículas'
-            for rotulo, chave in (("hab.", "populacao"), ("instituições", "n_ies"),
-                                  ("cursos distintos", "n_cursos")):
+            for chave, rotulo in campos:
                 if d.get(chave) is not None:
-                    resumo += f' · {_fmt(d[chave])} {rotulo}'
+                    # "1 instituições" aparece em quase todo municipio pequeno;
+                    # o plural cru delata que o texto foi montado por maquina.
+                    palavra = rotulo
+                    if d[chave] == 1:
+                        palavra = {"instituições": "instituição",
+                                   "cursos distintos": "curso",
+                                   "vagas": "vaga"}.get(rotulo, rotulo)
+                    resumo += f' · {_fmt(d[chave])} {palavra}'
         else:
             resumo += ": sem oferta presencial"
             if d.get("populacao"):

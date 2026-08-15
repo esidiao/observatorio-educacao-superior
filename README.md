@@ -153,6 +153,11 @@ Com 353 cursos × 27 UFs, duas coisas mudaram de forma no site:
   carregado uma vez para todo o site — são 4.074 destinos (cursos, instituições,
   municípios, estados e páginas fixas) e, repetidos em ~10 mil páginas, sozinhos
   pesariam mais que todo o resto;
+- a base dos mapas municipais virou `static/geo/<UF>.svg`, um arquivo por estado.
+  O contorno de Minas não muda porque o curso mudou, e embutir os 853 polígonos em
+  cada uma das 353 páginas de curso levou o site de 300 MB para 696 MB numa
+  tentativa. Servida à parte, a base é buscada uma vez e cada página carrega só os
+  municípios que a interessam;
 - a matriz de comparação virou `static/js/comparacao.js` em formato colunar (uma lista
   de campos + um vetor de valores por recorte), em vez de objetos com os nomes dos
   campos repetidos por curso e por UF.

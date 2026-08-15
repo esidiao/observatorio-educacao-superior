@@ -31,13 +31,14 @@
     var pontos = mapa.querySelectorAll('[data-cod-ibge]');
     if (!pontos.length) return;
 
-    var campos = {
-      nome: painel.querySelector('[data-campo="nome"]'),
-      populacao: painel.querySelector('[data-campo="populacao"]'),
-      matriculas: painel.querySelector('[data-campo="matriculas"]'),
-      n_ies: painel.querySelector('[data-campo="n_ies"]'),
-      n_cursos: painel.querySelector('[data-campo="n_cursos"]')
-    };
+    // Os campos vem do proprio painel, nao de uma lista aqui dentro. O painel
+    // estadual mostra cursos distintos; o da pagina de um curso mostra vagas
+    // daquele curso. Descobrindo o conjunto no HTML, o mesmo arquivo serve aos
+    // dois — e a um terceiro que venha depois, sem tocar neste codigo.
+    var campos = {};
+    Array.prototype.forEach.call(
+      painel.querySelectorAll('[data-campo]'),
+      function (el) { campos[el.getAttribute('data-campo')] = el; });
     var vazio = painel.querySelector('.mapa-painel-vazio');
     var conteudo = painel.querySelector('.mapa-painel-dados');
 
@@ -78,12 +79,12 @@
         : (linhas[cod] ? linhas[cod].querySelector('th').textContent.trim() : '');
       campos.nome.textContent = nome;
 
-      ['populacao', 'matriculas', 'n-ies', 'n-cursos'].forEach(function (attr) {
-        var chave = attr.replace('-', '_');
-        var v = origem.getAttribute('data-' + attr);
+      Object.keys(campos).forEach(function (campo) {
+        if (campo === 'nome') return;
+        var v = origem.getAttribute('data-' + campo.replace(/_/g, '-'));
         // Ausente não vira zero: zero afirmaria que o município não tem
         // nenhuma instituição, o que é diferente de não sabermos o número.
-        campos[chave].textContent = (v === null || v === '') ? '—' : milhar(v);
+        campos[campo].textContent = (v === null || v === '') ? '—' : milhar(v);
       });
 
       if (vazio) vazio.hidden = true;

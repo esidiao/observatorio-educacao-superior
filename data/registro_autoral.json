@@ -2,11 +2,11 @@
   "obra": "Observatório Nacional da Educação Superior",
   "autor": "Edson Sidião de Souza Júnior",
   "tipo": "Registro de Anterioridade e Integridade (prova de existência)",
-  "selado_em_utc": "2026-07-29T08:24:29+00:00",
+  "selado_em_utc": "2026-08-15T14:22:17+00:00",
   "algoritmo": "SHA-256",
   "n_arquivos": 71,
-  "hash_raiz": "12adbfc04a27f056f6f7be59206d3aa8839d16adfddfb1aef383211141a31961",
-  "git_commit_ancora": "685ca26b37c15d6248ee04712ad1252c95a6e6cc",
+  "hash_raiz": "493d4ca82d025aeba63449a4546f443e007450055dbeb5f843aae50d1844bcc5",
+  "git_commit_ancora": "622acd2f6bb10e7d7cbf3e95dddc91dfdd9a03f2",
   "fundamento": "Lei 9.610/1998 e Lei 9.609/1998. O hash-raiz é impressão digital única do conjunto; o commit Git ancora a data de forma imutável.",
   "como_verificar": [
     "1. Baixe os arquivos listados em 'arquivos'.",
@@ -131,11 +131,11 @@
     },
     {
       "caminho": "site/build.py",
-      "sha256": "13fbf11b869ba45026bad9fc69989574a6692a0f03fc8504070909ac5b6342b2"
+      "sha256": "309f91d8995526b16341170761c980bd95f305c512b184fc73c0f29ca97de8eb"
     },
     {
       "caminho": "site/graficos.py",
-      "sha256": "6e6064f878ab2de6629dc51546ace045ce04e99a79c90c38a26f98c00591501d"
+      "sha256": "c5dd16f6ff1e326548f00ea40d63d8b252f52731759369017946c0025d5718f2"
     },
     {
       "caminho": "site/insights.py",
@@ -155,7 +155,7 @@
     },
     {
       "caminho": "site/static/js/exportar-figura.js",
-      "sha256": "5f81269e7af6e7e6cda59e510634019a45502dfc3f0d06f620f8c5d6de40061e"
+      "sha256": "160454186a87840912e3be800f64a9584ccf5c3362b421be9ea1a5fd7923a329"
     },
     {
       "caminho": "site/static/js/glossario.js",
@@ -163,7 +163,7 @@
     },
     {
       "caminho": "site/static/js/mapa-municipios.js",
-      "sha256": "5dcb3d22553474e93bb2120ee097157434a2896e0bec1156debebd5807a00041"
+      "sha256": "75d52ba7db67d581dcab027d3ffb493429bfbc6d311db9f0a41d319289a1b758"
     },
     {
       "caminho": "site/static/js/pagina-comparar-entidades.js",
@@ -279,7 +279,7 @@
     },
     {
       "caminho": "site/templates/uf.html.j2",
-      "sha256": "822290105481c00684611bd23d6062db1078ca6f2318b25ea2fdb88034e82f96"
+      "sha256": "351a417de2b6e87c2cc0db1d50566ed99cae1a3a71b915c80f4d5a50339beed1"
     },
     {
       "caminho": "tests/test_catalogo.py",
@@ -299,7 +299,7 @@
     },
     {
       "caminho": "tests/test_viewport.py",
-      "sha256": "90920485f5f0f9430b686771424871a388417dbffe6c5a6e23ddcf7d6de749b8"
+      "sha256": "a754fea8fb174400ae213972e27b96b5f13897939911c5a365bb6eff09d71ef0"
     }
   ]
 }

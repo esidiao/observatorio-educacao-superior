@@ -120,12 +120,34 @@
 
 {% if mapa_uf %}
 <h2 class="section-title">Onde há oferta</h2>
-<div class="figura">
+<p class="secao-intro">
+  Aponte um município no mapa — ou percorra a tabela abaixo pelo teclado — para
+  ver os números de {{ meta.curso }} naquele lugar.
+</p>
+<div class="figura mapa-com-painel">
   {{ mapa_uf }}
+  <div class="mapa-painel" id="mapa-painel" role="status" aria-live="polite">
+    <p class="mapa-painel-vazio">Nenhum município selecionado.</p>
+    <div class="mapa-painel-dados" hidden>
+      <p class="mapa-painel-nome" data-campo="nome"></p>
+      <dl>
+        <dt>População</dt><dd data-campo="populacao">—</dd>
+        <dt>Matrículas</dt><dd data-campo="matriculas">—</dd>
+        <dt>Instituições</dt><dd data-campo="n_ies">—</dd>
+        <dt>Vagas</dt><dd data-campo="vagas">—</dd>
+      </dl>
+    </div>
+  </div>
   <p class="figura-nota">
-    Cada círculo é um município com oferta presencial; a área é proporcional às
-    vagas. Polos EaD não aparecem — polo não é campus, e fundir os dois inflaria a
-    leitura de cobertura territorial.
+    Todos os municípios do estado aparecem — inclusive os que <strong>não</strong>
+    têm {{ meta.curso }}, em cinza. A cor dos demais é a taxa de matrículas por
+    100 mil habitantes, e não o total: num mapa de área, pintar valor absoluto
+    premiaria o município grande com pouca oferta.
+  </p>
+  <p class="figura-nota">
+    Polos EaD não aparecem — polo não é campus, e fundir os dois inflaria a
+    leitura de cobertura territorial. <strong>Instituições</strong> conta as que
+    ofertam este curso no município.
   </p>
 </div>
 {% endif %}
@@ -143,9 +165,12 @@
     </thead>
     <tbody>
       {% for m in municipios %}
-      <tr>
+      <tr{% if m.cod_ibge %} data-cod="{{ m.cod_ibge }}"{% endif %}>
         <td class="rank-pos">{{ loop.index }}</td>
-        <th class="t-forte" scope="row">{{ m.nome }}</th>
+        <th class="t-forte" scope="row">
+          {% if m.slug %}<a href="{{ depth }}municipio/{{ sigla }}-{{ m.slug }}.html">{{ m.nome }}</a>
+          {% else %}{{ m.nome }}{% endif %}
+        </th>
         <td>{{ "{:,}".format(m.vagas_total).replace(',','.') }}</td>
         <td>{{ "{:,}".format(m.matriculas).replace(',','.') }}</td>
         <td>{{ m.n_cursos }}</td>
@@ -165,4 +190,5 @@
 
 {% block scripts %}
 <script src="../../../static/js/pagina-uf.js"></script>
+<script src="../../../static/js/mapa-municipios.js"></script>
 {% endblock %}

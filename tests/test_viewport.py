@@ -368,6 +368,65 @@ def medir_mapa(pagina, contexto, base):
     pag.close()
 
 
+# A base do mapa municipal fica num arquivo a parte, referenciada por <image>.
+# Isso vale 376 MB de site — mas cria uma armadilha: o SVG exportado precisa
+# valer sozinho, longe daqui, e um <image> nao resolvido deixaria o arquivo com
+# os municipios coloridos boiando no vazio, sem contorno de estado e sem os que
+# nao tem oferta. O exportador embute a base antes de serializar; esta checagem
+# existe porque a falha seria silenciosa: o download funciona, o arquivo abre,
+# e so quem comparasse com a tela notaria o que sumiu.
+EXPORTAR = """
+async () => {
+  const capturado = {};
+  const B = window.Blob;
+  window.Blob = function (p, opt) {
+    if (opt && /svg/.test(opt.type || '')) capturado.texto = p[0];
+    return new B(p, opt);
+  };
+  const C = HTMLAnchorElement.prototype.click;
+  HTMLAnchorElement.prototype.click = function () {};
+  const fig = document.querySelector('.figura.mapa-com-painel');
+  if (!fig) { window.Blob = B; HTMLAnchorElement.prototype.click = C;
+              return {erro: 'sem figura de mapa'}; }
+  const btn = [...fig.querySelectorAll('.export-barra button')]
+    .find(b => b.textContent.indexOf('SVG') >= 0);
+  if (!btn) { window.Blob = B; HTMLAnchorElement.prototype.click = C;
+              return {erro: 'sem botao de exportar SVG'}; }
+  btn.click();
+  await new Promise(r => setTimeout(r, 2500));
+  window.Blob = B; HTMLAnchorElement.prototype.click = C;
+  if (!capturado.texto) return {erro: 'exportacao nao produziu SVG'};
+  return {
+    imageResidual: /<image/.test(capturado.texto),
+    caminhos: (capturado.texto.match(/<path/g) || []).length,
+    contornoUF: /stroke="#16304F"/.test(capturado.texto),
+  };
+}
+"""
+
+
+def medir_exportacao(pagina, contexto, base, minimo_caminhos):
+    """O SVG exportado tem de trazer a base embutida."""
+    pag = contexto.new_page()
+    pag.set_viewport_size({"width": 1280, "height": 900})
+    pag.goto(f"{base}/{pagina}", wait_until="load", timeout=30000)
+    pag.wait_for_timeout(600)
+    r = pag.evaluate(EXPORTAR)
+    if r.get("erro"):
+        falhas.append(f"{pagina} exportacao: {r['erro']}")
+    else:
+        if r["imageResidual"]:
+            falhas.append(f"{pagina} exportacao: sobrou <image> — a base nao foi "
+                          f"embutida e o arquivo depende do site para abrir certo")
+        if r["caminhos"] < minimo_caminhos:
+            falhas.append(f"{pagina} exportacao: {r['caminhos']} caminhos, "
+                          f"esperados ao menos {minimo_caminhos} — a base "
+                          f"municipal ficou de fora")
+        if not r["contornoUF"]:
+            falhas.append(f"{pagina} exportacao: sem o contorno do estado")
+    pag.close()
+
+
 def rodar_axe(pagina, navegador, base, tema):
     """axe nos dois temas.
 
@@ -422,6 +481,9 @@ def main():
                 medir(pagina, contexto, base)
             medir_busca("index.html", contexto, base)
             medir_mapa("uf/GO.html", contexto, base)
+            # Goias tem 246 municipios: a base sozinha ja passa de 240 caminhos.
+            medir_exportacao("uf/GO.html", contexto, base, 240)
+            medir_exportacao("curso/medicina/uf/GO.html", contexto, base, 240)
             for tema in ("light", "dark"):
                 for pagina in AMOSTRA_AXE:
                     rodar_axe(pagina, navegador, base, tema)
