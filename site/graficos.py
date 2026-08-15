@@ -174,11 +174,15 @@ def _rolavel(svg, rotulo):
 
 def coropletico(malha, valores, titulo, descricao, unidade="",
                 divergente=False, casas=0, largura=560, altura=520,
-                nomes_uf=None):
+                nomes_uf=None, dados=None):
     """Mapa de UFs preenchido por valor.
 
     malha    — {"UF": {"tipo": ..., "coords": ...}} de data/geo/ufs.json
     valores  — {"UF": número ou None}
+    dados    — {"UF": {campo: valor}} opcional, para o painel de leitura. Com
+               ele cada UF carrega seus números em data-*, do mesmo jeito que
+               os municípios já fazem, e o mesmo script liga mapa, painel e
+               tabela. Sem ele o mapa continua como sempre foi.
     """
     paleta = RDBU if divergente else AZUL
     quebras = _faixas(valores.values(), len(paleta))
@@ -195,10 +199,20 @@ def coropletico(malha, valores, titulo, descricao, unidade="",
     for sigla in sorted(malha):
         v = valores.get(sigla)
         rotulo = f"{nomes_uf.get(sigla, sigla)}: {_fmt(v, casas)}{unidade if v is not None else ''}"
+        extra = (dados or {}).get(sigla) or {}
+        # data-cod-ibge guarda a SIGLA aqui: e a chave que identifica a area
+        # neste mapa, e o script de painel procura sempre por esse atributo —
+        # um nome so para "o que esta area e", em vez de um por escala.
+        atributos = f' data-cod-ibge="{esc(sigla)}"' if dados else ""
+        atributos += "".join(
+            f' data-{chave.replace("_", "-")}="{esc(valor)}"'
+            for chave, valor in extra.items() if valor is not None)
+        classe = "g-contorno mapa-area" if dados else "g-contorno"
         partes.append(
-            f'<path class="g-contorno" d="{_caminho(malha[sigla], proj)}" '
+            f'<path class="{classe}" d="{_caminho(malha[sigla], proj)}" '
             f'fill="{_cor(v, quebras, paleta)}" '
-            f'stroke="{CONTORNO}" stroke-width="0.6"><title>{esc(rotulo)}</title></path>')
+            f'stroke="{CONTORNO}" stroke-width="0.6"{atributos}>'
+            f'<title>{esc(rotulo)}</title></path>')
         # Sigla no centro da UF, para leitura sem interação.
         pontos = []
         geo = malha[sigla]

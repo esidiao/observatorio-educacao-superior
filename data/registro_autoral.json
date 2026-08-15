@@ -2,11 +2,11 @@
   "obra": "Observatório Nacional da Educação Superior",
   "autor": "Edson Sidião de Souza Júnior",
   "tipo": "Registro de Anterioridade e Integridade (prova de existência)",
-  "selado_em_utc": "2026-08-15T14:49:51+00:00",
+  "selado_em_utc": "2026-08-15T15:17:55+00:00",
   "algoritmo": "SHA-256",
   "n_arquivos": 71,
-  "hash_raiz": "c850a5f2690257ce0343deb7fdf2e5ff7bf67150c1195ee5beda028fdd931aa2",
-  "git_commit_ancora": "30d6a83b3d06dcd0cc26ceade646e5f5d9cadefe",
+  "hash_raiz": "024bfae77b33ea64dab34d7200ff388924efee11cbeea979971c31b165386ed5",
+  "git_commit_ancora": "84bd3240aa0c86f73b5c6670b9b4a6434626a02f",
   "fundamento": "Lei 9.610/1998 e Lei 9.609/1998. O hash-raiz é impressão digital única do conjunto; o commit Git ancora a data de forma imutável.",
   "como_verificar": [
     "1. Baixe os arquivos listados em 'arquivos'.",
@@ -131,11 +131,11 @@
     },
     {
       "caminho": "site/build.py",
-      "sha256": "96440500868eae071e98cc3d79b23169ab4b72ace81aadb7a29a0d5860e069eb"
+      "sha256": "562d73fe402940d27530fb3486aa9494694d84aec0b5cedc568307a41d916cc2"
     },
     {
       "caminho": "site/graficos.py",
-      "sha256": "8edaecce375f5815629fbd0576655f52bb8c8702340130396052171a3149cbc4"
+      "sha256": "ef79c3d565bbc9b85876e5a547c9e2b20c401c336d4f887f374b3bdc8645e7af"
     },
     {
       "caminho": "site/insights.py",
@@ -231,7 +231,7 @@
     },
     {
       "caminho": "site/templates/estados.html.j2",
-      "sha256": "b5bcbad1a146096d12568b1d101fcbc0d6dfd80991f82c5a64855f5a57cce786"
+      "sha256": "1a9a2a6a8df5fc8e7787bbf283dfd6a54b601ddcb6ec827241aaedb698fb3b88"
     },
     {
       "caminho": "site/templates/index.html.j2",
@@ -299,7 +299,7 @@
     },
     {
       "caminho": "tests/test_viewport.py",
-      "sha256": "6a2efdc0f53039ecc350bec00a456b23d48a54a744ca67846441e4f16543b2d5"
+      "sha256": "f6379d69eb353bbc8598e95504ab7c0b6775008563ab5e3bdda92c7375e8caa2"
     }
   ]
 }

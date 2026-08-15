@@ -18,8 +18,24 @@
 </p>
 
 {% if mapa %}
-<div class="figura">
+<p class="secao-intro">
+  Aponte um estado no mapa — ou percorra a tabela abaixo pelo teclado — para ver
+  vagas, matrículas, instituições e municípios com oferta.
+</p>
+<div class="figura mapa-com-painel">
   {{ mapa }}
+  <div class="mapa-painel" id="mapa-painel" role="status" aria-live="polite">
+    <p class="mapa-painel-vazio">Nenhum estado selecionado.</p>
+    <div class="mapa-painel-dados" hidden>
+      <p class="mapa-painel-nome" data-campo="nome"></p>
+      <dl>
+        <dt>Vagas</dt><dd data-campo="vagas">—</dd>
+        <dt>Matrículas</dt><dd data-campo="matriculas">—</dd>
+        <dt>Instituições</dt><dd data-campo="n_ies">—</dd>
+        <dt>Municípios c/ oferta</dt><dd data-campo="municipios">—</dd>
+      </dl>
+    </div>
+  </div>
   <p class="figura-nota">
     Vagas totais por unidade federativa, somando todos os cursos. Cores por quantil.
   </p>
@@ -39,7 +55,7 @@
     </thead>
     <tbody>
       {% for uf in ufs %}
-      <tr>
+      <tr data-cod="{{ uf.sigla }}">
         <th scope="row"><a href="uf/{{ uf.sigla }}.html"><span class="uf-tag">{{ uf.sigla }}</span></a></th>
         <td class="t-forte"><a href="uf/{{ uf.sigla }}.html">{{ uf.nome }}</a></td>
         <td>{{ milhar(uf.vagas_total) }}</td>
@@ -54,4 +70,8 @@
   </table>
 </div>
 
+{% endblock %}
+
+{% block scripts %}
+<script src="static/js/mapa-municipios.js"></script>
 {% endblock %}

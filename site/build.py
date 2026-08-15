@@ -960,7 +960,12 @@ def main():
             malha_ufs, {s: u["vagas_total"] for s, u in acumulado.ufs.items()},
             titulo="Vagas por unidade federativa, somando todos os cursos",
             descricao="Mapa do Brasil colorido pelo total de vagas de cada UF.",
-            unidade=" vagas", nomes_uf=NOME_UF))
+            unidade=" vagas", nomes_uf=NOME_UF,
+            dados={s: {"nome": NOME_UF[s], "vagas": u.get("vagas_total"),
+                       "matriculas": u.get("matriculas"),
+                       "n_ies": u.get("n_ies"),
+                       "municipios": u.get("municipios_oferta")}
+                   for s, u in acumulado.ufs.items()}))
     html = env.get_template("estados.html.j2").render(
         **ctx_base, depth="", curso_atual=None, ufs=lista_ufs, mapa=mapa_br,
         n_cursos=len(resumo))

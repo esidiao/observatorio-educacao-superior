@@ -306,8 +306,11 @@ EXERCITAR_MAPA = """
   const pontos = document.querySelectorAll('.mapa svg [data-cod-ibge], svg.mapa [data-cod-ibge]');
   const painel = document.getElementById('mapa-painel');
   if (!pontos.length || !painel) return null;
-  const ler = () => ['nome', 'populacao', 'matriculas', 'n_ies', 'n_cursos']
-    .map(c => (painel.querySelector('[data-campo="' + c + '"]') || {}).textContent);
+  // Os campos vem do painel, nao de uma lista aqui: o painel estadual mostra
+  // populacao e cursos, o nacional mostra vagas e municipios. Lista fixa fazia
+  // o portao reprovar o mapa nacional por uma diferenca que nao e defeito.
+  const ler = () => [...painel.querySelectorAll('[data-campo]')]
+    .map(e => e.textContent);
 
   const antes = ler();
   pontos[0].dispatchEvent(new MouseEvent('mouseenter', {bubbles: true}));
@@ -483,6 +486,9 @@ def main():
                 medir(pagina, contexto, base)
             medir_busca("index.html", contexto, base)
             medir_mapa("uf/GO.html", contexto, base)
+            # O mapa nacional usa o mesmo painel e o mesmo script: se a ligacao
+            # entre mapa, painel e tabela quebrar num, quebra nos dois.
+            medir_mapa("estados.html", contexto, base)
             # Goias tem 246 municipios: a base sozinha ja passa de 240 caminhos.
             medir_exportacao("uf/GO.html", contexto, base, 240)
             medir_exportacao("curso/medicina/uf/GO.html", contexto, base, 240)
