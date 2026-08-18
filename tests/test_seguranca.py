@@ -233,6 +233,40 @@ def test_verificacao_tls_nunca_desligada():
                                   f"etl/rede.py sobre por que não")
 
 
+def test_worker_so_no_clique():
+    """O service worker não pode ser registrado no carregamento da página.
+
+    Esta é a checagem que sustenta a promessa da página de privacidade. Um
+    site instalável costuma registrar o worker no primeiro acesso, porque o
+    Chrome só oferece a instalação depois que ele existe — e aí todo visitante
+    passa a ter cache, tenha pedido ou não. Aqui o registro mora dentro do
+    manipulador de clique do botão, e o convite do navegador vem depois.
+
+    A regressão seria fácil e silenciosa: alguém move o `register` para o topo
+    do arquivo "para o botão aparecer mais rápido", tudo continua funcionando,
+    e a promessa deixa de valer sem que nada quebre.
+    """
+    registros = []
+    for arq in sorted(STATIC.glob("js/*.js")):
+        texto = arq.read_text(encoding="utf-8")
+        if "serviceWorker.register" not in texto:
+            continue
+        registros.append(arq.name)
+        if arq.name != "app-instalar.js":
+            falhas.append(f"{arq.name}: registra service worker — só "
+                          f"app-instalar.js pode, e só dentro do clique")
+            continue
+        # O registro tem de estar depois do addEventListener('click'): antes
+        # dele significaria registro no carregamento.
+        clique = texto.find("addEventListener('click'")
+        registro = texto.find("serviceWorker.register")
+        checar(clique != -1 and registro > clique,
+               "app-instalar.js registra o service worker fora do clique — "
+               "quem só visita passaria a ter cache sem ter pedido")
+    checar(registros, "nenhum arquivo registra o service worker — o botão de "
+                      "instalar não faria nada")
+
+
 def test_sem_credencial_versionada():
     """Chave de API não pode entrar no repositório.
 
@@ -340,6 +374,7 @@ def main():
     test_contraste_tokens()
     test_piso_tipografico()
     test_verificacao_tls_nunca_desligada()
+    test_worker_so_no_clique()
 
     if falhas:
         print(f"[FALHOU] {len(falhas)} problema(s) de segurança/acessibilidade:\n")

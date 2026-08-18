@@ -57,6 +57,7 @@ site/
   build.py           Gerador estático (Jinja2)
   graficos.py        Mapas e gráficos em SVG, gerados no build
   marca.py           A marca em SVG, com o mapa vindo da malha do IBGE
+  icones_pwa.py      Ícones PNG do aplicativo (raro — só se a marca mudar)
   agregados.py       Somas entre cursos — painéis de UF e de município
   insights.py        Leituras automáticas por regra — nunca por LLM
   templates/         Páginas
@@ -264,6 +265,26 @@ São Paulo sozinho achataria as outras 26 UFs numa faixa só. O mapa municipal u
 isso com 150 KB em vez de vários MB. Área do círculo proporcional ao valor, nunca
 o raio, que exageraria a diferença ao quadrado. A série temporal começa o eixo em
 zero.
+
+## Aplicativo instalável, sem quebrar a promessa de privacidade
+
+O site pode ser instalado como aplicativo (PWA) pelo botão no rodapé, e aí
+funciona sem conexão nas páginas já visitadas. A parte que exigiu decisão: um
+site instalável costuma registrar o *service worker* no primeiro acesso, porque
+o Chrome só oferece a instalação depois que ele existe — e aí todo visitante
+passa a ter cache, tenha pedido ou não. A página de privacidade deste
+observatório promete que nada é gravado no navegador.
+
+Aqui o registro mora dentro do clique. O botão aparece, o clique registra, o
+convite do navegador vem depois; se não vier (Safari, Firefox), mostram-se as
+instruções manuais. Custa uma volta a mais para quem instala e mantém a
+promessa intacta para quem não instala. `tests/test_seguranca.py` reprova se o
+`register` sair de dentro do manipulador de clique, e `tests/test_viewport.py`
+mede o efeito num navegador limpo: zero workers e zero caches antes do clique.
+
+A estratégia de rede é **rede primeiro, cache como reserva** — o contrário
+seria mais rápido e mostraria números velhos como se fossem atuais, que num
+observatório de dados oficiais é o pior tipo de erro: silencioso e plausível.
 
 ## Série histórica: o que ela não autoriza dizer
 

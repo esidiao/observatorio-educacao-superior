@@ -6,7 +6,7 @@
   <title>{% block title %}Observatório Nacional da Educação Superior{% endblock %}</title>
   <meta name="description" content="{% block meta_description %}Indicadores de acesso territorial, qualidade, capacidade e concentração da educação superior brasileira, por curso e por unidade federativa, a partir de dados oficiais do INEP e do IBGE.{% endblock %}">
 
-  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; style-src-attr 'none'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'none'; frame-src 'none'; worker-src 'none'; manifest-src 'none'; media-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; style-src-attr 'none'; img-src 'self' data:; font-src 'self'; connect-src 'self'; form-action 'none'; frame-src 'none'; worker-src 'self'; manifest-src 'self'; media-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; upgrade-insecure-requests">
   <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#15314F">
@@ -18,6 +18,7 @@
   <meta property="og:image" content="{{ depth }}static/img/marca-completa.svg">
   <meta name="twitter:card" content="summary">
 
+  <link rel="manifest" href="{{ depth }}manifest.webmanifest">
   <link rel="icon" type="image/svg+xml" href="{{ depth }}static/img/icone.svg">
   <link rel="apple-touch-icon" href="{{ depth }}static/img/icone.svg">
   <link rel="stylesheet" href="{{ depth }}static/css/style.css">
@@ -129,6 +130,12 @@
     Obra protegida pelas Leis nº 9.610/1998 e nº 9.609/1998 ·
     <a href="{{ depth }}aviso-legal.html">Direitos Autorais e Condições de Uso</a>
   </p>
+  <p class="esp-t6 instalar-linha">
+    <button type="button" id="instalar-app" class="btn outline btn-mini" hidden>
+      Instalar aplicativo
+    </button>
+    <span id="instalar-aviso" class="nota-fonte" hidden></span>
+  </p>
   <p class="esp-t6">
     <a href="{{ depth }}autor.html">Sobre o Autor</a> ·
     <a href="{{ depth }}privacidade.html">Privacidade e dados pessoais</a> ·
@@ -150,6 +157,7 @@
 <script src="{{ depth }}static/js/indice.js"></script>
 <script src="{{ depth }}static/js/busca-global.js"></script>
 <script src="{{ depth }}static/js/exportar-figura.js"></script>
+<script src="{{ depth }}static/js/app-instalar.js"></script>
 {% block dados %}{% endblock %}
 {% block scripts %}{% endblock %}
 </body>

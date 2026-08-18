@@ -1,0 +1,41 @@
+{% extends "base.html.j2" %}
+
+{% block title %}Sem conexão — Observatório Nacional da Educação Superior{% endblock %}
+{% block meta_description %}Esta página do observatório ainda não foi guardada para uso sem conexão.{% endblock %}
+
+{% block breadcrumb %}
+<span class="sep">›</span>
+<span class="active">Sem conexão</span>
+{% endblock %}
+
+{% block content %}
+
+<section class="hero">
+  <p class="hero-eyebrow">Aplicativo instalado</p>
+  <h1 class="hero-title">Esta página ainda não está guardada</h1>
+  <p class="hero-lead">
+    Você está sem conexão, e esta página específica não foi aberta antes — por
+    isso não há cópia dela neste aparelho. O aplicativo guarda o que você
+    visita, não o site inteiro: são {{ "{:,}".format(n_paginas).replace(',','.') }}
+    páginas, e baixar todas de uma vez consumiria a franquia de dados de
+    qualquer pessoa sem que ela tivesse pedido.
+  </p>
+</section>
+
+<h2 class="section-title">O que dá para fazer</h2>
+<ul class="lista-privacidade">
+  <li>Reconectar e recarregar: com rede, o observatório mostra sempre a edição
+      publicada, nunca a cópia guardada.</li>
+  <li>Voltar às páginas já visitadas, que continuam disponíveis offline.</li>
+  <li>Abrir a <a href="{{ depth }}index.html">página inicial</a>, guardada na
+      instalação.</li>
+</ul>
+
+<p class="texto-explicativo">
+  Vale dizer por que a cópia guardada nunca aparece quando há rede. Este é um
+  observatório de dados oficiais: mostrar um número de ontem como se fosse o de
+  hoje seria o pior tipo de erro — silencioso e plausível. Com conexão, sempre
+  a versão publicada; sem conexão, a cópia, e com este aviso.
+</p>
+
+{% endblock %}

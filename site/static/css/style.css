@@ -1833,3 +1833,16 @@ tr.destacada > * { background: var(--realce); }
    num estado com 853 municípios, achar um azul entre cinzas é mais fácil se
    ele também tiver borda mais grossa que as divisas ao redor. */
 .mapa-alvo { stroke-linejoin: round; }
+
+/* Botão de instalar o aplicativo, no rodapé. Fica escondido por padrão e o JS
+   o revela só onde a instalação é possível — botão que não faz nada é pior que
+   botão nenhum. Sobre o azul-marinho do rodapé, a variante contornada precisa
+   de borda e texto claros. */
+.instalar-linha { display: flex; align-items: center; justify-content: center; gap: 10px; flex-wrap: wrap; }
+.site-footer .btn.outline {
+  color: #FFFFFF;
+  border-color: rgba(255, 255, 255, 0.55);
+  background: transparent;
+}
+.site-footer .btn.outline:hover { background: rgba(255, 255, 255, 0.14); color: #FFFFFF; }
+#instalar-aviso { max-width: 46ch; text-align: left; color: rgba(255, 255, 255, 0.85); }

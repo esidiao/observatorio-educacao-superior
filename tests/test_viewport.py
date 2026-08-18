@@ -432,6 +432,90 @@ def medir_exportacao(pagina, contexto, base, minimo_caminhos):
     pag.close()
 
 
+def medir_instalacao(navegador, base):
+    """O aplicativo instalável, e a promessa que ele nao pode quebrar.
+
+    O portao estatico ja garante que o `register` mora dentro do clique. Este
+    aqui prova o efeito: contexto novo, pagina carregada, e nenhum worker e
+    nenhum cache existem ate alguem clicar. Depois do clique, existem.
+
+    Contexto proprio de propósito — um contexto reaproveitado traria o worker
+    registrado por outro teste, e a checagem passaria sem medir nada.
+    """
+    contexto = navegador.new_context()
+    pag = contexto.new_page()
+    pag.goto(f"{base}/index.html", wait_until="load", timeout=30000)
+    pag.wait_for_timeout(900)
+
+    antes = pag.evaluate("""async () => {
+      const regs = await navigator.serviceWorker.getRegistrations();
+      const chaves = await caches.keys();
+      const b = document.getElementById('instalar-app');
+      return {workers: regs.length, caches: chaves.length,
+              botao: !!b && !b.hidden,
+              manifesto: !!document.querySelector('link[rel=manifest]')};
+    }""")
+    if antes["workers"] or antes["caches"]:
+        falhas.append(f"instalacao: {antes['workers']} worker(s) e "
+                      f"{antes['caches']} cache(s) ANTES de qualquer clique — "
+                      f"a promessa da pagina de privacidade deixou de valer")
+    if not antes["manifesto"]:
+        falhas.append("instalacao: pagina sem <link rel=manifest>")
+    if not antes["botao"]:
+        falhas.append("instalacao: botao de instalar ausente ou escondido")
+
+    if antes["botao"]:
+        pag.click("#instalar-app")
+        # Espera pela CONDIÇÃO, não por um tempo. A primeira versão dormia 5,2s
+        # e falhou uma vez em duas execuções: instalar o worker leva de 1 a 2
+        # segundos, mas nada garante o teto. Portão instável é pior que portão
+        # nenhum — ensina quem o lê a reexecutar em vez de investigar.
+        ESTADO = """async () => {
+          const regs = await navigator.serviceWorker.getRegistrations();
+          const chaves = await caches.keys();
+          let itens = 0;
+          if (chaves.length) {
+            const c = await caches.open(chaves[0]);
+            itens = (await c.keys()).length;
+          }
+          return {workers: regs.length, caches: chaves.length, itens,
+                  ativo: regs.length ? !!regs[0].active : false};
+        }"""
+        depois = {"workers": 0, "caches": 0, "itens": 0, "ativo": False}
+        for _ in range(60):                      # até ~18 segundos
+            depois = pag.evaluate(ESTADO)
+            if depois["ativo"] and depois["itens"] >= 3:
+                break
+            pag.wait_for_timeout(300)
+        if not depois["workers"]:
+            falhas.append("instalacao: o clique nao registrou o service worker")
+        if depois["itens"] < 3:
+            falhas.append(f"instalacao: so {depois['itens']} arquivo(s) no cache "
+                          f"apos instalar — a casca nao foi guardada")
+
+        # Offline: a inicial abre do cache, e o que nao foi visitado cai na
+        # pagina de reserva em vez do erro cru do navegador.
+        contexto.set_offline(True)
+        try:
+            pag.goto(f"{base}/index.html", wait_until="load", timeout=20000)
+            titulo_inicial = pag.title()
+            pag.goto(f"{base}/curso/enfermagem/index.html", wait_until="load",
+                     timeout=20000)
+            titulo_ausente = pag.title()
+        except Exception as e:                       # noqa: BLE001
+            falhas.append(f"instalacao: offline falhou — {type(e).__name__}")
+            titulo_inicial = titulo_ausente = ""
+        contexto.set_offline(False)
+        if "Observat" not in titulo_inicial:
+            falhas.append(f"instalacao: sem rede, a pagina inicial nao abriu do "
+                          f"cache (titulo: {titulo_inicial!r})")
+        if "Sem conex" not in titulo_ausente:
+            falhas.append(f"instalacao: sem rede, pagina nao guardada deveria "
+                          f"cair em offline.html (titulo: {titulo_ausente!r})")
+    pag.close()
+    contexto.close()
+
+
 def rodar_axe(pagina, navegador, base, tema):
     """axe nos dois temas.
 
@@ -492,6 +576,7 @@ def main():
             # Goias tem 246 municipios: a base sozinha ja passa de 240 caminhos.
             medir_exportacao("uf/GO.html", contexto, base, 240)
             medir_exportacao("curso/medicina/uf/GO.html", contexto, base, 240)
+            medir_instalacao(navegador, base)
             for tema in ("light", "dark"):
                 for pagina in AMOSTRA_AXE:
                     rodar_axe(pagina, navegador, base, tema)

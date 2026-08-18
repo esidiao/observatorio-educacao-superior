@@ -2,11 +2,11 @@
   "obra": "Observatório Nacional da Educação Superior",
   "autor": "Edson Sidião de Souza Júnior",
   "tipo": "Registro de Anterioridade e Integridade (prova de existência)",
-  "selado_em_utc": "2026-08-15T15:17:55+00:00",
+  "selado_em_utc": "2026-08-18T02:12:28+00:00",
   "algoritmo": "SHA-256",
-  "n_arquivos": 71,
-  "hash_raiz": "024bfae77b33ea64dab34d7200ff388924efee11cbeea979971c31b165386ed5",
-  "git_commit_ancora": "84bd3240aa0c86f73b5c6670b9b4a6434626a02f",
+  "n_arquivos": 74,
+  "hash_raiz": "df39cf17aa27a7463d36bad8042c78a0f30a503d4430f3bab4b8eec4f0cb6782",
+  "git_commit_ancora": "cb6c0f7a8d017b0f2507035ea9a27ddbcd13c761",
   "fundamento": "Lei 9.610/1998 e Lei 9.609/1998. O hash-raiz é impressão digital única do conjunto; o commit Git ancora a data de forma imutável.",
   "como_verificar": [
     "1. Baixe os arquivos listados em 'arquivos'.",
@@ -131,7 +131,7 @@
     },
     {
       "caminho": "site/build.py",
-      "sha256": "562d73fe402940d27530fb3486aa9494694d84aec0b5cedc568307a41d916cc2"
+      "sha256": "640b13b176f72466df1e8252283a7a3807454180fbdc86a3e5e0240ff7376936"
     },
     {
       "caminho": "site/graficos.py",
@@ -143,7 +143,11 @@
     },
     {
       "caminho": "site/static/css/style.css",
-      "sha256": "dde9cd0449f2f3d696db1f56db6874cd5d716ce63c790e9b0a167f1379e1a1b2"
+      "sha256": "70cc57a4af22413fdc469e791bcd1b403480a4730fcdfc8a62b1e89884320814"
+    },
+    {
+      "caminho": "site/static/js/app-instalar.js",
+      "sha256": "aaf74f5b97618f104a44eec3c940e5de6639741d74a5d1b54b7a62919099c2a2"
     },
     {
       "caminho": "site/static/js/app.js",
@@ -194,6 +198,10 @@
       "sha256": "21a5a89f47a7ecc52a8c157b4051a45cd76b91091a83dd2824a1364bbfbda7a3"
     },
     {
+      "caminho": "site/static/js/sw.js",
+      "sha256": "25e466cb449e52f68ae5d635a6147dad63c307c7db5700d77ea8c557169f8937"
+    },
+    {
       "caminho": "site/templates/404.html.j2",
       "sha256": "4098047989d872361f1ab6acbb74a633ff120bf8996d436c70bbffb91f71ef81"
     },
@@ -215,7 +223,7 @@
     },
     {
       "caminho": "site/templates/base.html.j2",
-      "sha256": "e098f8d3c6271ea0c24d602acfc969d00181042c4533c032f22a1c9f127b4374"
+      "sha256": "eb21f3210255ab09c762ba7de9bfb9ee64be0ab1a52f93ed6254fe0ff76d7a7d"
     },
     {
       "caminho": "site/templates/comparar-cursos.html.j2",
@@ -258,8 +266,12 @@
       "sha256": "cb7aa52d0846bce499d76ea90f7995b4e382ba70f5054beeaadc2e11ce347150"
     },
     {
+      "caminho": "site/templates/offline.html.j2",
+      "sha256": "acf8bc2a297f05aa74670030a972fad8987b9af69dcd94ff799344395aed883c"
+    },
+    {
       "caminho": "site/templates/privacidade.html.j2",
-      "sha256": "85bd7fcd4c69f3c0dcb9d8f30a3444eae7e27e2aae8cf2a4675b34dc43753ff4"
+      "sha256": "9dc7a7cb45dbc83378ea53a41d7d432df7d1facbaa809d538d700b05adbc0d7b"
     },
     {
       "caminho": "site/templates/rankings.html.j2",
@@ -287,11 +299,11 @@
     },
     {
       "caminho": "tests/test_seguranca.py",
-      "sha256": "b17c7baab64928588067058907b195d3c831e451e6cd7f348aac9ef53de312eb"
+      "sha256": "3345116e8e7afc9c8148f98867a98bd4dcf96801e021b0d6d495f63690af701e"
     },
     {
       "caminho": "tests/test_site_gerado.py",
-      "sha256": "caffdf35e27987c78b436f59e96ada7d46847dea8b5587f05f8f777adf82b9d2"
+      "sha256": "e7d92401989d350bb466010fcc4c7eec5d35e7d3519acaefdc355871ad0bb9a5"
     },
     {
       "caminho": "tests/test_validacao.py",
@@ -299,7 +311,7 @@
     },
     {
       "caminho": "tests/test_viewport.py",
-      "sha256": "f6379d69eb353bbc8598e95504ab7c0b6775008563ab5e3bdda92c7375e8caa2"
+      "sha256": "37f37bdae7d97701eb94800427e3ad78b4dd46c859f101656f94fe59d5e1c977"
     }
   ]
 }

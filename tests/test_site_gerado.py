@@ -32,7 +32,10 @@ def test_paginas_obrigatorias():
                  "autor.html", "aviso-legal.html",
                  "static/js/indice.js", "static/js/comparacao.js",
                  "static/img/marca.svg", "static/img/icone.svg",
-                 "static/img/marca-completa.svg"):
+                 "static/img/marca-completa.svg",
+                 "manifest.webmanifest", "sw.js", "offline.html",
+                 "static/img/app-192.png", "static/img/app-512.png",
+                 "static/img/app-512-maskable.png"):
         checar((DIST / nome).exists(), f"{nome} não foi gerado")
 
     # O índice de busca precisa cobrir os cinco tipos de destino. Se um grupo
@@ -77,6 +80,43 @@ def test_marca_gerada():
     icone = (DIST / "static" / "img" / "icone.svg").read_text(encoding="utf-8")
     checar(len(icone) < 8000,
            f"ícone com {len(icone)} bytes — pesado demais para 16 pixels de aba")
+
+
+def test_aplicativo_instalavel():
+    """Manifesto coerente, e o worker na raiz publicada.
+
+    O erro que esta checagem existe para pegar não faz nada quebrar: um
+    service worker servido de /static/js/ registra sem reclamar e controla
+    apenas /static/js/. O aplicativo instala, abre — e não funciona offline em
+    página nenhuma, porque o worker nunca vê aquelas requisições.
+    """
+    caminho = DIST / "manifest.webmanifest"
+    if not caminho.exists():
+        return
+    m = json.loads(caminho.read_text(encoding="utf-8"))
+    for campo in ("name", "short_name", "start_url", "scope", "display", "icons"):
+        checar(campo in m, f"manifesto sem o campo obrigatório {campo!r}")
+    checar(m.get("display") == "standalone",
+           f"manifesto com display={m.get('display')!r} — sem standalone o "
+           f"sistema abre uma aba, não um aplicativo")
+    # Caminho absoluto quebraria o site publicado num subcaminho do Pages.
+    for campo in ("start_url", "scope"):
+        checar(str(m.get(campo, "")).startswith("."),
+               f"manifesto com {campo}={m.get(campo)!r} — precisa ser relativo, "
+               f"o site é servido num subcaminho")
+    tamanhos = {i.get("sizes") for i in m.get("icons", [])}
+    for exigido in ("192x192", "512x512"):
+        checar(exigido in tamanhos,
+               f"manifesto sem ícone {exigido} — o Android não oferece a "
+               f"instalação sem ele")
+    checar(any(i.get("purpose") == "maskable" for i in m.get("icons", [])),
+           "nenhum ícone maskable: o recorte do Android come as bordas do desenho")
+    for icone in m.get("icons", []):
+        checar((DIST / icone["src"]).exists(),
+               f"manifesto aponta para {icone['src']}, que não foi gerado")
+
+    checar((DIST / "sw.js").exists(),
+           "sw.js fora da raiz publicada — o escopo do worker não cobriria o site")
 
 
 def test_uma_pagina_por_curso():
@@ -299,6 +339,7 @@ def main():
         sys.exit("[ERRO] site/dist não existe — rode python site/build.py antes.")
     test_paginas_obrigatorias()
     test_marca_gerada()
+    test_aplicativo_instalavel()
     test_uma_pagina_por_curso()
     test_sem_recursos_externos()
     test_csp_publicada()

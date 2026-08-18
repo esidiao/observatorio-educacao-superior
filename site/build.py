@@ -680,6 +680,52 @@ def main():
         marca.simbolo(32, "icone", passo=3.0, ponto=2.6), encoding="utf-8")
     print(f"[OK] static/img/ — marca, assinatura e ícone gerados da malha")
 
+    # ── Aplicativo instalável ────────────────────────────────────────────────
+    # O manifesto é gerado, e não mantido à mão, para que o nome, as cores e o
+    # ano do Censo saiam do mesmo lugar que o resto do site. Um manifesto é só
+    # um arquivo declarativo: sozinho ele não grava nada no navegador. O que
+    # grava é o service worker, e ele só é registrado quando alguém clica em
+    # instalar — ver site/static/js/app-instalar.js.
+    manifesto = {
+        "name": "Observatório Nacional da Educação Superior",
+        "short_name": "Observatório",
+        "description": ("Indicadores de acesso territorial, qualidade, capacidade "
+                        "e concentração da educação superior brasileira, a partir "
+                        "de dados oficiais do INEP e do IBGE."),
+        "lang": "pt-BR",
+        "dir": "ltr",
+        # Relativos ao próprio manifesto: o site é publicado num subcaminho do
+        # GitHub Pages, e caminho absoluto apontaria para a raiz do domínio.
+        "start_url": "./index.html",
+        "scope": "./",
+        "display": "standalone",
+        "orientation": "any",
+        "background_color": "#FBFAF8",
+        "theme_color": "#16304F",
+        "categories": ["education", "government", "utilities"],
+        "icons": [
+            {"src": "static/img/app-192.png", "sizes": "192x192",
+             "type": "image/png", "purpose": "any"},
+            {"src": "static/img/app-512.png", "sizes": "512x512",
+             "type": "image/png", "purpose": "any"},
+            {"src": "static/img/app-512-maskable.png", "sizes": "512x512",
+             "type": "image/png", "purpose": "maskable"},
+        ],
+        "shortcuts": [
+            {"name": "Comparar cursos", "url": "./comparar-cursos.html"},
+            {"name": "Rankings", "url": "./rankings.html"},
+            {"name": "Estados", "url": "./estados.html"},
+        ],
+    }
+    (DIST / "manifest.webmanifest").write_text(
+        json.dumps(manifesto, ensure_ascii=False, indent=1), encoding="utf-8")
+
+    # O service worker precisa morar na RAIZ publicada: um worker servido de
+    # /static/js/ só controlaria /static/js/, e o aplicativo não abriria offline.
+    shutil.copyfile(SITE / "static" / "js" / "sw.js", DIST / "sw.js")
+
+    print("[OK] manifest.webmanifest e sw.js")
+
     shutil.copytree(SITE / "static", DIST / "static")
 
 
@@ -1659,6 +1705,14 @@ def main():
         print("[OK] sitemap.xml — " + str(len(urls)) + " URLs · robots.txt")
     else:
         print("[INFO] Sem --base-url: sitemap.xml e robots.txt não gerados.")
+
+    # A página de reserva do aplicativo fica por último: ela cita quantas
+    # páginas o site tem, e esse número só existe depois de todas geradas.
+    paginas = list(DIST.rglob("*.html"))
+    html = env.get_template("offline.html.j2").render(
+        **ctx_base, depth="", curso_atual=None, n_paginas=len(paginas) + 1)
+    (DIST / "offline.html").write_text(html, encoding="utf-8")
+    print("[OK] offline.html")
 
     paginas = list(DIST.rglob("*.html"))
     peso = sum(p.stat().st_size for p in DIST.rglob("*") if p.is_file()) / 1024 / 1024

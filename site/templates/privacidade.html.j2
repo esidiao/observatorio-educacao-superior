@@ -27,6 +27,12 @@
   <li><strong>Sem armazenamento local.</strong> Não usamos <code>localStorage</code>,
       <code>sessionStorage</code> nem IndexedDB. Os filtros e seleções que você faz
       existem só na memória da aba e somem ao fechá-la.</li>
+  <li><strong>O aplicativo, se você instalar, é a única exceção — e é sua.</strong>
+      O site pode ser instalado como aplicativo, e aí ele passa a guardar cópias
+      das páginas que você abriu, para que funcionem sem conexão. Nada disso
+      acontece antes: o mecanismo que guarda é registrado no clique do botão
+      <em>Instalar aplicativo</em>, nunca ao carregar a página. Quem só visita
+      continua sem nada gravado no navegador.</li>
   <li><strong>Sem analytics e sem rastreadores.</strong> Não há Google Analytics, pixel,
       tag manager, mapa de calor ou teste A/B.</li>
   <li><strong>Sem recursos de terceiros.</strong> Fontes, folhas de estilo, scripts e
@@ -50,6 +56,30 @@
   <em>Content Security Policy</em> que bloqueia conexões e carregamentos para fora
   do próprio domínio. Se algum recurso externo fosse acrescentado por engano, o
   navegador o bloquearia.
+</p>
+
+<h2 class="section-title">O aplicativo instalável</h2>
+<p class="texto-corrido">
+  O observatório pode ser instalado como aplicativo (PWA) pelo botão no rodapé.
+  Instalar cria, no seu aparelho, um <strong>cache das páginas que você
+  abriu</strong> — o mesmo HTML que o navegador já havia baixado para mostrar
+  na tela. Não há identificador, não há registro de comportamento, não há nada
+  que já não estivesse na página.
+</p>
+<p class="texto-corrido">
+  <strong>Nada é gravado antes do clique.</strong> É o que separa este site de
+  boa parte dos que se dizem instaláveis: o mecanismo de cache (<em>service
+  worker</em>) costuma ser registrado no primeiro acesso, para que o navegador
+  ofereça a instalação. Aqui ele é registrado no clique, e o convite do
+  navegador vem depois. O custo é uma volta a mais para quem instala; o ganho é
+  que a promessa acima continua valendo para quem não instala.
+</p>
+<p class="texto-corrido">
+  Com conexão, o aplicativo sempre busca a versão publicada — a cópia guardada
+  só aparece quando não há rede, e com aviso. Num observatório de dados
+  oficiais, mostrar um número velho como se fosse o atual seria o pior tipo de
+  erro: silencioso e plausível. Desinstalar o aplicativo apaga todo o cache, e
+  limpar os dados do site pelo navegador tem o mesmo efeito.
 </p>
 
 <h2 class="section-title">Os dados que o site publica</h2>
