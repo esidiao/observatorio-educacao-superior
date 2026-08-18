@@ -321,7 +321,11 @@ python etl/verificar_novo_censo.py
 ```
 
 Falha de consulta não vira silêncio: se o servidor não responder, o fluxo
-reprova em vez de concluir que nada mudou. Um observatório desatualizado não
+reprova em vez de concluir que nada mudou. E não fica preso tentando: o pior
+caso medido, contra um servidor que aceita a conexão e nunca responde, é de
+3,6 minutos, com teto de 10 no próprio job. A primeira versão não tinha esse
+limite — `ssl.get_server_certificate` sem `timeout` bloqueia indefinidamente —
+e uma execução agendada segurou um runner por 1h20 antes de reprovar. Um observatório desatualizado não
 avisa que está desatualizado — as páginas continuam no ar e os números
 continuam plausíveis —, e é essa defasagem silenciosa que o vigia existe para
 evitar.

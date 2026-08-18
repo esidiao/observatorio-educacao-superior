@@ -39,7 +39,12 @@ from rede import abrir
 REPO = Path(__file__).parent.parent
 DATA = REPO / "data"
 URL = "https://download.inep.gov.br/microdados/microdados_censo_da_educacao_superior_{ano}.zip"
-TENTATIVAS = 3
+# Duas tentativas, não três, e vinte segundos, não cento e vinte. Uma pergunta
+# HEAD que não volta em vinte segundos não vai voltar, e cada segundo aqui é
+# multiplicado por tentativas e por anos: com os valores antigos o pior caso
+# passava de uma hora, e passou — a execução de 10/08/2026 ficou 1h20 presa.
+TENTATIVAS = 2
+ESPERA_RESPOSTA = 20
 ANOS_ADIANTE = 3          # quanto olhar além da edição em uso
 
 
@@ -63,7 +68,7 @@ def existe(ano):
     ultimo_erro = None
     for tentativa in range(1, TENTATIVAS + 1):
         try:
-            with abrir(URL.format(ano=ano), timeout=120, metodo="HEAD") as r:
+            with abrir(URL.format(ano=ano), timeout=ESPERA_RESPOSTA, metodo="HEAD") as r:
                 return True, int(r.headers.get("Content-Length", 0)) / 1048576
         except urllib.error.HTTPError as e:
             if e.code == 404:

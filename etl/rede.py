@@ -80,7 +80,17 @@ def _aia_por_varredura(der):
         return None
 
 
-def _emissor_declarado(host, porta=443):
+# Segundos para ler o certificado e para buscar a intermediária. Curtos de
+# propósito: um aperto de mão TLS que passa de dez segundos não vai completar,
+# e estes caminhos rodam dentro de laços de retentativa — o que aqui é
+# generoso, lá vira uma hora. Foi o que aconteceu: sem timeout nenhum,
+# `get_server_certificate` bloqueou indefinidamente contra um servidor que
+# engolia a conexão, e o vigia semanal ficou 1h20 preso antes de reprovar.
+LEITURA_CERTIFICADO = 10
+BUSCA_INTERMEDIARIA = 20
+
+
+def _emissor_declarado(host, porta=443, timeout=LEITURA_CERTIFICADO):
     """Endereço da intermediária, lido do certificado que o servidor apresenta.
 
     Ler não é confiar: a conexão aqui serve só para obter o certificado, e a
@@ -98,7 +108,7 @@ def _emissor_declarado(host, porta=443):
     pem = None
     for tentativa in range(3):
         try:
-            pem = ssl.get_server_certificate((host, porta))
+            pem = ssl.get_server_certificate((host, porta), timeout=timeout)
             break
         except OSError:
             if tentativa == 2:
@@ -125,7 +135,7 @@ def _baixar_intermediaria(endereco):
     """Baixa a intermediária e devolve em PEM. Ela costuma vir em DER."""
     req = urllib.request.Request(
         endereco, headers={"User-Agent": "observatorio-educacao"})
-    with urllib.request.urlopen(req, timeout=120) as r:
+    with urllib.request.urlopen(req, timeout=BUSCA_INTERMEDIARIA) as r:
         bruto = r.read()
     if b"-----BEGIN CERTIFICATE-----" in bruto:
         return bruto.decode("ascii")

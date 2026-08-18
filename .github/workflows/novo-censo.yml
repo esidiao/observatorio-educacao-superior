@@ -24,6 +24,10 @@ permissions:
 jobs:
   verificar:
     runs-on: ubuntu-latest
+    # Teto absoluto. Os tempos dentro do script já foram apertados para um pior
+    # caso de poucos minutos, mas cinto e suspensório: se algum caminho novo
+    # voltar a travar, o job morre aqui em vez de segurar um runner por horas.
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v7
 
