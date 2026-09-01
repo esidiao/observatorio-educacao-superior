@@ -79,8 +79,10 @@
     CINE diferentes: a mesma graduação em dois turnos ou dois campi conta uma
     vez, e por isso o número é bem menor que o de ofertas listadas na página do
     município. A <strong>população</strong> é a estimativa do IBGE
-    {% if ano_populacao %}para {{ ano_populacao }}{% endif %}, ano diferente do
-    Censo {{ versao_censo }}: qualquer razão entre os dois mistura dois momentos.
+    {% if ano_populacao %}para {{ ano_populacao }}{% endif %}{% if defasagem_populacao == 0 %} —
+    o mesmo ano do Censo {{ versao_censo }}, de modo que a razão entre matrículas
+    e habitantes compara dois retratos do mesmo momento{% else %}, ano diferente do
+    Censo {{ versao_censo }}: qualquer razão entre os dois mistura dois momentos{% endif %}.
   </p>
 </div>
 {% endif %}

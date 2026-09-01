@@ -250,6 +250,24 @@ def test_perfil_municipal():
                f"(esperados ~5.570)")
         checar(str(pop.get("ano", "")).isdigit(),
                f"população sem ano identificável: {pop.get('ano')!r}")
+
+        # A população deve acompanhar o ano do Censo. Casados, a razão entre
+        # matrículas e habitantes compara dois retratos do mesmo momento; se a
+        # série do IBGE não tiver o ano (não há estimativa para 2022, por
+        # exemplo), a distância fica registrada — e é isso que a página cita.
+        # O que não pode é o arquivo afirmar uma distância que os próprios
+        # números desmentem.
+        ano = pop.get("ano")
+        alvo = pop.get("ano_censo_alvo")
+        defasagem = pop.get("defasagem_anos")
+        if alvo is not None and ano is not None and defasagem is not None:
+            esperada = abs(int(ano) - int(alvo))
+            checar(defasagem == esperada,
+                   f"população declara defasagem de {defasagem} ano(s), mas "
+                   f"{ano} e o Censo {alvo} distam {esperada}")
+            checar(defasagem <= 2,
+                   f"população de {ano} contra Censo {alvo}: {defasagem} anos de "
+                   f"distância é muito para uma razão por habitante")
         sem_pop = [c for c in exato if c not in pop["municipios"]]
         checar(not sem_pop,
                f"{len(sem_pop)} município(s) com oferta e sem população: "

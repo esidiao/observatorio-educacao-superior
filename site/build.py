@@ -242,11 +242,12 @@ def carregar_perfil_municipal():
     """
     perfil = {}
     caminho = DATA / "populacao_municipios.json"
-    ano_pop = None
+    ano_pop = defasagem = None
     if caminho.exists():
         with open(caminho, encoding="utf-8") as f:
             bruto = json.load(f)
         ano_pop = bruto.get("ano")
+        defasagem = bruto.get("defasagem_anos")
         for codigo, habitantes in bruto["municipios"].items():
             perfil.setdefault(codigo, {})["populacao"] = habitantes
 
@@ -259,7 +260,7 @@ def carregar_perfil_municipal():
             alvo["n_ies"] = d["n_ies"]
             alvo["n_cursos_distintos"] = d["n_cursos_distintos"]
             alvo["n_ofertas"] = d["n_ofertas"]
-    return perfil, ano_pop
+    return perfil, ano_pop, defasagem
 
 
 def carregar_serie_agregada(nome):
@@ -402,7 +403,7 @@ def main():
     fluxo = carregar_fluxo()
     malha_ufs, centroides = carregar_geo()
     instituicoes = carregar_instituicoes()
-    perfil_municipal, ano_populacao = carregar_perfil_municipal()
+    perfil_municipal, ano_populacao, defasagem_populacao = carregar_perfil_municipal()
     if perfil_municipal:
         com_pop = sum(1 for v in perfil_municipal.values() if "populacao" in v)
         com_ies = sum(1 for v in perfil_municipal.values() if "n_ies" in v)
@@ -983,6 +984,7 @@ def main():
             grafico_serie_uf=grafico_serie_uf,
             grafico_rede_uf=grafico_rede_uf,
             ano_populacao=ano_populacao,
+            defasagem_populacao=defasagem_populacao,
             serie_uf_exata=exata,
             anos_serie_uf=anos_uf,
             coortes_fluxo=sorted(fluxo_uf),
@@ -1037,6 +1039,7 @@ def main():
             **ctx_base, depth="../", curso_atual=None, m=m,
             localizador=localizador,
             nome_uf=NOME_UF[sigla], ano_populacao=ano_populacao,
+            defasagem_populacao=defasagem_populacao,
             grafico=Markup(barras(
                 [{"nome": c["nome"], "valor": c["vagas"]} for c in m["cursos"]],
                 titulo=f"Cursos com mais vagas em {m['nome']}",

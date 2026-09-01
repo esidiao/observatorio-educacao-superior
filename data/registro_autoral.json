@@ -2,11 +2,11 @@
   "obra": "Observatório Nacional da Educação Superior",
   "autor": "Edson Sidião de Souza Júnior",
   "tipo": "Registro de Anterioridade e Integridade (prova de existência)",
-  "selado_em_utc": "2026-08-18T07:50:32+00:00",
+  "selado_em_utc": "2026-09-01T18:41:07+00:00",
   "algoritmo": "SHA-256",
   "n_arquivos": 74,
-  "hash_raiz": "cf8ec3173f1e16883edebdc5710c4d143a5fc5f54f718ebca81053fc0e27a8fd",
-  "git_commit_ancora": "97e0acd9ec9a6d9686a74b84258947783c480ce2",
+  "hash_raiz": "9a46855b27e559cba8cec2675ff612f3ff2ed35ff45a5a414616f1dcfc82e293",
+  "git_commit_ancora": "19518886ed2994b1dc740d0201841c8efe2a3993",
   "fundamento": "Lei 9.610/1998 e Lei 9.609/1998. O hash-raiz é impressão digital única do conjunto; o commit Git ancora a data de forma imutável.",
   "como_verificar": [
     "1. Baixe os arquivos listados em 'arquivos'.",
@@ -95,7 +95,7 @@
     },
     {
       "caminho": "etl/populacao_municipal.py",
-      "sha256": "0f6f8674271d87aa981b2429d8e874b623411c2a1320fcfc39cf0904387a7590"
+      "sha256": "9ca70afb7c40c0abf10e571cebacfc8409153b9ab31768017c13618e56cf0d7a"
     },
     {
       "caminho": "etl/qualidade.py",
@@ -131,7 +131,7 @@
     },
     {
       "caminho": "site/build.py",
-      "sha256": "640b13b176f72466df1e8252283a7a3807454180fbdc86a3e5e0240ff7376936"
+      "sha256": "811667835a49a97f874dc08af14359ecb4d6cd5c86b287c11cfb25a865439ce9"
     },
     {
       "caminho": "site/graficos.py",
@@ -287,7 +287,7 @@
     },
     {
       "caminho": "site/templates/uf-perfil.html.j2",
-      "sha256": "392deb943acf75788e5900bfb8842330606db35a322a13b458bea58c828be396"
+      "sha256": "02a6a7239d4830189fd07b30a9db26300127ff2c84e1bbbed8de29d4c2bcff2b"
     },
     {
       "caminho": "site/templates/uf.html.j2",
@@ -307,7 +307,7 @@
     },
     {
       "caminho": "tests/test_validacao.py",
-      "sha256": "eee2e00f8ae524b3b5408d50ae565c1e977b2c50e27323d38e30ca04cb240d13"
+      "sha256": "7a7c383fe93943f0aed6853fb811d2f62d73d5cb7d3c9471d9452c2c111c4aa7"
     },
     {
       "caminho": "tests/test_viewport.py",

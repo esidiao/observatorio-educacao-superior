@@ -22,6 +22,7 @@ O casamento é por código IBGE de sete dígitos, nunca por nome: existem 39
 municípios brasileiros chamados Bom Jesus e variações, e nome é a forma mais
 confiável de errar de cidade.
 """
+import argparse
 import gzip
 import json
 import sys
@@ -32,13 +33,37 @@ REPO = Path(__file__).parent.parent
 DATA = REPO / "data"
 
 # Agregado 6579 = Estimativas de População; variável 9324 = população residente
-# estimada; N6[all] = todos os municípios; periodos/-1 = a mais recente.
-URL = ("https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/-1/"
+# estimada; N6[all] = todos os municípios.
+URL = ("https://servicodados.ibge.gov.br/api/v3/agregados/6579/periodos/{periodos}/"
        "variaveis/9324?localidades=N6[all]")
 
 
-def baixar():
-    req = urllib.request.Request(URL, headers={"User-Agent": "observatorio-educacao"})
+def edicao_do_censo():
+    """Ano do Censo que alimenta o site, lido do próprio dado."""
+    for caminho in sorted((DATA / "cursos").glob("*/nacional.json")):
+        with open(caminho, encoding="utf-8") as f:
+            versao = json.load(f).get("metadados", {}).get("versao_censo")
+        if versao:
+            return int(versao)
+    return None
+
+
+def anos_disponiveis():
+    """Quais anos a série do IBGE oferece.
+
+    A série tem buracos — não há estimativa para 2022, o ano do Censo
+    Demográfico, nem para alguns anos anteriores. Pedir um ano inexistente
+    devolve resposta vazia, e uma resposta vazia viraria um site sem população
+    nenhuma. Melhor perguntar antes.
+    """
+    dados = baixar("all", "N3[52]")     # uma UF basta para listar os períodos
+    serie = dados[0]["resultados"][0]["series"][0]["serie"]
+    return sorted(serie)
+
+
+def baixar(periodos="-1", localidades="N6[all]"):
+    url = URL.format(periodos=periodos).replace("N6[all]", localidades)
+    req = urllib.request.Request(url, headers={"User-Agent": "observatorio-educacao"})
     with urllib.request.urlopen(req, timeout=300) as r:
         bruto = r.read()
     # O IBGE responde comprimido mesmo sem Accept-Encoding, e o urllib não
@@ -49,9 +74,34 @@ def baixar():
 
 
 def main():
-    print(f"[GET] {URL}")
+    parser = argparse.ArgumentParser(
+        description="Baixa a população municipal do IBGE")
+    parser.add_argument("--ano", type=int, default=None,
+                        help="Ano da estimativa (padrão: o do Censo em uso)")
+    args = parser.parse_args()
+
+    censo = edicao_do_censo()
+    alvo = args.ano or censo
     try:
-        dados = baixar()
+        anos = anos_disponiveis()
+    except Exception as e:                          # noqa: BLE001
+        sys.exit(f"[ERRO] IBGE não respondeu: {type(e).__name__}: {e}")
+
+    # Casar o ano da população com o do Censo é o que torna a razão legível:
+    # matrículas de 2024 por habitante de 2024. A série tem buracos — não há
+    # estimativa para 2022, por exemplo — e nesse caso usa-se o ano mais
+    # próximo, com a distância registrada no arquivo para a página poder dizer.
+    if alvo and str(alvo) in anos:
+        periodo = str(alvo)
+    else:
+        periodo = min(anos, key=lambda a: abs(int(a) - alvo)) if alvo else anos[-1]
+        if alvo:
+            print(f"[INFO] Sem estimativa para {alvo}; usando {periodo}, "
+                  f"a mais próxima disponível.")
+
+    print(f"[GET] população municipal de {periodo}")
+    try:
+        dados = baixar(periodo)
     except Exception as e:                          # noqa: BLE001
         sys.exit(f"[ERRO] IBGE não respondeu: {type(e).__name__}: {e}")
 
@@ -73,13 +123,23 @@ def main():
         sys.exit(f"[ERRO] só {len(populacao)} municípios com população — "
                  f"esperados ~5.570. Resposta incompleta, não gravando.")
 
+    defasagem = abs(int(ano) - censo) if censo else None
+    if defasagem == 0:
+        nota = (f"População e Censo são do mesmo ano ({ano}): a razão entre "
+                f"matrículas e habitantes compara dois retratos do mesmo "
+                f"momento.")
+    else:
+        nota = (f"A população é de {ano} e o Censo da Educação Superior é de "
+                f"{censo}. Toda razão entre os dois mistura dois momentos; a "
+                f"diferença é pequena para comparação entre municípios, mas "
+                f"não é zero.")
+
     saida = {
         "_fonte": "IBGE — Estimativas de População (agregado 6579, variável 9324)",
-        "_nota": ("A população é de {ano} e o Censo da Educação Superior é de "
-                  "outro ano. Toda razão entre os dois mistura dois momentos; a "
-                  "diferença é pequena para comparação entre municípios, mas não "
-                  "é zero.").format(ano=ano),
+        "_nota": nota,
         "ano": ano,
+        "ano_censo_alvo": censo,
+        "defasagem_anos": defasagem,
         "municipios": populacao,
     }
     destino = DATA / "populacao_municipios.json"
@@ -87,6 +147,8 @@ def main():
                        encoding="utf-8")
     print(f"[OK] {destino.relative_to(REPO)} — {len(populacao)} municípios, "
           f"estimativa {ano}"
+          + (f" (mesmo ano do Censo)" if defasagem == 0
+             else f" · {defasagem} ano(s) do Censo {censo}")
           + (f" · {ignorados} sem valor" if ignorados else ""))
 
 
