@@ -35,7 +35,14 @@
       {% for e in endpoints %}
       <tr>
         <th class="t-forte" scope="row">
+          {# Endpoint com marcador (`<slug>`) é MODELO, não endereço: linká-lo
+             produz um 404 por construção, porque o caminho literal não existe.
+             Só os endereços concretos viram link. #}
+          {% if e.modelo %}
+          <code>/{{ e.caminho }}</code>
+          {% else %}
           <a href="{{ depth }}{{ e.caminho }}"><code>/{{ e.caminho }}</code></a>
+          {% endif %}
         </th>
         <td>{{ e.descricao }}</td>
         <td>{{ e.tamanho }}</td>

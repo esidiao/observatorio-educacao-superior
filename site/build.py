@@ -1663,15 +1663,24 @@ def main():
                   "series": series_ies},
                  "Série histórica por instituição, por edição do Censo")
 
+    # `modelo` marca o endpoint que traz marcador no lugar do valor: o caminho
+    # literal não existe no disco, então a página o mostra como código e NÃO
+    # como link — linká-lo seria publicar um 404 por construção.
+    #
+    # O marcador vai sem escape: quem escapa é o Jinja, na hora de renderizar.
+    # Guardar `&lt;slug&gt;` no dado faz o escape acontecer duas vezes e vaza
+    # entidade HTML para dentro do href.
     endpoints.append({
-        "caminho": "api/v1/curso/&lt;slug&gt;.json",
+        "caminho": "api/v1/curso/<slug>.json",
         "descricao": "Indicadores completos de um curso, por UF",
         "tamanho": "varia",
+        "modelo": True,
     })
     endpoints.append({
-        "caminho": "api/v1/curso/&lt;slug&gt;/serie.json",
+        "caminho": "api/v1/curso/<slug>/serie.json",
         "descricao": "Série histórica do curso, por edição do Censo",
         "tamanho": "varia",
+        "modelo": True,
     })
     for entrada in catalogo:
         origem = DATA / "cursos" / entrada["slug"] / "nacional.json"
