@@ -2,11 +2,11 @@
   "obra": "Observatório Nacional da Educação Superior",
   "autor": "Edson Sidião de Souza Júnior",
   "tipo": "Registro de Anterioridade e Integridade (prova de existência)",
-  "selado_em_utc": "2026-09-01T18:41:07+00:00",
+  "selado_em_utc": "2026-09-12T15:42:50+00:00",
   "algoritmo": "SHA-256",
-  "n_arquivos": 74,
-  "hash_raiz": "9a46855b27e559cba8cec2675ff612f3ff2ed35ff45a5a414616f1dcfc82e293",
-  "git_commit_ancora": "19518886ed2994b1dc740d0201841c8efe2a3993",
+  "n_arquivos": 75,
+  "hash_raiz": "200be3da6867aeb93bdea898d5a65d4500caf1985f2996bfd76ae83f16a8edbd",
+  "git_commit_ancora": "f97a696a7f278f28df90ec3a9a167e92b4e5c743",
   "fundamento": "Lei 9.610/1998 e Lei 9.609/1998. O hash-raiz é impressão digital única do conjunto; o commit Git ancora a data de forma imutável.",
   "como_verificar": [
     "1. Baixe os arquivos listados em 'arquivos'.",
@@ -131,7 +131,7 @@
     },
     {
       "caminho": "site/build.py",
-      "sha256": "811667835a49a97f874dc08af14359ecb4d6cd5c86b287c11cfb25a865439ce9"
+      "sha256": "4059f95646c586ccd1b5cded1786b9b58ab9e7fe054235bce251b1778e81b47b"
     },
     {
       "caminho": "site/graficos.py",
@@ -211,7 +211,7 @@
     },
     {
       "caminho": "site/templates/api.html.j2",
-      "sha256": "bfeb4e5f594a0cf2b99cf71b8807730a7502096614a5d41871348be5a5621d2c"
+      "sha256": "35ad4852c3181948314dcd6f360ae63cd1e043509aae21fa580e965eb0a385c0"
     },
     {
       "caminho": "site/templates/autor.html.j2",
@@ -287,7 +287,7 @@
     },
     {
       "caminho": "site/templates/uf-perfil.html.j2",
-      "sha256": "02a6a7239d4830189fd07b30a9db26300127ff2c84e1bbbed8de29d4c2bcff2b"
+      "sha256": "4960b336d255cfbdc0f7d308fe39e10e31e07b49c4a3ef0f68534675e3ccc2e6"
     },
     {
       "caminho": "site/templates/uf.html.j2",
@@ -296,6 +296,10 @@
     {
       "caminho": "tests/test_catalogo.py",
       "sha256": "1490724e030d6fbbe665065de7bd7e0da62a60020e334c3fefe53877e0246830"
+    },
+    {
+      "caminho": "tests/test_links.py",
+      "sha256": "495eb113c59f35b97c3fa8913cecc50cb58cdadcda35a49aecd88884388ae793"
     },
     {
       "caminho": "tests/test_seguranca.py",
